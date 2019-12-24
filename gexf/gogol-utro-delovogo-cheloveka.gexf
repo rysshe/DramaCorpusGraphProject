@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гоголь, Николай Васильевич: Утро делового человека</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="ivan_petrovich" label="Иван Петрович">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="741"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lakej" label="Лакей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="aleksandr_ivanovich" label="Александр Иванович">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="531"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shrejder" label="Шрейдер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="55"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="katerina_aleksandrovna" label="Катерина Александровна, жена Ивана Петровича">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="ivan_petrovich|lakej" source="ivan_petrovich" target="lakej" weight="1"/>
+            <edge id="ivan_petrovich|aleksandr_ivanovich" source="ivan_petrovich" target="aleksandr_ivanovich" weight="3"/>
+            <edge id="ivan_petrovich|shrejder" source="ivan_petrovich" target="shrejder" weight="1"/>
+            <edge id="ivan_petrovich|katerina_aleksandrovna" source="ivan_petrovich" target="katerina_aleksandrovna" weight="1"/>
+            <edge id="aleksandr_ivanovich|katerina_aleksandrovna" source="aleksandr_ivanovich" target="katerina_aleksandrovna" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

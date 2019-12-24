@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Свои люди – сочтемся</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="lipochka" label="Липочка (Олимпиада Самсоновна)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2028"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="agrafena_kondratevna" label="Аграфена Кондратьевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1834"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fominishna" label="Фоминишна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="579"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ustinja_naumovna" label="Устинья Наумовна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1946"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rispolozhenskij" label="Рисположенский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1790"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bolshov" label="Большов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3287"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="podhaljuzin" label="Подхалюзин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4309"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tishka" label="Тишка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="361"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="lipochka|agrafena_kondratevna" source="lipochka" target="agrafena_kondratevna" weight="10"/>
+            <edge id="lipochka|fominishna" source="lipochka" target="fominishna" weight="5"/>
+            <edge id="lipochka|ustinja_naumovna" source="lipochka" target="ustinja_naumovna" weight="7"/>
+            <edge id="lipochka|bolshov" source="lipochka" target="bolshov" weight="5"/>
+            <edge id="lipochka|tishka" source="lipochka" target="tishka" weight="2"/>
+            <edge id="lipochka|rispolozhenskij" source="lipochka" target="rispolozhenskij" weight="1"/>
+            <edge id="lipochka|podhaljuzin" source="lipochka" target="podhaljuzin" weight="7"/>
+            <edge id="agrafena_kondratevna|fominishna" source="agrafena_kondratevna" target="fominishna" weight="6"/>
+            <edge id="agrafena_kondratevna|ustinja_naumovna" source="agrafena_kondratevna" target="ustinja_naumovna" weight="10"/>
+            <edge id="agrafena_kondratevna|rispolozhenskij" source="agrafena_kondratevna" target="rispolozhenskij" weight="5"/>
+            <edge id="agrafena_kondratevna|bolshov" source="agrafena_kondratevna" target="bolshov" weight="9"/>
+            <edge id="agrafena_kondratevna|tishka" source="agrafena_kondratevna" target="tishka" weight="3"/>
+            <edge id="agrafena_kondratevna|podhaljuzin" source="agrafena_kondratevna" target="podhaljuzin" weight="5"/>
+            <edge id="fominishna|ustinja_naumovna" source="fominishna" target="ustinja_naumovna" weight="4"/>
+            <edge id="fominishna|podhaljuzin" source="fominishna" target="podhaljuzin" weight="3"/>
+            <edge id="fominishna|rispolozhenskij" source="fominishna" target="rispolozhenskij" weight="2"/>
+            <edge id="fominishna|tishka" source="fominishna" target="tishka" weight="1"/>
+            <edge id="fominishna|bolshov" source="fominishna" target="bolshov" weight="4"/>
+            <edge id="ustinja_naumovna|rispolozhenskij" source="ustinja_naumovna" target="rispolozhenskij" weight="5"/>
+            <edge id="ustinja_naumovna|bolshov" source="ustinja_naumovna" target="bolshov" weight="5"/>
+            <edge id="ustinja_naumovna|podhaljuzin" source="ustinja_naumovna" target="podhaljuzin" weight="6"/>
+            <edge id="ustinja_naumovna|tishka" source="ustinja_naumovna" target="tishka" weight="1"/>
+            <edge id="rispolozhenskij|bolshov" source="rispolozhenskij" target="bolshov" weight="5"/>
+            <edge id="rispolozhenskij|podhaljuzin" source="rispolozhenskij" target="podhaljuzin" weight="6"/>
+            <edge id="rispolozhenskij|tishka" source="rispolozhenskij" target="tishka" weight="1"/>
+            <edge id="bolshov|podhaljuzin" source="bolshov" target="podhaljuzin" weight="7"/>
+            <edge id="bolshov|tishka" source="bolshov" target="tishka" weight="2"/>
+            <edge id="podhaljuzin|tishka" source="podhaljuzin" target="tishka" weight="4"/>
+        </edges>
+    </graph>
+</gexf>

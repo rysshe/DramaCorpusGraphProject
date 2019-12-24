@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Пушкин, Александр Сергеевич: Каменный гость</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="don_guan" label="Дон Гуан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1536"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="leporello" label="Лепорелло">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="366"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="monah" label="Монах">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="95"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dona_anna" label="Дона Анна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="594"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_gost" label="Первый гость">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="83"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_gost" label="Второй">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_gost" label="Третий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="laura" label="Лаура">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="365"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="don_karlos" label="Дон Карлос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="138"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gost" label="Гость">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="statuja" label="Статуя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="don_guan|leporello" source="don_guan" target="leporello" weight="4"/>
+            <edge id="don_guan|monah" source="don_guan" target="monah" weight="2"/>
+            <edge id="don_guan|dona_anna" source="don_guan" target="dona_anna" weight="4"/>
+            <edge id="don_guan|laura" source="don_guan" target="laura" weight="1"/>
+            <edge id="don_guan|don_karlos" source="don_guan" target="don_karlos" weight="1"/>
+            <edge id="don_guan|statuja" source="don_guan" target="statuja" weight="1"/>
+            <edge id="leporello|monah" source="leporello" target="monah" weight="2"/>
+            <edge id="leporello|dona_anna" source="leporello" target="dona_anna" weight="1"/>
+            <edge id="monah|dona_anna" source="monah" target="dona_anna" weight="1"/>
+            <edge id="dona_anna|statuja" source="dona_anna" target="statuja" weight="1"/>
+            <edge id="pervyj_gost|vtoroj_gost" source="pervyj_gost" target="vtoroj_gost" weight="1"/>
+            <edge id="pervyj_gost|tretij_gost" source="pervyj_gost" target="tretij_gost" weight="1"/>
+            <edge id="pervyj_gost|laura" source="pervyj_gost" target="laura" weight="1"/>
+            <edge id="pervyj_gost|don_karlos" source="pervyj_gost" target="don_karlos" weight="1"/>
+            <edge id="pervyj_gost|gost" source="pervyj_gost" target="gost" weight="1"/>
+            <edge id="vtoroj_gost|tretij_gost" source="vtoroj_gost" target="tretij_gost" weight="1"/>
+            <edge id="vtoroj_gost|laura" source="vtoroj_gost" target="laura" weight="1"/>
+            <edge id="vtoroj_gost|don_karlos" source="vtoroj_gost" target="don_karlos" weight="1"/>
+            <edge id="vtoroj_gost|gost" source="vtoroj_gost" target="gost" weight="1"/>
+            <edge id="tretij_gost|laura" source="tretij_gost" target="laura" weight="1"/>
+            <edge id="tretij_gost|don_karlos" source="tretij_gost" target="don_karlos" weight="1"/>
+            <edge id="tretij_gost|gost" source="tretij_gost" target="gost" weight="1"/>
+            <edge id="laura|don_karlos" source="laura" target="don_karlos" weight="3"/>
+            <edge id="laura|gost" source="laura" target="gost" weight="1"/>
+            <edge id="don_karlos|gost" source="don_karlos" target="gost" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

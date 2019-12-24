@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Княжнин, Яков Борисович: Чудаки</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="prolaz" label="Пролаз">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3818"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lentjagin" label="Лентягин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2294"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lentjagina" label="Лентягина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2007"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lakej" label="Лакей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marina" label="Марина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="867"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vysonos" label="Высонос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1721"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ulinka" label="Улинька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="432"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vetromah" label="Ветромах">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1756"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="trusim" label="Трусим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="922"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prijat" label="Прият">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="384"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="major" label="Майор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="503"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sudja" label="Судья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="721"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="trompetin" label="Тромпетин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="398"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="svirelkin" label="Свирелкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="530"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="prolaz|lentjagin" source="prolaz" target="lentjagin" weight="10"/>
+            <edge id="prolaz|lentjagina" source="prolaz" target="lentjagina" weight="7"/>
+            <edge id="prolaz|marina" source="prolaz" target="marina" weight="4"/>
+            <edge id="prolaz|vysonos" source="prolaz" target="vysonos" weight="4"/>
+            <edge id="prolaz|prijat" source="prolaz" target="prijat" weight="5"/>
+            <edge id="prolaz|vetromah" source="prolaz" target="vetromah" weight="7"/>
+            <edge id="prolaz|major" source="prolaz" target="major" weight="2"/>
+            <edge id="prolaz|trusim" source="prolaz" target="trusim" weight="2"/>
+            <edge id="prolaz|sudja" source="prolaz" target="sudja" weight="2"/>
+            <edge id="prolaz|ulinka" source="prolaz" target="ulinka" weight="1"/>
+            <edge id="prolaz|trompetin" source="prolaz" target="trompetin" weight="1"/>
+            <edge id="prolaz|svirelkin" source="prolaz" target="svirelkin" weight="1"/>
+            <edge id="lentjagin|lentjagina" source="lentjagin" target="lentjagina" weight="9"/>
+            <edge id="lentjagin|lakej" source="lentjagin" target="lakej" weight="1"/>
+            <edge id="lentjagin|vetromah" source="lentjagin" target="vetromah" weight="7"/>
+            <edge id="lentjagin|trusim" source="lentjagin" target="trusim" weight="5"/>
+            <edge id="lentjagin|major" source="lentjagin" target="major" weight="3"/>
+            <edge id="lentjagin|sudja" source="lentjagin" target="sudja" weight="2"/>
+            <edge id="lentjagin|trompetin" source="lentjagin" target="trompetin" weight="2"/>
+            <edge id="lentjagin|svirelkin" source="lentjagin" target="svirelkin" weight="2"/>
+            <edge id="lentjagin|vysonos" source="lentjagin" target="vysonos" weight="1"/>
+            <edge id="lentjagin|prijat" source="lentjagin" target="prijat" weight="1"/>
+            <edge id="lentjagina|lakej" source="lentjagina" target="lakej" weight="1"/>
+            <edge id="lentjagina|vetromah" source="lentjagina" target="vetromah" weight="10"/>
+            <edge id="lentjagina|ulinka" source="lentjagina" target="ulinka" weight="2"/>
+            <edge id="lentjagina|trusim" source="lentjagina" target="trusim" weight="6"/>
+            <edge id="lentjagina|major" source="lentjagina" target="major" weight="4"/>
+            <edge id="lentjagina|sudja" source="lentjagina" target="sudja" weight="3"/>
+            <edge id="lentjagina|trompetin" source="lentjagina" target="trompetin" weight="5"/>
+            <edge id="lentjagina|svirelkin" source="lentjagina" target="svirelkin" weight="6"/>
+            <edge id="lentjagina|vysonos" source="lentjagina" target="vysonos" weight="1"/>
+            <edge id="lentjagina|prijat" source="lentjagina" target="prijat" weight="3"/>
+            <edge id="marina|vysonos" source="marina" target="vysonos" weight="2"/>
+            <edge id="marina|ulinka" source="marina" target="ulinka" weight="3"/>
+            <edge id="marina|prijat" source="marina" target="prijat" weight="1"/>
+            <edge id="vysonos|vetromah" source="vysonos" target="vetromah" weight="4"/>
+            <edge id="ulinka|vetromah" source="ulinka" target="vetromah" weight="2"/>
+            <edge id="ulinka|prijat" source="ulinka" target="prijat" weight="2"/>
+            <edge id="vetromah|trusim" source="vetromah" target="trusim" weight="3"/>
+            <edge id="vetromah|major" source="vetromah" target="major" weight="2"/>
+            <edge id="vetromah|svirelkin" source="vetromah" target="svirelkin" weight="3"/>
+            <edge id="vetromah|trompetin" source="vetromah" target="trompetin" weight="3"/>
+            <edge id="vetromah|sudja" source="vetromah" target="sudja" weight="2"/>
+            <edge id="vetromah|prijat" source="vetromah" target="prijat" weight="3"/>
+            <edge id="trusim|major" source="trusim" target="major" weight="4"/>
+            <edge id="trusim|sudja" source="trusim" target="sudja" weight="2"/>
+            <edge id="trusim|trompetin" source="trusim" target="trompetin" weight="2"/>
+            <edge id="trusim|svirelkin" source="trusim" target="svirelkin" weight="2"/>
+            <edge id="trusim|prijat" source="trusim" target="prijat" weight="1"/>
+            <edge id="prijat|sudja" source="prijat" target="sudja" weight="1"/>
+            <edge id="prijat|major" source="prijat" target="major" weight="1"/>
+            <edge id="prijat|trompetin" source="prijat" target="trompetin" weight="1"/>
+            <edge id="prijat|svirelkin" source="prijat" target="svirelkin" weight="1"/>
+            <edge id="major|sudja" source="major" target="sudja" weight="2"/>
+            <edge id="major|trompetin" source="major" target="trompetin" weight="2"/>
+            <edge id="major|svirelkin" source="major" target="svirelkin" weight="2"/>
+            <edge id="sudja|trompetin" source="sudja" target="trompetin" weight="3"/>
+            <edge id="sudja|svirelkin" source="sudja" target="svirelkin" weight="3"/>
+            <edge id="trompetin|svirelkin" source="trompetin" target="svirelkin" weight="5"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: За чем пойдешь, то и найдешь (Женитьба Бальзаминова)</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="balzaminova" label="Бальзаминова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1835"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="matrena" label="Матрена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="531"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="balzaminov" label="Бальзаминов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3500"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="krasavina" label="Красавина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2266"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="chebakov" label="Чебаков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="493"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="belotelova" label="Белотелова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="209"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="raisa" label="Раиса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="523"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="anfisa" label="Анфиса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="649"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="himka" label="Химка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="balzaminova|matrena" source="balzaminova" target="matrena" weight="4"/>
+            <edge id="balzaminova|balzaminov" source="balzaminova" target="balzaminov" weight="7"/>
+            <edge id="balzaminova|krasavina" source="balzaminova" target="krasavina" weight="3"/>
+            <edge id="balzaminova|chebakov" source="balzaminova" target="chebakov" weight="2"/>
+            <edge id="matrena|balzaminov" source="matrena" target="balzaminov" weight="4"/>
+            <edge id="matrena|krasavina" source="matrena" target="krasavina" weight="2"/>
+            <edge id="matrena|chebakov" source="matrena" target="chebakov" weight="2"/>
+            <edge id="balzaminov|krasavina" source="balzaminov" target="krasavina" weight="7"/>
+            <edge id="balzaminov|chebakov" source="balzaminov" target="chebakov" weight="6"/>
+            <edge id="balzaminov|anfisa" source="balzaminov" target="anfisa" weight="1"/>
+            <edge id="balzaminov|raisa" source="balzaminov" target="raisa" weight="3"/>
+            <edge id="balzaminov|himka" source="balzaminov" target="himka" weight="2"/>
+            <edge id="balzaminov|belotelova" source="balzaminov" target="belotelova" weight="2"/>
+            <edge id="krasavina|chebakov" source="krasavina" target="chebakov" weight="1"/>
+            <edge id="krasavina|belotelova" source="krasavina" target="belotelova" weight="3"/>
+            <edge id="krasavina|raisa" source="krasavina" target="raisa" weight="1"/>
+            <edge id="belotelova|raisa" source="belotelova" target="raisa" weight="1"/>
+            <edge id="raisa|anfisa" source="raisa" target="anfisa" weight="3"/>
+            <edge id="raisa|himka" source="raisa" target="himka" weight="3"/>
+            <edge id="anfisa|himka" source="anfisa" target="himka" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

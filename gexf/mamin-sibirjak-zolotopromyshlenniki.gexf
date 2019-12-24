@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Мамин-Сибиряк, Дмитрий Наркисович: Золотопромышленники</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="belonosov" label="Белоносов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1761"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shirinkin" label="Ширинкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1658"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="anisja_tihonovna" label="Анисья Тихоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3064"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vorotov" label="Воротов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1315"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="molokov" label="Молоков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2125"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marfa_lukinishna" label="Марфа Лукинишна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="835"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zasypkin" label="Засыпкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3209"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mosevna" label="Мосевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="777"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lena" label="Лена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="835"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dasha" label="Даша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="50"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="cheprakov" label="Чепраков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="236"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="belonosov|shirinkin" source="belonosov" target="shirinkin" weight="6"/>
+            <edge id="belonosov|anisja_tihonovna" source="belonosov" target="anisja_tihonovna" weight="10"/>
+            <edge id="belonosov|vorotov" source="belonosov" target="vorotov" weight="3"/>
+            <edge id="belonosov|molokov" source="belonosov" target="molokov" weight="10"/>
+            <edge id="belonosov|marfa_lukinishna" source="belonosov" target="marfa_lukinishna" weight="5"/>
+            <edge id="belonosov|zasypkin" source="belonosov" target="zasypkin" weight="5"/>
+            <edge id="belonosov|cheprakov" source="belonosov" target="cheprakov" weight="6"/>
+            <edge id="belonosov|mosevna" source="belonosov" target="mosevna" weight="2"/>
+            <edge id="shirinkin|anisja_tihonovna" source="shirinkin" target="anisja_tihonovna" weight="6"/>
+            <edge id="shirinkin|vorotov" source="shirinkin" target="vorotov" weight="5"/>
+            <edge id="shirinkin|molokov" source="shirinkin" target="molokov" weight="2"/>
+            <edge id="shirinkin|marfa_lukinishna" source="shirinkin" target="marfa_lukinishna" weight="2"/>
+            <edge id="shirinkin|mosevna" source="shirinkin" target="mosevna" weight="2"/>
+            <edge id="shirinkin|lena" source="shirinkin" target="lena" weight="4"/>
+            <edge id="shirinkin|zasypkin" source="shirinkin" target="zasypkin" weight="3"/>
+            <edge id="anisja_tihonovna|vorotov" source="anisja_tihonovna" target="vorotov" weight="14"/>
+            <edge id="anisja_tihonovna|zasypkin" source="anisja_tihonovna" target="zasypkin" weight="10"/>
+            <edge id="anisja_tihonovna|molokov" source="anisja_tihonovna" target="molokov" weight="6"/>
+            <edge id="anisja_tihonovna|lena" source="anisja_tihonovna" target="lena" weight="4"/>
+            <edge id="anisja_tihonovna|dasha" source="anisja_tihonovna" target="dasha" weight="2"/>
+            <edge id="anisja_tihonovna|cheprakov" source="anisja_tihonovna" target="cheprakov" weight="3"/>
+            <edge id="anisja_tihonovna|mosevna" source="anisja_tihonovna" target="mosevna" weight="1"/>
+            <edge id="anisja_tihonovna|marfa_lukinishna" source="anisja_tihonovna" target="marfa_lukinishna" weight="1"/>
+            <edge id="vorotov|lena" source="vorotov" target="lena" weight="4"/>
+            <edge id="vorotov|zasypkin" source="vorotov" target="zasypkin" weight="5"/>
+            <edge id="vorotov|molokov" source="vorotov" target="molokov" weight="2"/>
+            <edge id="vorotov|mosevna" source="vorotov" target="mosevna" weight="1"/>
+            <edge id="vorotov|marfa_lukinishna" source="vorotov" target="marfa_lukinishna" weight="1"/>
+            <edge id="molokov|marfa_lukinishna" source="molokov" target="marfa_lukinishna" weight="3"/>
+            <edge id="molokov|zasypkin" source="molokov" target="zasypkin" weight="7"/>
+            <edge id="molokov|mosevna" source="molokov" target="mosevna" weight="1"/>
+            <edge id="molokov|cheprakov" source="molokov" target="cheprakov" weight="3"/>
+            <edge id="marfa_lukinishna|mosevna" source="marfa_lukinishna" target="mosevna" weight="2"/>
+            <edge id="marfa_lukinishna|cheprakov" source="marfa_lukinishna" target="cheprakov" weight="2"/>
+            <edge id="marfa_lukinishna|zasypkin" source="marfa_lukinishna" target="zasypkin" weight="1"/>
+            <edge id="zasypkin|cheprakov" source="zasypkin" target="cheprakov" weight="4"/>
+            <edge id="zasypkin|mosevna" source="zasypkin" target="mosevna" weight="2"/>
+            <edge id="zasypkin|lena" source="zasypkin" target="lena" weight="3"/>
+            <edge id="mosevna|lena" source="mosevna" target="lena" weight="2"/>
+            <edge id="mosevna|cheprakov" source="mosevna" target="cheprakov" weight="1"/>
+            <edge id="lena|dasha" source="lena" target="dasha" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

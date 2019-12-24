@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Пушкин, Александр Сергеевич: Русалка</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="melnik" label="Мельник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="651"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="doch_rusalka" label="Дочь (Русалка)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="785"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaz" label="Князь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="630"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="svat" label="Сват">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="77"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hor" label="Хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_golos" label="Один голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="42"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="devushki" label="Девушки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="konjushij" label="Конюший">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gost" label="Гость">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="druzhko" label="Дружко">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="svaha" label="Сваха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaginja" label="Княгиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="160"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mamka" label="Мамка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="92"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lovchij" label="Ловчий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rusalki" label="Русалки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="70"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="odna" label="Одна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="drugaja" label="Другая">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rusalochka" label="Дочь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="61"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="melnik|doch_rusalka" source="melnik" target="doch_rusalka" weight="1"/>
+            <edge id="melnik|knjaz" source="melnik" target="knjaz" weight="2"/>
+            <edge id="melnik|rusalki" source="melnik" target="rusalki" weight="1"/>
+            <edge id="melnik|odna" source="melnik" target="odna" weight="1"/>
+            <edge id="melnik|drugaja" source="melnik" target="drugaja" weight="1"/>
+            <edge id="melnik|lovchij" source="melnik" target="lovchij" weight="1"/>
+            <edge id="doch_rusalka|knjaz" source="doch_rusalka" target="knjaz" weight="1"/>
+            <edge id="doch_rusalka|rusalochka" source="doch_rusalka" target="rusalochka" weight="1"/>
+            <edge id="knjaz|svat" source="knjaz" target="svat" weight="1"/>
+            <edge id="knjaz|hor" source="knjaz" target="hor" weight="1"/>
+            <edge id="knjaz|odin_golos" source="knjaz" target="odin_golos" weight="1"/>
+            <edge id="knjaz|devushki" source="knjaz" target="devushki" weight="1"/>
+            <edge id="knjaz|konjushij" source="knjaz" target="konjushij" weight="1"/>
+            <edge id="knjaz|gost" source="knjaz" target="gost" weight="1"/>
+            <edge id="knjaz|druzhko" source="knjaz" target="druzhko" weight="1"/>
+            <edge id="knjaz|svaha" source="knjaz" target="svaha" weight="1"/>
+            <edge id="knjaz|rusalki" source="knjaz" target="rusalki" weight="1"/>
+            <edge id="knjaz|odna" source="knjaz" target="odna" weight="1"/>
+            <edge id="knjaz|drugaja" source="knjaz" target="drugaja" weight="1"/>
+            <edge id="knjaz|lovchij" source="knjaz" target="lovchij" weight="1"/>
+            <edge id="svat|hor" source="svat" target="hor" weight="1"/>
+            <edge id="svat|odin_golos" source="svat" target="odin_golos" weight="1"/>
+            <edge id="svat|devushki" source="svat" target="devushki" weight="1"/>
+            <edge id="svat|konjushij" source="svat" target="konjushij" weight="1"/>
+            <edge id="svat|gost" source="svat" target="gost" weight="1"/>
+            <edge id="svat|druzhko" source="svat" target="druzhko" weight="1"/>
+            <edge id="svat|svaha" source="svat" target="svaha" weight="1"/>
+            <edge id="hor|odin_golos" source="hor" target="odin_golos" weight="1"/>
+            <edge id="hor|devushki" source="hor" target="devushki" weight="1"/>
+            <edge id="hor|konjushij" source="hor" target="konjushij" weight="1"/>
+            <edge id="hor|gost" source="hor" target="gost" weight="1"/>
+            <edge id="hor|druzhko" source="hor" target="druzhko" weight="1"/>
+            <edge id="hor|svaha" source="hor" target="svaha" weight="1"/>
+            <edge id="odin_golos|devushki" source="odin_golos" target="devushki" weight="1"/>
+            <edge id="odin_golos|konjushij" source="odin_golos" target="konjushij" weight="1"/>
+            <edge id="odin_golos|gost" source="odin_golos" target="gost" weight="1"/>
+            <edge id="odin_golos|druzhko" source="odin_golos" target="druzhko" weight="1"/>
+            <edge id="odin_golos|svaha" source="odin_golos" target="svaha" weight="1"/>
+            <edge id="devushki|konjushij" source="devushki" target="konjushij" weight="1"/>
+            <edge id="devushki|gost" source="devushki" target="gost" weight="1"/>
+            <edge id="devushki|druzhko" source="devushki" target="druzhko" weight="1"/>
+            <edge id="devushki|svaha" source="devushki" target="svaha" weight="1"/>
+            <edge id="konjushij|gost" source="konjushij" target="gost" weight="1"/>
+            <edge id="konjushij|druzhko" source="konjushij" target="druzhko" weight="1"/>
+            <edge id="konjushij|svaha" source="konjushij" target="svaha" weight="1"/>
+            <edge id="gost|druzhko" source="gost" target="druzhko" weight="1"/>
+            <edge id="gost|svaha" source="gost" target="svaha" weight="1"/>
+            <edge id="druzhko|svaha" source="druzhko" target="svaha" weight="1"/>
+            <edge id="knjaginja|mamka" source="knjaginja" target="mamka" weight="1"/>
+            <edge id="knjaginja|lovchij" source="knjaginja" target="lovchij" weight="1"/>
+            <edge id="mamka|lovchij" source="mamka" target="lovchij" weight="1"/>
+            <edge id="lovchij|rusalki" source="lovchij" target="rusalki" weight="1"/>
+            <edge id="lovchij|odna" source="lovchij" target="odna" weight="1"/>
+            <edge id="lovchij|drugaja" source="lovchij" target="drugaja" weight="1"/>
+            <edge id="rusalki|odna" source="rusalki" target="odna" weight="1"/>
+            <edge id="rusalki|drugaja" source="rusalki" target="drugaja" weight="1"/>
+            <edge id="odna|drugaja" source="odna" target="drugaja" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

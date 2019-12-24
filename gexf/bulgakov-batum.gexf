@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Булгаков, Михаил Афанасьевич: Батум</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="rektor" label="Ректор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="266"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stalin" label="Сталин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2666"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="inspektor" label="Инспектор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odnoklassnik" label="Одноклассник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="234"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="varsonofij" label="Варсонофий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="110"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="natasha" label="Наташа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="356"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="silvestr" label="Сильвестр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="271"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="porfirij" label="Порфирий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="871"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="miha" label="Миха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="208"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="teofil" label="Теофил">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kandelaki" label="Канделаки">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="273"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kote" label="Котэ">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="klimov" label="Климов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="113"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hirimjants" label="Хиримьянц">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="todrija" label="Тодрия">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prikazchik" label="Приказчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="50"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="adjutant" label="Адъютант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="169"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gubernator" label="Губернатор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1522"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="trejnits" label="Трейниц">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="780"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vanshejdt" label="Ваншейдт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="223"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kjakiva" label="Кякива">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="140"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gerontij" label="Геронтий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="124"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="politsejmejster" label="Полицеймейстер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="92"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gorodovoj" label="Городовой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="okolotochnyj" label="Околоточный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="darispan" label="Дариспан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="48"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="redzheb" label="Реджеб">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="312"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vano" label="Вано">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="52"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_nadziratel" label="Первый надзиратель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="71"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ugolovnyj" label="Уголовный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="251"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_nadziratel" label="Второй надзиратель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nachalnik_tjurmy" label="Начальник тюрьмы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ugolovnye" label="Уголовные">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nikolaj" label="Николай">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="438"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fligel-adjutant" label="Флигель-адъютант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ministr" label="Министр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="254"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="rektor|stalin" source="rektor" target="stalin" weight="1"/>
+            <edge id="rektor|inspektor" source="rektor" target="inspektor" weight="1"/>
+            <edge id="rektor|odnoklassnik" source="rektor" target="odnoklassnik" weight="1"/>
+            <edge id="rektor|varsonofij" source="rektor" target="varsonofij" weight="1"/>
+            <edge id="stalin|inspektor" source="stalin" target="inspektor" weight="1"/>
+            <edge id="stalin|odnoklassnik" source="stalin" target="odnoklassnik" weight="1"/>
+            <edge id="stalin|varsonofij" source="stalin" target="varsonofij" weight="1"/>
+            <edge id="stalin|natasha" source="stalin" target="natasha" weight="5"/>
+            <edge id="stalin|silvestr" source="stalin" target="silvestr" weight="4"/>
+            <edge id="stalin|porfirij" source="stalin" target="porfirij" weight="4"/>
+            <edge id="stalin|miha" source="stalin" target="miha" weight="3"/>
+            <edge id="stalin|teofil" source="stalin" target="teofil" weight="3"/>
+            <edge id="stalin|kandelaki" source="stalin" target="kandelaki" weight="4"/>
+            <edge id="stalin|kote" source="stalin" target="kote" weight="1"/>
+            <edge id="stalin|klimov" source="stalin" target="klimov" weight="2"/>
+            <edge id="stalin|hirimjants" source="stalin" target="hirimjants" weight="2"/>
+            <edge id="stalin|todrija" source="stalin" target="todrija" weight="1"/>
+            <edge id="stalin|prikazchik" source="stalin" target="prikazchik" weight="1"/>
+            <edge id="stalin|trejnits" source="stalin" target="trejnits" weight="3"/>
+            <edge id="stalin|politsejmejster" source="stalin" target="politsejmejster" weight="2"/>
+            <edge id="stalin|kjakiva" source="stalin" target="kjakiva" weight="2"/>
+            <edge id="stalin|gorodovoj" source="stalin" target="gorodovoj" weight="2"/>
+            <edge id="stalin|gubernator" source="stalin" target="gubernator" weight="2"/>
+            <edge id="stalin|gerontij" source="stalin" target="gerontij" weight="1"/>
+            <edge id="stalin|okolotochnyj" source="stalin" target="okolotochnyj" weight="2"/>
+            <edge id="stalin|darispan" source="stalin" target="darispan" weight="1"/>
+            <edge id="stalin|redzheb" source="stalin" target="redzheb" weight="1"/>
+            <edge id="stalin|vano" source="stalin" target="vano" weight="1"/>
+            <edge id="stalin|pervyj_nadziratel" source="stalin" target="pervyj_nadziratel" weight="1"/>
+            <edge id="stalin|ugolovnyj" source="stalin" target="ugolovnyj" weight="1"/>
+            <edge id="stalin|vtoroj_nadziratel" source="stalin" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="stalin|nachalnik_tjurmy" source="stalin" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="stalin|ugolovnye" source="stalin" target="ugolovnye" weight="1"/>
+            <edge id="stalin|adjutant" source="stalin" target="adjutant" weight="1"/>
+            <edge id="inspektor|odnoklassnik" source="inspektor" target="odnoklassnik" weight="1"/>
+            <edge id="inspektor|varsonofij" source="inspektor" target="varsonofij" weight="1"/>
+            <edge id="odnoklassnik|varsonofij" source="odnoklassnik" target="varsonofij" weight="1"/>
+            <edge id="natasha|silvestr" source="natasha" target="silvestr" weight="4"/>
+            <edge id="natasha|porfirij" source="natasha" target="porfirij" weight="4"/>
+            <edge id="natasha|miha" source="natasha" target="miha" weight="3"/>
+            <edge id="natasha|teofil" source="natasha" target="teofil" weight="3"/>
+            <edge id="natasha|kandelaki" source="natasha" target="kandelaki" weight="3"/>
+            <edge id="natasha|kote" source="natasha" target="kote" weight="1"/>
+            <edge id="natasha|klimov" source="natasha" target="klimov" weight="2"/>
+            <edge id="natasha|hirimjants" source="natasha" target="hirimjants" weight="2"/>
+            <edge id="natasha|todrija" source="natasha" target="todrija" weight="1"/>
+            <edge id="natasha|prikazchik" source="natasha" target="prikazchik" weight="1"/>
+            <edge id="natasha|trejnits" source="natasha" target="trejnits" weight="2"/>
+            <edge id="natasha|politsejmejster" source="natasha" target="politsejmejster" weight="1"/>
+            <edge id="natasha|kjakiva" source="natasha" target="kjakiva" weight="1"/>
+            <edge id="natasha|gorodovoj" source="natasha" target="gorodovoj" weight="1"/>
+            <edge id="natasha|gubernator" source="natasha" target="gubernator" weight="2"/>
+            <edge id="natasha|gerontij" source="natasha" target="gerontij" weight="1"/>
+            <edge id="natasha|okolotochnyj" source="natasha" target="okolotochnyj" weight="1"/>
+            <edge id="natasha|pervyj_nadziratel" source="natasha" target="pervyj_nadziratel" weight="1"/>
+            <edge id="natasha|ugolovnyj" source="natasha" target="ugolovnyj" weight="1"/>
+            <edge id="natasha|vtoroj_nadziratel" source="natasha" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="natasha|nachalnik_tjurmy" source="natasha" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="natasha|ugolovnye" source="natasha" target="ugolovnye" weight="1"/>
+            <edge id="natasha|adjutant" source="natasha" target="adjutant" weight="1"/>
+            <edge id="silvestr|porfirij" source="silvestr" target="porfirij" weight="4"/>
+            <edge id="silvestr|miha" source="silvestr" target="miha" weight="3"/>
+            <edge id="silvestr|teofil" source="silvestr" target="teofil" weight="3"/>
+            <edge id="silvestr|kandelaki" source="silvestr" target="kandelaki" weight="2"/>
+            <edge id="silvestr|kote" source="silvestr" target="kote" weight="1"/>
+            <edge id="silvestr|klimov" source="silvestr" target="klimov" weight="2"/>
+            <edge id="silvestr|hirimjants" source="silvestr" target="hirimjants" weight="2"/>
+            <edge id="silvestr|todrija" source="silvestr" target="todrija" weight="1"/>
+            <edge id="silvestr|prikazchik" source="silvestr" target="prikazchik" weight="1"/>
+            <edge id="silvestr|trejnits" source="silvestr" target="trejnits" weight="1"/>
+            <edge id="silvestr|politsejmejster" source="silvestr" target="politsejmejster" weight="1"/>
+            <edge id="silvestr|kjakiva" source="silvestr" target="kjakiva" weight="1"/>
+            <edge id="silvestr|gorodovoj" source="silvestr" target="gorodovoj" weight="1"/>
+            <edge id="silvestr|gubernator" source="silvestr" target="gubernator" weight="1"/>
+            <edge id="silvestr|gerontij" source="silvestr" target="gerontij" weight="1"/>
+            <edge id="silvestr|okolotochnyj" source="silvestr" target="okolotochnyj" weight="1"/>
+            <edge id="porfirij|miha" source="porfirij" target="miha" weight="3"/>
+            <edge id="porfirij|teofil" source="porfirij" target="teofil" weight="3"/>
+            <edge id="porfirij|kandelaki" source="porfirij" target="kandelaki" weight="2"/>
+            <edge id="porfirij|kote" source="porfirij" target="kote" weight="1"/>
+            <edge id="porfirij|klimov" source="porfirij" target="klimov" weight="3"/>
+            <edge id="porfirij|hirimjants" source="porfirij" target="hirimjants" weight="2"/>
+            <edge id="porfirij|todrija" source="porfirij" target="todrija" weight="1"/>
+            <edge id="porfirij|prikazchik" source="porfirij" target="prikazchik" weight="1"/>
+            <edge id="porfirij|gubernator" source="porfirij" target="gubernator" weight="2"/>
+            <edge id="porfirij|trejnits" source="porfirij" target="trejnits" weight="2"/>
+            <edge id="porfirij|kjakiva" source="porfirij" target="kjakiva" weight="2"/>
+            <edge id="porfirij|gerontij" source="porfirij" target="gerontij" weight="2"/>
+            <edge id="porfirij|politsejmejster" source="porfirij" target="politsejmejster" weight="2"/>
+            <edge id="porfirij|vanshejdt" source="porfirij" target="vanshejdt" weight="1"/>
+            <edge id="porfirij|gorodovoj" source="porfirij" target="gorodovoj" weight="1"/>
+            <edge id="porfirij|okolotochnyj" source="porfirij" target="okolotochnyj" weight="1"/>
+            <edge id="miha|teofil" source="miha" target="teofil" weight="3"/>
+            <edge id="miha|kandelaki" source="miha" target="kandelaki" weight="2"/>
+            <edge id="miha|kote" source="miha" target="kote" weight="1"/>
+            <edge id="miha|klimov" source="miha" target="klimov" weight="2"/>
+            <edge id="miha|hirimjants" source="miha" target="hirimjants" weight="2"/>
+            <edge id="miha|todrija" source="miha" target="todrija" weight="1"/>
+            <edge id="miha|prikazchik" source="miha" target="prikazchik" weight="1"/>
+            <edge id="miha|trejnits" source="miha" target="trejnits" weight="1"/>
+            <edge id="miha|politsejmejster" source="miha" target="politsejmejster" weight="1"/>
+            <edge id="miha|kjakiva" source="miha" target="kjakiva" weight="1"/>
+            <edge id="miha|gorodovoj" source="miha" target="gorodovoj" weight="1"/>
+            <edge id="miha|gubernator" source="miha" target="gubernator" weight="1"/>
+            <edge id="miha|gerontij" source="miha" target="gerontij" weight="1"/>
+            <edge id="miha|okolotochnyj" source="miha" target="okolotochnyj" weight="1"/>
+            <edge id="teofil|kandelaki" source="teofil" target="kandelaki" weight="2"/>
+            <edge id="teofil|kote" source="teofil" target="kote" weight="1"/>
+            <edge id="teofil|klimov" source="teofil" target="klimov" weight="2"/>
+            <edge id="teofil|hirimjants" source="teofil" target="hirimjants" weight="2"/>
+            <edge id="teofil|todrija" source="teofil" target="todrija" weight="1"/>
+            <edge id="teofil|prikazchik" source="teofil" target="prikazchik" weight="1"/>
+            <edge id="teofil|trejnits" source="teofil" target="trejnits" weight="1"/>
+            <edge id="teofil|politsejmejster" source="teofil" target="politsejmejster" weight="1"/>
+            <edge id="teofil|kjakiva" source="teofil" target="kjakiva" weight="1"/>
+            <edge id="teofil|gorodovoj" source="teofil" target="gorodovoj" weight="1"/>
+            <edge id="teofil|gubernator" source="teofil" target="gubernator" weight="1"/>
+            <edge id="teofil|gerontij" source="teofil" target="gerontij" weight="1"/>
+            <edge id="teofil|okolotochnyj" source="teofil" target="okolotochnyj" weight="1"/>
+            <edge id="kandelaki|kote" source="kandelaki" target="kote" weight="1"/>
+            <edge id="kandelaki|klimov" source="kandelaki" target="klimov" weight="1"/>
+            <edge id="kandelaki|hirimjants" source="kandelaki" target="hirimjants" weight="1"/>
+            <edge id="kandelaki|todrija" source="kandelaki" target="todrija" weight="1"/>
+            <edge id="kandelaki|prikazchik" source="kandelaki" target="prikazchik" weight="1"/>
+            <edge id="kandelaki|darispan" source="kandelaki" target="darispan" weight="1"/>
+            <edge id="kandelaki|redzheb" source="kandelaki" target="redzheb" weight="1"/>
+            <edge id="kandelaki|vano" source="kandelaki" target="vano" weight="1"/>
+            <edge id="kandelaki|politsejmejster" source="kandelaki" target="politsejmejster" weight="1"/>
+            <edge id="kandelaki|trejnits" source="kandelaki" target="trejnits" weight="2"/>
+            <edge id="kandelaki|okolotochnyj" source="kandelaki" target="okolotochnyj" weight="1"/>
+            <edge id="kandelaki|kjakiva" source="kandelaki" target="kjakiva" weight="1"/>
+            <edge id="kandelaki|gorodovoj" source="kandelaki" target="gorodovoj" weight="1"/>
+            <edge id="kandelaki|pervyj_nadziratel" source="kandelaki" target="pervyj_nadziratel" weight="1"/>
+            <edge id="kandelaki|ugolovnyj" source="kandelaki" target="ugolovnyj" weight="1"/>
+            <edge id="kandelaki|vtoroj_nadziratel" source="kandelaki" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="kandelaki|nachalnik_tjurmy" source="kandelaki" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="kandelaki|ugolovnye" source="kandelaki" target="ugolovnye" weight="1"/>
+            <edge id="kandelaki|gubernator" source="kandelaki" target="gubernator" weight="1"/>
+            <edge id="kandelaki|adjutant" source="kandelaki" target="adjutant" weight="1"/>
+            <edge id="kote|klimov" source="kote" target="klimov" weight="1"/>
+            <edge id="kote|hirimjants" source="kote" target="hirimjants" weight="1"/>
+            <edge id="kote|todrija" source="kote" target="todrija" weight="1"/>
+            <edge id="kote|prikazchik" source="kote" target="prikazchik" weight="1"/>
+            <edge id="klimov|hirimjants" source="klimov" target="hirimjants" weight="2"/>
+            <edge id="klimov|todrija" source="klimov" target="todrija" weight="1"/>
+            <edge id="klimov|prikazchik" source="klimov" target="prikazchik" weight="1"/>
+            <edge id="klimov|gubernator" source="klimov" target="gubernator" weight="2"/>
+            <edge id="klimov|trejnits" source="klimov" target="trejnits" weight="2"/>
+            <edge id="klimov|kjakiva" source="klimov" target="kjakiva" weight="2"/>
+            <edge id="klimov|gerontij" source="klimov" target="gerontij" weight="2"/>
+            <edge id="klimov|politsejmejster" source="klimov" target="politsejmejster" weight="2"/>
+            <edge id="klimov|vanshejdt" source="klimov" target="vanshejdt" weight="1"/>
+            <edge id="klimov|gorodovoj" source="klimov" target="gorodovoj" weight="1"/>
+            <edge id="klimov|okolotochnyj" source="klimov" target="okolotochnyj" weight="1"/>
+            <edge id="hirimjants|todrija" source="hirimjants" target="todrija" weight="1"/>
+            <edge id="hirimjants|prikazchik" source="hirimjants" target="prikazchik" weight="1"/>
+            <edge id="hirimjants|trejnits" source="hirimjants" target="trejnits" weight="1"/>
+            <edge id="hirimjants|politsejmejster" source="hirimjants" target="politsejmejster" weight="1"/>
+            <edge id="hirimjants|kjakiva" source="hirimjants" target="kjakiva" weight="1"/>
+            <edge id="hirimjants|gorodovoj" source="hirimjants" target="gorodovoj" weight="1"/>
+            <edge id="hirimjants|gubernator" source="hirimjants" target="gubernator" weight="1"/>
+            <edge id="hirimjants|gerontij" source="hirimjants" target="gerontij" weight="1"/>
+            <edge id="hirimjants|okolotochnyj" source="hirimjants" target="okolotochnyj" weight="1"/>
+            <edge id="todrija|prikazchik" source="todrija" target="prikazchik" weight="1"/>
+            <edge id="adjutant|gubernator" source="adjutant" target="gubernator" weight="2"/>
+            <edge id="adjutant|trejnits" source="adjutant" target="trejnits" weight="2"/>
+            <edge id="adjutant|vanshejdt" source="adjutant" target="vanshejdt" weight="1"/>
+            <edge id="adjutant|pervyj_nadziratel" source="adjutant" target="pervyj_nadziratel" weight="1"/>
+            <edge id="adjutant|ugolovnyj" source="adjutant" target="ugolovnyj" weight="1"/>
+            <edge id="adjutant|vtoroj_nadziratel" source="adjutant" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="adjutant|nachalnik_tjurmy" source="adjutant" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="adjutant|ugolovnye" source="adjutant" target="ugolovnye" weight="1"/>
+            <edge id="gubernator|trejnits" source="gubernator" target="trejnits" weight="4"/>
+            <edge id="gubernator|vanshejdt" source="gubernator" target="vanshejdt" weight="2"/>
+            <edge id="gubernator|kjakiva" source="gubernator" target="kjakiva" weight="2"/>
+            <edge id="gubernator|gerontij" source="gubernator" target="gerontij" weight="2"/>
+            <edge id="gubernator|politsejmejster" source="gubernator" target="politsejmejster" weight="2"/>
+            <edge id="gubernator|gorodovoj" source="gubernator" target="gorodovoj" weight="1"/>
+            <edge id="gubernator|okolotochnyj" source="gubernator" target="okolotochnyj" weight="1"/>
+            <edge id="gubernator|pervyj_nadziratel" source="gubernator" target="pervyj_nadziratel" weight="1"/>
+            <edge id="gubernator|ugolovnyj" source="gubernator" target="ugolovnyj" weight="1"/>
+            <edge id="gubernator|vtoroj_nadziratel" source="gubernator" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="gubernator|nachalnik_tjurmy" source="gubernator" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="gubernator|ugolovnye" source="gubernator" target="ugolovnye" weight="1"/>
+            <edge id="trejnits|vanshejdt" source="trejnits" target="vanshejdt" weight="2"/>
+            <edge id="trejnits|kjakiva" source="trejnits" target="kjakiva" weight="3"/>
+            <edge id="trejnits|gerontij" source="trejnits" target="gerontij" weight="2"/>
+            <edge id="trejnits|politsejmejster" source="trejnits" target="politsejmejster" weight="3"/>
+            <edge id="trejnits|gorodovoj" source="trejnits" target="gorodovoj" weight="2"/>
+            <edge id="trejnits|okolotochnyj" source="trejnits" target="okolotochnyj" weight="2"/>
+            <edge id="trejnits|darispan" source="trejnits" target="darispan" weight="1"/>
+            <edge id="trejnits|redzheb" source="trejnits" target="redzheb" weight="1"/>
+            <edge id="trejnits|vano" source="trejnits" target="vano" weight="1"/>
+            <edge id="trejnits|pervyj_nadziratel" source="trejnits" target="pervyj_nadziratel" weight="1"/>
+            <edge id="trejnits|ugolovnyj" source="trejnits" target="ugolovnyj" weight="1"/>
+            <edge id="trejnits|vtoroj_nadziratel" source="trejnits" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="trejnits|nachalnik_tjurmy" source="trejnits" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="trejnits|ugolovnye" source="trejnits" target="ugolovnye" weight="1"/>
+            <edge id="vanshejdt|kjakiva" source="vanshejdt" target="kjakiva" weight="1"/>
+            <edge id="vanshejdt|gerontij" source="vanshejdt" target="gerontij" weight="1"/>
+            <edge id="vanshejdt|politsejmejster" source="vanshejdt" target="politsejmejster" weight="1"/>
+            <edge id="kjakiva|gerontij" source="kjakiva" target="gerontij" weight="2"/>
+            <edge id="kjakiva|politsejmejster" source="kjakiva" target="politsejmejster" weight="3"/>
+            <edge id="kjakiva|gorodovoj" source="kjakiva" target="gorodovoj" weight="2"/>
+            <edge id="kjakiva|okolotochnyj" source="kjakiva" target="okolotochnyj" weight="2"/>
+            <edge id="kjakiva|darispan" source="kjakiva" target="darispan" weight="1"/>
+            <edge id="kjakiva|redzheb" source="kjakiva" target="redzheb" weight="1"/>
+            <edge id="kjakiva|vano" source="kjakiva" target="vano" weight="1"/>
+            <edge id="gerontij|politsejmejster" source="gerontij" target="politsejmejster" weight="2"/>
+            <edge id="gerontij|gorodovoj" source="gerontij" target="gorodovoj" weight="1"/>
+            <edge id="gerontij|okolotochnyj" source="gerontij" target="okolotochnyj" weight="1"/>
+            <edge id="politsejmejster|gorodovoj" source="politsejmejster" target="gorodovoj" weight="2"/>
+            <edge id="politsejmejster|okolotochnyj" source="politsejmejster" target="okolotochnyj" weight="2"/>
+            <edge id="politsejmejster|darispan" source="politsejmejster" target="darispan" weight="1"/>
+            <edge id="politsejmejster|redzheb" source="politsejmejster" target="redzheb" weight="1"/>
+            <edge id="politsejmejster|vano" source="politsejmejster" target="vano" weight="1"/>
+            <edge id="gorodovoj|okolotochnyj" source="gorodovoj" target="okolotochnyj" weight="2"/>
+            <edge id="gorodovoj|darispan" source="gorodovoj" target="darispan" weight="1"/>
+            <edge id="gorodovoj|redzheb" source="gorodovoj" target="redzheb" weight="1"/>
+            <edge id="gorodovoj|vano" source="gorodovoj" target="vano" weight="1"/>
+            <edge id="okolotochnyj|darispan" source="okolotochnyj" target="darispan" weight="1"/>
+            <edge id="okolotochnyj|redzheb" source="okolotochnyj" target="redzheb" weight="1"/>
+            <edge id="okolotochnyj|vano" source="okolotochnyj" target="vano" weight="1"/>
+            <edge id="darispan|redzheb" source="darispan" target="redzheb" weight="1"/>
+            <edge id="darispan|vano" source="darispan" target="vano" weight="1"/>
+            <edge id="redzheb|vano" source="redzheb" target="vano" weight="1"/>
+            <edge id="pervyj_nadziratel|ugolovnyj" source="pervyj_nadziratel" target="ugolovnyj" weight="1"/>
+            <edge id="pervyj_nadziratel|vtoroj_nadziratel" source="pervyj_nadziratel" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="pervyj_nadziratel|nachalnik_tjurmy" source="pervyj_nadziratel" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="pervyj_nadziratel|ugolovnye" source="pervyj_nadziratel" target="ugolovnye" weight="1"/>
+            <edge id="ugolovnyj|vtoroj_nadziratel" source="ugolovnyj" target="vtoroj_nadziratel" weight="1"/>
+            <edge id="ugolovnyj|nachalnik_tjurmy" source="ugolovnyj" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="ugolovnyj|ugolovnye" source="ugolovnyj" target="ugolovnye" weight="1"/>
+            <edge id="vtoroj_nadziratel|nachalnik_tjurmy" source="vtoroj_nadziratel" target="nachalnik_tjurmy" weight="1"/>
+            <edge id="vtoroj_nadziratel|ugolovnye" source="vtoroj_nadziratel" target="ugolovnye" weight="1"/>
+            <edge id="nachalnik_tjurmy|ugolovnye" source="nachalnik_tjurmy" target="ugolovnye" weight="1"/>
+            <edge id="nikolaj|fligel-adjutant" source="nikolaj" target="fligel-adjutant" weight="1"/>
+            <edge id="nikolaj|ministr" source="nikolaj" target="ministr" weight="1"/>
+            <edge id="fligel-adjutant|ministr" source="fligel-adjutant" target="ministr" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

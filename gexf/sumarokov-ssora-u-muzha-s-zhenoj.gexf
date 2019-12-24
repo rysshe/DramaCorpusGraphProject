@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Ссора у мужа с женой</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="fineta" label="Финета">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="365"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fatjuj" label="Фатюй">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="741"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="salmina" label="Салмина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="524"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kimar" label="Кимар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="375"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oront" label="Оронт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="219"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="djulizh" label="Дюлиж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="734"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="delamida" label="Деламида">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="456"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="djufiza" label="Дюфиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="412"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="fineta|fatjuj" source="fineta" target="fatjuj" weight="4"/>
+            <edge id="fineta|kimar" source="fineta" target="kimar" weight="3"/>
+            <edge id="fineta|djulizh" source="fineta" target="djulizh" weight="3"/>
+            <edge id="fineta|delamida" source="fineta" target="delamida" weight="3"/>
+            <edge id="fineta|djufiza" source="fineta" target="djufiza" weight="3"/>
+            <edge id="fineta|oront" source="fineta" target="oront" weight="1"/>
+            <edge id="fineta|salmina" source="fineta" target="salmina" weight="1"/>
+            <edge id="fatjuj|salmina" source="fatjuj" target="salmina" weight="4"/>
+            <edge id="fatjuj|kimar" source="fatjuj" target="kimar" weight="4"/>
+            <edge id="fatjuj|djulizh" source="fatjuj" target="djulizh" weight="4"/>
+            <edge id="fatjuj|djufiza" source="fatjuj" target="djufiza" weight="2"/>
+            <edge id="fatjuj|delamida" source="fatjuj" target="delamida" weight="2"/>
+            <edge id="fatjuj|oront" source="fatjuj" target="oront" weight="1"/>
+            <edge id="salmina|kimar" source="salmina" target="kimar" weight="6"/>
+            <edge id="salmina|oront" source="salmina" target="oront" weight="3"/>
+            <edge id="salmina|djulizh" source="salmina" target="djulizh" weight="4"/>
+            <edge id="salmina|delamida" source="salmina" target="delamida" weight="1"/>
+            <edge id="salmina|djufiza" source="salmina" target="djufiza" weight="1"/>
+            <edge id="kimar|oront" source="kimar" target="oront" weight="3"/>
+            <edge id="kimar|djulizh" source="kimar" target="djulizh" weight="3"/>
+            <edge id="kimar|delamida" source="kimar" target="delamida" weight="1"/>
+            <edge id="kimar|djufiza" source="kimar" target="djufiza" weight="1"/>
+            <edge id="oront|djulizh" source="oront" target="djulizh" weight="1"/>
+            <edge id="oront|delamida" source="oront" target="delamida" weight="1"/>
+            <edge id="oront|djufiza" source="oront" target="djufiza" weight="1"/>
+            <edge id="djulizh|delamida" source="djulizh" target="delamida" weight="4"/>
+            <edge id="djulizh|djufiza" source="djulizh" target="djufiza" weight="3"/>
+            <edge id="delamida|djufiza" source="delamida" target="djufiza" weight="5"/>
+        </edges>
+    </graph>
+</gexf>

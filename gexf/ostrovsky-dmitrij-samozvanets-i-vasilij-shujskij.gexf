@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Дмитрий Самозванец и Василий Шуйский</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="pervyj_kupets_moskovskij" label="1-й купец московский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="249"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_kupets_moskovskij" label="2-й купец московский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="69"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="podjachij" label="Подьячий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="180"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="konev" label="Конёв">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="244"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_krestjanin" label="1-й крестьянин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="91"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_krestjanin" label="2-й крестьянин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_krestjanin" label="3-й крестьянин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="38"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kupets_novgorodskij" label="Купец новгородский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="strannik_1-1" label="Странник (I/1)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pop" label="Поп">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kalachnik" label="Калачник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1044"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="jurodivyj" label="Юродивый (Афоня)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="melochnoj_torgovets" label="Мелочной торговец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="osipov" label="Осипов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="351"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dvoretskij" label="Дворецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="145"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilij_shujskij" label="Василий Шуйский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3884"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kuptsy" label="Купцы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kupets_1-1" label="Купец (I/1)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dmitrij_shujskij" label="Дмитрий Шуйский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="219"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_v_narode" label="Голоса в народе">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_golos_iz_naroda" label="1-й голос из народа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_golos_iz_naroda" label="2-й голос из народа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="basmanov" label="Басманов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1014"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="desjatskij_1-2" label="Десятский (I/2)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mstislavskij" label="Мстиславский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="334"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golitsyn" label="Голицын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1064"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kurakin" label="Куракин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="225"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vorotynskij" label="Воротынский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="107"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="belskij" label="Бельский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="259"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="masalskij" label="Масальский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="168"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="desjatskie" label="Десятские">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ves_narod_1-2" label="Весь народ (I/2)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="dmitrij" label="Дмитрий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3668"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marzheret" label="Маржерет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kutska" label="Куцька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="korela" label="Корела">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nemtsy" label="Немцы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="iezuit" label="Иезуит">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="127"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="buchinskij" label="Бучинский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="102"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zaporozhtsy" label="Запорожцы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="schelkalov" label="Щелкалов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="295"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_1-4" label="Голоса (I/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="85"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="odin_golos_1-4a" label="Один голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="odin_golos_1-4b" label="Один голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="tsaritsa_marfa" label="Царица Марфа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="465"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="skopin-shujskij" label="Скопин-Шуйский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="narod_1-5" label="Народ (I/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="tatischev" label="Татищев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="364"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vlasev" label="Власьев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marina" label="Марина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="533"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mnishek" label="Мнишек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="182"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kameristka" label="Камеристка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_2-3" label="Голоса (II/3)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="203"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_tolpy" label="Один из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="novgorodskie_streltsy" label="Новгородские стрельцы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pskovskie_streltsy" label="Псковские стрельцы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sotnik_2-3" label="Сотник (II/3)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kupets_2-3" label="Купец (II/3)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_kupets" label="1-й купец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="83"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_kupets" label="2-й купец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_kupets" label="3-й купец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chetvertyj_kupets" label="4-й купец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="poljaki" label="Поляки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_2-4" label="Голоса (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="48"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="malchishki" label="Мальчишки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_posadskij" label="1-й посадский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="86"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_posadskij" label="2-й посадский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_posadskij" label="3-й посадский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chetvertyj_posadskij" label="4-й посадский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pjatyj_posadskij" label="5-й посадский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="desjatskij_2-4" label="Десятский (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="50"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="povar" label="Повар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="92"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="torgovka" label="Торговка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="strannik_2-4" label="Странник (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="strelets" label="Стрелец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="starik" label="Старик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="147"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_tolpy_2-4a" label="Голос из толпы (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_tolpy_2-4b" label="Голос из толпы (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golos_2-4c" label="Голос (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="kupets_2-4" label="Купец (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_2-4d" label="Голос (II/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kapitan" label="Капитан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="olesnitskij" label="Олесницкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="73"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vishnevetskij" label="Вишневецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="108"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_2-6" label="Голос (II/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="molchanov" label="Молчанов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_tolpa_2-6" label="Голоса/Толпа (II/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="streltsy" label="Стрельцы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="drugie_streltsy" label="Другие стрельцы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sotnik_streletskij" label="Сотник стрелецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="53"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="valuev" label="Валуев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="neskolko_golosov" label="Несколько голосов">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="pervyj_kupets_moskovskij|vtoroj_kupets_moskovskij" source="pervyj_kupets_moskovskij" target="vtoroj_kupets_moskovskij" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|podjachij" source="pervyj_kupets_moskovskij" target="podjachij" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|konev" source="pervyj_kupets_moskovskij" target="konev" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|pervyj_krestjanin" source="pervyj_kupets_moskovskij" target="pervyj_krestjanin" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|vtoroj_krestjanin" source="pervyj_kupets_moskovskij" target="vtoroj_krestjanin" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|tretij_krestjanin" source="pervyj_kupets_moskovskij" target="tretij_krestjanin" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|kupets_novgorodskij" source="pervyj_kupets_moskovskij" target="kupets_novgorodskij" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|strannik_1-1" source="pervyj_kupets_moskovskij" target="strannik_1-1" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|pop" source="pervyj_kupets_moskovskij" target="pop" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|kalachnik" source="pervyj_kupets_moskovskij" target="kalachnik" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|jurodivyj" source="pervyj_kupets_moskovskij" target="jurodivyj" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|melochnoj_torgovets" source="pervyj_kupets_moskovskij" target="melochnoj_torgovets" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|osipov" source="pervyj_kupets_moskovskij" target="osipov" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|dvoretskij" source="pervyj_kupets_moskovskij" target="dvoretskij" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|vasilij_shujskij" source="pervyj_kupets_moskovskij" target="vasilij_shujskij" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|kuptsy" source="pervyj_kupets_moskovskij" target="kuptsy" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|kupets_1-1" source="pervyj_kupets_moskovskij" target="kupets_1-1" weight="1"/>
+            <edge id="pervyj_kupets_moskovskij|dmitrij_shujskij" source="pervyj_kupets_moskovskij" target="dmitrij_shujskij" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|podjachij" source="vtoroj_kupets_moskovskij" target="podjachij" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|konev" source="vtoroj_kupets_moskovskij" target="konev" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|pervyj_krestjanin" source="vtoroj_kupets_moskovskij" target="pervyj_krestjanin" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|vtoroj_krestjanin" source="vtoroj_kupets_moskovskij" target="vtoroj_krestjanin" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|tretij_krestjanin" source="vtoroj_kupets_moskovskij" target="tretij_krestjanin" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|kupets_novgorodskij" source="vtoroj_kupets_moskovskij" target="kupets_novgorodskij" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|strannik_1-1" source="vtoroj_kupets_moskovskij" target="strannik_1-1" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|pop" source="vtoroj_kupets_moskovskij" target="pop" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|kalachnik" source="vtoroj_kupets_moskovskij" target="kalachnik" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|jurodivyj" source="vtoroj_kupets_moskovskij" target="jurodivyj" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|melochnoj_torgovets" source="vtoroj_kupets_moskovskij" target="melochnoj_torgovets" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|osipov" source="vtoroj_kupets_moskovskij" target="osipov" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|dvoretskij" source="vtoroj_kupets_moskovskij" target="dvoretskij" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|vasilij_shujskij" source="vtoroj_kupets_moskovskij" target="vasilij_shujskij" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|kuptsy" source="vtoroj_kupets_moskovskij" target="kuptsy" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|kupets_1-1" source="vtoroj_kupets_moskovskij" target="kupets_1-1" weight="1"/>
+            <edge id="vtoroj_kupets_moskovskij|dmitrij_shujskij" source="vtoroj_kupets_moskovskij" target="dmitrij_shujskij" weight="1"/>
+            <edge id="podjachij|konev" source="podjachij" target="konev" weight="1"/>
+            <edge id="podjachij|pervyj_krestjanin" source="podjachij" target="pervyj_krestjanin" weight="1"/>
+            <edge id="podjachij|vtoroj_krestjanin" source="podjachij" target="vtoroj_krestjanin" weight="1"/>
+            <edge id="podjachij|tretij_krestjanin" source="podjachij" target="tretij_krestjanin" weight="1"/>
+            <edge id="podjachij|kupets_novgorodskij" source="podjachij" target="kupets_novgorodskij" weight="1"/>
+            <edge id="podjachij|strannik_1-1" source="podjachij" target="strannik_1-1" weight="1"/>
+            <edge id="podjachij|pop" source="podjachij" target="pop" weight="1"/>
+            <edge id="podjachij|kalachnik" source="podjachij" target="kalachnik" weight="1"/>
+            <edge id="podjachij|jurodivyj" source="podjachij" target="jurodivyj" weight="1"/>
+            <edge id="podjachij|melochnoj_torgovets" source="podjachij" target="melochnoj_torgovets" weight="1"/>
+            <edge id="podjachij|osipov" source="podjachij" target="osipov" weight="1"/>
+            <edge id="podjachij|dvoretskij" source="podjachij" target="dvoretskij" weight="1"/>
+            <edge id="podjachij|vasilij_shujskij" source="podjachij" target="vasilij_shujskij" weight="1"/>
+            <edge id="podjachij|kuptsy" source="podjachij" target="kuptsy" weight="1"/>
+            <edge id="podjachij|kupets_1-1" source="podjachij" target="kupets_1-1" weight="1"/>
+            <edge id="podjachij|dmitrij_shujskij" source="podjachij" target="dmitrij_shujskij" weight="1"/>
+            <edge id="konev|pervyj_krestjanin" source="konev" target="pervyj_krestjanin" weight="1"/>
+            <edge id="konev|vtoroj_krestjanin" source="konev" target="vtoroj_krestjanin" weight="1"/>
+            <edge id="konev|tretij_krestjanin" source="konev" target="tretij_krestjanin" weight="1"/>
+            <edge id="konev|kupets_novgorodskij" source="konev" target="kupets_novgorodskij" weight="1"/>
+            <edge id="konev|strannik_1-1" source="konev" target="strannik_1-1" weight="1"/>
+            <edge id="konev|pop" source="konev" target="pop" weight="1"/>
+            <edge id="konev|kalachnik" source="konev" target="kalachnik" weight="2"/>
+            <edge id="konev|jurodivyj" source="konev" target="jurodivyj" weight="1"/>
+            <edge id="konev|melochnoj_torgovets" source="konev" target="melochnoj_torgovets" weight="1"/>
+            <edge id="konev|osipov" source="konev" target="osipov" weight="1"/>
+            <edge id="konev|dvoretskij" source="konev" target="dvoretskij" weight="1"/>
+            <edge id="konev|vasilij_shujskij" source="konev" target="vasilij_shujskij" weight="2"/>
+            <edge id="konev|kuptsy" source="konev" target="kuptsy" weight="1"/>
+            <edge id="konev|kupets_1-1" source="konev" target="kupets_1-1" weight="1"/>
+            <edge id="konev|dmitrij_shujskij" source="konev" target="dmitrij_shujskij" weight="2"/>
+            <edge id="konev|golosa_v_narode" source="konev" target="golosa_v_narode" weight="1"/>
+            <edge id="konev|pervyj_golos_iz_naroda" source="konev" target="pervyj_golos_iz_naroda" weight="1"/>
+            <edge id="konev|vtoroj_golos_iz_naroda" source="konev" target="vtoroj_golos_iz_naroda" weight="1"/>
+            <edge id="konev|basmanov" source="konev" target="basmanov" weight="1"/>
+            <edge id="konev|desjatskij_1-2" source="konev" target="desjatskij_1-2" weight="1"/>
+            <edge id="konev|mstislavskij" source="konev" target="mstislavskij" weight="1"/>
+            <edge id="konev|golitsyn" source="konev" target="golitsyn" weight="1"/>
+            <edge id="konev|kurakin" source="konev" target="kurakin" weight="1"/>
+            <edge id="konev|vorotynskij" source="konev" target="vorotynskij" weight="1"/>
+            <edge id="konev|belskij" source="konev" target="belskij" weight="1"/>
+            <edge id="konev|masalskij" source="konev" target="masalskij" weight="1"/>
+            <edge id="konev|desjatskie" source="konev" target="desjatskie" weight="1"/>
+            <edge id="konev|ves_narod_1-2" source="konev" target="ves_narod_1-2" weight="1"/>
+            <edge id="konev|dmitrij" source="konev" target="dmitrij" weight="1"/>
+            <edge id="konev|marzheret" source="konev" target="marzheret" weight="1"/>
+            <edge id="konev|kutska" source="konev" target="kutska" weight="1"/>
+            <edge id="konev|korela" source="konev" target="korela" weight="1"/>
+            <edge id="konev|nemtsy" source="konev" target="nemtsy" weight="1"/>
+            <edge id="konev|iezuit" source="konev" target="iezuit" weight="1"/>
+            <edge id="konev|buchinskij" source="konev" target="buchinskij" weight="1"/>
+            <edge id="konev|zaporozhtsy" source="konev" target="zaporozhtsy" weight="1"/>
+            <edge id="pervyj_krestjanin|vtoroj_krestjanin" source="pervyj_krestjanin" target="vtoroj_krestjanin" weight="1"/>
+            <edge id="pervyj_krestjanin|tretij_krestjanin" source="pervyj_krestjanin" target="tretij_krestjanin" weight="1"/>
+            <edge id="pervyj_krestjanin|kupets_novgorodskij" source="pervyj_krestjanin" target="kupets_novgorodskij" weight="1"/>
+            <edge id="pervyj_krestjanin|strannik_1-1" source="pervyj_krestjanin" target="strannik_1-1" weight="1"/>
+            <edge id="pervyj_krestjanin|pop" source="pervyj_krestjanin" target="pop" weight="1"/>
+            <edge id="pervyj_krestjanin|kalachnik" source="pervyj_krestjanin" target="kalachnik" weight="1"/>
+            <edge id="pervyj_krestjanin|jurodivyj" source="pervyj_krestjanin" target="jurodivyj" weight="1"/>
+            <edge id="pervyj_krestjanin|melochnoj_torgovets" source="pervyj_krestjanin" target="melochnoj_torgovets" weight="1"/>
+            <edge id="pervyj_krestjanin|osipov" source="pervyj_krestjanin" target="osipov" weight="1"/>
+            <edge id="pervyj_krestjanin|dvoretskij" source="pervyj_krestjanin" target="dvoretskij" weight="1"/>
+            <edge id="pervyj_krestjanin|vasilij_shujskij" source="pervyj_krestjanin" target="vasilij_shujskij" weight="1"/>
+            <edge id="pervyj_krestjanin|kuptsy" source="pervyj_krestjanin" target="kuptsy" weight="1"/>
+            <edge id="pervyj_krestjanin|kupets_1-1" source="pervyj_krestjanin" target="kupets_1-1" weight="1"/>
+            <edge id="pervyj_krestjanin|dmitrij_shujskij" source="pervyj_krestjanin" target="dmitrij_shujskij" weight="1"/>
+            <edge id="vtoroj_krestjanin|tretij_krestjanin" source="vtoroj_krestjanin" target="tretij_krestjanin" weight="1"/>
+            <edge id="vtoroj_krestjanin|kupets_novgorodskij" source="vtoroj_krestjanin" target="kupets_novgorodskij" weight="1"/>
+            <edge id="vtoroj_krestjanin|strannik_1-1" source="vtoroj_krestjanin" target="strannik_1-1" weight="1"/>
+            <edge id="vtoroj_krestjanin|pop" source="vtoroj_krestjanin" target="pop" weight="1"/>
+            <edge id="vtoroj_krestjanin|kalachnik" source="vtoroj_krestjanin" target="kalachnik" weight="1"/>
+            <edge id="vtoroj_krestjanin|jurodivyj" source="vtoroj_krestjanin" target="jurodivyj" weight="1"/>
+            <edge id="vtoroj_krestjanin|melochnoj_torgovets" source="vtoroj_krestjanin" target="melochnoj_torgovets" weight="1"/>
+            <edge id="vtoroj_krestjanin|osipov" source="vtoroj_krestjanin" target="osipov" weight="1"/>
+            <edge id="vtoroj_krestjanin|dvoretskij" source="vtoroj_krestjanin" target="dvoretskij" weight="1"/>
+            <edge id="vtoroj_krestjanin|vasilij_shujskij" source="vtoroj_krestjanin" target="vasilij_shujskij" weight="1"/>
+            <edge id="vtoroj_krestjanin|kuptsy" source="vtoroj_krestjanin" target="kuptsy" weight="1"/>
+            <edge id="vtoroj_krestjanin|kupets_1-1" source="vtoroj_krestjanin" target="kupets_1-1" weight="1"/>
+            <edge id="vtoroj_krestjanin|dmitrij_shujskij" source="vtoroj_krestjanin" target="dmitrij_shujskij" weight="1"/>
+            <edge id="tretij_krestjanin|kupets_novgorodskij" source="tretij_krestjanin" target="kupets_novgorodskij" weight="1"/>
+            <edge id="tretij_krestjanin|strannik_1-1" source="tretij_krestjanin" target="strannik_1-1" weight="1"/>
+            <edge id="tretij_krestjanin|pop" source="tretij_krestjanin" target="pop" weight="1"/>
+            <edge id="tretij_krestjanin|kalachnik" source="tretij_krestjanin" target="kalachnik" weight="1"/>
+            <edge id="tretij_krestjanin|jurodivyj" source="tretij_krestjanin" target="jurodivyj" weight="1"/>
+            <edge id="tretij_krestjanin|melochnoj_torgovets" source="tretij_krestjanin" target="melochnoj_torgovets" weight="1"/>
+            <edge id="tretij_krestjanin|osipov" source="tretij_krestjanin" target="osipov" weight="1"/>
+            <edge id="tretij_krestjanin|dvoretskij" source="tretij_krestjanin" target="dvoretskij" weight="1"/>
+            <edge id="tretij_krestjanin|vasilij_shujskij" source="tretij_krestjanin" target="vasilij_shujskij" weight="1"/>
+            <edge id="tretij_krestjanin|kuptsy" source="tretij_krestjanin" target="kuptsy" weight="1"/>
+            <edge id="tretij_krestjanin|kupets_1-1" source="tretij_krestjanin" target="kupets_1-1" weight="1"/>
+            <edge id="tretij_krestjanin|dmitrij_shujskij" source="tretij_krestjanin" target="dmitrij_shujskij" weight="1"/>
+            <edge id="kupets_novgorodskij|strannik_1-1" source="kupets_novgorodskij" target="strannik_1-1" weight="1"/>
+            <edge id="kupets_novgorodskij|pop" source="kupets_novgorodskij" target="pop" weight="1"/>
+            <edge id="kupets_novgorodskij|kalachnik" source="kupets_novgorodskij" target="kalachnik" weight="1"/>
+            <edge id="kupets_novgorodskij|jurodivyj" source="kupets_novgorodskij" target="jurodivyj" weight="1"/>
+            <edge id="kupets_novgorodskij|melochnoj_torgovets" source="kupets_novgorodskij" target="melochnoj_torgovets" weight="1"/>
+            <edge id="kupets_novgorodskij|osipov" source="kupets_novgorodskij" target="osipov" weight="1"/>
+            <edge id="kupets_novgorodskij|dvoretskij" source="kupets_novgorodskij" target="dvoretskij" weight="1"/>
+            <edge id="kupets_novgorodskij|vasilij_shujskij" source="kupets_novgorodskij" target="vasilij_shujskij" weight="1"/>
+            <edge id="kupets_novgorodskij|kuptsy" source="kupets_novgorodskij" target="kuptsy" weight="1"/>
+            <edge id="kupets_novgorodskij|kupets_1-1" source="kupets_novgorodskij" target="kupets_1-1" weight="1"/>
+            <edge id="kupets_novgorodskij|dmitrij_shujskij" source="kupets_novgorodskij" target="dmitrij_shujskij" weight="1"/>
+            <edge id="strannik_1-1|pop" source="strannik_1-1" target="pop" weight="1"/>
+            <edge id="strannik_1-1|kalachnik" source="strannik_1-1" target="kalachnik" weight="1"/>
+            <edge id="strannik_1-1|jurodivyj" source="strannik_1-1" target="jurodivyj" weight="1"/>
+            <edge id="strannik_1-1|melochnoj_torgovets" source="strannik_1-1" target="melochnoj_torgovets" weight="1"/>
+            <edge id="strannik_1-1|osipov" source="strannik_1-1" target="osipov" weight="1"/>
+            <edge id="strannik_1-1|dvoretskij" source="strannik_1-1" target="dvoretskij" weight="1"/>
+            <edge id="strannik_1-1|vasilij_shujskij" source="strannik_1-1" target="vasilij_shujskij" weight="1"/>
+            <edge id="strannik_1-1|kuptsy" source="strannik_1-1" target="kuptsy" weight="1"/>
+            <edge id="strannik_1-1|kupets_1-1" source="strannik_1-1" target="kupets_1-1" weight="1"/>
+            <edge id="strannik_1-1|dmitrij_shujskij" source="strannik_1-1" target="dmitrij_shujskij" weight="1"/>
+            <edge id="pop|kalachnik" source="pop" target="kalachnik" weight="1"/>
+            <edge id="pop|jurodivyj" source="pop" target="jurodivyj" weight="1"/>
+            <edge id="pop|melochnoj_torgovets" source="pop" target="melochnoj_torgovets" weight="1"/>
+            <edge id="pop|osipov" source="pop" target="osipov" weight="1"/>
+            <edge id="pop|dvoretskij" source="pop" target="dvoretskij" weight="1"/>
+            <edge id="pop|vasilij_shujskij" source="pop" target="vasilij_shujskij" weight="1"/>
+            <edge id="pop|kuptsy" source="pop" target="kuptsy" weight="1"/>
+            <edge id="pop|kupets_1-1" source="pop" target="kupets_1-1" weight="1"/>
+            <edge id="pop|dmitrij_shujskij" source="pop" target="dmitrij_shujskij" weight="1"/>
+            <edge id="kalachnik|jurodivyj" source="kalachnik" target="jurodivyj" weight="2"/>
+            <edge id="kalachnik|melochnoj_torgovets" source="kalachnik" target="melochnoj_torgovets" weight="1"/>
+            <edge id="kalachnik|osipov" source="kalachnik" target="osipov" weight="2"/>
+            <edge id="kalachnik|dvoretskij" source="kalachnik" target="dvoretskij" weight="3"/>
+            <edge id="kalachnik|vasilij_shujskij" source="kalachnik" target="vasilij_shujskij" weight="5"/>
+            <edge id="kalachnik|kuptsy" source="kalachnik" target="kuptsy" weight="1"/>
+            <edge id="kalachnik|kupets_1-1" source="kalachnik" target="kupets_1-1" weight="1"/>
+            <edge id="kalachnik|dmitrij_shujskij" source="kalachnik" target="dmitrij_shujskij" weight="4"/>
+            <edge id="kalachnik|golosa_v_narode" source="kalachnik" target="golosa_v_narode" weight="1"/>
+            <edge id="kalachnik|pervyj_golos_iz_naroda" source="kalachnik" target="pervyj_golos_iz_naroda" weight="1"/>
+            <edge id="kalachnik|vtoroj_golos_iz_naroda" source="kalachnik" target="vtoroj_golos_iz_naroda" weight="1"/>
+            <edge id="kalachnik|basmanov" source="kalachnik" target="basmanov" weight="2"/>
+            <edge id="kalachnik|desjatskij_1-2" source="kalachnik" target="desjatskij_1-2" weight="1"/>
+            <edge id="kalachnik|mstislavskij" source="kalachnik" target="mstislavskij" weight="1"/>
+            <edge id="kalachnik|golitsyn" source="kalachnik" target="golitsyn" weight="3"/>
+            <edge id="kalachnik|kurakin" source="kalachnik" target="kurakin" weight="3"/>
+            <edge id="kalachnik|vorotynskij" source="kalachnik" target="vorotynskij" weight="1"/>
+            <edge id="kalachnik|belskij" source="kalachnik" target="belskij" weight="1"/>
+            <edge id="kalachnik|masalskij" source="kalachnik" target="masalskij" weight="2"/>
+            <edge id="kalachnik|desjatskie" source="kalachnik" target="desjatskie" weight="1"/>
+            <edge id="kalachnik|ves_narod_1-2" source="kalachnik" target="ves_narod_1-2" weight="1"/>
+            <edge id="kalachnik|dmitrij" source="kalachnik" target="dmitrij" weight="2"/>
+            <edge id="kalachnik|marzheret" source="kalachnik" target="marzheret" weight="1"/>
+            <edge id="kalachnik|kutska" source="kalachnik" target="kutska" weight="1"/>
+            <edge id="kalachnik|korela" source="kalachnik" target="korela" weight="1"/>
+            <edge id="kalachnik|nemtsy" source="kalachnik" target="nemtsy" weight="1"/>
+            <edge id="kalachnik|iezuit" source="kalachnik" target="iezuit" weight="1"/>
+            <edge id="kalachnik|buchinskij" source="kalachnik" target="buchinskij" weight="1"/>
+            <edge id="kalachnik|zaporozhtsy" source="kalachnik" target="zaporozhtsy" weight="1"/>
+            <edge id="kalachnik|tatischev" source="kalachnik" target="tatischev" weight="2"/>
+            <edge id="kalachnik|golosa_2-3" source="kalachnik" target="golosa_2-3" weight="1"/>
+            <edge id="kalachnik|odin_iz_tolpy" source="kalachnik" target="odin_iz_tolpy" weight="1"/>
+            <edge id="kalachnik|novgorodskie_streltsy" source="kalachnik" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="kalachnik|pskovskie_streltsy" source="kalachnik" target="pskovskie_streltsy" weight="1"/>
+            <edge id="kalachnik|sotnik_2-3" source="kalachnik" target="sotnik_2-3" weight="1"/>
+            <edge id="kalachnik|kupets_2-3" source="kalachnik" target="kupets_2-3" weight="1"/>
+            <edge id="kalachnik|pervyj_kupets" source="kalachnik" target="pervyj_kupets" weight="1"/>
+            <edge id="kalachnik|vtoroj_kupets" source="kalachnik" target="vtoroj_kupets" weight="1"/>
+            <edge id="kalachnik|tretij_kupets" source="kalachnik" target="tretij_kupets" weight="1"/>
+            <edge id="kalachnik|chetvertyj_kupets" source="kalachnik" target="chetvertyj_kupets" weight="1"/>
+            <edge id="kalachnik|poljaki" source="kalachnik" target="poljaki" weight="1"/>
+            <edge id="kalachnik|golosa_2-4" source="kalachnik" target="golosa_2-4" weight="1"/>
+            <edge id="kalachnik|malchishki" source="kalachnik" target="malchishki" weight="1"/>
+            <edge id="kalachnik|pervyj_posadskij" source="kalachnik" target="pervyj_posadskij" weight="1"/>
+            <edge id="kalachnik|vtoroj_posadskij" source="kalachnik" target="vtoroj_posadskij" weight="1"/>
+            <edge id="kalachnik|tretij_posadskij" source="kalachnik" target="tretij_posadskij" weight="1"/>
+            <edge id="kalachnik|chetvertyj_posadskij" source="kalachnik" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="kalachnik|pjatyj_posadskij" source="kalachnik" target="pjatyj_posadskij" weight="1"/>
+            <edge id="kalachnik|desjatskij_2-4" source="kalachnik" target="desjatskij_2-4" weight="1"/>
+            <edge id="kalachnik|povar" source="kalachnik" target="povar" weight="1"/>
+            <edge id="kalachnik|torgovka" source="kalachnik" target="torgovka" weight="1"/>
+            <edge id="kalachnik|strannik_2-4" source="kalachnik" target="strannik_2-4" weight="1"/>
+            <edge id="kalachnik|strelets" source="kalachnik" target="strelets" weight="1"/>
+            <edge id="kalachnik|starik" source="kalachnik" target="starik" weight="1"/>
+            <edge id="kalachnik|golos_iz_tolpy_2-4a" source="kalachnik" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="kalachnik|golos_iz_tolpy_2-4b" source="kalachnik" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="kalachnik|golos_2-4c" source="kalachnik" target="golos_2-4c" weight="1"/>
+            <edge id="kalachnik|kupets_2-4" source="kalachnik" target="kupets_2-4" weight="1"/>
+            <edge id="kalachnik|golos_2-4d" source="kalachnik" target="golos_2-4d" weight="1"/>
+            <edge id="kalachnik|ivan" source="kalachnik" target="ivan" weight="1"/>
+            <edge id="kalachnik|kapitan" source="kalachnik" target="kapitan" weight="1"/>
+            <edge id="kalachnik|golos_2-6" source="kalachnik" target="golos_2-6" weight="1"/>
+            <edge id="kalachnik|molchanov" source="kalachnik" target="molchanov" weight="1"/>
+            <edge id="kalachnik|golosa_tolpa_2-6" source="kalachnik" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="kalachnik|streltsy" source="kalachnik" target="streltsy" weight="1"/>
+            <edge id="kalachnik|drugie_streltsy" source="kalachnik" target="drugie_streltsy" weight="1"/>
+            <edge id="kalachnik|sotnik_streletskij" source="kalachnik" target="sotnik_streletskij" weight="1"/>
+            <edge id="kalachnik|valuev" source="kalachnik" target="valuev" weight="1"/>
+            <edge id="kalachnik|neskolko_golosov" source="kalachnik" target="neskolko_golosov" weight="1"/>
+            <edge id="jurodivyj|melochnoj_torgovets" source="jurodivyj" target="melochnoj_torgovets" weight="1"/>
+            <edge id="jurodivyj|osipov" source="jurodivyj" target="osipov" weight="1"/>
+            <edge id="jurodivyj|dvoretskij" source="jurodivyj" target="dvoretskij" weight="1"/>
+            <edge id="jurodivyj|vasilij_shujskij" source="jurodivyj" target="vasilij_shujskij" weight="1"/>
+            <edge id="jurodivyj|kuptsy" source="jurodivyj" target="kuptsy" weight="1"/>
+            <edge id="jurodivyj|kupets_1-1" source="jurodivyj" target="kupets_1-1" weight="1"/>
+            <edge id="jurodivyj|dmitrij_shujskij" source="jurodivyj" target="dmitrij_shujskij" weight="1"/>
+            <edge id="jurodivyj|pervyj_kupets" source="jurodivyj" target="pervyj_kupets" weight="1"/>
+            <edge id="jurodivyj|vtoroj_kupets" source="jurodivyj" target="vtoroj_kupets" weight="1"/>
+            <edge id="jurodivyj|tretij_kupets" source="jurodivyj" target="tretij_kupets" weight="1"/>
+            <edge id="jurodivyj|chetvertyj_kupets" source="jurodivyj" target="chetvertyj_kupets" weight="1"/>
+            <edge id="jurodivyj|poljaki" source="jurodivyj" target="poljaki" weight="1"/>
+            <edge id="jurodivyj|golosa_2-4" source="jurodivyj" target="golosa_2-4" weight="1"/>
+            <edge id="jurodivyj|malchishki" source="jurodivyj" target="malchishki" weight="1"/>
+            <edge id="jurodivyj|pervyj_posadskij" source="jurodivyj" target="pervyj_posadskij" weight="1"/>
+            <edge id="jurodivyj|vtoroj_posadskij" source="jurodivyj" target="vtoroj_posadskij" weight="1"/>
+            <edge id="jurodivyj|tretij_posadskij" source="jurodivyj" target="tretij_posadskij" weight="1"/>
+            <edge id="jurodivyj|chetvertyj_posadskij" source="jurodivyj" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="jurodivyj|pjatyj_posadskij" source="jurodivyj" target="pjatyj_posadskij" weight="1"/>
+            <edge id="jurodivyj|desjatskij_2-4" source="jurodivyj" target="desjatskij_2-4" weight="1"/>
+            <edge id="jurodivyj|povar" source="jurodivyj" target="povar" weight="1"/>
+            <edge id="jurodivyj|torgovka" source="jurodivyj" target="torgovka" weight="1"/>
+            <edge id="jurodivyj|strannik_2-4" source="jurodivyj" target="strannik_2-4" weight="1"/>
+            <edge id="jurodivyj|strelets" source="jurodivyj" target="strelets" weight="1"/>
+            <edge id="jurodivyj|starik" source="jurodivyj" target="starik" weight="1"/>
+            <edge id="jurodivyj|golos_iz_tolpy_2-4a" source="jurodivyj" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="jurodivyj|golos_iz_tolpy_2-4b" source="jurodivyj" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="jurodivyj|golos_2-4c" source="jurodivyj" target="golos_2-4c" weight="1"/>
+            <edge id="jurodivyj|kupets_2-4" source="jurodivyj" target="kupets_2-4" weight="1"/>
+            <edge id="jurodivyj|golos_2-4d" source="jurodivyj" target="golos_2-4d" weight="1"/>
+            <edge id="jurodivyj|ivan" source="jurodivyj" target="ivan" weight="1"/>
+            <edge id="jurodivyj|kapitan" source="jurodivyj" target="kapitan" weight="1"/>
+            <edge id="melochnoj_torgovets|osipov" source="melochnoj_torgovets" target="osipov" weight="1"/>
+            <edge id="melochnoj_torgovets|dvoretskij" source="melochnoj_torgovets" target="dvoretskij" weight="1"/>
+            <edge id="melochnoj_torgovets|vasilij_shujskij" source="melochnoj_torgovets" target="vasilij_shujskij" weight="1"/>
+            <edge id="melochnoj_torgovets|kuptsy" source="melochnoj_torgovets" target="kuptsy" weight="1"/>
+            <edge id="melochnoj_torgovets|kupets_1-1" source="melochnoj_torgovets" target="kupets_1-1" weight="1"/>
+            <edge id="melochnoj_torgovets|dmitrij_shujskij" source="melochnoj_torgovets" target="dmitrij_shujskij" weight="1"/>
+            <edge id="osipov|dvoretskij" source="osipov" target="dvoretskij" weight="1"/>
+            <edge id="osipov|vasilij_shujskij" source="osipov" target="vasilij_shujskij" weight="3"/>
+            <edge id="osipov|kuptsy" source="osipov" target="kuptsy" weight="1"/>
+            <edge id="osipov|kupets_1-1" source="osipov" target="kupets_1-1" weight="1"/>
+            <edge id="osipov|dmitrij_shujskij" source="osipov" target="dmitrij_shujskij" weight="2"/>
+            <edge id="osipov|tatischev" source="osipov" target="tatischev" weight="2"/>
+            <edge id="osipov|golitsyn" source="osipov" target="golitsyn" weight="2"/>
+            <edge id="osipov|mstislavskij" source="osipov" target="mstislavskij" weight="1"/>
+            <edge id="osipov|buchinskij" source="osipov" target="buchinskij" weight="1"/>
+            <edge id="osipov|dmitrij" source="osipov" target="dmitrij" weight="2"/>
+            <edge id="osipov|basmanov" source="osipov" target="basmanov" weight="2"/>
+            <edge id="osipov|belskij" source="osipov" target="belskij" weight="1"/>
+            <edge id="osipov|masalskij" source="osipov" target="masalskij" weight="1"/>
+            <edge id="osipov|vlasev" source="osipov" target="vlasev" weight="1"/>
+            <edge id="osipov|golos_2-6" source="osipov" target="golos_2-6" weight="1"/>
+            <edge id="osipov|molchanov" source="osipov" target="molchanov" weight="1"/>
+            <edge id="osipov|golosa_tolpa_2-6" source="osipov" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="osipov|kurakin" source="osipov" target="kurakin" weight="1"/>
+            <edge id="osipov|streltsy" source="osipov" target="streltsy" weight="1"/>
+            <edge id="osipov|drugie_streltsy" source="osipov" target="drugie_streltsy" weight="1"/>
+            <edge id="osipov|sotnik_streletskij" source="osipov" target="sotnik_streletskij" weight="1"/>
+            <edge id="osipov|valuev" source="osipov" target="valuev" weight="1"/>
+            <edge id="osipov|neskolko_golosov" source="osipov" target="neskolko_golosov" weight="1"/>
+            <edge id="dvoretskij|vasilij_shujskij" source="dvoretskij" target="vasilij_shujskij" weight="3"/>
+            <edge id="dvoretskij|kuptsy" source="dvoretskij" target="kuptsy" weight="1"/>
+            <edge id="dvoretskij|kupets_1-1" source="dvoretskij" target="kupets_1-1" weight="1"/>
+            <edge id="dvoretskij|dmitrij_shujskij" source="dvoretskij" target="dmitrij_shujskij" weight="2"/>
+            <edge id="dvoretskij|masalskij" source="dvoretskij" target="masalskij" weight="1"/>
+            <edge id="dvoretskij|golitsyn" source="dvoretskij" target="golitsyn" weight="1"/>
+            <edge id="dvoretskij|kurakin" source="dvoretskij" target="kurakin" weight="1"/>
+            <edge id="dvoretskij|tatischev" source="dvoretskij" target="tatischev" weight="1"/>
+            <edge id="dvoretskij|golosa_2-3" source="dvoretskij" target="golosa_2-3" weight="1"/>
+            <edge id="dvoretskij|odin_iz_tolpy" source="dvoretskij" target="odin_iz_tolpy" weight="1"/>
+            <edge id="dvoretskij|novgorodskie_streltsy" source="dvoretskij" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="dvoretskij|pskovskie_streltsy" source="dvoretskij" target="pskovskie_streltsy" weight="1"/>
+            <edge id="dvoretskij|sotnik_2-3" source="dvoretskij" target="sotnik_2-3" weight="1"/>
+            <edge id="dvoretskij|kupets_2-3" source="dvoretskij" target="kupets_2-3" weight="1"/>
+            <edge id="vasilij_shujskij|kuptsy" source="vasilij_shujskij" target="kuptsy" weight="1"/>
+            <edge id="vasilij_shujskij|kupets_1-1" source="vasilij_shujskij" target="kupets_1-1" weight="1"/>
+            <edge id="vasilij_shujskij|dmitrij_shujskij" source="vasilij_shujskij" target="dmitrij_shujskij" weight="4"/>
+            <edge id="vasilij_shujskij|golosa_v_narode" source="vasilij_shujskij" target="golosa_v_narode" weight="1"/>
+            <edge id="vasilij_shujskij|pervyj_golos_iz_naroda" source="vasilij_shujskij" target="pervyj_golos_iz_naroda" weight="1"/>
+            <edge id="vasilij_shujskij|vtoroj_golos_iz_naroda" source="vasilij_shujskij" target="vtoroj_golos_iz_naroda" weight="1"/>
+            <edge id="vasilij_shujskij|basmanov" source="vasilij_shujskij" target="basmanov" weight="5"/>
+            <edge id="vasilij_shujskij|desjatskij_1-2" source="vasilij_shujskij" target="desjatskij_1-2" weight="1"/>
+            <edge id="vasilij_shujskij|mstislavskij" source="vasilij_shujskij" target="mstislavskij" weight="3"/>
+            <edge id="vasilij_shujskij|golitsyn" source="vasilij_shujskij" target="golitsyn" weight="6"/>
+            <edge id="vasilij_shujskij|kurakin" source="vasilij_shujskij" target="kurakin" weight="3"/>
+            <edge id="vasilij_shujskij|vorotynskij" source="vasilij_shujskij" target="vorotynskij" weight="2"/>
+            <edge id="vasilij_shujskij|belskij" source="vasilij_shujskij" target="belskij" weight="3"/>
+            <edge id="vasilij_shujskij|masalskij" source="vasilij_shujskij" target="masalskij" weight="4"/>
+            <edge id="vasilij_shujskij|desjatskie" source="vasilij_shujskij" target="desjatskie" weight="1"/>
+            <edge id="vasilij_shujskij|ves_narod_1-2" source="vasilij_shujskij" target="ves_narod_1-2" weight="1"/>
+            <edge id="vasilij_shujskij|dmitrij" source="vasilij_shujskij" target="dmitrij" weight="5"/>
+            <edge id="vasilij_shujskij|marzheret" source="vasilij_shujskij" target="marzheret" weight="1"/>
+            <edge id="vasilij_shujskij|kutska" source="vasilij_shujskij" target="kutska" weight="1"/>
+            <edge id="vasilij_shujskij|korela" source="vasilij_shujskij" target="korela" weight="1"/>
+            <edge id="vasilij_shujskij|nemtsy" source="vasilij_shujskij" target="nemtsy" weight="1"/>
+            <edge id="vasilij_shujskij|iezuit" source="vasilij_shujskij" target="iezuit" weight="1"/>
+            <edge id="vasilij_shujskij|buchinskij" source="vasilij_shujskij" target="buchinskij" weight="3"/>
+            <edge id="vasilij_shujskij|zaporozhtsy" source="vasilij_shujskij" target="zaporozhtsy" weight="1"/>
+            <edge id="vasilij_shujskij|schelkalov" source="vasilij_shujskij" target="schelkalov" weight="1"/>
+            <edge id="vasilij_shujskij|golosa_1-4" source="vasilij_shujskij" target="golosa_1-4" weight="1"/>
+            <edge id="vasilij_shujskij|odin_golos_1-4a" source="vasilij_shujskij" target="odin_golos_1-4a" weight="1"/>
+            <edge id="vasilij_shujskij|odin_golos_1-4b" source="vasilij_shujskij" target="odin_golos_1-4b" weight="1"/>
+            <edge id="vasilij_shujskij|tatischev" source="vasilij_shujskij" target="tatischev" weight="3"/>
+            <edge id="vasilij_shujskij|vlasev" source="vasilij_shujskij" target="vlasev" weight="1"/>
+            <edge id="vasilij_shujskij|golosa_2-3" source="vasilij_shujskij" target="golosa_2-3" weight="1"/>
+            <edge id="vasilij_shujskij|odin_iz_tolpy" source="vasilij_shujskij" target="odin_iz_tolpy" weight="1"/>
+            <edge id="vasilij_shujskij|novgorodskie_streltsy" source="vasilij_shujskij" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="vasilij_shujskij|pskovskie_streltsy" source="vasilij_shujskij" target="pskovskie_streltsy" weight="1"/>
+            <edge id="vasilij_shujskij|sotnik_2-3" source="vasilij_shujskij" target="sotnik_2-3" weight="1"/>
+            <edge id="vasilij_shujskij|kupets_2-3" source="vasilij_shujskij" target="kupets_2-3" weight="1"/>
+            <edge id="vasilij_shujskij|olesnitskij" source="vasilij_shujskij" target="olesnitskij" weight="1"/>
+            <edge id="vasilij_shujskij|marina" source="vasilij_shujskij" target="marina" weight="1"/>
+            <edge id="vasilij_shujskij|vishnevetskij" source="vasilij_shujskij" target="vishnevetskij" weight="1"/>
+            <edge id="vasilij_shujskij|mnishek" source="vasilij_shujskij" target="mnishek" weight="1"/>
+            <edge id="vasilij_shujskij|golos_2-6" source="vasilij_shujskij" target="golos_2-6" weight="1"/>
+            <edge id="vasilij_shujskij|molchanov" source="vasilij_shujskij" target="molchanov" weight="1"/>
+            <edge id="vasilij_shujskij|golosa_tolpa_2-6" source="vasilij_shujskij" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="vasilij_shujskij|streltsy" source="vasilij_shujskij" target="streltsy" weight="1"/>
+            <edge id="vasilij_shujskij|drugie_streltsy" source="vasilij_shujskij" target="drugie_streltsy" weight="1"/>
+            <edge id="vasilij_shujskij|sotnik_streletskij" source="vasilij_shujskij" target="sotnik_streletskij" weight="1"/>
+            <edge id="vasilij_shujskij|valuev" source="vasilij_shujskij" target="valuev" weight="1"/>
+            <edge id="vasilij_shujskij|neskolko_golosov" source="vasilij_shujskij" target="neskolko_golosov" weight="1"/>
+            <edge id="kuptsy|kupets_1-1" source="kuptsy" target="kupets_1-1" weight="1"/>
+            <edge id="kuptsy|dmitrij_shujskij" source="kuptsy" target="dmitrij_shujskij" weight="1"/>
+            <edge id="kupets_1-1|dmitrij_shujskij" source="kupets_1-1" target="dmitrij_shujskij" weight="1"/>
+            <edge id="dmitrij_shujskij|golosa_v_narode" source="dmitrij_shujskij" target="golosa_v_narode" weight="1"/>
+            <edge id="dmitrij_shujskij|pervyj_golos_iz_naroda" source="dmitrij_shujskij" target="pervyj_golos_iz_naroda" weight="1"/>
+            <edge id="dmitrij_shujskij|vtoroj_golos_iz_naroda" source="dmitrij_shujskij" target="vtoroj_golos_iz_naroda" weight="1"/>
+            <edge id="dmitrij_shujskij|basmanov" source="dmitrij_shujskij" target="basmanov" weight="2"/>
+            <edge id="dmitrij_shujskij|desjatskij_1-2" source="dmitrij_shujskij" target="desjatskij_1-2" weight="1"/>
+            <edge id="dmitrij_shujskij|mstislavskij" source="dmitrij_shujskij" target="mstislavskij" weight="1"/>
+            <edge id="dmitrij_shujskij|golitsyn" source="dmitrij_shujskij" target="golitsyn" weight="3"/>
+            <edge id="dmitrij_shujskij|kurakin" source="dmitrij_shujskij" target="kurakin" weight="3"/>
+            <edge id="dmitrij_shujskij|vorotynskij" source="dmitrij_shujskij" target="vorotynskij" weight="1"/>
+            <edge id="dmitrij_shujskij|belskij" source="dmitrij_shujskij" target="belskij" weight="1"/>
+            <edge id="dmitrij_shujskij|masalskij" source="dmitrij_shujskij" target="masalskij" weight="1"/>
+            <edge id="dmitrij_shujskij|desjatskie" source="dmitrij_shujskij" target="desjatskie" weight="1"/>
+            <edge id="dmitrij_shujskij|ves_narod_1-2" source="dmitrij_shujskij" target="ves_narod_1-2" weight="1"/>
+            <edge id="dmitrij_shujskij|dmitrij" source="dmitrij_shujskij" target="dmitrij" weight="2"/>
+            <edge id="dmitrij_shujskij|marzheret" source="dmitrij_shujskij" target="marzheret" weight="1"/>
+            <edge id="dmitrij_shujskij|kutska" source="dmitrij_shujskij" target="kutska" weight="1"/>
+            <edge id="dmitrij_shujskij|korela" source="dmitrij_shujskij" target="korela" weight="1"/>
+            <edge id="dmitrij_shujskij|nemtsy" source="dmitrij_shujskij" target="nemtsy" weight="1"/>
+            <edge id="dmitrij_shujskij|iezuit" source="dmitrij_shujskij" target="iezuit" weight="1"/>
+            <edge id="dmitrij_shujskij|buchinskij" source="dmitrij_shujskij" target="buchinskij" weight="1"/>
+            <edge id="dmitrij_shujskij|zaporozhtsy" source="dmitrij_shujskij" target="zaporozhtsy" weight="1"/>
+            <edge id="dmitrij_shujskij|tatischev" source="dmitrij_shujskij" target="tatischev" weight="2"/>
+            <edge id="dmitrij_shujskij|golosa_2-3" source="dmitrij_shujskij" target="golosa_2-3" weight="1"/>
+            <edge id="dmitrij_shujskij|odin_iz_tolpy" source="dmitrij_shujskij" target="odin_iz_tolpy" weight="1"/>
+            <edge id="dmitrij_shujskij|novgorodskie_streltsy" source="dmitrij_shujskij" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="dmitrij_shujskij|pskovskie_streltsy" source="dmitrij_shujskij" target="pskovskie_streltsy" weight="1"/>
+            <edge id="dmitrij_shujskij|sotnik_2-3" source="dmitrij_shujskij" target="sotnik_2-3" weight="1"/>
+            <edge id="dmitrij_shujskij|kupets_2-3" source="dmitrij_shujskij" target="kupets_2-3" weight="1"/>
+            <edge id="dmitrij_shujskij|golos_2-6" source="dmitrij_shujskij" target="golos_2-6" weight="1"/>
+            <edge id="dmitrij_shujskij|molchanov" source="dmitrij_shujskij" target="molchanov" weight="1"/>
+            <edge id="dmitrij_shujskij|golosa_tolpa_2-6" source="dmitrij_shujskij" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="dmitrij_shujskij|streltsy" source="dmitrij_shujskij" target="streltsy" weight="1"/>
+            <edge id="dmitrij_shujskij|drugie_streltsy" source="dmitrij_shujskij" target="drugie_streltsy" weight="1"/>
+            <edge id="dmitrij_shujskij|sotnik_streletskij" source="dmitrij_shujskij" target="sotnik_streletskij" weight="1"/>
+            <edge id="dmitrij_shujskij|valuev" source="dmitrij_shujskij" target="valuev" weight="1"/>
+            <edge id="dmitrij_shujskij|neskolko_golosov" source="dmitrij_shujskij" target="neskolko_golosov" weight="1"/>
+            <edge id="golosa_v_narode|pervyj_golos_iz_naroda" source="golosa_v_narode" target="pervyj_golos_iz_naroda" weight="1"/>
+            <edge id="golosa_v_narode|vtoroj_golos_iz_naroda" source="golosa_v_narode" target="vtoroj_golos_iz_naroda" weight="1"/>
+            <edge id="golosa_v_narode|basmanov" source="golosa_v_narode" target="basmanov" weight="1"/>
+            <edge id="golosa_v_narode|desjatskij_1-2" source="golosa_v_narode" target="desjatskij_1-2" weight="1"/>
+            <edge id="golosa_v_narode|mstislavskij" source="golosa_v_narode" target="mstislavskij" weight="1"/>
+            <edge id="golosa_v_narode|golitsyn" source="golosa_v_narode" target="golitsyn" weight="1"/>
+            <edge id="golosa_v_narode|kurakin" source="golosa_v_narode" target="kurakin" weight="1"/>
+            <edge id="golosa_v_narode|vorotynskij" source="golosa_v_narode" target="vorotynskij" weight="1"/>
+            <edge id="golosa_v_narode|belskij" source="golosa_v_narode" target="belskij" weight="1"/>
+            <edge id="golosa_v_narode|masalskij" source="golosa_v_narode" target="masalskij" weight="1"/>
+            <edge id="golosa_v_narode|desjatskie" source="golosa_v_narode" target="desjatskie" weight="1"/>
+            <edge id="golosa_v_narode|ves_narod_1-2" source="golosa_v_narode" target="ves_narod_1-2" weight="1"/>
+            <edge id="golosa_v_narode|dmitrij" source="golosa_v_narode" target="dmitrij" weight="1"/>
+            <edge id="golosa_v_narode|marzheret" source="golosa_v_narode" target="marzheret" weight="1"/>
+            <edge id="golosa_v_narode|kutska" source="golosa_v_narode" target="kutska" weight="1"/>
+            <edge id="golosa_v_narode|korela" source="golosa_v_narode" target="korela" weight="1"/>
+            <edge id="golosa_v_narode|nemtsy" source="golosa_v_narode" target="nemtsy" weight="1"/>
+            <edge id="golosa_v_narode|iezuit" source="golosa_v_narode" target="iezuit" weight="1"/>
+            <edge id="golosa_v_narode|buchinskij" source="golosa_v_narode" target="buchinskij" weight="1"/>
+            <edge id="golosa_v_narode|zaporozhtsy" source="golosa_v_narode" target="zaporozhtsy" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|vtoroj_golos_iz_naroda" source="pervyj_golos_iz_naroda" target="vtoroj_golos_iz_naroda" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|basmanov" source="pervyj_golos_iz_naroda" target="basmanov" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|desjatskij_1-2" source="pervyj_golos_iz_naroda" target="desjatskij_1-2" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|mstislavskij" source="pervyj_golos_iz_naroda" target="mstislavskij" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|golitsyn" source="pervyj_golos_iz_naroda" target="golitsyn" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|kurakin" source="pervyj_golos_iz_naroda" target="kurakin" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|vorotynskij" source="pervyj_golos_iz_naroda" target="vorotynskij" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|belskij" source="pervyj_golos_iz_naroda" target="belskij" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|masalskij" source="pervyj_golos_iz_naroda" target="masalskij" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|desjatskie" source="pervyj_golos_iz_naroda" target="desjatskie" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|ves_narod_1-2" source="pervyj_golos_iz_naroda" target="ves_narod_1-2" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|dmitrij" source="pervyj_golos_iz_naroda" target="dmitrij" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|marzheret" source="pervyj_golos_iz_naroda" target="marzheret" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|kutska" source="pervyj_golos_iz_naroda" target="kutska" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|korela" source="pervyj_golos_iz_naroda" target="korela" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|nemtsy" source="pervyj_golos_iz_naroda" target="nemtsy" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|iezuit" source="pervyj_golos_iz_naroda" target="iezuit" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|buchinskij" source="pervyj_golos_iz_naroda" target="buchinskij" weight="1"/>
+            <edge id="pervyj_golos_iz_naroda|zaporozhtsy" source="pervyj_golos_iz_naroda" target="zaporozhtsy" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|basmanov" source="vtoroj_golos_iz_naroda" target="basmanov" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|desjatskij_1-2" source="vtoroj_golos_iz_naroda" target="desjatskij_1-2" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|mstislavskij" source="vtoroj_golos_iz_naroda" target="mstislavskij" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|golitsyn" source="vtoroj_golos_iz_naroda" target="golitsyn" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|kurakin" source="vtoroj_golos_iz_naroda" target="kurakin" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|vorotynskij" source="vtoroj_golos_iz_naroda" target="vorotynskij" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|belskij" source="vtoroj_golos_iz_naroda" target="belskij" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|masalskij" source="vtoroj_golos_iz_naroda" target="masalskij" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|desjatskie" source="vtoroj_golos_iz_naroda" target="desjatskie" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|ves_narod_1-2" source="vtoroj_golos_iz_naroda" target="ves_narod_1-2" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|dmitrij" source="vtoroj_golos_iz_naroda" target="dmitrij" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|marzheret" source="vtoroj_golos_iz_naroda" target="marzheret" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|kutska" source="vtoroj_golos_iz_naroda" target="kutska" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|korela" source="vtoroj_golos_iz_naroda" target="korela" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|nemtsy" source="vtoroj_golos_iz_naroda" target="nemtsy" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|iezuit" source="vtoroj_golos_iz_naroda" target="iezuit" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|buchinskij" source="vtoroj_golos_iz_naroda" target="buchinskij" weight="1"/>
+            <edge id="vtoroj_golos_iz_naroda|zaporozhtsy" source="vtoroj_golos_iz_naroda" target="zaporozhtsy" weight="1"/>
+            <edge id="basmanov|desjatskij_1-2" source="basmanov" target="desjatskij_1-2" weight="1"/>
+            <edge id="basmanov|mstislavskij" source="basmanov" target="mstislavskij" weight="3"/>
+            <edge id="basmanov|golitsyn" source="basmanov" target="golitsyn" weight="5"/>
+            <edge id="basmanov|kurakin" source="basmanov" target="kurakin" weight="2"/>
+            <edge id="basmanov|vorotynskij" source="basmanov" target="vorotynskij" weight="2"/>
+            <edge id="basmanov|belskij" source="basmanov" target="belskij" weight="3"/>
+            <edge id="basmanov|masalskij" source="basmanov" target="masalskij" weight="3"/>
+            <edge id="basmanov|desjatskie" source="basmanov" target="desjatskie" weight="1"/>
+            <edge id="basmanov|ves_narod_1-2" source="basmanov" target="ves_narod_1-2" weight="1"/>
+            <edge id="basmanov|dmitrij" source="basmanov" target="dmitrij" weight="7"/>
+            <edge id="basmanov|marzheret" source="basmanov" target="marzheret" weight="1"/>
+            <edge id="basmanov|kutska" source="basmanov" target="kutska" weight="1"/>
+            <edge id="basmanov|korela" source="basmanov" target="korela" weight="1"/>
+            <edge id="basmanov|nemtsy" source="basmanov" target="nemtsy" weight="1"/>
+            <edge id="basmanov|iezuit" source="basmanov" target="iezuit" weight="2"/>
+            <edge id="basmanov|buchinskij" source="basmanov" target="buchinskij" weight="4"/>
+            <edge id="basmanov|zaporozhtsy" source="basmanov" target="zaporozhtsy" weight="1"/>
+            <edge id="basmanov|schelkalov" source="basmanov" target="schelkalov" weight="1"/>
+            <edge id="basmanov|golosa_1-4" source="basmanov" target="golosa_1-4" weight="1"/>
+            <edge id="basmanov|odin_golos_1-4a" source="basmanov" target="odin_golos_1-4a" weight="1"/>
+            <edge id="basmanov|odin_golos_1-4b" source="basmanov" target="odin_golos_1-4b" weight="1"/>
+            <edge id="basmanov|tsaritsa_marfa" source="basmanov" target="tsaritsa_marfa" weight="1"/>
+            <edge id="basmanov|skopin-shujskij" source="basmanov" target="skopin-shujskij" weight="1"/>
+            <edge id="basmanov|narod_1-5" source="basmanov" target="narod_1-5" weight="1"/>
+            <edge id="basmanov|tatischev" source="basmanov" target="tatischev" weight="2"/>
+            <edge id="basmanov|vlasev" source="basmanov" target="vlasev" weight="1"/>
+            <edge id="basmanov|olesnitskij" source="basmanov" target="olesnitskij" weight="1"/>
+            <edge id="basmanov|marina" source="basmanov" target="marina" weight="1"/>
+            <edge id="basmanov|vishnevetskij" source="basmanov" target="vishnevetskij" weight="1"/>
+            <edge id="basmanov|mnishek" source="basmanov" target="mnishek" weight="1"/>
+            <edge id="basmanov|golos_2-6" source="basmanov" target="golos_2-6" weight="1"/>
+            <edge id="basmanov|molchanov" source="basmanov" target="molchanov" weight="1"/>
+            <edge id="basmanov|golosa_tolpa_2-6" source="basmanov" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="basmanov|streltsy" source="basmanov" target="streltsy" weight="1"/>
+            <edge id="basmanov|drugie_streltsy" source="basmanov" target="drugie_streltsy" weight="1"/>
+            <edge id="basmanov|sotnik_streletskij" source="basmanov" target="sotnik_streletskij" weight="1"/>
+            <edge id="basmanov|valuev" source="basmanov" target="valuev" weight="1"/>
+            <edge id="basmanov|neskolko_golosov" source="basmanov" target="neskolko_golosov" weight="1"/>
+            <edge id="desjatskij_1-2|mstislavskij" source="desjatskij_1-2" target="mstislavskij" weight="1"/>
+            <edge id="desjatskij_1-2|golitsyn" source="desjatskij_1-2" target="golitsyn" weight="1"/>
+            <edge id="desjatskij_1-2|kurakin" source="desjatskij_1-2" target="kurakin" weight="1"/>
+            <edge id="desjatskij_1-2|vorotynskij" source="desjatskij_1-2" target="vorotynskij" weight="1"/>
+            <edge id="desjatskij_1-2|belskij" source="desjatskij_1-2" target="belskij" weight="1"/>
+            <edge id="desjatskij_1-2|masalskij" source="desjatskij_1-2" target="masalskij" weight="1"/>
+            <edge id="desjatskij_1-2|desjatskie" source="desjatskij_1-2" target="desjatskie" weight="1"/>
+            <edge id="desjatskij_1-2|ves_narod_1-2" source="desjatskij_1-2" target="ves_narod_1-2" weight="1"/>
+            <edge id="desjatskij_1-2|dmitrij" source="desjatskij_1-2" target="dmitrij" weight="1"/>
+            <edge id="desjatskij_1-2|marzheret" source="desjatskij_1-2" target="marzheret" weight="1"/>
+            <edge id="desjatskij_1-2|kutska" source="desjatskij_1-2" target="kutska" weight="1"/>
+            <edge id="desjatskij_1-2|korela" source="desjatskij_1-2" target="korela" weight="1"/>
+            <edge id="desjatskij_1-2|nemtsy" source="desjatskij_1-2" target="nemtsy" weight="1"/>
+            <edge id="desjatskij_1-2|iezuit" source="desjatskij_1-2" target="iezuit" weight="1"/>
+            <edge id="desjatskij_1-2|buchinskij" source="desjatskij_1-2" target="buchinskij" weight="1"/>
+            <edge id="desjatskij_1-2|zaporozhtsy" source="desjatskij_1-2" target="zaporozhtsy" weight="1"/>
+            <edge id="mstislavskij|golitsyn" source="mstislavskij" target="golitsyn" weight="4"/>
+            <edge id="mstislavskij|kurakin" source="mstislavskij" target="kurakin" weight="2"/>
+            <edge id="mstislavskij|vorotynskij" source="mstislavskij" target="vorotynskij" weight="3"/>
+            <edge id="mstislavskij|belskij" source="mstislavskij" target="belskij" weight="3"/>
+            <edge id="mstislavskij|masalskij" source="mstislavskij" target="masalskij" weight="3"/>
+            <edge id="mstislavskij|desjatskie" source="mstislavskij" target="desjatskie" weight="1"/>
+            <edge id="mstislavskij|ves_narod_1-2" source="mstislavskij" target="ves_narod_1-2" weight="1"/>
+            <edge id="mstislavskij|dmitrij" source="mstislavskij" target="dmitrij" weight="3"/>
+            <edge id="mstislavskij|marzheret" source="mstislavskij" target="marzheret" weight="1"/>
+            <edge id="mstislavskij|kutska" source="mstislavskij" target="kutska" weight="1"/>
+            <edge id="mstislavskij|korela" source="mstislavskij" target="korela" weight="1"/>
+            <edge id="mstislavskij|nemtsy" source="mstislavskij" target="nemtsy" weight="1"/>
+            <edge id="mstislavskij|iezuit" source="mstislavskij" target="iezuit" weight="1"/>
+            <edge id="mstislavskij|buchinskij" source="mstislavskij" target="buchinskij" weight="2"/>
+            <edge id="mstislavskij|zaporozhtsy" source="mstislavskij" target="zaporozhtsy" weight="1"/>
+            <edge id="mstislavskij|schelkalov" source="mstislavskij" target="schelkalov" weight="1"/>
+            <edge id="mstislavskij|golosa_1-4" source="mstislavskij" target="golosa_1-4" weight="1"/>
+            <edge id="mstislavskij|odin_golos_1-4a" source="mstislavskij" target="odin_golos_1-4a" weight="1"/>
+            <edge id="mstislavskij|odin_golos_1-4b" source="mstislavskij" target="odin_golos_1-4b" weight="1"/>
+            <edge id="mstislavskij|tatischev" source="mstislavskij" target="tatischev" weight="1"/>
+            <edge id="mstislavskij|vlasev" source="mstislavskij" target="vlasev" weight="1"/>
+            <edge id="golitsyn|kurakin" source="golitsyn" target="kurakin" weight="4"/>
+            <edge id="golitsyn|vorotynskij" source="golitsyn" target="vorotynskij" weight="3"/>
+            <edge id="golitsyn|belskij" source="golitsyn" target="belskij" weight="3"/>
+            <edge id="golitsyn|masalskij" source="golitsyn" target="masalskij" weight="3"/>
+            <edge id="golitsyn|desjatskie" source="golitsyn" target="desjatskie" weight="1"/>
+            <edge id="golitsyn|ves_narod_1-2" source="golitsyn" target="ves_narod_1-2" weight="1"/>
+            <edge id="golitsyn|dmitrij" source="golitsyn" target="dmitrij" weight="5"/>
+            <edge id="golitsyn|marzheret" source="golitsyn" target="marzheret" weight="1"/>
+            <edge id="golitsyn|kutska" source="golitsyn" target="kutska" weight="1"/>
+            <edge id="golitsyn|korela" source="golitsyn" target="korela" weight="1"/>
+            <edge id="golitsyn|nemtsy" source="golitsyn" target="nemtsy" weight="1"/>
+            <edge id="golitsyn|iezuit" source="golitsyn" target="iezuit" weight="1"/>
+            <edge id="golitsyn|buchinskij" source="golitsyn" target="buchinskij" weight="3"/>
+            <edge id="golitsyn|zaporozhtsy" source="golitsyn" target="zaporozhtsy" weight="1"/>
+            <edge id="golitsyn|schelkalov" source="golitsyn" target="schelkalov" weight="1"/>
+            <edge id="golitsyn|golosa_1-4" source="golitsyn" target="golosa_1-4" weight="1"/>
+            <edge id="golitsyn|odin_golos_1-4a" source="golitsyn" target="odin_golos_1-4a" weight="1"/>
+            <edge id="golitsyn|odin_golos_1-4b" source="golitsyn" target="odin_golos_1-4b" weight="1"/>
+            <edge id="golitsyn|tatischev" source="golitsyn" target="tatischev" weight="3"/>
+            <edge id="golitsyn|vlasev" source="golitsyn" target="vlasev" weight="1"/>
+            <edge id="golitsyn|golosa_2-3" source="golitsyn" target="golosa_2-3" weight="1"/>
+            <edge id="golitsyn|odin_iz_tolpy" source="golitsyn" target="odin_iz_tolpy" weight="1"/>
+            <edge id="golitsyn|novgorodskie_streltsy" source="golitsyn" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="golitsyn|pskovskie_streltsy" source="golitsyn" target="pskovskie_streltsy" weight="1"/>
+            <edge id="golitsyn|sotnik_2-3" source="golitsyn" target="sotnik_2-3" weight="1"/>
+            <edge id="golitsyn|kupets_2-3" source="golitsyn" target="kupets_2-3" weight="1"/>
+            <edge id="golitsyn|olesnitskij" source="golitsyn" target="olesnitskij" weight="1"/>
+            <edge id="golitsyn|marina" source="golitsyn" target="marina" weight="1"/>
+            <edge id="golitsyn|vishnevetskij" source="golitsyn" target="vishnevetskij" weight="1"/>
+            <edge id="golitsyn|mnishek" source="golitsyn" target="mnishek" weight="1"/>
+            <edge id="golitsyn|golos_2-6" source="golitsyn" target="golos_2-6" weight="1"/>
+            <edge id="golitsyn|molchanov" source="golitsyn" target="molchanov" weight="1"/>
+            <edge id="golitsyn|golosa_tolpa_2-6" source="golitsyn" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="golitsyn|streltsy" source="golitsyn" target="streltsy" weight="1"/>
+            <edge id="golitsyn|drugie_streltsy" source="golitsyn" target="drugie_streltsy" weight="1"/>
+            <edge id="golitsyn|sotnik_streletskij" source="golitsyn" target="sotnik_streletskij" weight="1"/>
+            <edge id="golitsyn|valuev" source="golitsyn" target="valuev" weight="1"/>
+            <edge id="golitsyn|neskolko_golosov" source="golitsyn" target="neskolko_golosov" weight="1"/>
+            <edge id="kurakin|vorotynskij" source="kurakin" target="vorotynskij" weight="2"/>
+            <edge id="kurakin|belskij" source="kurakin" target="belskij" weight="1"/>
+            <edge id="kurakin|masalskij" source="kurakin" target="masalskij" weight="1"/>
+            <edge id="kurakin|desjatskie" source="kurakin" target="desjatskie" weight="1"/>
+            <edge id="kurakin|ves_narod_1-2" source="kurakin" target="ves_narod_1-2" weight="1"/>
+            <edge id="kurakin|dmitrij" source="kurakin" target="dmitrij" weight="2"/>
+            <edge id="kurakin|marzheret" source="kurakin" target="marzheret" weight="1"/>
+            <edge id="kurakin|kutska" source="kurakin" target="kutska" weight="1"/>
+            <edge id="kurakin|korela" source="kurakin" target="korela" weight="1"/>
+            <edge id="kurakin|nemtsy" source="kurakin" target="nemtsy" weight="1"/>
+            <edge id="kurakin|iezuit" source="kurakin" target="iezuit" weight="1"/>
+            <edge id="kurakin|buchinskij" source="kurakin" target="buchinskij" weight="1"/>
+            <edge id="kurakin|zaporozhtsy" source="kurakin" target="zaporozhtsy" weight="1"/>
+            <edge id="kurakin|tatischev" source="kurakin" target="tatischev" weight="2"/>
+            <edge id="kurakin|golosa_2-3" source="kurakin" target="golosa_2-3" weight="1"/>
+            <edge id="kurakin|odin_iz_tolpy" source="kurakin" target="odin_iz_tolpy" weight="1"/>
+            <edge id="kurakin|novgorodskie_streltsy" source="kurakin" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="kurakin|pskovskie_streltsy" source="kurakin" target="pskovskie_streltsy" weight="1"/>
+            <edge id="kurakin|sotnik_2-3" source="kurakin" target="sotnik_2-3" weight="1"/>
+            <edge id="kurakin|kupets_2-3" source="kurakin" target="kupets_2-3" weight="1"/>
+            <edge id="kurakin|golos_2-6" source="kurakin" target="golos_2-6" weight="1"/>
+            <edge id="kurakin|molchanov" source="kurakin" target="molchanov" weight="1"/>
+            <edge id="kurakin|golosa_tolpa_2-6" source="kurakin" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="kurakin|streltsy" source="kurakin" target="streltsy" weight="1"/>
+            <edge id="kurakin|drugie_streltsy" source="kurakin" target="drugie_streltsy" weight="1"/>
+            <edge id="kurakin|sotnik_streletskij" source="kurakin" target="sotnik_streletskij" weight="1"/>
+            <edge id="kurakin|valuev" source="kurakin" target="valuev" weight="1"/>
+            <edge id="kurakin|neskolko_golosov" source="kurakin" target="neskolko_golosov" weight="1"/>
+            <edge id="vorotynskij|belskij" source="vorotynskij" target="belskij" weight="2"/>
+            <edge id="vorotynskij|masalskij" source="vorotynskij" target="masalskij" weight="2"/>
+            <edge id="vorotynskij|desjatskie" source="vorotynskij" target="desjatskie" weight="1"/>
+            <edge id="vorotynskij|ves_narod_1-2" source="vorotynskij" target="ves_narod_1-2" weight="1"/>
+            <edge id="vorotynskij|dmitrij" source="vorotynskij" target="dmitrij" weight="2"/>
+            <edge id="vorotynskij|marzheret" source="vorotynskij" target="marzheret" weight="1"/>
+            <edge id="vorotynskij|kutska" source="vorotynskij" target="kutska" weight="1"/>
+            <edge id="vorotynskij|korela" source="vorotynskij" target="korela" weight="1"/>
+            <edge id="vorotynskij|nemtsy" source="vorotynskij" target="nemtsy" weight="1"/>
+            <edge id="vorotynskij|iezuit" source="vorotynskij" target="iezuit" weight="1"/>
+            <edge id="vorotynskij|buchinskij" source="vorotynskij" target="buchinskij" weight="1"/>
+            <edge id="vorotynskij|zaporozhtsy" source="vorotynskij" target="zaporozhtsy" weight="1"/>
+            <edge id="vorotynskij|schelkalov" source="vorotynskij" target="schelkalov" weight="1"/>
+            <edge id="vorotynskij|golosa_1-4" source="vorotynskij" target="golosa_1-4" weight="1"/>
+            <edge id="vorotynskij|odin_golos_1-4a" source="vorotynskij" target="odin_golos_1-4a" weight="1"/>
+            <edge id="vorotynskij|odin_golos_1-4b" source="vorotynskij" target="odin_golos_1-4b" weight="1"/>
+            <edge id="belskij|masalskij" source="belskij" target="masalskij" weight="3"/>
+            <edge id="belskij|desjatskie" source="belskij" target="desjatskie" weight="1"/>
+            <edge id="belskij|ves_narod_1-2" source="belskij" target="ves_narod_1-2" weight="1"/>
+            <edge id="belskij|dmitrij" source="belskij" target="dmitrij" weight="3"/>
+            <edge id="belskij|marzheret" source="belskij" target="marzheret" weight="1"/>
+            <edge id="belskij|kutska" source="belskij" target="kutska" weight="1"/>
+            <edge id="belskij|korela" source="belskij" target="korela" weight="1"/>
+            <edge id="belskij|nemtsy" source="belskij" target="nemtsy" weight="1"/>
+            <edge id="belskij|iezuit" source="belskij" target="iezuit" weight="1"/>
+            <edge id="belskij|buchinskij" source="belskij" target="buchinskij" weight="2"/>
+            <edge id="belskij|zaporozhtsy" source="belskij" target="zaporozhtsy" weight="1"/>
+            <edge id="belskij|schelkalov" source="belskij" target="schelkalov" weight="1"/>
+            <edge id="belskij|golosa_1-4" source="belskij" target="golosa_1-4" weight="1"/>
+            <edge id="belskij|odin_golos_1-4a" source="belskij" target="odin_golos_1-4a" weight="1"/>
+            <edge id="belskij|odin_golos_1-4b" source="belskij" target="odin_golos_1-4b" weight="1"/>
+            <edge id="belskij|tatischev" source="belskij" target="tatischev" weight="1"/>
+            <edge id="belskij|vlasev" source="belskij" target="vlasev" weight="1"/>
+            <edge id="masalskij|desjatskie" source="masalskij" target="desjatskie" weight="1"/>
+            <edge id="masalskij|ves_narod_1-2" source="masalskij" target="ves_narod_1-2" weight="1"/>
+            <edge id="masalskij|dmitrij" source="masalskij" target="dmitrij" weight="3"/>
+            <edge id="masalskij|marzheret" source="masalskij" target="marzheret" weight="1"/>
+            <edge id="masalskij|kutska" source="masalskij" target="kutska" weight="1"/>
+            <edge id="masalskij|korela" source="masalskij" target="korela" weight="1"/>
+            <edge id="masalskij|nemtsy" source="masalskij" target="nemtsy" weight="1"/>
+            <edge id="masalskij|iezuit" source="masalskij" target="iezuit" weight="1"/>
+            <edge id="masalskij|buchinskij" source="masalskij" target="buchinskij" weight="2"/>
+            <edge id="masalskij|zaporozhtsy" source="masalskij" target="zaporozhtsy" weight="1"/>
+            <edge id="masalskij|schelkalov" source="masalskij" target="schelkalov" weight="1"/>
+            <edge id="masalskij|golosa_1-4" source="masalskij" target="golosa_1-4" weight="1"/>
+            <edge id="masalskij|odin_golos_1-4a" source="masalskij" target="odin_golos_1-4a" weight="1"/>
+            <edge id="masalskij|odin_golos_1-4b" source="masalskij" target="odin_golos_1-4b" weight="1"/>
+            <edge id="masalskij|tatischev" source="masalskij" target="tatischev" weight="1"/>
+            <edge id="masalskij|vlasev" source="masalskij" target="vlasev" weight="1"/>
+            <edge id="desjatskie|ves_narod_1-2" source="desjatskie" target="ves_narod_1-2" weight="1"/>
+            <edge id="desjatskie|dmitrij" source="desjatskie" target="dmitrij" weight="1"/>
+            <edge id="desjatskie|marzheret" source="desjatskie" target="marzheret" weight="1"/>
+            <edge id="desjatskie|kutska" source="desjatskie" target="kutska" weight="1"/>
+            <edge id="desjatskie|korela" source="desjatskie" target="korela" weight="1"/>
+            <edge id="desjatskie|nemtsy" source="desjatskie" target="nemtsy" weight="1"/>
+            <edge id="desjatskie|iezuit" source="desjatskie" target="iezuit" weight="1"/>
+            <edge id="desjatskie|buchinskij" source="desjatskie" target="buchinskij" weight="1"/>
+            <edge id="desjatskie|zaporozhtsy" source="desjatskie" target="zaporozhtsy" weight="1"/>
+            <edge id="ves_narod_1-2|dmitrij" source="ves_narod_1-2" target="dmitrij" weight="1"/>
+            <edge id="ves_narod_1-2|marzheret" source="ves_narod_1-2" target="marzheret" weight="1"/>
+            <edge id="ves_narod_1-2|kutska" source="ves_narod_1-2" target="kutska" weight="1"/>
+            <edge id="ves_narod_1-2|korela" source="ves_narod_1-2" target="korela" weight="1"/>
+            <edge id="ves_narod_1-2|nemtsy" source="ves_narod_1-2" target="nemtsy" weight="1"/>
+            <edge id="ves_narod_1-2|iezuit" source="ves_narod_1-2" target="iezuit" weight="1"/>
+            <edge id="ves_narod_1-2|buchinskij" source="ves_narod_1-2" target="buchinskij" weight="1"/>
+            <edge id="ves_narod_1-2|zaporozhtsy" source="ves_narod_1-2" target="zaporozhtsy" weight="1"/>
+            <edge id="dmitrij|marzheret" source="dmitrij" target="marzheret" weight="1"/>
+            <edge id="dmitrij|kutska" source="dmitrij" target="kutska" weight="1"/>
+            <edge id="dmitrij|korela" source="dmitrij" target="korela" weight="1"/>
+            <edge id="dmitrij|nemtsy" source="dmitrij" target="nemtsy" weight="1"/>
+            <edge id="dmitrij|iezuit" source="dmitrij" target="iezuit" weight="2"/>
+            <edge id="dmitrij|buchinskij" source="dmitrij" target="buchinskij" weight="4"/>
+            <edge id="dmitrij|zaporozhtsy" source="dmitrij" target="zaporozhtsy" weight="1"/>
+            <edge id="dmitrij|schelkalov" source="dmitrij" target="schelkalov" weight="1"/>
+            <edge id="dmitrij|golosa_1-4" source="dmitrij" target="golosa_1-4" weight="1"/>
+            <edge id="dmitrij|odin_golos_1-4a" source="dmitrij" target="odin_golos_1-4a" weight="1"/>
+            <edge id="dmitrij|odin_golos_1-4b" source="dmitrij" target="odin_golos_1-4b" weight="1"/>
+            <edge id="dmitrij|tsaritsa_marfa" source="dmitrij" target="tsaritsa_marfa" weight="1"/>
+            <edge id="dmitrij|skopin-shujskij" source="dmitrij" target="skopin-shujskij" weight="1"/>
+            <edge id="dmitrij|narod_1-5" source="dmitrij" target="narod_1-5" weight="1"/>
+            <edge id="dmitrij|tatischev" source="dmitrij" target="tatischev" weight="2"/>
+            <edge id="dmitrij|vlasev" source="dmitrij" target="vlasev" weight="1"/>
+            <edge id="dmitrij|marina" source="dmitrij" target="marina" weight="2"/>
+            <edge id="dmitrij|mnishek" source="dmitrij" target="mnishek" weight="2"/>
+            <edge id="dmitrij|kameristka" source="dmitrij" target="kameristka" weight="1"/>
+            <edge id="dmitrij|olesnitskij" source="dmitrij" target="olesnitskij" weight="1"/>
+            <edge id="dmitrij|vishnevetskij" source="dmitrij" target="vishnevetskij" weight="1"/>
+            <edge id="dmitrij|golos_2-6" source="dmitrij" target="golos_2-6" weight="1"/>
+            <edge id="dmitrij|molchanov" source="dmitrij" target="molchanov" weight="1"/>
+            <edge id="dmitrij|golosa_tolpa_2-6" source="dmitrij" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="dmitrij|streltsy" source="dmitrij" target="streltsy" weight="1"/>
+            <edge id="dmitrij|drugie_streltsy" source="dmitrij" target="drugie_streltsy" weight="1"/>
+            <edge id="dmitrij|sotnik_streletskij" source="dmitrij" target="sotnik_streletskij" weight="1"/>
+            <edge id="dmitrij|valuev" source="dmitrij" target="valuev" weight="1"/>
+            <edge id="dmitrij|neskolko_golosov" source="dmitrij" target="neskolko_golosov" weight="1"/>
+            <edge id="marzheret|kutska" source="marzheret" target="kutska" weight="1"/>
+            <edge id="marzheret|korela" source="marzheret" target="korela" weight="1"/>
+            <edge id="marzheret|nemtsy" source="marzheret" target="nemtsy" weight="1"/>
+            <edge id="marzheret|iezuit" source="marzheret" target="iezuit" weight="1"/>
+            <edge id="marzheret|buchinskij" source="marzheret" target="buchinskij" weight="1"/>
+            <edge id="marzheret|zaporozhtsy" source="marzheret" target="zaporozhtsy" weight="1"/>
+            <edge id="kutska|korela" source="kutska" target="korela" weight="1"/>
+            <edge id="kutska|nemtsy" source="kutska" target="nemtsy" weight="1"/>
+            <edge id="kutska|iezuit" source="kutska" target="iezuit" weight="1"/>
+            <edge id="kutska|buchinskij" source="kutska" target="buchinskij" weight="1"/>
+            <edge id="kutska|zaporozhtsy" source="kutska" target="zaporozhtsy" weight="1"/>
+            <edge id="korela|nemtsy" source="korela" target="nemtsy" weight="1"/>
+            <edge id="korela|iezuit" source="korela" target="iezuit" weight="1"/>
+            <edge id="korela|buchinskij" source="korela" target="buchinskij" weight="1"/>
+            <edge id="korela|zaporozhtsy" source="korela" target="zaporozhtsy" weight="1"/>
+            <edge id="nemtsy|iezuit" source="nemtsy" target="iezuit" weight="1"/>
+            <edge id="nemtsy|buchinskij" source="nemtsy" target="buchinskij" weight="1"/>
+            <edge id="nemtsy|zaporozhtsy" source="nemtsy" target="zaporozhtsy" weight="1"/>
+            <edge id="iezuit|buchinskij" source="iezuit" target="buchinskij" weight="2"/>
+            <edge id="iezuit|zaporozhtsy" source="iezuit" target="zaporozhtsy" weight="1"/>
+            <edge id="buchinskij|zaporozhtsy" source="buchinskij" target="zaporozhtsy" weight="1"/>
+            <edge id="buchinskij|tatischev" source="buchinskij" target="tatischev" weight="1"/>
+            <edge id="buchinskij|vlasev" source="buchinskij" target="vlasev" weight="1"/>
+            <edge id="buchinskij|olesnitskij" source="buchinskij" target="olesnitskij" weight="1"/>
+            <edge id="buchinskij|marina" source="buchinskij" target="marina" weight="1"/>
+            <edge id="buchinskij|vishnevetskij" source="buchinskij" target="vishnevetskij" weight="1"/>
+            <edge id="buchinskij|mnishek" source="buchinskij" target="mnishek" weight="1"/>
+            <edge id="schelkalov|golosa_1-4" source="schelkalov" target="golosa_1-4" weight="1"/>
+            <edge id="schelkalov|odin_golos_1-4a" source="schelkalov" target="odin_golos_1-4a" weight="1"/>
+            <edge id="schelkalov|odin_golos_1-4b" source="schelkalov" target="odin_golos_1-4b" weight="1"/>
+            <edge id="golosa_1-4|odin_golos_1-4a" source="golosa_1-4" target="odin_golos_1-4a" weight="1"/>
+            <edge id="golosa_1-4|odin_golos_1-4b" source="golosa_1-4" target="odin_golos_1-4b" weight="1"/>
+            <edge id="odin_golos_1-4a|odin_golos_1-4b" source="odin_golos_1-4a" target="odin_golos_1-4b" weight="1"/>
+            <edge id="tsaritsa_marfa|skopin-shujskij" source="tsaritsa_marfa" target="skopin-shujskij" weight="1"/>
+            <edge id="tsaritsa_marfa|narod_1-5" source="tsaritsa_marfa" target="narod_1-5" weight="1"/>
+            <edge id="skopin-shujskij|narod_1-5" source="skopin-shujskij" target="narod_1-5" weight="1"/>
+            <edge id="tatischev|vlasev" source="tatischev" target="vlasev" weight="1"/>
+            <edge id="tatischev|golosa_2-3" source="tatischev" target="golosa_2-3" weight="1"/>
+            <edge id="tatischev|odin_iz_tolpy" source="tatischev" target="odin_iz_tolpy" weight="1"/>
+            <edge id="tatischev|novgorodskie_streltsy" source="tatischev" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="tatischev|pskovskie_streltsy" source="tatischev" target="pskovskie_streltsy" weight="1"/>
+            <edge id="tatischev|sotnik_2-3" source="tatischev" target="sotnik_2-3" weight="1"/>
+            <edge id="tatischev|kupets_2-3" source="tatischev" target="kupets_2-3" weight="1"/>
+            <edge id="tatischev|golos_2-6" source="tatischev" target="golos_2-6" weight="1"/>
+            <edge id="tatischev|molchanov" source="tatischev" target="molchanov" weight="1"/>
+            <edge id="tatischev|golosa_tolpa_2-6" source="tatischev" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="tatischev|streltsy" source="tatischev" target="streltsy" weight="1"/>
+            <edge id="tatischev|drugie_streltsy" source="tatischev" target="drugie_streltsy" weight="1"/>
+            <edge id="tatischev|sotnik_streletskij" source="tatischev" target="sotnik_streletskij" weight="1"/>
+            <edge id="tatischev|valuev" source="tatischev" target="valuev" weight="1"/>
+            <edge id="tatischev|neskolko_golosov" source="tatischev" target="neskolko_golosov" weight="1"/>
+            <edge id="marina|mnishek" source="marina" target="mnishek" weight="2"/>
+            <edge id="marina|kameristka" source="marina" target="kameristka" weight="1"/>
+            <edge id="marina|olesnitskij" source="marina" target="olesnitskij" weight="1"/>
+            <edge id="marina|vishnevetskij" source="marina" target="vishnevetskij" weight="1"/>
+            <edge id="mnishek|kameristka" source="mnishek" target="kameristka" weight="1"/>
+            <edge id="mnishek|olesnitskij" source="mnishek" target="olesnitskij" weight="1"/>
+            <edge id="mnishek|vishnevetskij" source="mnishek" target="vishnevetskij" weight="1"/>
+            <edge id="golosa_2-3|odin_iz_tolpy" source="golosa_2-3" target="odin_iz_tolpy" weight="1"/>
+            <edge id="golosa_2-3|novgorodskie_streltsy" source="golosa_2-3" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="golosa_2-3|pskovskie_streltsy" source="golosa_2-3" target="pskovskie_streltsy" weight="1"/>
+            <edge id="golosa_2-3|sotnik_2-3" source="golosa_2-3" target="sotnik_2-3" weight="1"/>
+            <edge id="golosa_2-3|kupets_2-3" source="golosa_2-3" target="kupets_2-3" weight="1"/>
+            <edge id="odin_iz_tolpy|novgorodskie_streltsy" source="odin_iz_tolpy" target="novgorodskie_streltsy" weight="1"/>
+            <edge id="odin_iz_tolpy|pskovskie_streltsy" source="odin_iz_tolpy" target="pskovskie_streltsy" weight="1"/>
+            <edge id="odin_iz_tolpy|sotnik_2-3" source="odin_iz_tolpy" target="sotnik_2-3" weight="1"/>
+            <edge id="odin_iz_tolpy|kupets_2-3" source="odin_iz_tolpy" target="kupets_2-3" weight="1"/>
+            <edge id="novgorodskie_streltsy|pskovskie_streltsy" source="novgorodskie_streltsy" target="pskovskie_streltsy" weight="1"/>
+            <edge id="novgorodskie_streltsy|sotnik_2-3" source="novgorodskie_streltsy" target="sotnik_2-3" weight="1"/>
+            <edge id="novgorodskie_streltsy|kupets_2-3" source="novgorodskie_streltsy" target="kupets_2-3" weight="1"/>
+            <edge id="pskovskie_streltsy|sotnik_2-3" source="pskovskie_streltsy" target="sotnik_2-3" weight="1"/>
+            <edge id="pskovskie_streltsy|kupets_2-3" source="pskovskie_streltsy" target="kupets_2-3" weight="1"/>
+            <edge id="sotnik_2-3|kupets_2-3" source="sotnik_2-3" target="kupets_2-3" weight="1"/>
+            <edge id="pervyj_kupets|vtoroj_kupets" source="pervyj_kupets" target="vtoroj_kupets" weight="1"/>
+            <edge id="pervyj_kupets|tretij_kupets" source="pervyj_kupets" target="tretij_kupets" weight="1"/>
+            <edge id="pervyj_kupets|chetvertyj_kupets" source="pervyj_kupets" target="chetvertyj_kupets" weight="1"/>
+            <edge id="pervyj_kupets|poljaki" source="pervyj_kupets" target="poljaki" weight="1"/>
+            <edge id="pervyj_kupets|golosa_2-4" source="pervyj_kupets" target="golosa_2-4" weight="1"/>
+            <edge id="pervyj_kupets|malchishki" source="pervyj_kupets" target="malchishki" weight="1"/>
+            <edge id="pervyj_kupets|pervyj_posadskij" source="pervyj_kupets" target="pervyj_posadskij" weight="1"/>
+            <edge id="pervyj_kupets|vtoroj_posadskij" source="pervyj_kupets" target="vtoroj_posadskij" weight="1"/>
+            <edge id="pervyj_kupets|tretij_posadskij" source="pervyj_kupets" target="tretij_posadskij" weight="1"/>
+            <edge id="pervyj_kupets|chetvertyj_posadskij" source="pervyj_kupets" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="pervyj_kupets|pjatyj_posadskij" source="pervyj_kupets" target="pjatyj_posadskij" weight="1"/>
+            <edge id="pervyj_kupets|desjatskij_2-4" source="pervyj_kupets" target="desjatskij_2-4" weight="1"/>
+            <edge id="pervyj_kupets|povar" source="pervyj_kupets" target="povar" weight="1"/>
+            <edge id="pervyj_kupets|torgovka" source="pervyj_kupets" target="torgovka" weight="1"/>
+            <edge id="pervyj_kupets|strannik_2-4" source="pervyj_kupets" target="strannik_2-4" weight="1"/>
+            <edge id="pervyj_kupets|strelets" source="pervyj_kupets" target="strelets" weight="1"/>
+            <edge id="pervyj_kupets|starik" source="pervyj_kupets" target="starik" weight="1"/>
+            <edge id="pervyj_kupets|golos_iz_tolpy_2-4a" source="pervyj_kupets" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="pervyj_kupets|golos_iz_tolpy_2-4b" source="pervyj_kupets" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="pervyj_kupets|golos_2-4c" source="pervyj_kupets" target="golos_2-4c" weight="1"/>
+            <edge id="pervyj_kupets|kupets_2-4" source="pervyj_kupets" target="kupets_2-4" weight="1"/>
+            <edge id="pervyj_kupets|golos_2-4d" source="pervyj_kupets" target="golos_2-4d" weight="1"/>
+            <edge id="pervyj_kupets|ivan" source="pervyj_kupets" target="ivan" weight="1"/>
+            <edge id="pervyj_kupets|kapitan" source="pervyj_kupets" target="kapitan" weight="1"/>
+            <edge id="vtoroj_kupets|tretij_kupets" source="vtoroj_kupets" target="tretij_kupets" weight="1"/>
+            <edge id="vtoroj_kupets|chetvertyj_kupets" source="vtoroj_kupets" target="chetvertyj_kupets" weight="1"/>
+            <edge id="vtoroj_kupets|poljaki" source="vtoroj_kupets" target="poljaki" weight="1"/>
+            <edge id="vtoroj_kupets|golosa_2-4" source="vtoroj_kupets" target="golosa_2-4" weight="1"/>
+            <edge id="vtoroj_kupets|malchishki" source="vtoroj_kupets" target="malchishki" weight="1"/>
+            <edge id="vtoroj_kupets|pervyj_posadskij" source="vtoroj_kupets" target="pervyj_posadskij" weight="1"/>
+            <edge id="vtoroj_kupets|vtoroj_posadskij" source="vtoroj_kupets" target="vtoroj_posadskij" weight="1"/>
+            <edge id="vtoroj_kupets|tretij_posadskij" source="vtoroj_kupets" target="tretij_posadskij" weight="1"/>
+            <edge id="vtoroj_kupets|chetvertyj_posadskij" source="vtoroj_kupets" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="vtoroj_kupets|pjatyj_posadskij" source="vtoroj_kupets" target="pjatyj_posadskij" weight="1"/>
+            <edge id="vtoroj_kupets|desjatskij_2-4" source="vtoroj_kupets" target="desjatskij_2-4" weight="1"/>
+            <edge id="vtoroj_kupets|povar" source="vtoroj_kupets" target="povar" weight="1"/>
+            <edge id="vtoroj_kupets|torgovka" source="vtoroj_kupets" target="torgovka" weight="1"/>
+            <edge id="vtoroj_kupets|strannik_2-4" source="vtoroj_kupets" target="strannik_2-4" weight="1"/>
+            <edge id="vtoroj_kupets|strelets" source="vtoroj_kupets" target="strelets" weight="1"/>
+            <edge id="vtoroj_kupets|starik" source="vtoroj_kupets" target="starik" weight="1"/>
+            <edge id="vtoroj_kupets|golos_iz_tolpy_2-4a" source="vtoroj_kupets" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="vtoroj_kupets|golos_iz_tolpy_2-4b" source="vtoroj_kupets" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="vtoroj_kupets|golos_2-4c" source="vtoroj_kupets" target="golos_2-4c" weight="1"/>
+            <edge id="vtoroj_kupets|kupets_2-4" source="vtoroj_kupets" target="kupets_2-4" weight="1"/>
+            <edge id="vtoroj_kupets|golos_2-4d" source="vtoroj_kupets" target="golos_2-4d" weight="1"/>
+            <edge id="vtoroj_kupets|ivan" source="vtoroj_kupets" target="ivan" weight="1"/>
+            <edge id="vtoroj_kupets|kapitan" source="vtoroj_kupets" target="kapitan" weight="1"/>
+            <edge id="tretij_kupets|chetvertyj_kupets" source="tretij_kupets" target="chetvertyj_kupets" weight="1"/>
+            <edge id="tretij_kupets|poljaki" source="tretij_kupets" target="poljaki" weight="1"/>
+            <edge id="tretij_kupets|golosa_2-4" source="tretij_kupets" target="golosa_2-4" weight="1"/>
+            <edge id="tretij_kupets|malchishki" source="tretij_kupets" target="malchishki" weight="1"/>
+            <edge id="tretij_kupets|pervyj_posadskij" source="tretij_kupets" target="pervyj_posadskij" weight="1"/>
+            <edge id="tretij_kupets|vtoroj_posadskij" source="tretij_kupets" target="vtoroj_posadskij" weight="1"/>
+            <edge id="tretij_kupets|tretij_posadskij" source="tretij_kupets" target="tretij_posadskij" weight="1"/>
+            <edge id="tretij_kupets|chetvertyj_posadskij" source="tretij_kupets" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="tretij_kupets|pjatyj_posadskij" source="tretij_kupets" target="pjatyj_posadskij" weight="1"/>
+            <edge id="tretij_kupets|desjatskij_2-4" source="tretij_kupets" target="desjatskij_2-4" weight="1"/>
+            <edge id="tretij_kupets|povar" source="tretij_kupets" target="povar" weight="1"/>
+            <edge id="tretij_kupets|torgovka" source="tretij_kupets" target="torgovka" weight="1"/>
+            <edge id="tretij_kupets|strannik_2-4" source="tretij_kupets" target="strannik_2-4" weight="1"/>
+            <edge id="tretij_kupets|strelets" source="tretij_kupets" target="strelets" weight="1"/>
+            <edge id="tretij_kupets|starik" source="tretij_kupets" target="starik" weight="1"/>
+            <edge id="tretij_kupets|golos_iz_tolpy_2-4a" source="tretij_kupets" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="tretij_kupets|golos_iz_tolpy_2-4b" source="tretij_kupets" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="tretij_kupets|golos_2-4c" source="tretij_kupets" target="golos_2-4c" weight="1"/>
+            <edge id="tretij_kupets|kupets_2-4" source="tretij_kupets" target="kupets_2-4" weight="1"/>
+            <edge id="tretij_kupets|golos_2-4d" source="tretij_kupets" target="golos_2-4d" weight="1"/>
+            <edge id="tretij_kupets|ivan" source="tretij_kupets" target="ivan" weight="1"/>
+            <edge id="tretij_kupets|kapitan" source="tretij_kupets" target="kapitan" weight="1"/>
+            <edge id="chetvertyj_kupets|poljaki" source="chetvertyj_kupets" target="poljaki" weight="1"/>
+            <edge id="chetvertyj_kupets|golosa_2-4" source="chetvertyj_kupets" target="golosa_2-4" weight="1"/>
+            <edge id="chetvertyj_kupets|malchishki" source="chetvertyj_kupets" target="malchishki" weight="1"/>
+            <edge id="chetvertyj_kupets|pervyj_posadskij" source="chetvertyj_kupets" target="pervyj_posadskij" weight="1"/>
+            <edge id="chetvertyj_kupets|vtoroj_posadskij" source="chetvertyj_kupets" target="vtoroj_posadskij" weight="1"/>
+            <edge id="chetvertyj_kupets|tretij_posadskij" source="chetvertyj_kupets" target="tretij_posadskij" weight="1"/>
+            <edge id="chetvertyj_kupets|chetvertyj_posadskij" source="chetvertyj_kupets" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="chetvertyj_kupets|pjatyj_posadskij" source="chetvertyj_kupets" target="pjatyj_posadskij" weight="1"/>
+            <edge id="chetvertyj_kupets|desjatskij_2-4" source="chetvertyj_kupets" target="desjatskij_2-4" weight="1"/>
+            <edge id="chetvertyj_kupets|povar" source="chetvertyj_kupets" target="povar" weight="1"/>
+            <edge id="chetvertyj_kupets|torgovka" source="chetvertyj_kupets" target="torgovka" weight="1"/>
+            <edge id="chetvertyj_kupets|strannik_2-4" source="chetvertyj_kupets" target="strannik_2-4" weight="1"/>
+            <edge id="chetvertyj_kupets|strelets" source="chetvertyj_kupets" target="strelets" weight="1"/>
+            <edge id="chetvertyj_kupets|starik" source="chetvertyj_kupets" target="starik" weight="1"/>
+            <edge id="chetvertyj_kupets|golos_iz_tolpy_2-4a" source="chetvertyj_kupets" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="chetvertyj_kupets|golos_iz_tolpy_2-4b" source="chetvertyj_kupets" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="chetvertyj_kupets|golos_2-4c" source="chetvertyj_kupets" target="golos_2-4c" weight="1"/>
+            <edge id="chetvertyj_kupets|kupets_2-4" source="chetvertyj_kupets" target="kupets_2-4" weight="1"/>
+            <edge id="chetvertyj_kupets|golos_2-4d" source="chetvertyj_kupets" target="golos_2-4d" weight="1"/>
+            <edge id="chetvertyj_kupets|ivan" source="chetvertyj_kupets" target="ivan" weight="1"/>
+            <edge id="chetvertyj_kupets|kapitan" source="chetvertyj_kupets" target="kapitan" weight="1"/>
+            <edge id="poljaki|golosa_2-4" source="poljaki" target="golosa_2-4" weight="1"/>
+            <edge id="poljaki|malchishki" source="poljaki" target="malchishki" weight="1"/>
+            <edge id="poljaki|pervyj_posadskij" source="poljaki" target="pervyj_posadskij" weight="1"/>
+            <edge id="poljaki|vtoroj_posadskij" source="poljaki" target="vtoroj_posadskij" weight="1"/>
+            <edge id="poljaki|tretij_posadskij" source="poljaki" target="tretij_posadskij" weight="1"/>
+            <edge id="poljaki|chetvertyj_posadskij" source="poljaki" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="poljaki|pjatyj_posadskij" source="poljaki" target="pjatyj_posadskij" weight="1"/>
+            <edge id="poljaki|desjatskij_2-4" source="poljaki" target="desjatskij_2-4" weight="1"/>
+            <edge id="poljaki|povar" source="poljaki" target="povar" weight="1"/>
+            <edge id="poljaki|torgovka" source="poljaki" target="torgovka" weight="1"/>
+            <edge id="poljaki|strannik_2-4" source="poljaki" target="strannik_2-4" weight="1"/>
+            <edge id="poljaki|strelets" source="poljaki" target="strelets" weight="1"/>
+            <edge id="poljaki|starik" source="poljaki" target="starik" weight="1"/>
+            <edge id="poljaki|golos_iz_tolpy_2-4a" source="poljaki" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="poljaki|golos_iz_tolpy_2-4b" source="poljaki" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="poljaki|golos_2-4c" source="poljaki" target="golos_2-4c" weight="1"/>
+            <edge id="poljaki|kupets_2-4" source="poljaki" target="kupets_2-4" weight="1"/>
+            <edge id="poljaki|golos_2-4d" source="poljaki" target="golos_2-4d" weight="1"/>
+            <edge id="poljaki|ivan" source="poljaki" target="ivan" weight="1"/>
+            <edge id="poljaki|kapitan" source="poljaki" target="kapitan" weight="1"/>
+            <edge id="golosa_2-4|malchishki" source="golosa_2-4" target="malchishki" weight="1"/>
+            <edge id="golosa_2-4|pervyj_posadskij" source="golosa_2-4" target="pervyj_posadskij" weight="1"/>
+            <edge id="golosa_2-4|vtoroj_posadskij" source="golosa_2-4" target="vtoroj_posadskij" weight="1"/>
+            <edge id="golosa_2-4|tretij_posadskij" source="golosa_2-4" target="tretij_posadskij" weight="1"/>
+            <edge id="golosa_2-4|chetvertyj_posadskij" source="golosa_2-4" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="golosa_2-4|pjatyj_posadskij" source="golosa_2-4" target="pjatyj_posadskij" weight="1"/>
+            <edge id="golosa_2-4|desjatskij_2-4" source="golosa_2-4" target="desjatskij_2-4" weight="1"/>
+            <edge id="golosa_2-4|povar" source="golosa_2-4" target="povar" weight="1"/>
+            <edge id="golosa_2-4|torgovka" source="golosa_2-4" target="torgovka" weight="1"/>
+            <edge id="golosa_2-4|strannik_2-4" source="golosa_2-4" target="strannik_2-4" weight="1"/>
+            <edge id="golosa_2-4|strelets" source="golosa_2-4" target="strelets" weight="1"/>
+            <edge id="golosa_2-4|starik" source="golosa_2-4" target="starik" weight="1"/>
+            <edge id="golosa_2-4|golos_iz_tolpy_2-4a" source="golosa_2-4" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="golosa_2-4|golos_iz_tolpy_2-4b" source="golosa_2-4" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="golosa_2-4|golos_2-4c" source="golosa_2-4" target="golos_2-4c" weight="1"/>
+            <edge id="golosa_2-4|kupets_2-4" source="golosa_2-4" target="kupets_2-4" weight="1"/>
+            <edge id="golosa_2-4|golos_2-4d" source="golosa_2-4" target="golos_2-4d" weight="1"/>
+            <edge id="golosa_2-4|ivan" source="golosa_2-4" target="ivan" weight="1"/>
+            <edge id="golosa_2-4|kapitan" source="golosa_2-4" target="kapitan" weight="1"/>
+            <edge id="malchishki|pervyj_posadskij" source="malchishki" target="pervyj_posadskij" weight="1"/>
+            <edge id="malchishki|vtoroj_posadskij" source="malchishki" target="vtoroj_posadskij" weight="1"/>
+            <edge id="malchishki|tretij_posadskij" source="malchishki" target="tretij_posadskij" weight="1"/>
+            <edge id="malchishki|chetvertyj_posadskij" source="malchishki" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="malchishki|pjatyj_posadskij" source="malchishki" target="pjatyj_posadskij" weight="1"/>
+            <edge id="malchishki|desjatskij_2-4" source="malchishki" target="desjatskij_2-4" weight="1"/>
+            <edge id="malchishki|povar" source="malchishki" target="povar" weight="1"/>
+            <edge id="malchishki|torgovka" source="malchishki" target="torgovka" weight="1"/>
+            <edge id="malchishki|strannik_2-4" source="malchishki" target="strannik_2-4" weight="1"/>
+            <edge id="malchishki|strelets" source="malchishki" target="strelets" weight="1"/>
+            <edge id="malchishki|starik" source="malchishki" target="starik" weight="1"/>
+            <edge id="malchishki|golos_iz_tolpy_2-4a" source="malchishki" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="malchishki|golos_iz_tolpy_2-4b" source="malchishki" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="malchishki|golos_2-4c" source="malchishki" target="golos_2-4c" weight="1"/>
+            <edge id="malchishki|kupets_2-4" source="malchishki" target="kupets_2-4" weight="1"/>
+            <edge id="malchishki|golos_2-4d" source="malchishki" target="golos_2-4d" weight="1"/>
+            <edge id="malchishki|ivan" source="malchishki" target="ivan" weight="1"/>
+            <edge id="malchishki|kapitan" source="malchishki" target="kapitan" weight="1"/>
+            <edge id="pervyj_posadskij|vtoroj_posadskij" source="pervyj_posadskij" target="vtoroj_posadskij" weight="1"/>
+            <edge id="pervyj_posadskij|tretij_posadskij" source="pervyj_posadskij" target="tretij_posadskij" weight="1"/>
+            <edge id="pervyj_posadskij|chetvertyj_posadskij" source="pervyj_posadskij" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="pervyj_posadskij|pjatyj_posadskij" source="pervyj_posadskij" target="pjatyj_posadskij" weight="1"/>
+            <edge id="pervyj_posadskij|desjatskij_2-4" source="pervyj_posadskij" target="desjatskij_2-4" weight="1"/>
+            <edge id="pervyj_posadskij|povar" source="pervyj_posadskij" target="povar" weight="1"/>
+            <edge id="pervyj_posadskij|torgovka" source="pervyj_posadskij" target="torgovka" weight="1"/>
+            <edge id="pervyj_posadskij|strannik_2-4" source="pervyj_posadskij" target="strannik_2-4" weight="1"/>
+            <edge id="pervyj_posadskij|strelets" source="pervyj_posadskij" target="strelets" weight="1"/>
+            <edge id="pervyj_posadskij|starik" source="pervyj_posadskij" target="starik" weight="1"/>
+            <edge id="pervyj_posadskij|golos_iz_tolpy_2-4a" source="pervyj_posadskij" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="pervyj_posadskij|golos_iz_tolpy_2-4b" source="pervyj_posadskij" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="pervyj_posadskij|golos_2-4c" source="pervyj_posadskij" target="golos_2-4c" weight="1"/>
+            <edge id="pervyj_posadskij|kupets_2-4" source="pervyj_posadskij" target="kupets_2-4" weight="1"/>
+            <edge id="pervyj_posadskij|golos_2-4d" source="pervyj_posadskij" target="golos_2-4d" weight="1"/>
+            <edge id="pervyj_posadskij|ivan" source="pervyj_posadskij" target="ivan" weight="1"/>
+            <edge id="pervyj_posadskij|kapitan" source="pervyj_posadskij" target="kapitan" weight="1"/>
+            <edge id="vtoroj_posadskij|tretij_posadskij" source="vtoroj_posadskij" target="tretij_posadskij" weight="1"/>
+            <edge id="vtoroj_posadskij|chetvertyj_posadskij" source="vtoroj_posadskij" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="vtoroj_posadskij|pjatyj_posadskij" source="vtoroj_posadskij" target="pjatyj_posadskij" weight="1"/>
+            <edge id="vtoroj_posadskij|desjatskij_2-4" source="vtoroj_posadskij" target="desjatskij_2-4" weight="1"/>
+            <edge id="vtoroj_posadskij|povar" source="vtoroj_posadskij" target="povar" weight="1"/>
+            <edge id="vtoroj_posadskij|torgovka" source="vtoroj_posadskij" target="torgovka" weight="1"/>
+            <edge id="vtoroj_posadskij|strannik_2-4" source="vtoroj_posadskij" target="strannik_2-4" weight="1"/>
+            <edge id="vtoroj_posadskij|strelets" source="vtoroj_posadskij" target="strelets" weight="1"/>
+            <edge id="vtoroj_posadskij|starik" source="vtoroj_posadskij" target="starik" weight="1"/>
+            <edge id="vtoroj_posadskij|golos_iz_tolpy_2-4a" source="vtoroj_posadskij" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="vtoroj_posadskij|golos_iz_tolpy_2-4b" source="vtoroj_posadskij" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="vtoroj_posadskij|golos_2-4c" source="vtoroj_posadskij" target="golos_2-4c" weight="1"/>
+            <edge id="vtoroj_posadskij|kupets_2-4" source="vtoroj_posadskij" target="kupets_2-4" weight="1"/>
+            <edge id="vtoroj_posadskij|golos_2-4d" source="vtoroj_posadskij" target="golos_2-4d" weight="1"/>
+            <edge id="vtoroj_posadskij|ivan" source="vtoroj_posadskij" target="ivan" weight="1"/>
+            <edge id="vtoroj_posadskij|kapitan" source="vtoroj_posadskij" target="kapitan" weight="1"/>
+            <edge id="tretij_posadskij|chetvertyj_posadskij" source="tretij_posadskij" target="chetvertyj_posadskij" weight="1"/>
+            <edge id="tretij_posadskij|pjatyj_posadskij" source="tretij_posadskij" target="pjatyj_posadskij" weight="1"/>
+            <edge id="tretij_posadskij|desjatskij_2-4" source="tretij_posadskij" target="desjatskij_2-4" weight="1"/>
+            <edge id="tretij_posadskij|povar" source="tretij_posadskij" target="povar" weight="1"/>
+            <edge id="tretij_posadskij|torgovka" source="tretij_posadskij" target="torgovka" weight="1"/>
+            <edge id="tretij_posadskij|strannik_2-4" source="tretij_posadskij" target="strannik_2-4" weight="1"/>
+            <edge id="tretij_posadskij|strelets" source="tretij_posadskij" target="strelets" weight="1"/>
+            <edge id="tretij_posadskij|starik" source="tretij_posadskij" target="starik" weight="1"/>
+            <edge id="tretij_posadskij|golos_iz_tolpy_2-4a" source="tretij_posadskij" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="tretij_posadskij|golos_iz_tolpy_2-4b" source="tretij_posadskij" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="tretij_posadskij|golos_2-4c" source="tretij_posadskij" target="golos_2-4c" weight="1"/>
+            <edge id="tretij_posadskij|kupets_2-4" source="tretij_posadskij" target="kupets_2-4" weight="1"/>
+            <edge id="tretij_posadskij|golos_2-4d" source="tretij_posadskij" target="golos_2-4d" weight="1"/>
+            <edge id="tretij_posadskij|ivan" source="tretij_posadskij" target="ivan" weight="1"/>
+            <edge id="tretij_posadskij|kapitan" source="tretij_posadskij" target="kapitan" weight="1"/>
+            <edge id="chetvertyj_posadskij|pjatyj_posadskij" source="chetvertyj_posadskij" target="pjatyj_posadskij" weight="1"/>
+            <edge id="chetvertyj_posadskij|desjatskij_2-4" source="chetvertyj_posadskij" target="desjatskij_2-4" weight="1"/>
+            <edge id="chetvertyj_posadskij|povar" source="chetvertyj_posadskij" target="povar" weight="1"/>
+            <edge id="chetvertyj_posadskij|torgovka" source="chetvertyj_posadskij" target="torgovka" weight="1"/>
+            <edge id="chetvertyj_posadskij|strannik_2-4" source="chetvertyj_posadskij" target="strannik_2-4" weight="1"/>
+            <edge id="chetvertyj_posadskij|strelets" source="chetvertyj_posadskij" target="strelets" weight="1"/>
+            <edge id="chetvertyj_posadskij|starik" source="chetvertyj_posadskij" target="starik" weight="1"/>
+            <edge id="chetvertyj_posadskij|golos_iz_tolpy_2-4a" source="chetvertyj_posadskij" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="chetvertyj_posadskij|golos_iz_tolpy_2-4b" source="chetvertyj_posadskij" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="chetvertyj_posadskij|golos_2-4c" source="chetvertyj_posadskij" target="golos_2-4c" weight="1"/>
+            <edge id="chetvertyj_posadskij|kupets_2-4" source="chetvertyj_posadskij" target="kupets_2-4" weight="1"/>
+            <edge id="chetvertyj_posadskij|golos_2-4d" source="chetvertyj_posadskij" target="golos_2-4d" weight="1"/>
+            <edge id="chetvertyj_posadskij|ivan" source="chetvertyj_posadskij" target="ivan" weight="1"/>
+            <edge id="chetvertyj_posadskij|kapitan" source="chetvertyj_posadskij" target="kapitan" weight="1"/>
+            <edge id="pjatyj_posadskij|desjatskij_2-4" source="pjatyj_posadskij" target="desjatskij_2-4" weight="1"/>
+            <edge id="pjatyj_posadskij|povar" source="pjatyj_posadskij" target="povar" weight="1"/>
+            <edge id="pjatyj_posadskij|torgovka" source="pjatyj_posadskij" target="torgovka" weight="1"/>
+            <edge id="pjatyj_posadskij|strannik_2-4" source="pjatyj_posadskij" target="strannik_2-4" weight="1"/>
+            <edge id="pjatyj_posadskij|strelets" source="pjatyj_posadskij" target="strelets" weight="1"/>
+            <edge id="pjatyj_posadskij|starik" source="pjatyj_posadskij" target="starik" weight="1"/>
+            <edge id="pjatyj_posadskij|golos_iz_tolpy_2-4a" source="pjatyj_posadskij" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="pjatyj_posadskij|golos_iz_tolpy_2-4b" source="pjatyj_posadskij" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="pjatyj_posadskij|golos_2-4c" source="pjatyj_posadskij" target="golos_2-4c" weight="1"/>
+            <edge id="pjatyj_posadskij|kupets_2-4" source="pjatyj_posadskij" target="kupets_2-4" weight="1"/>
+            <edge id="pjatyj_posadskij|golos_2-4d" source="pjatyj_posadskij" target="golos_2-4d" weight="1"/>
+            <edge id="pjatyj_posadskij|ivan" source="pjatyj_posadskij" target="ivan" weight="1"/>
+            <edge id="pjatyj_posadskij|kapitan" source="pjatyj_posadskij" target="kapitan" weight="1"/>
+            <edge id="desjatskij_2-4|povar" source="desjatskij_2-4" target="povar" weight="1"/>
+            <edge id="desjatskij_2-4|torgovka" source="desjatskij_2-4" target="torgovka" weight="1"/>
+            <edge id="desjatskij_2-4|strannik_2-4" source="desjatskij_2-4" target="strannik_2-4" weight="1"/>
+            <edge id="desjatskij_2-4|strelets" source="desjatskij_2-4" target="strelets" weight="1"/>
+            <edge id="desjatskij_2-4|starik" source="desjatskij_2-4" target="starik" weight="1"/>
+            <edge id="desjatskij_2-4|golos_iz_tolpy_2-4a" source="desjatskij_2-4" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="desjatskij_2-4|golos_iz_tolpy_2-4b" source="desjatskij_2-4" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="desjatskij_2-4|golos_2-4c" source="desjatskij_2-4" target="golos_2-4c" weight="1"/>
+            <edge id="desjatskij_2-4|kupets_2-4" source="desjatskij_2-4" target="kupets_2-4" weight="1"/>
+            <edge id="desjatskij_2-4|golos_2-4d" source="desjatskij_2-4" target="golos_2-4d" weight="1"/>
+            <edge id="desjatskij_2-4|ivan" source="desjatskij_2-4" target="ivan" weight="1"/>
+            <edge id="desjatskij_2-4|kapitan" source="desjatskij_2-4" target="kapitan" weight="1"/>
+            <edge id="povar|torgovka" source="povar" target="torgovka" weight="1"/>
+            <edge id="povar|strannik_2-4" source="povar" target="strannik_2-4" weight="1"/>
+            <edge id="povar|strelets" source="povar" target="strelets" weight="1"/>
+            <edge id="povar|starik" source="povar" target="starik" weight="1"/>
+            <edge id="povar|golos_iz_tolpy_2-4a" source="povar" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="povar|golos_iz_tolpy_2-4b" source="povar" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="povar|golos_2-4c" source="povar" target="golos_2-4c" weight="1"/>
+            <edge id="povar|kupets_2-4" source="povar" target="kupets_2-4" weight="1"/>
+            <edge id="povar|golos_2-4d" source="povar" target="golos_2-4d" weight="1"/>
+            <edge id="povar|ivan" source="povar" target="ivan" weight="1"/>
+            <edge id="povar|kapitan" source="povar" target="kapitan" weight="1"/>
+            <edge id="torgovka|strannik_2-4" source="torgovka" target="strannik_2-4" weight="1"/>
+            <edge id="torgovka|strelets" source="torgovka" target="strelets" weight="1"/>
+            <edge id="torgovka|starik" source="torgovka" target="starik" weight="1"/>
+            <edge id="torgovka|golos_iz_tolpy_2-4a" source="torgovka" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="torgovka|golos_iz_tolpy_2-4b" source="torgovka" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="torgovka|golos_2-4c" source="torgovka" target="golos_2-4c" weight="1"/>
+            <edge id="torgovka|kupets_2-4" source="torgovka" target="kupets_2-4" weight="1"/>
+            <edge id="torgovka|golos_2-4d" source="torgovka" target="golos_2-4d" weight="1"/>
+            <edge id="torgovka|ivan" source="torgovka" target="ivan" weight="1"/>
+            <edge id="torgovka|kapitan" source="torgovka" target="kapitan" weight="1"/>
+            <edge id="strannik_2-4|strelets" source="strannik_2-4" target="strelets" weight="1"/>
+            <edge id="strannik_2-4|starik" source="strannik_2-4" target="starik" weight="1"/>
+            <edge id="strannik_2-4|golos_iz_tolpy_2-4a" source="strannik_2-4" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="strannik_2-4|golos_iz_tolpy_2-4b" source="strannik_2-4" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="strannik_2-4|golos_2-4c" source="strannik_2-4" target="golos_2-4c" weight="1"/>
+            <edge id="strannik_2-4|kupets_2-4" source="strannik_2-4" target="kupets_2-4" weight="1"/>
+            <edge id="strannik_2-4|golos_2-4d" source="strannik_2-4" target="golos_2-4d" weight="1"/>
+            <edge id="strannik_2-4|ivan" source="strannik_2-4" target="ivan" weight="1"/>
+            <edge id="strannik_2-4|kapitan" source="strannik_2-4" target="kapitan" weight="1"/>
+            <edge id="strelets|starik" source="strelets" target="starik" weight="1"/>
+            <edge id="strelets|golos_iz_tolpy_2-4a" source="strelets" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="strelets|golos_iz_tolpy_2-4b" source="strelets" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="strelets|golos_2-4c" source="strelets" target="golos_2-4c" weight="1"/>
+            <edge id="strelets|kupets_2-4" source="strelets" target="kupets_2-4" weight="1"/>
+            <edge id="strelets|golos_2-4d" source="strelets" target="golos_2-4d" weight="1"/>
+            <edge id="strelets|ivan" source="strelets" target="ivan" weight="1"/>
+            <edge id="strelets|kapitan" source="strelets" target="kapitan" weight="1"/>
+            <edge id="starik|golos_iz_tolpy_2-4a" source="starik" target="golos_iz_tolpy_2-4a" weight="1"/>
+            <edge id="starik|golos_iz_tolpy_2-4b" source="starik" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="starik|golos_2-4c" source="starik" target="golos_2-4c" weight="1"/>
+            <edge id="starik|kupets_2-4" source="starik" target="kupets_2-4" weight="1"/>
+            <edge id="starik|golos_2-4d" source="starik" target="golos_2-4d" weight="1"/>
+            <edge id="starik|ivan" source="starik" target="ivan" weight="1"/>
+            <edge id="starik|kapitan" source="starik" target="kapitan" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4a|golos_iz_tolpy_2-4b" source="golos_iz_tolpy_2-4a" target="golos_iz_tolpy_2-4b" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4a|golos_2-4c" source="golos_iz_tolpy_2-4a" target="golos_2-4c" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4a|kupets_2-4" source="golos_iz_tolpy_2-4a" target="kupets_2-4" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4a|golos_2-4d" source="golos_iz_tolpy_2-4a" target="golos_2-4d" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4a|ivan" source="golos_iz_tolpy_2-4a" target="ivan" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4a|kapitan" source="golos_iz_tolpy_2-4a" target="kapitan" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4b|golos_2-4c" source="golos_iz_tolpy_2-4b" target="golos_2-4c" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4b|kupets_2-4" source="golos_iz_tolpy_2-4b" target="kupets_2-4" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4b|golos_2-4d" source="golos_iz_tolpy_2-4b" target="golos_2-4d" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4b|ivan" source="golos_iz_tolpy_2-4b" target="ivan" weight="1"/>
+            <edge id="golos_iz_tolpy_2-4b|kapitan" source="golos_iz_tolpy_2-4b" target="kapitan" weight="1"/>
+            <edge id="golos_2-4c|kupets_2-4" source="golos_2-4c" target="kupets_2-4" weight="1"/>
+            <edge id="golos_2-4c|golos_2-4d" source="golos_2-4c" target="golos_2-4d" weight="1"/>
+            <edge id="golos_2-4c|ivan" source="golos_2-4c" target="ivan" weight="1"/>
+            <edge id="golos_2-4c|kapitan" source="golos_2-4c" target="kapitan" weight="1"/>
+            <edge id="kupets_2-4|golos_2-4d" source="kupets_2-4" target="golos_2-4d" weight="1"/>
+            <edge id="kupets_2-4|ivan" source="kupets_2-4" target="ivan" weight="1"/>
+            <edge id="kupets_2-4|kapitan" source="kupets_2-4" target="kapitan" weight="1"/>
+            <edge id="golos_2-4d|ivan" source="golos_2-4d" target="ivan" weight="1"/>
+            <edge id="golos_2-4d|kapitan" source="golos_2-4d" target="kapitan" weight="1"/>
+            <edge id="ivan|kapitan" source="ivan" target="kapitan" weight="1"/>
+            <edge id="olesnitskij|vishnevetskij" source="olesnitskij" target="vishnevetskij" weight="1"/>
+            <edge id="golos_2-6|molchanov" source="golos_2-6" target="molchanov" weight="1"/>
+            <edge id="golos_2-6|golosa_tolpa_2-6" source="golos_2-6" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="golos_2-6|streltsy" source="golos_2-6" target="streltsy" weight="1"/>
+            <edge id="golos_2-6|drugie_streltsy" source="golos_2-6" target="drugie_streltsy" weight="1"/>
+            <edge id="golos_2-6|sotnik_streletskij" source="golos_2-6" target="sotnik_streletskij" weight="1"/>
+            <edge id="golos_2-6|valuev" source="golos_2-6" target="valuev" weight="1"/>
+            <edge id="golos_2-6|neskolko_golosov" source="golos_2-6" target="neskolko_golosov" weight="1"/>
+            <edge id="molchanov|golosa_tolpa_2-6" source="molchanov" target="golosa_tolpa_2-6" weight="1"/>
+            <edge id="molchanov|streltsy" source="molchanov" target="streltsy" weight="1"/>
+            <edge id="molchanov|drugie_streltsy" source="molchanov" target="drugie_streltsy" weight="1"/>
+            <edge id="molchanov|sotnik_streletskij" source="molchanov" target="sotnik_streletskij" weight="1"/>
+            <edge id="molchanov|valuev" source="molchanov" target="valuev" weight="1"/>
+            <edge id="molchanov|neskolko_golosov" source="molchanov" target="neskolko_golosov" weight="1"/>
+            <edge id="golosa_tolpa_2-6|streltsy" source="golosa_tolpa_2-6" target="streltsy" weight="1"/>
+            <edge id="golosa_tolpa_2-6|drugie_streltsy" source="golosa_tolpa_2-6" target="drugie_streltsy" weight="1"/>
+            <edge id="golosa_tolpa_2-6|sotnik_streletskij" source="golosa_tolpa_2-6" target="sotnik_streletskij" weight="1"/>
+            <edge id="golosa_tolpa_2-6|valuev" source="golosa_tolpa_2-6" target="valuev" weight="1"/>
+            <edge id="golosa_tolpa_2-6|neskolko_golosov" source="golosa_tolpa_2-6" target="neskolko_golosov" weight="1"/>
+            <edge id="streltsy|drugie_streltsy" source="streltsy" target="drugie_streltsy" weight="1"/>
+            <edge id="streltsy|sotnik_streletskij" source="streltsy" target="sotnik_streletskij" weight="1"/>
+            <edge id="streltsy|valuev" source="streltsy" target="valuev" weight="1"/>
+            <edge id="streltsy|neskolko_golosov" source="streltsy" target="neskolko_golosov" weight="1"/>
+            <edge id="drugie_streltsy|sotnik_streletskij" source="drugie_streltsy" target="sotnik_streletskij" weight="1"/>
+            <edge id="drugie_streltsy|valuev" source="drugie_streltsy" target="valuev" weight="1"/>
+            <edge id="drugie_streltsy|neskolko_golosov" source="drugie_streltsy" target="neskolko_golosov" weight="1"/>
+            <edge id="sotnik_streletskij|valuev" source="sotnik_streletskij" target="valuev" weight="1"/>
+            <edge id="sotnik_streletskij|neskolko_golosov" source="sotnik_streletskij" target="neskolko_golosov" weight="1"/>
+            <edge id="valuev|neskolko_golosov" source="valuev" target="neskolko_golosov" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

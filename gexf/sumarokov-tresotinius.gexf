@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Тресотиниус</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="klarisa" label="Клариса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="346"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="oront" label="Оронт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="324"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tresotinius" label="Тресотиниус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="678"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bobembius" label="Бобембиус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="336"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kimar" label="Кимар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="201"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bramarbas" label="Брамарбас">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="740"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="serzhant" label="Сержант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="45"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="podjachij" label="Подьячий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="213"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="erast" label="Ераст">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="98"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ksaksoksimenius" label="Ксаксоксимениус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dorant" label="Дорант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="klarisa|oront" source="klarisa" target="oront" weight="2"/>
+            <edge id="klarisa|tresotinius" source="klarisa" target="tresotinius" weight="2"/>
+            <edge id="klarisa|bobembius" source="klarisa" target="bobembius" weight="1"/>
+            <edge id="klarisa|bramarbas" source="klarisa" target="bramarbas" weight="1"/>
+            <edge id="klarisa|dorant" source="klarisa" target="dorant" weight="1"/>
+            <edge id="oront|bramarbas" source="oront" target="bramarbas" weight="1"/>
+            <edge id="oront|kimar" source="oront" target="kimar" weight="1"/>
+            <edge id="oront|tresotinius" source="oront" target="tresotinius" weight="3"/>
+            <edge id="oront|podjachij" source="oront" target="podjachij" weight="1"/>
+            <edge id="oront|bobembius" source="oront" target="bobembius" weight="1"/>
+            <edge id="oront|ksaksoksimenius" source="oront" target="ksaksoksimenius" weight="1"/>
+            <edge id="oront|dorant" source="oront" target="dorant" weight="1"/>
+            <edge id="tresotinius|bobembius" source="tresotinius" target="bobembius" weight="4"/>
+            <edge id="tresotinius|kimar" source="tresotinius" target="kimar" weight="1"/>
+            <edge id="tresotinius|bramarbas" source="tresotinius" target="bramarbas" weight="2"/>
+            <edge id="tresotinius|podjachij" source="tresotinius" target="podjachij" weight="1"/>
+            <edge id="tresotinius|ksaksoksimenius" source="tresotinius" target="ksaksoksimenius" weight="1"/>
+            <edge id="tresotinius|dorant" source="tresotinius" target="dorant" weight="1"/>
+            <edge id="bobembius|kimar" source="bobembius" target="kimar" weight="1"/>
+            <edge id="bobembius|bramarbas" source="bobembius" target="bramarbas" weight="2"/>
+            <edge id="bobembius|podjachij" source="bobembius" target="podjachij" weight="1"/>
+            <edge id="bobembius|ksaksoksimenius" source="bobembius" target="ksaksoksimenius" weight="1"/>
+            <edge id="kimar|bramarbas" source="kimar" target="bramarbas" weight="3"/>
+            <edge id="kimar|serzhant" source="kimar" target="serzhant" weight="1"/>
+            <edge id="kimar|erast" source="kimar" target="erast" weight="1"/>
+            <edge id="bramarbas|serzhant" source="bramarbas" target="serzhant" weight="1"/>
+            <edge id="bramarbas|podjachij" source="bramarbas" target="podjachij" weight="1"/>
+            <edge id="bramarbas|erast" source="bramarbas" target="erast" weight="1"/>
+            <edge id="podjachij|ksaksoksimenius" source="podjachij" target="ksaksoksimenius" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

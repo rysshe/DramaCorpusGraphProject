@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Майков, Василий Иванович: Агриопа</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="albina" label="Альбина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="479"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="agriopa" label="Агриопа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3305"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="telef" label="Телеф">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2403"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="voenachalnik" label="Военачальник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="312"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ariston" label="Аристон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="600"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="azor" label="Азор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1421"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_voin" label="Один воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik" label="Вестник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="265"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="albina|agriopa" source="albina" target="agriopa" weight="7"/>
+            <edge id="albina|azor" source="albina" target="azor" weight="1"/>
+            <edge id="albina|telef" source="albina" target="telef" weight="2"/>
+            <edge id="albina|voenachalnik" source="albina" target="voenachalnik" weight="2"/>
+            <edge id="albina|vestnik" source="albina" target="vestnik" weight="1"/>
+            <edge id="albina|ariston" source="albina" target="ariston" weight="1"/>
+            <edge id="agriopa|telef" source="agriopa" target="telef" weight="7"/>
+            <edge id="agriopa|voenachalnik" source="agriopa" target="voenachalnik" weight="6"/>
+            <edge id="agriopa|azor" source="agriopa" target="azor" weight="4"/>
+            <edge id="agriopa|odin_voin" source="agriopa" target="odin_voin" weight="1"/>
+            <edge id="agriopa|vestnik" source="agriopa" target="vestnik" weight="1"/>
+            <edge id="agriopa|ariston" source="agriopa" target="ariston" weight="1"/>
+            <edge id="telef|ariston" source="telef" target="ariston" weight="5"/>
+            <edge id="telef|azor" source="telef" target="azor" weight="5"/>
+            <edge id="telef|voenachalnik" source="telef" target="voenachalnik" weight="2"/>
+            <edge id="telef|vestnik" source="telef" target="vestnik" weight="1"/>
+            <edge id="voenachalnik|vestnik" source="voenachalnik" target="vestnik" weight="1"/>
+            <edge id="voenachalnik|ariston" source="voenachalnik" target="ariston" weight="1"/>
+            <edge id="ariston|azor" source="ariston" target="azor" weight="1"/>
+            <edge id="ariston|vestnik" source="ariston" target="vestnik" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

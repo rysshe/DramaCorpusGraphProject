@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Рогоносец по воображению</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="nisa" label="Ниса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="675"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="eger" label="Егерь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="540"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vikul" label="Викул">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1047"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="havronja" label="Хавронья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1110"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dvoretskij" label="Дворецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="466"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="floriza" label="Флориза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="724"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kasandr" label="Касандр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="724"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="nisa|eger" source="nisa" target="eger" weight="4"/>
+            <edge id="nisa|floriza" source="nisa" target="floriza" weight="2"/>
+            <edge id="nisa|havronja" source="nisa" target="havronja" weight="1"/>
+            <edge id="nisa|kasandr" source="nisa" target="kasandr" weight="2"/>
+            <edge id="nisa|vikul" source="nisa" target="vikul" weight="2"/>
+            <edge id="nisa|dvoretskij" source="nisa" target="dvoretskij" weight="1"/>
+            <edge id="eger|vikul" source="eger" target="vikul" weight="5"/>
+            <edge id="eger|kasandr" source="eger" target="kasandr" weight="1"/>
+            <edge id="eger|dvoretskij" source="eger" target="dvoretskij" weight="3"/>
+            <edge id="eger|havronja" source="eger" target="havronja" weight="1"/>
+            <edge id="vikul|havronja" source="vikul" target="havronja" weight="9"/>
+            <edge id="vikul|floriza" source="vikul" target="floriza" weight="4"/>
+            <edge id="vikul|dvoretskij" source="vikul" target="dvoretskij" weight="8"/>
+            <edge id="vikul|kasandr" source="vikul" target="kasandr" weight="5"/>
+            <edge id="havronja|dvoretskij" source="havronja" target="dvoretskij" weight="5"/>
+            <edge id="havronja|floriza" source="havronja" target="floriza" weight="4"/>
+            <edge id="havronja|kasandr" source="havronja" target="kasandr" weight="6"/>
+            <edge id="dvoretskij|floriza" source="dvoretskij" target="floriza" weight="2"/>
+            <edge id="dvoretskij|kasandr" source="dvoretskij" target="kasandr" weight="3"/>
+            <edge id="floriza|kasandr" source="floriza" target="kasandr" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

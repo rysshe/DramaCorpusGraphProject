@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Чехов, Антон Павлович: На большой дороге</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="efimovna" label="Ефимовна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="154"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nazarovna" label="Назаровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="117"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="savva" label="Савва">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="243"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fedja" label="Федя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="521"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_ugla" label="Голос из угла">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="tihon" label="Тихон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="501"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bortsov" label="Борцов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="720"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="merik" label="Мерик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1020"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kuzma" label="Кузьма">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="758"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kucher" label="Кучер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="96"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marja_egorovna" label="Марья Егоровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="73"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="efimovna|nazarovna" source="efimovna" target="nazarovna" weight="2"/>
+            <edge id="efimovna|savva" source="efimovna" target="savva" weight="3"/>
+            <edge id="efimovna|fedja" source="efimovna" target="fedja" weight="3"/>
+            <edge id="efimovna|golos_iz_ugla" source="efimovna" target="golos_iz_ugla" weight="3"/>
+            <edge id="efimovna|tihon" source="efimovna" target="tihon" weight="3"/>
+            <edge id="efimovna|bortsov" source="efimovna" target="bortsov" weight="3"/>
+            <edge id="efimovna|merik" source="efimovna" target="merik" weight="2"/>
+            <edge id="efimovna|kuzma" source="efimovna" target="kuzma" weight="1"/>
+            <edge id="efimovna|kucher" source="efimovna" target="kucher" weight="1"/>
+            <edge id="nazarovna|savva" source="nazarovna" target="savva" weight="2"/>
+            <edge id="nazarovna|fedja" source="nazarovna" target="fedja" weight="2"/>
+            <edge id="nazarovna|golos_iz_ugla" source="nazarovna" target="golos_iz_ugla" weight="2"/>
+            <edge id="nazarovna|tihon" source="nazarovna" target="tihon" weight="3"/>
+            <edge id="nazarovna|bortsov" source="nazarovna" target="bortsov" weight="3"/>
+            <edge id="nazarovna|merik" source="nazarovna" target="merik" weight="2"/>
+            <edge id="nazarovna|marja_egorovna" source="nazarovna" target="marja_egorovna" weight="1"/>
+            <edge id="savva|fedja" source="savva" target="fedja" weight="3"/>
+            <edge id="savva|golos_iz_ugla" source="savva" target="golos_iz_ugla" weight="3"/>
+            <edge id="savva|tihon" source="savva" target="tihon" weight="3"/>
+            <edge id="savva|bortsov" source="savva" target="bortsov" weight="3"/>
+            <edge id="savva|merik" source="savva" target="merik" weight="2"/>
+            <edge id="savva|kuzma" source="savva" target="kuzma" weight="1"/>
+            <edge id="savva|kucher" source="savva" target="kucher" weight="1"/>
+            <edge id="fedja|golos_iz_ugla" source="fedja" target="golos_iz_ugla" weight="3"/>
+            <edge id="fedja|tihon" source="fedja" target="tihon" weight="4"/>
+            <edge id="fedja|bortsov" source="fedja" target="bortsov" weight="3"/>
+            <edge id="fedja|merik" source="fedja" target="merik" weight="2"/>
+            <edge id="fedja|kuzma" source="fedja" target="kuzma" weight="1"/>
+            <edge id="fedja|kucher" source="fedja" target="kucher" weight="2"/>
+            <edge id="golos_iz_ugla|tihon" source="golos_iz_ugla" target="tihon" weight="3"/>
+            <edge id="golos_iz_ugla|bortsov" source="golos_iz_ugla" target="bortsov" weight="3"/>
+            <edge id="golos_iz_ugla|merik" source="golos_iz_ugla" target="merik" weight="2"/>
+            <edge id="golos_iz_ugla|kuzma" source="golos_iz_ugla" target="kuzma" weight="1"/>
+            <edge id="golos_iz_ugla|kucher" source="golos_iz_ugla" target="kucher" weight="1"/>
+            <edge id="tihon|bortsov" source="tihon" target="bortsov" weight="4"/>
+            <edge id="tihon|merik" source="tihon" target="merik" weight="3"/>
+            <edge id="tihon|kuzma" source="tihon" target="kuzma" weight="1"/>
+            <edge id="tihon|kucher" source="tihon" target="kucher" weight="2"/>
+            <edge id="tihon|marja_egorovna" source="tihon" target="marja_egorovna" weight="1"/>
+            <edge id="bortsov|merik" source="bortsov" target="merik" weight="3"/>
+            <edge id="bortsov|kuzma" source="bortsov" target="kuzma" weight="1"/>
+            <edge id="bortsov|kucher" source="bortsov" target="kucher" weight="1"/>
+            <edge id="bortsov|marja_egorovna" source="bortsov" target="marja_egorovna" weight="1"/>
+            <edge id="merik|kuzma" source="merik" target="kuzma" weight="1"/>
+            <edge id="merik|kucher" source="merik" target="kucher" weight="1"/>
+            <edge id="merik|marja_egorovna" source="merik" target="marja_egorovna" weight="1"/>
+            <edge id="kuzma|kucher" source="kuzma" target="kucher" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

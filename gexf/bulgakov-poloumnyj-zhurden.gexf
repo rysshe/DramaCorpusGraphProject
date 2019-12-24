@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Булгаков, Михаил Афанасьевич: Полоумный Журден</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="bezhar" label="Бежар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="561"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="brendavuan" label="Брэндавуан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="233"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="juber" label="Юбер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dju_kruazi" label="Дю Круази">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="uchitel_tantsev" label="Учитель танцев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="258"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="uchitel_muzyki" label="Учитель музыки">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="136"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhurden" label="Журден">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1707"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="uchitel_fehtovanija" label="Учитель фехтования">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="190"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pevets" label="Певец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pevitsa" label="Певица">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nikol" label="Николь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="156"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pankrass" label="Панкрасс">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="286"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="statuja" label="Статуя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="don_zhuan" label="Дон Жуан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gospozha_zhurden" label="Госпожа Журден">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="488"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dorant" label="Дорант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="517"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kleont" label="Клеонт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="485"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kovel" label="Ковьель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1056"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ljusil" label="Люсиль">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="149"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dorimena" label="Доримена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="126"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="portnoj" label="Портной">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="notarius" label="Нотариус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="83"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="bezhar|brendavuan" source="bezhar" target="brendavuan" weight="2"/>
+            <edge id="bezhar|juber" source="bezhar" target="juber" weight="1"/>
+            <edge id="bezhar|dju_kruazi" source="bezhar" target="dju_kruazi" weight="1"/>
+            <edge id="bezhar|uchitel_tantsev" source="bezhar" target="uchitel_tantsev" weight="2"/>
+            <edge id="bezhar|uchitel_muzyki" source="bezhar" target="uchitel_muzyki" weight="2"/>
+            <edge id="bezhar|zhurden" source="bezhar" target="zhurden" weight="2"/>
+            <edge id="bezhar|uchitel_fehtovanija" source="bezhar" target="uchitel_fehtovanija" weight="2"/>
+            <edge id="bezhar|pevets" source="bezhar" target="pevets" weight="1"/>
+            <edge id="bezhar|pevitsa" source="bezhar" target="pevitsa" weight="1"/>
+            <edge id="bezhar|nikol" source="bezhar" target="nikol" weight="2"/>
+            <edge id="bezhar|pankrass" source="bezhar" target="pankrass" weight="2"/>
+            <edge id="bezhar|statuja" source="bezhar" target="statuja" weight="1"/>
+            <edge id="bezhar|don_zhuan" source="bezhar" target="don_zhuan" weight="1"/>
+            <edge id="bezhar|gospozha_zhurden" source="bezhar" target="gospozha_zhurden" weight="2"/>
+            <edge id="bezhar|dorant" source="bezhar" target="dorant" weight="2"/>
+            <edge id="bezhar|kovel" source="bezhar" target="kovel" weight="1"/>
+            <edge id="bezhar|portnoj" source="bezhar" target="portnoj" weight="1"/>
+            <edge id="bezhar|kleont" source="bezhar" target="kleont" weight="1"/>
+            <edge id="bezhar|dorimena" source="bezhar" target="dorimena" weight="1"/>
+            <edge id="bezhar|ljusil" source="bezhar" target="ljusil" weight="1"/>
+            <edge id="bezhar|notarius" source="bezhar" target="notarius" weight="1"/>
+            <edge id="brendavuan|juber" source="brendavuan" target="juber" weight="1"/>
+            <edge id="brendavuan|dju_kruazi" source="brendavuan" target="dju_kruazi" weight="1"/>
+            <edge id="brendavuan|uchitel_tantsev" source="brendavuan" target="uchitel_tantsev" weight="2"/>
+            <edge id="brendavuan|uchitel_muzyki" source="brendavuan" target="uchitel_muzyki" weight="2"/>
+            <edge id="brendavuan|zhurden" source="brendavuan" target="zhurden" weight="3"/>
+            <edge id="brendavuan|uchitel_fehtovanija" source="brendavuan" target="uchitel_fehtovanija" weight="2"/>
+            <edge id="brendavuan|pevets" source="brendavuan" target="pevets" weight="1"/>
+            <edge id="brendavuan|pevitsa" source="brendavuan" target="pevitsa" weight="1"/>
+            <edge id="brendavuan|nikol" source="brendavuan" target="nikol" weight="3"/>
+            <edge id="brendavuan|pankrass" source="brendavuan" target="pankrass" weight="2"/>
+            <edge id="brendavuan|statuja" source="brendavuan" target="statuja" weight="1"/>
+            <edge id="brendavuan|don_zhuan" source="brendavuan" target="don_zhuan" weight="1"/>
+            <edge id="brendavuan|gospozha_zhurden" source="brendavuan" target="gospozha_zhurden" weight="3"/>
+            <edge id="brendavuan|dorant" source="brendavuan" target="dorant" weight="3"/>
+            <edge id="brendavuan|kleont" source="brendavuan" target="kleont" weight="2"/>
+            <edge id="brendavuan|kovel" source="brendavuan" target="kovel" weight="2"/>
+            <edge id="brendavuan|ljusil" source="brendavuan" target="ljusil" weight="2"/>
+            <edge id="brendavuan|dorimena" source="brendavuan" target="dorimena" weight="2"/>
+            <edge id="brendavuan|portnoj" source="brendavuan" target="portnoj" weight="1"/>
+            <edge id="brendavuan|notarius" source="brendavuan" target="notarius" weight="1"/>
+            <edge id="juber|dju_kruazi" source="juber" target="dju_kruazi" weight="1"/>
+            <edge id="juber|uchitel_tantsev" source="juber" target="uchitel_tantsev" weight="1"/>
+            <edge id="juber|uchitel_muzyki" source="juber" target="uchitel_muzyki" weight="1"/>
+            <edge id="juber|zhurden" source="juber" target="zhurden" weight="1"/>
+            <edge id="juber|uchitel_fehtovanija" source="juber" target="uchitel_fehtovanija" weight="1"/>
+            <edge id="juber|pevets" source="juber" target="pevets" weight="1"/>
+            <edge id="juber|pevitsa" source="juber" target="pevitsa" weight="1"/>
+            <edge id="juber|nikol" source="juber" target="nikol" weight="1"/>
+            <edge id="juber|pankrass" source="juber" target="pankrass" weight="1"/>
+            <edge id="juber|statuja" source="juber" target="statuja" weight="1"/>
+            <edge id="juber|don_zhuan" source="juber" target="don_zhuan" weight="1"/>
+            <edge id="juber|gospozha_zhurden" source="juber" target="gospozha_zhurden" weight="1"/>
+            <edge id="juber|dorant" source="juber" target="dorant" weight="1"/>
+            <edge id="dju_kruazi|uchitel_tantsev" source="dju_kruazi" target="uchitel_tantsev" weight="1"/>
+            <edge id="dju_kruazi|uchitel_muzyki" source="dju_kruazi" target="uchitel_muzyki" weight="1"/>
+            <edge id="dju_kruazi|zhurden" source="dju_kruazi" target="zhurden" weight="1"/>
+            <edge id="dju_kruazi|uchitel_fehtovanija" source="dju_kruazi" target="uchitel_fehtovanija" weight="1"/>
+            <edge id="dju_kruazi|pevets" source="dju_kruazi" target="pevets" weight="1"/>
+            <edge id="dju_kruazi|pevitsa" source="dju_kruazi" target="pevitsa" weight="1"/>
+            <edge id="dju_kruazi|nikol" source="dju_kruazi" target="nikol" weight="1"/>
+            <edge id="dju_kruazi|pankrass" source="dju_kruazi" target="pankrass" weight="1"/>
+            <edge id="dju_kruazi|statuja" source="dju_kruazi" target="statuja" weight="1"/>
+            <edge id="dju_kruazi|don_zhuan" source="dju_kruazi" target="don_zhuan" weight="1"/>
+            <edge id="dju_kruazi|gospozha_zhurden" source="dju_kruazi" target="gospozha_zhurden" weight="1"/>
+            <edge id="dju_kruazi|dorant" source="dju_kruazi" target="dorant" weight="1"/>
+            <edge id="uchitel_tantsev|uchitel_muzyki" source="uchitel_tantsev" target="uchitel_muzyki" weight="2"/>
+            <edge id="uchitel_tantsev|zhurden" source="uchitel_tantsev" target="zhurden" weight="2"/>
+            <edge id="uchitel_tantsev|uchitel_fehtovanija" source="uchitel_tantsev" target="uchitel_fehtovanija" weight="2"/>
+            <edge id="uchitel_tantsev|pevets" source="uchitel_tantsev" target="pevets" weight="1"/>
+            <edge id="uchitel_tantsev|pevitsa" source="uchitel_tantsev" target="pevitsa" weight="1"/>
+            <edge id="uchitel_tantsev|nikol" source="uchitel_tantsev" target="nikol" weight="2"/>
+            <edge id="uchitel_tantsev|pankrass" source="uchitel_tantsev" target="pankrass" weight="2"/>
+            <edge id="uchitel_tantsev|statuja" source="uchitel_tantsev" target="statuja" weight="1"/>
+            <edge id="uchitel_tantsev|don_zhuan" source="uchitel_tantsev" target="don_zhuan" weight="1"/>
+            <edge id="uchitel_tantsev|gospozha_zhurden" source="uchitel_tantsev" target="gospozha_zhurden" weight="2"/>
+            <edge id="uchitel_tantsev|dorant" source="uchitel_tantsev" target="dorant" weight="2"/>
+            <edge id="uchitel_tantsev|kovel" source="uchitel_tantsev" target="kovel" weight="1"/>
+            <edge id="uchitel_tantsev|portnoj" source="uchitel_tantsev" target="portnoj" weight="1"/>
+            <edge id="uchitel_tantsev|kleont" source="uchitel_tantsev" target="kleont" weight="1"/>
+            <edge id="uchitel_tantsev|dorimena" source="uchitel_tantsev" target="dorimena" weight="1"/>
+            <edge id="uchitel_tantsev|ljusil" source="uchitel_tantsev" target="ljusil" weight="1"/>
+            <edge id="uchitel_tantsev|notarius" source="uchitel_tantsev" target="notarius" weight="1"/>
+            <edge id="uchitel_muzyki|zhurden" source="uchitel_muzyki" target="zhurden" weight="2"/>
+            <edge id="uchitel_muzyki|uchitel_fehtovanija" source="uchitel_muzyki" target="uchitel_fehtovanija" weight="2"/>
+            <edge id="uchitel_muzyki|pevets" source="uchitel_muzyki" target="pevets" weight="1"/>
+            <edge id="uchitel_muzyki|pevitsa" source="uchitel_muzyki" target="pevitsa" weight="1"/>
+            <edge id="uchitel_muzyki|nikol" source="uchitel_muzyki" target="nikol" weight="2"/>
+            <edge id="uchitel_muzyki|pankrass" source="uchitel_muzyki" target="pankrass" weight="2"/>
+            <edge id="uchitel_muzyki|statuja" source="uchitel_muzyki" target="statuja" weight="1"/>
+            <edge id="uchitel_muzyki|don_zhuan" source="uchitel_muzyki" target="don_zhuan" weight="1"/>
+            <edge id="uchitel_muzyki|gospozha_zhurden" source="uchitel_muzyki" target="gospozha_zhurden" weight="2"/>
+            <edge id="uchitel_muzyki|dorant" source="uchitel_muzyki" target="dorant" weight="2"/>
+            <edge id="uchitel_muzyki|kovel" source="uchitel_muzyki" target="kovel" weight="1"/>
+            <edge id="uchitel_muzyki|portnoj" source="uchitel_muzyki" target="portnoj" weight="1"/>
+            <edge id="uchitel_muzyki|kleont" source="uchitel_muzyki" target="kleont" weight="1"/>
+            <edge id="uchitel_muzyki|dorimena" source="uchitel_muzyki" target="dorimena" weight="1"/>
+            <edge id="uchitel_muzyki|ljusil" source="uchitel_muzyki" target="ljusil" weight="1"/>
+            <edge id="uchitel_muzyki|notarius" source="uchitel_muzyki" target="notarius" weight="1"/>
+            <edge id="zhurden|uchitel_fehtovanija" source="zhurden" target="uchitel_fehtovanija" weight="2"/>
+            <edge id="zhurden|pevets" source="zhurden" target="pevets" weight="1"/>
+            <edge id="zhurden|pevitsa" source="zhurden" target="pevitsa" weight="1"/>
+            <edge id="zhurden|nikol" source="zhurden" target="nikol" weight="3"/>
+            <edge id="zhurden|pankrass" source="zhurden" target="pankrass" weight="2"/>
+            <edge id="zhurden|statuja" source="zhurden" target="statuja" weight="1"/>
+            <edge id="zhurden|don_zhuan" source="zhurden" target="don_zhuan" weight="1"/>
+            <edge id="zhurden|gospozha_zhurden" source="zhurden" target="gospozha_zhurden" weight="3"/>
+            <edge id="zhurden|dorant" source="zhurden" target="dorant" weight="3"/>
+            <edge id="zhurden|kleont" source="zhurden" target="kleont" weight="2"/>
+            <edge id="zhurden|kovel" source="zhurden" target="kovel" weight="2"/>
+            <edge id="zhurden|ljusil" source="zhurden" target="ljusil" weight="2"/>
+            <edge id="zhurden|dorimena" source="zhurden" target="dorimena" weight="2"/>
+            <edge id="zhurden|portnoj" source="zhurden" target="portnoj" weight="1"/>
+            <edge id="zhurden|notarius" source="zhurden" target="notarius" weight="1"/>
+            <edge id="uchitel_fehtovanija|pevets" source="uchitel_fehtovanija" target="pevets" weight="1"/>
+            <edge id="uchitel_fehtovanija|pevitsa" source="uchitel_fehtovanija" target="pevitsa" weight="1"/>
+            <edge id="uchitel_fehtovanija|nikol" source="uchitel_fehtovanija" target="nikol" weight="2"/>
+            <edge id="uchitel_fehtovanija|pankrass" source="uchitel_fehtovanija" target="pankrass" weight="2"/>
+            <edge id="uchitel_fehtovanija|statuja" source="uchitel_fehtovanija" target="statuja" weight="1"/>
+            <edge id="uchitel_fehtovanija|don_zhuan" source="uchitel_fehtovanija" target="don_zhuan" weight="1"/>
+            <edge id="uchitel_fehtovanija|gospozha_zhurden" source="uchitel_fehtovanija" target="gospozha_zhurden" weight="2"/>
+            <edge id="uchitel_fehtovanija|dorant" source="uchitel_fehtovanija" target="dorant" weight="2"/>
+            <edge id="uchitel_fehtovanija|kovel" source="uchitel_fehtovanija" target="kovel" weight="1"/>
+            <edge id="uchitel_fehtovanija|portnoj" source="uchitel_fehtovanija" target="portnoj" weight="1"/>
+            <edge id="uchitel_fehtovanija|kleont" source="uchitel_fehtovanija" target="kleont" weight="1"/>
+            <edge id="uchitel_fehtovanija|dorimena" source="uchitel_fehtovanija" target="dorimena" weight="1"/>
+            <edge id="uchitel_fehtovanija|ljusil" source="uchitel_fehtovanija" target="ljusil" weight="1"/>
+            <edge id="uchitel_fehtovanija|notarius" source="uchitel_fehtovanija" target="notarius" weight="1"/>
+            <edge id="pevets|pevitsa" source="pevets" target="pevitsa" weight="1"/>
+            <edge id="pevets|nikol" source="pevets" target="nikol" weight="1"/>
+            <edge id="pevets|pankrass" source="pevets" target="pankrass" weight="1"/>
+            <edge id="pevets|statuja" source="pevets" target="statuja" weight="1"/>
+            <edge id="pevets|don_zhuan" source="pevets" target="don_zhuan" weight="1"/>
+            <edge id="pevets|gospozha_zhurden" source="pevets" target="gospozha_zhurden" weight="1"/>
+            <edge id="pevets|dorant" source="pevets" target="dorant" weight="1"/>
+            <edge id="pevitsa|nikol" source="pevitsa" target="nikol" weight="1"/>
+            <edge id="pevitsa|pankrass" source="pevitsa" target="pankrass" weight="1"/>
+            <edge id="pevitsa|statuja" source="pevitsa" target="statuja" weight="1"/>
+            <edge id="pevitsa|don_zhuan" source="pevitsa" target="don_zhuan" weight="1"/>
+            <edge id="pevitsa|gospozha_zhurden" source="pevitsa" target="gospozha_zhurden" weight="1"/>
+            <edge id="pevitsa|dorant" source="pevitsa" target="dorant" weight="1"/>
+            <edge id="nikol|pankrass" source="nikol" target="pankrass" weight="2"/>
+            <edge id="nikol|statuja" source="nikol" target="statuja" weight="1"/>
+            <edge id="nikol|don_zhuan" source="nikol" target="don_zhuan" weight="1"/>
+            <edge id="nikol|gospozha_zhurden" source="nikol" target="gospozha_zhurden" weight="3"/>
+            <edge id="nikol|dorant" source="nikol" target="dorant" weight="3"/>
+            <edge id="nikol|kleont" source="nikol" target="kleont" weight="2"/>
+            <edge id="nikol|kovel" source="nikol" target="kovel" weight="2"/>
+            <edge id="nikol|ljusil" source="nikol" target="ljusil" weight="2"/>
+            <edge id="nikol|dorimena" source="nikol" target="dorimena" weight="2"/>
+            <edge id="nikol|portnoj" source="nikol" target="portnoj" weight="1"/>
+            <edge id="nikol|notarius" source="nikol" target="notarius" weight="1"/>
+            <edge id="pankrass|statuja" source="pankrass" target="statuja" weight="1"/>
+            <edge id="pankrass|don_zhuan" source="pankrass" target="don_zhuan" weight="1"/>
+            <edge id="pankrass|gospozha_zhurden" source="pankrass" target="gospozha_zhurden" weight="2"/>
+            <edge id="pankrass|dorant" source="pankrass" target="dorant" weight="2"/>
+            <edge id="pankrass|kovel" source="pankrass" target="kovel" weight="1"/>
+            <edge id="pankrass|portnoj" source="pankrass" target="portnoj" weight="1"/>
+            <edge id="pankrass|kleont" source="pankrass" target="kleont" weight="1"/>
+            <edge id="pankrass|dorimena" source="pankrass" target="dorimena" weight="1"/>
+            <edge id="pankrass|ljusil" source="pankrass" target="ljusil" weight="1"/>
+            <edge id="pankrass|notarius" source="pankrass" target="notarius" weight="1"/>
+            <edge id="statuja|don_zhuan" source="statuja" target="don_zhuan" weight="1"/>
+            <edge id="statuja|gospozha_zhurden" source="statuja" target="gospozha_zhurden" weight="1"/>
+            <edge id="statuja|dorant" source="statuja" target="dorant" weight="1"/>
+            <edge id="don_zhuan|gospozha_zhurden" source="don_zhuan" target="gospozha_zhurden" weight="1"/>
+            <edge id="don_zhuan|dorant" source="don_zhuan" target="dorant" weight="1"/>
+            <edge id="gospozha_zhurden|dorant" source="gospozha_zhurden" target="dorant" weight="3"/>
+            <edge id="gospozha_zhurden|kleont" source="gospozha_zhurden" target="kleont" weight="2"/>
+            <edge id="gospozha_zhurden|kovel" source="gospozha_zhurden" target="kovel" weight="2"/>
+            <edge id="gospozha_zhurden|ljusil" source="gospozha_zhurden" target="ljusil" weight="2"/>
+            <edge id="gospozha_zhurden|dorimena" source="gospozha_zhurden" target="dorimena" weight="2"/>
+            <edge id="gospozha_zhurden|portnoj" source="gospozha_zhurden" target="portnoj" weight="1"/>
+            <edge id="gospozha_zhurden|notarius" source="gospozha_zhurden" target="notarius" weight="1"/>
+            <edge id="dorant|kleont" source="dorant" target="kleont" weight="2"/>
+            <edge id="dorant|kovel" source="dorant" target="kovel" weight="2"/>
+            <edge id="dorant|ljusil" source="dorant" target="ljusil" weight="2"/>
+            <edge id="dorant|dorimena" source="dorant" target="dorimena" weight="2"/>
+            <edge id="dorant|portnoj" source="dorant" target="portnoj" weight="1"/>
+            <edge id="dorant|notarius" source="dorant" target="notarius" weight="1"/>
+            <edge id="kleont|kovel" source="kleont" target="kovel" weight="2"/>
+            <edge id="kleont|ljusil" source="kleont" target="ljusil" weight="2"/>
+            <edge id="kleont|dorimena" source="kleont" target="dorimena" weight="2"/>
+            <edge id="kleont|portnoj" source="kleont" target="portnoj" weight="1"/>
+            <edge id="kleont|notarius" source="kleont" target="notarius" weight="1"/>
+            <edge id="kovel|ljusil" source="kovel" target="ljusil" weight="2"/>
+            <edge id="kovel|dorimena" source="kovel" target="dorimena" weight="2"/>
+            <edge id="kovel|portnoj" source="kovel" target="portnoj" weight="1"/>
+            <edge id="kovel|notarius" source="kovel" target="notarius" weight="1"/>
+            <edge id="ljusil|dorimena" source="ljusil" target="dorimena" weight="2"/>
+            <edge id="ljusil|portnoj" source="ljusil" target="portnoj" weight="1"/>
+            <edge id="ljusil|notarius" source="ljusil" target="notarius" weight="1"/>
+            <edge id="dorimena|portnoj" source="dorimena" target="portnoj" weight="1"/>
+            <edge id="dorimena|notarius" source="dorimena" target="notarius" weight="1"/>
+            <edge id="portnoj|notarius" source="portnoj" target="notarius" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

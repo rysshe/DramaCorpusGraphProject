@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Утро молодого человека</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="699"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sidorych" label="Сидорыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="60"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grishka" label="Гришка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="63"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lisavskij" label="Лисавский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="855"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_molodoj_chelovek" label="2-й молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="103"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_molodoj_chelovek" label="1-й молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="209"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nedopekin" label="Недопекин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="409"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="smurov" label="Смуров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="415"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasya" label="Вася">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="112"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="ivan|sidorych" source="ivan" target="sidorych" weight="1"/>
+            <edge id="ivan|grishka" source="ivan" target="grishka" weight="4"/>
+            <edge id="ivan|lisavskij" source="ivan" target="lisavskij" weight="2"/>
+            <edge id="ivan|nedopekin" source="ivan" target="nedopekin" weight="1"/>
+            <edge id="ivan|smurov" source="ivan" target="smurov" weight="1"/>
+            <edge id="ivan|vasya" source="ivan" target="vasya" weight="1"/>
+            <edge id="sidorych|grishka" source="sidorych" target="grishka" weight="1"/>
+            <edge id="grishka|lisavskij" source="grishka" target="lisavskij" weight="2"/>
+            <edge id="grishka|nedopekin" source="grishka" target="nedopekin" weight="1"/>
+            <edge id="grishka|smurov" source="grishka" target="smurov" weight="1"/>
+            <edge id="grishka|vasya" source="grishka" target="vasya" weight="1"/>
+            <edge id="lisavskij|vtoroj_molodoj_chelovek" source="lisavskij" target="vtoroj_molodoj_chelovek" weight="1"/>
+            <edge id="lisavskij|pervyj_molodoj_chelovek" source="lisavskij" target="pervyj_molodoj_chelovek" weight="1"/>
+            <edge id="lisavskij|nedopekin" source="lisavskij" target="nedopekin" weight="1"/>
+            <edge id="vtoroj_molodoj_chelovek|pervyj_molodoj_chelovek" source="vtoroj_molodoj_chelovek" target="pervyj_molodoj_chelovek" weight="1"/>
+            <edge id="pervyj_molodoj_chelovek|nedopekin" source="pervyj_molodoj_chelovek" target="nedopekin" weight="1"/>
+            <edge id="smurov|vasya" source="smurov" target="vasya" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

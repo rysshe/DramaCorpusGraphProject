@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: На бойком месте</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="bessudnyj" label="Бессудный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1598"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="razzorennyj" label="Раззоренный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="429"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="evgeniya" label="Евгения">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1901"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="annushka" label="Аннушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2707"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zhuk" label="Жук">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="205"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="senya" label="Сеня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="234"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="neputevyj" label="Непутевый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="348"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="milovidov" label="Миловидов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2218"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pyzhikov" label="Пыжиков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="132"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grishka" label="Гришка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="bessudnyj|razzorennyj" source="bessudnyj" target="razzorennyj" weight="3"/>
+            <edge id="bessudnyj|evgeniya" source="bessudnyj" target="evgeniya" weight="9"/>
+            <edge id="bessudnyj|annushka" source="bessudnyj" target="annushka" weight="7"/>
+            <edge id="bessudnyj|zhuk" source="bessudnyj" target="zhuk" weight="9"/>
+            <edge id="bessudnyj|milovidov" source="bessudnyj" target="milovidov" weight="7"/>
+            <edge id="bessudnyj|pyzhikov" source="bessudnyj" target="pyzhikov" weight="2"/>
+            <edge id="bessudnyj|neputevyj" source="bessudnyj" target="neputevyj" weight="3"/>
+            <edge id="bessudnyj|senya" source="bessudnyj" target="senya" weight="3"/>
+            <edge id="bessudnyj|ivan" source="bessudnyj" target="ivan" weight="1"/>
+            <edge id="razzorennyj|neputevyj" source="razzorennyj" target="neputevyj" weight="2"/>
+            <edge id="razzorennyj|senya" source="razzorennyj" target="senya" weight="2"/>
+            <edge id="razzorennyj|annushka" source="razzorennyj" target="annushka" weight="1"/>
+            <edge id="evgeniya|annushka" source="evgeniya" target="annushka" weight="7"/>
+            <edge id="evgeniya|zhuk" source="evgeniya" target="zhuk" weight="5"/>
+            <edge id="evgeniya|senya" source="evgeniya" target="senya" weight="4"/>
+            <edge id="evgeniya|neputevyj" source="evgeniya" target="neputevyj" weight="3"/>
+            <edge id="evgeniya|milovidov" source="evgeniya" target="milovidov" weight="7"/>
+            <edge id="evgeniya|pyzhikov" source="evgeniya" target="pyzhikov" weight="2"/>
+            <edge id="evgeniya|grishka" source="evgeniya" target="grishka" weight="1"/>
+            <edge id="evgeniya|ivan" source="evgeniya" target="ivan" weight="2"/>
+            <edge id="annushka|zhuk" source="annushka" target="zhuk" weight="5"/>
+            <edge id="annushka|neputevyj" source="annushka" target="neputevyj" weight="3"/>
+            <edge id="annushka|senya" source="annushka" target="senya" weight="3"/>
+            <edge id="annushka|milovidov" source="annushka" target="milovidov" weight="6"/>
+            <edge id="annushka|pyzhikov" source="annushka" target="pyzhikov" weight="2"/>
+            <edge id="annushka|grishka" source="annushka" target="grishka" weight="1"/>
+            <edge id="zhuk|neputevyj" source="zhuk" target="neputevyj" weight="1"/>
+            <edge id="zhuk|milovidov" source="zhuk" target="milovidov" weight="3"/>
+            <edge id="zhuk|senya" source="zhuk" target="senya" weight="1"/>
+            <edge id="zhuk|pyzhikov" source="zhuk" target="pyzhikov" weight="1"/>
+            <edge id="zhuk|ivan" source="zhuk" target="ivan" weight="1"/>
+            <edge id="senya|neputevyj" source="senya" target="neputevyj" weight="5"/>
+            <edge id="senya|milovidov" source="senya" target="milovidov" weight="1"/>
+            <edge id="senya|pyzhikov" source="senya" target="pyzhikov" weight="1"/>
+            <edge id="neputevyj|milovidov" source="neputevyj" target="milovidov" weight="1"/>
+            <edge id="neputevyj|pyzhikov" source="neputevyj" target="pyzhikov" weight="1"/>
+            <edge id="milovidov|pyzhikov" source="milovidov" target="pyzhikov" weight="3"/>
+            <edge id="milovidov|grishka" source="milovidov" target="grishka" weight="2"/>
+            <edge id="milovidov|ivan" source="milovidov" target="ivan" weight="2"/>
+            <edge id="pyzhikov|grishka" source="pyzhikov" target="grishka" weight="1"/>
+            <edge id="grishka|ivan" source="grishka" target="ivan" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

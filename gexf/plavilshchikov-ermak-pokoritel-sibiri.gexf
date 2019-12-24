@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Плавильщиков, Пётр Алексеевич: Ермак, покоритель Сибири</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="grubej" label="Грубей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="653"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ermak" label="Ермак">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4625"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sogdaj" label="Согдай">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1698"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="irta" label="Ирта">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1236"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kuchum" label="Кучум">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2222"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kazak" label="Казак">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="36"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ten" label="Тень супруги Кучумовой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="narsim" label="Нарсим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="361"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vse_3-4" label="Все (III/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="horunzhij" label="Хорунжий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="57"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vse_5-8" label="Все (V/8)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="grubej|ermak" source="grubej" target="ermak" weight="8"/>
+            <edge id="grubej|irta" source="grubej" target="irta" weight="2"/>
+            <edge id="grubej|sogdaj" source="grubej" target="sogdaj" weight="4"/>
+            <edge id="grubej|kuchum" source="grubej" target="kuchum" weight="4"/>
+            <edge id="grubej|kazak" source="grubej" target="kazak" weight="2"/>
+            <edge id="grubej|horunzhij" source="grubej" target="horunzhij" weight="2"/>
+            <edge id="grubej|narsim" source="grubej" target="narsim" weight="1"/>
+            <edge id="ermak|sogdaj" source="ermak" target="sogdaj" weight="4"/>
+            <edge id="ermak|irta" source="ermak" target="irta" weight="6"/>
+            <edge id="ermak|kuchum" source="ermak" target="kuchum" weight="3"/>
+            <edge id="ermak|kazak" source="ermak" target="kazak" weight="2"/>
+            <edge id="ermak|horunzhij" source="ermak" target="horunzhij" weight="2"/>
+            <edge id="ermak|narsim" source="ermak" target="narsim" weight="1"/>
+            <edge id="ermak|vse_5-8" source="ermak" target="vse_5-8" weight="1"/>
+            <edge id="sogdaj|irta" source="sogdaj" target="irta" weight="1"/>
+            <edge id="sogdaj|kuchum" source="sogdaj" target="kuchum" weight="3"/>
+            <edge id="sogdaj|narsim" source="sogdaj" target="narsim" weight="1"/>
+            <edge id="sogdaj|kazak" source="sogdaj" target="kazak" weight="1"/>
+            <edge id="sogdaj|horunzhij" source="sogdaj" target="horunzhij" weight="1"/>
+            <edge id="irta|kuchum" source="irta" target="kuchum" weight="8"/>
+            <edge id="irta|kazak" source="irta" target="kazak" weight="1"/>
+            <edge id="irta|ten" source="irta" target="ten" weight="1"/>
+            <edge id="irta|narsim" source="irta" target="narsim" weight="2"/>
+            <edge id="irta|vse_3-4" source="irta" target="vse_3-4" weight="1"/>
+            <edge id="irta|vse_5-8" source="irta" target="vse_5-8" weight="1"/>
+            <edge id="kuchum|kazak" source="kuchum" target="kazak" weight="1"/>
+            <edge id="kuchum|ten" source="kuchum" target="ten" weight="1"/>
+            <edge id="kuchum|narsim" source="kuchum" target="narsim" weight="4"/>
+            <edge id="kuchum|vse_3-4" source="kuchum" target="vse_3-4" weight="1"/>
+            <edge id="kuchum|horunzhij" source="kuchum" target="horunzhij" weight="1"/>
+            <edge id="kuchum|vse_5-8" source="kuchum" target="vse_5-8" weight="1"/>
+            <edge id="narsim|vse_3-4" source="narsim" target="vse_3-4" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

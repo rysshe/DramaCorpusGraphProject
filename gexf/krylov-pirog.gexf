@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Пирог</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="vanka" label="Ванька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1442"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="muzhik" label="Мужик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="34"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dasha" label="Даша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="486"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fatyuev" label="Фатюев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="776"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="uzhima" label="Ужима">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="689"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="prelesta" label="Прелеста">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="78"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="milon" label="Милон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vspyshkin" label="Вспышкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1504"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="potap" label="Потап">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="86"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="vanka|muzhik" source="vanka" target="muzhik" weight="1"/>
+            <edge id="vanka|dasha" source="vanka" target="dasha" weight="4"/>
+            <edge id="vanka|fatyuev" source="vanka" target="fatyuev" weight="3"/>
+            <edge id="vanka|uzhima" source="vanka" target="uzhima" weight="3"/>
+            <edge id="vanka|prelesta" source="vanka" target="prelesta" weight="2"/>
+            <edge id="vanka|milon" source="vanka" target="milon" weight="3"/>
+            <edge id="vanka|vspyshkin" source="vanka" target="vspyshkin" weight="3"/>
+            <edge id="dasha|uzhima" source="dasha" target="uzhima" weight="4"/>
+            <edge id="dasha|prelesta" source="dasha" target="prelesta" weight="4"/>
+            <edge id="dasha|milon" source="dasha" target="milon" weight="5"/>
+            <edge id="dasha|vspyshkin" source="dasha" target="vspyshkin" weight="4"/>
+            <edge id="dasha|fatyuev" source="dasha" target="fatyuev" weight="3"/>
+            <edge id="fatyuev|vspyshkin" source="fatyuev" target="vspyshkin" weight="3"/>
+            <edge id="fatyuev|prelesta" source="fatyuev" target="prelesta" weight="2"/>
+            <edge id="fatyuev|milon" source="fatyuev" target="milon" weight="3"/>
+            <edge id="fatyuev|uzhima" source="fatyuev" target="uzhima" weight="2"/>
+            <edge id="uzhima|prelesta" source="uzhima" target="prelesta" weight="4"/>
+            <edge id="uzhima|milon" source="uzhima" target="milon" weight="4"/>
+            <edge id="uzhima|vspyshkin" source="uzhima" target="vspyshkin" weight="5"/>
+            <edge id="prelesta|milon" source="prelesta" target="milon" weight="4"/>
+            <edge id="prelesta|vspyshkin" source="prelesta" target="vspyshkin" weight="3"/>
+            <edge id="milon|vspyshkin" source="milon" target="vspyshkin" weight="4"/>
+            <edge id="vspyshkin|potap" source="vspyshkin" target="potap" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

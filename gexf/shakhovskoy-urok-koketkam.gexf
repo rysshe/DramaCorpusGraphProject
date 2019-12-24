@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Шаховской, Александр Александрович: Урок кокеткам, или липецкие воды</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="semen" label="Семен">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="843"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaz" label="Князь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1181"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sasha" label="Саша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2138"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pronskij" label="Пронский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1127"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="olenka" label="Оленька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="301"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knjazhna" label="Княжна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1343"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="grafinja" label="Графиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3785"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ugarov" label="Угаров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="410"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fialkin" label="Фиалкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="582"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="baron" label="Барон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="527"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="olgin" label="Ольгин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1603"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="semen|knjaz" source="semen" target="knjaz" weight="5"/>
+            <edge id="semen|sasha" source="semen" target="sasha" weight="7"/>
+            <edge id="semen|grafinja" source="semen" target="grafinja" weight="5"/>
+            <edge id="semen|pronskij" source="semen" target="pronskij" weight="5"/>
+            <edge id="semen|olgin" source="semen" target="olgin" weight="5"/>
+            <edge id="semen|knjazhna" source="semen" target="knjazhna" weight="3"/>
+            <edge id="semen|baron" source="semen" target="baron" weight="3"/>
+            <edge id="semen|ugarov" source="semen" target="ugarov" weight="3"/>
+            <edge id="semen|olenka" source="semen" target="olenka" weight="1"/>
+            <edge id="semen|fialkin" source="semen" target="fialkin" weight="2"/>
+            <edge id="knjaz|sasha" source="knjaz" target="sasha" weight="6"/>
+            <edge id="knjaz|pronskij" source="knjaz" target="pronskij" weight="7"/>
+            <edge id="knjaz|olenka" source="knjaz" target="olenka" weight="2"/>
+            <edge id="knjaz|knjazhna" source="knjaz" target="knjazhna" weight="4"/>
+            <edge id="knjaz|grafinja" source="knjaz" target="grafinja" weight="4"/>
+            <edge id="knjaz|baron" source="knjaz" target="baron" weight="3"/>
+            <edge id="knjaz|ugarov" source="knjaz" target="ugarov" weight="3"/>
+            <edge id="knjaz|olgin" source="knjaz" target="olgin" weight="4"/>
+            <edge id="knjaz|fialkin" source="knjaz" target="fialkin" weight="1"/>
+            <edge id="sasha|knjazhna" source="sasha" target="knjazhna" weight="3"/>
+            <edge id="sasha|olenka" source="sasha" target="olenka" weight="2"/>
+            <edge id="sasha|pronskij" source="sasha" target="pronskij" weight="8"/>
+            <edge id="sasha|grafinja" source="sasha" target="grafinja" weight="16"/>
+            <edge id="sasha|ugarov" source="sasha" target="ugarov" weight="4"/>
+            <edge id="sasha|fialkin" source="sasha" target="fialkin" weight="3"/>
+            <edge id="sasha|baron" source="sasha" target="baron" weight="5"/>
+            <edge id="sasha|olgin" source="sasha" target="olgin" weight="5"/>
+            <edge id="pronskij|olenka" source="pronskij" target="olenka" weight="2"/>
+            <edge id="pronskij|knjazhna" source="pronskij" target="knjazhna" weight="4"/>
+            <edge id="pronskij|grafinja" source="pronskij" target="grafinja" weight="9"/>
+            <edge id="pronskij|olgin" source="pronskij" target="olgin" weight="7"/>
+            <edge id="pronskij|baron" source="pronskij" target="baron" weight="2"/>
+            <edge id="pronskij|ugarov" source="pronskij" target="ugarov" weight="2"/>
+            <edge id="pronskij|fialkin" source="pronskij" target="fialkin" weight="1"/>
+            <edge id="olenka|knjazhna" source="olenka" target="knjazhna" weight="4"/>
+            <edge id="olenka|grafinja" source="olenka" target="grafinja" weight="2"/>
+            <edge id="olenka|baron" source="olenka" target="baron" weight="2"/>
+            <edge id="olenka|ugarov" source="olenka" target="ugarov" weight="2"/>
+            <edge id="olenka|olgin" source="olenka" target="olgin" weight="1"/>
+            <edge id="knjazhna|grafinja" source="knjazhna" target="grafinja" weight="3"/>
+            <edge id="knjazhna|baron" source="knjazhna" target="baron" weight="3"/>
+            <edge id="knjazhna|ugarov" source="knjazhna" target="ugarov" weight="3"/>
+            <edge id="knjazhna|olgin" source="knjazhna" target="olgin" weight="3"/>
+            <edge id="knjazhna|fialkin" source="knjazhna" target="fialkin" weight="1"/>
+            <edge id="grafinja|ugarov" source="grafinja" target="ugarov" weight="6"/>
+            <edge id="grafinja|fialkin" source="grafinja" target="fialkin" weight="3"/>
+            <edge id="grafinja|baron" source="grafinja" target="baron" weight="7"/>
+            <edge id="grafinja|olgin" source="grafinja" target="olgin" weight="7"/>
+            <edge id="ugarov|fialkin" source="ugarov" target="fialkin" weight="2"/>
+            <edge id="ugarov|baron" source="ugarov" target="baron" weight="6"/>
+            <edge id="ugarov|olgin" source="ugarov" target="olgin" weight="3"/>
+            <edge id="fialkin|baron" source="fialkin" target="baron" weight="2"/>
+            <edge id="fialkin|olgin" source="fialkin" target="olgin" weight="1"/>
+            <edge id="baron|olgin" source="baron" target="olgin" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

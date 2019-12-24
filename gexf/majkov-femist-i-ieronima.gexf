@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Майков, Василий Иванович: Фемист и Иеронима</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="klit" label="Клит">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="747"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="femist" label="Фемист">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3128"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="magomet" label="Магомет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2882"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="osman" label="Осман">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="380"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ieronima" label="Иеронима">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1379"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nachalnik" label="Начальник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="153"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="klit|femist" source="klit" target="femist" weight="5"/>
+            <edge id="klit|ieronima" source="klit" target="ieronima" weight="2"/>
+            <edge id="klit|magomet" source="klit" target="magomet" weight="1"/>
+            <edge id="femist|magomet" source="femist" target="magomet" weight="10"/>
+            <edge id="femist|ieronima" source="femist" target="ieronima" weight="4"/>
+            <edge id="femist|nachalnik" source="femist" target="nachalnik" weight="2"/>
+            <edge id="femist|osman" source="femist" target="osman" weight="1"/>
+            <edge id="magomet|osman" source="magomet" target="osman" weight="4"/>
+            <edge id="magomet|ieronima" source="magomet" target="ieronima" weight="6"/>
+            <edge id="magomet|nachalnik" source="magomet" target="nachalnik" weight="4"/>
+            <edge id="ieronima|nachalnik" source="ieronima" target="nachalnik" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

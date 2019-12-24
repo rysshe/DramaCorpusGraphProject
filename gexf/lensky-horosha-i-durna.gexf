@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Ленский, Дмитрий Тимофеевич: Хороша и дурна, и глупа и умна</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="konstantin_prohorovich" label="Константин Прохорович Яузов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1365"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stepanida_karpovna" label="Степанида Карловна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1188"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="padcheretsin" label="Иван Григорьевич Падчерицын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2270"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nadenka" label="Наденька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1902"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="emeljan" label="Емельян">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="612"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="alinskoj" label="Александр Иванович Алинской">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2257"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="konstantin_prohorovich|stepanida_karpovna" source="konstantin_prohorovich" target="stepanida_karpovna" weight="8"/>
+            <edge id="konstantin_prohorovich|padcheretsin" source="konstantin_prohorovich" target="padcheretsin" weight="9"/>
+            <edge id="konstantin_prohorovich|nadenka" source="konstantin_prohorovich" target="nadenka" weight="4"/>
+            <edge id="konstantin_prohorovich|alinskoj" source="konstantin_prohorovich" target="alinskoj" weight="5"/>
+            <edge id="konstantin_prohorovich|emeljan" source="konstantin_prohorovich" target="emeljan" weight="3"/>
+            <edge id="stepanida_karpovna|padcheretsin" source="stepanida_karpovna" target="padcheretsin" weight="9"/>
+            <edge id="stepanida_karpovna|nadenka" source="stepanida_karpovna" target="nadenka" weight="7"/>
+            <edge id="stepanida_karpovna|emeljan" source="stepanida_karpovna" target="emeljan" weight="4"/>
+            <edge id="stepanida_karpovna|alinskoj" source="stepanida_karpovna" target="alinskoj" weight="4"/>
+            <edge id="padcheretsin|alinskoj" source="padcheretsin" target="alinskoj" weight="10"/>
+            <edge id="padcheretsin|nadenka" source="padcheretsin" target="nadenka" weight="6"/>
+            <edge id="padcheretsin|emeljan" source="padcheretsin" target="emeljan" weight="4"/>
+            <edge id="nadenka|emeljan" source="nadenka" target="emeljan" weight="4"/>
+            <edge id="nadenka|alinskoj" source="nadenka" target="alinskoj" weight="7"/>
+            <edge id="emeljan|alinskoj" source="emeljan" target="alinskoj" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

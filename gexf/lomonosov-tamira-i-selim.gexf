@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Ломоносов, Михаил Васильевич: Тамира и Селим</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="tamira" label="Тамира">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2685"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kleona" label="Клеона">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="730"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mumet" label="Мумет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1226"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nadir" label="Надир">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1275"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="selim" label="Селим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1850"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zaisan" label="Заисан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="476"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik_2-6" label="Вестник (II/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="97"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mamaj" label="Мамай">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="979"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik_5-3" label="Вестник (V/3)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="224"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="narsim" label="Нарсим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="470"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="tamira|kleona" source="tamira" target="kleona" weight="6"/>
+            <edge id="tamira|mumet" source="tamira" target="mumet" weight="4"/>
+            <edge id="tamira|selim" source="tamira" target="selim" weight="3"/>
+            <edge id="tamira|mamaj" source="tamira" target="mamaj" weight="2"/>
+            <edge id="tamira|nadir" source="tamira" target="nadir" weight="3"/>
+            <edge id="tamira|vestnik_5-3" source="tamira" target="vestnik_5-3" weight="1"/>
+            <edge id="tamira|narsim" source="tamira" target="narsim" weight="2"/>
+            <edge id="tamira|zaisan" source="tamira" target="zaisan" weight="1"/>
+            <edge id="kleona|selim" source="kleona" target="selim" weight="3"/>
+            <edge id="kleona|mamaj" source="kleona" target="mamaj" weight="2"/>
+            <edge id="kleona|zaisan" source="kleona" target="zaisan" weight="2"/>
+            <edge id="kleona|nadir" source="kleona" target="nadir" weight="4"/>
+            <edge id="kleona|mumet" source="kleona" target="mumet" weight="1"/>
+            <edge id="mumet|selim" source="mumet" target="selim" weight="2"/>
+            <edge id="mumet|zaisan" source="mumet" target="zaisan" weight="3"/>
+            <edge id="mumet|nadir" source="mumet" target="nadir" weight="4"/>
+            <edge id="mumet|vestnik_2-6" source="mumet" target="vestnik_2-6" weight="1"/>
+            <edge id="mumet|mamaj" source="mumet" target="mamaj" weight="2"/>
+            <edge id="mumet|narsim" source="mumet" target="narsim" weight="1"/>
+            <edge id="nadir|selim" source="nadir" target="selim" weight="4"/>
+            <edge id="nadir|zaisan" source="nadir" target="zaisan" weight="5"/>
+            <edge id="nadir|mamaj" source="nadir" target="mamaj" weight="2"/>
+            <edge id="nadir|vestnik_5-3" source="nadir" target="vestnik_5-3" weight="1"/>
+            <edge id="nadir|narsim" source="nadir" target="narsim" weight="1"/>
+            <edge id="selim|mamaj" source="selim" target="mamaj" weight="1"/>
+            <edge id="selim|zaisan" source="selim" target="zaisan" weight="2"/>
+            <edge id="selim|narsim" source="selim" target="narsim" weight="2"/>
+            <edge id="zaisan|mamaj" source="zaisan" target="mamaj" weight="4"/>
+            <edge id="zaisan|narsim" source="zaisan" target="narsim" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

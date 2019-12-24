@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Филомела</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="progneya" label="Прогнея">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2580"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="linsej" label="Линсей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1249"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kalhant" label="Калхант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1265"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="agamet" label="Агамет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="685"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="terej" label="Терей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3231"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="filomela" label="Филомела">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="528"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="heres" label="Херес">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="progneya|linsej" source="progneya" target="linsej" weight="9"/>
+            <edge id="progneya|kalhant" source="progneya" target="kalhant" weight="7"/>
+            <edge id="progneya|agamet" source="progneya" target="agamet" weight="2"/>
+            <edge id="progneya|terej" source="progneya" target="terej" weight="6"/>
+            <edge id="progneya|filomela" source="progneya" target="filomela" weight="2"/>
+            <edge id="linsej|kalhant" source="linsej" target="kalhant" weight="5"/>
+            <edge id="linsej|terej" source="linsej" target="terej" weight="6"/>
+            <edge id="linsej|filomela" source="linsej" target="filomela" weight="2"/>
+            <edge id="linsej|agamet" source="linsej" target="agamet" weight="1"/>
+            <edge id="kalhant|terej" source="kalhant" target="terej" weight="6"/>
+            <edge id="kalhant|agamet" source="kalhant" target="agamet" weight="1"/>
+            <edge id="agamet|terej" source="agamet" target="terej" weight="3"/>
+            <edge id="terej|filomela" source="terej" target="filomela" weight="1"/>
+            <edge id="terej|heres" source="terej" target="heres" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Подщипа или Трумф</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="chernavka" label="Чернавка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="375"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="podschipa" label="Подщипа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1000"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="durduran" label="Дурдуран">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="301"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="trumf" label="Трумф">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="851"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sljunjaj" label="Слюняй">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="650"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vakula" label="Вакула">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="836"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pazh" label="Паж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tsyganka" label="Цыганка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="283"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="chernavka|podschipa" source="chernavka" target="podschipa" weight="4"/>
+            <edge id="chernavka|durduran" source="chernavka" target="durduran" weight="2"/>
+            <edge id="chernavka|sljunjaj" source="chernavka" target="sljunjaj" weight="2"/>
+            <edge id="chernavka|tsyganka" source="chernavka" target="tsyganka" weight="1"/>
+            <edge id="chernavka|vakula" source="chernavka" target="vakula" weight="1"/>
+            <edge id="chernavka|trumf" source="chernavka" target="trumf" weight="1"/>
+            <edge id="podschipa|durduran" source="podschipa" target="durduran" weight="5"/>
+            <edge id="podschipa|trumf" source="podschipa" target="trumf" weight="5"/>
+            <edge id="podschipa|sljunjaj" source="podschipa" target="sljunjaj" weight="7"/>
+            <edge id="podschipa|vakula" source="podschipa" target="vakula" weight="6"/>
+            <edge id="podschipa|tsyganka" source="podschipa" target="tsyganka" weight="2"/>
+            <edge id="podschipa|pazh" source="podschipa" target="pazh" weight="1"/>
+            <edge id="durduran|vakula" source="durduran" target="vakula" weight="6"/>
+            <edge id="durduran|pazh" source="durduran" target="pazh" weight="2"/>
+            <edge id="durduran|sljunjaj" source="durduran" target="sljunjaj" weight="2"/>
+            <edge id="durduran|tsyganka" source="durduran" target="tsyganka" weight="2"/>
+            <edge id="durduran|trumf" source="durduran" target="trumf" weight="2"/>
+            <edge id="trumf|vakula" source="trumf" target="vakula" weight="3"/>
+            <edge id="trumf|tsyganka" source="trumf" target="tsyganka" weight="2"/>
+            <edge id="trumf|sljunjaj" source="trumf" target="sljunjaj" weight="4"/>
+            <edge id="sljunjaj|vakula" source="sljunjaj" target="vakula" weight="3"/>
+            <edge id="sljunjaj|pazh" source="sljunjaj" target="pazh" weight="2"/>
+            <edge id="sljunjaj|tsyganka" source="sljunjaj" target="tsyganka" weight="1"/>
+            <edge id="vakula|pazh" source="vakula" target="pazh" weight="2"/>
+            <edge id="vakula|tsyganka" source="vakula" target="tsyganka" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

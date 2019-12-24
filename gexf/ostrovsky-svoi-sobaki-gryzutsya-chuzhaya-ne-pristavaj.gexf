@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Свои собаки грызутся, чужая не приставай</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="balzaminova" label="Бальзаминова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1143"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="matrena" label="Матрена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="143"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ustrashimov" label="Устрашимов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="419"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="balzaminov" label="Бальзаминов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1848"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="krasavina" label="Красавина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="964"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="376"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="antrygina" label="Антрыгина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="999"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pionova" label="Пионова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="808"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="balzaminova|matrena" source="balzaminova" target="matrena" weight="2"/>
+            <edge id="balzaminova|ustrashimov" source="balzaminova" target="ustrashimov" weight="1"/>
+            <edge id="balzaminova|balzaminov" source="balzaminova" target="balzaminov" weight="3"/>
+            <edge id="balzaminova|krasavina" source="balzaminova" target="krasavina" weight="1"/>
+            <edge id="matrena|ustrashimov" source="matrena" target="ustrashimov" weight="1"/>
+            <edge id="ustrashimov|masha" source="ustrashimov" target="masha" weight="1"/>
+            <edge id="ustrashimov|antrygina" source="ustrashimov" target="antrygina" weight="3"/>
+            <edge id="ustrashimov|pionova" source="ustrashimov" target="pionova" weight="2"/>
+            <edge id="ustrashimov|balzaminov" source="ustrashimov" target="balzaminov" weight="1"/>
+            <edge id="ustrashimov|krasavina" source="ustrashimov" target="krasavina" weight="1"/>
+            <edge id="balzaminov|krasavina" source="balzaminov" target="krasavina" weight="3"/>
+            <edge id="balzaminov|antrygina" source="balzaminov" target="antrygina" weight="2"/>
+            <edge id="balzaminov|pionova" source="balzaminov" target="pionova" weight="2"/>
+            <edge id="balzaminov|masha" source="balzaminov" target="masha" weight="1"/>
+            <edge id="krasavina|antrygina" source="krasavina" target="antrygina" weight="3"/>
+            <edge id="krasavina|pionova" source="krasavina" target="pionova" weight="3"/>
+            <edge id="krasavina|masha" source="krasavina" target="masha" weight="1"/>
+            <edge id="masha|antrygina" source="masha" target="antrygina" weight="2"/>
+            <edge id="masha|pionova" source="masha" target="pionova" weight="1"/>
+            <edge id="antrygina|pionova" source="antrygina" target="pionova" weight="6"/>
+        </edges>
+    </graph>
+</gexf>

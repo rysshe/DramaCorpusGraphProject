@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Грех да беда на кого не живет</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="zajchiha" label="Зайчиха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="370"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="karp" label="Карп">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="409"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="babaev" label="Бабаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1913"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shishgalev" label="Шишгалев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="172"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhmigulina" label="Жмигулина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2366"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="afonya" label="Афоня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1272"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="arhip" label="Архип">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1066"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="krasnova" label="Краснова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2686"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="krasnov" label="Краснов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3197"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kuricyna" label="Курицына">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="689"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kuricyn" label="Курицын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="324"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="zajchiha|karp" source="zajchiha" target="karp" weight="3"/>
+            <edge id="zajchiha|babaev" source="zajchiha" target="babaev" weight="2"/>
+            <edge id="zajchiha|kuricyna" source="zajchiha" target="kuricyna" weight="1"/>
+            <edge id="karp|babaev" source="karp" target="babaev" weight="5"/>
+            <edge id="karp|shishgalev" source="karp" target="shishgalev" weight="1"/>
+            <edge id="karp|zhmigulina" source="karp" target="zhmigulina" weight="1"/>
+            <edge id="karp|krasnova" source="karp" target="krasnova" weight="1"/>
+            <edge id="babaev|shishgalev" source="babaev" target="shishgalev" weight="1"/>
+            <edge id="babaev|zhmigulina" source="babaev" target="zhmigulina" weight="5"/>
+            <edge id="babaev|krasnova" source="babaev" target="krasnova" weight="5"/>
+            <edge id="babaev|krasnov" source="babaev" target="krasnov" weight="1"/>
+            <edge id="babaev|afonya" source="babaev" target="afonya" weight="1"/>
+            <edge id="zhmigulina|krasnova" source="zhmigulina" target="krasnova" weight="13"/>
+            <edge id="zhmigulina|afonya" source="zhmigulina" target="afonya" weight="8"/>
+            <edge id="zhmigulina|krasnov" source="zhmigulina" target="krasnov" weight="7"/>
+            <edge id="zhmigulina|kuricyna" source="zhmigulina" target="kuricyna" weight="1"/>
+            <edge id="zhmigulina|kuricyn" source="zhmigulina" target="kuricyn" weight="1"/>
+            <edge id="zhmigulina|arhip" source="zhmigulina" target="arhip" weight="4"/>
+            <edge id="afonya|arhip" source="afonya" target="arhip" weight="5"/>
+            <edge id="afonya|krasnova" source="afonya" target="krasnova" weight="8"/>
+            <edge id="afonya|krasnov" source="afonya" target="krasnov" weight="7"/>
+            <edge id="afonya|kuricyna" source="afonya" target="kuricyna" weight="4"/>
+            <edge id="afonya|kuricyn" source="afonya" target="kuricyn" weight="2"/>
+            <edge id="arhip|krasnova" source="arhip" target="krasnova" weight="5"/>
+            <edge id="arhip|krasnov" source="arhip" target="krasnov" weight="3"/>
+            <edge id="arhip|kuricyna" source="arhip" target="kuricyna" weight="1"/>
+            <edge id="arhip|kuricyn" source="arhip" target="kuricyn" weight="1"/>
+            <edge id="krasnova|krasnov" source="krasnova" target="krasnov" weight="9"/>
+            <edge id="krasnova|kuricyna" source="krasnova" target="kuricyna" weight="3"/>
+            <edge id="krasnova|kuricyn" source="krasnova" target="kuricyn" weight="3"/>
+            <edge id="krasnov|kuricyna" source="krasnov" target="kuricyna" weight="5"/>
+            <edge id="krasnov|kuricyn" source="krasnov" target="kuricyn" weight="4"/>
+            <edge id="kuricyna|kuricyn" source="kuricyna" target="kuricyn" weight="4"/>
+        </edges>
+    </graph>
+</gexf>

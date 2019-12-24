@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Фонвизин, Денис Иванович: Корион</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="andrej" label="Андрей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2241"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="krestjanin" label="Крестянин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="267"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="korion" label="Корион">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2181"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="menandr" label="Менандр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1451"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zenovija" label="Зеновия">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="703"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="andrej|krestjanin" source="andrej" target="krestjanin" weight="3"/>
+            <edge id="andrej|korion" source="andrej" target="korion" weight="5"/>
+            <edge id="andrej|menandr" source="andrej" target="menandr" weight="3"/>
+            <edge id="andrej|zenovija" source="andrej" target="zenovija" weight="1"/>
+            <edge id="krestjanin|korion" source="krestjanin" target="korion" weight="1"/>
+            <edge id="krestjanin|menandr" source="krestjanin" target="menandr" weight="1"/>
+            <edge id="korion|menandr" source="korion" target="menandr" weight="5"/>
+            <edge id="korion|zenovija" source="korion" target="zenovija" weight="3"/>
+            <edge id="menandr|zenovija" source="menandr" target="zenovija" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

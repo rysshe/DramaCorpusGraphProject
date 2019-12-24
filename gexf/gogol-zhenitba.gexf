@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гоголь, Николай Васильевич: Женитьба</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="podkolesin" label="Подколесин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1950"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stepan" label="Степан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="77"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fekla" label="Фекла">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1615"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kochkarev" label="Кочкарев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3107"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="agafja_tihonovna" label="Агафья Тихоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1273"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="arina_pantelejmonovna" label="Арина Пантелеймоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="552"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dunjashka" label="Дуняшка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="38"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="jaichnitsa" label="Яичница">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="921"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="anuchkin" label="Анучкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="363"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhevakin" label="Жевакин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1266"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="starikov" label="Стариков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_izvozchika" label="Голос извозчика">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="podkolesin|stepan" source="podkolesin" target="stepan" weight="4"/>
+            <edge id="podkolesin|fekla" source="podkolesin" target="fekla" weight="3"/>
+            <edge id="podkolesin|kochkarev" source="podkolesin" target="kochkarev" weight="10"/>
+            <edge id="podkolesin|jaichnitsa" source="podkolesin" target="jaichnitsa" weight="2"/>
+            <edge id="podkolesin|zhevakin" source="podkolesin" target="zhevakin" weight="1"/>
+            <edge id="podkolesin|anuchkin" source="podkolesin" target="anuchkin" weight="2"/>
+            <edge id="podkolesin|starikov" source="podkolesin" target="starikov" weight="1"/>
+            <edge id="podkolesin|agafja_tihonovna" source="podkolesin" target="agafja_tihonovna" weight="3"/>
+            <edge id="podkolesin|golos_izvozchika" source="podkolesin" target="golos_izvozchika" weight="1"/>
+            <edge id="fekla|kochkarev" source="fekla" target="kochkarev" weight="9"/>
+            <edge id="fekla|agafja_tihonovna" source="fekla" target="agafja_tihonovna" weight="5"/>
+            <edge id="fekla|arina_pantelejmonovna" source="fekla" target="arina_pantelejmonovna" weight="5"/>
+            <edge id="fekla|zhevakin" source="fekla" target="zhevakin" weight="4"/>
+            <edge id="fekla|anuchkin" source="fekla" target="anuchkin" weight="4"/>
+            <edge id="fekla|jaichnitsa" source="fekla" target="jaichnitsa" weight="5"/>
+            <edge id="fekla|starikov" source="fekla" target="starikov" weight="2"/>
+            <edge id="fekla|dunjashka" source="fekla" target="dunjashka" weight="1"/>
+            <edge id="kochkarev|zhevakin" source="kochkarev" target="zhevakin" weight="6"/>
+            <edge id="kochkarev|jaichnitsa" source="kochkarev" target="jaichnitsa" weight="7"/>
+            <edge id="kochkarev|arina_pantelejmonovna" source="kochkarev" target="arina_pantelejmonovna" weight="4"/>
+            <edge id="kochkarev|anuchkin" source="kochkarev" target="anuchkin" weight="6"/>
+            <edge id="kochkarev|agafja_tihonovna" source="kochkarev" target="agafja_tihonovna" weight="7"/>
+            <edge id="kochkarev|starikov" source="kochkarev" target="starikov" weight="2"/>
+            <edge id="kochkarev|dunjashka" source="kochkarev" target="dunjashka" weight="1"/>
+            <edge id="agafja_tihonovna|arina_pantelejmonovna" source="agafja_tihonovna" target="arina_pantelejmonovna" weight="6"/>
+            <edge id="agafja_tihonovna|jaichnitsa" source="agafja_tihonovna" target="jaichnitsa" weight="4"/>
+            <edge id="agafja_tihonovna|zhevakin" source="agafja_tihonovna" target="zhevakin" weight="4"/>
+            <edge id="agafja_tihonovna|anuchkin" source="agafja_tihonovna" target="anuchkin" weight="3"/>
+            <edge id="agafja_tihonovna|starikov" source="agafja_tihonovna" target="starikov" weight="1"/>
+            <edge id="arina_pantelejmonovna|jaichnitsa" source="arina_pantelejmonovna" target="jaichnitsa" weight="2"/>
+            <edge id="arina_pantelejmonovna|zhevakin" source="arina_pantelejmonovna" target="zhevakin" weight="2"/>
+            <edge id="arina_pantelejmonovna|anuchkin" source="arina_pantelejmonovna" target="anuchkin" weight="2"/>
+            <edge id="arina_pantelejmonovna|starikov" source="arina_pantelejmonovna" target="starikov" weight="1"/>
+            <edge id="arina_pantelejmonovna|dunjashka" source="arina_pantelejmonovna" target="dunjashka" weight="1"/>
+            <edge id="dunjashka|jaichnitsa" source="dunjashka" target="jaichnitsa" weight="2"/>
+            <edge id="dunjashka|anuchkin" source="dunjashka" target="anuchkin" weight="1"/>
+            <edge id="jaichnitsa|anuchkin" source="jaichnitsa" target="anuchkin" weight="8"/>
+            <edge id="jaichnitsa|zhevakin" source="jaichnitsa" target="zhevakin" weight="6"/>
+            <edge id="jaichnitsa|starikov" source="jaichnitsa" target="starikov" weight="2"/>
+            <edge id="anuchkin|zhevakin" source="anuchkin" target="zhevakin" weight="4"/>
+            <edge id="anuchkin|starikov" source="anuchkin" target="starikov" weight="2"/>
+            <edge id="zhevakin|starikov" source="zhevakin" target="starikov" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

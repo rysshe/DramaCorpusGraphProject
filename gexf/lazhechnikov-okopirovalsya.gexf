@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Лажечников, Иван Иванович: Окопировался</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="grunya" label="Груня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1827"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rezinkin" label="Резинкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1445"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grivennichkin" label="Гривенничкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="140"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mamaev" label="Мамаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1162"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lipina" label="Липина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="699"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vanechka" label="Ванечка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="krestyanka" label="Крестьянка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="podsnezhnikov" label="Подснежников">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="366"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="slesar" label="Слесарь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="132"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rezinkina" label="Резинкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="951"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="raznesenskij" label="Разнесенский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="689"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="muha" label="Муха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="270"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lososinin" label="Лососинин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="273"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dvorovyj_chelovek" label="Дворовый человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="247"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="polovoj" label="Половой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="43"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vse_2-1" label="Все (II/1)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="muzykant" label="Музыкант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="187"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_cygan" label="Один из цыган">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="poddevkina" label="Поддевкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1026"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="praskovya_stepanovna" label="Прасковья Степановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="286"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kuharka" label="Кухарка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vse_3-3" label="Все (III/3)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="grunya|rezinkin" source="grunya" target="rezinkin" weight="9"/>
+            <edge id="grunya|grivennichkin" source="grunya" target="grivennichkin" weight="1"/>
+            <edge id="grunya|mamaev" source="grunya" target="mamaev" weight="5"/>
+            <edge id="grunya|lipina" source="grunya" target="lipina" weight="3"/>
+            <edge id="grunya|vanechka" source="grunya" target="vanechka" weight="1"/>
+            <edge id="grunya|krestyanka" source="grunya" target="krestyanka" weight="1"/>
+            <edge id="grunya|podsnezhnikov" source="grunya" target="podsnezhnikov" weight="2"/>
+            <edge id="grunya|raznesenskij" source="grunya" target="raznesenskij" weight="1"/>
+            <edge id="grunya|poddevkina" source="grunya" target="poddevkina" weight="1"/>
+            <edge id="grunya|rezinkina" source="grunya" target="rezinkina" weight="4"/>
+            <edge id="grunya|muha" source="grunya" target="muha" weight="2"/>
+            <edge id="rezinkin|grivennichkin" source="rezinkin" target="grivennichkin" weight="2"/>
+            <edge id="rezinkin|mamaev" source="rezinkin" target="mamaev" weight="4"/>
+            <edge id="rezinkin|raznesenskij" source="rezinkin" target="raznesenskij" weight="3"/>
+            <edge id="rezinkin|muha" source="rezinkin" target="muha" weight="3"/>
+            <edge id="rezinkin|lososinin" source="rezinkin" target="lososinin" weight="1"/>
+            <edge id="rezinkin|dvorovyj_chelovek" source="rezinkin" target="dvorovyj_chelovek" weight="1"/>
+            <edge id="rezinkin|polovoj" source="rezinkin" target="polovoj" weight="1"/>
+            <edge id="rezinkin|vse_2-1" source="rezinkin" target="vse_2-1" weight="1"/>
+            <edge id="rezinkin|muzykant" source="rezinkin" target="muzykant" weight="1"/>
+            <edge id="rezinkin|odin_iz_cygan" source="rezinkin" target="odin_iz_cygan" weight="1"/>
+            <edge id="rezinkin|rezinkina" source="rezinkin" target="rezinkina" weight="6"/>
+            <edge id="rezinkin|poddevkina" source="rezinkin" target="poddevkina" weight="2"/>
+            <edge id="rezinkin|praskovya_stepanovna" source="rezinkin" target="praskovya_stepanovna" weight="2"/>
+            <edge id="rezinkin|vse_3-3" source="rezinkin" target="vse_3-3" weight="1"/>
+            <edge id="rezinkin|podsnezhnikov" source="rezinkin" target="podsnezhnikov" weight="1"/>
+            <edge id="rezinkin|lipina" source="rezinkin" target="lipina" weight="1"/>
+            <edge id="grivennichkin|raznesenskij" source="grivennichkin" target="raznesenskij" weight="1"/>
+            <edge id="grivennichkin|muha" source="grivennichkin" target="muha" weight="1"/>
+            <edge id="grivennichkin|lososinin" source="grivennichkin" target="lososinin" weight="1"/>
+            <edge id="grivennichkin|dvorovyj_chelovek" source="grivennichkin" target="dvorovyj_chelovek" weight="1"/>
+            <edge id="grivennichkin|polovoj" source="grivennichkin" target="polovoj" weight="1"/>
+            <edge id="grivennichkin|vse_2-1" source="grivennichkin" target="vse_2-1" weight="1"/>
+            <edge id="grivennichkin|muzykant" source="grivennichkin" target="muzykant" weight="1"/>
+            <edge id="grivennichkin|odin_iz_cygan" source="grivennichkin" target="odin_iz_cygan" weight="1"/>
+            <edge id="mamaev|lipina" source="mamaev" target="lipina" weight="2"/>
+            <edge id="mamaev|vanechka" source="mamaev" target="vanechka" weight="1"/>
+            <edge id="mamaev|krestyanka" source="mamaev" target="krestyanka" weight="1"/>
+            <edge id="mamaev|slesar" source="mamaev" target="slesar" weight="2"/>
+            <edge id="mamaev|rezinkina" source="mamaev" target="rezinkina" weight="3"/>
+            <edge id="mamaev|muha" source="mamaev" target="muha" weight="1"/>
+            <edge id="lipina|vanechka" source="lipina" target="vanechka" weight="1"/>
+            <edge id="lipina|krestyanka" source="lipina" target="krestyanka" weight="1"/>
+            <edge id="vanechka|krestyanka" source="vanechka" target="krestyanka" weight="1"/>
+            <edge id="slesar|rezinkina" source="slesar" target="rezinkina" weight="1"/>
+            <edge id="rezinkina|poddevkina" source="rezinkina" target="poddevkina" weight="2"/>
+            <edge id="rezinkina|praskovya_stepanovna" source="rezinkina" target="praskovya_stepanovna" weight="2"/>
+            <edge id="rezinkina|raznesenskij" source="rezinkina" target="raznesenskij" weight="1"/>
+            <edge id="rezinkina|vse_3-3" source="rezinkina" target="vse_3-3" weight="1"/>
+            <edge id="rezinkina|muha" source="rezinkina" target="muha" weight="1"/>
+            <edge id="raznesenskij|muha" source="raznesenskij" target="muha" weight="1"/>
+            <edge id="raznesenskij|lososinin" source="raznesenskij" target="lososinin" weight="1"/>
+            <edge id="raznesenskij|dvorovyj_chelovek" source="raznesenskij" target="dvorovyj_chelovek" weight="1"/>
+            <edge id="raznesenskij|polovoj" source="raznesenskij" target="polovoj" weight="1"/>
+            <edge id="raznesenskij|vse_2-1" source="raznesenskij" target="vse_2-1" weight="1"/>
+            <edge id="raznesenskij|muzykant" source="raznesenskij" target="muzykant" weight="1"/>
+            <edge id="raznesenskij|odin_iz_cygan" source="raznesenskij" target="odin_iz_cygan" weight="1"/>
+            <edge id="raznesenskij|vse_3-3" source="raznesenskij" target="vse_3-3" weight="1"/>
+            <edge id="raznesenskij|poddevkina" source="raznesenskij" target="poddevkina" weight="1"/>
+            <edge id="raznesenskij|praskovya_stepanovna" source="raznesenskij" target="praskovya_stepanovna" weight="1"/>
+            <edge id="muha|lososinin" source="muha" target="lososinin" weight="1"/>
+            <edge id="muha|dvorovyj_chelovek" source="muha" target="dvorovyj_chelovek" weight="1"/>
+            <edge id="muha|polovoj" source="muha" target="polovoj" weight="1"/>
+            <edge id="muha|vse_2-1" source="muha" target="vse_2-1" weight="1"/>
+            <edge id="muha|muzykant" source="muha" target="muzykant" weight="1"/>
+            <edge id="muha|odin_iz_cygan" source="muha" target="odin_iz_cygan" weight="1"/>
+            <edge id="lososinin|dvorovyj_chelovek" source="lososinin" target="dvorovyj_chelovek" weight="1"/>
+            <edge id="lososinin|polovoj" source="lososinin" target="polovoj" weight="1"/>
+            <edge id="lososinin|vse_2-1" source="lososinin" target="vse_2-1" weight="1"/>
+            <edge id="lososinin|muzykant" source="lososinin" target="muzykant" weight="1"/>
+            <edge id="lososinin|odin_iz_cygan" source="lososinin" target="odin_iz_cygan" weight="1"/>
+            <edge id="dvorovyj_chelovek|polovoj" source="dvorovyj_chelovek" target="polovoj" weight="1"/>
+            <edge id="dvorovyj_chelovek|vse_2-1" source="dvorovyj_chelovek" target="vse_2-1" weight="1"/>
+            <edge id="dvorovyj_chelovek|muzykant" source="dvorovyj_chelovek" target="muzykant" weight="1"/>
+            <edge id="dvorovyj_chelovek|odin_iz_cygan" source="dvorovyj_chelovek" target="odin_iz_cygan" weight="1"/>
+            <edge id="polovoj|vse_2-1" source="polovoj" target="vse_2-1" weight="1"/>
+            <edge id="polovoj|muzykant" source="polovoj" target="muzykant" weight="1"/>
+            <edge id="polovoj|odin_iz_cygan" source="polovoj" target="odin_iz_cygan" weight="1"/>
+            <edge id="vse_2-1|muzykant" source="vse_2-1" target="muzykant" weight="1"/>
+            <edge id="vse_2-1|odin_iz_cygan" source="vse_2-1" target="odin_iz_cygan" weight="1"/>
+            <edge id="muzykant|odin_iz_cygan" source="muzykant" target="odin_iz_cygan" weight="1"/>
+            <edge id="poddevkina|praskovya_stepanovna" source="poddevkina" target="praskovya_stepanovna" weight="3"/>
+            <edge id="poddevkina|kuharka" source="poddevkina" target="kuharka" weight="1"/>
+            <edge id="poddevkina|vse_3-3" source="poddevkina" target="vse_3-3" weight="1"/>
+            <edge id="praskovya_stepanovna|kuharka" source="praskovya_stepanovna" target="kuharka" weight="1"/>
+            <edge id="praskovya_stepanovna|vse_3-3" source="praskovya_stepanovna" target="vse_3-3" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

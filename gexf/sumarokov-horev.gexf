@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Хорев</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="astrada" label="Астрада">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="386"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="osnelda" label="Оснельда">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2758"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="horev" label="Хорев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1804"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kij" label="Кий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1677"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stalverh" label="Сталверх">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="470"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="velkar" label="Велькар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="563"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="strazh_temnits" label="Страж темниц">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="strazh_gradskih_vorot" label="Страж градских ворот">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nevolnik" label="Невольник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="135"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="poslannyj" label="Посланный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="98"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zavloh" label="Завлох">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="99"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="edinyj_voin" label="Единый воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="astrada|osnelda" source="astrada" target="osnelda" weight="4"/>
+            <edge id="astrada|kij" source="astrada" target="kij" weight="1"/>
+            <edge id="astrada|horev" source="astrada" target="horev" weight="1"/>
+            <edge id="osnelda|horev" source="osnelda" target="horev" weight="4"/>
+            <edge id="osnelda|velkar" source="osnelda" target="velkar" weight="1"/>
+            <edge id="osnelda|kij" source="osnelda" target="kij" weight="1"/>
+            <edge id="horev|kij" source="horev" target="kij" weight="3"/>
+            <edge id="horev|velkar" source="horev" target="velkar" weight="2"/>
+            <edge id="horev|zavloh" source="horev" target="zavloh" weight="2"/>
+            <edge id="horev|edinyj_voin" source="horev" target="edinyj_voin" weight="1"/>
+            <edge id="kij|stalverh" source="kij" target="stalverh" weight="3"/>
+            <edge id="kij|strazh_temnits" source="kij" target="strazh_temnits" weight="1"/>
+            <edge id="kij|strazh_gradskih_vorot" source="kij" target="strazh_gradskih_vorot" weight="1"/>
+            <edge id="kij|nevolnik" source="kij" target="nevolnik" weight="1"/>
+            <edge id="kij|velkar" source="kij" target="velkar" weight="3"/>
+            <edge id="kij|poslannyj" source="kij" target="poslannyj" weight="1"/>
+            <edge id="kij|zavloh" source="kij" target="zavloh" weight="2"/>
+            <edge id="kij|edinyj_voin" source="kij" target="edinyj_voin" weight="1"/>
+            <edge id="stalverh|strazh_temnits" source="stalverh" target="strazh_temnits" weight="1"/>
+            <edge id="stalverh|strazh_gradskih_vorot" source="stalverh" target="strazh_gradskih_vorot" weight="1"/>
+            <edge id="velkar|poslannyj" source="velkar" target="poslannyj" weight="1"/>
+            <edge id="velkar|edinyj_voin" source="velkar" target="edinyj_voin" weight="1"/>
+            <edge id="velkar|zavloh" source="velkar" target="zavloh" weight="1"/>
+            <edge id="strazh_temnits|strazh_gradskih_vorot" source="strazh_temnits" target="strazh_gradskih_vorot" weight="1"/>
+            <edge id="zavloh|edinyj_voin" source="zavloh" target="edinyj_voin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

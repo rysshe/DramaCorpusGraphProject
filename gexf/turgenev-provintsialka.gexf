@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Тургенев, Иван Сергеевич: Провинциалка</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="darja_ivanovna" label="Дарья Ивановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3082"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="misha" label="Миша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="667"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stupendev" label="Ступендьев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1340"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilevna" label="Васильевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="apollon" label="Аполлон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lakej" label="Лакей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="graf_ljubin" label="Граф Любин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2427"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="darja_ivanovna|misha" source="darja_ivanovna" target="misha" weight="9"/>
+            <edge id="darja_ivanovna|stupendev" source="darja_ivanovna" target="stupendev" weight="13"/>
+            <edge id="darja_ivanovna|vasilevna" source="darja_ivanovna" target="vasilevna" weight="3"/>
+            <edge id="darja_ivanovna|lakej" source="darja_ivanovna" target="lakej" weight="1"/>
+            <edge id="darja_ivanovna|graf_ljubin" source="darja_ivanovna" target="graf_ljubin" weight="9"/>
+            <edge id="darja_ivanovna|apollon" source="darja_ivanovna" target="apollon" weight="1"/>
+            <edge id="misha|stupendev" source="misha" target="stupendev" weight="7"/>
+            <edge id="misha|graf_ljubin" source="misha" target="graf_ljubin" weight="3"/>
+            <edge id="misha|apollon" source="misha" target="apollon" weight="1"/>
+            <edge id="misha|vasilevna" source="misha" target="vasilevna" weight="1"/>
+            <edge id="stupendev|vasilevna" source="stupendev" target="vasilevna" weight="3"/>
+            <edge id="stupendev|apollon" source="stupendev" target="apollon" weight="3"/>
+            <edge id="stupendev|lakej" source="stupendev" target="lakej" weight="1"/>
+            <edge id="stupendev|graf_ljubin" source="stupendev" target="graf_ljubin" weight="6"/>
+            <edge id="vasilevna|apollon" source="vasilevna" target="apollon" weight="1"/>
+            <edge id="vasilevna|graf_ljubin" source="vasilevna" target="graf_ljubin" weight="1"/>
+            <edge id="apollon|graf_ljubin" source="apollon" target="graf_ljubin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

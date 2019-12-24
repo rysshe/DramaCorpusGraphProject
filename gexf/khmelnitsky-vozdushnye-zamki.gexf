@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Хмельницкий, Николай Иванович: Воздушные замки</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="sasha" label="Саша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="915"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="aglaeva" label="Аглаева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1036"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ipat" label="Ипат">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="91"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="viktor" label="Виктор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1048"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="alnaskarov" label="Альнаскаров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1366"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="sasha|aglaeva" source="sasha" target="aglaeva" weight="6"/>
+            <edge id="sasha|ipat" source="sasha" target="ipat" weight="2"/>
+            <edge id="sasha|viktor" source="sasha" target="viktor" weight="3"/>
+            <edge id="sasha|alnaskarov" source="sasha" target="alnaskarov" weight="5"/>
+            <edge id="aglaeva|ipat" source="aglaeva" target="ipat" weight="2"/>
+            <edge id="aglaeva|alnaskarov" source="aglaeva" target="alnaskarov" weight="4"/>
+            <edge id="ipat|alnaskarov" source="ipat" target="alnaskarov" weight="1"/>
+            <edge id="viktor|alnaskarov" source="viktor" target="alnaskarov" weight="5"/>
+        </edges>
+    </graph>
+</gexf>

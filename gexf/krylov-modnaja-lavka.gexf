@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Модная лавка</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="lestov" label="Лестов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1631"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2646"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sumburova" label="Сумбурова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1363"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="antrop" label="Антроп">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="502"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="annushka" label="Аннушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sumburov" label="Сумбуров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2874"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="andrej" label="Андрей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="trishe" label="Трише">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="735"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kare" label="Каре">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="249"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="liza" label="Лиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="113"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="oficer" label="Офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="75"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="lestov|masha" source="lestov" target="masha" weight="12"/>
+            <edge id="lestov|sumburova" source="lestov" target="sumburova" weight="3"/>
+            <edge id="lestov|antrop" source="lestov" target="antrop" weight="3"/>
+            <edge id="lestov|liza" source="lestov" target="liza" weight="4"/>
+            <edge id="lestov|sumburov" source="lestov" target="sumburov" weight="3"/>
+            <edge id="lestov|annushka" source="lestov" target="annushka" weight="1"/>
+            <edge id="lestov|andrej" source="lestov" target="andrej" weight="1"/>
+            <edge id="lestov|oficer" source="lestov" target="oficer" weight="1"/>
+            <edge id="lestov|trishe" source="lestov" target="trishe" weight="1"/>
+            <edge id="lestov|kare" source="lestov" target="kare" weight="1"/>
+            <edge id="masha|sumburova" source="masha" target="sumburova" weight="9"/>
+            <edge id="masha|antrop" source="masha" target="antrop" weight="3"/>
+            <edge id="masha|annushka" source="masha" target="annushka" weight="3"/>
+            <edge id="masha|sumburov" source="masha" target="sumburov" weight="17"/>
+            <edge id="masha|andrej" source="masha" target="andrej" weight="2"/>
+            <edge id="masha|trishe" source="masha" target="trishe" weight="5"/>
+            <edge id="masha|kare" source="masha" target="kare" weight="4"/>
+            <edge id="masha|liza" source="masha" target="liza" weight="6"/>
+            <edge id="masha|oficer" source="masha" target="oficer" weight="2"/>
+            <edge id="sumburova|antrop" source="sumburova" target="antrop" weight="3"/>
+            <edge id="sumburova|annushka" source="sumburova" target="annushka" weight="1"/>
+            <edge id="sumburova|sumburov" source="sumburova" target="sumburov" weight="9"/>
+            <edge id="sumburova|kare" source="sumburova" target="kare" weight="2"/>
+            <edge id="sumburova|trishe" source="sumburova" target="trishe" weight="1"/>
+            <edge id="sumburova|liza" source="sumburova" target="liza" weight="3"/>
+            <edge id="antrop|sumburov" source="antrop" target="sumburov" weight="2"/>
+            <edge id="sumburov|trishe" source="sumburov" target="trishe" weight="5"/>
+            <edge id="sumburov|kare" source="sumburov" target="kare" weight="5"/>
+            <edge id="sumburov|liza" source="sumburov" target="liza" weight="5"/>
+            <edge id="sumburov|oficer" source="sumburov" target="oficer" weight="2"/>
+            <edge id="trishe|kare" source="trishe" target="kare" weight="3"/>
+            <edge id="trishe|oficer" source="trishe" target="oficer" weight="2"/>
+            <edge id="trishe|liza" source="trishe" target="liza" weight="1"/>
+            <edge id="kare|liza" source="kare" target="liza" weight="3"/>
+            <edge id="kare|oficer" source="kare" target="oficer" weight="2"/>
+            <edge id="liza|oficer" source="liza" target="oficer" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

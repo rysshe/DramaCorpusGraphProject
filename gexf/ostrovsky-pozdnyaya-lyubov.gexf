@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Поздняя любовь</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="shablova" label="Шаблова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2343"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lyudmila" label="Людмила">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1641"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dormedont" label="Дормедонт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1030"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="margaritov" label="Маргаритов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1870"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dorodnov" label="Дороднов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="592"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nikolaj" label="Николай">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1992"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lebedkina" label="Лебедкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1717"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="shablova|lyudmila" source="shablova" target="lyudmila" weight="9"/>
+            <edge id="shablova|dormedont" source="shablova" target="dormedont" weight="7"/>
+            <edge id="shablova|margaritov" source="shablova" target="margaritov" weight="2"/>
+            <edge id="shablova|nikolaj" source="shablova" target="nikolaj" weight="6"/>
+            <edge id="shablova|lebedkina" source="shablova" target="lebedkina" weight="7"/>
+            <edge id="lyudmila|dormedont" source="lyudmila" target="dormedont" weight="9"/>
+            <edge id="lyudmila|margaritov" source="lyudmila" target="margaritov" weight="5"/>
+            <edge id="lyudmila|nikolaj" source="lyudmila" target="nikolaj" weight="7"/>
+            <edge id="lyudmila|lebedkina" source="lyudmila" target="lebedkina" weight="2"/>
+            <edge id="dormedont|dorodnov" source="dormedont" target="dorodnov" weight="1"/>
+            <edge id="dormedont|margaritov" source="dormedont" target="margaritov" weight="5"/>
+            <edge id="dormedont|nikolaj" source="dormedont" target="nikolaj" weight="5"/>
+            <edge id="dormedont|lebedkina" source="dormedont" target="lebedkina" weight="3"/>
+            <edge id="margaritov|dorodnov" source="margaritov" target="dorodnov" weight="2"/>
+            <edge id="margaritov|nikolaj" source="margaritov" target="nikolaj" weight="2"/>
+            <edge id="margaritov|lebedkina" source="margaritov" target="lebedkina" weight="1"/>
+            <edge id="nikolaj|lebedkina" source="nikolaj" target="lebedkina" weight="6"/>
+        </edges>
+    </graph>
+</gexf>

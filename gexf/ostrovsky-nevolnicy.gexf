@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Невольницы</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="miron" label="Мирон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2362"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marfa" label="Марфа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2984"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="styrov" label="Стыров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2276"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="koblov" label="Коблов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="946"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mulin" label="Мулин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1368"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="evlaliya" label="Евлалия">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3851"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sofya" label="Софья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1619"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="miron|marfa" source="miron" target="marfa" weight="5"/>
+            <edge id="miron|styrov" source="miron" target="styrov" weight="4"/>
+            <edge id="miron|koblov" source="miron" target="koblov" weight="1"/>
+            <edge id="miron|evlaliya" source="miron" target="evlaliya" weight="1"/>
+            <edge id="marfa|styrov" source="marfa" target="styrov" weight="4"/>
+            <edge id="marfa|koblov" source="marfa" target="koblov" weight="1"/>
+            <edge id="marfa|evlaliya" source="marfa" target="evlaliya" weight="4"/>
+            <edge id="marfa|mulin" source="marfa" target="mulin" weight="1"/>
+            <edge id="styrov|koblov" source="styrov" target="koblov" weight="6"/>
+            <edge id="styrov|mulin" source="styrov" target="mulin" weight="3"/>
+            <edge id="styrov|evlaliya" source="styrov" target="evlaliya" weight="5"/>
+            <edge id="styrov|sofya" source="styrov" target="sofya" weight="3"/>
+            <edge id="koblov|evlaliya" source="koblov" target="evlaliya" weight="2"/>
+            <edge id="koblov|sofya" source="koblov" target="sofya" weight="2"/>
+            <edge id="mulin|evlaliya" source="mulin" target="evlaliya" weight="7"/>
+            <edge id="mulin|sofya" source="mulin" target="sofya" weight="1"/>
+            <edge id="evlaliya|sofya" source="evlaliya" target="sofya" weight="5"/>
+        </edges>
+    </graph>
+</gexf>

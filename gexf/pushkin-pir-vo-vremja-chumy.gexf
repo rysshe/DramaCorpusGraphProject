@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Пушкин, Александр Сергеевич: Пир во время чумы</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="MolodojChelovek" label="Молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="173"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Predsedatel" label="Председатель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="504"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Meri" label="Мери">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="189"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Luiza" label="Луиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="89"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Mnogie" label="Многие">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Svjaschennik" label="Священник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="166"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ZhenskijGolos" label="Женский голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="MolodojChelovek|Predsedatel" source="MolodojChelovek" target="Predsedatel" weight="1"/>
+            <edge id="MolodojChelovek|Meri" source="MolodojChelovek" target="Meri" weight="1"/>
+            <edge id="MolodojChelovek|Luiza" source="MolodojChelovek" target="Luiza" weight="1"/>
+            <edge id="MolodojChelovek|Mnogie" source="MolodojChelovek" target="Mnogie" weight="1"/>
+            <edge id="Predsedatel|Meri" source="Predsedatel" target="Meri" weight="1"/>
+            <edge id="Predsedatel|Luiza" source="Predsedatel" target="Luiza" weight="1"/>
+            <edge id="Predsedatel|Mnogie" source="Predsedatel" target="Mnogie" weight="2"/>
+            <edge id="Predsedatel|Svjaschennik" source="Predsedatel" target="Svjaschennik" weight="1"/>
+            <edge id="Predsedatel|ZhenskijGolos" source="Predsedatel" target="ZhenskijGolos" weight="1"/>
+            <edge id="Meri|Luiza" source="Meri" target="Luiza" weight="1"/>
+            <edge id="Meri|Mnogie" source="Meri" target="Mnogie" weight="1"/>
+            <edge id="Luiza|Mnogie" source="Luiza" target="Mnogie" weight="1"/>
+            <edge id="Mnogie|Svjaschennik" source="Mnogie" target="Svjaschennik" weight="1"/>
+            <edge id="Mnogie|ZhenskijGolos" source="Mnogie" target="ZhenskijGolos" weight="1"/>
+            <edge id="Svjaschennik|ZhenskijGolos" source="Svjaschennik" target="ZhenskijGolos" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Булгаков, Михаил Афанасьевич: Дни Турбиных</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Nikolka" label="Николка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="835"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Aleksej" label="Алексей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1544"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Elena" label="Елена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1731"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Myshlaevskij" label="Мышлаевский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1984"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Lariosik" label="Лариосик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1572"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Talberg" label="Тальберг">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="778"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Shervinskij" label="Шервинский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2322"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Studzinskij" label="Студзинский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="527"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Lakej" label="Лакей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="187"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Getman" label="Гетман">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="536"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Shratt" label="Шратт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="382"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Dust" label="Дуст">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Vrach" label="Врач">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Telefonist" label="Телефонист">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="144"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Bolbotun" label="Болботун">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="206"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Uragan" label="Ураган">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kirpatyj" label="Кирпатый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Galanba" label="Галаньба">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="217"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Dezertir" label="Дезертир">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChelovekSKorzinoj" label="Человек с корзиной">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="163"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Golosa" label="Голоса">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Junkera" label="Юнкера">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="151"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjOfitser" label="Первый офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojOfitser" label="Второй офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="31"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjJunker" label="Первый юнкер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Maksim" label="Максим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="172"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojJunker" label="Второй юнкер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijOfitser" label="Третий офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijJunker" label="Третий юнкер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Nikolka|Aleksej" source="Nikolka" target="Aleksej" weight="3"/>
+            <edge id="Nikolka|Elena" source="Nikolka" target="Elena" weight="4"/>
+            <edge id="Nikolka|Myshlaevskij" source="Nikolka" target="Myshlaevskij" weight="5"/>
+            <edge id="Nikolka|Lariosik" source="Nikolka" target="Lariosik" weight="4"/>
+            <edge id="Nikolka|Talberg" source="Nikolka" target="Talberg" weight="2"/>
+            <edge id="Nikolka|Shervinskij" source="Nikolka" target="Shervinskij" weight="3"/>
+            <edge id="Nikolka|Studzinskij" source="Nikolka" target="Studzinskij" weight="4"/>
+            <edge id="Nikolka|Junkera" source="Nikolka" target="Junkera" weight="1"/>
+            <edge id="Nikolka|PervyjOfitser" source="Nikolka" target="PervyjOfitser" weight="1"/>
+            <edge id="Nikolka|VtorojOfitser" source="Nikolka" target="VtorojOfitser" weight="1"/>
+            <edge id="Nikolka|PervyjJunker" source="Nikolka" target="PervyjJunker" weight="1"/>
+            <edge id="Nikolka|Maksim" source="Nikolka" target="Maksim" weight="1"/>
+            <edge id="Nikolka|VtorojJunker" source="Nikolka" target="VtorojJunker" weight="1"/>
+            <edge id="Nikolka|TretijOfitser" source="Nikolka" target="TretijOfitser" weight="1"/>
+            <edge id="Nikolka|TretijJunker" source="Nikolka" target="TretijJunker" weight="1"/>
+            <edge id="Nikolka|Uragan" source="Nikolka" target="Uragan" weight="1"/>
+            <edge id="Nikolka|Galanba" source="Nikolka" target="Galanba" weight="1"/>
+            <edge id="Nikolka|Kirpatyj" source="Nikolka" target="Kirpatyj" weight="1"/>
+            <edge id="Aleksej|Elena" source="Aleksej" target="Elena" weight="2"/>
+            <edge id="Aleksej|Myshlaevskij" source="Aleksej" target="Myshlaevskij" weight="3"/>
+            <edge id="Aleksej|Lariosik" source="Aleksej" target="Lariosik" weight="2"/>
+            <edge id="Aleksej|Talberg" source="Aleksej" target="Talberg" weight="1"/>
+            <edge id="Aleksej|Shervinskij" source="Aleksej" target="Shervinskij" weight="1"/>
+            <edge id="Aleksej|Studzinskij" source="Aleksej" target="Studzinskij" weight="2"/>
+            <edge id="Aleksej|Junkera" source="Aleksej" target="Junkera" weight="1"/>
+            <edge id="Aleksej|PervyjOfitser" source="Aleksej" target="PervyjOfitser" weight="1"/>
+            <edge id="Aleksej|VtorojOfitser" source="Aleksej" target="VtorojOfitser" weight="1"/>
+            <edge id="Aleksej|PervyjJunker" source="Aleksej" target="PervyjJunker" weight="1"/>
+            <edge id="Aleksej|Maksim" source="Aleksej" target="Maksim" weight="1"/>
+            <edge id="Aleksej|VtorojJunker" source="Aleksej" target="VtorojJunker" weight="1"/>
+            <edge id="Aleksej|TretijOfitser" source="Aleksej" target="TretijOfitser" weight="1"/>
+            <edge id="Aleksej|TretijJunker" source="Aleksej" target="TretijJunker" weight="1"/>
+            <edge id="Aleksej|Uragan" source="Aleksej" target="Uragan" weight="1"/>
+            <edge id="Aleksej|Galanba" source="Aleksej" target="Galanba" weight="1"/>
+            <edge id="Aleksej|Kirpatyj" source="Aleksej" target="Kirpatyj" weight="1"/>
+            <edge id="Elena|Myshlaevskij" source="Elena" target="Myshlaevskij" weight="4"/>
+            <edge id="Elena|Lariosik" source="Elena" target="Lariosik" weight="4"/>
+            <edge id="Elena|Talberg" source="Elena" target="Talberg" weight="2"/>
+            <edge id="Elena|Shervinskij" source="Elena" target="Shervinskij" weight="3"/>
+            <edge id="Elena|Studzinskij" source="Elena" target="Studzinskij" weight="3"/>
+            <edge id="Myshlaevskij|Lariosik" source="Myshlaevskij" target="Lariosik" weight="4"/>
+            <edge id="Myshlaevskij|Talberg" source="Myshlaevskij" target="Talberg" weight="2"/>
+            <edge id="Myshlaevskij|Shervinskij" source="Myshlaevskij" target="Shervinskij" weight="3"/>
+            <edge id="Myshlaevskij|Studzinskij" source="Myshlaevskij" target="Studzinskij" weight="4"/>
+            <edge id="Myshlaevskij|Junkera" source="Myshlaevskij" target="Junkera" weight="1"/>
+            <edge id="Myshlaevskij|PervyjOfitser" source="Myshlaevskij" target="PervyjOfitser" weight="1"/>
+            <edge id="Myshlaevskij|VtorojOfitser" source="Myshlaevskij" target="VtorojOfitser" weight="1"/>
+            <edge id="Myshlaevskij|PervyjJunker" source="Myshlaevskij" target="PervyjJunker" weight="1"/>
+            <edge id="Myshlaevskij|Maksim" source="Myshlaevskij" target="Maksim" weight="1"/>
+            <edge id="Myshlaevskij|VtorojJunker" source="Myshlaevskij" target="VtorojJunker" weight="1"/>
+            <edge id="Myshlaevskij|TretijOfitser" source="Myshlaevskij" target="TretijOfitser" weight="1"/>
+            <edge id="Myshlaevskij|TretijJunker" source="Myshlaevskij" target="TretijJunker" weight="1"/>
+            <edge id="Myshlaevskij|Uragan" source="Myshlaevskij" target="Uragan" weight="1"/>
+            <edge id="Myshlaevskij|Galanba" source="Myshlaevskij" target="Galanba" weight="1"/>
+            <edge id="Myshlaevskij|Kirpatyj" source="Myshlaevskij" target="Kirpatyj" weight="1"/>
+            <edge id="Lariosik|Talberg" source="Lariosik" target="Talberg" weight="2"/>
+            <edge id="Lariosik|Shervinskij" source="Lariosik" target="Shervinskij" weight="3"/>
+            <edge id="Lariosik|Studzinskij" source="Lariosik" target="Studzinskij" weight="3"/>
+            <edge id="Talberg|Shervinskij" source="Talberg" target="Shervinskij" weight="1"/>
+            <edge id="Talberg|Studzinskij" source="Talberg" target="Studzinskij" weight="1"/>
+            <edge id="Shervinskij|Studzinskij" source="Shervinskij" target="Studzinskij" weight="3"/>
+            <edge id="Shervinskij|Lakej" source="Shervinskij" target="Lakej" weight="1"/>
+            <edge id="Shervinskij|Getman" source="Shervinskij" target="Getman" weight="1"/>
+            <edge id="Shervinskij|Shratt" source="Shervinskij" target="Shratt" weight="1"/>
+            <edge id="Shervinskij|Dust" source="Shervinskij" target="Dust" weight="1"/>
+            <edge id="Shervinskij|Vrach" source="Shervinskij" target="Vrach" weight="1"/>
+            <edge id="Studzinskij|Junkera" source="Studzinskij" target="Junkera" weight="1"/>
+            <edge id="Studzinskij|PervyjOfitser" source="Studzinskij" target="PervyjOfitser" weight="1"/>
+            <edge id="Studzinskij|VtorojOfitser" source="Studzinskij" target="VtorojOfitser" weight="1"/>
+            <edge id="Studzinskij|PervyjJunker" source="Studzinskij" target="PervyjJunker" weight="1"/>
+            <edge id="Studzinskij|Maksim" source="Studzinskij" target="Maksim" weight="1"/>
+            <edge id="Studzinskij|VtorojJunker" source="Studzinskij" target="VtorojJunker" weight="1"/>
+            <edge id="Studzinskij|TretijOfitser" source="Studzinskij" target="TretijOfitser" weight="1"/>
+            <edge id="Studzinskij|TretijJunker" source="Studzinskij" target="TretijJunker" weight="1"/>
+            <edge id="Studzinskij|Uragan" source="Studzinskij" target="Uragan" weight="1"/>
+            <edge id="Studzinskij|Galanba" source="Studzinskij" target="Galanba" weight="1"/>
+            <edge id="Studzinskij|Kirpatyj" source="Studzinskij" target="Kirpatyj" weight="1"/>
+            <edge id="Lakej|Getman" source="Lakej" target="Getman" weight="1"/>
+            <edge id="Lakej|Shratt" source="Lakej" target="Shratt" weight="1"/>
+            <edge id="Lakej|Dust" source="Lakej" target="Dust" weight="1"/>
+            <edge id="Lakej|Vrach" source="Lakej" target="Vrach" weight="1"/>
+            <edge id="Getman|Shratt" source="Getman" target="Shratt" weight="1"/>
+            <edge id="Getman|Dust" source="Getman" target="Dust" weight="1"/>
+            <edge id="Getman|Vrach" source="Getman" target="Vrach" weight="1"/>
+            <edge id="Shratt|Dust" source="Shratt" target="Dust" weight="1"/>
+            <edge id="Shratt|Vrach" source="Shratt" target="Vrach" weight="1"/>
+            <edge id="Dust|Vrach" source="Dust" target="Vrach" weight="1"/>
+            <edge id="Telefonist|Bolbotun" source="Telefonist" target="Bolbotun" weight="1"/>
+            <edge id="Telefonist|Uragan" source="Telefonist" target="Uragan" weight="1"/>
+            <edge id="Telefonist|Kirpatyj" source="Telefonist" target="Kirpatyj" weight="1"/>
+            <edge id="Telefonist|Galanba" source="Telefonist" target="Galanba" weight="1"/>
+            <edge id="Telefonist|Dezertir" source="Telefonist" target="Dezertir" weight="1"/>
+            <edge id="Telefonist|ChelovekSKorzinoj" source="Telefonist" target="ChelovekSKorzinoj" weight="1"/>
+            <edge id="Telefonist|Golosa" source="Telefonist" target="Golosa" weight="1"/>
+            <edge id="Bolbotun|Uragan" source="Bolbotun" target="Uragan" weight="1"/>
+            <edge id="Bolbotun|Kirpatyj" source="Bolbotun" target="Kirpatyj" weight="1"/>
+            <edge id="Bolbotun|Galanba" source="Bolbotun" target="Galanba" weight="1"/>
+            <edge id="Bolbotun|Dezertir" source="Bolbotun" target="Dezertir" weight="1"/>
+            <edge id="Bolbotun|ChelovekSKorzinoj" source="Bolbotun" target="ChelovekSKorzinoj" weight="1"/>
+            <edge id="Bolbotun|Golosa" source="Bolbotun" target="Golosa" weight="1"/>
+            <edge id="Uragan|Kirpatyj" source="Uragan" target="Kirpatyj" weight="2"/>
+            <edge id="Uragan|Galanba" source="Uragan" target="Galanba" weight="2"/>
+            <edge id="Uragan|Dezertir" source="Uragan" target="Dezertir" weight="1"/>
+            <edge id="Uragan|ChelovekSKorzinoj" source="Uragan" target="ChelovekSKorzinoj" weight="1"/>
+            <edge id="Uragan|Golosa" source="Uragan" target="Golosa" weight="1"/>
+            <edge id="Uragan|Junkera" source="Uragan" target="Junkera" weight="1"/>
+            <edge id="Uragan|PervyjOfitser" source="Uragan" target="PervyjOfitser" weight="1"/>
+            <edge id="Uragan|VtorojOfitser" source="Uragan" target="VtorojOfitser" weight="1"/>
+            <edge id="Uragan|PervyjJunker" source="Uragan" target="PervyjJunker" weight="1"/>
+            <edge id="Uragan|Maksim" source="Uragan" target="Maksim" weight="1"/>
+            <edge id="Uragan|VtorojJunker" source="Uragan" target="VtorojJunker" weight="1"/>
+            <edge id="Uragan|TretijOfitser" source="Uragan" target="TretijOfitser" weight="1"/>
+            <edge id="Uragan|TretijJunker" source="Uragan" target="TretijJunker" weight="1"/>
+            <edge id="Kirpatyj|Galanba" source="Kirpatyj" target="Galanba" weight="2"/>
+            <edge id="Kirpatyj|Dezertir" source="Kirpatyj" target="Dezertir" weight="1"/>
+            <edge id="Kirpatyj|ChelovekSKorzinoj" source="Kirpatyj" target="ChelovekSKorzinoj" weight="1"/>
+            <edge id="Kirpatyj|Golosa" source="Kirpatyj" target="Golosa" weight="1"/>
+            <edge id="Kirpatyj|Junkera" source="Kirpatyj" target="Junkera" weight="1"/>
+            <edge id="Kirpatyj|PervyjOfitser" source="Kirpatyj" target="PervyjOfitser" weight="1"/>
+            <edge id="Kirpatyj|VtorojOfitser" source="Kirpatyj" target="VtorojOfitser" weight="1"/>
+            <edge id="Kirpatyj|PervyjJunker" source="Kirpatyj" target="PervyjJunker" weight="1"/>
+            <edge id="Kirpatyj|Maksim" source="Kirpatyj" target="Maksim" weight="1"/>
+            <edge id="Kirpatyj|VtorojJunker" source="Kirpatyj" target="VtorojJunker" weight="1"/>
+            <edge id="Kirpatyj|TretijOfitser" source="Kirpatyj" target="TretijOfitser" weight="1"/>
+            <edge id="Kirpatyj|TretijJunker" source="Kirpatyj" target="TretijJunker" weight="1"/>
+            <edge id="Galanba|Dezertir" source="Galanba" target="Dezertir" weight="1"/>
+            <edge id="Galanba|ChelovekSKorzinoj" source="Galanba" target="ChelovekSKorzinoj" weight="1"/>
+            <edge id="Galanba|Golosa" source="Galanba" target="Golosa" weight="1"/>
+            <edge id="Galanba|Junkera" source="Galanba" target="Junkera" weight="1"/>
+            <edge id="Galanba|PervyjOfitser" source="Galanba" target="PervyjOfitser" weight="1"/>
+            <edge id="Galanba|VtorojOfitser" source="Galanba" target="VtorojOfitser" weight="1"/>
+            <edge id="Galanba|PervyjJunker" source="Galanba" target="PervyjJunker" weight="1"/>
+            <edge id="Galanba|Maksim" source="Galanba" target="Maksim" weight="1"/>
+            <edge id="Galanba|VtorojJunker" source="Galanba" target="VtorojJunker" weight="1"/>
+            <edge id="Galanba|TretijOfitser" source="Galanba" target="TretijOfitser" weight="1"/>
+            <edge id="Galanba|TretijJunker" source="Galanba" target="TretijJunker" weight="1"/>
+            <edge id="Dezertir|ChelovekSKorzinoj" source="Dezertir" target="ChelovekSKorzinoj" weight="1"/>
+            <edge id="Dezertir|Golosa" source="Dezertir" target="Golosa" weight="1"/>
+            <edge id="ChelovekSKorzinoj|Golosa" source="ChelovekSKorzinoj" target="Golosa" weight="1"/>
+            <edge id="Junkera|PervyjOfitser" source="Junkera" target="PervyjOfitser" weight="1"/>
+            <edge id="Junkera|VtorojOfitser" source="Junkera" target="VtorojOfitser" weight="1"/>
+            <edge id="Junkera|PervyjJunker" source="Junkera" target="PervyjJunker" weight="1"/>
+            <edge id="Junkera|Maksim" source="Junkera" target="Maksim" weight="1"/>
+            <edge id="Junkera|VtorojJunker" source="Junkera" target="VtorojJunker" weight="1"/>
+            <edge id="Junkera|TretijOfitser" source="Junkera" target="TretijOfitser" weight="1"/>
+            <edge id="Junkera|TretijJunker" source="Junkera" target="TretijJunker" weight="1"/>
+            <edge id="PervyjOfitser|VtorojOfitser" source="PervyjOfitser" target="VtorojOfitser" weight="1"/>
+            <edge id="PervyjOfitser|PervyjJunker" source="PervyjOfitser" target="PervyjJunker" weight="1"/>
+            <edge id="PervyjOfitser|Maksim" source="PervyjOfitser" target="Maksim" weight="1"/>
+            <edge id="PervyjOfitser|VtorojJunker" source="PervyjOfitser" target="VtorojJunker" weight="1"/>
+            <edge id="PervyjOfitser|TretijOfitser" source="PervyjOfitser" target="TretijOfitser" weight="1"/>
+            <edge id="PervyjOfitser|TretijJunker" source="PervyjOfitser" target="TretijJunker" weight="1"/>
+            <edge id="VtorojOfitser|PervyjJunker" source="VtorojOfitser" target="PervyjJunker" weight="1"/>
+            <edge id="VtorojOfitser|Maksim" source="VtorojOfitser" target="Maksim" weight="1"/>
+            <edge id="VtorojOfitser|VtorojJunker" source="VtorojOfitser" target="VtorojJunker" weight="1"/>
+            <edge id="VtorojOfitser|TretijOfitser" source="VtorojOfitser" target="TretijOfitser" weight="1"/>
+            <edge id="VtorojOfitser|TretijJunker" source="VtorojOfitser" target="TretijJunker" weight="1"/>
+            <edge id="PervyjJunker|Maksim" source="PervyjJunker" target="Maksim" weight="1"/>
+            <edge id="PervyjJunker|VtorojJunker" source="PervyjJunker" target="VtorojJunker" weight="1"/>
+            <edge id="PervyjJunker|TretijOfitser" source="PervyjJunker" target="TretijOfitser" weight="1"/>
+            <edge id="PervyjJunker|TretijJunker" source="PervyjJunker" target="TretijJunker" weight="1"/>
+            <edge id="Maksim|VtorojJunker" source="Maksim" target="VtorojJunker" weight="1"/>
+            <edge id="Maksim|TretijOfitser" source="Maksim" target="TretijOfitser" weight="1"/>
+            <edge id="Maksim|TretijJunker" source="Maksim" target="TretijJunker" weight="1"/>
+            <edge id="VtorojJunker|TretijOfitser" source="VtorojJunker" target="TretijOfitser" weight="1"/>
+            <edge id="VtorojJunker|TretijJunker" source="VtorojJunker" target="TretijJunker" weight="1"/>
+            <edge id="TretijOfitser|TretijJunker" source="TretijOfitser" target="TretijJunker" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

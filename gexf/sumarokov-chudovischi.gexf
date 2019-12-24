@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Чудовищи</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="gidima" label="Гидима">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="643"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="barmas" label="Бармас">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="422"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="habzej" label="Хабзей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="679"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="djulizh" label="Дюлиж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="655"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="krititsiondius" label="Критициондиус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="976"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="arlikin" label="Арликин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="769"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="finetta" label="Финетта">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="495"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="infimena" label="Инфимена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="234"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="valer" label="Валер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="189"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dodon" label="Додон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="236"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="finist" label="Финист">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="208"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="gidima|barmas" source="gidima" target="barmas" weight="5"/>
+            <edge id="gidima|infimena" source="gidima" target="infimena" weight="2"/>
+            <edge id="gidima|finetta" source="gidima" target="finetta" weight="1"/>
+            <edge id="gidima|arlikin" source="gidima" target="arlikin" weight="3"/>
+            <edge id="gidima|dodon" source="gidima" target="dodon" weight="1"/>
+            <edge id="gidima|finist" source="gidima" target="finist" weight="1"/>
+            <edge id="gidima|habzej" source="gidima" target="habzej" weight="2"/>
+            <edge id="gidima|krititsiondius" source="gidima" target="krititsiondius" weight="2"/>
+            <edge id="gidima|valer" source="gidima" target="valer" weight="2"/>
+            <edge id="gidima|djulizh" source="gidima" target="djulizh" weight="1"/>
+            <edge id="barmas|habzej" source="barmas" target="habzej" weight="3"/>
+            <edge id="barmas|djulizh" source="barmas" target="djulizh" weight="1"/>
+            <edge id="barmas|krititsiondius" source="barmas" target="krititsiondius" weight="2"/>
+            <edge id="barmas|arlikin" source="barmas" target="arlikin" weight="2"/>
+            <edge id="barmas|dodon" source="barmas" target="dodon" weight="1"/>
+            <edge id="barmas|finist" source="barmas" target="finist" weight="1"/>
+            <edge id="barmas|infimena" source="barmas" target="infimena" weight="1"/>
+            <edge id="barmas|valer" source="barmas" target="valer" weight="1"/>
+            <edge id="habzej|djulizh" source="habzej" target="djulizh" weight="3"/>
+            <edge id="habzej|krititsiondius" source="habzej" target="krititsiondius" weight="3"/>
+            <edge id="habzej|arlikin" source="habzej" target="arlikin" weight="5"/>
+            <edge id="habzej|dodon" source="habzej" target="dodon" weight="3"/>
+            <edge id="habzej|finist" source="habzej" target="finist" weight="3"/>
+            <edge id="habzej|valer" source="habzej" target="valer" weight="1"/>
+            <edge id="djulizh|krititsiondius" source="djulizh" target="krititsiondius" weight="6"/>
+            <edge id="djulizh|arlikin" source="djulizh" target="arlikin" weight="4"/>
+            <edge id="djulizh|finetta" source="djulizh" target="finetta" weight="1"/>
+            <edge id="djulizh|valer" source="djulizh" target="valer" weight="1"/>
+            <edge id="krititsiondius|arlikin" source="krititsiondius" target="arlikin" weight="5"/>
+            <edge id="krititsiondius|finetta" source="krititsiondius" target="finetta" weight="1"/>
+            <edge id="krititsiondius|valer" source="krititsiondius" target="valer" weight="1"/>
+            <edge id="arlikin|finetta" source="arlikin" target="finetta" weight="4"/>
+            <edge id="arlikin|infimena" source="arlikin" target="infimena" weight="1"/>
+            <edge id="arlikin|valer" source="arlikin" target="valer" weight="2"/>
+            <edge id="arlikin|dodon" source="arlikin" target="dodon" weight="2"/>
+            <edge id="arlikin|finist" source="arlikin" target="finist" weight="2"/>
+            <edge id="finetta|infimena" source="finetta" target="infimena" weight="2"/>
+            <edge id="infimena|valer" source="infimena" target="valer" weight="2"/>
+            <edge id="dodon|finist" source="dodon" target="finist" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

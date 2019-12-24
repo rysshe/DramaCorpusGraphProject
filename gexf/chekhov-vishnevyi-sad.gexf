@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Чехов, Антон Павлович: Вишневый сад</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Lopahin" label="Лопахин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1838"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Dunjasha" label="Дуняша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="380"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Epihodov" label="Епиходов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="422"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Anja" label="Аня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="670"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="LjubovAndreevna" label="Любовь Андреевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1939"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Varja" label="Варя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="841"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Gaev" label="Гаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1026"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Sharlotta" label="Шарлотта">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="269"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Pischik" label="Пищик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="537"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Jasha" label="Яша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="367"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Firs" label="Фирс">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="346"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Trofimov" label="Трофимов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1189"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Prohozhij" label="Прохожий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="34"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NachalnikStantsii" label="Начальник станции">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Lopahin|Dunjasha" source="Lopahin" target="Dunjasha" weight="3"/>
+            <edge id="Lopahin|Epihodov" source="Lopahin" target="Epihodov" weight="2"/>
+            <edge id="Lopahin|Varja" source="Lopahin" target="Varja" weight="8"/>
+            <edge id="Lopahin|Anja" source="Lopahin" target="Anja" weight="5"/>
+            <edge id="Lopahin|LjubovAndreevna" source="Lopahin" target="LjubovAndreevna" weight="16"/>
+            <edge id="Lopahin|Gaev" source="Lopahin" target="Gaev" weight="13"/>
+            <edge id="Lopahin|Firs" source="Lopahin" target="Firs" weight="4"/>
+            <edge id="Lopahin|Pischik" source="Lopahin" target="Pischik" weight="6"/>
+            <edge id="Lopahin|Jasha" source="Lopahin" target="Jasha" weight="5"/>
+            <edge id="Lopahin|Sharlotta" source="Lopahin" target="Sharlotta" weight="2"/>
+            <edge id="Lopahin|Trofimov" source="Lopahin" target="Trofimov" weight="5"/>
+            <edge id="Lopahin|Prohozhij" source="Lopahin" target="Prohozhij" weight="1"/>
+            <edge id="Dunjasha|Epihodov" source="Dunjasha" target="Epihodov" weight="4"/>
+            <edge id="Dunjasha|Anja" source="Dunjasha" target="Anja" weight="2"/>
+            <edge id="Dunjasha|Varja" source="Dunjasha" target="Varja" weight="3"/>
+            <edge id="Dunjasha|Jasha" source="Dunjasha" target="Jasha" weight="5"/>
+            <edge id="Dunjasha|Firs" source="Dunjasha" target="Firs" weight="2"/>
+            <edge id="Dunjasha|Sharlotta" source="Dunjasha" target="Sharlotta" weight="1"/>
+            <edge id="Epihodov|Sharlotta" source="Epihodov" target="Sharlotta" weight="1"/>
+            <edge id="Epihodov|Jasha" source="Epihodov" target="Jasha" weight="3"/>
+            <edge id="Epihodov|Varja" source="Epihodov" target="Varja" weight="2"/>
+            <edge id="Epihodov|Anja" source="Epihodov" target="Anja" weight="2"/>
+            <edge id="Epihodov|Trofimov" source="Epihodov" target="Trofimov" weight="1"/>
+            <edge id="Epihodov|LjubovAndreevna" source="Epihodov" target="LjubovAndreevna" weight="1"/>
+            <edge id="Epihodov|Gaev" source="Epihodov" target="Gaev" weight="1"/>
+            <edge id="Anja|LjubovAndreevna" source="Anja" target="LjubovAndreevna" weight="9"/>
+            <edge id="Anja|Varja" source="Anja" target="Varja" weight="12"/>
+            <edge id="Anja|Gaev" source="Anja" target="Gaev" weight="8"/>
+            <edge id="Anja|Sharlotta" source="Anja" target="Sharlotta" weight="1"/>
+            <edge id="Anja|Pischik" source="Anja" target="Pischik" weight="1"/>
+            <edge id="Anja|Firs" source="Anja" target="Firs" weight="2"/>
+            <edge id="Anja|Trofimov" source="Anja" target="Trofimov" weight="5"/>
+            <edge id="Anja|Jasha" source="Anja" target="Jasha" weight="3"/>
+            <edge id="LjubovAndreevna|Varja" source="LjubovAndreevna" target="Varja" weight="12"/>
+            <edge id="LjubovAndreevna|Gaev" source="LjubovAndreevna" target="Gaev" weight="19"/>
+            <edge id="LjubovAndreevna|Sharlotta" source="LjubovAndreevna" target="Sharlotta" weight="3"/>
+            <edge id="LjubovAndreevna|Pischik" source="LjubovAndreevna" target="Pischik" weight="9"/>
+            <edge id="LjubovAndreevna|Firs" source="LjubovAndreevna" target="Firs" weight="6"/>
+            <edge id="LjubovAndreevna|Jasha" source="LjubovAndreevna" target="Jasha" weight="5"/>
+            <edge id="LjubovAndreevna|Trofimov" source="LjubovAndreevna" target="Trofimov" weight="6"/>
+            <edge id="LjubovAndreevna|Prohozhij" source="LjubovAndreevna" target="Prohozhij" weight="1"/>
+            <edge id="LjubovAndreevna|NachalnikStantsii" source="LjubovAndreevna" target="NachalnikStantsii" weight="1"/>
+            <edge id="Varja|Gaev" source="Varja" target="Gaev" weight="12"/>
+            <edge id="Varja|Sharlotta" source="Varja" target="Sharlotta" weight="2"/>
+            <edge id="Varja|Pischik" source="Varja" target="Pischik" weight="6"/>
+            <edge id="Varja|Firs" source="Varja" target="Firs" weight="5"/>
+            <edge id="Varja|Jasha" source="Varja" target="Jasha" weight="5"/>
+            <edge id="Varja|Trofimov" source="Varja" target="Trofimov" weight="7"/>
+            <edge id="Gaev|Sharlotta" source="Gaev" target="Sharlotta" weight="2"/>
+            <edge id="Gaev|Pischik" source="Gaev" target="Pischik" weight="6"/>
+            <edge id="Gaev|Firs" source="Gaev" target="Firs" weight="6"/>
+            <edge id="Gaev|Jasha" source="Gaev" target="Jasha" weight="5"/>
+            <edge id="Gaev|Trofimov" source="Gaev" target="Trofimov" weight="3"/>
+            <edge id="Gaev|Prohozhij" source="Gaev" target="Prohozhij" weight="1"/>
+            <edge id="Sharlotta|Pischik" source="Sharlotta" target="Pischik" weight="2"/>
+            <edge id="Sharlotta|Jasha" source="Sharlotta" target="Jasha" weight="1"/>
+            <edge id="Sharlotta|Trofimov" source="Sharlotta" target="Trofimov" weight="1"/>
+            <edge id="Sharlotta|NachalnikStantsii" source="Sharlotta" target="NachalnikStantsii" weight="1"/>
+            <edge id="Pischik|Firs" source="Pischik" target="Firs" weight="3"/>
+            <edge id="Pischik|Jasha" source="Pischik" target="Jasha" weight="1"/>
+            <edge id="Pischik|Trofimov" source="Pischik" target="Trofimov" weight="4"/>
+            <edge id="Pischik|NachalnikStantsii" source="Pischik" target="NachalnikStantsii" weight="1"/>
+            <edge id="Jasha|Firs" source="Jasha" target="Firs" weight="4"/>
+            <edge id="Jasha|Trofimov" source="Jasha" target="Trofimov" weight="1"/>
+            <edge id="Firs|Trofimov" source="Firs" target="Trofimov" weight="1"/>
+            <edge id="Trofimov|NachalnikStantsii" source="Trofimov" target="NachalnikStantsii" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

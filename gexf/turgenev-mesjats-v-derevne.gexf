@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Тургенев, Иван Сергеевич: Месяц в деревне</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="shaaf" label="Шааф">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="179"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="anna_semenovna" label="Анна Семёновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="481"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="natalja_petrovna" label="Наталья Петровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7374"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rakitin" label="Ракитин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3877"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lizaveta_bogdanovna" label="Лизавета Богдановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="290"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kolja" label="Коля">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="128"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="beljaev" label="Беляев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2786"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="matvej" label="Матвей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="186"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shpigelskij" label="Шпигельский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3947"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vera" label="Вера">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2019"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="islaev" label="Ислаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1582"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="katja" label="Катя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="380"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="bolshintsov" label="Большинцов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="382"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="shaaf|anna_semenovna" source="shaaf" target="anna_semenovna" weight="2"/>
+            <edge id="shaaf|natalja_petrovna" source="shaaf" target="natalja_petrovna" weight="3"/>
+            <edge id="shaaf|rakitin" source="shaaf" target="rakitin" weight="3"/>
+            <edge id="shaaf|lizaveta_bogdanovna" source="shaaf" target="lizaveta_bogdanovna" weight="3"/>
+            <edge id="shaaf|kolja" source="shaaf" target="kolja" weight="3"/>
+            <edge id="shaaf|beljaev" source="shaaf" target="beljaev" weight="3"/>
+            <edge id="shaaf|matvej" source="shaaf" target="matvej" weight="3"/>
+            <edge id="shaaf|shpigelskij" source="shaaf" target="shpigelskij" weight="3"/>
+            <edge id="shaaf|vera" source="shaaf" target="vera" weight="3"/>
+            <edge id="shaaf|islaev" source="shaaf" target="islaev" weight="2"/>
+            <edge id="shaaf|katja" source="shaaf" target="katja" weight="1"/>
+            <edge id="shaaf|bolshintsov" source="shaaf" target="bolshintsov" weight="1"/>
+            <edge id="anna_semenovna|natalja_petrovna" source="anna_semenovna" target="natalja_petrovna" weight="3"/>
+            <edge id="anna_semenovna|rakitin" source="anna_semenovna" target="rakitin" weight="3"/>
+            <edge id="anna_semenovna|lizaveta_bogdanovna" source="anna_semenovna" target="lizaveta_bogdanovna" weight="2"/>
+            <edge id="anna_semenovna|kolja" source="anna_semenovna" target="kolja" weight="2"/>
+            <edge id="anna_semenovna|beljaev" source="anna_semenovna" target="beljaev" weight="3"/>
+            <edge id="anna_semenovna|matvej" source="anna_semenovna" target="matvej" weight="2"/>
+            <edge id="anna_semenovna|shpigelskij" source="anna_semenovna" target="shpigelskij" weight="3"/>
+            <edge id="anna_semenovna|vera" source="anna_semenovna" target="vera" weight="3"/>
+            <edge id="anna_semenovna|islaev" source="anna_semenovna" target="islaev" weight="3"/>
+            <edge id="natalja_petrovna|rakitin" source="natalja_petrovna" target="rakitin" weight="5"/>
+            <edge id="natalja_petrovna|lizaveta_bogdanovna" source="natalja_petrovna" target="lizaveta_bogdanovna" weight="4"/>
+            <edge id="natalja_petrovna|kolja" source="natalja_petrovna" target="kolja" weight="3"/>
+            <edge id="natalja_petrovna|beljaev" source="natalja_petrovna" target="beljaev" weight="5"/>
+            <edge id="natalja_petrovna|matvej" source="natalja_petrovna" target="matvej" weight="3"/>
+            <edge id="natalja_petrovna|shpigelskij" source="natalja_petrovna" target="shpigelskij" weight="5"/>
+            <edge id="natalja_petrovna|vera" source="natalja_petrovna" target="vera" weight="5"/>
+            <edge id="natalja_petrovna|islaev" source="natalja_petrovna" target="islaev" weight="4"/>
+            <edge id="natalja_petrovna|katja" source="natalja_petrovna" target="katja" weight="2"/>
+            <edge id="natalja_petrovna|bolshintsov" source="natalja_petrovna" target="bolshintsov" weight="1"/>
+            <edge id="rakitin|lizaveta_bogdanovna" source="rakitin" target="lizaveta_bogdanovna" weight="4"/>
+            <edge id="rakitin|kolja" source="rakitin" target="kolja" weight="3"/>
+            <edge id="rakitin|beljaev" source="rakitin" target="beljaev" weight="5"/>
+            <edge id="rakitin|matvej" source="rakitin" target="matvej" weight="3"/>
+            <edge id="rakitin|shpigelskij" source="rakitin" target="shpigelskij" weight="5"/>
+            <edge id="rakitin|vera" source="rakitin" target="vera" weight="5"/>
+            <edge id="rakitin|islaev" source="rakitin" target="islaev" weight="4"/>
+            <edge id="rakitin|katja" source="rakitin" target="katja" weight="2"/>
+            <edge id="rakitin|bolshintsov" source="rakitin" target="bolshintsov" weight="1"/>
+            <edge id="lizaveta_bogdanovna|kolja" source="lizaveta_bogdanovna" target="kolja" weight="3"/>
+            <edge id="lizaveta_bogdanovna|beljaev" source="lizaveta_bogdanovna" target="beljaev" weight="4"/>
+            <edge id="lizaveta_bogdanovna|matvej" source="lizaveta_bogdanovna" target="matvej" weight="3"/>
+            <edge id="lizaveta_bogdanovna|shpigelskij" source="lizaveta_bogdanovna" target="shpigelskij" weight="4"/>
+            <edge id="lizaveta_bogdanovna|vera" source="lizaveta_bogdanovna" target="vera" weight="4"/>
+            <edge id="lizaveta_bogdanovna|islaev" source="lizaveta_bogdanovna" target="islaev" weight="3"/>
+            <edge id="lizaveta_bogdanovna|katja" source="lizaveta_bogdanovna" target="katja" weight="2"/>
+            <edge id="lizaveta_bogdanovna|bolshintsov" source="lizaveta_bogdanovna" target="bolshintsov" weight="1"/>
+            <edge id="kolja|beljaev" source="kolja" target="beljaev" weight="3"/>
+            <edge id="kolja|matvej" source="kolja" target="matvej" weight="3"/>
+            <edge id="kolja|shpigelskij" source="kolja" target="shpigelskij" weight="3"/>
+            <edge id="kolja|vera" source="kolja" target="vera" weight="3"/>
+            <edge id="kolja|islaev" source="kolja" target="islaev" weight="2"/>
+            <edge id="kolja|katja" source="kolja" target="katja" weight="1"/>
+            <edge id="kolja|bolshintsov" source="kolja" target="bolshintsov" weight="1"/>
+            <edge id="beljaev|matvej" source="beljaev" target="matvej" weight="3"/>
+            <edge id="beljaev|shpigelskij" source="beljaev" target="shpigelskij" weight="5"/>
+            <edge id="beljaev|vera" source="beljaev" target="vera" weight="5"/>
+            <edge id="beljaev|islaev" source="beljaev" target="islaev" weight="4"/>
+            <edge id="beljaev|katja" source="beljaev" target="katja" weight="2"/>
+            <edge id="beljaev|bolshintsov" source="beljaev" target="bolshintsov" weight="1"/>
+            <edge id="matvej|shpigelskij" source="matvej" target="shpigelskij" weight="3"/>
+            <edge id="matvej|vera" source="matvej" target="vera" weight="3"/>
+            <edge id="matvej|islaev" source="matvej" target="islaev" weight="2"/>
+            <edge id="matvej|katja" source="matvej" target="katja" weight="1"/>
+            <edge id="matvej|bolshintsov" source="matvej" target="bolshintsov" weight="1"/>
+            <edge id="shpigelskij|vera" source="shpigelskij" target="vera" weight="5"/>
+            <edge id="shpigelskij|islaev" source="shpigelskij" target="islaev" weight="4"/>
+            <edge id="shpigelskij|katja" source="shpigelskij" target="katja" weight="2"/>
+            <edge id="shpigelskij|bolshintsov" source="shpigelskij" target="bolshintsov" weight="1"/>
+            <edge id="vera|islaev" source="vera" target="islaev" weight="4"/>
+            <edge id="vera|katja" source="vera" target="katja" weight="2"/>
+            <edge id="vera|bolshintsov" source="vera" target="bolshintsov" weight="1"/>
+            <edge id="islaev|katja" source="islaev" target="katja" weight="1"/>
+            <edge id="katja|bolshintsov" source="katja" target="bolshintsov" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

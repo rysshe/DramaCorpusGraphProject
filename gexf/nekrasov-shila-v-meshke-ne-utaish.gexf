@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Некрасов, Николай Алексеевич: Шила в мешке не утаишь – девушки под замком не удержишь</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="rupert" label="Руперт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3055"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rosina" label="Розина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="948"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="anisia" label="Анисья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="106"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fortunkin" label="Фортункин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2177"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="doctor" label="Доктор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1197"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="rupert|rosina" source="rupert" target="rosina" weight="5"/>
+            <edge id="rupert|anisia" source="rupert" target="anisia" weight="2"/>
+            <edge id="rupert|fortunkin" source="rupert" target="fortunkin" weight="4"/>
+            <edge id="rupert|doctor" source="rupert" target="doctor" weight="3"/>
+            <edge id="rosina|anisia" source="rosina" target="anisia" weight="4"/>
+            <edge id="rosina|fortunkin" source="rosina" target="fortunkin" weight="5"/>
+            <edge id="rosina|doctor" source="rosina" target="doctor" weight="1"/>
+            <edge id="anisia|fortunkin" source="anisia" target="fortunkin" weight="2"/>
+            <edge id="fortunkin|sluga" source="fortunkin" target="sluga" weight="1"/>
+            <edge id="fortunkin|doctor" source="fortunkin" target="doctor" weight="2"/>
+            <edge id="doctor|sluga" source="doctor" target="sluga" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

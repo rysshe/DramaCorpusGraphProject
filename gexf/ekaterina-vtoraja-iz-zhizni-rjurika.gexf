@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Екатерина II: Из жизни Рюрика</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="gostomysl" label="Гостомысл">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="189"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vadim" label="Вадим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="299"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rulav" label="Рулав">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="74"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="trijan" label="Триян">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="220"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raguil" label="Рагуил">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dobrynin" label="Добрынин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="523"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_starejshina" label="1-й старейшина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="69"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_starejshina" label="2-й старейшина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="75"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_starejshina" label="3-й старейшина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="100"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="umila" label="Умила">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="299"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ljudbrat" label="Людбрат">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="654"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="edvinda" label="Едвинда">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="263"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gorlom" label="Горлом">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="radbrat" label="Радбрат">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="72"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rjurik" label="Рюрик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="736"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sineus" label="Синеус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="77"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="truvor" label="Трувор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="107"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oleg" label="Олег">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="329"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oskold" label="Оскольд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="203"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rohvold" label="Рохволд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="95"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik_4-5" label="Вестник (IV/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="211"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dan" label="Дан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik_5-3" label="Вестник (V/3)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="gostomysl|vadim" source="gostomysl" target="vadim" weight="1"/>
+            <edge id="vadim|dobrynin" source="vadim" target="dobrynin" weight="2"/>
+            <edge id="vadim|pervyj_starejshina" source="vadim" target="pervyj_starejshina" weight="2"/>
+            <edge id="vadim|vtoroj_starejshina" source="vadim" target="vtoroj_starejshina" weight="2"/>
+            <edge id="vadim|tretij_starejshina" source="vadim" target="tretij_starejshina" weight="2"/>
+            <edge id="vadim|rjurik" source="vadim" target="rjurik" weight="1"/>
+            <edge id="vadim|sineus" source="vadim" target="sineus" weight="1"/>
+            <edge id="vadim|truvor" source="vadim" target="truvor" weight="1"/>
+            <edge id="vadim|rohvold" source="vadim" target="rohvold" weight="1"/>
+            <edge id="vadim|oskold" source="vadim" target="oskold" weight="1"/>
+            <edge id="vadim|edvinda" source="vadim" target="edvinda" weight="1"/>
+            <edge id="rulav|trijan" source="rulav" target="trijan" weight="2"/>
+            <edge id="rulav|raguil" source="rulav" target="raguil" weight="1"/>
+            <edge id="rulav|ljudbrat" source="rulav" target="ljudbrat" weight="1"/>
+            <edge id="rulav|oskold" source="rulav" target="oskold" weight="1"/>
+            <edge id="rulav|sineus" source="rulav" target="sineus" weight="1"/>
+            <edge id="rulav|truvor" source="rulav" target="truvor" weight="1"/>
+            <edge id="rulav|rjurik" source="rulav" target="rjurik" weight="1"/>
+            <edge id="rulav|oleg" source="rulav" target="oleg" weight="1"/>
+            <edge id="rulav|rohvold" source="rulav" target="rohvold" weight="1"/>
+            <edge id="rulav|umila" source="rulav" target="umila" weight="1"/>
+            <edge id="trijan|raguil" source="trijan" target="raguil" weight="1"/>
+            <edge id="trijan|ljudbrat" source="trijan" target="ljudbrat" weight="2"/>
+            <edge id="trijan|oskold" source="trijan" target="oskold" weight="2"/>
+            <edge id="trijan|sineus" source="trijan" target="sineus" weight="2"/>
+            <edge id="trijan|truvor" source="trijan" target="truvor" weight="2"/>
+            <edge id="trijan|rjurik" source="trijan" target="rjurik" weight="2"/>
+            <edge id="trijan|oleg" source="trijan" target="oleg" weight="2"/>
+            <edge id="trijan|rohvold" source="trijan" target="rohvold" weight="2"/>
+            <edge id="trijan|umila" source="trijan" target="umila" weight="1"/>
+            <edge id="trijan|vestnik_4-5" source="trijan" target="vestnik_4-5" weight="1"/>
+            <edge id="trijan|dobrynin" source="trijan" target="dobrynin" weight="1"/>
+            <edge id="dobrynin|pervyj_starejshina" source="dobrynin" target="pervyj_starejshina" weight="1"/>
+            <edge id="dobrynin|vtoroj_starejshina" source="dobrynin" target="vtoroj_starejshina" weight="1"/>
+            <edge id="dobrynin|tretij_starejshina" source="dobrynin" target="tretij_starejshina" weight="1"/>
+            <edge id="dobrynin|rjurik" source="dobrynin" target="rjurik" weight="5"/>
+            <edge id="dobrynin|oleg" source="dobrynin" target="oleg" weight="4"/>
+            <edge id="dobrynin|vestnik_4-5" source="dobrynin" target="vestnik_4-5" weight="1"/>
+            <edge id="dobrynin|sineus" source="dobrynin" target="sineus" weight="2"/>
+            <edge id="dobrynin|truvor" source="dobrynin" target="truvor" weight="2"/>
+            <edge id="dobrynin|rohvold" source="dobrynin" target="rohvold" weight="2"/>
+            <edge id="dobrynin|oskold" source="dobrynin" target="oskold" weight="2"/>
+            <edge id="dobrynin|edvinda" source="dobrynin" target="edvinda" weight="2"/>
+            <edge id="dobrynin|dan" source="dobrynin" target="dan" weight="1"/>
+            <edge id="pervyj_starejshina|vtoroj_starejshina" source="pervyj_starejshina" target="vtoroj_starejshina" weight="2"/>
+            <edge id="pervyj_starejshina|tretij_starejshina" source="pervyj_starejshina" target="tretij_starejshina" weight="2"/>
+            <edge id="vtoroj_starejshina|tretij_starejshina" source="vtoroj_starejshina" target="tretij_starejshina" weight="2"/>
+            <edge id="umila|ljudbrat" source="umila" target="ljudbrat" weight="5"/>
+            <edge id="umila|edvinda" source="umila" target="edvinda" weight="2"/>
+            <edge id="umila|gorlom" source="umila" target="gorlom" weight="1"/>
+            <edge id="umila|radbrat" source="umila" target="radbrat" weight="1"/>
+            <edge id="umila|rohvold" source="umila" target="rohvold" weight="2"/>
+            <edge id="umila|oleg" source="umila" target="oleg" weight="2"/>
+            <edge id="umila|sineus" source="umila" target="sineus" weight="2"/>
+            <edge id="umila|oskold" source="umila" target="oskold" weight="2"/>
+            <edge id="umila|truvor" source="umila" target="truvor" weight="2"/>
+            <edge id="umila|rjurik" source="umila" target="rjurik" weight="2"/>
+            <edge id="ljudbrat|edvinda" source="ljudbrat" target="edvinda" weight="2"/>
+            <edge id="ljudbrat|rjurik" source="ljudbrat" target="rjurik" weight="4"/>
+            <edge id="ljudbrat|sineus" source="ljudbrat" target="sineus" weight="4"/>
+            <edge id="ljudbrat|truvor" source="ljudbrat" target="truvor" weight="4"/>
+            <edge id="ljudbrat|oskold" source="ljudbrat" target="oskold" weight="3"/>
+            <edge id="ljudbrat|oleg" source="ljudbrat" target="oleg" weight="3"/>
+            <edge id="ljudbrat|radbrat" source="ljudbrat" target="radbrat" weight="1"/>
+            <edge id="ljudbrat|rohvold" source="ljudbrat" target="rohvold" weight="2"/>
+            <edge id="edvinda|gorlom" source="edvinda" target="gorlom" weight="1"/>
+            <edge id="edvinda|radbrat" source="edvinda" target="radbrat" weight="1"/>
+            <edge id="edvinda|rjurik" source="edvinda" target="rjurik" weight="4"/>
+            <edge id="edvinda|sineus" source="edvinda" target="sineus" weight="2"/>
+            <edge id="edvinda|truvor" source="edvinda" target="truvor" weight="2"/>
+            <edge id="edvinda|oleg" source="edvinda" target="oleg" weight="2"/>
+            <edge id="edvinda|rohvold" source="edvinda" target="rohvold" weight="1"/>
+            <edge id="edvinda|oskold" source="edvinda" target="oskold" weight="1"/>
+            <edge id="radbrat|oleg" source="radbrat" target="oleg" weight="1"/>
+            <edge id="radbrat|oskold" source="radbrat" target="oskold" weight="1"/>
+            <edge id="rjurik|sineus" source="rjurik" target="sineus" weight="7"/>
+            <edge id="rjurik|truvor" source="rjurik" target="truvor" weight="7"/>
+            <edge id="rjurik|oskold" source="rjurik" target="oskold" weight="6"/>
+            <edge id="rjurik|oleg" source="rjurik" target="oleg" weight="9"/>
+            <edge id="rjurik|rohvold" source="rjurik" target="rohvold" weight="4"/>
+            <edge id="rjurik|vestnik_4-5" source="rjurik" target="vestnik_4-5" weight="1"/>
+            <edge id="rjurik|dan" source="rjurik" target="dan" weight="2"/>
+            <edge id="rjurik|vestnik_5-3" source="rjurik" target="vestnik_5-3" weight="1"/>
+            <edge id="sineus|truvor" source="sineus" target="truvor" weight="7"/>
+            <edge id="sineus|oskold" source="sineus" target="oskold" weight="6"/>
+            <edge id="sineus|oleg" source="sineus" target="oleg" weight="5"/>
+            <edge id="sineus|rohvold" source="sineus" target="rohvold" weight="4"/>
+            <edge id="sineus|vestnik_4-5" source="sineus" target="vestnik_4-5" weight="1"/>
+            <edge id="truvor|oskold" source="truvor" target="oskold" weight="6"/>
+            <edge id="truvor|oleg" source="truvor" target="oleg" weight="5"/>
+            <edge id="truvor|rohvold" source="truvor" target="rohvold" weight="4"/>
+            <edge id="truvor|vestnik_4-5" source="truvor" target="vestnik_4-5" weight="1"/>
+            <edge id="oleg|oskold" source="oleg" target="oskold" weight="8"/>
+            <edge id="oleg|rohvold" source="oleg" target="rohvold" weight="3"/>
+            <edge id="oleg|vestnik_4-5" source="oleg" target="vestnik_4-5" weight="1"/>
+            <edge id="oleg|dan" source="oleg" target="dan" weight="1"/>
+            <edge id="oskold|rohvold" source="oskold" target="rohvold" weight="4"/>
+            <edge id="oskold|vestnik_4-5" source="oskold" target="vestnik_4-5" weight="1"/>
+            <edge id="rohvold|vestnik_4-5" source="rohvold" target="vestnik_4-5" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

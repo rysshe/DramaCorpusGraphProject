@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Ростопчина, Евдокия Петровна: Нелюдимка</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="zoja" label="Зоя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5653"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="njanja" label="Няня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1962"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj" label="Первый молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="264"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj" label="Второй молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="160"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij" label="Третий молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="173"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="evgenij" label="Евгений">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="966"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="valentin" label="Валентин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2461"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ohotnik" label="Охотник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mina" label="Мина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="798"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gotlib" label="Готлиб">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="412"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="neznakomyj_graf" label="Незнакомый (Граф Юрий)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2034"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dvoretskij" label="Дворецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="78"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="zoja|njanja" source="zoja" target="njanja" weight="7"/>
+            <edge id="zoja|valentin" source="zoja" target="valentin" weight="12"/>
+            <edge id="zoja|mina" source="zoja" target="mina" weight="4"/>
+            <edge id="zoja|gotlib" source="zoja" target="gotlib" weight="2"/>
+            <edge id="zoja|ohotnik" source="zoja" target="ohotnik" weight="1"/>
+            <edge id="zoja|evgenij" source="zoja" target="evgenij" weight="2"/>
+            <edge id="zoja|neznakomyj_graf" source="zoja" target="neznakomyj_graf" weight="3"/>
+            <edge id="zoja|dvoretskij" source="zoja" target="dvoretskij" weight="1"/>
+            <edge id="njanja|valentin" source="njanja" target="valentin" weight="3"/>
+            <edge id="njanja|neznakomyj_graf" source="njanja" target="neznakomyj_graf" weight="2"/>
+            <edge id="njanja|mina" source="njanja" target="mina" weight="2"/>
+            <edge id="njanja|gotlib" source="njanja" target="gotlib" weight="1"/>
+            <edge id="pervyj|vtoroj" source="pervyj" target="vtoroj" weight="1"/>
+            <edge id="pervyj|tretij" source="pervyj" target="tretij" weight="1"/>
+            <edge id="pervyj|evgenij" source="pervyj" target="evgenij" weight="1"/>
+            <edge id="pervyj|valentin" source="pervyj" target="valentin" weight="1"/>
+            <edge id="vtoroj|tretij" source="vtoroj" target="tretij" weight="1"/>
+            <edge id="vtoroj|evgenij" source="vtoroj" target="evgenij" weight="1"/>
+            <edge id="vtoroj|valentin" source="vtoroj" target="valentin" weight="1"/>
+            <edge id="tretij|evgenij" source="tretij" target="evgenij" weight="1"/>
+            <edge id="tretij|valentin" source="tretij" target="valentin" weight="1"/>
+            <edge id="evgenij|valentin" source="evgenij" target="valentin" weight="4"/>
+            <edge id="evgenij|neznakomyj_graf" source="evgenij" target="neznakomyj_graf" weight="2"/>
+            <edge id="valentin|ohotnik" source="valentin" target="ohotnik" weight="2"/>
+            <edge id="valentin|mina" source="valentin" target="mina" weight="2"/>
+            <edge id="valentin|gotlib" source="valentin" target="gotlib" weight="1"/>
+            <edge id="valentin|neznakomyj_graf" source="valentin" target="neznakomyj_graf" weight="4"/>
+            <edge id="mina|gotlib" source="mina" target="gotlib" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Княжнин, Яков Борисович: Вадим Новгородский</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="vigor" label="Вигор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="518"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prenest" label="Пренест">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1205"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vadim" label="Вадим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2243"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="selena" label="Селена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="197"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ramida" label="Рамида">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2459"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rurik" label="Рурик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3045"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="izved" label="Извед">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="246"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="vigor|prenest" source="vigor" target="prenest" weight="3"/>
+            <edge id="vigor|vadim" source="vigor" target="vadim" weight="2"/>
+            <edge id="prenest|vadim" source="prenest" target="vadim" weight="3"/>
+            <edge id="prenest|ramida" source="prenest" target="ramida" weight="1"/>
+            <edge id="prenest|rurik" source="prenest" target="rurik" weight="1"/>
+            <edge id="vadim|ramida" source="vadim" target="ramida" weight="4"/>
+            <edge id="vadim|rurik" source="vadim" target="rurik" weight="1"/>
+            <edge id="vadim|izved" source="vadim" target="izved" weight="1"/>
+            <edge id="selena|ramida" source="selena" target="ramida" weight="2"/>
+            <edge id="ramida|rurik" source="ramida" target="rurik" weight="5"/>
+            <edge id="ramida|izved" source="ramida" target="izved" weight="2"/>
+            <edge id="rurik|izved" source="rurik" target="izved" weight="4"/>
+        </edges>
+    </graph>
+</gexf>

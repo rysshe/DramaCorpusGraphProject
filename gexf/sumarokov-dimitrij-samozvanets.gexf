@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Димитрий Самозванец</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="parmen" label="Пармен">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="804"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dimitrij" label="Димитрий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2563"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nachalnik" label="Начальник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="204"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shujskij" label="Шуйский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="611"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ksenija" label="Ксения">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1397"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="georgij" label="Георгий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1170"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="parmen|dimitrij" source="parmen" target="dimitrij" weight="5"/>
+            <edge id="parmen|shujskij" source="parmen" target="shujskij" weight="4"/>
+            <edge id="parmen|georgij" source="parmen" target="georgij" weight="2"/>
+            <edge id="parmen|ksenija" source="parmen" target="ksenija" weight="3"/>
+            <edge id="dimitrij|nachalnik" source="dimitrij" target="nachalnik" weight="3"/>
+            <edge id="dimitrij|shujskij" source="dimitrij" target="shujskij" weight="7"/>
+            <edge id="dimitrij|ksenija" source="dimitrij" target="ksenija" weight="9"/>
+            <edge id="dimitrij|georgij" source="dimitrij" target="georgij" weight="5"/>
+            <edge id="shujskij|ksenija" source="shujskij" target="ksenija" weight="7"/>
+            <edge id="shujskij|georgij" source="shujskij" target="georgij" weight="6"/>
+            <edge id="ksenija|georgij" source="ksenija" target="georgij" weight="8"/>
+        </edges>
+    </graph>
+</gexf>

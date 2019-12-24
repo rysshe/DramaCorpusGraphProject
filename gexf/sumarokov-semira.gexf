@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Семира</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="semira" label="Семира">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3733"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="izbrana" label="Избрана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="280"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="oskold" label="Оскольд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2016"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_voin" label="Первый воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="66"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="drugoj_voin" label="Другой воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rostislav" label="Ростислав">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1941"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oleg" label="Олег">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1418"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vitozar" label="Витозар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="116"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vozved" label="Возвед">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="79"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="voin" label="Воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="34"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="semira|izbrana" source="semira" target="izbrana" weight="5"/>
+            <edge id="semira|oskold" source="semira" target="oskold" weight="5"/>
+            <edge id="semira|pervyj_voin" source="semira" target="pervyj_voin" weight="1"/>
+            <edge id="semira|drugoj_voin" source="semira" target="drugoj_voin" weight="1"/>
+            <edge id="semira|oleg" source="semira" target="oleg" weight="6"/>
+            <edge id="semira|rostislav" source="semira" target="rostislav" weight="7"/>
+            <edge id="semira|voin" source="semira" target="voin" weight="1"/>
+            <edge id="semira|vitozar" source="semira" target="vitozar" weight="1"/>
+            <edge id="izbrana|oskold" source="izbrana" target="oskold" weight="1"/>
+            <edge id="oskold|pervyj_voin" source="oskold" target="pervyj_voin" weight="1"/>
+            <edge id="oskold|drugoj_voin" source="oskold" target="drugoj_voin" weight="1"/>
+            <edge id="oskold|rostislav" source="oskold" target="rostislav" weight="3"/>
+            <edge id="oskold|oleg" source="oskold" target="oleg" weight="3"/>
+            <edge id="pervyj_voin|drugoj_voin" source="pervyj_voin" target="drugoj_voin" weight="1"/>
+            <edge id="rostislav|oleg" source="rostislav" target="oleg" weight="6"/>
+            <edge id="rostislav|voin" source="rostislav" target="voin" weight="1"/>
+            <edge id="oleg|vitozar" source="oleg" target="vitozar" weight="1"/>
+            <edge id="oleg|vozved" source="oleg" target="vozved" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

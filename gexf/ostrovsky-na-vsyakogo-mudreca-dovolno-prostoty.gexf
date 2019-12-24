@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: На всякого мудреца довольно простоты</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="glumov" label="Глумов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4815"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="glumova" label="Глумова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="807"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kurchaev" label="Курчаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="613"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golutvin" label="Голутвин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="359"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chelovek_mamaeva" label="Человек Мамаева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mamaev" label="Мамаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1702"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="manefa" label="Манефа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="139"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="krutickij" label="Крутицкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1974"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mamaeva" label="Мамаева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1735"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gorodulin" label="Городулин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="869"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mashenka" label="Машенька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="565"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="turusina" label="Турусина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1812"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="grigorij" label="Григорий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="107"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervaja_prizhivalka" label="1-я приживалка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="53"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoraja_prizhivalka" label="2-я приживалка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="chelovek_krutickogo" label="Человек Крутицкого">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="glumov|glumova" source="glumov" target="glumova" weight="5"/>
+            <edge id="glumov|kurchaev" source="glumov" target="kurchaev" weight="4"/>
+            <edge id="glumov|golutvin" source="glumov" target="golutvin" weight="2"/>
+            <edge id="glumov|chelovek_mamaeva" source="glumov" target="chelovek_mamaeva" weight="3"/>
+            <edge id="glumov|mamaev" source="glumov" target="mamaev" weight="4"/>
+            <edge id="glumov|manefa" source="glumov" target="manefa" weight="1"/>
+            <edge id="glumov|mamaeva" source="glumov" target="mamaeva" weight="7"/>
+            <edge id="glumov|gorodulin" source="glumov" target="gorodulin" weight="3"/>
+            <edge id="glumov|chelovek_krutickogo" source="glumov" target="chelovek_krutickogo" weight="1"/>
+            <edge id="glumov|krutickij" source="glumov" target="krutickij" weight="2"/>
+            <edge id="glumov|turusina" source="glumov" target="turusina" weight="2"/>
+            <edge id="glumov|grigorij" source="glumov" target="grigorij" weight="1"/>
+            <edge id="glumov|mashenka" source="glumov" target="mashenka" weight="2"/>
+            <edge id="glumova|chelovek_mamaeva" source="glumova" target="chelovek_mamaeva" weight="1"/>
+            <edge id="glumova|mamaev" source="glumova" target="mamaev" weight="2"/>
+            <edge id="glumova|manefa" source="glumova" target="manefa" weight="1"/>
+            <edge id="glumova|mamaeva" source="glumova" target="mamaeva" weight="3"/>
+            <edge id="kurchaev|golutvin" source="kurchaev" target="golutvin" weight="1"/>
+            <edge id="kurchaev|mashenka" source="kurchaev" target="mashenka" weight="4"/>
+            <edge id="kurchaev|turusina" source="kurchaev" target="turusina" weight="3"/>
+            <edge id="kurchaev|grigorij" source="kurchaev" target="grigorij" weight="2"/>
+            <edge id="kurchaev|mamaeva" source="kurchaev" target="mamaeva" weight="3"/>
+            <edge id="kurchaev|mamaev" source="kurchaev" target="mamaev" weight="2"/>
+            <edge id="kurchaev|krutickij" source="kurchaev" target="krutickij" weight="2"/>
+            <edge id="kurchaev|gorodulin" source="kurchaev" target="gorodulin" weight="1"/>
+            <edge id="chelovek_mamaeva|mamaev" source="chelovek_mamaeva" target="mamaev" weight="1"/>
+            <edge id="chelovek_mamaeva|mamaeva" source="chelovek_mamaeva" target="mamaeva" weight="1"/>
+            <edge id="mamaev|krutickij" source="mamaev" target="krutickij" weight="3"/>
+            <edge id="mamaev|mamaeva" source="mamaev" target="mamaeva" weight="4"/>
+            <edge id="mamaev|gorodulin" source="mamaev" target="gorodulin" weight="2"/>
+            <edge id="mamaev|pervaja_prizhivalka" source="mamaev" target="pervaja_prizhivalka" weight="1"/>
+            <edge id="mamaev|vtoraja_prizhivalka" source="mamaev" target="vtoraja_prizhivalka" weight="1"/>
+            <edge id="mamaev|turusina" source="mamaev" target="turusina" weight="3"/>
+            <edge id="mamaev|mashenka" source="mamaev" target="mashenka" weight="2"/>
+            <edge id="mamaev|grigorij" source="mamaev" target="grigorij" weight="1"/>
+            <edge id="manefa|turusina" source="manefa" target="turusina" weight="1"/>
+            <edge id="manefa|pervaja_prizhivalka" source="manefa" target="pervaja_prizhivalka" weight="1"/>
+            <edge id="manefa|vtoraja_prizhivalka" source="manefa" target="vtoraja_prizhivalka" weight="1"/>
+            <edge id="manefa|mashenka" source="manefa" target="mashenka" weight="1"/>
+            <edge id="manefa|grigorij" source="manefa" target="grigorij" weight="1"/>
+            <edge id="krutickij|turusina" source="krutickij" target="turusina" weight="3"/>
+            <edge id="krutickij|grigorij" source="krutickij" target="grigorij" weight="2"/>
+            <edge id="krutickij|chelovek_krutickogo" source="krutickij" target="chelovek_krutickogo" weight="1"/>
+            <edge id="krutickij|mamaeva" source="krutickij" target="mamaeva" weight="4"/>
+            <edge id="krutickij|mashenka" source="krutickij" target="mashenka" weight="2"/>
+            <edge id="krutickij|gorodulin" source="krutickij" target="gorodulin" weight="1"/>
+            <edge id="mamaeva|gorodulin" source="mamaeva" target="gorodulin" weight="3"/>
+            <edge id="mamaeva|chelovek_krutickogo" source="mamaeva" target="chelovek_krutickogo" weight="1"/>
+            <edge id="mamaeva|mashenka" source="mamaeva" target="mashenka" weight="2"/>
+            <edge id="mamaeva|turusina" source="mamaeva" target="turusina" weight="2"/>
+            <edge id="mamaeva|grigorij" source="mamaeva" target="grigorij" weight="1"/>
+            <edge id="gorodulin|turusina" source="gorodulin" target="turusina" weight="2"/>
+            <edge id="gorodulin|grigorij" source="gorodulin" target="grigorij" weight="1"/>
+            <edge id="gorodulin|mashenka" source="gorodulin" target="mashenka" weight="1"/>
+            <edge id="mashenka|turusina" source="mashenka" target="turusina" weight="6"/>
+            <edge id="mashenka|grigorij" source="mashenka" target="grigorij" weight="5"/>
+            <edge id="mashenka|pervaja_prizhivalka" source="mashenka" target="pervaja_prizhivalka" weight="2"/>
+            <edge id="mashenka|vtoraja_prizhivalka" source="mashenka" target="vtoraja_prizhivalka" weight="1"/>
+            <edge id="turusina|grigorij" source="turusina" target="grigorij" weight="7"/>
+            <edge id="turusina|pervaja_prizhivalka" source="turusina" target="pervaja_prizhivalka" weight="3"/>
+            <edge id="turusina|vtoraja_prizhivalka" source="turusina" target="vtoraja_prizhivalka" weight="2"/>
+            <edge id="grigorij|pervaja_prizhivalka" source="grigorij" target="pervaja_prizhivalka" weight="2"/>
+            <edge id="grigorij|vtoraja_prizhivalka" source="grigorij" target="vtoraja_prizhivalka" weight="1"/>
+            <edge id="pervaja_prizhivalka|vtoraja_prizhivalka" source="pervaja_prizhivalka" target="vtoraja_prizhivalka" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

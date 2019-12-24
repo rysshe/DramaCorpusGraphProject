@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Синав и Трувор</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="gostomysl" label="Гостомысл">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1939"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ilmena" label="Ильмена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2799"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sinav" label="Синав">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1968"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="truvor" label="Трувор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1553"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pazh" label="Паж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik" label="Вестник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="334"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="gostomysl|ilmena" source="gostomysl" target="ilmena" weight="7"/>
+            <edge id="gostomysl|truvor" source="gostomysl" target="truvor" weight="3"/>
+            <edge id="gostomysl|sinav" source="gostomysl" target="sinav" weight="2"/>
+            <edge id="gostomysl|vestnik" source="gostomysl" target="vestnik" weight="1"/>
+            <edge id="ilmena|sinav" source="ilmena" target="sinav" weight="4"/>
+            <edge id="ilmena|truvor" source="ilmena" target="truvor" weight="8"/>
+            <edge id="ilmena|pazh" source="ilmena" target="pazh" weight="1"/>
+            <edge id="ilmena|vestnik" source="ilmena" target="vestnik" weight="1"/>
+            <edge id="sinav|truvor" source="sinav" target="truvor" weight="3"/>
+            <edge id="truvor|pazh" source="truvor" target="pazh" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

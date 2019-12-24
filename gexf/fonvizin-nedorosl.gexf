@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Фонвизин, Денис Иванович: Недоросль</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="gospozha_prostakova" label="Г-жа Простакова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3118"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="trishka" label="Тришка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="34"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mitrofan" label="Митрофан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="497"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prostakov" label="Простаков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="339"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="skotinin" label="Скотинин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1415"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="eremeevna" label="Еремеевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="294"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sofja" label="Софья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="726"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pravdin" label="Правдин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1473"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="milon" label="Милон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="790"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kutejkin" label="Кутейкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="408"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tsyfirkin" label="Цыфиркин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="496"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="starodum" label="Стародум">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3824"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vralman" label="Вральман">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="442"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kamerdiner" label="Камердинер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="gospozha_prostakova|trishka" source="gospozha_prostakova" target="trishka" weight="1"/>
+            <edge id="gospozha_prostakova|mitrofan" source="gospozha_prostakova" target="mitrofan" weight="11"/>
+            <edge id="gospozha_prostakova|prostakov" source="gospozha_prostakova" target="prostakov" weight="11"/>
+            <edge id="gospozha_prostakova|skotinin" source="gospozha_prostakova" target="skotinin" weight="9"/>
+            <edge id="gospozha_prostakova|eremeevna" source="gospozha_prostakova" target="eremeevna" weight="9"/>
+            <edge id="gospozha_prostakova|sofja" source="gospozha_prostakova" target="sofja" weight="7"/>
+            <edge id="gospozha_prostakova|pravdin" source="gospozha_prostakova" target="pravdin" weight="11"/>
+            <edge id="gospozha_prostakova|milon" source="gospozha_prostakova" target="milon" weight="7"/>
+            <edge id="gospozha_prostakova|kutejkin" source="gospozha_prostakova" target="kutejkin" weight="5"/>
+            <edge id="gospozha_prostakova|tsyfirkin" source="gospozha_prostakova" target="tsyfirkin" weight="5"/>
+            <edge id="gospozha_prostakova|starodum" source="gospozha_prostakova" target="starodum" weight="10"/>
+            <edge id="gospozha_prostakova|vralman" source="gospozha_prostakova" target="vralman" weight="2"/>
+            <edge id="trishka|mitrofan" source="trishka" target="mitrofan" weight="1"/>
+            <edge id="mitrofan|skotinin" source="mitrofan" target="skotinin" weight="5"/>
+            <edge id="mitrofan|prostakov" source="mitrofan" target="prostakov" weight="6"/>
+            <edge id="mitrofan|eremeevna" source="mitrofan" target="eremeevna" weight="6"/>
+            <edge id="mitrofan|milon" source="mitrofan" target="milon" weight="4"/>
+            <edge id="mitrofan|pravdin" source="mitrofan" target="pravdin" weight="6"/>
+            <edge id="mitrofan|sofja" source="mitrofan" target="sofja" weight="3"/>
+            <edge id="mitrofan|kutejkin" source="mitrofan" target="kutejkin" weight="4"/>
+            <edge id="mitrofan|tsyfirkin" source="mitrofan" target="tsyfirkin" weight="4"/>
+            <edge id="mitrofan|starodum" source="mitrofan" target="starodum" weight="4"/>
+            <edge id="mitrofan|vralman" source="mitrofan" target="vralman" weight="1"/>
+            <edge id="prostakov|skotinin" source="prostakov" target="skotinin" weight="9"/>
+            <edge id="prostakov|eremeevna" source="prostakov" target="eremeevna" weight="3"/>
+            <edge id="prostakov|sofja" source="prostakov" target="sofja" weight="5"/>
+            <edge id="prostakov|pravdin" source="prostakov" target="pravdin" weight="7"/>
+            <edge id="prostakov|sluga" source="prostakov" target="sluga" weight="1"/>
+            <edge id="prostakov|milon" source="prostakov" target="milon" weight="4"/>
+            <edge id="prostakov|kutejkin" source="prostakov" target="kutejkin" weight="1"/>
+            <edge id="prostakov|tsyfirkin" source="prostakov" target="tsyfirkin" weight="1"/>
+            <edge id="prostakov|starodum" source="prostakov" target="starodum" weight="4"/>
+            <edge id="skotinin|eremeevna" source="skotinin" target="eremeevna" weight="3"/>
+            <edge id="skotinin|sofja" source="skotinin" target="sofja" weight="7"/>
+            <edge id="skotinin|pravdin" source="skotinin" target="pravdin" weight="10"/>
+            <edge id="skotinin|sluga" source="skotinin" target="sluga" weight="1"/>
+            <edge id="skotinin|milon" source="skotinin" target="milon" weight="8"/>
+            <edge id="skotinin|starodum" source="skotinin" target="starodum" weight="6"/>
+            <edge id="eremeevna|milon" source="eremeevna" target="milon" weight="4"/>
+            <edge id="eremeevna|pravdin" source="eremeevna" target="pravdin" weight="6"/>
+            <edge id="eremeevna|sofja" source="eremeevna" target="sofja" weight="3"/>
+            <edge id="eremeevna|kutejkin" source="eremeevna" target="kutejkin" weight="3"/>
+            <edge id="eremeevna|tsyfirkin" source="eremeevna" target="tsyfirkin" weight="3"/>
+            <edge id="eremeevna|starodum" source="eremeevna" target="starodum" weight="6"/>
+            <edge id="eremeevna|vralman" source="eremeevna" target="vralman" weight="1"/>
+            <edge id="sofja|pravdin" source="sofja" target="pravdin" weight="11"/>
+            <edge id="sofja|milon" source="sofja" target="milon" weight="8"/>
+            <edge id="sofja|kutejkin" source="sofja" target="kutejkin" weight="1"/>
+            <edge id="sofja|tsyfirkin" source="sofja" target="tsyfirkin" weight="1"/>
+            <edge id="sofja|starodum" source="sofja" target="starodum" weight="10"/>
+            <edge id="sofja|kamerdiner" source="sofja" target="kamerdiner" weight="1"/>
+            <edge id="pravdin|sluga" source="pravdin" target="sluga" weight="1"/>
+            <edge id="pravdin|milon" source="pravdin" target="milon" weight="13"/>
+            <edge id="pravdin|kutejkin" source="pravdin" target="kutejkin" weight="2"/>
+            <edge id="pravdin|tsyfirkin" source="pravdin" target="tsyfirkin" weight="2"/>
+            <edge id="pravdin|starodum" source="pravdin" target="starodum" weight="13"/>
+            <edge id="pravdin|vralman" source="pravdin" target="vralman" weight="1"/>
+            <edge id="milon|kutejkin" source="milon" target="kutejkin" weight="2"/>
+            <edge id="milon|tsyfirkin" source="milon" target="tsyfirkin" weight="2"/>
+            <edge id="milon|starodum" source="milon" target="starodum" weight="8"/>
+            <edge id="milon|vralman" source="milon" target="vralman" weight="1"/>
+            <edge id="kutejkin|tsyfirkin" source="kutejkin" target="tsyfirkin" weight="7"/>
+            <edge id="kutejkin|vralman" source="kutejkin" target="vralman" weight="3"/>
+            <edge id="kutejkin|starodum" source="kutejkin" target="starodum" weight="1"/>
+            <edge id="tsyfirkin|vralman" source="tsyfirkin" target="vralman" weight="3"/>
+            <edge id="tsyfirkin|starodum" source="tsyfirkin" target="starodum" weight="1"/>
+            <edge id="starodum|kamerdiner" source="starodum" target="kamerdiner" weight="2"/>
+            <edge id="starodum|vralman" source="starodum" target="vralman" weight="2"/>
+            <edge id="vralman|kamerdiner" source="vralman" target="kamerdiner" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

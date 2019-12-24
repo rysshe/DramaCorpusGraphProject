@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Кокошкин, Фёдор Фёдорович: Воспитание, или вот приданое</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="dasha" label="Даша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2360"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sofya" label="Софья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="741"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vederkin" label="Ведеркин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2639"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="flyugerova" label="Флюгерова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3025"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="panfil" label="Панфил">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1135"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="slavin" label="Славин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="236"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="liya" label="Лия">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="494"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knyaz" label="Князь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="473"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pryamikov" label="Прямиков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1346"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ogorodnik" label="Огородник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="227"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="dasha|sofya" source="dasha" target="sofya" weight="7"/>
+            <edge id="dasha|vederkin" source="dasha" target="vederkin" weight="7"/>
+            <edge id="dasha|flyugerova" source="dasha" target="flyugerova" weight="13"/>
+            <edge id="dasha|panfil" source="dasha" target="panfil" weight="7"/>
+            <edge id="dasha|slavin" source="dasha" target="slavin" weight="6"/>
+            <edge id="dasha|knyaz" source="dasha" target="knyaz" weight="3"/>
+            <edge id="dasha|liya" source="dasha" target="liya" weight="2"/>
+            <edge id="dasha|pryamikov" source="dasha" target="pryamikov" weight="8"/>
+            <edge id="dasha|sluga" source="dasha" target="sluga" weight="1"/>
+            <edge id="dasha|ogorodnik" source="dasha" target="ogorodnik" weight="2"/>
+            <edge id="sofya|flyugerova" source="sofya" target="flyugerova" weight="6"/>
+            <edge id="sofya|panfil" source="sofya" target="panfil" weight="2"/>
+            <edge id="sofya|vederkin" source="sofya" target="vederkin" weight="5"/>
+            <edge id="sofya|knyaz" source="sofya" target="knyaz" weight="2"/>
+            <edge id="sofya|liya" source="sofya" target="liya" weight="2"/>
+            <edge id="sofya|sluga" source="sofya" target="sluga" weight="1"/>
+            <edge id="sofya|pryamikov" source="sofya" target="pryamikov" weight="4"/>
+            <edge id="sofya|slavin" source="sofya" target="slavin" weight="4"/>
+            <edge id="sofya|ogorodnik" source="sofya" target="ogorodnik" weight="2"/>
+            <edge id="vederkin|flyugerova" source="vederkin" target="flyugerova" weight="6"/>
+            <edge id="vederkin|knyaz" source="vederkin" target="knyaz" weight="4"/>
+            <edge id="vederkin|liya" source="vederkin" target="liya" weight="3"/>
+            <edge id="vederkin|panfil" source="vederkin" target="panfil" weight="2"/>
+            <edge id="vederkin|sluga" source="vederkin" target="sluga" weight="1"/>
+            <edge id="vederkin|pryamikov" source="vederkin" target="pryamikov" weight="4"/>
+            <edge id="vederkin|slavin" source="vederkin" target="slavin" weight="4"/>
+            <edge id="vederkin|ogorodnik" source="vederkin" target="ogorodnik" weight="2"/>
+            <edge id="flyugerova|panfil" source="flyugerova" target="panfil" weight="5"/>
+            <edge id="flyugerova|slavin" source="flyugerova" target="slavin" weight="4"/>
+            <edge id="flyugerova|liya" source="flyugerova" target="liya" weight="5"/>
+            <edge id="flyugerova|knyaz" source="flyugerova" target="knyaz" weight="5"/>
+            <edge id="flyugerova|sluga" source="flyugerova" target="sluga" weight="1"/>
+            <edge id="flyugerova|pryamikov" source="flyugerova" target="pryamikov" weight="4"/>
+            <edge id="panfil|liya" source="panfil" target="liya" weight="2"/>
+            <edge id="panfil|knyaz" source="panfil" target="knyaz" weight="1"/>
+            <edge id="panfil|pryamikov" source="panfil" target="pryamikov" weight="2"/>
+            <edge id="panfil|slavin" source="panfil" target="slavin" weight="1"/>
+            <edge id="slavin|sluga" source="slavin" target="sluga" weight="1"/>
+            <edge id="slavin|pryamikov" source="slavin" target="pryamikov" weight="5"/>
+            <edge id="slavin|knyaz" source="slavin" target="knyaz" weight="1"/>
+            <edge id="slavin|liya" source="slavin" target="liya" weight="1"/>
+            <edge id="slavin|ogorodnik" source="slavin" target="ogorodnik" weight="2"/>
+            <edge id="liya|knyaz" source="liya" target="knyaz" weight="5"/>
+            <edge id="liya|sluga" source="liya" target="sluga" weight="1"/>
+            <edge id="liya|pryamikov" source="liya" target="pryamikov" weight="1"/>
+            <edge id="knyaz|sluga" source="knyaz" target="sluga" weight="1"/>
+            <edge id="knyaz|pryamikov" source="knyaz" target="pryamikov" weight="1"/>
+            <edge id="pryamikov|sluga" source="pryamikov" target="sluga" weight="1"/>
+            <edge id="pryamikov|ogorodnik" source="pryamikov" target="ogorodnik" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

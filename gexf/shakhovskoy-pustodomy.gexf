@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Шаховской, Александр Александрович: Пустодомы</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="vanjusha" label="Ванюша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="900"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="foma" label="Фома">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="688"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="inkvartus" label="Инквартус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="655"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaz" label="Князь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2335"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="776"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knjazhna" label="Княжна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="159"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="graf" label="Граф">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="72"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grafinja" label="Графиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1249"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaginja" label="Княгиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2446"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="tsaplin" label="Цаплин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="524"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="radimov" label="Радимов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2151"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="vanjusha|foma" source="vanjusha" target="foma" weight="3"/>
+            <edge id="vanjusha|inkvartus" source="vanjusha" target="inkvartus" weight="5"/>
+            <edge id="vanjusha|knjaz" source="vanjusha" target="knjaz" weight="4"/>
+            <edge id="vanjusha|masha" source="vanjusha" target="masha" weight="6"/>
+            <edge id="vanjusha|grafinja" source="vanjusha" target="grafinja" weight="3"/>
+            <edge id="vanjusha|knjazhna" source="vanjusha" target="knjazhna" weight="1"/>
+            <edge id="vanjusha|graf" source="vanjusha" target="graf" weight="1"/>
+            <edge id="vanjusha|knjaginja" source="vanjusha" target="knjaginja" weight="4"/>
+            <edge id="vanjusha|radimov" source="vanjusha" target="radimov" weight="1"/>
+            <edge id="vanjusha|tsaplin" source="vanjusha" target="tsaplin" weight="1"/>
+            <edge id="foma|knjaz" source="foma" target="knjaz" weight="6"/>
+            <edge id="foma|inkvartus" source="foma" target="inkvartus" weight="6"/>
+            <edge id="foma|radimov" source="foma" target="radimov" weight="9"/>
+            <edge id="foma|tsaplin" source="foma" target="tsaplin" weight="4"/>
+            <edge id="foma|knjaginja" source="foma" target="knjaginja" weight="3"/>
+            <edge id="foma|knjazhna" source="foma" target="knjazhna" weight="1"/>
+            <edge id="foma|sluga" source="foma" target="sluga" weight="1"/>
+            <edge id="foma|grafinja" source="foma" target="grafinja" weight="2"/>
+            <edge id="foma|masha" source="foma" target="masha" weight="1"/>
+            <edge id="inkvartus|knjaz" source="inkvartus" target="knjaz" weight="11"/>
+            <edge id="inkvartus|masha" source="inkvartus" target="masha" weight="3"/>
+            <edge id="inkvartus|knjazhna" source="inkvartus" target="knjazhna" weight="2"/>
+            <edge id="inkvartus|graf" source="inkvartus" target="graf" weight="2"/>
+            <edge id="inkvartus|grafinja" source="inkvartus" target="grafinja" weight="3"/>
+            <edge id="inkvartus|radimov" source="inkvartus" target="radimov" weight="5"/>
+            <edge id="inkvartus|knjaginja" source="inkvartus" target="knjaginja" weight="6"/>
+            <edge id="inkvartus|tsaplin" source="inkvartus" target="tsaplin" weight="1"/>
+            <edge id="knjaz|masha" source="knjaz" target="masha" weight="5"/>
+            <edge id="knjaz|knjazhna" source="knjaz" target="knjazhna" weight="4"/>
+            <edge id="knjaz|graf" source="knjaz" target="graf" weight="2"/>
+            <edge id="knjaz|grafinja" source="knjaz" target="grafinja" weight="4"/>
+            <edge id="knjaz|knjaginja" source="knjaz" target="knjaginja" weight="10"/>
+            <edge id="knjaz|tsaplin" source="knjaz" target="tsaplin" weight="3"/>
+            <edge id="knjaz|radimov" source="knjaz" target="radimov" weight="5"/>
+            <edge id="masha|knjaginja" source="masha" target="knjaginja" weight="9"/>
+            <edge id="masha|grafinja" source="masha" target="grafinja" weight="2"/>
+            <edge id="masha|tsaplin" source="masha" target="tsaplin" weight="2"/>
+            <edge id="masha|radimov" source="masha" target="radimov" weight="1"/>
+            <edge id="knjazhna|graf" source="knjazhna" target="graf" weight="4"/>
+            <edge id="knjazhna|grafinja" source="knjazhna" target="grafinja" weight="4"/>
+            <edge id="knjazhna|knjaginja" source="knjazhna" target="knjaginja" weight="3"/>
+            <edge id="knjazhna|radimov" source="knjazhna" target="radimov" weight="1"/>
+            <edge id="graf|grafinja" source="graf" target="grafinja" weight="3"/>
+            <edge id="graf|knjaginja" source="graf" target="knjaginja" weight="1"/>
+            <edge id="grafinja|knjaginja" source="grafinja" target="knjaginja" weight="4"/>
+            <edge id="grafinja|radimov" source="grafinja" target="radimov" weight="3"/>
+            <edge id="grafinja|tsaplin" source="grafinja" target="tsaplin" weight="1"/>
+            <edge id="knjaginja|tsaplin" source="knjaginja" target="tsaplin" weight="3"/>
+            <edge id="knjaginja|radimov" source="knjaginja" target="radimov" weight="5"/>
+            <edge id="tsaplin|radimov" source="tsaplin" target="radimov" weight="5"/>
+            <edge id="tsaplin|sluga" source="tsaplin" target="sluga" weight="1"/>
+            <edge id="radimov|sluga" source="radimov" target="sluga" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

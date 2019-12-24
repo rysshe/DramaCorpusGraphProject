@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Дашкова, Екатерина Романовна: Тоисиоков</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="toisiokov" label="Г. Тоисиоков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="951"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dvoretskij" label="Дворецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="324"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prolaz" label="Пролаз">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="411"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="597"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="reshimova" label="Г-жа Решимова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2031"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lafler" label="Лафлер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="245"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="flena_osipovna" label="Флена Осиповна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="686"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="toisiokova" label="Г-жа Тоисиокова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="290"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="andrej" label="Андрей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="371"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zdravomyslov" label="Г. Здравомыслов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="467"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kupets" label="Купец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="145"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="toisiokov|dvoretskij" source="toisiokov" target="dvoretskij" weight="2"/>
+            <edge id="toisiokov|prolaz" source="toisiokov" target="prolaz" weight="1"/>
+            <edge id="toisiokov|reshimova" source="toisiokov" target="reshimova" weight="10"/>
+            <edge id="toisiokov|toisiokova" source="toisiokov" target="toisiokova" weight="3"/>
+            <edge id="toisiokov|flena_osipovna" source="toisiokov" target="flena_osipovna" weight="6"/>
+            <edge id="toisiokov|zdravomyslov" source="toisiokov" target="zdravomyslov" weight="3"/>
+            <edge id="toisiokov|lafler" source="toisiokov" target="lafler" weight="2"/>
+            <edge id="toisiokov|masha" source="toisiokov" target="masha" weight="1"/>
+            <edge id="toisiokov|andrej" source="toisiokov" target="andrej" weight="1"/>
+            <edge id="dvoretskij|prolaz" source="dvoretskij" target="prolaz" weight="3"/>
+            <edge id="dvoretskij|masha" source="dvoretskij" target="masha" weight="1"/>
+            <edge id="dvoretskij|lafler" source="dvoretskij" target="lafler" weight="1"/>
+            <edge id="dvoretskij|reshimova" source="dvoretskij" target="reshimova" weight="1"/>
+            <edge id="dvoretskij|toisiokova" source="dvoretskij" target="toisiokova" weight="1"/>
+            <edge id="dvoretskij|flena_osipovna" source="dvoretskij" target="flena_osipovna" weight="1"/>
+            <edge id="prolaz|masha" source="prolaz" target="masha" weight="1"/>
+            <edge id="prolaz|reshimova" source="prolaz" target="reshimova" weight="6"/>
+            <edge id="prolaz|andrej" source="prolaz" target="andrej" weight="3"/>
+            <edge id="prolaz|lafler" source="prolaz" target="lafler" weight="1"/>
+            <edge id="prolaz|kupets" source="prolaz" target="kupets" weight="2"/>
+            <edge id="prolaz|zdravomyslov" source="prolaz" target="zdravomyslov" weight="1"/>
+            <edge id="masha|reshimova" source="masha" target="reshimova" weight="3"/>
+            <edge id="masha|andrej" source="masha" target="andrej" weight="3"/>
+            <edge id="masha|flena_osipovna" source="masha" target="flena_osipovna" weight="2"/>
+            <edge id="masha|lafler" source="masha" target="lafler" weight="1"/>
+            <edge id="masha|kupets" source="masha" target="kupets" weight="1"/>
+            <edge id="masha|toisiokova" source="masha" target="toisiokova" weight="1"/>
+            <edge id="masha|zdravomyslov" source="masha" target="zdravomyslov" weight="1"/>
+            <edge id="reshimova|lafler" source="reshimova" target="lafler" weight="2"/>
+            <edge id="reshimova|flena_osipovna" source="reshimova" target="flena_osipovna" weight="9"/>
+            <edge id="reshimova|toisiokova" source="reshimova" target="toisiokova" weight="6"/>
+            <edge id="reshimova|zdravomyslov" source="reshimova" target="zdravomyslov" weight="5"/>
+            <edge id="reshimova|kupets" source="reshimova" target="kupets" weight="1"/>
+            <edge id="reshimova|andrej" source="reshimova" target="andrej" weight="2"/>
+            <edge id="lafler|zdravomyslov" source="lafler" target="zdravomyslov" weight="1"/>
+            <edge id="lafler|flena_osipovna" source="lafler" target="flena_osipovna" weight="1"/>
+            <edge id="flena_osipovna|toisiokova" source="flena_osipovna" target="toisiokova" weight="8"/>
+            <edge id="flena_osipovna|zdravomyslov" source="flena_osipovna" target="zdravomyslov" weight="2"/>
+            <edge id="flena_osipovna|andrej" source="flena_osipovna" target="andrej" weight="1"/>
+            <edge id="toisiokova|zdravomyslov" source="toisiokova" target="zdravomyslov" weight="1"/>
+            <edge id="toisiokova|andrej" source="toisiokova" target="andrej" weight="1"/>
+            <edge id="andrej|kupets" source="andrej" target="kupets" weight="2"/>
+            <edge id="andrej|zdravomyslov" source="andrej" target="zdravomyslov" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

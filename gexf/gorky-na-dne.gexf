@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Горький, Максим: На дне</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Baron" label="Барон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="713"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kvashnja" label="Квашня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="448"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Bubnov" label="Бубнов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1274"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Klesch" label="Клещ Андрей Митрич">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="526"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Nastja" label="Настя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="558"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Anna" label="Анна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="207"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Satin" label="Сатин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1443"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Akter" label="Актер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="683"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kostylev" label="Михаил Иванов Костылев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="672"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Pepel" label="Пепел">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1452"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Luka" label="Лука">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2369"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Natasha" label="Наташа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="562"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Aleshka" label="Алешка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="299"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Vasilisa" label="Василиса Карповна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="682"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Medvedev" label="Медведев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="500"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Tatarin" label="Татарин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="235"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="KrivojZob" label="Кривой Зоб">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="222"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Baron|Kvashnja" source="Baron" target="Kvashnja" weight="3"/>
+            <edge id="Baron|Bubnov" source="Baron" target="Bubnov" weight="4"/>
+            <edge id="Baron|Klesch" source="Baron" target="Klesch" weight="4"/>
+            <edge id="Baron|Nastja" source="Baron" target="Nastja" weight="3"/>
+            <edge id="Baron|Anna" source="Baron" target="Anna" weight="2"/>
+            <edge id="Baron|Satin" source="Baron" target="Satin" weight="4"/>
+            <edge id="Baron|Akter" source="Baron" target="Akter" weight="4"/>
+            <edge id="Baron|Kostylev" source="Baron" target="Kostylev" weight="3"/>
+            <edge id="Baron|Pepel" source="Baron" target="Pepel" weight="3"/>
+            <edge id="Baron|Luka" source="Baron" target="Luka" weight="3"/>
+            <edge id="Baron|Natasha" source="Baron" target="Natasha" weight="3"/>
+            <edge id="Baron|Aleshka" source="Baron" target="Aleshka" weight="3"/>
+            <edge id="Baron|Vasilisa" source="Baron" target="Vasilisa" weight="3"/>
+            <edge id="Baron|Medvedev" source="Baron" target="Medvedev" weight="4"/>
+            <edge id="Baron|Tatarin" source="Baron" target="Tatarin" weight="3"/>
+            <edge id="Baron|KrivojZob" source="Baron" target="KrivojZob" weight="3"/>
+            <edge id="Kvashnja|Bubnov" source="Kvashnja" target="Bubnov" weight="3"/>
+            <edge id="Kvashnja|Klesch" source="Kvashnja" target="Klesch" weight="3"/>
+            <edge id="Kvashnja|Nastja" source="Kvashnja" target="Nastja" weight="3"/>
+            <edge id="Kvashnja|Anna" source="Kvashnja" target="Anna" weight="1"/>
+            <edge id="Kvashnja|Satin" source="Kvashnja" target="Satin" weight="3"/>
+            <edge id="Kvashnja|Akter" source="Kvashnja" target="Akter" weight="3"/>
+            <edge id="Kvashnja|Kostylev" source="Kvashnja" target="Kostylev" weight="2"/>
+            <edge id="Kvashnja|Pepel" source="Kvashnja" target="Pepel" weight="2"/>
+            <edge id="Kvashnja|Luka" source="Kvashnja" target="Luka" weight="2"/>
+            <edge id="Kvashnja|Natasha" source="Kvashnja" target="Natasha" weight="2"/>
+            <edge id="Kvashnja|Aleshka" source="Kvashnja" target="Aleshka" weight="3"/>
+            <edge id="Kvashnja|Vasilisa" source="Kvashnja" target="Vasilisa" weight="2"/>
+            <edge id="Kvashnja|Medvedev" source="Kvashnja" target="Medvedev" weight="3"/>
+            <edge id="Kvashnja|Tatarin" source="Kvashnja" target="Tatarin" weight="2"/>
+            <edge id="Kvashnja|KrivojZob" source="Kvashnja" target="KrivojZob" weight="2"/>
+            <edge id="Bubnov|Klesch" source="Bubnov" target="Klesch" weight="4"/>
+            <edge id="Bubnov|Nastja" source="Bubnov" target="Nastja" weight="3"/>
+            <edge id="Bubnov|Anna" source="Bubnov" target="Anna" weight="2"/>
+            <edge id="Bubnov|Satin" source="Bubnov" target="Satin" weight="4"/>
+            <edge id="Bubnov|Akter" source="Bubnov" target="Akter" weight="4"/>
+            <edge id="Bubnov|Kostylev" source="Bubnov" target="Kostylev" weight="3"/>
+            <edge id="Bubnov|Pepel" source="Bubnov" target="Pepel" weight="3"/>
+            <edge id="Bubnov|Luka" source="Bubnov" target="Luka" weight="3"/>
+            <edge id="Bubnov|Natasha" source="Bubnov" target="Natasha" weight="3"/>
+            <edge id="Bubnov|Aleshka" source="Bubnov" target="Aleshka" weight="3"/>
+            <edge id="Bubnov|Vasilisa" source="Bubnov" target="Vasilisa" weight="3"/>
+            <edge id="Bubnov|Medvedev" source="Bubnov" target="Medvedev" weight="4"/>
+            <edge id="Bubnov|Tatarin" source="Bubnov" target="Tatarin" weight="3"/>
+            <edge id="Bubnov|KrivojZob" source="Bubnov" target="KrivojZob" weight="3"/>
+            <edge id="Klesch|Nastja" source="Klesch" target="Nastja" weight="3"/>
+            <edge id="Klesch|Anna" source="Klesch" target="Anna" weight="2"/>
+            <edge id="Klesch|Satin" source="Klesch" target="Satin" weight="4"/>
+            <edge id="Klesch|Akter" source="Klesch" target="Akter" weight="4"/>
+            <edge id="Klesch|Kostylev" source="Klesch" target="Kostylev" weight="3"/>
+            <edge id="Klesch|Pepel" source="Klesch" target="Pepel" weight="3"/>
+            <edge id="Klesch|Luka" source="Klesch" target="Luka" weight="3"/>
+            <edge id="Klesch|Natasha" source="Klesch" target="Natasha" weight="3"/>
+            <edge id="Klesch|Aleshka" source="Klesch" target="Aleshka" weight="3"/>
+            <edge id="Klesch|Vasilisa" source="Klesch" target="Vasilisa" weight="3"/>
+            <edge id="Klesch|Medvedev" source="Klesch" target="Medvedev" weight="4"/>
+            <edge id="Klesch|Tatarin" source="Klesch" target="Tatarin" weight="3"/>
+            <edge id="Klesch|KrivojZob" source="Klesch" target="KrivojZob" weight="3"/>
+            <edge id="Nastja|Anna" source="Nastja" target="Anna" weight="1"/>
+            <edge id="Nastja|Satin" source="Nastja" target="Satin" weight="3"/>
+            <edge id="Nastja|Akter" source="Nastja" target="Akter" weight="3"/>
+            <edge id="Nastja|Kostylev" source="Nastja" target="Kostylev" weight="2"/>
+            <edge id="Nastja|Pepel" source="Nastja" target="Pepel" weight="2"/>
+            <edge id="Nastja|Luka" source="Nastja" target="Luka" weight="2"/>
+            <edge id="Nastja|Natasha" source="Nastja" target="Natasha" weight="2"/>
+            <edge id="Nastja|Aleshka" source="Nastja" target="Aleshka" weight="3"/>
+            <edge id="Nastja|Vasilisa" source="Nastja" target="Vasilisa" weight="2"/>
+            <edge id="Nastja|Medvedev" source="Nastja" target="Medvedev" weight="3"/>
+            <edge id="Nastja|Tatarin" source="Nastja" target="Tatarin" weight="2"/>
+            <edge id="Nastja|KrivojZob" source="Nastja" target="KrivojZob" weight="2"/>
+            <edge id="Anna|Satin" source="Anna" target="Satin" weight="2"/>
+            <edge id="Anna|Akter" source="Anna" target="Akter" weight="2"/>
+            <edge id="Anna|Kostylev" source="Anna" target="Kostylev" weight="2"/>
+            <edge id="Anna|Pepel" source="Anna" target="Pepel" weight="2"/>
+            <edge id="Anna|Luka" source="Anna" target="Luka" weight="2"/>
+            <edge id="Anna|Natasha" source="Anna" target="Natasha" weight="2"/>
+            <edge id="Anna|Aleshka" source="Anna" target="Aleshka" weight="1"/>
+            <edge id="Anna|Vasilisa" source="Anna" target="Vasilisa" weight="2"/>
+            <edge id="Anna|Medvedev" source="Anna" target="Medvedev" weight="2"/>
+            <edge id="Anna|Tatarin" source="Anna" target="Tatarin" weight="1"/>
+            <edge id="Anna|KrivojZob" source="Anna" target="KrivojZob" weight="1"/>
+            <edge id="Satin|Akter" source="Satin" target="Akter" weight="4"/>
+            <edge id="Satin|Kostylev" source="Satin" target="Kostylev" weight="3"/>
+            <edge id="Satin|Pepel" source="Satin" target="Pepel" weight="3"/>
+            <edge id="Satin|Luka" source="Satin" target="Luka" weight="3"/>
+            <edge id="Satin|Natasha" source="Satin" target="Natasha" weight="3"/>
+            <edge id="Satin|Aleshka" source="Satin" target="Aleshka" weight="3"/>
+            <edge id="Satin|Vasilisa" source="Satin" target="Vasilisa" weight="3"/>
+            <edge id="Satin|Medvedev" source="Satin" target="Medvedev" weight="4"/>
+            <edge id="Satin|Tatarin" source="Satin" target="Tatarin" weight="3"/>
+            <edge id="Satin|KrivojZob" source="Satin" target="KrivojZob" weight="3"/>
+            <edge id="Akter|Kostylev" source="Akter" target="Kostylev" weight="3"/>
+            <edge id="Akter|Pepel" source="Akter" target="Pepel" weight="3"/>
+            <edge id="Akter|Luka" source="Akter" target="Luka" weight="3"/>
+            <edge id="Akter|Natasha" source="Akter" target="Natasha" weight="3"/>
+            <edge id="Akter|Aleshka" source="Akter" target="Aleshka" weight="3"/>
+            <edge id="Akter|Vasilisa" source="Akter" target="Vasilisa" weight="3"/>
+            <edge id="Akter|Medvedev" source="Akter" target="Medvedev" weight="4"/>
+            <edge id="Akter|Tatarin" source="Akter" target="Tatarin" weight="3"/>
+            <edge id="Akter|KrivojZob" source="Akter" target="KrivojZob" weight="3"/>
+            <edge id="Kostylev|Pepel" source="Kostylev" target="Pepel" weight="3"/>
+            <edge id="Kostylev|Luka" source="Kostylev" target="Luka" weight="3"/>
+            <edge id="Kostylev|Natasha" source="Kostylev" target="Natasha" weight="3"/>
+            <edge id="Kostylev|Aleshka" source="Kostylev" target="Aleshka" weight="2"/>
+            <edge id="Kostylev|Vasilisa" source="Kostylev" target="Vasilisa" weight="3"/>
+            <edge id="Kostylev|Medvedev" source="Kostylev" target="Medvedev" weight="3"/>
+            <edge id="Kostylev|Tatarin" source="Kostylev" target="Tatarin" weight="2"/>
+            <edge id="Kostylev|KrivojZob" source="Kostylev" target="KrivojZob" weight="2"/>
+            <edge id="Pepel|Luka" source="Pepel" target="Luka" weight="3"/>
+            <edge id="Pepel|Natasha" source="Pepel" target="Natasha" weight="3"/>
+            <edge id="Pepel|Aleshka" source="Pepel" target="Aleshka" weight="2"/>
+            <edge id="Pepel|Vasilisa" source="Pepel" target="Vasilisa" weight="3"/>
+            <edge id="Pepel|Medvedev" source="Pepel" target="Medvedev" weight="3"/>
+            <edge id="Pepel|Tatarin" source="Pepel" target="Tatarin" weight="2"/>
+            <edge id="Pepel|KrivojZob" source="Pepel" target="KrivojZob" weight="2"/>
+            <edge id="Luka|Natasha" source="Luka" target="Natasha" weight="3"/>
+            <edge id="Luka|Aleshka" source="Luka" target="Aleshka" weight="2"/>
+            <edge id="Luka|Vasilisa" source="Luka" target="Vasilisa" weight="3"/>
+            <edge id="Luka|Medvedev" source="Luka" target="Medvedev" weight="3"/>
+            <edge id="Luka|Tatarin" source="Luka" target="Tatarin" weight="2"/>
+            <edge id="Luka|KrivojZob" source="Luka" target="KrivojZob" weight="2"/>
+            <edge id="Natasha|Aleshka" source="Natasha" target="Aleshka" weight="2"/>
+            <edge id="Natasha|Vasilisa" source="Natasha" target="Vasilisa" weight="3"/>
+            <edge id="Natasha|Medvedev" source="Natasha" target="Medvedev" weight="3"/>
+            <edge id="Natasha|Tatarin" source="Natasha" target="Tatarin" weight="2"/>
+            <edge id="Natasha|KrivojZob" source="Natasha" target="KrivojZob" weight="2"/>
+            <edge id="Aleshka|Vasilisa" source="Aleshka" target="Vasilisa" weight="2"/>
+            <edge id="Aleshka|Medvedev" source="Aleshka" target="Medvedev" weight="3"/>
+            <edge id="Aleshka|Tatarin" source="Aleshka" target="Tatarin" weight="2"/>
+            <edge id="Aleshka|KrivojZob" source="Aleshka" target="KrivojZob" weight="2"/>
+            <edge id="Vasilisa|Medvedev" source="Vasilisa" target="Medvedev" weight="3"/>
+            <edge id="Vasilisa|Tatarin" source="Vasilisa" target="Tatarin" weight="2"/>
+            <edge id="Vasilisa|KrivojZob" source="Vasilisa" target="KrivojZob" weight="2"/>
+            <edge id="Medvedev|Tatarin" source="Medvedev" target="Tatarin" weight="3"/>
+            <edge id="Medvedev|KrivojZob" source="Medvedev" target="KrivojZob" weight="3"/>
+            <edge id="Tatarin|KrivojZob" source="Tatarin" target="KrivojZob" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

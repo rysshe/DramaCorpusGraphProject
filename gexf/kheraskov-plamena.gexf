@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Херасков, Михаил Матвеевич: Пламена</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="plamena" label="Пламена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3011"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ostana" label="Остана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="393"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="prevzyd" label="Превзыд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3227"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="komnatnoj" label="Комнатной">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mstislav" label="Мстислав">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1146"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pozvezd" label="Позвезд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1531"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="strazh" label="Страж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_pechenegov" label="Один из Печенегов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_kievljan" label="Один из Киевлян">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="virsan" label="Вирсан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="478"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pecheneg" label="Печенег">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kievljanin" label="Киевлянин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="voenachalnik" label="Военачальник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik" label="Вестник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="322"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="plamena|ostana" source="plamena" target="ostana" weight="3"/>
+            <edge id="plamena|prevzyd" source="plamena" target="prevzyd" weight="8"/>
+            <edge id="plamena|pozvezd" source="plamena" target="pozvezd" weight="6"/>
+            <edge id="plamena|virsan" source="plamena" target="virsan" weight="2"/>
+            <edge id="plamena|voenachalnik" source="plamena" target="voenachalnik" weight="1"/>
+            <edge id="plamena|mstislav" source="plamena" target="mstislav" weight="3"/>
+            <edge id="plamena|vestnik" source="plamena" target="vestnik" weight="1"/>
+            <edge id="ostana|prevzyd" source="ostana" target="prevzyd" weight="2"/>
+            <edge id="ostana|mstislav" source="ostana" target="mstislav" weight="1"/>
+            <edge id="ostana|pozvezd" source="ostana" target="pozvezd" weight="2"/>
+            <edge id="prevzyd|komnatnoj" source="prevzyd" target="komnatnoj" weight="1"/>
+            <edge id="prevzyd|mstislav" source="prevzyd" target="mstislav" weight="4"/>
+            <edge id="prevzyd|odin_iz_pechenegov" source="prevzyd" target="odin_iz_pechenegov" weight="1"/>
+            <edge id="prevzyd|odin_iz_kievljan" source="prevzyd" target="odin_iz_kievljan" weight="1"/>
+            <edge id="prevzyd|virsan" source="prevzyd" target="virsan" weight="3"/>
+            <edge id="prevzyd|pecheneg" source="prevzyd" target="pecheneg" weight="1"/>
+            <edge id="prevzyd|kievljanin" source="prevzyd" target="kievljanin" weight="1"/>
+            <edge id="prevzyd|pozvezd" source="prevzyd" target="pozvezd" weight="2"/>
+            <edge id="prevzyd|voenachalnik" source="prevzyd" target="voenachalnik" weight="1"/>
+            <edge id="mstislav|pozvezd" source="mstislav" target="pozvezd" weight="2"/>
+            <edge id="mstislav|vestnik" source="mstislav" target="vestnik" weight="1"/>
+            <edge id="pozvezd|virsan" source="pozvezd" target="virsan" weight="1"/>
+            <edge id="odin_iz_pechenegov|odin_iz_kievljan" source="odin_iz_pechenegov" target="odin_iz_kievljan" weight="1"/>
+            <edge id="odin_iz_pechenegov|virsan" source="odin_iz_pechenegov" target="virsan" weight="1"/>
+            <edge id="odin_iz_pechenegov|pecheneg" source="odin_iz_pechenegov" target="pecheneg" weight="1"/>
+            <edge id="odin_iz_pechenegov|kievljanin" source="odin_iz_pechenegov" target="kievljanin" weight="1"/>
+            <edge id="odin_iz_kievljan|virsan" source="odin_iz_kievljan" target="virsan" weight="1"/>
+            <edge id="odin_iz_kievljan|pecheneg" source="odin_iz_kievljan" target="pecheneg" weight="1"/>
+            <edge id="odin_iz_kievljan|kievljanin" source="odin_iz_kievljan" target="kievljanin" weight="1"/>
+            <edge id="virsan|pecheneg" source="virsan" target="pecheneg" weight="1"/>
+            <edge id="virsan|kievljanin" source="virsan" target="kievljanin" weight="1"/>
+            <edge id="pecheneg|kievljanin" source="pecheneg" target="kievljanin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

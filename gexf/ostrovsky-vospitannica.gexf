@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Воспитанница</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="nadya" label="Надя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1570"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="liza" label="Лиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="594"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="leonid" label="Леонид">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="895"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="devushka" label="Девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="potapych" label="Потапыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1379"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gavrilovna" label="Гавриловна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="612"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilisa_peregrinovna" label="Василиса Перегриновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1617"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ulanbekova" label="Уланбекова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1711"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="grisha" label="Гриша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="186"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="negligentov" label="Неглигентов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="205"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="nadya|liza" source="nadya" target="liza" weight="8"/>
+            <edge id="nadya|gavrilovna" source="nadya" target="gavrilovna" weight="4"/>
+            <edge id="nadya|leonid" source="nadya" target="leonid" weight="5"/>
+            <edge id="nadya|potapych" source="nadya" target="potapych" weight="3"/>
+            <edge id="nadya|vasilisa_peregrinovna" source="nadya" target="vasilisa_peregrinovna" weight="3"/>
+            <edge id="nadya|ulanbekova" source="nadya" target="ulanbekova" weight="2"/>
+            <edge id="nadya|grisha" source="nadya" target="grisha" weight="1"/>
+            <edge id="liza|leonid" source="liza" target="leonid" weight="7"/>
+            <edge id="liza|vasilisa_peregrinovna" source="liza" target="vasilisa_peregrinovna" weight="7"/>
+            <edge id="liza|ulanbekova" source="liza" target="ulanbekova" weight="3"/>
+            <edge id="liza|gavrilovna" source="liza" target="gavrilovna" weight="4"/>
+            <edge id="liza|grisha" source="liza" target="grisha" weight="2"/>
+            <edge id="liza|potapych" source="liza" target="potapych" weight="2"/>
+            <edge id="leonid|devushka" source="leonid" target="devushka" weight="1"/>
+            <edge id="leonid|potapych" source="leonid" target="potapych" weight="3"/>
+            <edge id="leonid|gavrilovna" source="leonid" target="gavrilovna" weight="4"/>
+            <edge id="leonid|vasilisa_peregrinovna" source="leonid" target="vasilisa_peregrinovna" weight="5"/>
+            <edge id="leonid|ulanbekova" source="leonid" target="ulanbekova" weight="3"/>
+            <edge id="leonid|negligentov" source="leonid" target="negligentov" weight="1"/>
+            <edge id="leonid|grisha" source="leonid" target="grisha" weight="2"/>
+            <edge id="devushka|potapych" source="devushka" target="potapych" weight="1"/>
+            <edge id="potapych|gavrilovna" source="potapych" target="gavrilovna" weight="5"/>
+            <edge id="potapych|vasilisa_peregrinovna" source="potapych" target="vasilisa_peregrinovna" weight="6"/>
+            <edge id="potapych|ulanbekova" source="potapych" target="ulanbekova" weight="2"/>
+            <edge id="gavrilovna|vasilisa_peregrinovna" source="gavrilovna" target="vasilisa_peregrinovna" weight="6"/>
+            <edge id="gavrilovna|ulanbekova" source="gavrilovna" target="ulanbekova" weight="3"/>
+            <edge id="gavrilovna|grisha" source="gavrilovna" target="grisha" weight="1"/>
+            <edge id="vasilisa_peregrinovna|ulanbekova" source="vasilisa_peregrinovna" target="ulanbekova" weight="6"/>
+            <edge id="vasilisa_peregrinovna|grisha" source="vasilisa_peregrinovna" target="grisha" weight="3"/>
+            <edge id="ulanbekova|grisha" source="ulanbekova" target="grisha" weight="4"/>
+            <edge id="ulanbekova|negligentov" source="ulanbekova" target="negligentov" weight="1"/>
+            <edge id="grisha|negligentov" source="grisha" target="negligentov" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

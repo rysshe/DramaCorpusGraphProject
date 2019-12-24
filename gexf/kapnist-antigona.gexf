@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Капнист, Василий Васильевич: Антигона</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="kreont" label="Креонт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1807"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="forbat" label="Форбат">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="292"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="antigona" label="Антигона">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3609"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ehgina" label="Эгина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="271"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ehmon" label="Эмон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2812"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="posol" label="Посол">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="122"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dimas" label="Димас">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="220"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="kreont|forbat" source="kreont" target="forbat" weight="2"/>
+            <edge id="kreont|ehmon" source="kreont" target="ehmon" weight="3"/>
+            <edge id="kreont|antigona" source="kreont" target="antigona" weight="3"/>
+            <edge id="forbat|antigona" source="forbat" target="antigona" weight="3"/>
+            <edge id="forbat|ehmon" source="forbat" target="ehmon" weight="1"/>
+            <edge id="antigona|ehgina" source="antigona" target="ehgina" weight="5"/>
+            <edge id="antigona|ehmon" source="antigona" target="ehmon" weight="6"/>
+            <edge id="ehgina|ehmon" source="ehgina" target="ehmon" weight="1"/>
+            <edge id="ehmon|posol" source="ehmon" target="posol" weight="1"/>
+            <edge id="ehmon|dimas" source="ehmon" target="dimas" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

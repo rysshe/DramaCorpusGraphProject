@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Лермонтов, Михаил Юрьевич: Маскарад</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="PervyjjPonter_VyhodPervyj" label="1-й понтер (Выход первый)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Bankomet" label="Банкомет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojjPonter_VyhodPervyj" label="2-й понтер (Выход первый)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijjPonter_VyhodPervyj" label="3-й понтер (Выход первый)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChetvertyjjPonter_VyhodPervyj" label="4-й понтер (Выход первый)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="KnjazZvezdich" label="Князь Звездич">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1349"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Shprih" label="Шприх">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="492"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Arbenin" label="Арбенин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5001"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kazarin" label="Казарин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1305"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Igroki_VyhodVtoroj" label="Игроки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjjPonter_VyhodVtoroj" label="1-й понтер (Выход второй)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjjIgrok_VyhodVtoroj" label="1-й игрок (Выход второй)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojjIgrok_VyhodVtoroj" label="2-й игрок (Выход второй)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijjPonter_VyhodVtoroj" label="1-й понтер (Выход второй)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChetvertyjjPonter_VyhodVtoroj" label="1-й понтер (Выход второй)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PjatyjjPonter_VyhodVtoroj" label="5-й понтер (Выход второй)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjjIgrok_VyhodTretij" label="1-й игрок (Выход третий)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojjIgrok_VyhodTretij" label="2-й игрок (Выход третий)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Sluga_VyhodTretij" label="Слуга (Выход третий)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Hozjain" label="Хозяин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ZhenskajaMaska" label="Женская маска">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="441"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Maska_Neizvestnyj" label="Маска (Неизвестный)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="821"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Sluga_Arbenina" label="Слуга Арбенина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="45"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Nina" label="Нина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1212"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Baronessa" label="Баронесса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="978"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Chinovnik" label="Чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="63"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Hozjain_N" label="Хозяин (N.)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Hozjajka" label="Хозяйка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjjGost_Bal" label="1-й гость (Бал)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojjGost_Bal" label="2-й гость (Бал)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Mnogie" label="Многие">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Dama_Bal" label="Дама (Бал)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijjGost_Bal" label="3-й гость (Бал)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChetvertyjjGost_Bal" label="4-й гость (Бал)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PjatyjjGost_Bal" label="5-й гость (Бал)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ShestojjGost_Bal" label="6-й гость (Бал)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Dama_drugoj" label="Дама (другой)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Petkov" label="Петков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Dama" label="Дама">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Gost" label="Гость">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojjGost" label="2-й Гость">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijjGost" label="3-й Гость">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Sluzhanka" label="Служанка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Dama_ma_tante" label="Дама">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="45"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Plemjannitsa" label="Племянница">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Starik" label="Старик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Doktor" label="Доктор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="PervyjjPonter_VyhodPervyj|Bankomet" source="PervyjjPonter_VyhodPervyj" target="Bankomet" weight="1"/>
+            <edge id="PervyjjPonter_VyhodPervyj|VtorojjPonter_VyhodPervyj" source="PervyjjPonter_VyhodPervyj" target="VtorojjPonter_VyhodPervyj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodPervyj|TretijjPonter_VyhodPervyj" source="PervyjjPonter_VyhodPervyj" target="TretijjPonter_VyhodPervyj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodPervyj|ChetvertyjjPonter_VyhodPervyj" source="PervyjjPonter_VyhodPervyj" target="ChetvertyjjPonter_VyhodPervyj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodPervyj|KnjazZvezdich" source="PervyjjPonter_VyhodPervyj" target="KnjazZvezdich" weight="1"/>
+            <edge id="PervyjjPonter_VyhodPervyj|Shprih" source="PervyjjPonter_VyhodPervyj" target="Shprih" weight="1"/>
+            <edge id="Bankomet|VtorojjPonter_VyhodPervyj" source="Bankomet" target="VtorojjPonter_VyhodPervyj" weight="1"/>
+            <edge id="Bankomet|TretijjPonter_VyhodPervyj" source="Bankomet" target="TretijjPonter_VyhodPervyj" weight="1"/>
+            <edge id="Bankomet|ChetvertyjjPonter_VyhodPervyj" source="Bankomet" target="ChetvertyjjPonter_VyhodPervyj" weight="1"/>
+            <edge id="Bankomet|KnjazZvezdich" source="Bankomet" target="KnjazZvezdich" weight="1"/>
+            <edge id="Bankomet|Shprih" source="Bankomet" target="Shprih" weight="1"/>
+            <edge id="VtorojjPonter_VyhodPervyj|TretijjPonter_VyhodPervyj" source="VtorojjPonter_VyhodPervyj" target="TretijjPonter_VyhodPervyj" weight="1"/>
+            <edge id="VtorojjPonter_VyhodPervyj|ChetvertyjjPonter_VyhodPervyj" source="VtorojjPonter_VyhodPervyj" target="ChetvertyjjPonter_VyhodPervyj" weight="1"/>
+            <edge id="VtorojjPonter_VyhodPervyj|KnjazZvezdich" source="VtorojjPonter_VyhodPervyj" target="KnjazZvezdich" weight="1"/>
+            <edge id="VtorojjPonter_VyhodPervyj|Shprih" source="VtorojjPonter_VyhodPervyj" target="Shprih" weight="1"/>
+            <edge id="TretijjPonter_VyhodPervyj|ChetvertyjjPonter_VyhodPervyj" source="TretijjPonter_VyhodPervyj" target="ChetvertyjjPonter_VyhodPervyj" weight="1"/>
+            <edge id="TretijjPonter_VyhodPervyj|KnjazZvezdich" source="TretijjPonter_VyhodPervyj" target="KnjazZvezdich" weight="1"/>
+            <edge id="TretijjPonter_VyhodPervyj|Shprih" source="TretijjPonter_VyhodPervyj" target="Shprih" weight="1"/>
+            <edge id="ChetvertyjjPonter_VyhodPervyj|KnjazZvezdich" source="ChetvertyjjPonter_VyhodPervyj" target="KnjazZvezdich" weight="1"/>
+            <edge id="ChetvertyjjPonter_VyhodPervyj|Shprih" source="ChetvertyjjPonter_VyhodPervyj" target="Shprih" weight="1"/>
+            <edge id="KnjazZvezdich|Shprih" source="KnjazZvezdich" target="Shprih" weight="2"/>
+            <edge id="KnjazZvezdich|Arbenin" source="KnjazZvezdich" target="Arbenin" weight="5"/>
+            <edge id="KnjazZvezdich|Kazarin" source="KnjazZvezdich" target="Kazarin" weight="2"/>
+            <edge id="KnjazZvezdich|Igroki_VyhodVtoroj" source="KnjazZvezdich" target="Igroki_VyhodVtoroj" weight="1"/>
+            <edge id="KnjazZvezdich|PervyjjPonter_VyhodVtoroj" source="KnjazZvezdich" target="PervyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="KnjazZvezdich|PervyjjIgrok_VyhodVtoroj" source="KnjazZvezdich" target="PervyjjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="KnjazZvezdich|VtorojjIgrok_VyhodVtoroj" source="KnjazZvezdich" target="VtorojjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="KnjazZvezdich|TretijjPonter_VyhodVtoroj" source="KnjazZvezdich" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="KnjazZvezdich|ChetvertyjjPonter_VyhodVtoroj" source="KnjazZvezdich" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="KnjazZvezdich|PjatyjjPonter_VyhodVtoroj" source="KnjazZvezdich" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="KnjazZvezdich|ZhenskajaMaska" source="KnjazZvezdich" target="ZhenskajaMaska" weight="2"/>
+            <edge id="KnjazZvezdich|Baronessa" source="KnjazZvezdich" target="Baronessa" weight="4"/>
+            <edge id="KnjazZvezdich|Nina" source="KnjazZvezdich" target="Nina" weight="3"/>
+            <edge id="KnjazZvezdich|Chinovnik" source="KnjazZvezdich" target="Chinovnik" weight="1"/>
+            <edge id="KnjazZvezdich|Hozjain_N" source="KnjazZvezdich" target="Hozjain_N" weight="1"/>
+            <edge id="KnjazZvezdich|Hozjajka" source="KnjazZvezdich" target="Hozjajka" weight="1"/>
+            <edge id="KnjazZvezdich|PervyjjGost_Bal" source="KnjazZvezdich" target="PervyjjGost_Bal" weight="1"/>
+            <edge id="KnjazZvezdich|VtorojjGost_Bal" source="KnjazZvezdich" target="VtorojjGost_Bal" weight="1"/>
+            <edge id="KnjazZvezdich|Mnogie" source="KnjazZvezdich" target="Mnogie" weight="1"/>
+            <edge id="KnjazZvezdich|Dama_Bal" source="KnjazZvezdich" target="Dama_Bal" weight="1"/>
+            <edge id="KnjazZvezdich|TretijjGost_Bal" source="KnjazZvezdich" target="TretijjGost_Bal" weight="1"/>
+            <edge id="KnjazZvezdich|ChetvertyjjGost_Bal" source="KnjazZvezdich" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="KnjazZvezdich|PjatyjjGost_Bal" source="KnjazZvezdich" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="KnjazZvezdich|ShestojjGost_Bal" source="KnjazZvezdich" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="KnjazZvezdich|Maska_Neizvestnyj" source="KnjazZvezdich" target="Maska_Neizvestnyj" weight="3"/>
+            <edge id="KnjazZvezdich|Doktor" source="KnjazZvezdich" target="Doktor" weight="1"/>
+            <edge id="Shprih|Arbenin" source="Shprih" target="Arbenin" weight="3"/>
+            <edge id="Shprih|Kazarin" source="Shprih" target="Kazarin" weight="3"/>
+            <edge id="Shprih|Igroki_VyhodVtoroj" source="Shprih" target="Igroki_VyhodVtoroj" weight="1"/>
+            <edge id="Shprih|PervyjjPonter_VyhodVtoroj" source="Shprih" target="PervyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Shprih|PervyjjIgrok_VyhodVtoroj" source="Shprih" target="PervyjjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Shprih|VtorojjIgrok_VyhodVtoroj" source="Shprih" target="VtorojjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Shprih|TretijjPonter_VyhodVtoroj" source="Shprih" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Shprih|ChetvertyjjPonter_VyhodVtoroj" source="Shprih" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Shprih|PjatyjjPonter_VyhodVtoroj" source="Shprih" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Shprih|PervyjjIgrok_VyhodTretij" source="Shprih" target="PervyjjIgrok_VyhodTretij" weight="1"/>
+            <edge id="Shprih|VtorojjIgrok_VyhodTretij" source="Shprih" target="VtorojjIgrok_VyhodTretij" weight="1"/>
+            <edge id="Shprih|Sluga_VyhodTretij" source="Shprih" target="Sluga_VyhodTretij" weight="1"/>
+            <edge id="Shprih|Hozjain" source="Shprih" target="Hozjain" weight="1"/>
+            <edge id="Shprih|Baronessa" source="Shprih" target="Baronessa" weight="1"/>
+            <edge id="Arbenin|Kazarin" source="Arbenin" target="Kazarin" weight="5"/>
+            <edge id="Arbenin|Igroki_VyhodVtoroj" source="Arbenin" target="Igroki_VyhodVtoroj" weight="1"/>
+            <edge id="Arbenin|PervyjjPonter_VyhodVtoroj" source="Arbenin" target="PervyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Arbenin|PervyjjIgrok_VyhodVtoroj" source="Arbenin" target="PervyjjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Arbenin|VtorojjIgrok_VyhodVtoroj" source="Arbenin" target="VtorojjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Arbenin|TretijjPonter_VyhodVtoroj" source="Arbenin" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Arbenin|ChetvertyjjPonter_VyhodVtoroj" source="Arbenin" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Arbenin|PjatyjjPonter_VyhodVtoroj" source="Arbenin" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Arbenin|Maska_Neizvestnyj" source="Arbenin" target="Maska_Neizvestnyj" weight="3"/>
+            <edge id="Arbenin|Sluga_Arbenina" source="Arbenin" target="Sluga_Arbenina" weight="3"/>
+            <edge id="Arbenin|Nina" source="Arbenin" target="Nina" weight="6"/>
+            <edge id="Arbenin|Ivan" source="Arbenin" target="Ivan" weight="1"/>
+            <edge id="Arbenin|Baronessa" source="Arbenin" target="Baronessa" weight="1"/>
+            <edge id="Arbenin|Hozjain_N" source="Arbenin" target="Hozjain_N" weight="2"/>
+            <edge id="Arbenin|Gost" source="Arbenin" target="Gost" weight="1"/>
+            <edge id="Arbenin|VtorojjGost" source="Arbenin" target="VtorojjGost" weight="1"/>
+            <edge id="Arbenin|TretijjGost" source="Arbenin" target="TretijjGost" weight="1"/>
+            <edge id="Arbenin|Sluzhanka" source="Arbenin" target="Sluzhanka" weight="1"/>
+            <edge id="Arbenin|Doktor" source="Arbenin" target="Doktor" weight="1"/>
+            <edge id="Kazarin|Igroki_VyhodVtoroj" source="Kazarin" target="Igroki_VyhodVtoroj" weight="1"/>
+            <edge id="Kazarin|PervyjjPonter_VyhodVtoroj" source="Kazarin" target="PervyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Kazarin|PervyjjIgrok_VyhodVtoroj" source="Kazarin" target="PervyjjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Kazarin|VtorojjIgrok_VyhodVtoroj" source="Kazarin" target="VtorojjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Kazarin|TretijjPonter_VyhodVtoroj" source="Kazarin" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Kazarin|ChetvertyjjPonter_VyhodVtoroj" source="Kazarin" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Kazarin|PjatyjjPonter_VyhodVtoroj" source="Kazarin" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Kazarin|Sluga_Arbenina" source="Kazarin" target="Sluga_Arbenina" weight="1"/>
+            <edge id="Kazarin|Hozjain_N" source="Kazarin" target="Hozjain_N" weight="2"/>
+            <edge id="Igroki_VyhodVtoroj|PervyjjPonter_VyhodVtoroj" source="Igroki_VyhodVtoroj" target="PervyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Igroki_VyhodVtoroj|PervyjjIgrok_VyhodVtoroj" source="Igroki_VyhodVtoroj" target="PervyjjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Igroki_VyhodVtoroj|VtorojjIgrok_VyhodVtoroj" source="Igroki_VyhodVtoroj" target="VtorojjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="Igroki_VyhodVtoroj|TretijjPonter_VyhodVtoroj" source="Igroki_VyhodVtoroj" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Igroki_VyhodVtoroj|ChetvertyjjPonter_VyhodVtoroj" source="Igroki_VyhodVtoroj" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="Igroki_VyhodVtoroj|PjatyjjPonter_VyhodVtoroj" source="Igroki_VyhodVtoroj" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodVtoroj|PervyjjIgrok_VyhodVtoroj" source="PervyjjPonter_VyhodVtoroj" target="PervyjjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodVtoroj|VtorojjIgrok_VyhodVtoroj" source="PervyjjPonter_VyhodVtoroj" target="VtorojjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodVtoroj|TretijjPonter_VyhodVtoroj" source="PervyjjPonter_VyhodVtoroj" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodVtoroj|ChetvertyjjPonter_VyhodVtoroj" source="PervyjjPonter_VyhodVtoroj" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjPonter_VyhodVtoroj|PjatyjjPonter_VyhodVtoroj" source="PervyjjPonter_VyhodVtoroj" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjIgrok_VyhodVtoroj|VtorojjIgrok_VyhodVtoroj" source="PervyjjIgrok_VyhodVtoroj" target="VtorojjIgrok_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjIgrok_VyhodVtoroj|TretijjPonter_VyhodVtoroj" source="PervyjjIgrok_VyhodVtoroj" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjIgrok_VyhodVtoroj|ChetvertyjjPonter_VyhodVtoroj" source="PervyjjIgrok_VyhodVtoroj" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjIgrok_VyhodVtoroj|PjatyjjPonter_VyhodVtoroj" source="PervyjjIgrok_VyhodVtoroj" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="VtorojjIgrok_VyhodVtoroj|TretijjPonter_VyhodVtoroj" source="VtorojjIgrok_VyhodVtoroj" target="TretijjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="VtorojjIgrok_VyhodVtoroj|ChetvertyjjPonter_VyhodVtoroj" source="VtorojjIgrok_VyhodVtoroj" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="VtorojjIgrok_VyhodVtoroj|PjatyjjPonter_VyhodVtoroj" source="VtorojjIgrok_VyhodVtoroj" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="TretijjPonter_VyhodVtoroj|ChetvertyjjPonter_VyhodVtoroj" source="TretijjPonter_VyhodVtoroj" target="ChetvertyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="TretijjPonter_VyhodVtoroj|PjatyjjPonter_VyhodVtoroj" source="TretijjPonter_VyhodVtoroj" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="ChetvertyjjPonter_VyhodVtoroj|PjatyjjPonter_VyhodVtoroj" source="ChetvertyjjPonter_VyhodVtoroj" target="PjatyjjPonter_VyhodVtoroj" weight="1"/>
+            <edge id="PervyjjIgrok_VyhodTretij|VtorojjIgrok_VyhodTretij" source="PervyjjIgrok_VyhodTretij" target="VtorojjIgrok_VyhodTretij" weight="1"/>
+            <edge id="PervyjjIgrok_VyhodTretij|Sluga_VyhodTretij" source="PervyjjIgrok_VyhodTretij" target="Sluga_VyhodTretij" weight="1"/>
+            <edge id="PervyjjIgrok_VyhodTretij|Hozjain" source="PervyjjIgrok_VyhodTretij" target="Hozjain" weight="1"/>
+            <edge id="VtorojjIgrok_VyhodTretij|Sluga_VyhodTretij" source="VtorojjIgrok_VyhodTretij" target="Sluga_VyhodTretij" weight="1"/>
+            <edge id="VtorojjIgrok_VyhodTretij|Hozjain" source="VtorojjIgrok_VyhodTretij" target="Hozjain" weight="1"/>
+            <edge id="Sluga_VyhodTretij|Hozjain" source="Sluga_VyhodTretij" target="Hozjain" weight="1"/>
+            <edge id="Maska_Neizvestnyj|Nina" source="Maska_Neizvestnyj" target="Nina" weight="1"/>
+            <edge id="Maska_Neizvestnyj|Gost" source="Maska_Neizvestnyj" target="Gost" weight="1"/>
+            <edge id="Maska_Neizvestnyj|VtorojjGost" source="Maska_Neizvestnyj" target="VtorojjGost" weight="1"/>
+            <edge id="Maska_Neizvestnyj|TretijjGost" source="Maska_Neizvestnyj" target="TretijjGost" weight="1"/>
+            <edge id="Maska_Neizvestnyj|Doktor" source="Maska_Neizvestnyj" target="Doktor" weight="1"/>
+            <edge id="Sluga_Arbenina|Nina" source="Sluga_Arbenina" target="Nina" weight="1"/>
+            <edge id="Nina|Baronessa" source="Nina" target="Baronessa" weight="3"/>
+            <edge id="Nina|Chinovnik" source="Nina" target="Chinovnik" weight="1"/>
+            <edge id="Nina|Hozjajka" source="Nina" target="Hozjajka" weight="2"/>
+            <edge id="Nina|PervyjjGost_Bal" source="Nina" target="PervyjjGost_Bal" weight="1"/>
+            <edge id="Nina|VtorojjGost_Bal" source="Nina" target="VtorojjGost_Bal" weight="1"/>
+            <edge id="Nina|Mnogie" source="Nina" target="Mnogie" weight="1"/>
+            <edge id="Nina|Dama_Bal" source="Nina" target="Dama_Bal" weight="1"/>
+            <edge id="Nina|TretijjGost_Bal" source="Nina" target="TretijjGost_Bal" weight="1"/>
+            <edge id="Nina|ChetvertyjjGost_Bal" source="Nina" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="Nina|PjatyjjGost_Bal" source="Nina" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="Nina|ShestojjGost_Bal" source="Nina" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="Nina|Dama_drugoj" source="Nina" target="Dama_drugoj" weight="1"/>
+            <edge id="Nina|Petkov" source="Nina" target="Petkov" weight="1"/>
+            <edge id="Nina|Dama" source="Nina" target="Dama" weight="1"/>
+            <edge id="Nina|Gost" source="Nina" target="Gost" weight="1"/>
+            <edge id="Nina|VtorojjGost" source="Nina" target="VtorojjGost" weight="1"/>
+            <edge id="Nina|TretijjGost" source="Nina" target="TretijjGost" weight="1"/>
+            <edge id="Nina|Sluzhanka" source="Nina" target="Sluzhanka" weight="1"/>
+            <edge id="Baronessa|Chinovnik" source="Baronessa" target="Chinovnik" weight="1"/>
+            <edge id="Hozjajka|PervyjjGost_Bal" source="Hozjajka" target="PervyjjGost_Bal" weight="1"/>
+            <edge id="Hozjajka|VtorojjGost_Bal" source="Hozjajka" target="VtorojjGost_Bal" weight="1"/>
+            <edge id="Hozjajka|Mnogie" source="Hozjajka" target="Mnogie" weight="1"/>
+            <edge id="Hozjajka|Dama_Bal" source="Hozjajka" target="Dama_Bal" weight="1"/>
+            <edge id="Hozjajka|TretijjGost_Bal" source="Hozjajka" target="TretijjGost_Bal" weight="1"/>
+            <edge id="Hozjajka|ChetvertyjjGost_Bal" source="Hozjajka" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="Hozjajka|PjatyjjGost_Bal" source="Hozjajka" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="Hozjajka|ShestojjGost_Bal" source="Hozjajka" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="Hozjajka|Dama_drugoj" source="Hozjajka" target="Dama_drugoj" weight="1"/>
+            <edge id="Hozjajka|Petkov" source="Hozjajka" target="Petkov" weight="1"/>
+            <edge id="Hozjajka|Dama" source="Hozjajka" target="Dama" weight="1"/>
+            <edge id="PervyjjGost_Bal|VtorojjGost_Bal" source="PervyjjGost_Bal" target="VtorojjGost_Bal" weight="1"/>
+            <edge id="PervyjjGost_Bal|Mnogie" source="PervyjjGost_Bal" target="Mnogie" weight="1"/>
+            <edge id="PervyjjGost_Bal|Dama_Bal" source="PervyjjGost_Bal" target="Dama_Bal" weight="1"/>
+            <edge id="PervyjjGost_Bal|TretijjGost_Bal" source="PervyjjGost_Bal" target="TretijjGost_Bal" weight="1"/>
+            <edge id="PervyjjGost_Bal|ChetvertyjjGost_Bal" source="PervyjjGost_Bal" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="PervyjjGost_Bal|PjatyjjGost_Bal" source="PervyjjGost_Bal" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="PervyjjGost_Bal|ShestojjGost_Bal" source="PervyjjGost_Bal" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="VtorojjGost_Bal|Mnogie" source="VtorojjGost_Bal" target="Mnogie" weight="1"/>
+            <edge id="VtorojjGost_Bal|Dama_Bal" source="VtorojjGost_Bal" target="Dama_Bal" weight="1"/>
+            <edge id="VtorojjGost_Bal|TretijjGost_Bal" source="VtorojjGost_Bal" target="TretijjGost_Bal" weight="1"/>
+            <edge id="VtorojjGost_Bal|ChetvertyjjGost_Bal" source="VtorojjGost_Bal" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="VtorojjGost_Bal|PjatyjjGost_Bal" source="VtorojjGost_Bal" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="VtorojjGost_Bal|ShestojjGost_Bal" source="VtorojjGost_Bal" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="Mnogie|Dama_Bal" source="Mnogie" target="Dama_Bal" weight="1"/>
+            <edge id="Mnogie|TretijjGost_Bal" source="Mnogie" target="TretijjGost_Bal" weight="1"/>
+            <edge id="Mnogie|ChetvertyjjGost_Bal" source="Mnogie" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="Mnogie|PjatyjjGost_Bal" source="Mnogie" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="Mnogie|ShestojjGost_Bal" source="Mnogie" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="Dama_Bal|TretijjGost_Bal" source="Dama_Bal" target="TretijjGost_Bal" weight="1"/>
+            <edge id="Dama_Bal|ChetvertyjjGost_Bal" source="Dama_Bal" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="Dama_Bal|PjatyjjGost_Bal" source="Dama_Bal" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="Dama_Bal|ShestojjGost_Bal" source="Dama_Bal" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="TretijjGost_Bal|ChetvertyjjGost_Bal" source="TretijjGost_Bal" target="ChetvertyjjGost_Bal" weight="1"/>
+            <edge id="TretijjGost_Bal|PjatyjjGost_Bal" source="TretijjGost_Bal" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="TretijjGost_Bal|ShestojjGost_Bal" source="TretijjGost_Bal" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="ChetvertyjjGost_Bal|PjatyjjGost_Bal" source="ChetvertyjjGost_Bal" target="PjatyjjGost_Bal" weight="1"/>
+            <edge id="ChetvertyjjGost_Bal|ShestojjGost_Bal" source="ChetvertyjjGost_Bal" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="PjatyjjGost_Bal|ShestojjGost_Bal" source="PjatyjjGost_Bal" target="ShestojjGost_Bal" weight="1"/>
+            <edge id="Dama_drugoj|Petkov" source="Dama_drugoj" target="Petkov" weight="1"/>
+            <edge id="Dama_drugoj|Dama" source="Dama_drugoj" target="Dama" weight="1"/>
+            <edge id="Petkov|Dama" source="Petkov" target="Dama" weight="1"/>
+            <edge id="Gost|VtorojjGost" source="Gost" target="VtorojjGost" weight="1"/>
+            <edge id="Gost|TretijjGost" source="Gost" target="TretijjGost" weight="1"/>
+            <edge id="VtorojjGost|TretijjGost" source="VtorojjGost" target="TretijjGost" weight="1"/>
+            <edge id="Dama_ma_tante|Plemjannitsa" source="Dama_ma_tante" target="Plemjannitsa" weight="1"/>
+            <edge id="Starik|Doktor" source="Starik" target="Doktor" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

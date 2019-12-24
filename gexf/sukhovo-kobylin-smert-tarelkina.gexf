@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сухово-Кобылин, Александр Васильевич: Смерть Тарелкина</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Tarelkin" label="Тарелкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2359"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Mavrusha" label="Мавруша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="187"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Varravin" label="Варравин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2101"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Chinovniki" label="Чиновники">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="33"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Chibisov" label="Чибисов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ibisov" label="Ибисов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijChinovnik" label="Третий чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChetvertyjChinovnik" label="Четвертый чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Omega" label="Омега">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Raspljuev" label="Расплюев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3399"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ljudmila" label="Людмила">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="375"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjKreditor" label="1-й кредитор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojKreditor" label="2-й кредитор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="43"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijKreditor" label="3-й кредитор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChetvertyjKreditor" label="4-й кредитор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kreditory" label="Кредиторы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kachala" label="Качала">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="50"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Oh" label="Ох">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="961"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="KrestjanKrestjanovich" label="Крестьян Крестьянович">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="129"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Chvankin" label="Чванкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="384"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Popugajchikov" label="Попугайчиков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="60"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Vanechka" label="Ванечка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Pahomov" label="Пахомов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="169"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Shatala" label="Шатала">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Tarelkin|Mavrusha" source="Tarelkin" target="Mavrusha" weight="3"/>
+            <edge id="Tarelkin|Varravin" source="Tarelkin" target="Varravin" weight="7"/>
+            <edge id="Tarelkin|Raspljuev" source="Tarelkin" target="Raspljuev" weight="9"/>
+            <edge id="Tarelkin|Ljudmila" source="Tarelkin" target="Ljudmila" weight="1"/>
+            <edge id="Tarelkin|PervyjKreditor" source="Tarelkin" target="PervyjKreditor" weight="1"/>
+            <edge id="Tarelkin|VtorojKreditor" source="Tarelkin" target="VtorojKreditor" weight="1"/>
+            <edge id="Tarelkin|TretijKreditor" source="Tarelkin" target="TretijKreditor" weight="1"/>
+            <edge id="Tarelkin|ChetvertyjKreditor" source="Tarelkin" target="ChetvertyjKreditor" weight="1"/>
+            <edge id="Tarelkin|Kreditory" source="Tarelkin" target="Kreditory" weight="1"/>
+            <edge id="Tarelkin|Kachala" source="Tarelkin" target="Kachala" weight="2"/>
+            <edge id="Mavrusha|Varravin" source="Mavrusha" target="Varravin" weight="3"/>
+            <edge id="Mavrusha|Chinovniki" source="Mavrusha" target="Chinovniki" weight="1"/>
+            <edge id="Mavrusha|Chibisov" source="Mavrusha" target="Chibisov" weight="1"/>
+            <edge id="Mavrusha|Ibisov" source="Mavrusha" target="Ibisov" weight="1"/>
+            <edge id="Mavrusha|TretijChinovnik" source="Mavrusha" target="TretijChinovnik" weight="1"/>
+            <edge id="Mavrusha|ChetvertyjChinovnik" source="Mavrusha" target="ChetvertyjChinovnik" weight="1"/>
+            <edge id="Mavrusha|Omega" source="Mavrusha" target="Omega" weight="1"/>
+            <edge id="Mavrusha|Raspljuev" source="Mavrusha" target="Raspljuev" weight="1"/>
+            <edge id="Varravin|Chinovniki" source="Varravin" target="Chinovniki" weight="1"/>
+            <edge id="Varravin|Chibisov" source="Varravin" target="Chibisov" weight="1"/>
+            <edge id="Varravin|Ibisov" source="Varravin" target="Ibisov" weight="1"/>
+            <edge id="Varravin|TretijChinovnik" source="Varravin" target="TretijChinovnik" weight="1"/>
+            <edge id="Varravin|ChetvertyjChinovnik" source="Varravin" target="ChetvertyjChinovnik" weight="1"/>
+            <edge id="Varravin|Omega" source="Varravin" target="Omega" weight="1"/>
+            <edge id="Varravin|Raspljuev" source="Varravin" target="Raspljuev" weight="8"/>
+            <edge id="Varravin|PervyjKreditor" source="Varravin" target="PervyjKreditor" weight="1"/>
+            <edge id="Varravin|VtorojKreditor" source="Varravin" target="VtorojKreditor" weight="1"/>
+            <edge id="Varravin|TretijKreditor" source="Varravin" target="TretijKreditor" weight="1"/>
+            <edge id="Varravin|ChetvertyjKreditor" source="Varravin" target="ChetvertyjKreditor" weight="1"/>
+            <edge id="Varravin|Kreditory" source="Varravin" target="Kreditory" weight="1"/>
+            <edge id="Varravin|Kachala" source="Varravin" target="Kachala" weight="2"/>
+            <edge id="Varravin|Oh" source="Varravin" target="Oh" weight="2"/>
+            <edge id="Chinovniki|Chibisov" source="Chinovniki" target="Chibisov" weight="1"/>
+            <edge id="Chinovniki|Ibisov" source="Chinovniki" target="Ibisov" weight="1"/>
+            <edge id="Chinovniki|TretijChinovnik" source="Chinovniki" target="TretijChinovnik" weight="1"/>
+            <edge id="Chinovniki|ChetvertyjChinovnik" source="Chinovniki" target="ChetvertyjChinovnik" weight="1"/>
+            <edge id="Chinovniki|Omega" source="Chinovniki" target="Omega" weight="1"/>
+            <edge id="Chibisov|Ibisov" source="Chibisov" target="Ibisov" weight="1"/>
+            <edge id="Chibisov|TretijChinovnik" source="Chibisov" target="TretijChinovnik" weight="1"/>
+            <edge id="Chibisov|ChetvertyjChinovnik" source="Chibisov" target="ChetvertyjChinovnik" weight="1"/>
+            <edge id="Chibisov|Omega" source="Chibisov" target="Omega" weight="1"/>
+            <edge id="Ibisov|TretijChinovnik" source="Ibisov" target="TretijChinovnik" weight="1"/>
+            <edge id="Ibisov|ChetvertyjChinovnik" source="Ibisov" target="ChetvertyjChinovnik" weight="1"/>
+            <edge id="Ibisov|Omega" source="Ibisov" target="Omega" weight="1"/>
+            <edge id="TretijChinovnik|ChetvertyjChinovnik" source="TretijChinovnik" target="ChetvertyjChinovnik" weight="1"/>
+            <edge id="TretijChinovnik|Omega" source="TretijChinovnik" target="Omega" weight="1"/>
+            <edge id="ChetvertyjChinovnik|Omega" source="ChetvertyjChinovnik" target="Omega" weight="1"/>
+            <edge id="Raspljuev|Ljudmila" source="Raspljuev" target="Ljudmila" weight="2"/>
+            <edge id="Raspljuev|PervyjKreditor" source="Raspljuev" target="PervyjKreditor" weight="1"/>
+            <edge id="Raspljuev|VtorojKreditor" source="Raspljuev" target="VtorojKreditor" weight="1"/>
+            <edge id="Raspljuev|TretijKreditor" source="Raspljuev" target="TretijKreditor" weight="1"/>
+            <edge id="Raspljuev|ChetvertyjKreditor" source="Raspljuev" target="ChetvertyjKreditor" weight="1"/>
+            <edge id="Raspljuev|Kreditory" source="Raspljuev" target="Kreditory" weight="1"/>
+            <edge id="Raspljuev|Kachala" source="Raspljuev" target="Kachala" weight="5"/>
+            <edge id="Raspljuev|Oh" source="Raspljuev" target="Oh" weight="12"/>
+            <edge id="Raspljuev|KrestjanKrestjanovich" source="Raspljuev" target="KrestjanKrestjanovich" weight="1"/>
+            <edge id="Raspljuev|Chvankin" source="Raspljuev" target="Chvankin" weight="2"/>
+            <edge id="Raspljuev|Popugajchikov" source="Raspljuev" target="Popugajchikov" weight="1"/>
+            <edge id="Raspljuev|Vanechka" source="Raspljuev" target="Vanechka" weight="2"/>
+            <edge id="Raspljuev|Pahomov" source="Raspljuev" target="Pahomov" weight="1"/>
+            <edge id="Raspljuev|Shatala" source="Raspljuev" target="Shatala" weight="1"/>
+            <edge id="Ljudmila|Oh" source="Ljudmila" target="Oh" weight="1"/>
+            <edge id="PervyjKreditor|VtorojKreditor" source="PervyjKreditor" target="VtorojKreditor" weight="1"/>
+            <edge id="PervyjKreditor|TretijKreditor" source="PervyjKreditor" target="TretijKreditor" weight="1"/>
+            <edge id="PervyjKreditor|ChetvertyjKreditor" source="PervyjKreditor" target="ChetvertyjKreditor" weight="1"/>
+            <edge id="PervyjKreditor|Kreditory" source="PervyjKreditor" target="Kreditory" weight="1"/>
+            <edge id="VtorojKreditor|TretijKreditor" source="VtorojKreditor" target="TretijKreditor" weight="1"/>
+            <edge id="VtorojKreditor|ChetvertyjKreditor" source="VtorojKreditor" target="ChetvertyjKreditor" weight="1"/>
+            <edge id="VtorojKreditor|Kreditory" source="VtorojKreditor" target="Kreditory" weight="1"/>
+            <edge id="TretijKreditor|ChetvertyjKreditor" source="TretijKreditor" target="ChetvertyjKreditor" weight="1"/>
+            <edge id="TretijKreditor|Kreditory" source="TretijKreditor" target="Kreditory" weight="1"/>
+            <edge id="ChetvertyjKreditor|Kreditory" source="ChetvertyjKreditor" target="Kreditory" weight="1"/>
+            <edge id="Kachala|Oh" source="Kachala" target="Oh" weight="3"/>
+            <edge id="Kachala|Popugajchikov" source="Kachala" target="Popugajchikov" weight="1"/>
+            <edge id="Kachala|Vanechka" source="Kachala" target="Vanechka" weight="1"/>
+            <edge id="Kachala|Pahomov" source="Kachala" target="Pahomov" weight="1"/>
+            <edge id="Kachala|Shatala" source="Kachala" target="Shatala" weight="1"/>
+            <edge id="Oh|KrestjanKrestjanovich" source="Oh" target="KrestjanKrestjanovich" weight="1"/>
+            <edge id="Oh|Chvankin" source="Oh" target="Chvankin" weight="2"/>
+            <edge id="Oh|Popugajchikov" source="Oh" target="Popugajchikov" weight="1"/>
+            <edge id="Oh|Vanechka" source="Oh" target="Vanechka" weight="2"/>
+            <edge id="Oh|Pahomov" source="Oh" target="Pahomov" weight="1"/>
+            <edge id="Oh|Shatala" source="Oh" target="Shatala" weight="1"/>
+            <edge id="Chvankin|Vanechka" source="Chvankin" target="Vanechka" weight="1"/>
+            <edge id="Popugajchikov|Vanechka" source="Popugajchikov" target="Vanechka" weight="1"/>
+            <edge id="Pahomov|Shatala" source="Pahomov" target="Shatala" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

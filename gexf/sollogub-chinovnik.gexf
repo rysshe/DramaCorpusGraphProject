@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Соллогуб, Владимир Александрович: Чиновник</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="strelskij_polkovnik" label="Стрельский/Полковник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1284"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grafinja" label="Графиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2579"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mishorin" label="Мисхорин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1407"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nadimov" label="Надимов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1985"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="drobinkin" label="Полковник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1205"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="strelskij_polkovnik|grafinja" source="strelskij_polkovnik" target="grafinja" weight="6"/>
+            <edge id="strelskij_polkovnik|mishorin" source="strelskij_polkovnik" target="mishorin" weight="4"/>
+            <edge id="strelskij_polkovnik|nadimov" source="strelskij_polkovnik" target="nadimov" weight="3"/>
+            <edge id="strelskij_polkovnik|sluga" source="strelskij_polkovnik" target="sluga" weight="2"/>
+            <edge id="strelskij_polkovnik|drobinkin" source="strelskij_polkovnik" target="drobinkin" weight="4"/>
+            <edge id="grafinja|mishorin" source="grafinja" target="mishorin" weight="6"/>
+            <edge id="grafinja|nadimov" source="grafinja" target="nadimov" weight="6"/>
+            <edge id="grafinja|sluga" source="grafinja" target="sluga" weight="2"/>
+            <edge id="grafinja|drobinkin" source="grafinja" target="drobinkin" weight="3"/>
+            <edge id="mishorin|nadimov" source="mishorin" target="nadimov" weight="5"/>
+            <edge id="mishorin|drobinkin" source="mishorin" target="drobinkin" weight="5"/>
+            <edge id="mishorin|sluga" source="mishorin" target="sluga" weight="1"/>
+            <edge id="nadimov|sluga" source="nadimov" target="sluga" weight="2"/>
+            <edge id="nadimov|drobinkin" source="nadimov" target="drobinkin" weight="3"/>
+            <edge id="sluga|drobinkin" source="sluga" target="drobinkin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

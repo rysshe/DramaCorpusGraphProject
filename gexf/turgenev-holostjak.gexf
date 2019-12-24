@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Тургенев, Иван Сергеевич: Холостяк</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="stratilat" label="Стратилат">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="256"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="moshkin" label="Мошкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7153"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="malanja" label="Маланья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="35"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="shpundik" label="Шпуньдик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1825"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prjazhkina" label="Пряжкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1399"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1249"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vilitskij" label="Вилицкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2611"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fonk" label="Фонк">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2392"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mitka" label="Митька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="381"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sozomenos" label="Созомэнос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="119"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pochtalon" label="Почтальон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="stratilat|moshkin" source="stratilat" target="moshkin" weight="2"/>
+            <edge id="stratilat|malanja" source="stratilat" target="malanja" weight="1"/>
+            <edge id="stratilat|shpundik" source="stratilat" target="shpundik" weight="2"/>
+            <edge id="stratilat|prjazhkina" source="stratilat" target="prjazhkina" weight="2"/>
+            <edge id="stratilat|masha" source="stratilat" target="masha" weight="2"/>
+            <edge id="stratilat|vilitskij" source="stratilat" target="vilitskij" weight="1"/>
+            <edge id="stratilat|fonk" source="stratilat" target="fonk" weight="1"/>
+            <edge id="stratilat|pochtalon" source="stratilat" target="pochtalon" weight="1"/>
+            <edge id="moshkin|malanja" source="moshkin" target="malanja" weight="1"/>
+            <edge id="moshkin|shpundik" source="moshkin" target="shpundik" weight="2"/>
+            <edge id="moshkin|prjazhkina" source="moshkin" target="prjazhkina" weight="2"/>
+            <edge id="moshkin|masha" source="moshkin" target="masha" weight="3"/>
+            <edge id="moshkin|vilitskij" source="moshkin" target="vilitskij" weight="2"/>
+            <edge id="moshkin|fonk" source="moshkin" target="fonk" weight="2"/>
+            <edge id="moshkin|mitka" source="moshkin" target="mitka" weight="1"/>
+            <edge id="moshkin|sozomenos" source="moshkin" target="sozomenos" weight="1"/>
+            <edge id="moshkin|pochtalon" source="moshkin" target="pochtalon" weight="1"/>
+            <edge id="malanja|shpundik" source="malanja" target="shpundik" weight="1"/>
+            <edge id="malanja|prjazhkina" source="malanja" target="prjazhkina" weight="1"/>
+            <edge id="malanja|masha" source="malanja" target="masha" weight="1"/>
+            <edge id="malanja|vilitskij" source="malanja" target="vilitskij" weight="1"/>
+            <edge id="malanja|fonk" source="malanja" target="fonk" weight="1"/>
+            <edge id="shpundik|prjazhkina" source="shpundik" target="prjazhkina" weight="2"/>
+            <edge id="shpundik|masha" source="shpundik" target="masha" weight="2"/>
+            <edge id="shpundik|vilitskij" source="shpundik" target="vilitskij" weight="1"/>
+            <edge id="shpundik|fonk" source="shpundik" target="fonk" weight="1"/>
+            <edge id="shpundik|pochtalon" source="shpundik" target="pochtalon" weight="1"/>
+            <edge id="prjazhkina|masha" source="prjazhkina" target="masha" weight="2"/>
+            <edge id="prjazhkina|vilitskij" source="prjazhkina" target="vilitskij" weight="1"/>
+            <edge id="prjazhkina|fonk" source="prjazhkina" target="fonk" weight="1"/>
+            <edge id="prjazhkina|pochtalon" source="prjazhkina" target="pochtalon" weight="1"/>
+            <edge id="masha|vilitskij" source="masha" target="vilitskij" weight="2"/>
+            <edge id="masha|fonk" source="masha" target="fonk" weight="2"/>
+            <edge id="masha|mitka" source="masha" target="mitka" weight="1"/>
+            <edge id="masha|sozomenos" source="masha" target="sozomenos" weight="1"/>
+            <edge id="masha|pochtalon" source="masha" target="pochtalon" weight="1"/>
+            <edge id="vilitskij|fonk" source="vilitskij" target="fonk" weight="2"/>
+            <edge id="vilitskij|mitka" source="vilitskij" target="mitka" weight="1"/>
+            <edge id="vilitskij|sozomenos" source="vilitskij" target="sozomenos" weight="1"/>
+            <edge id="fonk|mitka" source="fonk" target="mitka" weight="1"/>
+            <edge id="fonk|sozomenos" source="fonk" target="sozomenos" weight="1"/>
+            <edge id="mitka|sozomenos" source="mitka" target="sozomenos" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

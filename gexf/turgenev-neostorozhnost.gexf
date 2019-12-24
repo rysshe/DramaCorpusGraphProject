@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Тургенев, Иван Сергеевич: Неосторожность</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="donja_dolores" label="Донья Долорес">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2067"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="don_rafael" label="Дон Рафаэль">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2109"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="don_baltazar" label="Дон Бальтазар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1178"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="margarita" label="Маргарита">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="627"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="don_pablo" label="Дон Пабло">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2484"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sekretar" label="Секретарь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="donja_dolores|don_rafael" source="donja_dolores" target="don_rafael" weight="3"/>
+            <edge id="donja_dolores|don_baltazar" source="donja_dolores" target="don_baltazar" weight="2"/>
+            <edge id="donja_dolores|margarita" source="donja_dolores" target="margarita" weight="3"/>
+            <edge id="donja_dolores|don_pablo" source="donja_dolores" target="don_pablo" weight="2"/>
+            <edge id="don_rafael|don_baltazar" source="don_rafael" target="don_baltazar" weight="2"/>
+            <edge id="don_rafael|margarita" source="don_rafael" target="margarita" weight="3"/>
+            <edge id="don_rafael|don_pablo" source="don_rafael" target="don_pablo" weight="2"/>
+            <edge id="don_baltazar|margarita" source="don_baltazar" target="margarita" weight="2"/>
+            <edge id="don_baltazar|don_pablo" source="don_baltazar" target="don_pablo" weight="2"/>
+            <edge id="margarita|don_pablo" source="margarita" target="don_pablo" weight="2"/>
+            <edge id="don_pablo|sekretar" source="don_pablo" target="sekretar" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

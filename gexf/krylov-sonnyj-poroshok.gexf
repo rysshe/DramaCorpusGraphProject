@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Сонный порошок или похищенная крестьянка</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="blez" label="Блез">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="961"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="muzhiki" label="Мужики">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="55"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nineta" label="Нинета">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="247"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zhaneta" label="Жанета">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="286"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="hor" label="Хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="59"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="zhuleta" label="Жульета">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1703"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rabotniki" label="Работники">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="89"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="graf" label="Граф">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1466"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="paulin" label="Паулин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="945"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="filipp" label="Филипп">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2088"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="blez|muzhiki" source="blez" target="muzhiki" weight="1"/>
+            <edge id="blez|nineta" source="blez" target="nineta" weight="3"/>
+            <edge id="blez|zhaneta" source="blez" target="zhaneta" weight="3"/>
+            <edge id="blez|hor" source="blez" target="hor" weight="1"/>
+            <edge id="blez|zhuleta" source="blez" target="zhuleta" weight="5"/>
+            <edge id="blez|rabotniki" source="blez" target="rabotniki" weight="1"/>
+            <edge id="blez|graf" source="blez" target="graf" weight="5"/>
+            <edge id="blez|paulin" source="blez" target="paulin" weight="3"/>
+            <edge id="blez|filipp" source="blez" target="filipp" weight="6"/>
+            <edge id="muzhiki|nineta" source="muzhiki" target="nineta" weight="1"/>
+            <edge id="muzhiki|zhaneta" source="muzhiki" target="zhaneta" weight="1"/>
+            <edge id="muzhiki|hor" source="muzhiki" target="hor" weight="1"/>
+            <edge id="muzhiki|zhuleta" source="muzhiki" target="zhuleta" weight="1"/>
+            <edge id="muzhiki|rabotniki" source="muzhiki" target="rabotniki" weight="1"/>
+            <edge id="nineta|zhaneta" source="nineta" target="zhaneta" weight="3"/>
+            <edge id="nineta|hor" source="nineta" target="hor" weight="1"/>
+            <edge id="nineta|zhuleta" source="nineta" target="zhuleta" weight="2"/>
+            <edge id="nineta|rabotniki" source="nineta" target="rabotniki" weight="1"/>
+            <edge id="nineta|graf" source="nineta" target="graf" weight="2"/>
+            <edge id="nineta|paulin" source="nineta" target="paulin" weight="1"/>
+            <edge id="nineta|filipp" source="nineta" target="filipp" weight="1"/>
+            <edge id="zhaneta|hor" source="zhaneta" target="hor" weight="1"/>
+            <edge id="zhaneta|zhuleta" source="zhaneta" target="zhuleta" weight="2"/>
+            <edge id="zhaneta|rabotniki" source="zhaneta" target="rabotniki" weight="1"/>
+            <edge id="zhaneta|graf" source="zhaneta" target="graf" weight="2"/>
+            <edge id="zhaneta|paulin" source="zhaneta" target="paulin" weight="2"/>
+            <edge id="zhaneta|filipp" source="zhaneta" target="filipp" weight="1"/>
+            <edge id="hor|zhuleta" source="hor" target="zhuleta" weight="1"/>
+            <edge id="hor|rabotniki" source="hor" target="rabotniki" weight="1"/>
+            <edge id="zhuleta|rabotniki" source="zhuleta" target="rabotniki" weight="1"/>
+            <edge id="zhuleta|graf" source="zhuleta" target="graf" weight="8"/>
+            <edge id="zhuleta|paulin" source="zhuleta" target="paulin" weight="6"/>
+            <edge id="zhuleta|filipp" source="zhuleta" target="filipp" weight="8"/>
+            <edge id="graf|paulin" source="graf" target="paulin" weight="9"/>
+            <edge id="graf|filipp" source="graf" target="filipp" weight="8"/>
+            <edge id="paulin|filipp" source="paulin" target="filipp" weight="6"/>
+        </edges>
+    </graph>
+</gexf>

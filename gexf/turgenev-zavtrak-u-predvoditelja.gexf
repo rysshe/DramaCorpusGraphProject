@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Тургенев, Иван Сергеевич: Завтрак у предводителя</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="mirvolin" label="Мирволин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="472"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gerasim" label="Герасим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="64"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="balagalaev" label="Балагалаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2166"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="velvitskij" label="Вельвицкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="106"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="alupkin" label="Алупкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="800"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="suslov" label="Суслов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="306"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kaurova" label="Каурова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1263"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="karp" label="Карп">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bespandin" label="Беспандин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="522"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pehterev" label="Пехтерьев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="531"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="naglanovich" label="Нагланович">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="66"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="mirvolin|gerasim" source="mirvolin" target="gerasim" weight="5"/>
+            <edge id="mirvolin|balagalaev" source="mirvolin" target="balagalaev" weight="9"/>
+            <edge id="mirvolin|velvitskij" source="mirvolin" target="velvitskij" weight="3"/>
+            <edge id="mirvolin|alupkin" source="mirvolin" target="alupkin" weight="8"/>
+            <edge id="mirvolin|suslov" source="mirvolin" target="suslov" weight="7"/>
+            <edge id="mirvolin|kaurova" source="mirvolin" target="kaurova" weight="6"/>
+            <edge id="mirvolin|karp" source="mirvolin" target="karp" weight="1"/>
+            <edge id="mirvolin|bespandin" source="mirvolin" target="bespandin" weight="4"/>
+            <edge id="mirvolin|pehterev" source="mirvolin" target="pehterev" weight="2"/>
+            <edge id="mirvolin|naglanovich" source="mirvolin" target="naglanovich" weight="1"/>
+            <edge id="gerasim|balagalaev" source="gerasim" target="balagalaev" weight="6"/>
+            <edge id="gerasim|velvitskij" source="gerasim" target="velvitskij" weight="2"/>
+            <edge id="gerasim|alupkin" source="gerasim" target="alupkin" weight="4"/>
+            <edge id="gerasim|kaurova" source="gerasim" target="kaurova" weight="3"/>
+            <edge id="gerasim|suslov" source="gerasim" target="suslov" weight="3"/>
+            <edge id="gerasim|karp" source="gerasim" target="karp" weight="1"/>
+            <edge id="gerasim|bespandin" source="gerasim" target="bespandin" weight="2"/>
+            <edge id="balagalaev|velvitskij" source="balagalaev" target="velvitskij" weight="3"/>
+            <edge id="balagalaev|alupkin" source="balagalaev" target="alupkin" weight="8"/>
+            <edge id="balagalaev|suslov" source="balagalaev" target="suslov" weight="7"/>
+            <edge id="balagalaev|kaurova" source="balagalaev" target="kaurova" weight="6"/>
+            <edge id="balagalaev|karp" source="balagalaev" target="karp" weight="1"/>
+            <edge id="balagalaev|bespandin" source="balagalaev" target="bespandin" weight="4"/>
+            <edge id="balagalaev|pehterev" source="balagalaev" target="pehterev" weight="2"/>
+            <edge id="balagalaev|naglanovich" source="balagalaev" target="naglanovich" weight="1"/>
+            <edge id="velvitskij|alupkin" source="velvitskij" target="alupkin" weight="3"/>
+            <edge id="velvitskij|bespandin" source="velvitskij" target="bespandin" weight="2"/>
+            <edge id="velvitskij|kaurova" source="velvitskij" target="kaurova" weight="2"/>
+            <edge id="velvitskij|suslov" source="velvitskij" target="suslov" weight="2"/>
+            <edge id="velvitskij|naglanovich" source="velvitskij" target="naglanovich" weight="1"/>
+            <edge id="velvitskij|pehterev" source="velvitskij" target="pehterev" weight="1"/>
+            <edge id="alupkin|suslov" source="alupkin" target="suslov" weight="6"/>
+            <edge id="alupkin|kaurova" source="alupkin" target="kaurova" weight="5"/>
+            <edge id="alupkin|bespandin" source="alupkin" target="bespandin" weight="4"/>
+            <edge id="alupkin|pehterev" source="alupkin" target="pehterev" weight="2"/>
+            <edge id="alupkin|naglanovich" source="alupkin" target="naglanovich" weight="1"/>
+            <edge id="suslov|kaurova" source="suslov" target="kaurova" weight="6"/>
+            <edge id="suslov|karp" source="suslov" target="karp" weight="1"/>
+            <edge id="suslov|bespandin" source="suslov" target="bespandin" weight="4"/>
+            <edge id="suslov|pehterev" source="suslov" target="pehterev" weight="2"/>
+            <edge id="suslov|naglanovich" source="suslov" target="naglanovich" weight="1"/>
+            <edge id="kaurova|karp" source="kaurova" target="karp" weight="1"/>
+            <edge id="kaurova|bespandin" source="kaurova" target="bespandin" weight="4"/>
+            <edge id="kaurova|pehterev" source="kaurova" target="pehterev" weight="2"/>
+            <edge id="kaurova|naglanovich" source="kaurova" target="naglanovich" weight="1"/>
+            <edge id="bespandin|pehterev" source="bespandin" target="pehterev" weight="2"/>
+            <edge id="bespandin|naglanovich" source="bespandin" target="naglanovich" weight="1"/>
+            <edge id="pehterev|naglanovich" source="pehterev" target="naglanovich" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

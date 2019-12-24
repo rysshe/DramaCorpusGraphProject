@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Толстой, Лев Николаевич: Власть тьмы, или 'коготок увяз, всей птичке пропасть'</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="petr" label="Петр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="586"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nikita" label="Никита">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2919"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="akulina" label="Акулина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="418"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="anisja" label="Анисья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2756"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="anjutka" label="Анютка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="817"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="matrena" label="Матрена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3578"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="akim" label="Аким">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1505"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marina" label="Марина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="552"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kuma" label="Кума">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="410"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_muzhika" label="Голос мужика">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marfa" label="Марфа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_golos_iz_naroda" label="Один голос из народа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="mitrich" label="Митрич">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1965"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sosedka" label="Соседка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="svat" label="Сват">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="75"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_baby_iz_senej" label="Голос бабы из сеней">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervaja_devka" label="1-я девка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="86"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoraja_devka" label="2-я девка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="37"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="muzh_mariny" label="Муж Марины">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="43"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="izvozchik" label="Извозчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="druzhko" label="Дружко">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="svaha" label="Сваха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="urjadnik" label="Урядник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="37"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="starosta" label="Староста">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="petr|nikita" source="petr" target="nikita" weight="4"/>
+            <edge id="petr|akulina" source="petr" target="akulina" weight="3"/>
+            <edge id="petr|anisja" source="petr" target="anisja" weight="8"/>
+            <edge id="petr|anjutka" source="petr" target="anjutka" weight="3"/>
+            <edge id="petr|akim" source="petr" target="akim" weight="5"/>
+            <edge id="petr|matrena" source="petr" target="matrena" weight="7"/>
+            <edge id="nikita|akulina" source="nikita" target="akulina" weight="11"/>
+            <edge id="nikita|anisja" source="nikita" target="anisja" weight="15"/>
+            <edge id="nikita|matrena" source="nikita" target="matrena" weight="17"/>
+            <edge id="nikita|akim" source="nikita" target="akim" weight="9"/>
+            <edge id="nikita|anjutka" source="nikita" target="anjutka" weight="7"/>
+            <edge id="nikita|marina" source="nikita" target="marina" weight="3"/>
+            <edge id="nikita|mitrich" source="nikita" target="mitrich" weight="5"/>
+            <edge id="nikita|muzh_mariny" source="nikita" target="muzh_mariny" weight="1"/>
+            <edge id="nikita|svaha" source="nikita" target="svaha" weight="1"/>
+            <edge id="nikita|urjadnik" source="nikita" target="urjadnik" weight="2"/>
+            <edge id="nikita|starosta" source="nikita" target="starosta" weight="1"/>
+            <edge id="akulina|anisja" source="akulina" target="anisja" weight="7"/>
+            <edge id="akulina|anjutka" source="akulina" target="anjutka" weight="3"/>
+            <edge id="akulina|marfa" source="akulina" target="marfa" weight="1"/>
+            <edge id="akulina|matrena" source="akulina" target="matrena" weight="2"/>
+            <edge id="akulina|akim" source="akulina" target="akim" weight="3"/>
+            <edge id="akulina|mitrich" source="akulina" target="mitrich" weight="2"/>
+            <edge id="akulina|svaha" source="akulina" target="svaha" weight="1"/>
+            <edge id="akulina|urjadnik" source="akulina" target="urjadnik" weight="2"/>
+            <edge id="akulina|starosta" source="akulina" target="starosta" weight="1"/>
+            <edge id="anisja|anjutka" source="anisja" target="anjutka" weight="8"/>
+            <edge id="anisja|matrena" source="anisja" target="matrena" weight="18"/>
+            <edge id="anisja|akim" source="anisja" target="akim" weight="9"/>
+            <edge id="anisja|kuma" source="anisja" target="kuma" weight="4"/>
+            <edge id="anisja|golos_muzhika" source="anisja" target="golos_muzhika" weight="1"/>
+            <edge id="anisja|mitrich" source="anisja" target="mitrich" weight="6"/>
+            <edge id="anisja|izvozchik" source="anisja" target="izvozchik" weight="1"/>
+            <edge id="anisja|druzhko" source="anisja" target="druzhko" weight="1"/>
+            <edge id="anisja|svaha" source="anisja" target="svaha" weight="2"/>
+            <edge id="anisja|urjadnik" source="anisja" target="urjadnik" weight="1"/>
+            <edge id="anjutka|akim" source="anjutka" target="akim" weight="3"/>
+            <edge id="anjutka|matrena" source="anjutka" target="matrena" weight="2"/>
+            <edge id="anjutka|mitrich" source="anjutka" target="mitrich" weight="4"/>
+            <edge id="anjutka|kuma" source="anjutka" target="kuma" weight="1"/>
+            <edge id="anjutka|muzh_mariny" source="anjutka" target="muzh_mariny" weight="1"/>
+            <edge id="anjutka|marina" source="anjutka" target="marina" weight="1"/>
+            <edge id="matrena|akim" source="matrena" target="akim" weight="5"/>
+            <edge id="matrena|kuma" source="matrena" target="kuma" weight="1"/>
+            <edge id="matrena|golos_muzhika" source="matrena" target="golos_muzhika" weight="1"/>
+            <edge id="matrena|marfa" source="matrena" target="marfa" weight="1"/>
+            <edge id="matrena|odin_golos_iz_naroda" source="matrena" target="odin_golos_iz_naroda" weight="1"/>
+            <edge id="matrena|svat" source="matrena" target="svat" weight="1"/>
+            <edge id="matrena|golos_baby_iz_senej" source="matrena" target="golos_baby_iz_senej" weight="1"/>
+            <edge id="matrena|svaha" source="matrena" target="svaha" weight="1"/>
+            <edge id="matrena|urjadnik" source="matrena" target="urjadnik" weight="1"/>
+            <edge id="akim|mitrich" source="akim" target="mitrich" weight="4"/>
+            <edge id="akim|kuma" source="akim" target="kuma" weight="1"/>
+            <edge id="akim|svaha" source="akim" target="svaha" weight="1"/>
+            <edge id="akim|urjadnik" source="akim" target="urjadnik" weight="1"/>
+            <edge id="marina|pervaja_devka" source="marina" target="pervaja_devka" weight="1"/>
+            <edge id="marina|vtoraja_devka" source="marina" target="vtoraja_devka" weight="1"/>
+            <edge id="marina|muzh_mariny" source="marina" target="muzh_mariny" weight="1"/>
+            <edge id="kuma|golos_muzhika" source="kuma" target="golos_muzhika" weight="1"/>
+            <edge id="kuma|mitrich" source="kuma" target="mitrich" weight="2"/>
+            <edge id="kuma|sosedka" source="kuma" target="sosedka" weight="1"/>
+            <edge id="svat|golos_baby_iz_senej" source="svat" target="golos_baby_iz_senej" weight="1"/>
+            <edge id="pervaja_devka|vtoraja_devka" source="pervaja_devka" target="vtoraja_devka" weight="2"/>
+            <edge id="izvozchik|druzhko" source="izvozchik" target="druzhko" weight="1"/>
+            <edge id="izvozchik|svaha" source="izvozchik" target="svaha" weight="1"/>
+            <edge id="druzhko|svaha" source="druzhko" target="svaha" weight="1"/>
+            <edge id="svaha|urjadnik" source="svaha" target="urjadnik" weight="1"/>
+            <edge id="urjadnik|starosta" source="urjadnik" target="starosta" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

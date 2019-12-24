@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Без вины виноватые</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="annushka" label="Аннушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="542"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="otradina" label="Отрадина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1365"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="murov" label="Муров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1738"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shelavina" label="Шелавина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="481"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="galchiha" label="Галчиха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="438"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dudukin" label="Дудукин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2256"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="223"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="korinkina" label="Коринкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1888"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kruchinina" label="Кручинина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2833"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="neznamov" label="Незнамов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2743"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shmaga" label="Шмага">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1277"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="milovzorov" label="Миловзоров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="889"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa" label="Голоса">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="annushka|otradina" source="annushka" target="otradina" weight="1"/>
+            <edge id="otradina|murov" source="otradina" target="murov" weight="3"/>
+            <edge id="otradina|shelavina" source="otradina" target="shelavina" weight="1"/>
+            <edge id="otradina|galchiha" source="otradina" target="galchiha" weight="1"/>
+            <edge id="murov|shelavina" source="murov" target="shelavina" weight="1"/>
+            <edge id="murov|galchiha" source="murov" target="galchiha" weight="1"/>
+            <edge id="murov|kruchinina" source="murov" target="kruchinina" weight="4"/>
+            <edge id="murov|dudukin" source="murov" target="dudukin" weight="3"/>
+            <edge id="murov|korinkina" source="murov" target="korinkina" weight="1"/>
+            <edge id="murov|golosa" source="murov" target="golosa" weight="1"/>
+            <edge id="murov|neznamov" source="murov" target="neznamov" weight="1"/>
+            <edge id="murov|shmaga" source="murov" target="shmaga" weight="1"/>
+            <edge id="murov|milovzorov" source="murov" target="milovzorov" weight="1"/>
+            <edge id="galchiha|ivan" source="galchiha" target="ivan" weight="1"/>
+            <edge id="galchiha|kruchinina" source="galchiha" target="kruchinina" weight="1"/>
+            <edge id="dudukin|ivan" source="dudukin" target="ivan" weight="2"/>
+            <edge id="dudukin|korinkina" source="dudukin" target="korinkina" weight="7"/>
+            <edge id="dudukin|kruchinina" source="dudukin" target="kruchinina" weight="5"/>
+            <edge id="dudukin|milovzorov" source="dudukin" target="milovzorov" weight="5"/>
+            <edge id="dudukin|shmaga" source="dudukin" target="shmaga" weight="4"/>
+            <edge id="dudukin|neznamov" source="dudukin" target="neznamov" weight="3"/>
+            <edge id="dudukin|golosa" source="dudukin" target="golosa" weight="1"/>
+            <edge id="ivan|kruchinina" source="ivan" target="kruchinina" weight="3"/>
+            <edge id="ivan|neznamov" source="ivan" target="neznamov" weight="1"/>
+            <edge id="korinkina|milovzorov" source="korinkina" target="milovzorov" weight="9"/>
+            <edge id="korinkina|shmaga" source="korinkina" target="shmaga" weight="5"/>
+            <edge id="korinkina|neznamov" source="korinkina" target="neznamov" weight="6"/>
+            <edge id="korinkina|kruchinina" source="korinkina" target="kruchinina" weight="3"/>
+            <edge id="korinkina|golosa" source="korinkina" target="golosa" weight="1"/>
+            <edge id="kruchinina|neznamov" source="kruchinina" target="neznamov" weight="4"/>
+            <edge id="kruchinina|shmaga" source="kruchinina" target="shmaga" weight="3"/>
+            <edge id="kruchinina|milovzorov" source="kruchinina" target="milovzorov" weight="2"/>
+            <edge id="kruchinina|golosa" source="kruchinina" target="golosa" weight="1"/>
+            <edge id="neznamov|shmaga" source="neznamov" target="shmaga" weight="7"/>
+            <edge id="neznamov|milovzorov" source="neznamov" target="milovzorov" weight="6"/>
+            <edge id="neznamov|golosa" source="neznamov" target="golosa" weight="1"/>
+            <edge id="shmaga|milovzorov" source="shmaga" target="milovzorov" weight="6"/>
+            <edge id="shmaga|golosa" source="shmaga" target="golosa" weight="1"/>
+            <edge id="milovzorov|golosa" source="milovzorov" target="golosa" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

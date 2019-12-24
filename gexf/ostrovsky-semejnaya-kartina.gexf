@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Семейная картина</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="marya_antipovna" label="Марья Антиповна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="217"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="matrena_savishna" label="Матрена Савишна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="250"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="darya" label="Дарья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="270"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="antip_antipych" label="Антип Антипыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1226"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stepanida_trofimovna" label="Степанида Трофимовна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1118"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="shiryalov" label="Ширялов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1490"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="marya_antipovna|matrena_savishna" source="marya_antipovna" target="matrena_savishna" weight="1"/>
+            <edge id="marya_antipovna|darya" source="marya_antipovna" target="darya" weight="1"/>
+            <edge id="marya_antipovna|antip_antipych" source="marya_antipovna" target="antip_antipych" weight="1"/>
+            <edge id="marya_antipovna|stepanida_trofimovna" source="marya_antipovna" target="stepanida_trofimovna" weight="1"/>
+            <edge id="marya_antipovna|shiryalov" source="marya_antipovna" target="shiryalov" weight="1"/>
+            <edge id="matrena_savishna|darya" source="matrena_savishna" target="darya" weight="1"/>
+            <edge id="matrena_savishna|antip_antipych" source="matrena_savishna" target="antip_antipych" weight="1"/>
+            <edge id="matrena_savishna|stepanida_trofimovna" source="matrena_savishna" target="stepanida_trofimovna" weight="1"/>
+            <edge id="matrena_savishna|shiryalov" source="matrena_savishna" target="shiryalov" weight="1"/>
+            <edge id="darya|antip_antipych" source="darya" target="antip_antipych" weight="1"/>
+            <edge id="darya|stepanida_trofimovna" source="darya" target="stepanida_trofimovna" weight="1"/>
+            <edge id="darya|shiryalov" source="darya" target="shiryalov" weight="1"/>
+            <edge id="antip_antipych|stepanida_trofimovna" source="antip_antipych" target="stepanida_trofimovna" weight="1"/>
+            <edge id="antip_antipych|shiryalov" source="antip_antipych" target="shiryalov" weight="1"/>
+            <edge id="stepanida_trofimovna|shiryalov" source="stepanida_trofimovna" target="shiryalov" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

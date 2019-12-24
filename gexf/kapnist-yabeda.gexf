@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Капнист, Василий Васильевич: Ябеда</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="pryamikov" label="Прямиков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1693"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dobrov" label="Добров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2112"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="anna" label="Анна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="582"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sofia" label="София">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="466"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="krivosudov" label="Кривосудов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2516"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fyokla" label="Фекла">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1966"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="naumych" label="Наумыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="769"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pravolov" label="Праволов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1861"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kokhtin" label="Кохтин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1057"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bulbulkin" label="Бульбулькин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="585"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="atuev" label="Атуев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="215"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="khvataiko" label="Хватайко">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="480"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="parolkin" label="Паролькин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="442"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="radbyn" label="Радбын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="173"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="arkhip" label="Архип">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="70"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="pryamikov|dobrov" source="pryamikov" target="dobrov" weight="3"/>
+            <edge id="pryamikov|anna" source="pryamikov" target="anna" weight="4"/>
+            <edge id="pryamikov|sofia" source="pryamikov" target="sofia" weight="3"/>
+            <edge id="pryamikov|krivosudov" source="pryamikov" target="krivosudov" weight="6"/>
+            <edge id="pryamikov|pravolov" source="pryamikov" target="pravolov" weight="2"/>
+            <edge id="pryamikov|khvataiko" source="pryamikov" target="khvataiko" weight="2"/>
+            <edge id="pryamikov|fyokla" source="pryamikov" target="fyokla" weight="4"/>
+            <edge id="pryamikov|bulbulkin" source="pryamikov" target="bulbulkin" weight="2"/>
+            <edge id="pryamikov|naumych" source="pryamikov" target="naumych" weight="2"/>
+            <edge id="pryamikov|parolkin" source="pryamikov" target="parolkin" weight="2"/>
+            <edge id="pryamikov|atuev" source="pryamikov" target="atuev" weight="1"/>
+            <edge id="pryamikov|radbyn" source="pryamikov" target="radbyn" weight="1"/>
+            <edge id="pryamikov|kokhtin" source="pryamikov" target="kokhtin" weight="1"/>
+            <edge id="dobrov|krivosudov" source="dobrov" target="krivosudov" weight="7"/>
+            <edge id="dobrov|anna" source="dobrov" target="anna" weight="2"/>
+            <edge id="dobrov|atuev" source="dobrov" target="atuev" weight="3"/>
+            <edge id="dobrov|bulbulkin" source="dobrov" target="bulbulkin" weight="3"/>
+            <edge id="dobrov|parolkin" source="dobrov" target="parolkin" weight="3"/>
+            <edge id="dobrov|radbyn" source="dobrov" target="radbyn" weight="3"/>
+            <edge id="dobrov|kokhtin" source="dobrov" target="kokhtin" weight="3"/>
+            <edge id="dobrov|khvataiko" source="dobrov" target="khvataiko" weight="1"/>
+            <edge id="dobrov|pravolov" source="dobrov" target="pravolov" weight="1"/>
+            <edge id="dobrov|fyokla" source="dobrov" target="fyokla" weight="2"/>
+            <edge id="anna|pravolov" source="anna" target="pravolov" weight="4"/>
+            <edge id="anna|kokhtin" source="anna" target="kokhtin" weight="3"/>
+            <edge id="anna|sofia" source="anna" target="sofia" weight="4"/>
+            <edge id="anna|naumych" source="anna" target="naumych" weight="5"/>
+            <edge id="anna|fyokla" source="anna" target="fyokla" weight="8"/>
+            <edge id="anna|khvataiko" source="anna" target="khvataiko" weight="3"/>
+            <edge id="anna|parolkin" source="anna" target="parolkin" weight="3"/>
+            <edge id="anna|bulbulkin" source="anna" target="bulbulkin" weight="3"/>
+            <edge id="anna|atuev" source="anna" target="atuev" weight="3"/>
+            <edge id="anna|krivosudov" source="anna" target="krivosudov" weight="6"/>
+            <edge id="anna|radbyn" source="anna" target="radbyn" weight="3"/>
+            <edge id="sofia|naumych" source="sofia" target="naumych" weight="1"/>
+            <edge id="sofia|fyokla" source="sofia" target="fyokla" weight="2"/>
+            <edge id="sofia|krivosudov" source="sofia" target="krivosudov" weight="2"/>
+            <edge id="sofia|parolkin" source="sofia" target="parolkin" weight="1"/>
+            <edge id="sofia|atuev" source="sofia" target="atuev" weight="1"/>
+            <edge id="sofia|khvataiko" source="sofia" target="khvataiko" weight="1"/>
+            <edge id="sofia|bulbulkin" source="sofia" target="bulbulkin" weight="1"/>
+            <edge id="sofia|radbyn" source="sofia" target="radbyn" weight="1"/>
+            <edge id="krivosudov|fyokla" source="krivosudov" target="fyokla" weight="16"/>
+            <edge id="krivosudov|naumych" source="krivosudov" target="naumych" weight="6"/>
+            <edge id="krivosudov|pravolov" source="krivosudov" target="pravolov" weight="9"/>
+            <edge id="krivosudov|bulbulkin" source="krivosudov" target="bulbulkin" weight="12"/>
+            <edge id="krivosudov|atuev" source="krivosudov" target="atuev" weight="10"/>
+            <edge id="krivosudov|khvataiko" source="krivosudov" target="khvataiko" weight="10"/>
+            <edge id="krivosudov|parolkin" source="krivosudov" target="parolkin" weight="12"/>
+            <edge id="krivosudov|radbyn" source="krivosudov" target="radbyn" weight="9"/>
+            <edge id="krivosudov|kokhtin" source="krivosudov" target="kokhtin" weight="9"/>
+            <edge id="fyokla|naumych" source="fyokla" target="naumych" weight="7"/>
+            <edge id="fyokla|pravolov" source="fyokla" target="pravolov" weight="6"/>
+            <edge id="fyokla|bulbulkin" source="fyokla" target="bulbulkin" weight="6"/>
+            <edge id="fyokla|atuev" source="fyokla" target="atuev" weight="5"/>
+            <edge id="fyokla|khvataiko" source="fyokla" target="khvataiko" weight="5"/>
+            <edge id="fyokla|parolkin" source="fyokla" target="parolkin" weight="6"/>
+            <edge id="fyokla|radbyn" source="fyokla" target="radbyn" weight="5"/>
+            <edge id="fyokla|kokhtin" source="fyokla" target="kokhtin" weight="6"/>
+            <edge id="naumych|pravolov" source="naumych" target="pravolov" weight="6"/>
+            <edge id="naumych|kokhtin" source="naumych" target="kokhtin" weight="4"/>
+            <edge id="naumych|arkhip" source="naumych" target="arkhip" weight="1"/>
+            <edge id="naumych|khvataiko" source="naumych" target="khvataiko" weight="4"/>
+            <edge id="naumych|parolkin" source="naumych" target="parolkin" weight="4"/>
+            <edge id="naumych|bulbulkin" source="naumych" target="bulbulkin" weight="4"/>
+            <edge id="naumych|atuev" source="naumych" target="atuev" weight="3"/>
+            <edge id="naumych|radbyn" source="naumych" target="radbyn" weight="3"/>
+            <edge id="pravolov|kokhtin" source="pravolov" target="kokhtin" weight="5"/>
+            <edge id="pravolov|bulbulkin" source="pravolov" target="bulbulkin" weight="6"/>
+            <edge id="pravolov|atuev" source="pravolov" target="atuev" weight="5"/>
+            <edge id="pravolov|khvataiko" source="pravolov" target="khvataiko" weight="7"/>
+            <edge id="pravolov|parolkin" source="pravolov" target="parolkin" weight="6"/>
+            <edge id="pravolov|radbyn" source="pravolov" target="radbyn" weight="4"/>
+            <edge id="kokhtin|bulbulkin" source="kokhtin" target="bulbulkin" weight="7"/>
+            <edge id="kokhtin|atuev" source="kokhtin" target="atuev" weight="7"/>
+            <edge id="kokhtin|khvataiko" source="kokhtin" target="khvataiko" weight="4"/>
+            <edge id="kokhtin|parolkin" source="kokhtin" target="parolkin" weight="7"/>
+            <edge id="kokhtin|radbyn" source="kokhtin" target="radbyn" weight="7"/>
+            <edge id="bulbulkin|atuev" source="bulbulkin" target="atuev" weight="10"/>
+            <edge id="bulbulkin|khvataiko" source="bulbulkin" target="khvataiko" weight="9"/>
+            <edge id="bulbulkin|parolkin" source="bulbulkin" target="parolkin" weight="12"/>
+            <edge id="bulbulkin|radbyn" source="bulbulkin" target="radbyn" weight="9"/>
+            <edge id="atuev|khvataiko" source="atuev" target="khvataiko" weight="7"/>
+            <edge id="atuev|parolkin" source="atuev" target="parolkin" weight="10"/>
+            <edge id="atuev|radbyn" source="atuev" target="radbyn" weight="9"/>
+            <edge id="khvataiko|parolkin" source="khvataiko" target="parolkin" weight="9"/>
+            <edge id="khvataiko|radbyn" source="khvataiko" target="radbyn" weight="6"/>
+            <edge id="parolkin|radbyn" source="parolkin" target="radbyn" weight="9"/>
+        </edges>
+    </graph>
+</gexf>

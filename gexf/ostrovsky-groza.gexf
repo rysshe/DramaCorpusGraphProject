@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Гроза</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="kuligin" label="Кулигин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1437"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kudrjash" label="Кудряш">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="947"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shapkin" label="Шапкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dikoj" label="Дикой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="744"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="boris" label="Борис">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1385"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="feklusha" label="Феклуша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="803"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kabanova" label="Кабанова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1515"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kabanov" label="Кабанов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1284"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="varvara" label="Варвара">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1261"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="katerina" label="Катерина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3187"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="barynja" label="Барыня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="152"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="glasha" label="Глаша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="198"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_dejstvije_4a" label="1-й (IV/1–2)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="91"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_dejstvije_4a" label="2-й (IV/1)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="102"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhenschina_4a" label="Женщина (IV/1)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_dejstvije_4b" label="1-й (IV/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhenschina_4b" label="Женщина (IV/4)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zhenschina_4c" label="Женщина (IV/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_dejstvije_4c" label="1-й (IV/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_dejstvije_4b" label="2-й (IV/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="31"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_naroda_5a" label="Один из народа (V/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="neskolko_golosov" label="Несколько голосов">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_naroda_5b" label="Один из народа (V/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="drugoj" label="Другой из народа (V/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij" label="Третий (V/5)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_dejstvije_5" label="1-й (V/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_dejstvije_5" label="2-й (V/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_vozvrativshihsja" label="Один из возвратившихся (V/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="drugoj_iz_vozvrativshihsja" label="Другой из возвратившихся (V/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="34"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="kuligin|kudrjash" source="kuligin" target="kudrjash" weight="2"/>
+            <edge id="kuligin|shapkin" source="kuligin" target="shapkin" weight="2"/>
+            <edge id="kuligin|boris" source="kuligin" target="boris" weight="4"/>
+            <edge id="kuligin|feklusha" source="kuligin" target="feklusha" weight="1"/>
+            <edge id="kuligin|glasha" source="kuligin" target="glasha" weight="2"/>
+            <edge id="kuligin|varvara" source="kuligin" target="varvara" weight="2"/>
+            <edge id="kuligin|dikoj" source="kuligin" target="dikoj" weight="1"/>
+            <edge id="kuligin|pervyj_dejstvije_4a" source="kuligin" target="pervyj_dejstvije_4a" weight="1"/>
+            <edge id="kuligin|pervyj_dejstvije_4b" source="kuligin" target="pervyj_dejstvije_4b" weight="1"/>
+            <edge id="kuligin|zhenschina_4b" source="kuligin" target="zhenschina_4b" weight="1"/>
+            <edge id="kuligin|katerina" source="kuligin" target="katerina" weight="1"/>
+            <edge id="kuligin|kabanova" source="kuligin" target="kabanova" weight="3"/>
+            <edge id="kuligin|kabanov" source="kuligin" target="kabanov" weight="4"/>
+            <edge id="kuligin|odin_iz_naroda_5a" source="kuligin" target="odin_iz_naroda_5a" weight="1"/>
+            <edge id="kuligin|neskolko_golosov" source="kuligin" target="neskolko_golosov" weight="1"/>
+            <edge id="kuligin|odin_iz_naroda_5b" source="kuligin" target="odin_iz_naroda_5b" weight="1"/>
+            <edge id="kuligin|drugoj" source="kuligin" target="drugoj" weight="1"/>
+            <edge id="kuligin|tretij" source="kuligin" target="tretij" weight="1"/>
+            <edge id="kudrjash|shapkin" source="kudrjash" target="shapkin" weight="2"/>
+            <edge id="kudrjash|boris" source="kudrjash" target="boris" weight="5"/>
+            <edge id="kudrjash|feklusha" source="kudrjash" target="feklusha" weight="1"/>
+            <edge id="kudrjash|varvara" source="kudrjash" target="varvara" weight="3"/>
+            <edge id="kudrjash|katerina" source="kudrjash" target="katerina" weight="2"/>
+            <edge id="shapkin|boris" source="shapkin" target="boris" weight="1"/>
+            <edge id="shapkin|feklusha" source="shapkin" target="feklusha" weight="1"/>
+            <edge id="dikoj|boris" source="dikoj" target="boris" weight="1"/>
+            <edge id="dikoj|kabanova" source="dikoj" target="kabanova" weight="1"/>
+            <edge id="dikoj|kabanov" source="dikoj" target="kabanov" weight="1"/>
+            <edge id="dikoj|glasha" source="dikoj" target="glasha" weight="1"/>
+            <edge id="dikoj|pervyj_dejstvije_4a" source="dikoj" target="pervyj_dejstvije_4a" weight="1"/>
+            <edge id="boris|feklusha" source="boris" target="feklusha" weight="1"/>
+            <edge id="boris|glasha" source="boris" target="glasha" weight="1"/>
+            <edge id="boris|varvara" source="boris" target="varvara" weight="6"/>
+            <edge id="boris|katerina" source="boris" target="katerina" weight="4"/>
+            <edge id="boris|pervyj_dejstvije_4b" source="boris" target="pervyj_dejstvije_4b" weight="1"/>
+            <edge id="boris|zhenschina_4b" source="boris" target="zhenschina_4b" weight="1"/>
+            <edge id="boris|kabanova" source="boris" target="kabanova" weight="1"/>
+            <edge id="boris|kabanov" source="boris" target="kabanov" weight="1"/>
+            <edge id="feklusha|glasha" source="feklusha" target="glasha" weight="1"/>
+            <edge id="feklusha|kabanova" source="feklusha" target="kabanova" weight="1"/>
+            <edge id="kabanova|kabanov" source="kabanova" target="kabanov" weight="10"/>
+            <edge id="kabanova|varvara" source="kabanova" target="varvara" weight="5"/>
+            <edge id="kabanova|katerina" source="kabanova" target="katerina" weight="5"/>
+            <edge id="kabanova|glasha" source="kabanova" target="glasha" weight="1"/>
+            <edge id="kabanova|pervyj_dejstvije_4b" source="kabanova" target="pervyj_dejstvije_4b" weight="1"/>
+            <edge id="kabanova|zhenschina_4b" source="kabanova" target="zhenschina_4b" weight="1"/>
+            <edge id="kabanova|zhenschina_4c" source="kabanova" target="zhenschina_4c" weight="1"/>
+            <edge id="kabanova|pervyj_dejstvije_4c" source="kabanova" target="pervyj_dejstvije_4c" weight="1"/>
+            <edge id="kabanova|vtoroj_dejstvije_4b" source="kabanova" target="vtoroj_dejstvije_4b" weight="1"/>
+            <edge id="kabanova|barynja" source="kabanova" target="barynja" weight="1"/>
+            <edge id="kabanova|odin_iz_naroda_5a" source="kabanova" target="odin_iz_naroda_5a" weight="1"/>
+            <edge id="kabanova|neskolko_golosov" source="kabanova" target="neskolko_golosov" weight="1"/>
+            <edge id="kabanova|odin_iz_naroda_5b" source="kabanova" target="odin_iz_naroda_5b" weight="1"/>
+            <edge id="kabanova|drugoj" source="kabanova" target="drugoj" weight="1"/>
+            <edge id="kabanova|tretij" source="kabanova" target="tretij" weight="1"/>
+            <edge id="kabanova|pervyj_dejstvije_5" source="kabanova" target="pervyj_dejstvije_5" weight="1"/>
+            <edge id="kabanova|vtoroj_dejstvije_5" source="kabanova" target="vtoroj_dejstvije_5" weight="1"/>
+            <edge id="kabanova|odin_iz_vozvrativshihsja" source="kabanova" target="odin_iz_vozvrativshihsja" weight="1"/>
+            <edge id="kabanova|drugoj_iz_vozvrativshihsja" source="kabanova" target="drugoj_iz_vozvrativshihsja" weight="1"/>
+            <edge id="kabanov|varvara" source="kabanov" target="varvara" weight="6"/>
+            <edge id="kabanov|katerina" source="kabanov" target="katerina" weight="7"/>
+            <edge id="kabanov|glasha" source="kabanov" target="glasha" weight="2"/>
+            <edge id="kabanov|pervyj_dejstvije_4b" source="kabanov" target="pervyj_dejstvije_4b" weight="1"/>
+            <edge id="kabanov|zhenschina_4b" source="kabanov" target="zhenschina_4b" weight="1"/>
+            <edge id="kabanov|zhenschina_4c" source="kabanov" target="zhenschina_4c" weight="1"/>
+            <edge id="kabanov|pervyj_dejstvije_4c" source="kabanov" target="pervyj_dejstvije_4c" weight="1"/>
+            <edge id="kabanov|vtoroj_dejstvije_4b" source="kabanov" target="vtoroj_dejstvije_4b" weight="1"/>
+            <edge id="kabanov|barynja" source="kabanov" target="barynja" weight="1"/>
+            <edge id="kabanov|odin_iz_naroda_5a" source="kabanov" target="odin_iz_naroda_5a" weight="1"/>
+            <edge id="kabanov|neskolko_golosov" source="kabanov" target="neskolko_golosov" weight="1"/>
+            <edge id="kabanov|odin_iz_naroda_5b" source="kabanov" target="odin_iz_naroda_5b" weight="1"/>
+            <edge id="kabanov|drugoj" source="kabanov" target="drugoj" weight="1"/>
+            <edge id="kabanov|tretij" source="kabanov" target="tretij" weight="1"/>
+            <edge id="kabanov|pervyj_dejstvije_5" source="kabanov" target="pervyj_dejstvije_5" weight="1"/>
+            <edge id="kabanov|vtoroj_dejstvije_5" source="kabanov" target="vtoroj_dejstvije_5" weight="1"/>
+            <edge id="kabanov|odin_iz_vozvrativshihsja" source="kabanov" target="odin_iz_vozvrativshihsja" weight="1"/>
+            <edge id="kabanov|drugoj_iz_vozvrativshihsja" source="kabanov" target="drugoj_iz_vozvrativshihsja" weight="1"/>
+            <edge id="varvara|katerina" source="varvara" target="katerina" weight="12"/>
+            <edge id="varvara|pervyj_dejstvije_4b" source="varvara" target="pervyj_dejstvije_4b" weight="1"/>
+            <edge id="varvara|zhenschina_4b" source="varvara" target="zhenschina_4b" weight="1"/>
+            <edge id="varvara|zhenschina_4c" source="varvara" target="zhenschina_4c" weight="1"/>
+            <edge id="varvara|pervyj_dejstvije_4c" source="varvara" target="pervyj_dejstvije_4c" weight="1"/>
+            <edge id="varvara|vtoroj_dejstvije_4b" source="varvara" target="vtoroj_dejstvije_4b" weight="1"/>
+            <edge id="varvara|barynja" source="varvara" target="barynja" weight="1"/>
+            <edge id="katerina|pervyj_dejstvije_4b" source="katerina" target="pervyj_dejstvije_4b" weight="1"/>
+            <edge id="katerina|zhenschina_4b" source="katerina" target="zhenschina_4b" weight="1"/>
+            <edge id="katerina|zhenschina_4c" source="katerina" target="zhenschina_4c" weight="1"/>
+            <edge id="katerina|pervyj_dejstvije_4c" source="katerina" target="pervyj_dejstvije_4c" weight="1"/>
+            <edge id="katerina|vtoroj_dejstvije_4b" source="katerina" target="vtoroj_dejstvije_4b" weight="1"/>
+            <edge id="katerina|barynja" source="katerina" target="barynja" weight="1"/>
+            <edge id="pervyj_dejstvije_4a|vtoroj_dejstvije_4a" source="pervyj_dejstvije_4a" target="vtoroj_dejstvije_4a" weight="1"/>
+            <edge id="pervyj_dejstvije_4a|zhenschina_4a" source="pervyj_dejstvije_4a" target="zhenschina_4a" weight="1"/>
+            <edge id="vtoroj_dejstvije_4a|zhenschina_4a" source="vtoroj_dejstvije_4a" target="zhenschina_4a" weight="1"/>
+            <edge id="pervyj_dejstvije_4b|zhenschina_4b" source="pervyj_dejstvije_4b" target="zhenschina_4b" weight="1"/>
+            <edge id="zhenschina_4c|pervyj_dejstvije_4c" source="zhenschina_4c" target="pervyj_dejstvije_4c" weight="1"/>
+            <edge id="zhenschina_4c|vtoroj_dejstvije_4b" source="zhenschina_4c" target="vtoroj_dejstvije_4b" weight="1"/>
+            <edge id="pervyj_dejstvije_4c|vtoroj_dejstvije_4b" source="pervyj_dejstvije_4c" target="vtoroj_dejstvije_4b" weight="1"/>
+            <edge id="odin_iz_naroda_5a|neskolko_golosov" source="odin_iz_naroda_5a" target="neskolko_golosov" weight="1"/>
+            <edge id="odin_iz_naroda_5a|odin_iz_naroda_5b" source="odin_iz_naroda_5a" target="odin_iz_naroda_5b" weight="1"/>
+            <edge id="odin_iz_naroda_5a|drugoj" source="odin_iz_naroda_5a" target="drugoj" weight="1"/>
+            <edge id="odin_iz_naroda_5a|tretij" source="odin_iz_naroda_5a" target="tretij" weight="1"/>
+            <edge id="neskolko_golosov|odin_iz_naroda_5b" source="neskolko_golosov" target="odin_iz_naroda_5b" weight="1"/>
+            <edge id="neskolko_golosov|drugoj" source="neskolko_golosov" target="drugoj" weight="1"/>
+            <edge id="neskolko_golosov|tretij" source="neskolko_golosov" target="tretij" weight="1"/>
+            <edge id="odin_iz_naroda_5b|drugoj" source="odin_iz_naroda_5b" target="drugoj" weight="1"/>
+            <edge id="odin_iz_naroda_5b|tretij" source="odin_iz_naroda_5b" target="tretij" weight="1"/>
+            <edge id="drugoj|tretij" source="drugoj" target="tretij" weight="1"/>
+            <edge id="pervyj_dejstvije_5|vtoroj_dejstvije_5" source="pervyj_dejstvije_5" target="vtoroj_dejstvije_5" weight="1"/>
+            <edge id="pervyj_dejstvije_5|odin_iz_vozvrativshihsja" source="pervyj_dejstvije_5" target="odin_iz_vozvrativshihsja" weight="1"/>
+            <edge id="pervyj_dejstvije_5|drugoj_iz_vozvrativshihsja" source="pervyj_dejstvije_5" target="drugoj_iz_vozvrativshihsja" weight="1"/>
+            <edge id="vtoroj_dejstvije_5|odin_iz_vozvrativshihsja" source="vtoroj_dejstvije_5" target="odin_iz_vozvrativshihsja" weight="1"/>
+            <edge id="vtoroj_dejstvije_5|drugoj_iz_vozvrativshihsja" source="vtoroj_dejstvije_5" target="drugoj_iz_vozvrativshihsja" weight="1"/>
+            <edge id="odin_iz_vozvrativshihsja|drugoj_iz_vozvrativshihsja" source="odin_iz_vozvrativshihsja" target="drugoj_iz_vozvrativshihsja" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гоголь, Николай Васильевич: Игроки</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="aleksej" label="Алексей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="195"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="iharev" label="Ихарев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2015"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gavrjushka" label="Гаврюшка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="248"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="krugel" label="Кругель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="224"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shvohnev" label="Швохнев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="918"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="uteshitelnyj" label="Утешительный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2913"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mihail_aleksandrovich_glov" label="Михаил Александрович Глов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="729"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="aleksandr_mihalych_glov" label="Александр Михалыч Глов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="538"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zamuhryshkin" label="Замухрышкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="448"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="aleksej|iharev" source="aleksej" target="iharev" weight="5"/>
+            <edge id="aleksej|gavrjushka" source="aleksej" target="gavrjushka" weight="1"/>
+            <edge id="aleksej|uteshitelnyj" source="aleksej" target="uteshitelnyj" weight="1"/>
+            <edge id="aleksej|mihail_aleksandrovich_glov" source="aleksej" target="mihail_aleksandrovich_glov" weight="1"/>
+            <edge id="aleksej|krugel" source="aleksej" target="krugel" weight="1"/>
+            <edge id="aleksej|shvohnev" source="aleksej" target="shvohnev" weight="1"/>
+            <edge id="aleksej|aleksandr_mihalych_glov" source="aleksej" target="aleksandr_mihalych_glov" weight="1"/>
+            <edge id="iharev|uteshitelnyj" source="iharev" target="uteshitelnyj" weight="7"/>
+            <edge id="iharev|shvohnev" source="iharev" target="shvohnev" weight="11"/>
+            <edge id="iharev|krugel" source="iharev" target="krugel" weight="9"/>
+            <edge id="iharev|mihail_aleksandrovich_glov" source="iharev" target="mihail_aleksandrovich_glov" weight="2"/>
+            <edge id="iharev|aleksandr_mihalych_glov" source="iharev" target="aleksandr_mihalych_glov" weight="4"/>
+            <edge id="gavrjushka|krugel" source="gavrjushka" target="krugel" weight="1"/>
+            <edge id="gavrjushka|shvohnev" source="gavrjushka" target="shvohnev" weight="1"/>
+            <edge id="krugel|shvohnev" source="krugel" target="shvohnev" weight="10"/>
+            <edge id="krugel|uteshitelnyj" source="krugel" target="uteshitelnyj" weight="4"/>
+            <edge id="krugel|mihail_aleksandrovich_glov" source="krugel" target="mihail_aleksandrovich_glov" weight="1"/>
+            <edge id="krugel|aleksandr_mihalych_glov" source="krugel" target="aleksandr_mihalych_glov" weight="2"/>
+            <edge id="shvohnev|uteshitelnyj" source="shvohnev" target="uteshitelnyj" weight="8"/>
+            <edge id="shvohnev|mihail_aleksandrovich_glov" source="shvohnev" target="mihail_aleksandrovich_glov" weight="2"/>
+            <edge id="shvohnev|aleksandr_mihalych_glov" source="shvohnev" target="aleksandr_mihalych_glov" weight="2"/>
+            <edge id="shvohnev|zamuhryshkin" source="shvohnev" target="zamuhryshkin" weight="1"/>
+            <edge id="uteshitelnyj|mihail_aleksandrovich_glov" source="uteshitelnyj" target="mihail_aleksandrovich_glov" weight="2"/>
+            <edge id="uteshitelnyj|aleksandr_mihalych_glov" source="uteshitelnyj" target="aleksandr_mihalych_glov" weight="2"/>
+            <edge id="uteshitelnyj|zamuhryshkin" source="uteshitelnyj" target="zamuhryshkin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

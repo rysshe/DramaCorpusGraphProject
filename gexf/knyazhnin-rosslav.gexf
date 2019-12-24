@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Княжнин, Яков Борисович: Росслав</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="adel" label="Адель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="396"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kedar" label="Кедар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1774"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rosslav" label="Росслав">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3645"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zafira" label="Зафира">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2434"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lyubomir" label="Любомир">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1041"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hristiern" label="Христиерн">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1288"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="adel|kedar" source="adel" target="kedar" weight="1"/>
+            <edge id="adel|hristiern" source="adel" target="hristiern" weight="1"/>
+            <edge id="adel|zafira" source="adel" target="zafira" weight="1"/>
+            <edge id="kedar|rosslav" source="kedar" target="rosslav" weight="4"/>
+            <edge id="kedar|hristiern" source="kedar" target="hristiern" weight="2"/>
+            <edge id="kedar|zafira" source="kedar" target="zafira" weight="4"/>
+            <edge id="kedar|lyubomir" source="kedar" target="lyubomir" weight="2"/>
+            <edge id="rosslav|zafira" source="rosslav" target="zafira" weight="12"/>
+            <edge id="rosslav|lyubomir" source="rosslav" target="lyubomir" weight="7"/>
+            <edge id="rosslav|hristiern" source="rosslav" target="hristiern" weight="4"/>
+            <edge id="zafira|hristiern" source="zafira" target="hristiern" weight="5"/>
+            <edge id="zafira|lyubomir" source="zafira" target="lyubomir" weight="5"/>
+            <edge id="lyubomir|hristiern" source="lyubomir" target="hristiern" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Княжнин, Яков Борисович: Дидона</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="antenor" label="Антенор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="910"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="enej" label="Эней">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2179"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="didona" label="Дидона">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3675"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="eliza" label="Елиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="191"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="jarb" label="Ярб">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1923"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gias" label="Гиас">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="256"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="arsina" label="Арсина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="177"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="voin" label="Воин говорящий Дидонин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="93"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="timar" label="Тимар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="63"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="antenor|enej" source="antenor" target="enej" weight="2"/>
+            <edge id="antenor|timar" source="antenor" target="timar" weight="1"/>
+            <edge id="antenor|didona" source="antenor" target="didona" weight="1"/>
+            <edge id="antenor|jarb" source="antenor" target="jarb" weight="1"/>
+            <edge id="enej|didona" source="enej" target="didona" weight="3"/>
+            <edge id="enej|timar" source="enej" target="timar" weight="1"/>
+            <edge id="enej|jarb" source="enej" target="jarb" weight="2"/>
+            <edge id="didona|eliza" source="didona" target="eliza" weight="7"/>
+            <edge id="didona|jarb" source="didona" target="jarb" weight="4"/>
+            <edge id="didona|arsina" source="didona" target="arsina" weight="3"/>
+            <edge id="didona|voin" source="didona" target="voin" weight="2"/>
+            <edge id="didona|timar" source="didona" target="timar" weight="1"/>
+            <edge id="eliza|arsina" source="eliza" target="arsina" weight="1"/>
+            <edge id="eliza|voin" source="eliza" target="voin" weight="1"/>
+            <edge id="jarb|gias" source="jarb" target="gias" weight="2"/>
+            <edge id="jarb|timar" source="jarb" target="timar" weight="1"/>
+            <edge id="arsina|voin" source="arsina" target="voin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

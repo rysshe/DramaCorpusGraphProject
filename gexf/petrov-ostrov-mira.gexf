@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Петров, Евгений Петрович: Остров мира</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="majkroft" label="Майкрофт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="248"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ekonomka" label="Экономка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="585"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="m-ss_dzhekobs" label="М-сс Джекобс">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="619"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="doktor" label="Доктор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="155"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="m-r_dzhekobs" label="М-р Джекобс">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4216"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_radio_1-6" label="Голос из радио (I/6)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="223"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="polkovnik" label="Полковник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="339"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pamela" label="Памела">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="847"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lamperti" label="Ламперти">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="412"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="frenk" label="Фрэнк">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1672"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="artur" label="Артур">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="615"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="m-ss_simpson" label="М-сс Симпсон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="481"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="admiral" label="Адмирал">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="113"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="m-r_dzhekobs-starshij" label="М-р Джекобс-старший">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="m-r_simpson" label="М-р Симпсон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="52"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="politsejskij_ofitser" label="Полицейский офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa" label="Голоса (I/20)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_radio_2-2" label="Голос из радио (II/2)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="162"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="tsar" label="Царь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="baba" label="Баба">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="242"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_radio_3-0" label="Голос из радио (III)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="231"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="gornichnaja" label="Горничная">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dzhefris" label="Джефрис">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="192"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="svjaschennik" label="Священник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_radio_4-2" label="Голос из радио (IV/2)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="237"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="majkl" label="Майкл">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="soldat" label="Солдат">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="majkroft|ekonomka" source="majkroft" target="ekonomka" weight="6"/>
+            <edge id="majkroft|m-r_dzhekobs" source="majkroft" target="m-r_dzhekobs" weight="10"/>
+            <edge id="majkroft|politsejskij_ofitser" source="majkroft" target="politsejskij_ofitser" weight="1"/>
+            <edge id="majkroft|m-r_simpson" source="majkroft" target="m-r_simpson" weight="3"/>
+            <edge id="majkroft|frenk" source="majkroft" target="frenk" weight="5"/>
+            <edge id="majkroft|polkovnik" source="majkroft" target="polkovnik" weight="2"/>
+            <edge id="majkroft|golosa" source="majkroft" target="golosa" weight="1"/>
+            <edge id="majkroft|artur" source="majkroft" target="artur" weight="4"/>
+            <edge id="majkroft|pamela" source="majkroft" target="pamela" weight="3"/>
+            <edge id="majkroft|m-ss_dzhekobs" source="majkroft" target="m-ss_dzhekobs" weight="8"/>
+            <edge id="majkroft|m-ss_simpson" source="majkroft" target="m-ss_simpson" weight="3"/>
+            <edge id="majkroft|admiral" source="majkroft" target="admiral" weight="1"/>
+            <edge id="majkroft|doktor" source="majkroft" target="doktor" weight="4"/>
+            <edge id="majkroft|golos_iz_radio_2-2" source="majkroft" target="golos_iz_radio_2-2" weight="1"/>
+            <edge id="majkroft|baba" source="majkroft" target="baba" weight="1"/>
+            <edge id="majkroft|lamperti" source="majkroft" target="lamperti" weight="4"/>
+            <edge id="majkroft|golos_iz_radio_3-0" source="majkroft" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="majkroft|gornichnaja" source="majkroft" target="gornichnaja" weight="2"/>
+            <edge id="majkroft|dzhefris" source="majkroft" target="dzhefris" weight="1"/>
+            <edge id="majkroft|m-r_dzhekobs-starshij" source="majkroft" target="m-r_dzhekobs-starshij" weight="1"/>
+            <edge id="majkroft|svjaschennik" source="majkroft" target="svjaschennik" weight="2"/>
+            <edge id="majkroft|tsar" source="majkroft" target="tsar" weight="1"/>
+            <edge id="ekonomka|m-ss_dzhekobs" source="ekonomka" target="m-ss_dzhekobs" weight="5"/>
+            <edge id="ekonomka|politsejskij_ofitser" source="ekonomka" target="politsejskij_ofitser" weight="1"/>
+            <edge id="ekonomka|m-r_dzhekobs" source="ekonomka" target="m-r_dzhekobs" weight="5"/>
+            <edge id="ekonomka|m-r_simpson" source="ekonomka" target="m-r_simpson" weight="4"/>
+            <edge id="ekonomka|frenk" source="ekonomka" target="frenk" weight="6"/>
+            <edge id="ekonomka|polkovnik" source="ekonomka" target="polkovnik" weight="1"/>
+            <edge id="ekonomka|golosa" source="ekonomka" target="golosa" weight="1"/>
+            <edge id="ekonomka|artur" source="ekonomka" target="artur" weight="4"/>
+            <edge id="ekonomka|pamela" source="ekonomka" target="pamela" weight="3"/>
+            <edge id="ekonomka|m-ss_simpson" source="ekonomka" target="m-ss_simpson" weight="4"/>
+            <edge id="ekonomka|admiral" source="ekonomka" target="admiral" weight="1"/>
+            <edge id="ekonomka|doktor" source="ekonomka" target="doktor" weight="3"/>
+            <edge id="ekonomka|tsar" source="ekonomka" target="tsar" weight="2"/>
+            <edge id="ekonomka|golos_iz_radio_3-0" source="ekonomka" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="ekonomka|gornichnaja" source="ekonomka" target="gornichnaja" weight="1"/>
+            <edge id="ekonomka|lamperti" source="ekonomka" target="lamperti" weight="3"/>
+            <edge id="ekonomka|dzhefris" source="ekonomka" target="dzhefris" weight="2"/>
+            <edge id="ekonomka|m-r_dzhekobs-starshij" source="ekonomka" target="m-r_dzhekobs-starshij" weight="2"/>
+            <edge id="ekonomka|svjaschennik" source="ekonomka" target="svjaschennik" weight="2"/>
+            <edge id="m-ss_dzhekobs|doktor" source="m-ss_dzhekobs" target="doktor" weight="5"/>
+            <edge id="m-ss_dzhekobs|pamela" source="m-ss_dzhekobs" target="pamela" weight="8"/>
+            <edge id="m-ss_dzhekobs|frenk" source="m-ss_dzhekobs" target="frenk" weight="6"/>
+            <edge id="m-ss_dzhekobs|artur" source="m-ss_dzhekobs" target="artur" weight="7"/>
+            <edge id="m-ss_dzhekobs|m-r_dzhekobs" source="m-ss_dzhekobs" target="m-r_dzhekobs" weight="13"/>
+            <edge id="m-ss_dzhekobs|admiral" source="m-ss_dzhekobs" target="admiral" weight="2"/>
+            <edge id="m-ss_dzhekobs|m-ss_simpson" source="m-ss_dzhekobs" target="m-ss_simpson" weight="5"/>
+            <edge id="m-ss_dzhekobs|polkovnik" source="m-ss_dzhekobs" target="polkovnik" weight="3"/>
+            <edge id="m-ss_dzhekobs|m-r_simpson" source="m-ss_dzhekobs" target="m-r_simpson" weight="5"/>
+            <edge id="m-ss_dzhekobs|politsejskij_ofitser" source="m-ss_dzhekobs" target="politsejskij_ofitser" weight="1"/>
+            <edge id="m-ss_dzhekobs|golosa" source="m-ss_dzhekobs" target="golosa" weight="1"/>
+            <edge id="m-ss_dzhekobs|tsar" source="m-ss_dzhekobs" target="tsar" weight="2"/>
+            <edge id="m-ss_dzhekobs|baba" source="m-ss_dzhekobs" target="baba" weight="2"/>
+            <edge id="m-ss_dzhekobs|golos_iz_radio_3-0" source="m-ss_dzhekobs" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="m-ss_dzhekobs|gornichnaja" source="m-ss_dzhekobs" target="gornichnaja" weight="2"/>
+            <edge id="m-ss_dzhekobs|lamperti" source="m-ss_dzhekobs" target="lamperti" weight="2"/>
+            <edge id="m-ss_dzhekobs|dzhefris" source="m-ss_dzhekobs" target="dzhefris" weight="2"/>
+            <edge id="m-ss_dzhekobs|m-r_dzhekobs-starshij" source="m-ss_dzhekobs" target="m-r_dzhekobs-starshij" weight="2"/>
+            <edge id="m-ss_dzhekobs|svjaschennik" source="m-ss_dzhekobs" target="svjaschennik" weight="2"/>
+            <edge id="doktor|politsejskij_ofitser" source="doktor" target="politsejskij_ofitser" weight="1"/>
+            <edge id="doktor|m-r_dzhekobs" source="doktor" target="m-r_dzhekobs" weight="5"/>
+            <edge id="doktor|m-r_simpson" source="doktor" target="m-r_simpson" weight="3"/>
+            <edge id="doktor|frenk" source="doktor" target="frenk" weight="5"/>
+            <edge id="doktor|polkovnik" source="doktor" target="polkovnik" weight="1"/>
+            <edge id="doktor|golosa" source="doktor" target="golosa" weight="1"/>
+            <edge id="doktor|artur" source="doktor" target="artur" weight="4"/>
+            <edge id="doktor|pamela" source="doktor" target="pamela" weight="3"/>
+            <edge id="doktor|m-ss_simpson" source="doktor" target="m-ss_simpson" weight="3"/>
+            <edge id="doktor|admiral" source="doktor" target="admiral" weight="1"/>
+            <edge id="doktor|baba" source="doktor" target="baba" weight="1"/>
+            <edge id="doktor|golos_iz_radio_3-0" source="doktor" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="doktor|gornichnaja" source="doktor" target="gornichnaja" weight="1"/>
+            <edge id="doktor|lamperti" source="doktor" target="lamperti" weight="2"/>
+            <edge id="doktor|dzhefris" source="doktor" target="dzhefris" weight="1"/>
+            <edge id="doktor|m-r_dzhekobs-starshij" source="doktor" target="m-r_dzhekobs-starshij" weight="1"/>
+            <edge id="doktor|svjaschennik" source="doktor" target="svjaschennik" weight="3"/>
+            <edge id="doktor|tsar" source="doktor" target="tsar" weight="1"/>
+            <edge id="m-r_dzhekobs|golos_iz_radio_1-6" source="m-r_dzhekobs" target="golos_iz_radio_1-6" weight="1"/>
+            <edge id="m-r_dzhekobs|polkovnik" source="m-r_dzhekobs" target="polkovnik" weight="5"/>
+            <edge id="m-r_dzhekobs|pamela" source="m-r_dzhekobs" target="pamela" weight="7"/>
+            <edge id="m-r_dzhekobs|lamperti" source="m-r_dzhekobs" target="lamperti" weight="5"/>
+            <edge id="m-r_dzhekobs|admiral" source="m-r_dzhekobs" target="admiral" weight="2"/>
+            <edge id="m-r_dzhekobs|artur" source="m-r_dzhekobs" target="artur" weight="12"/>
+            <edge id="m-r_dzhekobs|m-ss_simpson" source="m-r_dzhekobs" target="m-ss_simpson" weight="7"/>
+            <edge id="m-r_dzhekobs|m-r_simpson" source="m-r_dzhekobs" target="m-r_simpson" weight="5"/>
+            <edge id="m-r_dzhekobs|politsejskij_ofitser" source="m-r_dzhekobs" target="politsejskij_ofitser" weight="1"/>
+            <edge id="m-r_dzhekobs|frenk" source="m-r_dzhekobs" target="frenk" weight="8"/>
+            <edge id="m-r_dzhekobs|golosa" source="m-r_dzhekobs" target="golosa" weight="1"/>
+            <edge id="m-r_dzhekobs|golos_iz_radio_2-2" source="m-r_dzhekobs" target="golos_iz_radio_2-2" weight="1"/>
+            <edge id="m-r_dzhekobs|tsar" source="m-r_dzhekobs" target="tsar" weight="5"/>
+            <edge id="m-r_dzhekobs|baba" source="m-r_dzhekobs" target="baba" weight="3"/>
+            <edge id="m-r_dzhekobs|golos_iz_radio_3-0" source="m-r_dzhekobs" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="m-r_dzhekobs|gornichnaja" source="m-r_dzhekobs" target="gornichnaja" weight="2"/>
+            <edge id="m-r_dzhekobs|dzhefris" source="m-r_dzhekobs" target="dzhefris" weight="2"/>
+            <edge id="m-r_dzhekobs|m-r_dzhekobs-starshij" source="m-r_dzhekobs" target="m-r_dzhekobs-starshij" weight="2"/>
+            <edge id="m-r_dzhekobs|svjaschennik" source="m-r_dzhekobs" target="svjaschennik" weight="3"/>
+            <edge id="m-r_dzhekobs|majkl" source="m-r_dzhekobs" target="majkl" weight="1"/>
+            <edge id="polkovnik|admiral" source="polkovnik" target="admiral" weight="2"/>
+            <edge id="polkovnik|artur" source="polkovnik" target="artur" weight="2"/>
+            <edge id="polkovnik|m-ss_simpson" source="polkovnik" target="m-ss_simpson" weight="2"/>
+            <edge id="polkovnik|pamela" source="polkovnik" target="pamela" weight="2"/>
+            <edge id="polkovnik|m-r_simpson" source="polkovnik" target="m-r_simpson" weight="2"/>
+            <edge id="polkovnik|politsejskij_ofitser" source="polkovnik" target="politsejskij_ofitser" weight="1"/>
+            <edge id="polkovnik|frenk" source="polkovnik" target="frenk" weight="1"/>
+            <edge id="polkovnik|golosa" source="polkovnik" target="golosa" weight="1"/>
+            <edge id="polkovnik|lamperti" source="polkovnik" target="lamperti" weight="1"/>
+            <edge id="polkovnik|soldat" source="polkovnik" target="soldat" weight="1"/>
+            <edge id="pamela|lamperti" source="pamela" target="lamperti" weight="4"/>
+            <edge id="pamela|frenk" source="pamela" target="frenk" weight="10"/>
+            <edge id="pamela|artur" source="pamela" target="artur" weight="5"/>
+            <edge id="pamela|m-ss_simpson" source="pamela" target="m-ss_simpson" weight="5"/>
+            <edge id="pamela|admiral" source="pamela" target="admiral" weight="2"/>
+            <edge id="pamela|m-r_simpson" source="pamela" target="m-r_simpson" weight="3"/>
+            <edge id="pamela|politsejskij_ofitser" source="pamela" target="politsejskij_ofitser" weight="1"/>
+            <edge id="pamela|golosa" source="pamela" target="golosa" weight="1"/>
+            <edge id="pamela|baba" source="pamela" target="baba" weight="2"/>
+            <edge id="pamela|golos_iz_radio_3-0" source="pamela" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="pamela|gornichnaja" source="pamela" target="gornichnaja" weight="1"/>
+            <edge id="pamela|dzhefris" source="pamela" target="dzhefris" weight="1"/>
+            <edge id="pamela|m-r_dzhekobs-starshij" source="pamela" target="m-r_dzhekobs-starshij" weight="1"/>
+            <edge id="pamela|svjaschennik" source="pamela" target="svjaschennik" weight="1"/>
+            <edge id="pamela|tsar" source="pamela" target="tsar" weight="1"/>
+            <edge id="lamperti|frenk" source="lamperti" target="frenk" weight="5"/>
+            <edge id="lamperti|golos_iz_radio_3-0" source="lamperti" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="lamperti|gornichnaja" source="lamperti" target="gornichnaja" weight="1"/>
+            <edge id="lamperti|dzhefris" source="lamperti" target="dzhefris" weight="1"/>
+            <edge id="lamperti|m-r_dzhekobs-starshij" source="lamperti" target="m-r_dzhekobs-starshij" weight="1"/>
+            <edge id="lamperti|m-ss_simpson" source="lamperti" target="m-ss_simpson" weight="3"/>
+            <edge id="lamperti|m-r_simpson" source="lamperti" target="m-r_simpson" weight="2"/>
+            <edge id="lamperti|svjaschennik" source="lamperti" target="svjaschennik" weight="2"/>
+            <edge id="lamperti|artur" source="lamperti" target="artur" weight="2"/>
+            <edge id="lamperti|tsar" source="lamperti" target="tsar" weight="1"/>
+            <edge id="frenk|politsejskij_ofitser" source="frenk" target="politsejskij_ofitser" weight="1"/>
+            <edge id="frenk|m-r_simpson" source="frenk" target="m-r_simpson" weight="3"/>
+            <edge id="frenk|golosa" source="frenk" target="golosa" weight="1"/>
+            <edge id="frenk|artur" source="frenk" target="artur" weight="5"/>
+            <edge id="frenk|m-ss_simpson" source="frenk" target="m-ss_simpson" weight="4"/>
+            <edge id="frenk|admiral" source="frenk" target="admiral" weight="1"/>
+            <edge id="frenk|baba" source="frenk" target="baba" weight="2"/>
+            <edge id="frenk|golos_iz_radio_3-0" source="frenk" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="frenk|gornichnaja" source="frenk" target="gornichnaja" weight="1"/>
+            <edge id="frenk|dzhefris" source="frenk" target="dzhefris" weight="2"/>
+            <edge id="frenk|m-r_dzhekobs-starshij" source="frenk" target="m-r_dzhekobs-starshij" weight="1"/>
+            <edge id="frenk|svjaschennik" source="frenk" target="svjaschennik" weight="2"/>
+            <edge id="frenk|tsar" source="frenk" target="tsar" weight="1"/>
+            <edge id="frenk|majkl" source="frenk" target="majkl" weight="1"/>
+            <edge id="artur|admiral" source="artur" target="admiral" weight="2"/>
+            <edge id="artur|m-ss_simpson" source="artur" target="m-ss_simpson" weight="4"/>
+            <edge id="artur|m-r_simpson" source="artur" target="m-r_simpson" weight="4"/>
+            <edge id="artur|politsejskij_ofitser" source="artur" target="politsejskij_ofitser" weight="1"/>
+            <edge id="artur|golosa" source="artur" target="golosa" weight="1"/>
+            <edge id="artur|tsar" source="artur" target="tsar" weight="6"/>
+            <edge id="artur|baba" source="artur" target="baba" weight="4"/>
+            <edge id="artur|golos_iz_radio_3-0" source="artur" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="artur|gornichnaja" source="artur" target="gornichnaja" weight="1"/>
+            <edge id="artur|dzhefris" source="artur" target="dzhefris" weight="1"/>
+            <edge id="artur|m-r_dzhekobs-starshij" source="artur" target="m-r_dzhekobs-starshij" weight="1"/>
+            <edge id="artur|svjaschennik" source="artur" target="svjaschennik" weight="2"/>
+            <edge id="artur|majkl" source="artur" target="majkl" weight="1"/>
+            <edge id="m-ss_simpson|admiral" source="m-ss_simpson" target="admiral" weight="2"/>
+            <edge id="m-ss_simpson|m-r_simpson" source="m-ss_simpson" target="m-r_simpson" weight="5"/>
+            <edge id="m-ss_simpson|politsejskij_ofitser" source="m-ss_simpson" target="politsejskij_ofitser" weight="1"/>
+            <edge id="m-ss_simpson|golosa" source="m-ss_simpson" target="golosa" weight="1"/>
+            <edge id="m-ss_simpson|golos_iz_radio_3-0" source="m-ss_simpson" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="m-ss_simpson|gornichnaja" source="m-ss_simpson" target="gornichnaja" weight="1"/>
+            <edge id="m-ss_simpson|dzhefris" source="m-ss_simpson" target="dzhefris" weight="1"/>
+            <edge id="m-ss_simpson|m-r_dzhekobs-starshij" source="m-ss_simpson" target="m-r_dzhekobs-starshij" weight="2"/>
+            <edge id="m-ss_simpson|svjaschennik" source="m-ss_simpson" target="svjaschennik" weight="2"/>
+            <edge id="m-ss_simpson|tsar" source="m-ss_simpson" target="tsar" weight="1"/>
+            <edge id="admiral|m-r_simpson" source="admiral" target="m-r_simpson" weight="2"/>
+            <edge id="admiral|politsejskij_ofitser" source="admiral" target="politsejskij_ofitser" weight="1"/>
+            <edge id="admiral|golosa" source="admiral" target="golosa" weight="1"/>
+            <edge id="m-r_dzhekobs-starshij|golos_iz_radio_3-0" source="m-r_dzhekobs-starshij" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="m-r_dzhekobs-starshij|gornichnaja" source="m-r_dzhekobs-starshij" target="gornichnaja" weight="1"/>
+            <edge id="m-r_dzhekobs-starshij|dzhefris" source="m-r_dzhekobs-starshij" target="dzhefris" weight="1"/>
+            <edge id="m-r_dzhekobs-starshij|m-r_simpson" source="m-r_dzhekobs-starshij" target="m-r_simpson" weight="2"/>
+            <edge id="m-r_dzhekobs-starshij|svjaschennik" source="m-r_dzhekobs-starshij" target="svjaschennik" weight="1"/>
+            <edge id="m-r_dzhekobs-starshij|tsar" source="m-r_dzhekobs-starshij" target="tsar" weight="1"/>
+            <edge id="m-r_simpson|politsejskij_ofitser" source="m-r_simpson" target="politsejskij_ofitser" weight="1"/>
+            <edge id="m-r_simpson|golosa" source="m-r_simpson" target="golosa" weight="1"/>
+            <edge id="m-r_simpson|golos_iz_radio_3-0" source="m-r_simpson" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="m-r_simpson|gornichnaja" source="m-r_simpson" target="gornichnaja" weight="1"/>
+            <edge id="m-r_simpson|dzhefris" source="m-r_simpson" target="dzhefris" weight="1"/>
+            <edge id="m-r_simpson|svjaschennik" source="m-r_simpson" target="svjaschennik" weight="2"/>
+            <edge id="m-r_simpson|tsar" source="m-r_simpson" target="tsar" weight="1"/>
+            <edge id="politsejskij_ofitser|golosa" source="politsejskij_ofitser" target="golosa" weight="1"/>
+            <edge id="tsar|golos_iz_radio_3-0" source="tsar" target="golos_iz_radio_3-0" weight="1"/>
+            <edge id="tsar|gornichnaja" source="tsar" target="gornichnaja" weight="1"/>
+            <edge id="tsar|dzhefris" source="tsar" target="dzhefris" weight="1"/>
+            <edge id="tsar|svjaschennik" source="tsar" target="svjaschennik" weight="1"/>
+            <edge id="tsar|baba" source="tsar" target="baba" weight="1"/>
+            <edge id="golos_iz_radio_3-0|gornichnaja" source="golos_iz_radio_3-0" target="gornichnaja" weight="1"/>
+            <edge id="golos_iz_radio_3-0|dzhefris" source="golos_iz_radio_3-0" target="dzhefris" weight="1"/>
+            <edge id="golos_iz_radio_3-0|svjaschennik" source="golos_iz_radio_3-0" target="svjaschennik" weight="1"/>
+            <edge id="gornichnaja|dzhefris" source="gornichnaja" target="dzhefris" weight="1"/>
+            <edge id="gornichnaja|svjaschennik" source="gornichnaja" target="svjaschennik" weight="1"/>
+            <edge id="dzhefris|svjaschennik" source="dzhefris" target="svjaschennik" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

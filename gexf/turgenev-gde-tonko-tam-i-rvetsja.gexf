@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Тургенев, Иван Сергеевич: Где тонко, там и рвётся</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="gorskij" label="Горский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4350"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="muhin" label="Мухин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="414"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mademoiselle_bienaime" label="M-lle Bienaimé">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="145"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vera" label="Вера">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1470"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gospozha_libanova" label="Г-жа Либанова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="663"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="varvara_ivanovna" label="Варвара Ивановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dvoretskij" label="Дворецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chuhanov" label="Чуханов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="288"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stanitsyn" label="Станицын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="409"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="gorskij|muhin" source="gorskij" target="muhin" weight="7"/>
+            <edge id="gorskij|mademoiselle_bienaime" source="gorskij" target="mademoiselle_bienaime" weight="5"/>
+            <edge id="gorskij|vera" source="gorskij" target="vera" weight="8"/>
+            <edge id="gorskij|gospozha_libanova" source="gorskij" target="gospozha_libanova" weight="6"/>
+            <edge id="gorskij|varvara_ivanovna" source="gorskij" target="varvara_ivanovna" weight="4"/>
+            <edge id="gorskij|chuhanov" source="gorskij" target="chuhanov" weight="4"/>
+            <edge id="gorskij|sluga" source="gorskij" target="sluga" weight="1"/>
+            <edge id="gorskij|stanitsyn" source="gorskij" target="stanitsyn" weight="3"/>
+            <edge id="muhin|vera" source="muhin" target="vera" weight="6"/>
+            <edge id="muhin|chuhanov" source="muhin" target="chuhanov" weight="3"/>
+            <edge id="muhin|gospozha_libanova" source="muhin" target="gospozha_libanova" weight="3"/>
+            <edge id="muhin|varvara_ivanovna" source="muhin" target="varvara_ivanovna" weight="3"/>
+            <edge id="muhin|mademoiselle_bienaime" source="muhin" target="mademoiselle_bienaime" weight="3"/>
+            <edge id="muhin|stanitsyn" source="muhin" target="stanitsyn" weight="1"/>
+            <edge id="mademoiselle_bienaime|vera" source="mademoiselle_bienaime" target="vera" weight="3"/>
+            <edge id="mademoiselle_bienaime|sluga" source="mademoiselle_bienaime" target="sluga" weight="1"/>
+            <edge id="mademoiselle_bienaime|stanitsyn" source="mademoiselle_bienaime" target="stanitsyn" weight="1"/>
+            <edge id="mademoiselle_bienaime|gospozha_libanova" source="mademoiselle_bienaime" target="gospozha_libanova" weight="1"/>
+            <edge id="mademoiselle_bienaime|varvara_ivanovna" source="mademoiselle_bienaime" target="varvara_ivanovna" weight="1"/>
+            <edge id="mademoiselle_bienaime|chuhanov" source="mademoiselle_bienaime" target="chuhanov" weight="1"/>
+            <edge id="vera|chuhanov" source="vera" target="chuhanov" weight="2"/>
+            <edge id="vera|gospozha_libanova" source="vera" target="gospozha_libanova" weight="2"/>
+            <edge id="vera|varvara_ivanovna" source="vera" target="varvara_ivanovna" weight="2"/>
+            <edge id="vera|sluga" source="vera" target="sluga" weight="1"/>
+            <edge id="vera|stanitsyn" source="vera" target="stanitsyn" weight="2"/>
+            <edge id="gospozha_libanova|varvara_ivanovna" source="gospozha_libanova" target="varvara_ivanovna" weight="4"/>
+            <edge id="gospozha_libanova|dvoretskij" source="gospozha_libanova" target="dvoretskij" weight="1"/>
+            <edge id="gospozha_libanova|chuhanov" source="gospozha_libanova" target="chuhanov" weight="3"/>
+            <edge id="varvara_ivanovna|chuhanov" source="varvara_ivanovna" target="chuhanov" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

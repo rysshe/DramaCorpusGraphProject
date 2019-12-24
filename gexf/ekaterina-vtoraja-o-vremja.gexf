@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Екатерина II: О время!</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="mavra" label="Мавра">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2525"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nepustov" label="Непустов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1234"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hanzhahina" label="Ханжахина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1181"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnikova" label="Вестникова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1327"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="molokososov" label="Молокососов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="874"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hristina" label="Христина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="410"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="chudihina" label="Чудихина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="962"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="mavra|nepustov" source="mavra" target="nepustov" weight="7"/>
+            <edge id="mavra|hanzhahina" source="mavra" target="hanzhahina" weight="4"/>
+            <edge id="mavra|vestnikova" source="mavra" target="vestnikova" weight="3"/>
+            <edge id="mavra|molokososov" source="mavra" target="molokososov" weight="5"/>
+            <edge id="mavra|hristina" source="mavra" target="hristina" weight="3"/>
+            <edge id="mavra|chudihina" source="mavra" target="chudihina" weight="1"/>
+            <edge id="nepustov|hanzhahina" source="nepustov" target="hanzhahina" weight="5"/>
+            <edge id="nepustov|vestnikova" source="nepustov" target="vestnikova" weight="4"/>
+            <edge id="nepustov|molokososov" source="nepustov" target="molokososov" weight="4"/>
+            <edge id="nepustov|hristina" source="nepustov" target="hristina" weight="1"/>
+            <edge id="hanzhahina|vestnikova" source="hanzhahina" target="vestnikova" weight="6"/>
+            <edge id="hanzhahina|chudihina" source="hanzhahina" target="chudihina" weight="1"/>
+            <edge id="hanzhahina|hristina" source="hanzhahina" target="hristina" weight="2"/>
+            <edge id="hanzhahina|molokososov" source="hanzhahina" target="molokososov" weight="1"/>
+            <edge id="vestnikova|molokososov" source="vestnikova" target="molokososov" weight="2"/>
+            <edge id="vestnikova|chudihina" source="vestnikova" target="chudihina" weight="1"/>
+            <edge id="vestnikova|hristina" source="vestnikova" target="hristina" weight="2"/>
+            <edge id="molokososov|hristina" source="molokososov" target="hristina" weight="1"/>
+            <edge id="hristina|chudihina" source="hristina" target="chudihina" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

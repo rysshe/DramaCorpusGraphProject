@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Озеров, Владислав Александрович: Димитрий Донской</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="dimitrij" label="Димитрий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4118"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tverskij" label="Тверский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1617"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="belozerskij" label="Белозерский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1538"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="smolenskij" label="Смоленский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="390"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="posol" label="Посол">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="193"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="brenskij" label="Бренский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="578"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="voin" label="Воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="129"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="izbrana" label="Избрана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="187"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ksenija" label="Ксения">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2389"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="bojarin" label="Боярин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="852"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="dimitrij|tverskij" source="dimitrij" target="tverskij" weight="7"/>
+            <edge id="dimitrij|belozerskij" source="dimitrij" target="belozerskij" weight="6"/>
+            <edge id="dimitrij|smolenskij" source="dimitrij" target="smolenskij" weight="3"/>
+            <edge id="dimitrij|posol" source="dimitrij" target="posol" weight="1"/>
+            <edge id="dimitrij|brenskij" source="dimitrij" target="brenskij" weight="7"/>
+            <edge id="dimitrij|voin" source="dimitrij" target="voin" weight="4"/>
+            <edge id="dimitrij|ksenija" source="dimitrij" target="ksenija" weight="5"/>
+            <edge id="dimitrij|bojarin" source="dimitrij" target="bojarin" weight="2"/>
+            <edge id="tverskij|belozerskij" source="tverskij" target="belozerskij" weight="7"/>
+            <edge id="tverskij|smolenskij" source="tverskij" target="smolenskij" weight="4"/>
+            <edge id="tverskij|ksenija" source="tverskij" target="ksenija" weight="3"/>
+            <edge id="tverskij|brenskij" source="tverskij" target="brenskij" weight="1"/>
+            <edge id="tverskij|voin" source="tverskij" target="voin" weight="1"/>
+            <edge id="tverskij|bojarin" source="tverskij" target="bojarin" weight="1"/>
+            <edge id="belozerskij|smolenskij" source="belozerskij" target="smolenskij" weight="4"/>
+            <edge id="belozerskij|ksenija" source="belozerskij" target="ksenija" weight="2"/>
+            <edge id="belozerskij|voin" source="belozerskij" target="voin" weight="1"/>
+            <edge id="belozerskij|bojarin" source="belozerskij" target="bojarin" weight="1"/>
+            <edge id="smolenskij|ksenija" source="smolenskij" target="ksenija" weight="1"/>
+            <edge id="posol|brenskij" source="posol" target="brenskij" weight="1"/>
+            <edge id="brenskij|voin" source="brenskij" target="voin" weight="1"/>
+            <edge id="voin|ksenija" source="voin" target="ksenija" weight="1"/>
+            <edge id="voin|bojarin" source="voin" target="bojarin" weight="1"/>
+            <edge id="izbrana|ksenija" source="izbrana" target="ksenija" weight="2"/>
+            <edge id="ksenija|bojarin" source="ksenija" target="bojarin" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Пушкин, Александр Сергеевич: Сцены из рыцарских времен</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Martyn" label="Мартын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="475"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Frants" label="Франц">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="884"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Bertold" label="Бертольд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="312"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Alber" label="Альбер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="363"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Klotilda" label="Клотильда">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="224"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Berta" label="Берта">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="95"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Rotenfeld" label="Ротенфельд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="252"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Karl" label="Карл">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="202"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kosari" label="Косари">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Rytsari" label="Рыцари">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="52"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinRytsar" label="Один рыцарь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugojRytsar" label="Другой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Vassaly" label="Вассалы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinIzNih" label="Один из них">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugojRytsar_2" label="Другой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Rytsari_2" label="Рыцари">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Rytsar" label="Рыцарь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugojRytsar_3" label="Другой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinIzRytsarej" label="Один из рыцарей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="66"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinRytsar_2" label="Один рыцарь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinIzRytsarej_2" label="Один из рыцарей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Rytsar_2" label="Рыцарь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugojRytsar_4" label="Другой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Martyn|Frants" source="Martyn" target="Frants" weight="1"/>
+            <edge id="Martyn|Bertold" source="Martyn" target="Bertold" weight="2"/>
+            <edge id="Frants|Bertold" source="Frants" target="Bertold" weight="1"/>
+            <edge id="Frants|Alber" source="Frants" target="Alber" weight="5"/>
+            <edge id="Frants|Rotenfeld" source="Frants" target="Rotenfeld" weight="4"/>
+            <edge id="Frants|Klotilda" source="Frants" target="Klotilda" weight="2"/>
+            <edge id="Frants|Karl" source="Frants" target="Karl" weight="1"/>
+            <edge id="Frants|Kosari" source="Frants" target="Kosari" weight="2"/>
+            <edge id="Frants|Rytsari" source="Frants" target="Rytsari" weight="2"/>
+            <edge id="Frants|OdinRytsar" source="Frants" target="OdinRytsar" weight="1"/>
+            <edge id="Frants|DrugojRytsar" source="Frants" target="DrugojRytsar" weight="1"/>
+            <edge id="Frants|Vassaly" source="Frants" target="Vassaly" weight="2"/>
+            <edge id="Frants|OdinIzNih" source="Frants" target="OdinIzNih" weight="1"/>
+            <edge id="Frants|DrugojRytsar_2" source="Frants" target="DrugojRytsar_2" weight="1"/>
+            <edge id="Frants|Rytsari_2" source="Frants" target="Rytsari_2" weight="2"/>
+            <edge id="Frants|Rytsar" source="Frants" target="Rytsar" weight="1"/>
+            <edge id="Frants|DrugojRytsar_3" source="Frants" target="DrugojRytsar_3" weight="1"/>
+            <edge id="Frants|OdinIzRytsarej" source="Frants" target="OdinIzRytsarej" weight="1"/>
+            <edge id="Frants|OdinRytsar_2" source="Frants" target="OdinRytsar_2" weight="1"/>
+            <edge id="Frants|OdinIzRytsarej_2" source="Frants" target="OdinIzRytsarej_2" weight="1"/>
+            <edge id="Frants|Rytsar_2" source="Frants" target="Rytsar_2" weight="1"/>
+            <edge id="Frants|DrugojRytsar_4" source="Frants" target="DrugojRytsar_4" weight="1"/>
+            <edge id="Alber|Rotenfeld" source="Alber" target="Rotenfeld" weight="4"/>
+            <edge id="Alber|Klotilda" source="Alber" target="Klotilda" weight="3"/>
+            <edge id="Alber|Rytsari" source="Alber" target="Rytsari" weight="2"/>
+            <edge id="Alber|Kosari" source="Alber" target="Kosari" weight="1"/>
+            <edge id="Alber|OdinRytsar" source="Alber" target="OdinRytsar" weight="1"/>
+            <edge id="Alber|DrugojRytsar" source="Alber" target="DrugojRytsar" weight="1"/>
+            <edge id="Alber|Vassaly" source="Alber" target="Vassaly" weight="2"/>
+            <edge id="Alber|OdinIzNih" source="Alber" target="OdinIzNih" weight="1"/>
+            <edge id="Alber|DrugojRytsar_2" source="Alber" target="DrugojRytsar_2" weight="1"/>
+            <edge id="Alber|Rytsari_2" source="Alber" target="Rytsari_2" weight="2"/>
+            <edge id="Alber|Rytsar" source="Alber" target="Rytsar" weight="1"/>
+            <edge id="Alber|DrugojRytsar_3" source="Alber" target="DrugojRytsar_3" weight="1"/>
+            <edge id="Alber|OdinIzRytsarej" source="Alber" target="OdinIzRytsarej" weight="1"/>
+            <edge id="Alber|OdinRytsar_2" source="Alber" target="OdinRytsar_2" weight="1"/>
+            <edge id="Alber|OdinIzRytsarej_2" source="Alber" target="OdinIzRytsarej_2" weight="1"/>
+            <edge id="Alber|Rytsar_2" source="Alber" target="Rytsar_2" weight="1"/>
+            <edge id="Alber|DrugojRytsar_4" source="Alber" target="DrugojRytsar_4" weight="1"/>
+            <edge id="Klotilda|Berta" source="Klotilda" target="Berta" weight="1"/>
+            <edge id="Klotilda|Rotenfeld" source="Klotilda" target="Rotenfeld" weight="2"/>
+            <edge id="Klotilda|OdinRytsar_2" source="Klotilda" target="OdinRytsar_2" weight="1"/>
+            <edge id="Klotilda|Rytsari" source="Klotilda" target="Rytsari" weight="1"/>
+            <edge id="Klotilda|Rytsari_2" source="Klotilda" target="Rytsari_2" weight="1"/>
+            <edge id="Klotilda|OdinIzRytsarej_2" source="Klotilda" target="OdinIzRytsarej_2" weight="1"/>
+            <edge id="Klotilda|Rytsar_2" source="Klotilda" target="Rytsar_2" weight="1"/>
+            <edge id="Klotilda|DrugojRytsar_4" source="Klotilda" target="DrugojRytsar_4" weight="1"/>
+            <edge id="Rotenfeld|Rytsari" source="Rotenfeld" target="Rytsari" weight="2"/>
+            <edge id="Rotenfeld|Kosari" source="Rotenfeld" target="Kosari" weight="1"/>
+            <edge id="Rotenfeld|OdinRytsar" source="Rotenfeld" target="OdinRytsar" weight="1"/>
+            <edge id="Rotenfeld|DrugojRytsar" source="Rotenfeld" target="DrugojRytsar" weight="1"/>
+            <edge id="Rotenfeld|Vassaly" source="Rotenfeld" target="Vassaly" weight="2"/>
+            <edge id="Rotenfeld|OdinIzNih" source="Rotenfeld" target="OdinIzNih" weight="1"/>
+            <edge id="Rotenfeld|DrugojRytsar_2" source="Rotenfeld" target="DrugojRytsar_2" weight="1"/>
+            <edge id="Rotenfeld|Rytsari_2" source="Rotenfeld" target="Rytsari_2" weight="2"/>
+            <edge id="Rotenfeld|Rytsar" source="Rotenfeld" target="Rytsar" weight="1"/>
+            <edge id="Rotenfeld|DrugojRytsar_3" source="Rotenfeld" target="DrugojRytsar_3" weight="1"/>
+            <edge id="Rotenfeld|OdinIzRytsarej" source="Rotenfeld" target="OdinIzRytsarej" weight="1"/>
+            <edge id="Rotenfeld|OdinRytsar_2" source="Rotenfeld" target="OdinRytsar_2" weight="1"/>
+            <edge id="Rotenfeld|OdinIzRytsarej_2" source="Rotenfeld" target="OdinIzRytsarej_2" weight="1"/>
+            <edge id="Rotenfeld|Rytsar_2" source="Rotenfeld" target="Rytsar_2" weight="1"/>
+            <edge id="Rotenfeld|DrugojRytsar_4" source="Rotenfeld" target="DrugojRytsar_4" weight="1"/>
+            <edge id="Kosari|Rytsari" source="Kosari" target="Rytsari" weight="1"/>
+            <edge id="Kosari|OdinRytsar" source="Kosari" target="OdinRytsar" weight="1"/>
+            <edge id="Kosari|DrugojRytsar" source="Kosari" target="DrugojRytsar" weight="1"/>
+            <edge id="Kosari|Vassaly" source="Kosari" target="Vassaly" weight="1"/>
+            <edge id="Rytsari|OdinRytsar" source="Rytsari" target="OdinRytsar" weight="1"/>
+            <edge id="Rytsari|DrugojRytsar" source="Rytsari" target="DrugojRytsar" weight="1"/>
+            <edge id="Rytsari|Vassaly" source="Rytsari" target="Vassaly" weight="1"/>
+            <edge id="Rytsari|OdinRytsar_2" source="Rytsari" target="OdinRytsar_2" weight="1"/>
+            <edge id="Rytsari|Rytsari_2" source="Rytsari" target="Rytsari_2" weight="1"/>
+            <edge id="Rytsari|OdinIzRytsarej_2" source="Rytsari" target="OdinIzRytsarej_2" weight="1"/>
+            <edge id="Rytsari|Rytsar_2" source="Rytsari" target="Rytsar_2" weight="1"/>
+            <edge id="Rytsari|DrugojRytsar_4" source="Rytsari" target="DrugojRytsar_4" weight="1"/>
+            <edge id="OdinRytsar|DrugojRytsar" source="OdinRytsar" target="DrugojRytsar" weight="1"/>
+            <edge id="OdinRytsar|Vassaly" source="OdinRytsar" target="Vassaly" weight="1"/>
+            <edge id="DrugojRytsar|Vassaly" source="DrugojRytsar" target="Vassaly" weight="1"/>
+            <edge id="Vassaly|OdinIzNih" source="Vassaly" target="OdinIzNih" weight="1"/>
+            <edge id="Vassaly|DrugojRytsar_2" source="Vassaly" target="DrugojRytsar_2" weight="1"/>
+            <edge id="Vassaly|Rytsari_2" source="Vassaly" target="Rytsari_2" weight="1"/>
+            <edge id="Vassaly|Rytsar" source="Vassaly" target="Rytsar" weight="1"/>
+            <edge id="Vassaly|DrugojRytsar_3" source="Vassaly" target="DrugojRytsar_3" weight="1"/>
+            <edge id="Vassaly|OdinIzRytsarej" source="Vassaly" target="OdinIzRytsarej" weight="1"/>
+            <edge id="OdinIzNih|DrugojRytsar_2" source="OdinIzNih" target="DrugojRytsar_2" weight="1"/>
+            <edge id="OdinIzNih|Rytsari_2" source="OdinIzNih" target="Rytsari_2" weight="1"/>
+            <edge id="OdinIzNih|Rytsar" source="OdinIzNih" target="Rytsar" weight="1"/>
+            <edge id="OdinIzNih|DrugojRytsar_3" source="OdinIzNih" target="DrugojRytsar_3" weight="1"/>
+            <edge id="OdinIzNih|OdinIzRytsarej" source="OdinIzNih" target="OdinIzRytsarej" weight="1"/>
+            <edge id="DrugojRytsar_2|Rytsari_2" source="DrugojRytsar_2" target="Rytsari_2" weight="1"/>
+            <edge id="DrugojRytsar_2|Rytsar" source="DrugojRytsar_2" target="Rytsar" weight="1"/>
+            <edge id="DrugojRytsar_2|DrugojRytsar_3" source="DrugojRytsar_2" target="DrugojRytsar_3" weight="1"/>
+            <edge id="DrugojRytsar_2|OdinIzRytsarej" source="DrugojRytsar_2" target="OdinIzRytsarej" weight="1"/>
+            <edge id="Rytsari_2|Rytsar" source="Rytsari_2" target="Rytsar" weight="1"/>
+            <edge id="Rytsari_2|DrugojRytsar_3" source="Rytsari_2" target="DrugojRytsar_3" weight="1"/>
+            <edge id="Rytsari_2|OdinIzRytsarej" source="Rytsari_2" target="OdinIzRytsarej" weight="1"/>
+            <edge id="Rytsari_2|OdinRytsar_2" source="Rytsari_2" target="OdinRytsar_2" weight="1"/>
+            <edge id="Rytsari_2|OdinIzRytsarej_2" source="Rytsari_2" target="OdinIzRytsarej_2" weight="1"/>
+            <edge id="Rytsari_2|Rytsar_2" source="Rytsari_2" target="Rytsar_2" weight="1"/>
+            <edge id="Rytsari_2|DrugojRytsar_4" source="Rytsari_2" target="DrugojRytsar_4" weight="1"/>
+            <edge id="Rytsar|DrugojRytsar_3" source="Rytsar" target="DrugojRytsar_3" weight="1"/>
+            <edge id="Rytsar|OdinIzRytsarej" source="Rytsar" target="OdinIzRytsarej" weight="1"/>
+            <edge id="DrugojRytsar_3|OdinIzRytsarej" source="DrugojRytsar_3" target="OdinIzRytsarej" weight="1"/>
+            <edge id="OdinRytsar_2|OdinIzRytsarej_2" source="OdinRytsar_2" target="OdinIzRytsarej_2" weight="1"/>
+            <edge id="OdinRytsar_2|Rytsar_2" source="OdinRytsar_2" target="Rytsar_2" weight="1"/>
+            <edge id="OdinRytsar_2|DrugojRytsar_4" source="OdinRytsar_2" target="DrugojRytsar_4" weight="1"/>
+            <edge id="OdinIzRytsarej_2|Rytsar_2" source="OdinIzRytsarej_2" target="Rytsar_2" weight="1"/>
+            <edge id="OdinIzRytsarej_2|DrugojRytsar_4" source="OdinIzRytsarej_2" target="DrugojRytsar_4" weight="1"/>
+            <edge id="Rytsar_2|DrugojRytsar_4" source="Rytsar_2" target="DrugojRytsar_4" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

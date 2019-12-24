@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Чехов, Антон Павлович: Татьяна Репина</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="OIvan" label="О. Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="795"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ArhierejskijHor" label="Архиерейский хор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="114"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Patronnikov" label="Патронников">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Zonenshtejn" label="Зоненштейн">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="35"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Djakon" label="Дьякон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="337"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="SobornyjHor" label="Соборный хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="ONikolaj" label="О. Николай">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="98"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Baryshnja" label="Барышня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="VTolpe" label="В толпе">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="269"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Kotelnikov" label="Котельников">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="165"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Volgin" label="Волгин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TovarischProkurora" label="Товарищ прокурора">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="52"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kokoshkina" label="Кокошкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="88"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Kokoshkin" label="Кокошкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Djachok" label="Дьячок">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="236"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Sabinin" label="Сабинин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="138"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Hor" label="Хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="85"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Olenina" label="Оленина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Matveev" label="Матвеев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="61"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Komik" label="Комик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="KtoTo" label="Кто-то">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="OfitserIzTolpy" label="Офицер из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="MolodojAkter" label="Молодой актер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OAleksej" label="О. Алексей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="78"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Student" label="Студент">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Damy" label="Дамы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Kuzma" label="Кузьма">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="88"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DamaVChernom" label="Дама в черном">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="55"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="OIvan|ArhierejskijHor" source="OIvan" target="ArhierejskijHor" weight="1"/>
+            <edge id="OIvan|Patronnikov" source="OIvan" target="Patronnikov" weight="1"/>
+            <edge id="OIvan|Zonenshtejn" source="OIvan" target="Zonenshtejn" weight="1"/>
+            <edge id="OIvan|Djakon" source="OIvan" target="Djakon" weight="1"/>
+            <edge id="OIvan|SobornyjHor" source="OIvan" target="SobornyjHor" weight="1"/>
+            <edge id="OIvan|ONikolaj" source="OIvan" target="ONikolaj" weight="1"/>
+            <edge id="OIvan|Baryshnja" source="OIvan" target="Baryshnja" weight="1"/>
+            <edge id="OIvan|VTolpe" source="OIvan" target="VTolpe" weight="1"/>
+            <edge id="OIvan|Kotelnikov" source="OIvan" target="Kotelnikov" weight="1"/>
+            <edge id="OIvan|Volgin" source="OIvan" target="Volgin" weight="1"/>
+            <edge id="OIvan|TovarischProkurora" source="OIvan" target="TovarischProkurora" weight="1"/>
+            <edge id="OIvan|Kokoshkina" source="OIvan" target="Kokoshkina" weight="1"/>
+            <edge id="OIvan|Kokoshkin" source="OIvan" target="Kokoshkin" weight="1"/>
+            <edge id="OIvan|Djachok" source="OIvan" target="Djachok" weight="1"/>
+            <edge id="OIvan|Sabinin" source="OIvan" target="Sabinin" weight="1"/>
+            <edge id="OIvan|Hor" source="OIvan" target="Hor" weight="1"/>
+            <edge id="OIvan|Olenina" source="OIvan" target="Olenina" weight="1"/>
+            <edge id="OIvan|Matveev" source="OIvan" target="Matveev" weight="1"/>
+            <edge id="OIvan|Komik" source="OIvan" target="Komik" weight="1"/>
+            <edge id="OIvan|KtoTo" source="OIvan" target="KtoTo" weight="1"/>
+            <edge id="OIvan|OfitserIzTolpy" source="OIvan" target="OfitserIzTolpy" weight="1"/>
+            <edge id="OIvan|MolodojAkter" source="OIvan" target="MolodojAkter" weight="1"/>
+            <edge id="OIvan|OAleksej" source="OIvan" target="OAleksej" weight="1"/>
+            <edge id="OIvan|Student" source="OIvan" target="Student" weight="1"/>
+            <edge id="OIvan|Damy" source="OIvan" target="Damy" weight="1"/>
+            <edge id="OIvan|Kuzma" source="OIvan" target="Kuzma" weight="1"/>
+            <edge id="OIvan|DamaVChernom" source="OIvan" target="DamaVChernom" weight="1"/>
+            <edge id="ArhierejskijHor|Patronnikov" source="ArhierejskijHor" target="Patronnikov" weight="1"/>
+            <edge id="ArhierejskijHor|Zonenshtejn" source="ArhierejskijHor" target="Zonenshtejn" weight="1"/>
+            <edge id="ArhierejskijHor|Djakon" source="ArhierejskijHor" target="Djakon" weight="1"/>
+            <edge id="ArhierejskijHor|SobornyjHor" source="ArhierejskijHor" target="SobornyjHor" weight="1"/>
+            <edge id="ArhierejskijHor|ONikolaj" source="ArhierejskijHor" target="ONikolaj" weight="1"/>
+            <edge id="ArhierejskijHor|Baryshnja" source="ArhierejskijHor" target="Baryshnja" weight="1"/>
+            <edge id="ArhierejskijHor|VTolpe" source="ArhierejskijHor" target="VTolpe" weight="1"/>
+            <edge id="ArhierejskijHor|Kotelnikov" source="ArhierejskijHor" target="Kotelnikov" weight="1"/>
+            <edge id="ArhierejskijHor|Volgin" source="ArhierejskijHor" target="Volgin" weight="1"/>
+            <edge id="ArhierejskijHor|TovarischProkurora" source="ArhierejskijHor" target="TovarischProkurora" weight="1"/>
+            <edge id="ArhierejskijHor|Kokoshkina" source="ArhierejskijHor" target="Kokoshkina" weight="1"/>
+            <edge id="ArhierejskijHor|Kokoshkin" source="ArhierejskijHor" target="Kokoshkin" weight="1"/>
+            <edge id="ArhierejskijHor|Djachok" source="ArhierejskijHor" target="Djachok" weight="1"/>
+            <edge id="ArhierejskijHor|Sabinin" source="ArhierejskijHor" target="Sabinin" weight="1"/>
+            <edge id="ArhierejskijHor|Hor" source="ArhierejskijHor" target="Hor" weight="1"/>
+            <edge id="ArhierejskijHor|Olenina" source="ArhierejskijHor" target="Olenina" weight="1"/>
+            <edge id="ArhierejskijHor|Matveev" source="ArhierejskijHor" target="Matveev" weight="1"/>
+            <edge id="ArhierejskijHor|Komik" source="ArhierejskijHor" target="Komik" weight="1"/>
+            <edge id="ArhierejskijHor|KtoTo" source="ArhierejskijHor" target="KtoTo" weight="1"/>
+            <edge id="ArhierejskijHor|OfitserIzTolpy" source="ArhierejskijHor" target="OfitserIzTolpy" weight="1"/>
+            <edge id="ArhierejskijHor|MolodojAkter" source="ArhierejskijHor" target="MolodojAkter" weight="1"/>
+            <edge id="ArhierejskijHor|OAleksej" source="ArhierejskijHor" target="OAleksej" weight="1"/>
+            <edge id="ArhierejskijHor|Student" source="ArhierejskijHor" target="Student" weight="1"/>
+            <edge id="ArhierejskijHor|Damy" source="ArhierejskijHor" target="Damy" weight="1"/>
+            <edge id="ArhierejskijHor|Kuzma" source="ArhierejskijHor" target="Kuzma" weight="1"/>
+            <edge id="ArhierejskijHor|DamaVChernom" source="ArhierejskijHor" target="DamaVChernom" weight="1"/>
+            <edge id="Patronnikov|Zonenshtejn" source="Patronnikov" target="Zonenshtejn" weight="1"/>
+            <edge id="Patronnikov|Djakon" source="Patronnikov" target="Djakon" weight="1"/>
+            <edge id="Patronnikov|SobornyjHor" source="Patronnikov" target="SobornyjHor" weight="1"/>
+            <edge id="Patronnikov|ONikolaj" source="Patronnikov" target="ONikolaj" weight="1"/>
+            <edge id="Patronnikov|Baryshnja" source="Patronnikov" target="Baryshnja" weight="1"/>
+            <edge id="Patronnikov|VTolpe" source="Patronnikov" target="VTolpe" weight="1"/>
+            <edge id="Patronnikov|Kotelnikov" source="Patronnikov" target="Kotelnikov" weight="1"/>
+            <edge id="Patronnikov|Volgin" source="Patronnikov" target="Volgin" weight="1"/>
+            <edge id="Patronnikov|TovarischProkurora" source="Patronnikov" target="TovarischProkurora" weight="1"/>
+            <edge id="Patronnikov|Kokoshkina" source="Patronnikov" target="Kokoshkina" weight="1"/>
+            <edge id="Patronnikov|Kokoshkin" source="Patronnikov" target="Kokoshkin" weight="1"/>
+            <edge id="Patronnikov|Djachok" source="Patronnikov" target="Djachok" weight="1"/>
+            <edge id="Patronnikov|Sabinin" source="Patronnikov" target="Sabinin" weight="1"/>
+            <edge id="Patronnikov|Hor" source="Patronnikov" target="Hor" weight="1"/>
+            <edge id="Patronnikov|Olenina" source="Patronnikov" target="Olenina" weight="1"/>
+            <edge id="Patronnikov|Matveev" source="Patronnikov" target="Matveev" weight="1"/>
+            <edge id="Patronnikov|Komik" source="Patronnikov" target="Komik" weight="1"/>
+            <edge id="Patronnikov|KtoTo" source="Patronnikov" target="KtoTo" weight="1"/>
+            <edge id="Patronnikov|OfitserIzTolpy" source="Patronnikov" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Patronnikov|MolodojAkter" source="Patronnikov" target="MolodojAkter" weight="1"/>
+            <edge id="Patronnikov|OAleksej" source="Patronnikov" target="OAleksej" weight="1"/>
+            <edge id="Patronnikov|Student" source="Patronnikov" target="Student" weight="1"/>
+            <edge id="Patronnikov|Damy" source="Patronnikov" target="Damy" weight="1"/>
+            <edge id="Patronnikov|Kuzma" source="Patronnikov" target="Kuzma" weight="1"/>
+            <edge id="Patronnikov|DamaVChernom" source="Patronnikov" target="DamaVChernom" weight="1"/>
+            <edge id="Zonenshtejn|Djakon" source="Zonenshtejn" target="Djakon" weight="1"/>
+            <edge id="Zonenshtejn|SobornyjHor" source="Zonenshtejn" target="SobornyjHor" weight="1"/>
+            <edge id="Zonenshtejn|ONikolaj" source="Zonenshtejn" target="ONikolaj" weight="1"/>
+            <edge id="Zonenshtejn|Baryshnja" source="Zonenshtejn" target="Baryshnja" weight="1"/>
+            <edge id="Zonenshtejn|VTolpe" source="Zonenshtejn" target="VTolpe" weight="1"/>
+            <edge id="Zonenshtejn|Kotelnikov" source="Zonenshtejn" target="Kotelnikov" weight="1"/>
+            <edge id="Zonenshtejn|Volgin" source="Zonenshtejn" target="Volgin" weight="1"/>
+            <edge id="Zonenshtejn|TovarischProkurora" source="Zonenshtejn" target="TovarischProkurora" weight="1"/>
+            <edge id="Zonenshtejn|Kokoshkina" source="Zonenshtejn" target="Kokoshkina" weight="1"/>
+            <edge id="Zonenshtejn|Kokoshkin" source="Zonenshtejn" target="Kokoshkin" weight="1"/>
+            <edge id="Zonenshtejn|Djachok" source="Zonenshtejn" target="Djachok" weight="1"/>
+            <edge id="Zonenshtejn|Sabinin" source="Zonenshtejn" target="Sabinin" weight="1"/>
+            <edge id="Zonenshtejn|Hor" source="Zonenshtejn" target="Hor" weight="1"/>
+            <edge id="Zonenshtejn|Olenina" source="Zonenshtejn" target="Olenina" weight="1"/>
+            <edge id="Zonenshtejn|Matveev" source="Zonenshtejn" target="Matveev" weight="1"/>
+            <edge id="Zonenshtejn|Komik" source="Zonenshtejn" target="Komik" weight="1"/>
+            <edge id="Zonenshtejn|KtoTo" source="Zonenshtejn" target="KtoTo" weight="1"/>
+            <edge id="Zonenshtejn|OfitserIzTolpy" source="Zonenshtejn" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Zonenshtejn|MolodojAkter" source="Zonenshtejn" target="MolodojAkter" weight="1"/>
+            <edge id="Zonenshtejn|OAleksej" source="Zonenshtejn" target="OAleksej" weight="1"/>
+            <edge id="Zonenshtejn|Student" source="Zonenshtejn" target="Student" weight="1"/>
+            <edge id="Zonenshtejn|Damy" source="Zonenshtejn" target="Damy" weight="1"/>
+            <edge id="Zonenshtejn|Kuzma" source="Zonenshtejn" target="Kuzma" weight="1"/>
+            <edge id="Zonenshtejn|DamaVChernom" source="Zonenshtejn" target="DamaVChernom" weight="1"/>
+            <edge id="Djakon|SobornyjHor" source="Djakon" target="SobornyjHor" weight="1"/>
+            <edge id="Djakon|ONikolaj" source="Djakon" target="ONikolaj" weight="1"/>
+            <edge id="Djakon|Baryshnja" source="Djakon" target="Baryshnja" weight="1"/>
+            <edge id="Djakon|VTolpe" source="Djakon" target="VTolpe" weight="1"/>
+            <edge id="Djakon|Kotelnikov" source="Djakon" target="Kotelnikov" weight="1"/>
+            <edge id="Djakon|Volgin" source="Djakon" target="Volgin" weight="1"/>
+            <edge id="Djakon|TovarischProkurora" source="Djakon" target="TovarischProkurora" weight="1"/>
+            <edge id="Djakon|Kokoshkina" source="Djakon" target="Kokoshkina" weight="1"/>
+            <edge id="Djakon|Kokoshkin" source="Djakon" target="Kokoshkin" weight="1"/>
+            <edge id="Djakon|Djachok" source="Djakon" target="Djachok" weight="1"/>
+            <edge id="Djakon|Sabinin" source="Djakon" target="Sabinin" weight="1"/>
+            <edge id="Djakon|Hor" source="Djakon" target="Hor" weight="1"/>
+            <edge id="Djakon|Olenina" source="Djakon" target="Olenina" weight="1"/>
+            <edge id="Djakon|Matveev" source="Djakon" target="Matveev" weight="1"/>
+            <edge id="Djakon|Komik" source="Djakon" target="Komik" weight="1"/>
+            <edge id="Djakon|KtoTo" source="Djakon" target="KtoTo" weight="1"/>
+            <edge id="Djakon|OfitserIzTolpy" source="Djakon" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Djakon|MolodojAkter" source="Djakon" target="MolodojAkter" weight="1"/>
+            <edge id="Djakon|OAleksej" source="Djakon" target="OAleksej" weight="1"/>
+            <edge id="Djakon|Student" source="Djakon" target="Student" weight="1"/>
+            <edge id="Djakon|Damy" source="Djakon" target="Damy" weight="1"/>
+            <edge id="Djakon|Kuzma" source="Djakon" target="Kuzma" weight="1"/>
+            <edge id="Djakon|DamaVChernom" source="Djakon" target="DamaVChernom" weight="1"/>
+            <edge id="SobornyjHor|ONikolaj" source="SobornyjHor" target="ONikolaj" weight="1"/>
+            <edge id="SobornyjHor|Baryshnja" source="SobornyjHor" target="Baryshnja" weight="1"/>
+            <edge id="SobornyjHor|VTolpe" source="SobornyjHor" target="VTolpe" weight="1"/>
+            <edge id="SobornyjHor|Kotelnikov" source="SobornyjHor" target="Kotelnikov" weight="1"/>
+            <edge id="SobornyjHor|Volgin" source="SobornyjHor" target="Volgin" weight="1"/>
+            <edge id="SobornyjHor|TovarischProkurora" source="SobornyjHor" target="TovarischProkurora" weight="1"/>
+            <edge id="SobornyjHor|Kokoshkina" source="SobornyjHor" target="Kokoshkina" weight="1"/>
+            <edge id="SobornyjHor|Kokoshkin" source="SobornyjHor" target="Kokoshkin" weight="1"/>
+            <edge id="SobornyjHor|Djachok" source="SobornyjHor" target="Djachok" weight="1"/>
+            <edge id="SobornyjHor|Sabinin" source="SobornyjHor" target="Sabinin" weight="1"/>
+            <edge id="SobornyjHor|Hor" source="SobornyjHor" target="Hor" weight="1"/>
+            <edge id="SobornyjHor|Olenina" source="SobornyjHor" target="Olenina" weight="1"/>
+            <edge id="SobornyjHor|Matveev" source="SobornyjHor" target="Matveev" weight="1"/>
+            <edge id="SobornyjHor|Komik" source="SobornyjHor" target="Komik" weight="1"/>
+            <edge id="SobornyjHor|KtoTo" source="SobornyjHor" target="KtoTo" weight="1"/>
+            <edge id="SobornyjHor|OfitserIzTolpy" source="SobornyjHor" target="OfitserIzTolpy" weight="1"/>
+            <edge id="SobornyjHor|MolodojAkter" source="SobornyjHor" target="MolodojAkter" weight="1"/>
+            <edge id="SobornyjHor|OAleksej" source="SobornyjHor" target="OAleksej" weight="1"/>
+            <edge id="SobornyjHor|Student" source="SobornyjHor" target="Student" weight="1"/>
+            <edge id="SobornyjHor|Damy" source="SobornyjHor" target="Damy" weight="1"/>
+            <edge id="SobornyjHor|Kuzma" source="SobornyjHor" target="Kuzma" weight="1"/>
+            <edge id="SobornyjHor|DamaVChernom" source="SobornyjHor" target="DamaVChernom" weight="1"/>
+            <edge id="ONikolaj|Baryshnja" source="ONikolaj" target="Baryshnja" weight="1"/>
+            <edge id="ONikolaj|VTolpe" source="ONikolaj" target="VTolpe" weight="1"/>
+            <edge id="ONikolaj|Kotelnikov" source="ONikolaj" target="Kotelnikov" weight="1"/>
+            <edge id="ONikolaj|Volgin" source="ONikolaj" target="Volgin" weight="1"/>
+            <edge id="ONikolaj|TovarischProkurora" source="ONikolaj" target="TovarischProkurora" weight="1"/>
+            <edge id="ONikolaj|Kokoshkina" source="ONikolaj" target="Kokoshkina" weight="1"/>
+            <edge id="ONikolaj|Kokoshkin" source="ONikolaj" target="Kokoshkin" weight="1"/>
+            <edge id="ONikolaj|Djachok" source="ONikolaj" target="Djachok" weight="1"/>
+            <edge id="ONikolaj|Sabinin" source="ONikolaj" target="Sabinin" weight="1"/>
+            <edge id="ONikolaj|Hor" source="ONikolaj" target="Hor" weight="1"/>
+            <edge id="ONikolaj|Olenina" source="ONikolaj" target="Olenina" weight="1"/>
+            <edge id="ONikolaj|Matveev" source="ONikolaj" target="Matveev" weight="1"/>
+            <edge id="ONikolaj|Komik" source="ONikolaj" target="Komik" weight="1"/>
+            <edge id="ONikolaj|KtoTo" source="ONikolaj" target="KtoTo" weight="1"/>
+            <edge id="ONikolaj|OfitserIzTolpy" source="ONikolaj" target="OfitserIzTolpy" weight="1"/>
+            <edge id="ONikolaj|MolodojAkter" source="ONikolaj" target="MolodojAkter" weight="1"/>
+            <edge id="ONikolaj|OAleksej" source="ONikolaj" target="OAleksej" weight="1"/>
+            <edge id="ONikolaj|Student" source="ONikolaj" target="Student" weight="1"/>
+            <edge id="ONikolaj|Damy" source="ONikolaj" target="Damy" weight="1"/>
+            <edge id="ONikolaj|Kuzma" source="ONikolaj" target="Kuzma" weight="1"/>
+            <edge id="ONikolaj|DamaVChernom" source="ONikolaj" target="DamaVChernom" weight="1"/>
+            <edge id="Baryshnja|VTolpe" source="Baryshnja" target="VTolpe" weight="1"/>
+            <edge id="Baryshnja|Kotelnikov" source="Baryshnja" target="Kotelnikov" weight="1"/>
+            <edge id="Baryshnja|Volgin" source="Baryshnja" target="Volgin" weight="1"/>
+            <edge id="Baryshnja|TovarischProkurora" source="Baryshnja" target="TovarischProkurora" weight="1"/>
+            <edge id="Baryshnja|Kokoshkina" source="Baryshnja" target="Kokoshkina" weight="1"/>
+            <edge id="Baryshnja|Kokoshkin" source="Baryshnja" target="Kokoshkin" weight="1"/>
+            <edge id="Baryshnja|Djachok" source="Baryshnja" target="Djachok" weight="1"/>
+            <edge id="Baryshnja|Sabinin" source="Baryshnja" target="Sabinin" weight="1"/>
+            <edge id="Baryshnja|Hor" source="Baryshnja" target="Hor" weight="1"/>
+            <edge id="Baryshnja|Olenina" source="Baryshnja" target="Olenina" weight="1"/>
+            <edge id="Baryshnja|Matveev" source="Baryshnja" target="Matveev" weight="1"/>
+            <edge id="Baryshnja|Komik" source="Baryshnja" target="Komik" weight="1"/>
+            <edge id="Baryshnja|KtoTo" source="Baryshnja" target="KtoTo" weight="1"/>
+            <edge id="Baryshnja|OfitserIzTolpy" source="Baryshnja" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Baryshnja|MolodojAkter" source="Baryshnja" target="MolodojAkter" weight="1"/>
+            <edge id="Baryshnja|OAleksej" source="Baryshnja" target="OAleksej" weight="1"/>
+            <edge id="Baryshnja|Student" source="Baryshnja" target="Student" weight="1"/>
+            <edge id="Baryshnja|Damy" source="Baryshnja" target="Damy" weight="1"/>
+            <edge id="Baryshnja|Kuzma" source="Baryshnja" target="Kuzma" weight="1"/>
+            <edge id="Baryshnja|DamaVChernom" source="Baryshnja" target="DamaVChernom" weight="1"/>
+            <edge id="VTolpe|Kotelnikov" source="VTolpe" target="Kotelnikov" weight="1"/>
+            <edge id="VTolpe|Volgin" source="VTolpe" target="Volgin" weight="1"/>
+            <edge id="VTolpe|TovarischProkurora" source="VTolpe" target="TovarischProkurora" weight="1"/>
+            <edge id="VTolpe|Kokoshkina" source="VTolpe" target="Kokoshkina" weight="1"/>
+            <edge id="VTolpe|Kokoshkin" source="VTolpe" target="Kokoshkin" weight="1"/>
+            <edge id="VTolpe|Djachok" source="VTolpe" target="Djachok" weight="1"/>
+            <edge id="VTolpe|Sabinin" source="VTolpe" target="Sabinin" weight="1"/>
+            <edge id="VTolpe|Hor" source="VTolpe" target="Hor" weight="1"/>
+            <edge id="VTolpe|Olenina" source="VTolpe" target="Olenina" weight="1"/>
+            <edge id="VTolpe|Matveev" source="VTolpe" target="Matveev" weight="1"/>
+            <edge id="VTolpe|Komik" source="VTolpe" target="Komik" weight="1"/>
+            <edge id="VTolpe|KtoTo" source="VTolpe" target="KtoTo" weight="1"/>
+            <edge id="VTolpe|OfitserIzTolpy" source="VTolpe" target="OfitserIzTolpy" weight="1"/>
+            <edge id="VTolpe|MolodojAkter" source="VTolpe" target="MolodojAkter" weight="1"/>
+            <edge id="VTolpe|OAleksej" source="VTolpe" target="OAleksej" weight="1"/>
+            <edge id="VTolpe|Student" source="VTolpe" target="Student" weight="1"/>
+            <edge id="VTolpe|Damy" source="VTolpe" target="Damy" weight="1"/>
+            <edge id="VTolpe|Kuzma" source="VTolpe" target="Kuzma" weight="1"/>
+            <edge id="VTolpe|DamaVChernom" source="VTolpe" target="DamaVChernom" weight="1"/>
+            <edge id="Kotelnikov|Volgin" source="Kotelnikov" target="Volgin" weight="1"/>
+            <edge id="Kotelnikov|TovarischProkurora" source="Kotelnikov" target="TovarischProkurora" weight="1"/>
+            <edge id="Kotelnikov|Kokoshkina" source="Kotelnikov" target="Kokoshkina" weight="1"/>
+            <edge id="Kotelnikov|Kokoshkin" source="Kotelnikov" target="Kokoshkin" weight="1"/>
+            <edge id="Kotelnikov|Djachok" source="Kotelnikov" target="Djachok" weight="1"/>
+            <edge id="Kotelnikov|Sabinin" source="Kotelnikov" target="Sabinin" weight="1"/>
+            <edge id="Kotelnikov|Hor" source="Kotelnikov" target="Hor" weight="1"/>
+            <edge id="Kotelnikov|Olenina" source="Kotelnikov" target="Olenina" weight="1"/>
+            <edge id="Kotelnikov|Matveev" source="Kotelnikov" target="Matveev" weight="1"/>
+            <edge id="Kotelnikov|Komik" source="Kotelnikov" target="Komik" weight="1"/>
+            <edge id="Kotelnikov|KtoTo" source="Kotelnikov" target="KtoTo" weight="1"/>
+            <edge id="Kotelnikov|OfitserIzTolpy" source="Kotelnikov" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Kotelnikov|MolodojAkter" source="Kotelnikov" target="MolodojAkter" weight="1"/>
+            <edge id="Kotelnikov|OAleksej" source="Kotelnikov" target="OAleksej" weight="1"/>
+            <edge id="Kotelnikov|Student" source="Kotelnikov" target="Student" weight="1"/>
+            <edge id="Kotelnikov|Damy" source="Kotelnikov" target="Damy" weight="1"/>
+            <edge id="Kotelnikov|Kuzma" source="Kotelnikov" target="Kuzma" weight="1"/>
+            <edge id="Kotelnikov|DamaVChernom" source="Kotelnikov" target="DamaVChernom" weight="1"/>
+            <edge id="Volgin|TovarischProkurora" source="Volgin" target="TovarischProkurora" weight="1"/>
+            <edge id="Volgin|Kokoshkina" source="Volgin" target="Kokoshkina" weight="1"/>
+            <edge id="Volgin|Kokoshkin" source="Volgin" target="Kokoshkin" weight="1"/>
+            <edge id="Volgin|Djachok" source="Volgin" target="Djachok" weight="1"/>
+            <edge id="Volgin|Sabinin" source="Volgin" target="Sabinin" weight="1"/>
+            <edge id="Volgin|Hor" source="Volgin" target="Hor" weight="1"/>
+            <edge id="Volgin|Olenina" source="Volgin" target="Olenina" weight="1"/>
+            <edge id="Volgin|Matveev" source="Volgin" target="Matveev" weight="1"/>
+            <edge id="Volgin|Komik" source="Volgin" target="Komik" weight="1"/>
+            <edge id="Volgin|KtoTo" source="Volgin" target="KtoTo" weight="1"/>
+            <edge id="Volgin|OfitserIzTolpy" source="Volgin" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Volgin|MolodojAkter" source="Volgin" target="MolodojAkter" weight="1"/>
+            <edge id="Volgin|OAleksej" source="Volgin" target="OAleksej" weight="1"/>
+            <edge id="Volgin|Student" source="Volgin" target="Student" weight="1"/>
+            <edge id="Volgin|Damy" source="Volgin" target="Damy" weight="1"/>
+            <edge id="Volgin|Kuzma" source="Volgin" target="Kuzma" weight="1"/>
+            <edge id="Volgin|DamaVChernom" source="Volgin" target="DamaVChernom" weight="1"/>
+            <edge id="TovarischProkurora|Kokoshkina" source="TovarischProkurora" target="Kokoshkina" weight="1"/>
+            <edge id="TovarischProkurora|Kokoshkin" source="TovarischProkurora" target="Kokoshkin" weight="1"/>
+            <edge id="TovarischProkurora|Djachok" source="TovarischProkurora" target="Djachok" weight="1"/>
+            <edge id="TovarischProkurora|Sabinin" source="TovarischProkurora" target="Sabinin" weight="1"/>
+            <edge id="TovarischProkurora|Hor" source="TovarischProkurora" target="Hor" weight="1"/>
+            <edge id="TovarischProkurora|Olenina" source="TovarischProkurora" target="Olenina" weight="1"/>
+            <edge id="TovarischProkurora|Matveev" source="TovarischProkurora" target="Matveev" weight="1"/>
+            <edge id="TovarischProkurora|Komik" source="TovarischProkurora" target="Komik" weight="1"/>
+            <edge id="TovarischProkurora|KtoTo" source="TovarischProkurora" target="KtoTo" weight="1"/>
+            <edge id="TovarischProkurora|OfitserIzTolpy" source="TovarischProkurora" target="OfitserIzTolpy" weight="1"/>
+            <edge id="TovarischProkurora|MolodojAkter" source="TovarischProkurora" target="MolodojAkter" weight="1"/>
+            <edge id="TovarischProkurora|OAleksej" source="TovarischProkurora" target="OAleksej" weight="1"/>
+            <edge id="TovarischProkurora|Student" source="TovarischProkurora" target="Student" weight="1"/>
+            <edge id="TovarischProkurora|Damy" source="TovarischProkurora" target="Damy" weight="1"/>
+            <edge id="TovarischProkurora|Kuzma" source="TovarischProkurora" target="Kuzma" weight="1"/>
+            <edge id="TovarischProkurora|DamaVChernom" source="TovarischProkurora" target="DamaVChernom" weight="1"/>
+            <edge id="Kokoshkina|Kokoshkin" source="Kokoshkina" target="Kokoshkin" weight="1"/>
+            <edge id="Kokoshkina|Djachok" source="Kokoshkina" target="Djachok" weight="1"/>
+            <edge id="Kokoshkina|Sabinin" source="Kokoshkina" target="Sabinin" weight="1"/>
+            <edge id="Kokoshkina|Hor" source="Kokoshkina" target="Hor" weight="1"/>
+            <edge id="Kokoshkina|Olenina" source="Kokoshkina" target="Olenina" weight="1"/>
+            <edge id="Kokoshkina|Matveev" source="Kokoshkina" target="Matveev" weight="1"/>
+            <edge id="Kokoshkina|Komik" source="Kokoshkina" target="Komik" weight="1"/>
+            <edge id="Kokoshkina|KtoTo" source="Kokoshkina" target="KtoTo" weight="1"/>
+            <edge id="Kokoshkina|OfitserIzTolpy" source="Kokoshkina" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Kokoshkina|MolodojAkter" source="Kokoshkina" target="MolodojAkter" weight="1"/>
+            <edge id="Kokoshkina|OAleksej" source="Kokoshkina" target="OAleksej" weight="1"/>
+            <edge id="Kokoshkina|Student" source="Kokoshkina" target="Student" weight="1"/>
+            <edge id="Kokoshkina|Damy" source="Kokoshkina" target="Damy" weight="1"/>
+            <edge id="Kokoshkina|Kuzma" source="Kokoshkina" target="Kuzma" weight="1"/>
+            <edge id="Kokoshkina|DamaVChernom" source="Kokoshkina" target="DamaVChernom" weight="1"/>
+            <edge id="Kokoshkin|Djachok" source="Kokoshkin" target="Djachok" weight="1"/>
+            <edge id="Kokoshkin|Sabinin" source="Kokoshkin" target="Sabinin" weight="1"/>
+            <edge id="Kokoshkin|Hor" source="Kokoshkin" target="Hor" weight="1"/>
+            <edge id="Kokoshkin|Olenina" source="Kokoshkin" target="Olenina" weight="1"/>
+            <edge id="Kokoshkin|Matveev" source="Kokoshkin" target="Matveev" weight="1"/>
+            <edge id="Kokoshkin|Komik" source="Kokoshkin" target="Komik" weight="1"/>
+            <edge id="Kokoshkin|KtoTo" source="Kokoshkin" target="KtoTo" weight="1"/>
+            <edge id="Kokoshkin|OfitserIzTolpy" source="Kokoshkin" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Kokoshkin|MolodojAkter" source="Kokoshkin" target="MolodojAkter" weight="1"/>
+            <edge id="Kokoshkin|OAleksej" source="Kokoshkin" target="OAleksej" weight="1"/>
+            <edge id="Kokoshkin|Student" source="Kokoshkin" target="Student" weight="1"/>
+            <edge id="Kokoshkin|Damy" source="Kokoshkin" target="Damy" weight="1"/>
+            <edge id="Kokoshkin|Kuzma" source="Kokoshkin" target="Kuzma" weight="1"/>
+            <edge id="Kokoshkin|DamaVChernom" source="Kokoshkin" target="DamaVChernom" weight="1"/>
+            <edge id="Djachok|Sabinin" source="Djachok" target="Sabinin" weight="1"/>
+            <edge id="Djachok|Hor" source="Djachok" target="Hor" weight="1"/>
+            <edge id="Djachok|Olenina" source="Djachok" target="Olenina" weight="1"/>
+            <edge id="Djachok|Matveev" source="Djachok" target="Matveev" weight="1"/>
+            <edge id="Djachok|Komik" source="Djachok" target="Komik" weight="1"/>
+            <edge id="Djachok|KtoTo" source="Djachok" target="KtoTo" weight="1"/>
+            <edge id="Djachok|OfitserIzTolpy" source="Djachok" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Djachok|MolodojAkter" source="Djachok" target="MolodojAkter" weight="1"/>
+            <edge id="Djachok|OAleksej" source="Djachok" target="OAleksej" weight="1"/>
+            <edge id="Djachok|Student" source="Djachok" target="Student" weight="1"/>
+            <edge id="Djachok|Damy" source="Djachok" target="Damy" weight="1"/>
+            <edge id="Djachok|Kuzma" source="Djachok" target="Kuzma" weight="1"/>
+            <edge id="Djachok|DamaVChernom" source="Djachok" target="DamaVChernom" weight="1"/>
+            <edge id="Sabinin|Hor" source="Sabinin" target="Hor" weight="1"/>
+            <edge id="Sabinin|Olenina" source="Sabinin" target="Olenina" weight="1"/>
+            <edge id="Sabinin|Matveev" source="Sabinin" target="Matveev" weight="1"/>
+            <edge id="Sabinin|Komik" source="Sabinin" target="Komik" weight="1"/>
+            <edge id="Sabinin|KtoTo" source="Sabinin" target="KtoTo" weight="1"/>
+            <edge id="Sabinin|OfitserIzTolpy" source="Sabinin" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Sabinin|MolodojAkter" source="Sabinin" target="MolodojAkter" weight="1"/>
+            <edge id="Sabinin|OAleksej" source="Sabinin" target="OAleksej" weight="1"/>
+            <edge id="Sabinin|Student" source="Sabinin" target="Student" weight="1"/>
+            <edge id="Sabinin|Damy" source="Sabinin" target="Damy" weight="1"/>
+            <edge id="Sabinin|Kuzma" source="Sabinin" target="Kuzma" weight="1"/>
+            <edge id="Sabinin|DamaVChernom" source="Sabinin" target="DamaVChernom" weight="1"/>
+            <edge id="Hor|Olenina" source="Hor" target="Olenina" weight="1"/>
+            <edge id="Hor|Matveev" source="Hor" target="Matveev" weight="1"/>
+            <edge id="Hor|Komik" source="Hor" target="Komik" weight="1"/>
+            <edge id="Hor|KtoTo" source="Hor" target="KtoTo" weight="1"/>
+            <edge id="Hor|OfitserIzTolpy" source="Hor" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Hor|MolodojAkter" source="Hor" target="MolodojAkter" weight="1"/>
+            <edge id="Hor|OAleksej" source="Hor" target="OAleksej" weight="1"/>
+            <edge id="Hor|Student" source="Hor" target="Student" weight="1"/>
+            <edge id="Hor|Damy" source="Hor" target="Damy" weight="1"/>
+            <edge id="Hor|Kuzma" source="Hor" target="Kuzma" weight="1"/>
+            <edge id="Hor|DamaVChernom" source="Hor" target="DamaVChernom" weight="1"/>
+            <edge id="Olenina|Matveev" source="Olenina" target="Matveev" weight="1"/>
+            <edge id="Olenina|Komik" source="Olenina" target="Komik" weight="1"/>
+            <edge id="Olenina|KtoTo" source="Olenina" target="KtoTo" weight="1"/>
+            <edge id="Olenina|OfitserIzTolpy" source="Olenina" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Olenina|MolodojAkter" source="Olenina" target="MolodojAkter" weight="1"/>
+            <edge id="Olenina|OAleksej" source="Olenina" target="OAleksej" weight="1"/>
+            <edge id="Olenina|Student" source="Olenina" target="Student" weight="1"/>
+            <edge id="Olenina|Damy" source="Olenina" target="Damy" weight="1"/>
+            <edge id="Olenina|Kuzma" source="Olenina" target="Kuzma" weight="1"/>
+            <edge id="Olenina|DamaVChernom" source="Olenina" target="DamaVChernom" weight="1"/>
+            <edge id="Matveev|Komik" source="Matveev" target="Komik" weight="1"/>
+            <edge id="Matveev|KtoTo" source="Matveev" target="KtoTo" weight="1"/>
+            <edge id="Matveev|OfitserIzTolpy" source="Matveev" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Matveev|MolodojAkter" source="Matveev" target="MolodojAkter" weight="1"/>
+            <edge id="Matveev|OAleksej" source="Matveev" target="OAleksej" weight="1"/>
+            <edge id="Matveev|Student" source="Matveev" target="Student" weight="1"/>
+            <edge id="Matveev|Damy" source="Matveev" target="Damy" weight="1"/>
+            <edge id="Matveev|Kuzma" source="Matveev" target="Kuzma" weight="1"/>
+            <edge id="Matveev|DamaVChernom" source="Matveev" target="DamaVChernom" weight="1"/>
+            <edge id="Komik|KtoTo" source="Komik" target="KtoTo" weight="1"/>
+            <edge id="Komik|OfitserIzTolpy" source="Komik" target="OfitserIzTolpy" weight="1"/>
+            <edge id="Komik|MolodojAkter" source="Komik" target="MolodojAkter" weight="1"/>
+            <edge id="Komik|OAleksej" source="Komik" target="OAleksej" weight="1"/>
+            <edge id="Komik|Student" source="Komik" target="Student" weight="1"/>
+            <edge id="Komik|Damy" source="Komik" target="Damy" weight="1"/>
+            <edge id="Komik|Kuzma" source="Komik" target="Kuzma" weight="1"/>
+            <edge id="Komik|DamaVChernom" source="Komik" target="DamaVChernom" weight="1"/>
+            <edge id="KtoTo|OfitserIzTolpy" source="KtoTo" target="OfitserIzTolpy" weight="1"/>
+            <edge id="KtoTo|MolodojAkter" source="KtoTo" target="MolodojAkter" weight="1"/>
+            <edge id="KtoTo|OAleksej" source="KtoTo" target="OAleksej" weight="1"/>
+            <edge id="KtoTo|Student" source="KtoTo" target="Student" weight="1"/>
+            <edge id="KtoTo|Damy" source="KtoTo" target="Damy" weight="1"/>
+            <edge id="KtoTo|Kuzma" source="KtoTo" target="Kuzma" weight="1"/>
+            <edge id="KtoTo|DamaVChernom" source="KtoTo" target="DamaVChernom" weight="1"/>
+            <edge id="OfitserIzTolpy|MolodojAkter" source="OfitserIzTolpy" target="MolodojAkter" weight="1"/>
+            <edge id="OfitserIzTolpy|OAleksej" source="OfitserIzTolpy" target="OAleksej" weight="1"/>
+            <edge id="OfitserIzTolpy|Student" source="OfitserIzTolpy" target="Student" weight="1"/>
+            <edge id="OfitserIzTolpy|Damy" source="OfitserIzTolpy" target="Damy" weight="1"/>
+            <edge id="OfitserIzTolpy|Kuzma" source="OfitserIzTolpy" target="Kuzma" weight="1"/>
+            <edge id="OfitserIzTolpy|DamaVChernom" source="OfitserIzTolpy" target="DamaVChernom" weight="1"/>
+            <edge id="MolodojAkter|OAleksej" source="MolodojAkter" target="OAleksej" weight="1"/>
+            <edge id="MolodojAkter|Student" source="MolodojAkter" target="Student" weight="1"/>
+            <edge id="MolodojAkter|Damy" source="MolodojAkter" target="Damy" weight="1"/>
+            <edge id="MolodojAkter|Kuzma" source="MolodojAkter" target="Kuzma" weight="1"/>
+            <edge id="MolodojAkter|DamaVChernom" source="MolodojAkter" target="DamaVChernom" weight="1"/>
+            <edge id="OAleksej|Student" source="OAleksej" target="Student" weight="1"/>
+            <edge id="OAleksej|Damy" source="OAleksej" target="Damy" weight="1"/>
+            <edge id="OAleksej|Kuzma" source="OAleksej" target="Kuzma" weight="1"/>
+            <edge id="OAleksej|DamaVChernom" source="OAleksej" target="DamaVChernom" weight="1"/>
+            <edge id="Student|Damy" source="Student" target="Damy" weight="1"/>
+            <edge id="Student|Kuzma" source="Student" target="Kuzma" weight="1"/>
+            <edge id="Student|DamaVChernom" source="Student" target="DamaVChernom" weight="1"/>
+            <edge id="Damy|Kuzma" source="Damy" target="Kuzma" weight="1"/>
+            <edge id="Damy|DamaVChernom" source="Damy" target="DamaVChernom" weight="1"/>
+            <edge id="Kuzma|DamaVChernom" source="Kuzma" target="DamaVChernom" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

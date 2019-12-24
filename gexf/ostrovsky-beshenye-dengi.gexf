@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Бешеные деньги</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="telyatev" label="Телятев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4075"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilkov" label="Васильков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3419"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="glumov" label="Глумов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1436"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nadezhda_antonovna" label="Надежда Антоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2558"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lidiya" label="Лидия">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4048"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="andrej" label="Андрей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kuchumov" label="Кучумов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1775"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grigorij" label="Григорий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilij" label="Василий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="589"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="telyatev|vasilkov" source="telyatev" target="vasilkov" weight="10"/>
+            <edge id="telyatev|glumov" source="telyatev" target="glumov" weight="12"/>
+            <edge id="telyatev|nadezhda_antonovna" source="telyatev" target="nadezhda_antonovna" weight="6"/>
+            <edge id="telyatev|lidiya" source="telyatev" target="lidiya" weight="11"/>
+            <edge id="telyatev|andrej" source="telyatev" target="andrej" weight="4"/>
+            <edge id="telyatev|kuchumov" source="telyatev" target="kuchumov" weight="3"/>
+            <edge id="telyatev|grigorij" source="telyatev" target="grigorij" weight="1"/>
+            <edge id="telyatev|vasilij" source="telyatev" target="vasilij" weight="2"/>
+            <edge id="vasilkov|glumov" source="vasilkov" target="glumov" weight="4"/>
+            <edge id="vasilkov|nadezhda_antonovna" source="vasilkov" target="nadezhda_antonovna" weight="10"/>
+            <edge id="vasilkov|lidiya" source="vasilkov" target="lidiya" weight="9"/>
+            <edge id="vasilkov|andrej" source="vasilkov" target="andrej" weight="4"/>
+            <edge id="vasilkov|kuchumov" source="vasilkov" target="kuchumov" weight="3"/>
+            <edge id="vasilkov|grigorij" source="vasilkov" target="grigorij" weight="1"/>
+            <edge id="vasilkov|vasilij" source="vasilkov" target="vasilij" weight="4"/>
+            <edge id="glumov|nadezhda_antonovna" source="glumov" target="nadezhda_antonovna" weight="3"/>
+            <edge id="glumov|lidiya" source="glumov" target="lidiya" weight="4"/>
+            <edge id="glumov|andrej" source="glumov" target="andrej" weight="1"/>
+            <edge id="glumov|kuchumov" source="glumov" target="kuchumov" weight="3"/>
+            <edge id="glumov|grigorij" source="glumov" target="grigorij" weight="1"/>
+            <edge id="glumov|vasilij" source="glumov" target="vasilij" weight="4"/>
+            <edge id="nadezhda_antonovna|lidiya" source="nadezhda_antonovna" target="lidiya" weight="13"/>
+            <edge id="nadezhda_antonovna|andrej" source="nadezhda_antonovna" target="andrej" weight="9"/>
+            <edge id="nadezhda_antonovna|kuchumov" source="nadezhda_antonovna" target="kuchumov" weight="4"/>
+            <edge id="nadezhda_antonovna|vasilij" source="nadezhda_antonovna" target="vasilij" weight="2"/>
+            <edge id="lidiya|andrej" source="lidiya" target="andrej" weight="10"/>
+            <edge id="lidiya|kuchumov" source="lidiya" target="kuchumov" weight="8"/>
+            <edge id="lidiya|vasilij" source="lidiya" target="vasilij" weight="3"/>
+            <edge id="andrej|kuchumov" source="andrej" target="kuchumov" weight="3"/>
+            <edge id="kuchumov|grigorij" source="kuchumov" target="grigorij" weight="1"/>
+            <edge id="kuchumov|vasilij" source="kuchumov" target="vasilij" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

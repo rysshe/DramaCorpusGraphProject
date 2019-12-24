@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Булгаков, Михаил Афанасьевич: Адам и Ева</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="adam" label="Адам">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1324"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="eva" label="Ева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1831"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="anja" label="Аня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="164"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="efrosimov" label="Ефросимов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2505"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="markizov" label="Маркизов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1499"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ponchik" label="Пончик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1933"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="daragan" label="Дараган">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1920"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tuller_pervyj" label="Туллер 1-й">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="194"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tuller_vtoroj" label="Туллер 2-й">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="53"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="klavdija" label="Клавдия">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="42"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="virues" label="Вируэс">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="37"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zevald" label="Зевальд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pavlov" label="Павлов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="adam|eva" source="adam" target="eva" weight="4"/>
+            <edge id="adam|anja" source="adam" target="anja" weight="1"/>
+            <edge id="adam|efrosimov" source="adam" target="efrosimov" weight="4"/>
+            <edge id="adam|markizov" source="adam" target="markizov" weight="4"/>
+            <edge id="adam|ponchik" source="adam" target="ponchik" weight="4"/>
+            <edge id="adam|daragan" source="adam" target="daragan" weight="4"/>
+            <edge id="adam|tuller_pervyj" source="adam" target="tuller_pervyj" weight="1"/>
+            <edge id="adam|tuller_vtoroj" source="adam" target="tuller_vtoroj" weight="1"/>
+            <edge id="adam|klavdija" source="adam" target="klavdija" weight="1"/>
+            <edge id="adam|virues" source="adam" target="virues" weight="1"/>
+            <edge id="adam|zevald" source="adam" target="zevald" weight="1"/>
+            <edge id="adam|pavlov" source="adam" target="pavlov" weight="1"/>
+            <edge id="eva|anja" source="eva" target="anja" weight="1"/>
+            <edge id="eva|efrosimov" source="eva" target="efrosimov" weight="4"/>
+            <edge id="eva|markizov" source="eva" target="markizov" weight="4"/>
+            <edge id="eva|ponchik" source="eva" target="ponchik" weight="4"/>
+            <edge id="eva|daragan" source="eva" target="daragan" weight="4"/>
+            <edge id="eva|tuller_pervyj" source="eva" target="tuller_pervyj" weight="1"/>
+            <edge id="eva|tuller_vtoroj" source="eva" target="tuller_vtoroj" weight="1"/>
+            <edge id="eva|klavdija" source="eva" target="klavdija" weight="1"/>
+            <edge id="eva|virues" source="eva" target="virues" weight="1"/>
+            <edge id="eva|zevald" source="eva" target="zevald" weight="1"/>
+            <edge id="eva|pavlov" source="eva" target="pavlov" weight="1"/>
+            <edge id="anja|efrosimov" source="anja" target="efrosimov" weight="1"/>
+            <edge id="anja|markizov" source="anja" target="markizov" weight="1"/>
+            <edge id="anja|ponchik" source="anja" target="ponchik" weight="1"/>
+            <edge id="anja|daragan" source="anja" target="daragan" weight="1"/>
+            <edge id="anja|tuller_pervyj" source="anja" target="tuller_pervyj" weight="1"/>
+            <edge id="anja|tuller_vtoroj" source="anja" target="tuller_vtoroj" weight="1"/>
+            <edge id="anja|klavdija" source="anja" target="klavdija" weight="1"/>
+            <edge id="efrosimov|markizov" source="efrosimov" target="markizov" weight="4"/>
+            <edge id="efrosimov|ponchik" source="efrosimov" target="ponchik" weight="4"/>
+            <edge id="efrosimov|daragan" source="efrosimov" target="daragan" weight="4"/>
+            <edge id="efrosimov|tuller_pervyj" source="efrosimov" target="tuller_pervyj" weight="1"/>
+            <edge id="efrosimov|tuller_vtoroj" source="efrosimov" target="tuller_vtoroj" weight="1"/>
+            <edge id="efrosimov|klavdija" source="efrosimov" target="klavdija" weight="1"/>
+            <edge id="efrosimov|virues" source="efrosimov" target="virues" weight="1"/>
+            <edge id="efrosimov|zevald" source="efrosimov" target="zevald" weight="1"/>
+            <edge id="efrosimov|pavlov" source="efrosimov" target="pavlov" weight="1"/>
+            <edge id="markizov|ponchik" source="markizov" target="ponchik" weight="4"/>
+            <edge id="markizov|daragan" source="markizov" target="daragan" weight="4"/>
+            <edge id="markizov|tuller_pervyj" source="markizov" target="tuller_pervyj" weight="1"/>
+            <edge id="markizov|tuller_vtoroj" source="markizov" target="tuller_vtoroj" weight="1"/>
+            <edge id="markizov|klavdija" source="markizov" target="klavdija" weight="1"/>
+            <edge id="markizov|virues" source="markizov" target="virues" weight="1"/>
+            <edge id="markizov|zevald" source="markizov" target="zevald" weight="1"/>
+            <edge id="markizov|pavlov" source="markizov" target="pavlov" weight="1"/>
+            <edge id="ponchik|daragan" source="ponchik" target="daragan" weight="4"/>
+            <edge id="ponchik|tuller_pervyj" source="ponchik" target="tuller_pervyj" weight="1"/>
+            <edge id="ponchik|tuller_vtoroj" source="ponchik" target="tuller_vtoroj" weight="1"/>
+            <edge id="ponchik|klavdija" source="ponchik" target="klavdija" weight="1"/>
+            <edge id="ponchik|virues" source="ponchik" target="virues" weight="1"/>
+            <edge id="ponchik|zevald" source="ponchik" target="zevald" weight="1"/>
+            <edge id="ponchik|pavlov" source="ponchik" target="pavlov" weight="1"/>
+            <edge id="daragan|tuller_pervyj" source="daragan" target="tuller_pervyj" weight="1"/>
+            <edge id="daragan|tuller_vtoroj" source="daragan" target="tuller_vtoroj" weight="1"/>
+            <edge id="daragan|klavdija" source="daragan" target="klavdija" weight="1"/>
+            <edge id="daragan|virues" source="daragan" target="virues" weight="1"/>
+            <edge id="daragan|zevald" source="daragan" target="zevald" weight="1"/>
+            <edge id="daragan|pavlov" source="daragan" target="pavlov" weight="1"/>
+            <edge id="tuller_pervyj|tuller_vtoroj" source="tuller_pervyj" target="tuller_vtoroj" weight="1"/>
+            <edge id="tuller_pervyj|klavdija" source="tuller_pervyj" target="klavdija" weight="1"/>
+            <edge id="tuller_vtoroj|klavdija" source="tuller_vtoroj" target="klavdija" weight="1"/>
+            <edge id="virues|zevald" source="virues" target="zevald" weight="1"/>
+            <edge id="virues|pavlov" source="virues" target="pavlov" weight="1"/>
+            <edge id="zevald|pavlov" source="zevald" target="pavlov" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

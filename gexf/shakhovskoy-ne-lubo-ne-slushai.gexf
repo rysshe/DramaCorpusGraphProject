@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Шаховской, Александр Александрович: Не любо – не слушай, а лгать не мешай</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="zarnitskin" label="Зарницкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2656"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dashenka" label="Дашенька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="680"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mitjaj" label="Митяй">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="390"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mezetskij" label="Мезецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1414"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaginja" label="Княгиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="483"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="handrina" label="Хандрина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="658"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="zarnitskin|dashenka" source="zarnitskin" target="dashenka" weight="4"/>
+            <edge id="zarnitskin|mitjaj" source="zarnitskin" target="mitjaj" weight="3"/>
+            <edge id="zarnitskin|mezetskij" source="zarnitskin" target="mezetskij" weight="4"/>
+            <edge id="zarnitskin|handrina" source="zarnitskin" target="handrina" weight="1"/>
+            <edge id="zarnitskin|knjaginja" source="zarnitskin" target="knjaginja" weight="2"/>
+            <edge id="dashenka|mitjaj" source="dashenka" target="mitjaj" weight="5"/>
+            <edge id="dashenka|mezetskij" source="dashenka" target="mezetskij" weight="7"/>
+            <edge id="dashenka|knjaginja" source="dashenka" target="knjaginja" weight="3"/>
+            <edge id="dashenka|handrina" source="dashenka" target="handrina" weight="1"/>
+            <edge id="mitjaj|mezetskij" source="mitjaj" target="mezetskij" weight="4"/>
+            <edge id="mitjaj|knjaginja" source="mitjaj" target="knjaginja" weight="3"/>
+            <edge id="mitjaj|handrina" source="mitjaj" target="handrina" weight="2"/>
+            <edge id="mezetskij|knjaginja" source="mezetskij" target="knjaginja" weight="5"/>
+            <edge id="mezetskij|handrina" source="mezetskij" target="handrina" weight="2"/>
+            <edge id="knjaginja|handrina" source="knjaginja" target="handrina" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

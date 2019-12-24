@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Чехов, Антон Павлович: Свадьба</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Zmejukina" label="Змеюкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="163"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Jat" label="Ять">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="401"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Shafer" label="Шафер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="75"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NastasjaTimofeevna" label="Настасья Тимофеевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="376"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Aplombov" label="Апломбов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="352"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Lakej" label="Лакей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Zhigalov" label="Жигалов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="299"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Dymba" label="Дымба">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="107"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Mozgovoj" label="Мозговой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Dashenka" label="Дашенька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Kavalery" label="Кавалеры">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Njunin" label="Нюнин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="345"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Revunov" label="Ревунов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="729"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Zmejukina|Jat" source="Zmejukina" target="Jat" weight="5"/>
+            <edge id="Zmejukina|Shafer" source="Zmejukina" target="Shafer" weight="4"/>
+            <edge id="Zmejukina|Aplombov" source="Zmejukina" target="Aplombov" weight="3"/>
+            <edge id="Zmejukina|Zhigalov" source="Zmejukina" target="Zhigalov" weight="3"/>
+            <edge id="Zmejukina|Dymba" source="Zmejukina" target="Dymba" weight="3"/>
+            <edge id="Zmejukina|NastasjaTimofeevna" source="Zmejukina" target="NastasjaTimofeevna" weight="4"/>
+            <edge id="Zmejukina|Mozgovoj" source="Zmejukina" target="Mozgovoj" weight="2"/>
+            <edge id="Zmejukina|Dashenka" source="Zmejukina" target="Dashenka" weight="2"/>
+            <edge id="Zmejukina|Kavalery" source="Zmejukina" target="Kavalery" weight="2"/>
+            <edge id="Zmejukina|Revunov" source="Zmejukina" target="Revunov" weight="1"/>
+            <edge id="Zmejukina|Njunin" source="Zmejukina" target="Njunin" weight="2"/>
+            <edge id="Jat|Shafer" source="Jat" target="Shafer" weight="4"/>
+            <edge id="Jat|Aplombov" source="Jat" target="Aplombov" weight="3"/>
+            <edge id="Jat|Zhigalov" source="Jat" target="Zhigalov" weight="3"/>
+            <edge id="Jat|Dymba" source="Jat" target="Dymba" weight="3"/>
+            <edge id="Jat|NastasjaTimofeevna" source="Jat" target="NastasjaTimofeevna" weight="4"/>
+            <edge id="Jat|Mozgovoj" source="Jat" target="Mozgovoj" weight="2"/>
+            <edge id="Jat|Dashenka" source="Jat" target="Dashenka" weight="2"/>
+            <edge id="Jat|Kavalery" source="Jat" target="Kavalery" weight="2"/>
+            <edge id="Jat|Revunov" source="Jat" target="Revunov" weight="1"/>
+            <edge id="Jat|Njunin" source="Jat" target="Njunin" weight="2"/>
+            <edge id="Shafer|Mozgovoj" source="Shafer" target="Mozgovoj" weight="2"/>
+            <edge id="Shafer|Zhigalov" source="Shafer" target="Zhigalov" weight="2"/>
+            <edge id="Shafer|Aplombov" source="Shafer" target="Aplombov" weight="2"/>
+            <edge id="Shafer|Dashenka" source="Shafer" target="Dashenka" weight="2"/>
+            <edge id="Shafer|NastasjaTimofeevna" source="Shafer" target="NastasjaTimofeevna" weight="3"/>
+            <edge id="Shafer|Kavalery" source="Shafer" target="Kavalery" weight="2"/>
+            <edge id="Shafer|Dymba" source="Shafer" target="Dymba" weight="2"/>
+            <edge id="Shafer|Revunov" source="Shafer" target="Revunov" weight="1"/>
+            <edge id="Shafer|Njunin" source="Shafer" target="Njunin" weight="2"/>
+            <edge id="NastasjaTimofeevna|Aplombov" source="NastasjaTimofeevna" target="Aplombov" weight="5"/>
+            <edge id="NastasjaTimofeevna|Lakej" source="NastasjaTimofeevna" target="Lakej" weight="1"/>
+            <edge id="NastasjaTimofeevna|Zhigalov" source="NastasjaTimofeevna" target="Zhigalov" weight="3"/>
+            <edge id="NastasjaTimofeevna|Dymba" source="NastasjaTimofeevna" target="Dymba" weight="3"/>
+            <edge id="NastasjaTimofeevna|Mozgovoj" source="NastasjaTimofeevna" target="Mozgovoj" weight="2"/>
+            <edge id="NastasjaTimofeevna|Dashenka" source="NastasjaTimofeevna" target="Dashenka" weight="2"/>
+            <edge id="NastasjaTimofeevna|Kavalery" source="NastasjaTimofeevna" target="Kavalery" weight="2"/>
+            <edge id="NastasjaTimofeevna|Njunin" source="NastasjaTimofeevna" target="Njunin" weight="3"/>
+            <edge id="NastasjaTimofeevna|Revunov" source="NastasjaTimofeevna" target="Revunov" weight="1"/>
+            <edge id="Aplombov|Lakej" source="Aplombov" target="Lakej" weight="1"/>
+            <edge id="Aplombov|Zhigalov" source="Aplombov" target="Zhigalov" weight="3"/>
+            <edge id="Aplombov|Dymba" source="Aplombov" target="Dymba" weight="3"/>
+            <edge id="Aplombov|Mozgovoj" source="Aplombov" target="Mozgovoj" weight="2"/>
+            <edge id="Aplombov|Dashenka" source="Aplombov" target="Dashenka" weight="2"/>
+            <edge id="Aplombov|Kavalery" source="Aplombov" target="Kavalery" weight="2"/>
+            <edge id="Aplombov|Njunin" source="Aplombov" target="Njunin" weight="2"/>
+            <edge id="Aplombov|Revunov" source="Aplombov" target="Revunov" weight="1"/>
+            <edge id="Zhigalov|Dymba" source="Zhigalov" target="Dymba" weight="3"/>
+            <edge id="Zhigalov|Mozgovoj" source="Zhigalov" target="Mozgovoj" weight="2"/>
+            <edge id="Zhigalov|Dashenka" source="Zhigalov" target="Dashenka" weight="2"/>
+            <edge id="Zhigalov|Kavalery" source="Zhigalov" target="Kavalery" weight="2"/>
+            <edge id="Zhigalov|Revunov" source="Zhigalov" target="Revunov" weight="1"/>
+            <edge id="Zhigalov|Njunin" source="Zhigalov" target="Njunin" weight="1"/>
+            <edge id="Dymba|Mozgovoj" source="Dymba" target="Mozgovoj" weight="2"/>
+            <edge id="Dymba|Dashenka" source="Dymba" target="Dashenka" weight="2"/>
+            <edge id="Dymba|Kavalery" source="Dymba" target="Kavalery" weight="2"/>
+            <edge id="Dymba|Revunov" source="Dymba" target="Revunov" weight="1"/>
+            <edge id="Dymba|Njunin" source="Dymba" target="Njunin" weight="1"/>
+            <edge id="Mozgovoj|Dashenka" source="Mozgovoj" target="Dashenka" weight="2"/>
+            <edge id="Mozgovoj|Kavalery" source="Mozgovoj" target="Kavalery" weight="2"/>
+            <edge id="Mozgovoj|Revunov" source="Mozgovoj" target="Revunov" weight="1"/>
+            <edge id="Mozgovoj|Njunin" source="Mozgovoj" target="Njunin" weight="1"/>
+            <edge id="Dashenka|Kavalery" source="Dashenka" target="Kavalery" weight="2"/>
+            <edge id="Dashenka|Revunov" source="Dashenka" target="Revunov" weight="1"/>
+            <edge id="Dashenka|Njunin" source="Dashenka" target="Njunin" weight="1"/>
+            <edge id="Kavalery|Revunov" source="Kavalery" target="Revunov" weight="1"/>
+            <edge id="Kavalery|Njunin" source="Kavalery" target="Njunin" weight="1"/>
+            <edge id="Njunin|Revunov" source="Njunin" target="Revunov" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

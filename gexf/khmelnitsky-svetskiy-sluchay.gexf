@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Хмельницкий, Николай Иванович: Светский случай</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="evgeniya" label="Евгения">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="815"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dasha" label="Даша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="373"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="radugin" label="Радугин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="637"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="stolicyn" label="Столицын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1869"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ramirskij" label="Рамирский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="620"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="evgenij" label="Евгений">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="evgeniya|dasha" source="evgeniya" target="dasha" weight="6"/>
+            <edge id="evgeniya|radugin" source="evgeniya" target="radugin" weight="3"/>
+            <edge id="evgeniya|stolicyn" source="evgeniya" target="stolicyn" weight="4"/>
+            <edge id="evgeniya|ramirskij" source="evgeniya" target="ramirskij" weight="4"/>
+            <edge id="evgeniya|evgenij" source="evgeniya" target="evgenij" weight="1"/>
+            <edge id="dasha|radugin" source="dasha" target="radugin" weight="2"/>
+            <edge id="dasha|stolicyn" source="dasha" target="stolicyn" weight="3"/>
+            <edge id="dasha|ramirskij" source="dasha" target="ramirskij" weight="2"/>
+            <edge id="radugin|stolicyn" source="radugin" target="stolicyn" weight="2"/>
+            <edge id="radugin|ramirskij" source="radugin" target="ramirskij" weight="3"/>
+            <edge id="stolicyn|ramirskij" source="stolicyn" target="ramirskij" weight="4"/>
+            <edge id="stolicyn|evgenij" source="stolicyn" target="evgenij" weight="1"/>
+            <edge id="ramirskij|evgenij" source="ramirskij" target="evgenij" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

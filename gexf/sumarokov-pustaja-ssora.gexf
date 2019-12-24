@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Пустая ссора</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="fineta" label="Финета">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="189"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fatjuj" label="Фатюй">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="664"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="salmina" label="Салмина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="547"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kimar" label="Кимар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="371"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oront" label="Оронт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="214"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="djulizh" label="Дюлиж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="385"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="delamida" label="Деламида">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="156"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="fineta|fatjuj" source="fineta" target="fatjuj" weight="2"/>
+            <edge id="fineta|kimar" source="fineta" target="kimar" weight="2"/>
+            <edge id="fatjuj|salmina" source="fatjuj" target="salmina" weight="4"/>
+            <edge id="fatjuj|kimar" source="fatjuj" target="kimar" weight="4"/>
+            <edge id="fatjuj|djulizh" source="fatjuj" target="djulizh" weight="3"/>
+            <edge id="fatjuj|oront" source="fatjuj" target="oront" weight="1"/>
+            <edge id="fatjuj|delamida" source="fatjuj" target="delamida" weight="1"/>
+            <edge id="salmina|kimar" source="salmina" target="kimar" weight="6"/>
+            <edge id="salmina|oront" source="salmina" target="oront" weight="3"/>
+            <edge id="salmina|djulizh" source="salmina" target="djulizh" weight="4"/>
+            <edge id="salmina|delamida" source="salmina" target="delamida" weight="1"/>
+            <edge id="kimar|oront" source="kimar" target="oront" weight="3"/>
+            <edge id="kimar|djulizh" source="kimar" target="djulizh" weight="3"/>
+            <edge id="kimar|delamida" source="kimar" target="delamida" weight="1"/>
+            <edge id="oront|djulizh" source="oront" target="djulizh" weight="1"/>
+            <edge id="oront|delamida" source="oront" target="delamida" weight="1"/>
+            <edge id="djulizh|delamida" source="djulizh" target="delamida" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

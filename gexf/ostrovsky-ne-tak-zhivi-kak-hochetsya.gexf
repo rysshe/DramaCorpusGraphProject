@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Не так живи, как хочется</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="afimya" label="Афимья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="683"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dasha" label="Даша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="976"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ilya" label="Илья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="605"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="petr" label="Петр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1683"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasya" label="Вася">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="566"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="spiridonovna" label="Спиридоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="579"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="yakov" label="Яков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="84"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grusha" label="Груша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1063"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="stepanida" label="Степанида">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="567"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="agafon" label="Агафон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="592"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nekotorye_devushki" label="Некоторые девушки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="odna_devushka" label="Одна девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="eremka" label="Еремка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="540"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="devushki" label="Девушки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="31"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="afimya|dasha" source="afimya" target="dasha" weight="8"/>
+            <edge id="afimya|ilya" source="afimya" target="ilya" weight="1"/>
+            <edge id="afimya|petr" source="afimya" target="petr" weight="4"/>
+            <edge id="afimya|stepanida" source="afimya" target="stepanida" weight="2"/>
+            <edge id="afimya|agafon" source="afimya" target="agafon" weight="3"/>
+            <edge id="afimya|vasya" source="afimya" target="vasya" weight="2"/>
+            <edge id="dasha|ilya" source="dasha" target="ilya" weight="2"/>
+            <edge id="dasha|petr" source="dasha" target="petr" weight="5"/>
+            <edge id="dasha|ivan" source="dasha" target="ivan" weight="1"/>
+            <edge id="dasha|vasya" source="dasha" target="vasya" weight="3"/>
+            <edge id="dasha|spiridonovna" source="dasha" target="spiridonovna" weight="1"/>
+            <edge id="dasha|agafon" source="dasha" target="agafon" weight="4"/>
+            <edge id="dasha|grusha" source="dasha" target="grusha" weight="1"/>
+            <edge id="dasha|stepanida" source="dasha" target="stepanida" weight="3"/>
+            <edge id="ilya|petr" source="ilya" target="petr" weight="1"/>
+            <edge id="petr|ivan" source="petr" target="ivan" weight="1"/>
+            <edge id="petr|spiridonovna" source="petr" target="spiridonovna" weight="2"/>
+            <edge id="petr|grusha" source="petr" target="grusha" weight="5"/>
+            <edge id="petr|eremka" source="petr" target="eremka" weight="3"/>
+            <edge id="petr|vasya" source="petr" target="vasya" weight="2"/>
+            <edge id="petr|agafon" source="petr" target="agafon" weight="1"/>
+            <edge id="petr|stepanida" source="petr" target="stepanida" weight="1"/>
+            <edge id="vasya|grusha" source="vasya" target="grusha" weight="1"/>
+            <edge id="vasya|spiridonovna" source="vasya" target="spiridonovna" weight="1"/>
+            <edge id="vasya|eremka" source="vasya" target="eremka" weight="1"/>
+            <edge id="vasya|agafon" source="vasya" target="agafon" weight="2"/>
+            <edge id="vasya|stepanida" source="vasya" target="stepanida" weight="1"/>
+            <edge id="spiridonovna|yakov" source="spiridonovna" target="yakov" weight="2"/>
+            <edge id="spiridonovna|grusha" source="spiridonovna" target="grusha" weight="7"/>
+            <edge id="spiridonovna|agafon" source="spiridonovna" target="agafon" weight="1"/>
+            <edge id="spiridonovna|stepanida" source="spiridonovna" target="stepanida" weight="1"/>
+            <edge id="spiridonovna|nekotorye_devushki" source="spiridonovna" target="nekotorye_devushki" weight="1"/>
+            <edge id="spiridonovna|odna_devushka" source="spiridonovna" target="odna_devushka" weight="1"/>
+            <edge id="spiridonovna|eremka" source="spiridonovna" target="eremka" weight="1"/>
+            <edge id="yakov|grusha" source="yakov" target="grusha" weight="1"/>
+            <edge id="grusha|stepanida" source="grusha" target="stepanida" weight="2"/>
+            <edge id="grusha|agafon" source="grusha" target="agafon" weight="1"/>
+            <edge id="grusha|nekotorye_devushki" source="grusha" target="nekotorye_devushki" weight="1"/>
+            <edge id="grusha|odna_devushka" source="grusha" target="odna_devushka" weight="1"/>
+            <edge id="grusha|eremka" source="grusha" target="eremka" weight="3"/>
+            <edge id="grusha|devushki" source="grusha" target="devushki" weight="1"/>
+            <edge id="stepanida|agafon" source="stepanida" target="agafon" weight="4"/>
+            <edge id="nekotorye_devushki|odna_devushka" source="nekotorye_devushki" target="odna_devushka" weight="1"/>
+            <edge id="eremka|devushki" source="eremka" target="devushki" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

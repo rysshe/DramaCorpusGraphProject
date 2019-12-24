@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Блок, Александр Александрович: Балаганчик</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="pervyj_mistik" label="Первый мистик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="52"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_mistik" label="Второй мистик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="44"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_mistik" label="Третий мистик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="53"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pero" label="Пьеро">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="383"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="avtor" label="Автор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="181"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="predsedatel" label="Председатель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="121"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kolombina" label="Коломбина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="arlekin" label="Арлекин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="96"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ona_1" label="Она">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="on_1" label="Он">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="on_2" label="Он">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="86"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ona_2" label="Она">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="66"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="on_3" label="Он">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="70"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ona_3" label="Она">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pajats" label="Паяц">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hor" label="Хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="pervyj_mistik|vtoroj_mistik" source="pervyj_mistik" target="vtoroj_mistik" weight="1"/>
+            <edge id="pervyj_mistik|tretij_mistik" source="pervyj_mistik" target="tretij_mistik" weight="1"/>
+            <edge id="pervyj_mistik|pero" source="pervyj_mistik" target="pero" weight="1"/>
+            <edge id="pervyj_mistik|avtor" source="pervyj_mistik" target="avtor" weight="1"/>
+            <edge id="pervyj_mistik|predsedatel" source="pervyj_mistik" target="predsedatel" weight="1"/>
+            <edge id="pervyj_mistik|kolombina" source="pervyj_mistik" target="kolombina" weight="1"/>
+            <edge id="pervyj_mistik|arlekin" source="pervyj_mistik" target="arlekin" weight="1"/>
+            <edge id="vtoroj_mistik|tretij_mistik" source="vtoroj_mistik" target="tretij_mistik" weight="1"/>
+            <edge id="vtoroj_mistik|pero" source="vtoroj_mistik" target="pero" weight="1"/>
+            <edge id="vtoroj_mistik|avtor" source="vtoroj_mistik" target="avtor" weight="1"/>
+            <edge id="vtoroj_mistik|predsedatel" source="vtoroj_mistik" target="predsedatel" weight="1"/>
+            <edge id="vtoroj_mistik|kolombina" source="vtoroj_mistik" target="kolombina" weight="1"/>
+            <edge id="vtoroj_mistik|arlekin" source="vtoroj_mistik" target="arlekin" weight="1"/>
+            <edge id="tretij_mistik|pero" source="tretij_mistik" target="pero" weight="1"/>
+            <edge id="tretij_mistik|avtor" source="tretij_mistik" target="avtor" weight="1"/>
+            <edge id="tretij_mistik|predsedatel" source="tretij_mistik" target="predsedatel" weight="1"/>
+            <edge id="tretij_mistik|kolombina" source="tretij_mistik" target="kolombina" weight="1"/>
+            <edge id="tretij_mistik|arlekin" source="tretij_mistik" target="arlekin" weight="1"/>
+            <edge id="pero|avtor" source="pero" target="avtor" weight="2"/>
+            <edge id="pero|predsedatel" source="pero" target="predsedatel" weight="1"/>
+            <edge id="pero|kolombina" source="pero" target="kolombina" weight="1"/>
+            <edge id="pero|arlekin" source="pero" target="arlekin" weight="2"/>
+            <edge id="pero|ona_1" source="pero" target="ona_1" weight="1"/>
+            <edge id="pero|on_1" source="pero" target="on_1" weight="1"/>
+            <edge id="pero|on_2" source="pero" target="on_2" weight="1"/>
+            <edge id="pero|ona_2" source="pero" target="ona_2" weight="1"/>
+            <edge id="pero|on_3" source="pero" target="on_3" weight="1"/>
+            <edge id="pero|ona_3" source="pero" target="ona_3" weight="1"/>
+            <edge id="pero|pajats" source="pero" target="pajats" weight="1"/>
+            <edge id="pero|hor" source="pero" target="hor" weight="1"/>
+            <edge id="avtor|predsedatel" source="avtor" target="predsedatel" weight="1"/>
+            <edge id="avtor|kolombina" source="avtor" target="kolombina" weight="1"/>
+            <edge id="avtor|arlekin" source="avtor" target="arlekin" weight="1"/>
+            <edge id="predsedatel|kolombina" source="predsedatel" target="kolombina" weight="1"/>
+            <edge id="predsedatel|arlekin" source="predsedatel" target="arlekin" weight="1"/>
+            <edge id="kolombina|arlekin" source="kolombina" target="arlekin" weight="1"/>
+            <edge id="arlekin|ona_1" source="arlekin" target="ona_1" weight="1"/>
+            <edge id="arlekin|on_1" source="arlekin" target="on_1" weight="1"/>
+            <edge id="arlekin|on_2" source="arlekin" target="on_2" weight="1"/>
+            <edge id="arlekin|ona_2" source="arlekin" target="ona_2" weight="1"/>
+            <edge id="arlekin|on_3" source="arlekin" target="on_3" weight="1"/>
+            <edge id="arlekin|ona_3" source="arlekin" target="ona_3" weight="1"/>
+            <edge id="arlekin|pajats" source="arlekin" target="pajats" weight="1"/>
+            <edge id="arlekin|hor" source="arlekin" target="hor" weight="1"/>
+            <edge id="ona_1|on_1" source="ona_1" target="on_1" weight="1"/>
+            <edge id="ona_1|on_2" source="ona_1" target="on_2" weight="1"/>
+            <edge id="ona_1|ona_2" source="ona_1" target="ona_2" weight="1"/>
+            <edge id="ona_1|on_3" source="ona_1" target="on_3" weight="1"/>
+            <edge id="ona_1|ona_3" source="ona_1" target="ona_3" weight="1"/>
+            <edge id="ona_1|pajats" source="ona_1" target="pajats" weight="1"/>
+            <edge id="ona_1|hor" source="ona_1" target="hor" weight="1"/>
+            <edge id="on_1|on_2" source="on_1" target="on_2" weight="1"/>
+            <edge id="on_1|ona_2" source="on_1" target="ona_2" weight="1"/>
+            <edge id="on_1|on_3" source="on_1" target="on_3" weight="1"/>
+            <edge id="on_1|ona_3" source="on_1" target="ona_3" weight="1"/>
+            <edge id="on_1|pajats" source="on_1" target="pajats" weight="1"/>
+            <edge id="on_1|hor" source="on_1" target="hor" weight="1"/>
+            <edge id="on_2|ona_2" source="on_2" target="ona_2" weight="1"/>
+            <edge id="on_2|on_3" source="on_2" target="on_3" weight="1"/>
+            <edge id="on_2|ona_3" source="on_2" target="ona_3" weight="1"/>
+            <edge id="on_2|pajats" source="on_2" target="pajats" weight="1"/>
+            <edge id="on_2|hor" source="on_2" target="hor" weight="1"/>
+            <edge id="ona_2|on_3" source="ona_2" target="on_3" weight="1"/>
+            <edge id="ona_2|ona_3" source="ona_2" target="ona_3" weight="1"/>
+            <edge id="ona_2|pajats" source="ona_2" target="pajats" weight="1"/>
+            <edge id="ona_2|hor" source="ona_2" target="hor" weight="1"/>
+            <edge id="on_3|ona_3" source="on_3" target="ona_3" weight="1"/>
+            <edge id="on_3|pajats" source="on_3" target="pajats" weight="1"/>
+            <edge id="on_3|hor" source="on_3" target="hor" weight="1"/>
+            <edge id="ona_3|pajats" source="ona_3" target="pajats" weight="1"/>
+            <edge id="ona_3|hor" source="ona_3" target="hor" weight="1"/>
+            <edge id="pajats|hor" source="pajats" target="hor" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Маяковский, Владимир Владимирович: Клоп</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="pugovichnyj_raznoschik" label="Пуговичный разносчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschik_kukol" label="Разносчик кукол">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschica_yablok" label="Разносчица яблок">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschik_tochilnyh_kamnej" label="Разносчик точильных камней">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschik_abazhurov" label="Разносчик абажуров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prodavec_sharov" label="Продавец шаров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschik_seledok" label="Разносчик селедок">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschica_galanterei" label="Разносчица галантереи">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="prodavec_kleya" label="Продавец клея">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschica_duhov" label="Разносчица духов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="prodavec_knig" label="Продавец книг">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prisypkin-skripkin" label="Присыпкин (Пьер Скрипкин)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="718"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rozaliya_pavlovna" label="Розалия Павловна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="254"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="bayan" label="Баян">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="931"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="raznoschik_igrushek" label="Разносчик игрушек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prodavec_seldej" label="Продавец сельдей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zoya_berezkina" label="Зоя Березкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="276"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="milicioner" label="Милиционер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bosoj_paren" label="Босой парень">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="175"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="uborschik" label="Уборщик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="68"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="molodoj_rabochij" label="Молодой рабочий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="37"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="devushka_2" label="Девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="48"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="izobretatel" label="Изобретатель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="paren_s_knigoj" label="Парень с книгой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="74"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="slesar" label="Слесарь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="212"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_2" label="Голоса">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golos" label="Голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="elzevira" label="Эльзевира">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gost" label="Гость">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="48"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vse_3" label="Все (III)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="buhgalter" label="Бухгалтер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="35"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_3" label="Голоса">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="shafer" label="Шафер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="64"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="parikmaher" label="Парикмахер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="posazhennaya" label="Посаженная">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kriki" label="Крики">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_pozharnyj" label="1-й пожарный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="36"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nachalnik" label="Начальник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_pozharnyj" label="2-й пожарный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_pozharnyj" label="3-й пожарный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="33"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chetvertyj_pozharnyj" label="4-й пожарный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pozharnye" label="Пожарные">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="staryj" label="Старый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="172"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="molodoj" label="Молодой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="orator" label="Оратор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="231"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_reporter" label="1-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_reporter" label="2-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_reporter" label="3-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chetvertyj_reporter" label="4-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pyatyj_reporter" label="5-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shestoj_reporter" label="6-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sedmoj_reporter" label="7-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vosmoj_reporter" label="8-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="devyatyj_reporter" label="9-й репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_gazetchik" label="1-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_gazetchik" label="2-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_gazetchik" label="3-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chetvertyj_gazetchik" label="4-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pyatyj_gazetchik" label="5-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shestoj_gazetchik" label="6-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sedmoj_gazetchik" label="7-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vosmoj_gazetchik" label="8-й газетчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="professor" label="Профессор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="364"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shestoj_vrach" label="6-й врач">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_vrach" label="1-й врач">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_vrach" label="2-й врач">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="horom" label="Хором">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="reporter" label="Репортер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="341"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_muzhchina" label="1-й мужчина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sidyaschie" label="Сидящие">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="prohodyaschij" label="Проходящий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="muzhchina" label="Мужчина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="devushka_7" label="Девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="direktor" label="Директор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="608"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa_7" label="Голоса">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="31"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="vostorzhennyj_golos" label="Восторженный голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="vostorzhennyj_golos_sverhu" label="Восторженный голос сверху">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="vrach" label="Врач">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rasporyaditel" label="Распорядитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="136"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervaya_staruha" label="1-я старуха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_starik" label="1-й старик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoraya_staruha" label="2-я старуха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_starik" label="2-й старик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretya_staruha" label="3-я старуха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_starik" label="3-й старик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="deti" label="Дети">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_sluzhitel" label="1-й служитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_sluzhitel" label="2-й служитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_sluzhitel" label="3-й служитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chetvertyj_sluzhitel" label="4-й служитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pyatyj_sluzhitel" label="5-й служитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shestoj_sluzhitel" label="6-й служитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vse_9" label="Все (IX)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="predsedatel_soveta" label="Председатель совета">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="131"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_tolpy_1" label="Голос из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_tolpy_2" label="Голос из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_tolpy_3" label="Голос из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golosa_gostej" label="Голоса гостей">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="pugovichnyj_raznoschik|raznoschik_kukol" source="pugovichnyj_raznoschik" target="raznoschik_kukol" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|raznoschica_yablok" source="pugovichnyj_raznoschik" target="raznoschica_yablok" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|raznoschik_tochilnyh_kamnej" source="pugovichnyj_raznoschik" target="raznoschik_tochilnyh_kamnej" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|raznoschik_abazhurov" source="pugovichnyj_raznoschik" target="raznoschik_abazhurov" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|prodavec_sharov" source="pugovichnyj_raznoschik" target="prodavec_sharov" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|raznoschik_seledok" source="pugovichnyj_raznoschik" target="raznoschik_seledok" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|raznoschica_galanterei" source="pugovichnyj_raznoschik" target="raznoschica_galanterei" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|prodavec_kleya" source="pugovichnyj_raznoschik" target="prodavec_kleya" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|raznoschica_duhov" source="pugovichnyj_raznoschik" target="raznoschica_duhov" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|prodavec_knig" source="pugovichnyj_raznoschik" target="prodavec_knig" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|prisypkin-skripkin" source="pugovichnyj_raznoschik" target="prisypkin-skripkin" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|rozaliya_pavlovna" source="pugovichnyj_raznoschik" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|bayan" source="pugovichnyj_raznoschik" target="bayan" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|raznoschik_igrushek" source="pugovichnyj_raznoschik" target="raznoschik_igrushek" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|prodavec_seldej" source="pugovichnyj_raznoschik" target="prodavec_seldej" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|zoya_berezkina" source="pugovichnyj_raznoschik" target="zoya_berezkina" weight="1"/>
+            <edge id="pugovichnyj_raznoschik|milicioner" source="pugovichnyj_raznoschik" target="milicioner" weight="1"/>
+            <edge id="raznoschik_kukol|raznoschica_yablok" source="raznoschik_kukol" target="raznoschica_yablok" weight="1"/>
+            <edge id="raznoschik_kukol|raznoschik_tochilnyh_kamnej" source="raznoschik_kukol" target="raznoschik_tochilnyh_kamnej" weight="1"/>
+            <edge id="raznoschik_kukol|raznoschik_abazhurov" source="raznoschik_kukol" target="raznoschik_abazhurov" weight="1"/>
+            <edge id="raznoschik_kukol|prodavec_sharov" source="raznoschik_kukol" target="prodavec_sharov" weight="1"/>
+            <edge id="raznoschik_kukol|raznoschik_seledok" source="raznoschik_kukol" target="raznoschik_seledok" weight="1"/>
+            <edge id="raznoschik_kukol|raznoschica_galanterei" source="raznoschik_kukol" target="raznoschica_galanterei" weight="1"/>
+            <edge id="raznoschik_kukol|prodavec_kleya" source="raznoschik_kukol" target="prodavec_kleya" weight="1"/>
+            <edge id="raznoschik_kukol|raznoschica_duhov" source="raznoschik_kukol" target="raznoschica_duhov" weight="1"/>
+            <edge id="raznoschik_kukol|prodavec_knig" source="raznoschik_kukol" target="prodavec_knig" weight="1"/>
+            <edge id="raznoschik_kukol|prisypkin-skripkin" source="raznoschik_kukol" target="prisypkin-skripkin" weight="1"/>
+            <edge id="raznoschik_kukol|rozaliya_pavlovna" source="raznoschik_kukol" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="raznoschik_kukol|bayan" source="raznoschik_kukol" target="bayan" weight="1"/>
+            <edge id="raznoschik_kukol|raznoschik_igrushek" source="raznoschik_kukol" target="raznoschik_igrushek" weight="1"/>
+            <edge id="raznoschik_kukol|prodavec_seldej" source="raznoschik_kukol" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschik_kukol|zoya_berezkina" source="raznoschik_kukol" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschik_kukol|milicioner" source="raznoschik_kukol" target="milicioner" weight="1"/>
+            <edge id="raznoschica_yablok|raznoschik_tochilnyh_kamnej" source="raznoschica_yablok" target="raznoschik_tochilnyh_kamnej" weight="1"/>
+            <edge id="raznoschica_yablok|raznoschik_abazhurov" source="raznoschica_yablok" target="raznoschik_abazhurov" weight="1"/>
+            <edge id="raznoschica_yablok|prodavec_sharov" source="raznoschica_yablok" target="prodavec_sharov" weight="1"/>
+            <edge id="raznoschica_yablok|raznoschik_seledok" source="raznoschica_yablok" target="raznoschik_seledok" weight="1"/>
+            <edge id="raznoschica_yablok|raznoschica_galanterei" source="raznoschica_yablok" target="raznoschica_galanterei" weight="1"/>
+            <edge id="raznoschica_yablok|prodavec_kleya" source="raznoschica_yablok" target="prodavec_kleya" weight="1"/>
+            <edge id="raznoschica_yablok|raznoschica_duhov" source="raznoschica_yablok" target="raznoschica_duhov" weight="1"/>
+            <edge id="raznoschica_yablok|prodavec_knig" source="raznoschica_yablok" target="prodavec_knig" weight="1"/>
+            <edge id="raznoschica_yablok|prisypkin-skripkin" source="raznoschica_yablok" target="prisypkin-skripkin" weight="1"/>
+            <edge id="raznoschica_yablok|rozaliya_pavlovna" source="raznoschica_yablok" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="raznoschica_yablok|bayan" source="raznoschica_yablok" target="bayan" weight="1"/>
+            <edge id="raznoschica_yablok|raznoschik_igrushek" source="raznoschica_yablok" target="raznoschik_igrushek" weight="1"/>
+            <edge id="raznoschica_yablok|prodavec_seldej" source="raznoschica_yablok" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschica_yablok|zoya_berezkina" source="raznoschica_yablok" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschica_yablok|milicioner" source="raznoschica_yablok" target="milicioner" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|raznoschik_abazhurov" source="raznoschik_tochilnyh_kamnej" target="raznoschik_abazhurov" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|prodavec_sharov" source="raznoschik_tochilnyh_kamnej" target="prodavec_sharov" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|raznoschik_seledok" source="raznoschik_tochilnyh_kamnej" target="raznoschik_seledok" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|raznoschica_galanterei" source="raznoschik_tochilnyh_kamnej" target="raznoschica_galanterei" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|prodavec_kleya" source="raznoschik_tochilnyh_kamnej" target="prodavec_kleya" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|raznoschica_duhov" source="raznoschik_tochilnyh_kamnej" target="raznoschica_duhov" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|prodavec_knig" source="raznoschik_tochilnyh_kamnej" target="prodavec_knig" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|prisypkin-skripkin" source="raznoschik_tochilnyh_kamnej" target="prisypkin-skripkin" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|rozaliya_pavlovna" source="raznoschik_tochilnyh_kamnej" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|bayan" source="raznoschik_tochilnyh_kamnej" target="bayan" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|raznoschik_igrushek" source="raznoschik_tochilnyh_kamnej" target="raznoschik_igrushek" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|prodavec_seldej" source="raznoschik_tochilnyh_kamnej" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|zoya_berezkina" source="raznoschik_tochilnyh_kamnej" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschik_tochilnyh_kamnej|milicioner" source="raznoschik_tochilnyh_kamnej" target="milicioner" weight="1"/>
+            <edge id="raznoschik_abazhurov|prodavec_sharov" source="raznoschik_abazhurov" target="prodavec_sharov" weight="1"/>
+            <edge id="raznoschik_abazhurov|raznoschik_seledok" source="raznoschik_abazhurov" target="raznoschik_seledok" weight="1"/>
+            <edge id="raznoschik_abazhurov|raznoschica_galanterei" source="raznoschik_abazhurov" target="raznoschica_galanterei" weight="1"/>
+            <edge id="raznoschik_abazhurov|prodavec_kleya" source="raznoschik_abazhurov" target="prodavec_kleya" weight="1"/>
+            <edge id="raznoschik_abazhurov|raznoschica_duhov" source="raznoschik_abazhurov" target="raznoschica_duhov" weight="1"/>
+            <edge id="raznoschik_abazhurov|prodavec_knig" source="raznoschik_abazhurov" target="prodavec_knig" weight="1"/>
+            <edge id="raznoschik_abazhurov|prisypkin-skripkin" source="raznoschik_abazhurov" target="prisypkin-skripkin" weight="1"/>
+            <edge id="raznoschik_abazhurov|rozaliya_pavlovna" source="raznoschik_abazhurov" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="raznoschik_abazhurov|bayan" source="raznoschik_abazhurov" target="bayan" weight="1"/>
+            <edge id="raznoschik_abazhurov|raznoschik_igrushek" source="raznoschik_abazhurov" target="raznoschik_igrushek" weight="1"/>
+            <edge id="raznoschik_abazhurov|prodavec_seldej" source="raznoschik_abazhurov" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschik_abazhurov|zoya_berezkina" source="raznoschik_abazhurov" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschik_abazhurov|milicioner" source="raznoschik_abazhurov" target="milicioner" weight="1"/>
+            <edge id="prodavec_sharov|raznoschik_seledok" source="prodavec_sharov" target="raznoschik_seledok" weight="1"/>
+            <edge id="prodavec_sharov|raznoschica_galanterei" source="prodavec_sharov" target="raznoschica_galanterei" weight="1"/>
+            <edge id="prodavec_sharov|prodavec_kleya" source="prodavec_sharov" target="prodavec_kleya" weight="1"/>
+            <edge id="prodavec_sharov|raznoschica_duhov" source="prodavec_sharov" target="raznoschica_duhov" weight="1"/>
+            <edge id="prodavec_sharov|prodavec_knig" source="prodavec_sharov" target="prodavec_knig" weight="1"/>
+            <edge id="prodavec_sharov|prisypkin-skripkin" source="prodavec_sharov" target="prisypkin-skripkin" weight="1"/>
+            <edge id="prodavec_sharov|rozaliya_pavlovna" source="prodavec_sharov" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="prodavec_sharov|bayan" source="prodavec_sharov" target="bayan" weight="1"/>
+            <edge id="prodavec_sharov|raznoschik_igrushek" source="prodavec_sharov" target="raznoschik_igrushek" weight="1"/>
+            <edge id="prodavec_sharov|prodavec_seldej" source="prodavec_sharov" target="prodavec_seldej" weight="1"/>
+            <edge id="prodavec_sharov|zoya_berezkina" source="prodavec_sharov" target="zoya_berezkina" weight="1"/>
+            <edge id="prodavec_sharov|milicioner" source="prodavec_sharov" target="milicioner" weight="1"/>
+            <edge id="raznoschik_seledok|raznoschica_galanterei" source="raznoschik_seledok" target="raznoschica_galanterei" weight="1"/>
+            <edge id="raznoschik_seledok|prodavec_kleya" source="raznoschik_seledok" target="prodavec_kleya" weight="1"/>
+            <edge id="raznoschik_seledok|raznoschica_duhov" source="raznoschik_seledok" target="raznoschica_duhov" weight="1"/>
+            <edge id="raznoschik_seledok|prodavec_knig" source="raznoschik_seledok" target="prodavec_knig" weight="1"/>
+            <edge id="raznoschik_seledok|prisypkin-skripkin" source="raznoschik_seledok" target="prisypkin-skripkin" weight="1"/>
+            <edge id="raznoschik_seledok|rozaliya_pavlovna" source="raznoschik_seledok" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="raznoschik_seledok|bayan" source="raznoschik_seledok" target="bayan" weight="1"/>
+            <edge id="raznoschik_seledok|raznoschik_igrushek" source="raznoschik_seledok" target="raznoschik_igrushek" weight="1"/>
+            <edge id="raznoschik_seledok|prodavec_seldej" source="raznoschik_seledok" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschik_seledok|zoya_berezkina" source="raznoschik_seledok" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschik_seledok|milicioner" source="raznoschik_seledok" target="milicioner" weight="1"/>
+            <edge id="raznoschica_galanterei|prodavec_kleya" source="raznoschica_galanterei" target="prodavec_kleya" weight="1"/>
+            <edge id="raznoschica_galanterei|raznoschica_duhov" source="raznoschica_galanterei" target="raznoschica_duhov" weight="1"/>
+            <edge id="raznoschica_galanterei|prodavec_knig" source="raznoschica_galanterei" target="prodavec_knig" weight="1"/>
+            <edge id="raznoschica_galanterei|prisypkin-skripkin" source="raznoschica_galanterei" target="prisypkin-skripkin" weight="1"/>
+            <edge id="raznoschica_galanterei|rozaliya_pavlovna" source="raznoschica_galanterei" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="raznoschica_galanterei|bayan" source="raznoschica_galanterei" target="bayan" weight="1"/>
+            <edge id="raznoschica_galanterei|raznoschik_igrushek" source="raznoschica_galanterei" target="raznoschik_igrushek" weight="1"/>
+            <edge id="raznoschica_galanterei|prodavec_seldej" source="raznoschica_galanterei" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschica_galanterei|zoya_berezkina" source="raznoschica_galanterei" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschica_galanterei|milicioner" source="raznoschica_galanterei" target="milicioner" weight="1"/>
+            <edge id="prodavec_kleya|raznoschica_duhov" source="prodavec_kleya" target="raznoschica_duhov" weight="1"/>
+            <edge id="prodavec_kleya|prodavec_knig" source="prodavec_kleya" target="prodavec_knig" weight="1"/>
+            <edge id="prodavec_kleya|prisypkin-skripkin" source="prodavec_kleya" target="prisypkin-skripkin" weight="1"/>
+            <edge id="prodavec_kleya|rozaliya_pavlovna" source="prodavec_kleya" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="prodavec_kleya|bayan" source="prodavec_kleya" target="bayan" weight="1"/>
+            <edge id="prodavec_kleya|raznoschik_igrushek" source="prodavec_kleya" target="raznoschik_igrushek" weight="1"/>
+            <edge id="prodavec_kleya|prodavec_seldej" source="prodavec_kleya" target="prodavec_seldej" weight="1"/>
+            <edge id="prodavec_kleya|zoya_berezkina" source="prodavec_kleya" target="zoya_berezkina" weight="1"/>
+            <edge id="prodavec_kleya|milicioner" source="prodavec_kleya" target="milicioner" weight="1"/>
+            <edge id="raznoschica_duhov|prodavec_knig" source="raznoschica_duhov" target="prodavec_knig" weight="1"/>
+            <edge id="raznoschica_duhov|prisypkin-skripkin" source="raznoschica_duhov" target="prisypkin-skripkin" weight="1"/>
+            <edge id="raznoschica_duhov|rozaliya_pavlovna" source="raznoschica_duhov" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="raznoschica_duhov|bayan" source="raznoschica_duhov" target="bayan" weight="1"/>
+            <edge id="raznoschica_duhov|raznoschik_igrushek" source="raznoschica_duhov" target="raznoschik_igrushek" weight="1"/>
+            <edge id="raznoschica_duhov|prodavec_seldej" source="raznoschica_duhov" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschica_duhov|zoya_berezkina" source="raznoschica_duhov" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschica_duhov|milicioner" source="raznoschica_duhov" target="milicioner" weight="1"/>
+            <edge id="prodavec_knig|prisypkin-skripkin" source="prodavec_knig" target="prisypkin-skripkin" weight="1"/>
+            <edge id="prodavec_knig|rozaliya_pavlovna" source="prodavec_knig" target="rozaliya_pavlovna" weight="1"/>
+            <edge id="prodavec_knig|bayan" source="prodavec_knig" target="bayan" weight="1"/>
+            <edge id="prodavec_knig|raznoschik_igrushek" source="prodavec_knig" target="raznoschik_igrushek" weight="1"/>
+            <edge id="prodavec_knig|prodavec_seldej" source="prodavec_knig" target="prodavec_seldej" weight="1"/>
+            <edge id="prodavec_knig|zoya_berezkina" source="prodavec_knig" target="zoya_berezkina" weight="1"/>
+            <edge id="prodavec_knig|milicioner" source="prodavec_knig" target="milicioner" weight="1"/>
+            <edge id="prisypkin-skripkin|rozaliya_pavlovna" source="prisypkin-skripkin" target="rozaliya_pavlovna" weight="2"/>
+            <edge id="prisypkin-skripkin|bayan" source="prisypkin-skripkin" target="bayan" weight="3"/>
+            <edge id="prisypkin-skripkin|raznoschik_igrushek" source="prisypkin-skripkin" target="raznoschik_igrushek" weight="1"/>
+            <edge id="prisypkin-skripkin|prodavec_seldej" source="prisypkin-skripkin" target="prodavec_seldej" weight="1"/>
+            <edge id="prisypkin-skripkin|zoya_berezkina" source="prisypkin-skripkin" target="zoya_berezkina" weight="3"/>
+            <edge id="prisypkin-skripkin|milicioner" source="prisypkin-skripkin" target="milicioner" weight="1"/>
+            <edge id="prisypkin-skripkin|bosoj_paren" source="prisypkin-skripkin" target="bosoj_paren" weight="1"/>
+            <edge id="prisypkin-skripkin|uborschik" source="prisypkin-skripkin" target="uborschik" weight="1"/>
+            <edge id="prisypkin-skripkin|molodoj_rabochij" source="prisypkin-skripkin" target="molodoj_rabochij" weight="1"/>
+            <edge id="prisypkin-skripkin|devushka_2" source="prisypkin-skripkin" target="devushka_2" weight="1"/>
+            <edge id="prisypkin-skripkin|izobretatel" source="prisypkin-skripkin" target="izobretatel" weight="1"/>
+            <edge id="prisypkin-skripkin|paren_s_knigoj" source="prisypkin-skripkin" target="paren_s_knigoj" weight="1"/>
+            <edge id="prisypkin-skripkin|slesar" source="prisypkin-skripkin" target="slesar" weight="1"/>
+            <edge id="prisypkin-skripkin|golosa_2" source="prisypkin-skripkin" target="golosa_2" weight="1"/>
+            <edge id="prisypkin-skripkin|golos" source="prisypkin-skripkin" target="golos" weight="1"/>
+            <edge id="prisypkin-skripkin|elzevira" source="prisypkin-skripkin" target="elzevira" weight="1"/>
+            <edge id="prisypkin-skripkin|gost" source="prisypkin-skripkin" target="gost" weight="1"/>
+            <edge id="prisypkin-skripkin|vse_3" source="prisypkin-skripkin" target="vse_3" weight="1"/>
+            <edge id="prisypkin-skripkin|buhgalter" source="prisypkin-skripkin" target="buhgalter" weight="1"/>
+            <edge id="prisypkin-skripkin|golosa_3" source="prisypkin-skripkin" target="golosa_3" weight="1"/>
+            <edge id="prisypkin-skripkin|shafer" source="prisypkin-skripkin" target="shafer" weight="1"/>
+            <edge id="prisypkin-skripkin|parikmaher" source="prisypkin-skripkin" target="parikmaher" weight="1"/>
+            <edge id="prisypkin-skripkin|posazhennaya" source="prisypkin-skripkin" target="posazhennaya" weight="1"/>
+            <edge id="prisypkin-skripkin|kriki" source="prisypkin-skripkin" target="kriki" weight="1"/>
+            <edge id="prisypkin-skripkin|professor" source="prisypkin-skripkin" target="professor" weight="2"/>
+            <edge id="prisypkin-skripkin|shestoj_vrach" source="prisypkin-skripkin" target="shestoj_vrach" weight="1"/>
+            <edge id="prisypkin-skripkin|pervyj_vrach" source="prisypkin-skripkin" target="pervyj_vrach" weight="1"/>
+            <edge id="prisypkin-skripkin|vtoroj_vrach" source="prisypkin-skripkin" target="vtoroj_vrach" weight="1"/>
+            <edge id="prisypkin-skripkin|horom" source="prisypkin-skripkin" target="horom" weight="1"/>
+            <edge id="prisypkin-skripkin|vrach" source="prisypkin-skripkin" target="vrach" weight="1"/>
+            <edge id="prisypkin-skripkin|rasporyaditel" source="prisypkin-skripkin" target="rasporyaditel" weight="1"/>
+            <edge id="prisypkin-skripkin|pervaya_staruha" source="prisypkin-skripkin" target="pervaya_staruha" weight="1"/>
+            <edge id="prisypkin-skripkin|pervyj_starik" source="prisypkin-skripkin" target="pervyj_starik" weight="1"/>
+            <edge id="prisypkin-skripkin|vtoraya_staruha" source="prisypkin-skripkin" target="vtoraya_staruha" weight="1"/>
+            <edge id="prisypkin-skripkin|vtoroj_starik" source="prisypkin-skripkin" target="vtoroj_starik" weight="1"/>
+            <edge id="prisypkin-skripkin|tretya_staruha" source="prisypkin-skripkin" target="tretya_staruha" weight="1"/>
+            <edge id="prisypkin-skripkin|tretij_starik" source="prisypkin-skripkin" target="tretij_starik" weight="1"/>
+            <edge id="prisypkin-skripkin|deti" source="prisypkin-skripkin" target="deti" weight="1"/>
+            <edge id="prisypkin-skripkin|pervyj_sluzhitel" source="prisypkin-skripkin" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="prisypkin-skripkin|vtoroj_sluzhitel" source="prisypkin-skripkin" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="prisypkin-skripkin|tretij_sluzhitel" source="prisypkin-skripkin" target="tretij_sluzhitel" weight="1"/>
+            <edge id="prisypkin-skripkin|chetvertyj_sluzhitel" source="prisypkin-skripkin" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="prisypkin-skripkin|pyatyj_sluzhitel" source="prisypkin-skripkin" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="prisypkin-skripkin|shestoj_sluzhitel" source="prisypkin-skripkin" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="prisypkin-skripkin|vse_9" source="prisypkin-skripkin" target="vse_9" weight="1"/>
+            <edge id="prisypkin-skripkin|predsedatel_soveta" source="prisypkin-skripkin" target="predsedatel_soveta" weight="1"/>
+            <edge id="prisypkin-skripkin|direktor" source="prisypkin-skripkin" target="direktor" weight="1"/>
+            <edge id="prisypkin-skripkin|golos_iz_tolpy_1" source="prisypkin-skripkin" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="prisypkin-skripkin|golos_iz_tolpy_2" source="prisypkin-skripkin" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="prisypkin-skripkin|golos_iz_tolpy_3" source="prisypkin-skripkin" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="prisypkin-skripkin|golosa_gostej" source="prisypkin-skripkin" target="golosa_gostej" weight="1"/>
+            <edge id="rozaliya_pavlovna|bayan" source="rozaliya_pavlovna" target="bayan" weight="2"/>
+            <edge id="rozaliya_pavlovna|raznoschik_igrushek" source="rozaliya_pavlovna" target="raznoschik_igrushek" weight="1"/>
+            <edge id="rozaliya_pavlovna|prodavec_seldej" source="rozaliya_pavlovna" target="prodavec_seldej" weight="1"/>
+            <edge id="rozaliya_pavlovna|zoya_berezkina" source="rozaliya_pavlovna" target="zoya_berezkina" weight="1"/>
+            <edge id="rozaliya_pavlovna|milicioner" source="rozaliya_pavlovna" target="milicioner" weight="1"/>
+            <edge id="rozaliya_pavlovna|elzevira" source="rozaliya_pavlovna" target="elzevira" weight="1"/>
+            <edge id="rozaliya_pavlovna|gost" source="rozaliya_pavlovna" target="gost" weight="1"/>
+            <edge id="rozaliya_pavlovna|vse_3" source="rozaliya_pavlovna" target="vse_3" weight="1"/>
+            <edge id="rozaliya_pavlovna|buhgalter" source="rozaliya_pavlovna" target="buhgalter" weight="1"/>
+            <edge id="rozaliya_pavlovna|golosa_3" source="rozaliya_pavlovna" target="golosa_3" weight="1"/>
+            <edge id="rozaliya_pavlovna|shafer" source="rozaliya_pavlovna" target="shafer" weight="1"/>
+            <edge id="rozaliya_pavlovna|parikmaher" source="rozaliya_pavlovna" target="parikmaher" weight="1"/>
+            <edge id="rozaliya_pavlovna|posazhennaya" source="rozaliya_pavlovna" target="posazhennaya" weight="1"/>
+            <edge id="rozaliya_pavlovna|kriki" source="rozaliya_pavlovna" target="kriki" weight="1"/>
+            <edge id="bayan|raznoschik_igrushek" source="bayan" target="raznoschik_igrushek" weight="1"/>
+            <edge id="bayan|prodavec_seldej" source="bayan" target="prodavec_seldej" weight="1"/>
+            <edge id="bayan|zoya_berezkina" source="bayan" target="zoya_berezkina" weight="1"/>
+            <edge id="bayan|milicioner" source="bayan" target="milicioner" weight="1"/>
+            <edge id="bayan|bosoj_paren" source="bayan" target="bosoj_paren" weight="1"/>
+            <edge id="bayan|uborschik" source="bayan" target="uborschik" weight="1"/>
+            <edge id="bayan|molodoj_rabochij" source="bayan" target="molodoj_rabochij" weight="1"/>
+            <edge id="bayan|devushka_2" source="bayan" target="devushka_2" weight="1"/>
+            <edge id="bayan|izobretatel" source="bayan" target="izobretatel" weight="1"/>
+            <edge id="bayan|paren_s_knigoj" source="bayan" target="paren_s_knigoj" weight="1"/>
+            <edge id="bayan|slesar" source="bayan" target="slesar" weight="1"/>
+            <edge id="bayan|golosa_2" source="bayan" target="golosa_2" weight="1"/>
+            <edge id="bayan|golos" source="bayan" target="golos" weight="1"/>
+            <edge id="bayan|elzevira" source="bayan" target="elzevira" weight="1"/>
+            <edge id="bayan|gost" source="bayan" target="gost" weight="1"/>
+            <edge id="bayan|vse_3" source="bayan" target="vse_3" weight="1"/>
+            <edge id="bayan|buhgalter" source="bayan" target="buhgalter" weight="1"/>
+            <edge id="bayan|golosa_3" source="bayan" target="golosa_3" weight="1"/>
+            <edge id="bayan|shafer" source="bayan" target="shafer" weight="1"/>
+            <edge id="bayan|parikmaher" source="bayan" target="parikmaher" weight="1"/>
+            <edge id="bayan|posazhennaya" source="bayan" target="posazhennaya" weight="1"/>
+            <edge id="bayan|kriki" source="bayan" target="kriki" weight="1"/>
+            <edge id="raznoschik_igrushek|prodavec_seldej" source="raznoschik_igrushek" target="prodavec_seldej" weight="1"/>
+            <edge id="raznoschik_igrushek|zoya_berezkina" source="raznoschik_igrushek" target="zoya_berezkina" weight="1"/>
+            <edge id="raznoschik_igrushek|milicioner" source="raznoschik_igrushek" target="milicioner" weight="1"/>
+            <edge id="prodavec_seldej|zoya_berezkina" source="prodavec_seldej" target="zoya_berezkina" weight="1"/>
+            <edge id="prodavec_seldej|milicioner" source="prodavec_seldej" target="milicioner" weight="1"/>
+            <edge id="zoya_berezkina|milicioner" source="zoya_berezkina" target="milicioner" weight="1"/>
+            <edge id="zoya_berezkina|professor" source="zoya_berezkina" target="professor" weight="2"/>
+            <edge id="zoya_berezkina|shestoj_vrach" source="zoya_berezkina" target="shestoj_vrach" weight="1"/>
+            <edge id="zoya_berezkina|pervyj_vrach" source="zoya_berezkina" target="pervyj_vrach" weight="1"/>
+            <edge id="zoya_berezkina|vtoroj_vrach" source="zoya_berezkina" target="vtoroj_vrach" weight="1"/>
+            <edge id="zoya_berezkina|horom" source="zoya_berezkina" target="horom" weight="1"/>
+            <edge id="zoya_berezkina|vrach" source="zoya_berezkina" target="vrach" weight="1"/>
+            <edge id="bosoj_paren|uborschik" source="bosoj_paren" target="uborschik" weight="1"/>
+            <edge id="bosoj_paren|molodoj_rabochij" source="bosoj_paren" target="molodoj_rabochij" weight="1"/>
+            <edge id="bosoj_paren|devushka_2" source="bosoj_paren" target="devushka_2" weight="1"/>
+            <edge id="bosoj_paren|izobretatel" source="bosoj_paren" target="izobretatel" weight="1"/>
+            <edge id="bosoj_paren|paren_s_knigoj" source="bosoj_paren" target="paren_s_knigoj" weight="1"/>
+            <edge id="bosoj_paren|slesar" source="bosoj_paren" target="slesar" weight="1"/>
+            <edge id="bosoj_paren|golosa_2" source="bosoj_paren" target="golosa_2" weight="1"/>
+            <edge id="bosoj_paren|golos" source="bosoj_paren" target="golos" weight="1"/>
+            <edge id="uborschik|molodoj_rabochij" source="uborschik" target="molodoj_rabochij" weight="1"/>
+            <edge id="uborschik|devushka_2" source="uborschik" target="devushka_2" weight="1"/>
+            <edge id="uborschik|izobretatel" source="uborschik" target="izobretatel" weight="1"/>
+            <edge id="uborschik|paren_s_knigoj" source="uborschik" target="paren_s_knigoj" weight="1"/>
+            <edge id="uborschik|slesar" source="uborschik" target="slesar" weight="1"/>
+            <edge id="uborschik|golosa_2" source="uborschik" target="golosa_2" weight="1"/>
+            <edge id="uborschik|golos" source="uborschik" target="golos" weight="1"/>
+            <edge id="molodoj_rabochij|devushka_2" source="molodoj_rabochij" target="devushka_2" weight="1"/>
+            <edge id="molodoj_rabochij|izobretatel" source="molodoj_rabochij" target="izobretatel" weight="1"/>
+            <edge id="molodoj_rabochij|paren_s_knigoj" source="molodoj_rabochij" target="paren_s_knigoj" weight="1"/>
+            <edge id="molodoj_rabochij|slesar" source="molodoj_rabochij" target="slesar" weight="1"/>
+            <edge id="molodoj_rabochij|golosa_2" source="molodoj_rabochij" target="golosa_2" weight="1"/>
+            <edge id="molodoj_rabochij|golos" source="molodoj_rabochij" target="golos" weight="1"/>
+            <edge id="devushka_2|izobretatel" source="devushka_2" target="izobretatel" weight="1"/>
+            <edge id="devushka_2|paren_s_knigoj" source="devushka_2" target="paren_s_knigoj" weight="1"/>
+            <edge id="devushka_2|slesar" source="devushka_2" target="slesar" weight="1"/>
+            <edge id="devushka_2|golosa_2" source="devushka_2" target="golosa_2" weight="1"/>
+            <edge id="devushka_2|golos" source="devushka_2" target="golos" weight="1"/>
+            <edge id="izobretatel|paren_s_knigoj" source="izobretatel" target="paren_s_knigoj" weight="1"/>
+            <edge id="izobretatel|slesar" source="izobretatel" target="slesar" weight="1"/>
+            <edge id="izobretatel|golosa_2" source="izobretatel" target="golosa_2" weight="1"/>
+            <edge id="izobretatel|golos" source="izobretatel" target="golos" weight="1"/>
+            <edge id="paren_s_knigoj|slesar" source="paren_s_knigoj" target="slesar" weight="1"/>
+            <edge id="paren_s_knigoj|golosa_2" source="paren_s_knigoj" target="golosa_2" weight="1"/>
+            <edge id="paren_s_knigoj|golos" source="paren_s_knigoj" target="golos" weight="1"/>
+            <edge id="slesar|golosa_2" source="slesar" target="golosa_2" weight="1"/>
+            <edge id="slesar|golos" source="slesar" target="golos" weight="1"/>
+            <edge id="golosa_2|golos" source="golosa_2" target="golos" weight="1"/>
+            <edge id="elzevira|gost" source="elzevira" target="gost" weight="1"/>
+            <edge id="elzevira|vse_3" source="elzevira" target="vse_3" weight="1"/>
+            <edge id="elzevira|buhgalter" source="elzevira" target="buhgalter" weight="1"/>
+            <edge id="elzevira|golosa_3" source="elzevira" target="golosa_3" weight="1"/>
+            <edge id="elzevira|shafer" source="elzevira" target="shafer" weight="1"/>
+            <edge id="elzevira|parikmaher" source="elzevira" target="parikmaher" weight="1"/>
+            <edge id="elzevira|posazhennaya" source="elzevira" target="posazhennaya" weight="1"/>
+            <edge id="elzevira|kriki" source="elzevira" target="kriki" weight="1"/>
+            <edge id="gost|vse_3" source="gost" target="vse_3" weight="1"/>
+            <edge id="gost|buhgalter" source="gost" target="buhgalter" weight="1"/>
+            <edge id="gost|golosa_3" source="gost" target="golosa_3" weight="1"/>
+            <edge id="gost|shafer" source="gost" target="shafer" weight="1"/>
+            <edge id="gost|parikmaher" source="gost" target="parikmaher" weight="1"/>
+            <edge id="gost|posazhennaya" source="gost" target="posazhennaya" weight="1"/>
+            <edge id="gost|kriki" source="gost" target="kriki" weight="1"/>
+            <edge id="vse_3|buhgalter" source="vse_3" target="buhgalter" weight="1"/>
+            <edge id="vse_3|golosa_3" source="vse_3" target="golosa_3" weight="1"/>
+            <edge id="vse_3|shafer" source="vse_3" target="shafer" weight="1"/>
+            <edge id="vse_3|parikmaher" source="vse_3" target="parikmaher" weight="1"/>
+            <edge id="vse_3|posazhennaya" source="vse_3" target="posazhennaya" weight="1"/>
+            <edge id="vse_3|kriki" source="vse_3" target="kriki" weight="1"/>
+            <edge id="buhgalter|golosa_3" source="buhgalter" target="golosa_3" weight="1"/>
+            <edge id="buhgalter|shafer" source="buhgalter" target="shafer" weight="1"/>
+            <edge id="buhgalter|parikmaher" source="buhgalter" target="parikmaher" weight="1"/>
+            <edge id="buhgalter|posazhennaya" source="buhgalter" target="posazhennaya" weight="1"/>
+            <edge id="buhgalter|kriki" source="buhgalter" target="kriki" weight="1"/>
+            <edge id="golosa_3|shafer" source="golosa_3" target="shafer" weight="1"/>
+            <edge id="golosa_3|parikmaher" source="golosa_3" target="parikmaher" weight="1"/>
+            <edge id="golosa_3|posazhennaya" source="golosa_3" target="posazhennaya" weight="1"/>
+            <edge id="golosa_3|kriki" source="golosa_3" target="kriki" weight="1"/>
+            <edge id="shafer|parikmaher" source="shafer" target="parikmaher" weight="1"/>
+            <edge id="shafer|posazhennaya" source="shafer" target="posazhennaya" weight="1"/>
+            <edge id="shafer|kriki" source="shafer" target="kriki" weight="1"/>
+            <edge id="parikmaher|posazhennaya" source="parikmaher" target="posazhennaya" weight="1"/>
+            <edge id="parikmaher|kriki" source="parikmaher" target="kriki" weight="1"/>
+            <edge id="posazhennaya|kriki" source="posazhennaya" target="kriki" weight="1"/>
+            <edge id="pervyj_pozharnyj|nachalnik" source="pervyj_pozharnyj" target="nachalnik" weight="1"/>
+            <edge id="pervyj_pozharnyj|vtoroj_pozharnyj" source="pervyj_pozharnyj" target="vtoroj_pozharnyj" weight="1"/>
+            <edge id="pervyj_pozharnyj|tretij_pozharnyj" source="pervyj_pozharnyj" target="tretij_pozharnyj" weight="1"/>
+            <edge id="pervyj_pozharnyj|chetvertyj_pozharnyj" source="pervyj_pozharnyj" target="chetvertyj_pozharnyj" weight="1"/>
+            <edge id="pervyj_pozharnyj|pozharnye" source="pervyj_pozharnyj" target="pozharnye" weight="1"/>
+            <edge id="nachalnik|vtoroj_pozharnyj" source="nachalnik" target="vtoroj_pozharnyj" weight="1"/>
+            <edge id="nachalnik|tretij_pozharnyj" source="nachalnik" target="tretij_pozharnyj" weight="1"/>
+            <edge id="nachalnik|chetvertyj_pozharnyj" source="nachalnik" target="chetvertyj_pozharnyj" weight="1"/>
+            <edge id="nachalnik|pozharnye" source="nachalnik" target="pozharnye" weight="1"/>
+            <edge id="vtoroj_pozharnyj|tretij_pozharnyj" source="vtoroj_pozharnyj" target="tretij_pozharnyj" weight="1"/>
+            <edge id="vtoroj_pozharnyj|chetvertyj_pozharnyj" source="vtoroj_pozharnyj" target="chetvertyj_pozharnyj" weight="1"/>
+            <edge id="vtoroj_pozharnyj|pozharnye" source="vtoroj_pozharnyj" target="pozharnye" weight="1"/>
+            <edge id="tretij_pozharnyj|chetvertyj_pozharnyj" source="tretij_pozharnyj" target="chetvertyj_pozharnyj" weight="1"/>
+            <edge id="tretij_pozharnyj|pozharnye" source="tretij_pozharnyj" target="pozharnye" weight="1"/>
+            <edge id="chetvertyj_pozharnyj|pozharnye" source="chetvertyj_pozharnyj" target="pozharnye" weight="1"/>
+            <edge id="staryj|molodoj" source="staryj" target="molodoj" weight="1"/>
+            <edge id="staryj|orator" source="staryj" target="orator" weight="1"/>
+            <edge id="staryj|pervyj_reporter" source="staryj" target="pervyj_reporter" weight="1"/>
+            <edge id="staryj|vtoroj_reporter" source="staryj" target="vtoroj_reporter" weight="1"/>
+            <edge id="staryj|tretij_reporter" source="staryj" target="tretij_reporter" weight="1"/>
+            <edge id="staryj|chetvertyj_reporter" source="staryj" target="chetvertyj_reporter" weight="1"/>
+            <edge id="staryj|pyatyj_reporter" source="staryj" target="pyatyj_reporter" weight="1"/>
+            <edge id="staryj|shestoj_reporter" source="staryj" target="shestoj_reporter" weight="1"/>
+            <edge id="staryj|sedmoj_reporter" source="staryj" target="sedmoj_reporter" weight="1"/>
+            <edge id="staryj|vosmoj_reporter" source="staryj" target="vosmoj_reporter" weight="1"/>
+            <edge id="staryj|devyatyj_reporter" source="staryj" target="devyatyj_reporter" weight="1"/>
+            <edge id="staryj|pervyj_gazetchik" source="staryj" target="pervyj_gazetchik" weight="1"/>
+            <edge id="staryj|vtoroj_gazetchik" source="staryj" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="staryj|tretij_gazetchik" source="staryj" target="tretij_gazetchik" weight="1"/>
+            <edge id="staryj|chetvertyj_gazetchik" source="staryj" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="staryj|pyatyj_gazetchik" source="staryj" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="staryj|shestoj_gazetchik" source="staryj" target="shestoj_gazetchik" weight="1"/>
+            <edge id="staryj|sedmoj_gazetchik" source="staryj" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="staryj|vosmoj_gazetchik" source="staryj" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="molodoj|orator" source="molodoj" target="orator" weight="1"/>
+            <edge id="molodoj|pervyj_reporter" source="molodoj" target="pervyj_reporter" weight="1"/>
+            <edge id="molodoj|vtoroj_reporter" source="molodoj" target="vtoroj_reporter" weight="1"/>
+            <edge id="molodoj|tretij_reporter" source="molodoj" target="tretij_reporter" weight="1"/>
+            <edge id="molodoj|chetvertyj_reporter" source="molodoj" target="chetvertyj_reporter" weight="1"/>
+            <edge id="molodoj|pyatyj_reporter" source="molodoj" target="pyatyj_reporter" weight="1"/>
+            <edge id="molodoj|shestoj_reporter" source="molodoj" target="shestoj_reporter" weight="1"/>
+            <edge id="molodoj|sedmoj_reporter" source="molodoj" target="sedmoj_reporter" weight="1"/>
+            <edge id="molodoj|vosmoj_reporter" source="molodoj" target="vosmoj_reporter" weight="1"/>
+            <edge id="molodoj|devyatyj_reporter" source="molodoj" target="devyatyj_reporter" weight="1"/>
+            <edge id="molodoj|pervyj_gazetchik" source="molodoj" target="pervyj_gazetchik" weight="1"/>
+            <edge id="molodoj|vtoroj_gazetchik" source="molodoj" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="molodoj|tretij_gazetchik" source="molodoj" target="tretij_gazetchik" weight="1"/>
+            <edge id="molodoj|chetvertyj_gazetchik" source="molodoj" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="molodoj|pyatyj_gazetchik" source="molodoj" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="molodoj|shestoj_gazetchik" source="molodoj" target="shestoj_gazetchik" weight="1"/>
+            <edge id="molodoj|sedmoj_gazetchik" source="molodoj" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="molodoj|vosmoj_gazetchik" source="molodoj" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="orator|pervyj_reporter" source="orator" target="pervyj_reporter" weight="1"/>
+            <edge id="orator|vtoroj_reporter" source="orator" target="vtoroj_reporter" weight="1"/>
+            <edge id="orator|tretij_reporter" source="orator" target="tretij_reporter" weight="1"/>
+            <edge id="orator|chetvertyj_reporter" source="orator" target="chetvertyj_reporter" weight="1"/>
+            <edge id="orator|pyatyj_reporter" source="orator" target="pyatyj_reporter" weight="1"/>
+            <edge id="orator|shestoj_reporter" source="orator" target="shestoj_reporter" weight="1"/>
+            <edge id="orator|sedmoj_reporter" source="orator" target="sedmoj_reporter" weight="1"/>
+            <edge id="orator|vosmoj_reporter" source="orator" target="vosmoj_reporter" weight="1"/>
+            <edge id="orator|devyatyj_reporter" source="orator" target="devyatyj_reporter" weight="1"/>
+            <edge id="orator|pervyj_gazetchik" source="orator" target="pervyj_gazetchik" weight="1"/>
+            <edge id="orator|vtoroj_gazetchik" source="orator" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="orator|tretij_gazetchik" source="orator" target="tretij_gazetchik" weight="1"/>
+            <edge id="orator|chetvertyj_gazetchik" source="orator" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="orator|pyatyj_gazetchik" source="orator" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="orator|shestoj_gazetchik" source="orator" target="shestoj_gazetchik" weight="1"/>
+            <edge id="orator|sedmoj_gazetchik" source="orator" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="orator|vosmoj_gazetchik" source="orator" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|vtoroj_reporter" source="pervyj_reporter" target="vtoroj_reporter" weight="1"/>
+            <edge id="pervyj_reporter|tretij_reporter" source="pervyj_reporter" target="tretij_reporter" weight="1"/>
+            <edge id="pervyj_reporter|chetvertyj_reporter" source="pervyj_reporter" target="chetvertyj_reporter" weight="1"/>
+            <edge id="pervyj_reporter|pyatyj_reporter" source="pervyj_reporter" target="pyatyj_reporter" weight="1"/>
+            <edge id="pervyj_reporter|shestoj_reporter" source="pervyj_reporter" target="shestoj_reporter" weight="1"/>
+            <edge id="pervyj_reporter|sedmoj_reporter" source="pervyj_reporter" target="sedmoj_reporter" weight="1"/>
+            <edge id="pervyj_reporter|vosmoj_reporter" source="pervyj_reporter" target="vosmoj_reporter" weight="1"/>
+            <edge id="pervyj_reporter|devyatyj_reporter" source="pervyj_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="pervyj_reporter|pervyj_gazetchik" source="pervyj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|vtoroj_gazetchik" source="pervyj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|tretij_gazetchik" source="pervyj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|chetvertyj_gazetchik" source="pervyj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|pyatyj_gazetchik" source="pervyj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|shestoj_gazetchik" source="pervyj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|sedmoj_gazetchik" source="pervyj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="pervyj_reporter|vosmoj_gazetchik" source="pervyj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|tretij_reporter" source="vtoroj_reporter" target="tretij_reporter" weight="1"/>
+            <edge id="vtoroj_reporter|chetvertyj_reporter" source="vtoroj_reporter" target="chetvertyj_reporter" weight="1"/>
+            <edge id="vtoroj_reporter|pyatyj_reporter" source="vtoroj_reporter" target="pyatyj_reporter" weight="1"/>
+            <edge id="vtoroj_reporter|shestoj_reporter" source="vtoroj_reporter" target="shestoj_reporter" weight="1"/>
+            <edge id="vtoroj_reporter|sedmoj_reporter" source="vtoroj_reporter" target="sedmoj_reporter" weight="1"/>
+            <edge id="vtoroj_reporter|vosmoj_reporter" source="vtoroj_reporter" target="vosmoj_reporter" weight="1"/>
+            <edge id="vtoroj_reporter|devyatyj_reporter" source="vtoroj_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="vtoroj_reporter|pervyj_gazetchik" source="vtoroj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|vtoroj_gazetchik" source="vtoroj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|tretij_gazetchik" source="vtoroj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|chetvertyj_gazetchik" source="vtoroj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|pyatyj_gazetchik" source="vtoroj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|shestoj_gazetchik" source="vtoroj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|sedmoj_gazetchik" source="vtoroj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="vtoroj_reporter|vosmoj_gazetchik" source="vtoroj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|chetvertyj_reporter" source="tretij_reporter" target="chetvertyj_reporter" weight="1"/>
+            <edge id="tretij_reporter|pyatyj_reporter" source="tretij_reporter" target="pyatyj_reporter" weight="1"/>
+            <edge id="tretij_reporter|shestoj_reporter" source="tretij_reporter" target="shestoj_reporter" weight="1"/>
+            <edge id="tretij_reporter|sedmoj_reporter" source="tretij_reporter" target="sedmoj_reporter" weight="1"/>
+            <edge id="tretij_reporter|vosmoj_reporter" source="tretij_reporter" target="vosmoj_reporter" weight="1"/>
+            <edge id="tretij_reporter|devyatyj_reporter" source="tretij_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="tretij_reporter|pervyj_gazetchik" source="tretij_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|vtoroj_gazetchik" source="tretij_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|tretij_gazetchik" source="tretij_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|chetvertyj_gazetchik" source="tretij_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|pyatyj_gazetchik" source="tretij_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|shestoj_gazetchik" source="tretij_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|sedmoj_gazetchik" source="tretij_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="tretij_reporter|vosmoj_gazetchik" source="tretij_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|pyatyj_reporter" source="chetvertyj_reporter" target="pyatyj_reporter" weight="1"/>
+            <edge id="chetvertyj_reporter|shestoj_reporter" source="chetvertyj_reporter" target="shestoj_reporter" weight="1"/>
+            <edge id="chetvertyj_reporter|sedmoj_reporter" source="chetvertyj_reporter" target="sedmoj_reporter" weight="1"/>
+            <edge id="chetvertyj_reporter|vosmoj_reporter" source="chetvertyj_reporter" target="vosmoj_reporter" weight="1"/>
+            <edge id="chetvertyj_reporter|devyatyj_reporter" source="chetvertyj_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="chetvertyj_reporter|pervyj_gazetchik" source="chetvertyj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|vtoroj_gazetchik" source="chetvertyj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|tretij_gazetchik" source="chetvertyj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|chetvertyj_gazetchik" source="chetvertyj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|pyatyj_gazetchik" source="chetvertyj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|shestoj_gazetchik" source="chetvertyj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|sedmoj_gazetchik" source="chetvertyj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_reporter|vosmoj_gazetchik" source="chetvertyj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|shestoj_reporter" source="pyatyj_reporter" target="shestoj_reporter" weight="1"/>
+            <edge id="pyatyj_reporter|sedmoj_reporter" source="pyatyj_reporter" target="sedmoj_reporter" weight="1"/>
+            <edge id="pyatyj_reporter|vosmoj_reporter" source="pyatyj_reporter" target="vosmoj_reporter" weight="1"/>
+            <edge id="pyatyj_reporter|devyatyj_reporter" source="pyatyj_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="pyatyj_reporter|pervyj_gazetchik" source="pyatyj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|vtoroj_gazetchik" source="pyatyj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|tretij_gazetchik" source="pyatyj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|chetvertyj_gazetchik" source="pyatyj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|pyatyj_gazetchik" source="pyatyj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|shestoj_gazetchik" source="pyatyj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|sedmoj_gazetchik" source="pyatyj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="pyatyj_reporter|vosmoj_gazetchik" source="pyatyj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|sedmoj_reporter" source="shestoj_reporter" target="sedmoj_reporter" weight="1"/>
+            <edge id="shestoj_reporter|vosmoj_reporter" source="shestoj_reporter" target="vosmoj_reporter" weight="1"/>
+            <edge id="shestoj_reporter|devyatyj_reporter" source="shestoj_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="shestoj_reporter|pervyj_gazetchik" source="shestoj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|vtoroj_gazetchik" source="shestoj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|tretij_gazetchik" source="shestoj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|chetvertyj_gazetchik" source="shestoj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|pyatyj_gazetchik" source="shestoj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|shestoj_gazetchik" source="shestoj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|sedmoj_gazetchik" source="shestoj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="shestoj_reporter|vosmoj_gazetchik" source="shestoj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|vosmoj_reporter" source="sedmoj_reporter" target="vosmoj_reporter" weight="1"/>
+            <edge id="sedmoj_reporter|devyatyj_reporter" source="sedmoj_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="sedmoj_reporter|pervyj_gazetchik" source="sedmoj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|vtoroj_gazetchik" source="sedmoj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|tretij_gazetchik" source="sedmoj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|chetvertyj_gazetchik" source="sedmoj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|pyatyj_gazetchik" source="sedmoj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|shestoj_gazetchik" source="sedmoj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|sedmoj_gazetchik" source="sedmoj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="sedmoj_reporter|vosmoj_gazetchik" source="sedmoj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|devyatyj_reporter" source="vosmoj_reporter" target="devyatyj_reporter" weight="1"/>
+            <edge id="vosmoj_reporter|pervyj_gazetchik" source="vosmoj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|vtoroj_gazetchik" source="vosmoj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|tretij_gazetchik" source="vosmoj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|chetvertyj_gazetchik" source="vosmoj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|pyatyj_gazetchik" source="vosmoj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|shestoj_gazetchik" source="vosmoj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|sedmoj_gazetchik" source="vosmoj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="vosmoj_reporter|vosmoj_gazetchik" source="vosmoj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|pervyj_gazetchik" source="devyatyj_reporter" target="pervyj_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|vtoroj_gazetchik" source="devyatyj_reporter" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|tretij_gazetchik" source="devyatyj_reporter" target="tretij_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|chetvertyj_gazetchik" source="devyatyj_reporter" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|pyatyj_gazetchik" source="devyatyj_reporter" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|shestoj_gazetchik" source="devyatyj_reporter" target="shestoj_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|sedmoj_gazetchik" source="devyatyj_reporter" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="devyatyj_reporter|vosmoj_gazetchik" source="devyatyj_reporter" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="pervyj_gazetchik|vtoroj_gazetchik" source="pervyj_gazetchik" target="vtoroj_gazetchik" weight="1"/>
+            <edge id="pervyj_gazetchik|tretij_gazetchik" source="pervyj_gazetchik" target="tretij_gazetchik" weight="1"/>
+            <edge id="pervyj_gazetchik|chetvertyj_gazetchik" source="pervyj_gazetchik" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="pervyj_gazetchik|pyatyj_gazetchik" source="pervyj_gazetchik" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="pervyj_gazetchik|shestoj_gazetchik" source="pervyj_gazetchik" target="shestoj_gazetchik" weight="1"/>
+            <edge id="pervyj_gazetchik|sedmoj_gazetchik" source="pervyj_gazetchik" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="pervyj_gazetchik|vosmoj_gazetchik" source="pervyj_gazetchik" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="vtoroj_gazetchik|tretij_gazetchik" source="vtoroj_gazetchik" target="tretij_gazetchik" weight="1"/>
+            <edge id="vtoroj_gazetchik|chetvertyj_gazetchik" source="vtoroj_gazetchik" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="vtoroj_gazetchik|pyatyj_gazetchik" source="vtoroj_gazetchik" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="vtoroj_gazetchik|shestoj_gazetchik" source="vtoroj_gazetchik" target="shestoj_gazetchik" weight="1"/>
+            <edge id="vtoroj_gazetchik|sedmoj_gazetchik" source="vtoroj_gazetchik" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="vtoroj_gazetchik|vosmoj_gazetchik" source="vtoroj_gazetchik" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="tretij_gazetchik|chetvertyj_gazetchik" source="tretij_gazetchik" target="chetvertyj_gazetchik" weight="1"/>
+            <edge id="tretij_gazetchik|pyatyj_gazetchik" source="tretij_gazetchik" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="tretij_gazetchik|shestoj_gazetchik" source="tretij_gazetchik" target="shestoj_gazetchik" weight="1"/>
+            <edge id="tretij_gazetchik|sedmoj_gazetchik" source="tretij_gazetchik" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="tretij_gazetchik|vosmoj_gazetchik" source="tretij_gazetchik" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_gazetchik|pyatyj_gazetchik" source="chetvertyj_gazetchik" target="pyatyj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_gazetchik|shestoj_gazetchik" source="chetvertyj_gazetchik" target="shestoj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_gazetchik|sedmoj_gazetchik" source="chetvertyj_gazetchik" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="chetvertyj_gazetchik|vosmoj_gazetchik" source="chetvertyj_gazetchik" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="pyatyj_gazetchik|shestoj_gazetchik" source="pyatyj_gazetchik" target="shestoj_gazetchik" weight="1"/>
+            <edge id="pyatyj_gazetchik|sedmoj_gazetchik" source="pyatyj_gazetchik" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="pyatyj_gazetchik|vosmoj_gazetchik" source="pyatyj_gazetchik" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="shestoj_gazetchik|sedmoj_gazetchik" source="shestoj_gazetchik" target="sedmoj_gazetchik" weight="1"/>
+            <edge id="shestoj_gazetchik|vosmoj_gazetchik" source="shestoj_gazetchik" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="sedmoj_gazetchik|vosmoj_gazetchik" source="sedmoj_gazetchik" target="vosmoj_gazetchik" weight="1"/>
+            <edge id="professor|shestoj_vrach" source="professor" target="shestoj_vrach" weight="1"/>
+            <edge id="professor|pervyj_vrach" source="professor" target="pervyj_vrach" weight="1"/>
+            <edge id="professor|vtoroj_vrach" source="professor" target="vtoroj_vrach" weight="1"/>
+            <edge id="professor|horom" source="professor" target="horom" weight="1"/>
+            <edge id="professor|reporter" source="professor" target="reporter" weight="1"/>
+            <edge id="professor|pervyj_muzhchina" source="professor" target="pervyj_muzhchina" weight="1"/>
+            <edge id="professor|sidyaschie" source="professor" target="sidyaschie" weight="1"/>
+            <edge id="professor|prohodyaschij" source="professor" target="prohodyaschij" weight="1"/>
+            <edge id="professor|muzhchina" source="professor" target="muzhchina" weight="1"/>
+            <edge id="professor|devushka_7" source="professor" target="devushka_7" weight="1"/>
+            <edge id="professor|direktor" source="professor" target="direktor" weight="1"/>
+            <edge id="professor|golosa_7" source="professor" target="golosa_7" weight="1"/>
+            <edge id="professor|vostorzhennyj_golos" source="professor" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="professor|vostorzhennyj_golos_sverhu" source="professor" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="professor|vrach" source="professor" target="vrach" weight="1"/>
+            <edge id="shestoj_vrach|pervyj_vrach" source="shestoj_vrach" target="pervyj_vrach" weight="1"/>
+            <edge id="shestoj_vrach|vtoroj_vrach" source="shestoj_vrach" target="vtoroj_vrach" weight="1"/>
+            <edge id="shestoj_vrach|horom" source="shestoj_vrach" target="horom" weight="1"/>
+            <edge id="pervyj_vrach|vtoroj_vrach" source="pervyj_vrach" target="vtoroj_vrach" weight="1"/>
+            <edge id="pervyj_vrach|horom" source="pervyj_vrach" target="horom" weight="1"/>
+            <edge id="vtoroj_vrach|horom" source="vtoroj_vrach" target="horom" weight="1"/>
+            <edge id="reporter|pervyj_muzhchina" source="reporter" target="pervyj_muzhchina" weight="1"/>
+            <edge id="reporter|sidyaschie" source="reporter" target="sidyaschie" weight="1"/>
+            <edge id="reporter|prohodyaschij" source="reporter" target="prohodyaschij" weight="1"/>
+            <edge id="reporter|muzhchina" source="reporter" target="muzhchina" weight="1"/>
+            <edge id="reporter|devushka_7" source="reporter" target="devushka_7" weight="1"/>
+            <edge id="reporter|direktor" source="reporter" target="direktor" weight="1"/>
+            <edge id="reporter|golosa_7" source="reporter" target="golosa_7" weight="1"/>
+            <edge id="reporter|vostorzhennyj_golos" source="reporter" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="reporter|vostorzhennyj_golos_sverhu" source="reporter" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="pervyj_muzhchina|sidyaschie" source="pervyj_muzhchina" target="sidyaschie" weight="1"/>
+            <edge id="pervyj_muzhchina|prohodyaschij" source="pervyj_muzhchina" target="prohodyaschij" weight="1"/>
+            <edge id="pervyj_muzhchina|muzhchina" source="pervyj_muzhchina" target="muzhchina" weight="1"/>
+            <edge id="pervyj_muzhchina|devushka_7" source="pervyj_muzhchina" target="devushka_7" weight="1"/>
+            <edge id="pervyj_muzhchina|direktor" source="pervyj_muzhchina" target="direktor" weight="1"/>
+            <edge id="pervyj_muzhchina|golosa_7" source="pervyj_muzhchina" target="golosa_7" weight="1"/>
+            <edge id="pervyj_muzhchina|vostorzhennyj_golos" source="pervyj_muzhchina" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="pervyj_muzhchina|vostorzhennyj_golos_sverhu" source="pervyj_muzhchina" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="sidyaschie|prohodyaschij" source="sidyaschie" target="prohodyaschij" weight="1"/>
+            <edge id="sidyaschie|muzhchina" source="sidyaschie" target="muzhchina" weight="1"/>
+            <edge id="sidyaschie|devushka_7" source="sidyaschie" target="devushka_7" weight="1"/>
+            <edge id="sidyaschie|direktor" source="sidyaschie" target="direktor" weight="1"/>
+            <edge id="sidyaschie|golosa_7" source="sidyaschie" target="golosa_7" weight="1"/>
+            <edge id="sidyaschie|vostorzhennyj_golos" source="sidyaschie" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="sidyaschie|vostorzhennyj_golos_sverhu" source="sidyaschie" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="prohodyaschij|muzhchina" source="prohodyaschij" target="muzhchina" weight="1"/>
+            <edge id="prohodyaschij|devushka_7" source="prohodyaschij" target="devushka_7" weight="1"/>
+            <edge id="prohodyaschij|direktor" source="prohodyaschij" target="direktor" weight="1"/>
+            <edge id="prohodyaschij|golosa_7" source="prohodyaschij" target="golosa_7" weight="1"/>
+            <edge id="prohodyaschij|vostorzhennyj_golos" source="prohodyaschij" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="prohodyaschij|vostorzhennyj_golos_sverhu" source="prohodyaschij" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="muzhchina|devushka_7" source="muzhchina" target="devushka_7" weight="1"/>
+            <edge id="muzhchina|direktor" source="muzhchina" target="direktor" weight="1"/>
+            <edge id="muzhchina|golosa_7" source="muzhchina" target="golosa_7" weight="1"/>
+            <edge id="muzhchina|vostorzhennyj_golos" source="muzhchina" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="muzhchina|vostorzhennyj_golos_sverhu" source="muzhchina" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="devushka_7|direktor" source="devushka_7" target="direktor" weight="1"/>
+            <edge id="devushka_7|golosa_7" source="devushka_7" target="golosa_7" weight="1"/>
+            <edge id="devushka_7|vostorzhennyj_golos" source="devushka_7" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="devushka_7|vostorzhennyj_golos_sverhu" source="devushka_7" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="direktor|golosa_7" source="direktor" target="golosa_7" weight="1"/>
+            <edge id="direktor|vostorzhennyj_golos" source="direktor" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="direktor|vostorzhennyj_golos_sverhu" source="direktor" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="direktor|rasporyaditel" source="direktor" target="rasporyaditel" weight="1"/>
+            <edge id="direktor|pervaya_staruha" source="direktor" target="pervaya_staruha" weight="1"/>
+            <edge id="direktor|pervyj_starik" source="direktor" target="pervyj_starik" weight="1"/>
+            <edge id="direktor|vtoraya_staruha" source="direktor" target="vtoraya_staruha" weight="1"/>
+            <edge id="direktor|vtoroj_starik" source="direktor" target="vtoroj_starik" weight="1"/>
+            <edge id="direktor|tretya_staruha" source="direktor" target="tretya_staruha" weight="1"/>
+            <edge id="direktor|tretij_starik" source="direktor" target="tretij_starik" weight="1"/>
+            <edge id="direktor|deti" source="direktor" target="deti" weight="1"/>
+            <edge id="direktor|pervyj_sluzhitel" source="direktor" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="direktor|vtoroj_sluzhitel" source="direktor" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="direktor|tretij_sluzhitel" source="direktor" target="tretij_sluzhitel" weight="1"/>
+            <edge id="direktor|chetvertyj_sluzhitel" source="direktor" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="direktor|pyatyj_sluzhitel" source="direktor" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="direktor|shestoj_sluzhitel" source="direktor" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="direktor|vse_9" source="direktor" target="vse_9" weight="1"/>
+            <edge id="direktor|predsedatel_soveta" source="direktor" target="predsedatel_soveta" weight="1"/>
+            <edge id="direktor|golos_iz_tolpy_1" source="direktor" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="direktor|golos_iz_tolpy_2" source="direktor" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="direktor|golos_iz_tolpy_3" source="direktor" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="direktor|golosa_gostej" source="direktor" target="golosa_gostej" weight="1"/>
+            <edge id="golosa_7|vostorzhennyj_golos" source="golosa_7" target="vostorzhennyj_golos" weight="1"/>
+            <edge id="golosa_7|vostorzhennyj_golos_sverhu" source="golosa_7" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="vostorzhennyj_golos|vostorzhennyj_golos_sverhu" source="vostorzhennyj_golos" target="vostorzhennyj_golos_sverhu" weight="1"/>
+            <edge id="rasporyaditel|pervaya_staruha" source="rasporyaditel" target="pervaya_staruha" weight="1"/>
+            <edge id="rasporyaditel|pervyj_starik" source="rasporyaditel" target="pervyj_starik" weight="1"/>
+            <edge id="rasporyaditel|vtoraya_staruha" source="rasporyaditel" target="vtoraya_staruha" weight="1"/>
+            <edge id="rasporyaditel|vtoroj_starik" source="rasporyaditel" target="vtoroj_starik" weight="1"/>
+            <edge id="rasporyaditel|tretya_staruha" source="rasporyaditel" target="tretya_staruha" weight="1"/>
+            <edge id="rasporyaditel|tretij_starik" source="rasporyaditel" target="tretij_starik" weight="1"/>
+            <edge id="rasporyaditel|deti" source="rasporyaditel" target="deti" weight="1"/>
+            <edge id="rasporyaditel|pervyj_sluzhitel" source="rasporyaditel" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="rasporyaditel|vtoroj_sluzhitel" source="rasporyaditel" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="rasporyaditel|tretij_sluzhitel" source="rasporyaditel" target="tretij_sluzhitel" weight="1"/>
+            <edge id="rasporyaditel|chetvertyj_sluzhitel" source="rasporyaditel" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="rasporyaditel|pyatyj_sluzhitel" source="rasporyaditel" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="rasporyaditel|shestoj_sluzhitel" source="rasporyaditel" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="rasporyaditel|vse_9" source="rasporyaditel" target="vse_9" weight="1"/>
+            <edge id="rasporyaditel|predsedatel_soveta" source="rasporyaditel" target="predsedatel_soveta" weight="1"/>
+            <edge id="rasporyaditel|golos_iz_tolpy_1" source="rasporyaditel" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="rasporyaditel|golos_iz_tolpy_2" source="rasporyaditel" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="rasporyaditel|golos_iz_tolpy_3" source="rasporyaditel" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="rasporyaditel|golosa_gostej" source="rasporyaditel" target="golosa_gostej" weight="1"/>
+            <edge id="pervaya_staruha|pervyj_starik" source="pervaya_staruha" target="pervyj_starik" weight="1"/>
+            <edge id="pervaya_staruha|vtoraya_staruha" source="pervaya_staruha" target="vtoraya_staruha" weight="1"/>
+            <edge id="pervaya_staruha|vtoroj_starik" source="pervaya_staruha" target="vtoroj_starik" weight="1"/>
+            <edge id="pervaya_staruha|tretya_staruha" source="pervaya_staruha" target="tretya_staruha" weight="1"/>
+            <edge id="pervaya_staruha|tretij_starik" source="pervaya_staruha" target="tretij_starik" weight="1"/>
+            <edge id="pervaya_staruha|deti" source="pervaya_staruha" target="deti" weight="1"/>
+            <edge id="pervaya_staruha|pervyj_sluzhitel" source="pervaya_staruha" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="pervaya_staruha|vtoroj_sluzhitel" source="pervaya_staruha" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="pervaya_staruha|tretij_sluzhitel" source="pervaya_staruha" target="tretij_sluzhitel" weight="1"/>
+            <edge id="pervaya_staruha|chetvertyj_sluzhitel" source="pervaya_staruha" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="pervaya_staruha|pyatyj_sluzhitel" source="pervaya_staruha" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="pervaya_staruha|shestoj_sluzhitel" source="pervaya_staruha" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="pervaya_staruha|vse_9" source="pervaya_staruha" target="vse_9" weight="1"/>
+            <edge id="pervaya_staruha|predsedatel_soveta" source="pervaya_staruha" target="predsedatel_soveta" weight="1"/>
+            <edge id="pervaya_staruha|golos_iz_tolpy_1" source="pervaya_staruha" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="pervaya_staruha|golos_iz_tolpy_2" source="pervaya_staruha" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="pervaya_staruha|golos_iz_tolpy_3" source="pervaya_staruha" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="pervaya_staruha|golosa_gostej" source="pervaya_staruha" target="golosa_gostej" weight="1"/>
+            <edge id="pervyj_starik|vtoraya_staruha" source="pervyj_starik" target="vtoraya_staruha" weight="1"/>
+            <edge id="pervyj_starik|vtoroj_starik" source="pervyj_starik" target="vtoroj_starik" weight="1"/>
+            <edge id="pervyj_starik|tretya_staruha" source="pervyj_starik" target="tretya_staruha" weight="1"/>
+            <edge id="pervyj_starik|tretij_starik" source="pervyj_starik" target="tretij_starik" weight="1"/>
+            <edge id="pervyj_starik|deti" source="pervyj_starik" target="deti" weight="1"/>
+            <edge id="pervyj_starik|pervyj_sluzhitel" source="pervyj_starik" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="pervyj_starik|vtoroj_sluzhitel" source="pervyj_starik" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="pervyj_starik|tretij_sluzhitel" source="pervyj_starik" target="tretij_sluzhitel" weight="1"/>
+            <edge id="pervyj_starik|chetvertyj_sluzhitel" source="pervyj_starik" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="pervyj_starik|pyatyj_sluzhitel" source="pervyj_starik" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="pervyj_starik|shestoj_sluzhitel" source="pervyj_starik" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="pervyj_starik|vse_9" source="pervyj_starik" target="vse_9" weight="1"/>
+            <edge id="pervyj_starik|predsedatel_soveta" source="pervyj_starik" target="predsedatel_soveta" weight="1"/>
+            <edge id="pervyj_starik|golos_iz_tolpy_1" source="pervyj_starik" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="pervyj_starik|golos_iz_tolpy_2" source="pervyj_starik" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="pervyj_starik|golos_iz_tolpy_3" source="pervyj_starik" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="pervyj_starik|golosa_gostej" source="pervyj_starik" target="golosa_gostej" weight="1"/>
+            <edge id="vtoraya_staruha|vtoroj_starik" source="vtoraya_staruha" target="vtoroj_starik" weight="1"/>
+            <edge id="vtoraya_staruha|tretya_staruha" source="vtoraya_staruha" target="tretya_staruha" weight="1"/>
+            <edge id="vtoraya_staruha|tretij_starik" source="vtoraya_staruha" target="tretij_starik" weight="1"/>
+            <edge id="vtoraya_staruha|deti" source="vtoraya_staruha" target="deti" weight="1"/>
+            <edge id="vtoraya_staruha|pervyj_sluzhitel" source="vtoraya_staruha" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="vtoraya_staruha|vtoroj_sluzhitel" source="vtoraya_staruha" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="vtoraya_staruha|tretij_sluzhitel" source="vtoraya_staruha" target="tretij_sluzhitel" weight="1"/>
+            <edge id="vtoraya_staruha|chetvertyj_sluzhitel" source="vtoraya_staruha" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="vtoraya_staruha|pyatyj_sluzhitel" source="vtoraya_staruha" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="vtoraya_staruha|shestoj_sluzhitel" source="vtoraya_staruha" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="vtoraya_staruha|vse_9" source="vtoraya_staruha" target="vse_9" weight="1"/>
+            <edge id="vtoraya_staruha|predsedatel_soveta" source="vtoraya_staruha" target="predsedatel_soveta" weight="1"/>
+            <edge id="vtoraya_staruha|golos_iz_tolpy_1" source="vtoraya_staruha" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="vtoraya_staruha|golos_iz_tolpy_2" source="vtoraya_staruha" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="vtoraya_staruha|golos_iz_tolpy_3" source="vtoraya_staruha" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="vtoraya_staruha|golosa_gostej" source="vtoraya_staruha" target="golosa_gostej" weight="1"/>
+            <edge id="vtoroj_starik|tretya_staruha" source="vtoroj_starik" target="tretya_staruha" weight="1"/>
+            <edge id="vtoroj_starik|tretij_starik" source="vtoroj_starik" target="tretij_starik" weight="1"/>
+            <edge id="vtoroj_starik|deti" source="vtoroj_starik" target="deti" weight="1"/>
+            <edge id="vtoroj_starik|pervyj_sluzhitel" source="vtoroj_starik" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_starik|vtoroj_sluzhitel" source="vtoroj_starik" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_starik|tretij_sluzhitel" source="vtoroj_starik" target="tretij_sluzhitel" weight="1"/>
+            <edge id="vtoroj_starik|chetvertyj_sluzhitel" source="vtoroj_starik" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_starik|pyatyj_sluzhitel" source="vtoroj_starik" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_starik|shestoj_sluzhitel" source="vtoroj_starik" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_starik|vse_9" source="vtoroj_starik" target="vse_9" weight="1"/>
+            <edge id="vtoroj_starik|predsedatel_soveta" source="vtoroj_starik" target="predsedatel_soveta" weight="1"/>
+            <edge id="vtoroj_starik|golos_iz_tolpy_1" source="vtoroj_starik" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="vtoroj_starik|golos_iz_tolpy_2" source="vtoroj_starik" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="vtoroj_starik|golos_iz_tolpy_3" source="vtoroj_starik" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="vtoroj_starik|golosa_gostej" source="vtoroj_starik" target="golosa_gostej" weight="1"/>
+            <edge id="tretya_staruha|tretij_starik" source="tretya_staruha" target="tretij_starik" weight="1"/>
+            <edge id="tretya_staruha|deti" source="tretya_staruha" target="deti" weight="1"/>
+            <edge id="tretya_staruha|pervyj_sluzhitel" source="tretya_staruha" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="tretya_staruha|vtoroj_sluzhitel" source="tretya_staruha" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="tretya_staruha|tretij_sluzhitel" source="tretya_staruha" target="tretij_sluzhitel" weight="1"/>
+            <edge id="tretya_staruha|chetvertyj_sluzhitel" source="tretya_staruha" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="tretya_staruha|pyatyj_sluzhitel" source="tretya_staruha" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="tretya_staruha|shestoj_sluzhitel" source="tretya_staruha" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="tretya_staruha|vse_9" source="tretya_staruha" target="vse_9" weight="1"/>
+            <edge id="tretya_staruha|predsedatel_soveta" source="tretya_staruha" target="predsedatel_soveta" weight="1"/>
+            <edge id="tretya_staruha|golos_iz_tolpy_1" source="tretya_staruha" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="tretya_staruha|golos_iz_tolpy_2" source="tretya_staruha" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="tretya_staruha|golos_iz_tolpy_3" source="tretya_staruha" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="tretya_staruha|golosa_gostej" source="tretya_staruha" target="golosa_gostej" weight="1"/>
+            <edge id="tretij_starik|deti" source="tretij_starik" target="deti" weight="1"/>
+            <edge id="tretij_starik|pervyj_sluzhitel" source="tretij_starik" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="tretij_starik|vtoroj_sluzhitel" source="tretij_starik" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="tretij_starik|tretij_sluzhitel" source="tretij_starik" target="tretij_sluzhitel" weight="1"/>
+            <edge id="tretij_starik|chetvertyj_sluzhitel" source="tretij_starik" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="tretij_starik|pyatyj_sluzhitel" source="tretij_starik" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="tretij_starik|shestoj_sluzhitel" source="tretij_starik" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="tretij_starik|vse_9" source="tretij_starik" target="vse_9" weight="1"/>
+            <edge id="tretij_starik|predsedatel_soveta" source="tretij_starik" target="predsedatel_soveta" weight="1"/>
+            <edge id="tretij_starik|golos_iz_tolpy_1" source="tretij_starik" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="tretij_starik|golos_iz_tolpy_2" source="tretij_starik" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="tretij_starik|golos_iz_tolpy_3" source="tretij_starik" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="tretij_starik|golosa_gostej" source="tretij_starik" target="golosa_gostej" weight="1"/>
+            <edge id="deti|pervyj_sluzhitel" source="deti" target="pervyj_sluzhitel" weight="1"/>
+            <edge id="deti|vtoroj_sluzhitel" source="deti" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="deti|tretij_sluzhitel" source="deti" target="tretij_sluzhitel" weight="1"/>
+            <edge id="deti|chetvertyj_sluzhitel" source="deti" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="deti|pyatyj_sluzhitel" source="deti" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="deti|shestoj_sluzhitel" source="deti" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="deti|vse_9" source="deti" target="vse_9" weight="1"/>
+            <edge id="deti|predsedatel_soveta" source="deti" target="predsedatel_soveta" weight="1"/>
+            <edge id="deti|golos_iz_tolpy_1" source="deti" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="deti|golos_iz_tolpy_2" source="deti" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="deti|golos_iz_tolpy_3" source="deti" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="deti|golosa_gostej" source="deti" target="golosa_gostej" weight="1"/>
+            <edge id="pervyj_sluzhitel|vtoroj_sluzhitel" source="pervyj_sluzhitel" target="vtoroj_sluzhitel" weight="1"/>
+            <edge id="pervyj_sluzhitel|tretij_sluzhitel" source="pervyj_sluzhitel" target="tretij_sluzhitel" weight="1"/>
+            <edge id="pervyj_sluzhitel|chetvertyj_sluzhitel" source="pervyj_sluzhitel" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="pervyj_sluzhitel|pyatyj_sluzhitel" source="pervyj_sluzhitel" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="pervyj_sluzhitel|shestoj_sluzhitel" source="pervyj_sluzhitel" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="pervyj_sluzhitel|vse_9" source="pervyj_sluzhitel" target="vse_9" weight="1"/>
+            <edge id="pervyj_sluzhitel|predsedatel_soveta" source="pervyj_sluzhitel" target="predsedatel_soveta" weight="1"/>
+            <edge id="pervyj_sluzhitel|golos_iz_tolpy_1" source="pervyj_sluzhitel" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="pervyj_sluzhitel|golos_iz_tolpy_2" source="pervyj_sluzhitel" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="pervyj_sluzhitel|golos_iz_tolpy_3" source="pervyj_sluzhitel" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="pervyj_sluzhitel|golosa_gostej" source="pervyj_sluzhitel" target="golosa_gostej" weight="1"/>
+            <edge id="vtoroj_sluzhitel|tretij_sluzhitel" source="vtoroj_sluzhitel" target="tretij_sluzhitel" weight="1"/>
+            <edge id="vtoroj_sluzhitel|chetvertyj_sluzhitel" source="vtoroj_sluzhitel" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_sluzhitel|pyatyj_sluzhitel" source="vtoroj_sluzhitel" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_sluzhitel|shestoj_sluzhitel" source="vtoroj_sluzhitel" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="vtoroj_sluzhitel|vse_9" source="vtoroj_sluzhitel" target="vse_9" weight="1"/>
+            <edge id="vtoroj_sluzhitel|predsedatel_soveta" source="vtoroj_sluzhitel" target="predsedatel_soveta" weight="1"/>
+            <edge id="vtoroj_sluzhitel|golos_iz_tolpy_1" source="vtoroj_sluzhitel" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="vtoroj_sluzhitel|golos_iz_tolpy_2" source="vtoroj_sluzhitel" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="vtoroj_sluzhitel|golos_iz_tolpy_3" source="vtoroj_sluzhitel" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="vtoroj_sluzhitel|golosa_gostej" source="vtoroj_sluzhitel" target="golosa_gostej" weight="1"/>
+            <edge id="tretij_sluzhitel|chetvertyj_sluzhitel" source="tretij_sluzhitel" target="chetvertyj_sluzhitel" weight="1"/>
+            <edge id="tretij_sluzhitel|pyatyj_sluzhitel" source="tretij_sluzhitel" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="tretij_sluzhitel|shestoj_sluzhitel" source="tretij_sluzhitel" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="tretij_sluzhitel|vse_9" source="tretij_sluzhitel" target="vse_9" weight="1"/>
+            <edge id="tretij_sluzhitel|predsedatel_soveta" source="tretij_sluzhitel" target="predsedatel_soveta" weight="1"/>
+            <edge id="tretij_sluzhitel|golos_iz_tolpy_1" source="tretij_sluzhitel" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="tretij_sluzhitel|golos_iz_tolpy_2" source="tretij_sluzhitel" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="tretij_sluzhitel|golos_iz_tolpy_3" source="tretij_sluzhitel" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="tretij_sluzhitel|golosa_gostej" source="tretij_sluzhitel" target="golosa_gostej" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|pyatyj_sluzhitel" source="chetvertyj_sluzhitel" target="pyatyj_sluzhitel" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|shestoj_sluzhitel" source="chetvertyj_sluzhitel" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|vse_9" source="chetvertyj_sluzhitel" target="vse_9" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|predsedatel_soveta" source="chetvertyj_sluzhitel" target="predsedatel_soveta" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|golos_iz_tolpy_1" source="chetvertyj_sluzhitel" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|golos_iz_tolpy_2" source="chetvertyj_sluzhitel" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|golos_iz_tolpy_3" source="chetvertyj_sluzhitel" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="chetvertyj_sluzhitel|golosa_gostej" source="chetvertyj_sluzhitel" target="golosa_gostej" weight="1"/>
+            <edge id="pyatyj_sluzhitel|shestoj_sluzhitel" source="pyatyj_sluzhitel" target="shestoj_sluzhitel" weight="1"/>
+            <edge id="pyatyj_sluzhitel|vse_9" source="pyatyj_sluzhitel" target="vse_9" weight="1"/>
+            <edge id="pyatyj_sluzhitel|predsedatel_soveta" source="pyatyj_sluzhitel" target="predsedatel_soveta" weight="1"/>
+            <edge id="pyatyj_sluzhitel|golos_iz_tolpy_1" source="pyatyj_sluzhitel" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="pyatyj_sluzhitel|golos_iz_tolpy_2" source="pyatyj_sluzhitel" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="pyatyj_sluzhitel|golos_iz_tolpy_3" source="pyatyj_sluzhitel" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="pyatyj_sluzhitel|golosa_gostej" source="pyatyj_sluzhitel" target="golosa_gostej" weight="1"/>
+            <edge id="shestoj_sluzhitel|vse_9" source="shestoj_sluzhitel" target="vse_9" weight="1"/>
+            <edge id="shestoj_sluzhitel|predsedatel_soveta" source="shestoj_sluzhitel" target="predsedatel_soveta" weight="1"/>
+            <edge id="shestoj_sluzhitel|golos_iz_tolpy_1" source="shestoj_sluzhitel" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="shestoj_sluzhitel|golos_iz_tolpy_2" source="shestoj_sluzhitel" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="shestoj_sluzhitel|golos_iz_tolpy_3" source="shestoj_sluzhitel" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="shestoj_sluzhitel|golosa_gostej" source="shestoj_sluzhitel" target="golosa_gostej" weight="1"/>
+            <edge id="vse_9|predsedatel_soveta" source="vse_9" target="predsedatel_soveta" weight="1"/>
+            <edge id="vse_9|golos_iz_tolpy_1" source="vse_9" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="vse_9|golos_iz_tolpy_2" source="vse_9" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="vse_9|golos_iz_tolpy_3" source="vse_9" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="vse_9|golosa_gostej" source="vse_9" target="golosa_gostej" weight="1"/>
+            <edge id="predsedatel_soveta|golos_iz_tolpy_1" source="predsedatel_soveta" target="golos_iz_tolpy_1" weight="1"/>
+            <edge id="predsedatel_soveta|golos_iz_tolpy_2" source="predsedatel_soveta" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="predsedatel_soveta|golos_iz_tolpy_3" source="predsedatel_soveta" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="predsedatel_soveta|golosa_gostej" source="predsedatel_soveta" target="golosa_gostej" weight="1"/>
+            <edge id="golos_iz_tolpy_1|golos_iz_tolpy_2" source="golos_iz_tolpy_1" target="golos_iz_tolpy_2" weight="1"/>
+            <edge id="golos_iz_tolpy_1|golos_iz_tolpy_3" source="golos_iz_tolpy_1" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="golos_iz_tolpy_1|golosa_gostej" source="golos_iz_tolpy_1" target="golosa_gostej" weight="1"/>
+            <edge id="golos_iz_tolpy_2|golos_iz_tolpy_3" source="golos_iz_tolpy_2" target="golos_iz_tolpy_3" weight="1"/>
+            <edge id="golos_iz_tolpy_2|golosa_gostej" source="golos_iz_tolpy_2" target="golosa_gostej" weight="1"/>
+            <edge id="golos_iz_tolpy_3|golosa_gostej" source="golos_iz_tolpy_3" target="golosa_gostej" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Артистона</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="malmira" label="Мальмира">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="665"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fedima" label="Федима">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2454"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="orkant" label="Оркант">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1069"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="otan" label="Отан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="523"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="artistona" label="Артистона">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2392"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zanida" label="Занида">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="323"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gikarn" label="Гикарн">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="876"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="darij" label="Дарий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="881"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pazh" label="Паж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="voenachalnik" label="Военачальник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="voin" label="Воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="263"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="malmira|fedima" source="malmira" target="fedima" weight="6"/>
+            <edge id="malmira|gikarn" source="malmira" target="gikarn" weight="2"/>
+            <edge id="fedima|orkant" source="fedima" target="orkant" weight="5"/>
+            <edge id="fedima|otan" source="fedima" target="otan" weight="3"/>
+            <edge id="fedima|gikarn" source="fedima" target="gikarn" weight="6"/>
+            <edge id="fedima|voin" source="fedima" target="voin" weight="1"/>
+            <edge id="fedima|darij" source="fedima" target="darij" weight="2"/>
+            <edge id="orkant|otan" source="orkant" target="otan" weight="3"/>
+            <edge id="orkant|artistona" source="orkant" target="artistona" weight="2"/>
+            <edge id="orkant|darij" source="orkant" target="darij" weight="3"/>
+            <edge id="orkant|gikarn" source="orkant" target="gikarn" weight="1"/>
+            <edge id="otan|darij" source="otan" target="darij" weight="2"/>
+            <edge id="otan|gikarn" source="otan" target="gikarn" weight="1"/>
+            <edge id="artistona|zanida" source="artistona" target="zanida" weight="4"/>
+            <edge id="artistona|gikarn" source="artistona" target="gikarn" weight="1"/>
+            <edge id="artistona|darij" source="artistona" target="darij" weight="5"/>
+            <edge id="artistona|pazh" source="artistona" target="pazh" weight="1"/>
+            <edge id="artistona|voenachalnik" source="artistona" target="voenachalnik" weight="1"/>
+            <edge id="gikarn|voin" source="gikarn" target="voin" weight="2"/>
+            <edge id="gikarn|darij" source="gikarn" target="darij" weight="1"/>
+            <edge id="darij|voenachalnik" source="darij" target="voenachalnik" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

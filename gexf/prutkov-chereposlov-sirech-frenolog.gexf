@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Прутков, Козьма: Черепослов, сиречь Френолог</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Ivanov" label="Иванов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="115"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Shishkengolm" label="Шишкенгольм">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="477"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Liza" label="Лиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="307"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="MinaHristianovna" label="Мина Христиановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="180"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Kasimov" label="Касимов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="520"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Vihorin" label="Вихорин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="87"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Fritz" label="Фриц">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="107"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Gustav" label="Густав">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="107"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kurtsgalop" label="Курцгалоп">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="166"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Ivanov|Shishkengolm" source="Ivanov" target="Shishkengolm" weight="2"/>
+            <edge id="Ivanov|Liza" source="Ivanov" target="Liza" weight="2"/>
+            <edge id="Ivanov|MinaHristianovna" source="Ivanov" target="MinaHristianovna" weight="2"/>
+            <edge id="Ivanov|Kasimov" source="Ivanov" target="Kasimov" weight="2"/>
+            <edge id="Ivanov|Vihorin" source="Ivanov" target="Vihorin" weight="1"/>
+            <edge id="Ivanov|Kurtsgalop" source="Ivanov" target="Kurtsgalop" weight="1"/>
+            <edge id="Ivanov|Gustav" source="Ivanov" target="Gustav" weight="1"/>
+            <edge id="Ivanov|Fritz" source="Ivanov" target="Fritz" weight="1"/>
+            <edge id="Shishkengolm|Liza" source="Shishkengolm" target="Liza" weight="3"/>
+            <edge id="Shishkengolm|MinaHristianovna" source="Shishkengolm" target="MinaHristianovna" weight="3"/>
+            <edge id="Shishkengolm|Kasimov" source="Shishkengolm" target="Kasimov" weight="2"/>
+            <edge id="Shishkengolm|Vihorin" source="Shishkengolm" target="Vihorin" weight="2"/>
+            <edge id="Shishkengolm|Fritz" source="Shishkengolm" target="Fritz" weight="2"/>
+            <edge id="Shishkengolm|Gustav" source="Shishkengolm" target="Gustav" weight="2"/>
+            <edge id="Shishkengolm|Kurtsgalop" source="Shishkengolm" target="Kurtsgalop" weight="1"/>
+            <edge id="Liza|MinaHristianovna" source="Liza" target="MinaHristianovna" weight="3"/>
+            <edge id="Liza|Kasimov" source="Liza" target="Kasimov" weight="3"/>
+            <edge id="Liza|Vihorin" source="Liza" target="Vihorin" weight="2"/>
+            <edge id="Liza|Fritz" source="Liza" target="Fritz" weight="2"/>
+            <edge id="Liza|Gustav" source="Liza" target="Gustav" weight="2"/>
+            <edge id="Liza|Kurtsgalop" source="Liza" target="Kurtsgalop" weight="1"/>
+            <edge id="MinaHristianovna|Kasimov" source="MinaHristianovna" target="Kasimov" weight="3"/>
+            <edge id="MinaHristianovna|Vihorin" source="MinaHristianovna" target="Vihorin" weight="3"/>
+            <edge id="MinaHristianovna|Fritz" source="MinaHristianovna" target="Fritz" weight="2"/>
+            <edge id="MinaHristianovna|Gustav" source="MinaHristianovna" target="Gustav" weight="2"/>
+            <edge id="MinaHristianovna|Kurtsgalop" source="MinaHristianovna" target="Kurtsgalop" weight="1"/>
+            <edge id="Kasimov|Vihorin" source="Kasimov" target="Vihorin" weight="3"/>
+            <edge id="Kasimov|Fritz" source="Kasimov" target="Fritz" weight="2"/>
+            <edge id="Kasimov|Gustav" source="Kasimov" target="Gustav" weight="2"/>
+            <edge id="Kasimov|Kurtsgalop" source="Kasimov" target="Kurtsgalop" weight="1"/>
+            <edge id="Vihorin|Fritz" source="Vihorin" target="Fritz" weight="2"/>
+            <edge id="Vihorin|Gustav" source="Vihorin" target="Gustav" weight="2"/>
+            <edge id="Vihorin|Kurtsgalop" source="Vihorin" target="Kurtsgalop" weight="1"/>
+            <edge id="Fritz|Gustav" source="Fritz" target="Gustav" weight="2"/>
+            <edge id="Fritz|Kurtsgalop" source="Fritz" target="Kurtsgalop" weight="1"/>
+            <edge id="Gustav|Kurtsgalop" source="Gustav" target="Kurtsgalop" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

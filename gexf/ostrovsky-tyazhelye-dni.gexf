@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Тяжелые дни</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="molodoj_chelovek" label="Молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="69"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dosuzhev" label="Досужев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1573"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="percov" label="Перцов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="631"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="andrej_titych" label="Андрей Титыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2362"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="aleksandra_petrovna" label="Александра Петровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="232"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lusha" label="Луша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="77"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="natalya_nikanorovna" label="Наталья Никаноровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="361"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nastasya_pankratevna" label="Настасья Панкратьевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1179"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mudrov" label="Мудров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="825"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tit_titych" label="Тит Титыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="870"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="neizvestnyj" label="Неизвестный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="113"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="molodoj_chelovek|dosuzhev" source="molodoj_chelovek" target="dosuzhev" weight="2"/>
+            <edge id="molodoj_chelovek|percov" source="molodoj_chelovek" target="percov" weight="1"/>
+            <edge id="dosuzhev|percov" source="dosuzhev" target="percov" weight="3"/>
+            <edge id="dosuzhev|andrej_titych" source="dosuzhev" target="andrej_titych" weight="5"/>
+            <edge id="dosuzhev|nastasya_pankratevna" source="dosuzhev" target="nastasya_pankratevna" weight="4"/>
+            <edge id="dosuzhev|lusha" source="dosuzhev" target="lusha" weight="2"/>
+            <edge id="dosuzhev|tit_titych" source="dosuzhev" target="tit_titych" weight="2"/>
+            <edge id="percov|nastasya_pankratevna" source="percov" target="nastasya_pankratevna" weight="2"/>
+            <edge id="percov|neizvestnyj" source="percov" target="neizvestnyj" weight="1"/>
+            <edge id="percov|lusha" source="percov" target="lusha" weight="1"/>
+            <edge id="andrej_titych|aleksandra_petrovna" source="andrej_titych" target="aleksandra_petrovna" weight="2"/>
+            <edge id="andrej_titych|nastasya_pankratevna" source="andrej_titych" target="nastasya_pankratevna" weight="4"/>
+            <edge id="andrej_titych|mudrov" source="andrej_titych" target="mudrov" weight="1"/>
+            <edge id="andrej_titych|lusha" source="andrej_titych" target="lusha" weight="2"/>
+            <edge id="andrej_titych|natalya_nikanorovna" source="andrej_titych" target="natalya_nikanorovna" weight="2"/>
+            <edge id="andrej_titych|tit_titych" source="andrej_titych" target="tit_titych" weight="2"/>
+            <edge id="aleksandra_petrovna|nastasya_pankratevna" source="aleksandra_petrovna" target="nastasya_pankratevna" weight="1"/>
+            <edge id="aleksandra_petrovna|natalya_nikanorovna" source="aleksandra_petrovna" target="natalya_nikanorovna" weight="2"/>
+            <edge id="lusha|natalya_nikanorovna" source="lusha" target="natalya_nikanorovna" weight="2"/>
+            <edge id="lusha|nastasya_pankratevna" source="lusha" target="nastasya_pankratevna" weight="3"/>
+            <edge id="lusha|mudrov" source="lusha" target="mudrov" weight="1"/>
+            <edge id="natalya_nikanorovna|nastasya_pankratevna" source="natalya_nikanorovna" target="nastasya_pankratevna" weight="3"/>
+            <edge id="natalya_nikanorovna|mudrov" source="natalya_nikanorovna" target="mudrov" weight="2"/>
+            <edge id="nastasya_pankratevna|mudrov" source="nastasya_pankratevna" target="mudrov" weight="2"/>
+            <edge id="nastasya_pankratevna|tit_titych" source="nastasya_pankratevna" target="tit_titych" weight="3"/>
+            <edge id="nastasya_pankratevna|neizvestnyj" source="nastasya_pankratevna" target="neizvestnyj" weight="1"/>
+            <edge id="mudrov|tit_titych" source="mudrov" target="tit_titych" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

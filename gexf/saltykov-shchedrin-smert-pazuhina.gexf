@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Салтыков-Щедрин, Михаил Евграфович: Смерть Пазухина</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="veleglasnyj" label="Велегласный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="297"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mavra_grigorevna" label="Мавра Григорьевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="78"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilisa_parfentevna" label="Василиса Парфентьевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="439"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="baev" label="Баев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1431"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prokofij_ivanych" label="Прокофий Иваныч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3042"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lobastov" label="Лобастов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2160"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhivnovskij" label="Живновский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1300"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="furnachev" label="Фурначев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3522"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nastasya_ivanovna" label="Настасья Ивановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="736"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lakej" label="Лакей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhivoedova" label="Живоедова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2063"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan_prokofich" label="Иван Прокофьич">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="618"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lenochka" label="Леночка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="33"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dmitrij" label="Дмитрий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mavra_gornichnaya" label="Мавра (горничная)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="veleglasnyj|mavra_grigorevna" source="veleglasnyj" target="mavra_grigorevna" weight="3"/>
+            <edge id="veleglasnyj|vasilisa_parfentevna" source="veleglasnyj" target="vasilisa_parfentevna" weight="3"/>
+            <edge id="veleglasnyj|baev" source="veleglasnyj" target="baev" weight="2"/>
+            <edge id="veleglasnyj|prokofij_ivanych" source="veleglasnyj" target="prokofij_ivanych" weight="1"/>
+            <edge id="mavra_grigorevna|vasilisa_parfentevna" source="mavra_grigorevna" target="vasilisa_parfentevna" weight="3"/>
+            <edge id="mavra_grigorevna|baev" source="mavra_grigorevna" target="baev" weight="2"/>
+            <edge id="mavra_grigorevna|prokofij_ivanych" source="mavra_grigorevna" target="prokofij_ivanych" weight="1"/>
+            <edge id="vasilisa_parfentevna|baev" source="vasilisa_parfentevna" target="baev" weight="3"/>
+            <edge id="vasilisa_parfentevna|prokofij_ivanych" source="vasilisa_parfentevna" target="prokofij_ivanych" weight="3"/>
+            <edge id="vasilisa_parfentevna|lobastov" source="vasilisa_parfentevna" target="lobastov" weight="1"/>
+            <edge id="baev|prokofij_ivanych" source="baev" target="prokofij_ivanych" weight="5"/>
+            <edge id="baev|lobastov" source="baev" target="lobastov" weight="4"/>
+            <edge id="baev|ivan_prokofich" source="baev" target="ivan_prokofich" weight="3"/>
+            <edge id="baev|zhivoedova" source="baev" target="zhivoedova" weight="4"/>
+            <edge id="baev|nastasya_ivanovna" source="baev" target="nastasya_ivanovna" weight="3"/>
+            <edge id="baev|zhivnovskij" source="baev" target="zhivnovskij" weight="4"/>
+            <edge id="baev|lenochka" source="baev" target="lenochka" weight="1"/>
+            <edge id="baev|furnachev" source="baev" target="furnachev" weight="1"/>
+            <edge id="prokofij_ivanych|lobastov" source="prokofij_ivanych" target="lobastov" weight="9"/>
+            <edge id="prokofij_ivanych|zhivnovskij" source="prokofij_ivanych" target="zhivnovskij" weight="8"/>
+            <edge id="prokofij_ivanych|furnachev" source="prokofij_ivanych" target="furnachev" weight="5"/>
+            <edge id="prokofij_ivanych|zhivoedova" source="prokofij_ivanych" target="zhivoedova" weight="5"/>
+            <edge id="prokofij_ivanych|ivan_prokofich" source="prokofij_ivanych" target="ivan_prokofich" weight="2"/>
+            <edge id="prokofij_ivanych|nastasya_ivanovna" source="prokofij_ivanych" target="nastasya_ivanovna" weight="3"/>
+            <edge id="prokofij_ivanych|dmitrij" source="prokofij_ivanych" target="dmitrij" weight="1"/>
+            <edge id="prokofij_ivanych|mavra_gornichnaya" source="prokofij_ivanych" target="mavra_gornichnaya" weight="1"/>
+            <edge id="lobastov|furnachev" source="lobastov" target="furnachev" weight="4"/>
+            <edge id="lobastov|zhivoedova" source="lobastov" target="zhivoedova" weight="9"/>
+            <edge id="lobastov|zhivnovskij" source="lobastov" target="zhivnovskij" weight="9"/>
+            <edge id="lobastov|ivan_prokofich" source="lobastov" target="ivan_prokofich" weight="5"/>
+            <edge id="lobastov|nastasya_ivanovna" source="lobastov" target="nastasya_ivanovna" weight="5"/>
+            <edge id="lobastov|lenochka" source="lobastov" target="lenochka" weight="2"/>
+            <edge id="lobastov|dmitrij" source="lobastov" target="dmitrij" weight="1"/>
+            <edge id="lobastov|mavra_gornichnaya" source="lobastov" target="mavra_gornichnaya" weight="1"/>
+            <edge id="zhivnovskij|zhivoedova" source="zhivnovskij" target="zhivoedova" weight="9"/>
+            <edge id="zhivnovskij|ivan_prokofich" source="zhivnovskij" target="ivan_prokofich" weight="5"/>
+            <edge id="zhivnovskij|nastasya_ivanovna" source="zhivnovskij" target="nastasya_ivanovna" weight="4"/>
+            <edge id="zhivnovskij|lenochka" source="zhivnovskij" target="lenochka" weight="2"/>
+            <edge id="zhivnovskij|furnachev" source="zhivnovskij" target="furnachev" weight="2"/>
+            <edge id="zhivnovskij|dmitrij" source="zhivnovskij" target="dmitrij" weight="1"/>
+            <edge id="zhivnovskij|mavra_gornichnaya" source="zhivnovskij" target="mavra_gornichnaya" weight="1"/>
+            <edge id="furnachev|nastasya_ivanovna" source="furnachev" target="nastasya_ivanovna" weight="7"/>
+            <edge id="furnachev|lakej" source="furnachev" target="lakej" weight="2"/>
+            <edge id="furnachev|zhivoedova" source="furnachev" target="zhivoedova" weight="6"/>
+            <edge id="furnachev|ivan_prokofich" source="furnachev" target="ivan_prokofich" weight="1"/>
+            <edge id="furnachev|dmitrij" source="furnachev" target="dmitrij" weight="1"/>
+            <edge id="furnachev|mavra_gornichnaya" source="furnachev" target="mavra_gornichnaya" weight="1"/>
+            <edge id="nastasya_ivanovna|lakej" source="nastasya_ivanovna" target="lakej" weight="1"/>
+            <edge id="nastasya_ivanovna|zhivoedova" source="nastasya_ivanovna" target="zhivoedova" weight="7"/>
+            <edge id="nastasya_ivanovna|ivan_prokofich" source="nastasya_ivanovna" target="ivan_prokofich" weight="4"/>
+            <edge id="nastasya_ivanovna|lenochka" source="nastasya_ivanovna" target="lenochka" weight="2"/>
+            <edge id="lakej|zhivoedova" source="lakej" target="zhivoedova" weight="1"/>
+            <edge id="zhivoedova|ivan_prokofich" source="zhivoedova" target="ivan_prokofich" weight="5"/>
+            <edge id="zhivoedova|lenochka" source="zhivoedova" target="lenochka" weight="2"/>
+            <edge id="zhivoedova|dmitrij" source="zhivoedova" target="dmitrij" weight="1"/>
+            <edge id="zhivoedova|mavra_gornichnaya" source="zhivoedova" target="mavra_gornichnaya" weight="1"/>
+            <edge id="ivan_prokofich|lenochka" source="ivan_prokofich" target="lenochka" weight="2"/>
+            <edge id="dmitrij|mavra_gornichnaya" source="dmitrij" target="mavra_gornichnaya" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сухово-Кобылин, Александр Васильевич: Свадьба Кречинского</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Atueva" label="Атуева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1948"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Tishka" label="Тишка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="192"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Muromskij" label="Муромский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2228"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Lidochka" label="Лидочка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="731"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Nelkin" label="Нелькин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="821"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Krechinskij" label="Кречинский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4327"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Fedor" label="Федор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="844"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Raspljuev" label="Расплюев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3341"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Schebnev" label="Щебнев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="204"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Bek" label="Бек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="73"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PolitsejskijChinovnik" label="Полицейский чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Atueva|Tishka" source="Atueva" target="Tishka" weight="2"/>
+            <edge id="Atueva|Muromskij" source="Atueva" target="Muromskij" weight="13"/>
+            <edge id="Atueva|Lidochka" source="Atueva" target="Lidochka" weight="10"/>
+            <edge id="Atueva|Nelkin" source="Atueva" target="Nelkin" weight="4"/>
+            <edge id="Atueva|Krechinskij" source="Atueva" target="Krechinskij" weight="7"/>
+            <edge id="Atueva|Raspljuev" source="Atueva" target="Raspljuev" weight="3"/>
+            <edge id="Atueva|Bek" source="Atueva" target="Bek" weight="1"/>
+            <edge id="Atueva|PolitsejskijChinovnik" source="Atueva" target="PolitsejskijChinovnik" weight="1"/>
+            <edge id="Tishka|Muromskij" source="Tishka" target="Muromskij" weight="1"/>
+            <edge id="Muromskij|Lidochka" source="Muromskij" target="Lidochka" weight="10"/>
+            <edge id="Muromskij|Nelkin" source="Muromskij" target="Nelkin" weight="6"/>
+            <edge id="Muromskij|Krechinskij" source="Muromskij" target="Krechinskij" weight="9"/>
+            <edge id="Muromskij|Raspljuev" source="Muromskij" target="Raspljuev" weight="6"/>
+            <edge id="Muromskij|Fedor" source="Muromskij" target="Fedor" weight="1"/>
+            <edge id="Muromskij|Bek" source="Muromskij" target="Bek" weight="1"/>
+            <edge id="Muromskij|PolitsejskijChinovnik" source="Muromskij" target="PolitsejskijChinovnik" weight="1"/>
+            <edge id="Lidochka|Krechinskij" source="Lidochka" target="Krechinskij" weight="7"/>
+            <edge id="Lidochka|Nelkin" source="Lidochka" target="Nelkin" weight="4"/>
+            <edge id="Lidochka|Raspljuev" source="Lidochka" target="Raspljuev" weight="5"/>
+            <edge id="Lidochka|Fedor" source="Lidochka" target="Fedor" weight="1"/>
+            <edge id="Lidochka|Bek" source="Lidochka" target="Bek" weight="1"/>
+            <edge id="Lidochka|PolitsejskijChinovnik" source="Lidochka" target="PolitsejskijChinovnik" weight="1"/>
+            <edge id="Nelkin|Krechinskij" source="Nelkin" target="Krechinskij" weight="4"/>
+            <edge id="Nelkin|Raspljuev" source="Nelkin" target="Raspljuev" weight="2"/>
+            <edge id="Krechinskij|Raspljuev" source="Krechinskij" target="Raspljuev" weight="10"/>
+            <edge id="Krechinskij|Fedor" source="Krechinskij" target="Fedor" weight="8"/>
+            <edge id="Krechinskij|Schebnev" source="Krechinskij" target="Schebnev" weight="1"/>
+            <edge id="Krechinskij|Bek" source="Krechinskij" target="Bek" weight="1"/>
+            <edge id="Krechinskij|PolitsejskijChinovnik" source="Krechinskij" target="PolitsejskijChinovnik" weight="1"/>
+            <edge id="Fedor|Raspljuev" source="Fedor" target="Raspljuev" weight="7"/>
+            <edge id="Raspljuev|Bek" source="Raspljuev" target="Bek" weight="1"/>
+            <edge id="Raspljuev|PolitsejskijChinovnik" source="Raspljuev" target="PolitsejskijChinovnik" weight="1"/>
+            <edge id="Bek|PolitsejskijChinovnik" source="Bek" target="PolitsejskijChinovnik" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

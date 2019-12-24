@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гумилёв, Николай Степанович: Дон-Жуан в Египте</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="DonZhuan" label="Дон Жуан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="555"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Leporello" label="Лепорелло">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="439"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Amerikanets" label="Американец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="136"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Amerikanka" label="Американка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="126"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="DonZhuan|Leporello" source="DonZhuan" target="Leporello" weight="1"/>
+            <edge id="DonZhuan|Amerikanets" source="DonZhuan" target="Amerikanets" weight="1"/>
+            <edge id="DonZhuan|Amerikanka" source="DonZhuan" target="Amerikanka" weight="1"/>
+            <edge id="Leporello|Amerikanets" source="Leporello" target="Amerikanets" weight="2"/>
+            <edge id="Leporello|Amerikanka" source="Leporello" target="Amerikanka" weight="1"/>
+            <edge id="Amerikanets|Amerikanka" source="Amerikanets" target="Amerikanka" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

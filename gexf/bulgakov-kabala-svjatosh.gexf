@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Булгаков, Михаил Афанасьевич: Кабала святош (Мольер)</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="moler" label="Мольер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2001"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="buton" label="Бутон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="597"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dju_kruazi" label="Дю Круази">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="38"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sufler" label="Суфлер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="madlena" label="Мадлена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="481"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sharlatan" label="Шарлатан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ljudovik" label="Людовик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="679"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rival" label="Риваль">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="91"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lagranzh" label="Лагранж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="506"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="armanda" label="Арманда">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="352"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="odnoglazyj" label="Одноглазый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="485"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="muarron" label="Муаррон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="614"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="de_lessak" label="Де Лессак">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pridvornye" label="Придворные">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="spravedlivyj_sapozhnik" label="Справедливый сапожник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="142"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sharron" label="Шаррон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="577"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="varfolomej" label="Варфоломей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="56"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="brat_vernost" label="Брат Верность">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="227"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="brat_sila" label="Брат Сила">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="120"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="neznakomka_v_maske" label="Незнакомка в маске">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="56"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="chleny_kabaly" label="Члены Кабалы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="rene" label="Ренэ">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="hor_vrachej" label="Хор врачей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="monashka" label="Монашка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="moler|buton" source="moler" target="buton" weight="3"/>
+            <edge id="moler|dju_kruazi" source="moler" target="dju_kruazi" weight="2"/>
+            <edge id="moler|sufler" source="moler" target="sufler" weight="2"/>
+            <edge id="moler|madlena" source="moler" target="madlena" weight="2"/>
+            <edge id="moler|sharlatan" source="moler" target="sharlatan" weight="1"/>
+            <edge id="moler|ljudovik" source="moler" target="ljudovik" weight="3"/>
+            <edge id="moler|rival" source="moler" target="rival" weight="2"/>
+            <edge id="moler|lagranzh" source="moler" target="lagranzh" weight="3"/>
+            <edge id="moler|armanda" source="moler" target="armanda" weight="3"/>
+            <edge id="moler|odnoglazyj" source="moler" target="odnoglazyj" weight="3"/>
+            <edge id="moler|muarron" source="moler" target="muarron" weight="4"/>
+            <edge id="moler|de_lessak" source="moler" target="de_lessak" weight="1"/>
+            <edge id="moler|pridvornye" source="moler" target="pridvornye" weight="1"/>
+            <edge id="moler|spravedlivyj_sapozhnik" source="moler" target="spravedlivyj_sapozhnik" weight="2"/>
+            <edge id="moler|sharron" source="moler" target="sharron" weight="2"/>
+            <edge id="moler|varfolomej" source="moler" target="varfolomej" weight="1"/>
+            <edge id="moler|brat_vernost" source="moler" target="brat_vernost" weight="2"/>
+            <edge id="moler|brat_sila" source="moler" target="brat_sila" weight="1"/>
+            <edge id="moler|neznakomka_v_maske" source="moler" target="neznakomka_v_maske" weight="1"/>
+            <edge id="moler|chleny_kabaly" source="moler" target="chleny_kabaly" weight="1"/>
+            <edge id="moler|rene" source="moler" target="rene" weight="1"/>
+            <edge id="moler|hor_vrachej" source="moler" target="hor_vrachej" weight="1"/>
+            <edge id="moler|monashka" source="moler" target="monashka" weight="1"/>
+            <edge id="buton|dju_kruazi" source="buton" target="dju_kruazi" weight="2"/>
+            <edge id="buton|sufler" source="buton" target="sufler" weight="2"/>
+            <edge id="buton|madlena" source="buton" target="madlena" weight="1"/>
+            <edge id="buton|sharlatan" source="buton" target="sharlatan" weight="1"/>
+            <edge id="buton|ljudovik" source="buton" target="ljudovik" weight="2"/>
+            <edge id="buton|rival" source="buton" target="rival" weight="2"/>
+            <edge id="buton|lagranzh" source="buton" target="lagranzh" weight="2"/>
+            <edge id="buton|armanda" source="buton" target="armanda" weight="2"/>
+            <edge id="buton|odnoglazyj" source="buton" target="odnoglazyj" weight="2"/>
+            <edge id="buton|muarron" source="buton" target="muarron" weight="3"/>
+            <edge id="buton|de_lessak" source="buton" target="de_lessak" weight="1"/>
+            <edge id="buton|pridvornye" source="buton" target="pridvornye" weight="1"/>
+            <edge id="buton|spravedlivyj_sapozhnik" source="buton" target="spravedlivyj_sapozhnik" weight="1"/>
+            <edge id="buton|sharron" source="buton" target="sharron" weight="1"/>
+            <edge id="buton|varfolomej" source="buton" target="varfolomej" weight="1"/>
+            <edge id="buton|brat_vernost" source="buton" target="brat_vernost" weight="1"/>
+            <edge id="buton|rene" source="buton" target="rene" weight="1"/>
+            <edge id="buton|hor_vrachej" source="buton" target="hor_vrachej" weight="1"/>
+            <edge id="buton|monashka" source="buton" target="monashka" weight="1"/>
+            <edge id="dju_kruazi|sufler" source="dju_kruazi" target="sufler" weight="2"/>
+            <edge id="dju_kruazi|madlena" source="dju_kruazi" target="madlena" weight="1"/>
+            <edge id="dju_kruazi|sharlatan" source="dju_kruazi" target="sharlatan" weight="1"/>
+            <edge id="dju_kruazi|ljudovik" source="dju_kruazi" target="ljudovik" weight="1"/>
+            <edge id="dju_kruazi|rival" source="dju_kruazi" target="rival" weight="2"/>
+            <edge id="dju_kruazi|lagranzh" source="dju_kruazi" target="lagranzh" weight="2"/>
+            <edge id="dju_kruazi|armanda" source="dju_kruazi" target="armanda" weight="1"/>
+            <edge id="dju_kruazi|odnoglazyj" source="dju_kruazi" target="odnoglazyj" weight="1"/>
+            <edge id="dju_kruazi|muarron" source="dju_kruazi" target="muarron" weight="2"/>
+            <edge id="dju_kruazi|rene" source="dju_kruazi" target="rene" weight="1"/>
+            <edge id="dju_kruazi|hor_vrachej" source="dju_kruazi" target="hor_vrachej" weight="1"/>
+            <edge id="dju_kruazi|monashka" source="dju_kruazi" target="monashka" weight="1"/>
+            <edge id="sufler|madlena" source="sufler" target="madlena" weight="1"/>
+            <edge id="sufler|sharlatan" source="sufler" target="sharlatan" weight="1"/>
+            <edge id="sufler|ljudovik" source="sufler" target="ljudovik" weight="1"/>
+            <edge id="sufler|rival" source="sufler" target="rival" weight="2"/>
+            <edge id="sufler|lagranzh" source="sufler" target="lagranzh" weight="2"/>
+            <edge id="sufler|armanda" source="sufler" target="armanda" weight="1"/>
+            <edge id="sufler|odnoglazyj" source="sufler" target="odnoglazyj" weight="1"/>
+            <edge id="sufler|muarron" source="sufler" target="muarron" weight="2"/>
+            <edge id="sufler|rene" source="sufler" target="rene" weight="1"/>
+            <edge id="sufler|hor_vrachej" source="sufler" target="hor_vrachej" weight="1"/>
+            <edge id="sufler|monashka" source="sufler" target="monashka" weight="1"/>
+            <edge id="madlena|sharlatan" source="madlena" target="sharlatan" weight="1"/>
+            <edge id="madlena|ljudovik" source="madlena" target="ljudovik" weight="2"/>
+            <edge id="madlena|rival" source="madlena" target="rival" weight="1"/>
+            <edge id="madlena|lagranzh" source="madlena" target="lagranzh" weight="2"/>
+            <edge id="madlena|armanda" source="madlena" target="armanda" weight="2"/>
+            <edge id="madlena|odnoglazyj" source="madlena" target="odnoglazyj" weight="2"/>
+            <edge id="madlena|muarron" source="madlena" target="muarron" weight="2"/>
+            <edge id="madlena|sharron" source="madlena" target="sharron" weight="1"/>
+            <edge id="madlena|brat_sila" source="madlena" target="brat_sila" weight="1"/>
+            <edge id="madlena|neznakomka_v_maske" source="madlena" target="neznakomka_v_maske" weight="1"/>
+            <edge id="madlena|brat_vernost" source="madlena" target="brat_vernost" weight="1"/>
+            <edge id="madlena|chleny_kabaly" source="madlena" target="chleny_kabaly" weight="1"/>
+            <edge id="madlena|spravedlivyj_sapozhnik" source="madlena" target="spravedlivyj_sapozhnik" weight="1"/>
+            <edge id="sharlatan|ljudovik" source="sharlatan" target="ljudovik" weight="1"/>
+            <edge id="sharlatan|rival" source="sharlatan" target="rival" weight="1"/>
+            <edge id="sharlatan|lagranzh" source="sharlatan" target="lagranzh" weight="1"/>
+            <edge id="sharlatan|armanda" source="sharlatan" target="armanda" weight="1"/>
+            <edge id="sharlatan|odnoglazyj" source="sharlatan" target="odnoglazyj" weight="1"/>
+            <edge id="sharlatan|muarron" source="sharlatan" target="muarron" weight="1"/>
+            <edge id="ljudovik|rival" source="ljudovik" target="rival" weight="1"/>
+            <edge id="ljudovik|lagranzh" source="ljudovik" target="lagranzh" weight="2"/>
+            <edge id="ljudovik|armanda" source="ljudovik" target="armanda" weight="3"/>
+            <edge id="ljudovik|odnoglazyj" source="ljudovik" target="odnoglazyj" weight="3"/>
+            <edge id="ljudovik|muarron" source="ljudovik" target="muarron" weight="3"/>
+            <edge id="ljudovik|de_lessak" source="ljudovik" target="de_lessak" weight="1"/>
+            <edge id="ljudovik|pridvornye" source="ljudovik" target="pridvornye" weight="1"/>
+            <edge id="ljudovik|spravedlivyj_sapozhnik" source="ljudovik" target="spravedlivyj_sapozhnik" weight="2"/>
+            <edge id="ljudovik|sharron" source="ljudovik" target="sharron" weight="2"/>
+            <edge id="ljudovik|varfolomej" source="ljudovik" target="varfolomej" weight="1"/>
+            <edge id="ljudovik|brat_vernost" source="ljudovik" target="brat_vernost" weight="2"/>
+            <edge id="ljudovik|brat_sila" source="ljudovik" target="brat_sila" weight="1"/>
+            <edge id="ljudovik|neznakomka_v_maske" source="ljudovik" target="neznakomka_v_maske" weight="1"/>
+            <edge id="ljudovik|chleny_kabaly" source="ljudovik" target="chleny_kabaly" weight="1"/>
+            <edge id="rival|lagranzh" source="rival" target="lagranzh" weight="2"/>
+            <edge id="rival|armanda" source="rival" target="armanda" weight="1"/>
+            <edge id="rival|odnoglazyj" source="rival" target="odnoglazyj" weight="1"/>
+            <edge id="rival|muarron" source="rival" target="muarron" weight="2"/>
+            <edge id="rival|rene" source="rival" target="rene" weight="1"/>
+            <edge id="rival|hor_vrachej" source="rival" target="hor_vrachej" weight="1"/>
+            <edge id="rival|monashka" source="rival" target="monashka" weight="1"/>
+            <edge id="lagranzh|armanda" source="lagranzh" target="armanda" weight="2"/>
+            <edge id="lagranzh|odnoglazyj" source="lagranzh" target="odnoglazyj" weight="2"/>
+            <edge id="lagranzh|muarron" source="lagranzh" target="muarron" weight="3"/>
+            <edge id="lagranzh|sharron" source="lagranzh" target="sharron" weight="1"/>
+            <edge id="lagranzh|brat_sila" source="lagranzh" target="brat_sila" weight="1"/>
+            <edge id="lagranzh|neznakomka_v_maske" source="lagranzh" target="neznakomka_v_maske" weight="1"/>
+            <edge id="lagranzh|brat_vernost" source="lagranzh" target="brat_vernost" weight="1"/>
+            <edge id="lagranzh|chleny_kabaly" source="lagranzh" target="chleny_kabaly" weight="1"/>
+            <edge id="lagranzh|spravedlivyj_sapozhnik" source="lagranzh" target="spravedlivyj_sapozhnik" weight="1"/>
+            <edge id="lagranzh|rene" source="lagranzh" target="rene" weight="1"/>
+            <edge id="lagranzh|hor_vrachej" source="lagranzh" target="hor_vrachej" weight="1"/>
+            <edge id="lagranzh|monashka" source="lagranzh" target="monashka" weight="1"/>
+            <edge id="armanda|odnoglazyj" source="armanda" target="odnoglazyj" weight="3"/>
+            <edge id="armanda|muarron" source="armanda" target="muarron" weight="3"/>
+            <edge id="armanda|de_lessak" source="armanda" target="de_lessak" weight="1"/>
+            <edge id="armanda|pridvornye" source="armanda" target="pridvornye" weight="1"/>
+            <edge id="armanda|spravedlivyj_sapozhnik" source="armanda" target="spravedlivyj_sapozhnik" weight="2"/>
+            <edge id="armanda|sharron" source="armanda" target="sharron" weight="2"/>
+            <edge id="armanda|varfolomej" source="armanda" target="varfolomej" weight="1"/>
+            <edge id="armanda|brat_vernost" source="armanda" target="brat_vernost" weight="2"/>
+            <edge id="armanda|brat_sila" source="armanda" target="brat_sila" weight="1"/>
+            <edge id="armanda|neznakomka_v_maske" source="armanda" target="neznakomka_v_maske" weight="1"/>
+            <edge id="armanda|chleny_kabaly" source="armanda" target="chleny_kabaly" weight="1"/>
+            <edge id="odnoglazyj|muarron" source="odnoglazyj" target="muarron" weight="3"/>
+            <edge id="odnoglazyj|de_lessak" source="odnoglazyj" target="de_lessak" weight="1"/>
+            <edge id="odnoglazyj|pridvornye" source="odnoglazyj" target="pridvornye" weight="1"/>
+            <edge id="odnoglazyj|spravedlivyj_sapozhnik" source="odnoglazyj" target="spravedlivyj_sapozhnik" weight="2"/>
+            <edge id="odnoglazyj|sharron" source="odnoglazyj" target="sharron" weight="2"/>
+            <edge id="odnoglazyj|varfolomej" source="odnoglazyj" target="varfolomej" weight="1"/>
+            <edge id="odnoglazyj|brat_vernost" source="odnoglazyj" target="brat_vernost" weight="2"/>
+            <edge id="odnoglazyj|brat_sila" source="odnoglazyj" target="brat_sila" weight="1"/>
+            <edge id="odnoglazyj|neznakomka_v_maske" source="odnoglazyj" target="neznakomka_v_maske" weight="1"/>
+            <edge id="odnoglazyj|chleny_kabaly" source="odnoglazyj" target="chleny_kabaly" weight="1"/>
+            <edge id="muarron|de_lessak" source="muarron" target="de_lessak" weight="1"/>
+            <edge id="muarron|pridvornye" source="muarron" target="pridvornye" weight="1"/>
+            <edge id="muarron|spravedlivyj_sapozhnik" source="muarron" target="spravedlivyj_sapozhnik" weight="2"/>
+            <edge id="muarron|sharron" source="muarron" target="sharron" weight="2"/>
+            <edge id="muarron|varfolomej" source="muarron" target="varfolomej" weight="1"/>
+            <edge id="muarron|brat_vernost" source="muarron" target="brat_vernost" weight="2"/>
+            <edge id="muarron|brat_sila" source="muarron" target="brat_sila" weight="1"/>
+            <edge id="muarron|neznakomka_v_maske" source="muarron" target="neznakomka_v_maske" weight="1"/>
+            <edge id="muarron|chleny_kabaly" source="muarron" target="chleny_kabaly" weight="1"/>
+            <edge id="muarron|rene" source="muarron" target="rene" weight="1"/>
+            <edge id="muarron|hor_vrachej" source="muarron" target="hor_vrachej" weight="1"/>
+            <edge id="muarron|monashka" source="muarron" target="monashka" weight="1"/>
+            <edge id="de_lessak|pridvornye" source="de_lessak" target="pridvornye" weight="1"/>
+            <edge id="de_lessak|spravedlivyj_sapozhnik" source="de_lessak" target="spravedlivyj_sapozhnik" weight="1"/>
+            <edge id="de_lessak|sharron" source="de_lessak" target="sharron" weight="1"/>
+            <edge id="de_lessak|varfolomej" source="de_lessak" target="varfolomej" weight="1"/>
+            <edge id="de_lessak|brat_vernost" source="de_lessak" target="brat_vernost" weight="1"/>
+            <edge id="pridvornye|spravedlivyj_sapozhnik" source="pridvornye" target="spravedlivyj_sapozhnik" weight="1"/>
+            <edge id="pridvornye|sharron" source="pridvornye" target="sharron" weight="1"/>
+            <edge id="pridvornye|varfolomej" source="pridvornye" target="varfolomej" weight="1"/>
+            <edge id="pridvornye|brat_vernost" source="pridvornye" target="brat_vernost" weight="1"/>
+            <edge id="spravedlivyj_sapozhnik|sharron" source="spravedlivyj_sapozhnik" target="sharron" weight="2"/>
+            <edge id="spravedlivyj_sapozhnik|varfolomej" source="spravedlivyj_sapozhnik" target="varfolomej" weight="1"/>
+            <edge id="spravedlivyj_sapozhnik|brat_vernost" source="spravedlivyj_sapozhnik" target="brat_vernost" weight="2"/>
+            <edge id="spravedlivyj_sapozhnik|brat_sila" source="spravedlivyj_sapozhnik" target="brat_sila" weight="1"/>
+            <edge id="spravedlivyj_sapozhnik|neznakomka_v_maske" source="spravedlivyj_sapozhnik" target="neznakomka_v_maske" weight="1"/>
+            <edge id="spravedlivyj_sapozhnik|chleny_kabaly" source="spravedlivyj_sapozhnik" target="chleny_kabaly" weight="1"/>
+            <edge id="sharron|varfolomej" source="sharron" target="varfolomej" weight="1"/>
+            <edge id="sharron|brat_vernost" source="sharron" target="brat_vernost" weight="2"/>
+            <edge id="sharron|brat_sila" source="sharron" target="brat_sila" weight="1"/>
+            <edge id="sharron|neznakomka_v_maske" source="sharron" target="neznakomka_v_maske" weight="1"/>
+            <edge id="sharron|chleny_kabaly" source="sharron" target="chleny_kabaly" weight="1"/>
+            <edge id="varfolomej|brat_vernost" source="varfolomej" target="brat_vernost" weight="1"/>
+            <edge id="brat_vernost|brat_sila" source="brat_vernost" target="brat_sila" weight="1"/>
+            <edge id="brat_vernost|neznakomka_v_maske" source="brat_vernost" target="neznakomka_v_maske" weight="1"/>
+            <edge id="brat_vernost|chleny_kabaly" source="brat_vernost" target="chleny_kabaly" weight="1"/>
+            <edge id="brat_sila|neznakomka_v_maske" source="brat_sila" target="neznakomka_v_maske" weight="1"/>
+            <edge id="brat_sila|chleny_kabaly" source="brat_sila" target="chleny_kabaly" weight="1"/>
+            <edge id="neznakomka_v_maske|chleny_kabaly" source="neznakomka_v_maske" target="chleny_kabaly" weight="1"/>
+            <edge id="rene|hor_vrachej" source="rene" target="hor_vrachej" weight="1"/>
+            <edge id="rene|monashka" source="rene" target="monashka" weight="1"/>
+            <edge id="hor_vrachej|monashka" source="hor_vrachej" target="monashka" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

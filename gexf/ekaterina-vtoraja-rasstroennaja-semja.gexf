@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Екатерина II: Расстроенная семья острожками и подозрениями</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="trofim" label="Трофим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="541"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mavra" label="Мавра">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="476"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sobrina" label="Собрина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1146"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sobrin" label="Собрин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2346"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prelesta" label="Прелеста">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="309"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan_sobrin" label="Иван Собрин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="341"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="takkov" label="Такков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="501"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="predyn" label="Предын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="567"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dvorabrod" label="Двораброд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2852"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dobrin" label="Добрин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="837"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="trofim|mavra" source="trofim" target="mavra" weight="5"/>
+            <edge id="trofim|sobrina" source="trofim" target="sobrina" weight="3"/>
+            <edge id="trofim|dvorabrod" source="trofim" target="dvorabrod" weight="1"/>
+            <edge id="trofim|sobrin" source="trofim" target="sobrin" weight="2"/>
+            <edge id="trofim|prelesta" source="trofim" target="prelesta" weight="1"/>
+            <edge id="mavra|sobrina" source="mavra" target="sobrina" weight="2"/>
+            <edge id="mavra|dobrin" source="mavra" target="dobrin" weight="2"/>
+            <edge id="mavra|dvorabrod" source="mavra" target="dvorabrod" weight="4"/>
+            <edge id="mavra|prelesta" source="mavra" target="prelesta" weight="3"/>
+            <edge id="mavra|ivan_sobrin" source="mavra" target="ivan_sobrin" weight="1"/>
+            <edge id="mavra|sobrin" source="mavra" target="sobrin" weight="1"/>
+            <edge id="sobrina|sobrin" source="sobrina" target="sobrin" weight="15"/>
+            <edge id="sobrina|prelesta" source="sobrina" target="prelesta" weight="8"/>
+            <edge id="sobrina|ivan_sobrin" source="sobrina" target="ivan_sobrin" weight="1"/>
+            <edge id="sobrina|takkov" source="sobrina" target="takkov" weight="5"/>
+            <edge id="sobrina|dobrin" source="sobrina" target="dobrin" weight="6"/>
+            <edge id="sobrina|dvorabrod" source="sobrina" target="dvorabrod" weight="5"/>
+            <edge id="sobrina|predyn" source="sobrina" target="predyn" weight="8"/>
+            <edge id="sobrin|prelesta" source="sobrin" target="prelesta" weight="8"/>
+            <edge id="sobrin|ivan_sobrin" source="sobrin" target="ivan_sobrin" weight="2"/>
+            <edge id="sobrin|takkov" source="sobrin" target="takkov" weight="5"/>
+            <edge id="sobrin|predyn" source="sobrin" target="predyn" weight="8"/>
+            <edge id="sobrin|dvorabrod" source="sobrin" target="dvorabrod" weight="6"/>
+            <edge id="sobrin|dobrin" source="sobrin" target="dobrin" weight="5"/>
+            <edge id="prelesta|ivan_sobrin" source="prelesta" target="ivan_sobrin" weight="2"/>
+            <edge id="prelesta|dvorabrod" source="prelesta" target="dvorabrod" weight="4"/>
+            <edge id="prelesta|predyn" source="prelesta" target="predyn" weight="4"/>
+            <edge id="prelesta|takkov" source="prelesta" target="takkov" weight="3"/>
+            <edge id="prelesta|dobrin" source="prelesta" target="dobrin" weight="4"/>
+            <edge id="ivan_sobrin|dvorabrod" source="ivan_sobrin" target="dvorabrod" weight="2"/>
+            <edge id="ivan_sobrin|dobrin" source="ivan_sobrin" target="dobrin" weight="1"/>
+            <edge id="ivan_sobrin|takkov" source="ivan_sobrin" target="takkov" weight="1"/>
+            <edge id="takkov|dobrin" source="takkov" target="dobrin" weight="7"/>
+            <edge id="takkov|predyn" source="takkov" target="predyn" weight="5"/>
+            <edge id="takkov|dvorabrod" source="takkov" target="dvorabrod" weight="2"/>
+            <edge id="predyn|dvorabrod" source="predyn" target="dvorabrod" weight="6"/>
+            <edge id="predyn|dobrin" source="predyn" target="dobrin" weight="6"/>
+            <edge id="dvorabrod|dobrin" source="dvorabrod" target="dobrin" weight="5"/>
+        </edges>
+    </graph>
+</gexf>

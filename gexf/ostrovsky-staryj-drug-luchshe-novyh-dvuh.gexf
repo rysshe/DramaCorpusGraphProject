@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Старый друг лучше новых двух</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="olenka" label="Оленька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1975"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="tatyana_nikonovna" label="Татьяна Никоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2048"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pulheriya_andrevna" label="Пульхерия Андревна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2415"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vasyutin" label="Васютин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prohor_gavrilych" label="Прохор Гаврилыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1429"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="orest" label="Орест">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="760"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="anfisa_karpovna" label="Анфиса Карповна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1158"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gavrila_prohorych" label="Гаврила Прохорыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="100"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kupec" label="Купец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="726"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prositel" label="Проситель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="olenka|tatyana_nikonovna" source="olenka" target="tatyana_nikonovna" weight="11"/>
+            <edge id="olenka|pulheriya_andrevna" source="olenka" target="pulheriya_andrevna" weight="4"/>
+            <edge id="olenka|vasyutin" source="olenka" target="vasyutin" weight="1"/>
+            <edge id="olenka|prohor_gavrilych" source="olenka" target="prohor_gavrilych" weight="4"/>
+            <edge id="olenka|kupec" source="olenka" target="kupec" weight="1"/>
+            <edge id="tatyana_nikonovna|pulheriya_andrevna" source="tatyana_nikonovna" target="pulheriya_andrevna" weight="5"/>
+            <edge id="tatyana_nikonovna|vasyutin" source="tatyana_nikonovna" target="vasyutin" weight="1"/>
+            <edge id="tatyana_nikonovna|prohor_gavrilych" source="tatyana_nikonovna" target="prohor_gavrilych" weight="3"/>
+            <edge id="tatyana_nikonovna|kupec" source="tatyana_nikonovna" target="kupec" weight="1"/>
+            <edge id="pulheriya_andrevna|anfisa_karpovna" source="pulheriya_andrevna" target="anfisa_karpovna" weight="1"/>
+            <edge id="prohor_gavrilych|prositel" source="prohor_gavrilych" target="prositel" weight="1"/>
+            <edge id="prohor_gavrilych|kupec" source="prohor_gavrilych" target="kupec" weight="2"/>
+            <edge id="prohor_gavrilych|anfisa_karpovna" source="prohor_gavrilych" target="anfisa_karpovna" weight="1"/>
+            <edge id="prohor_gavrilych|orest" source="prohor_gavrilych" target="orest" weight="1"/>
+            <edge id="orest|anfisa_karpovna" source="orest" target="anfisa_karpovna" weight="2"/>
+            <edge id="orest|prositel" source="orest" target="prositel" weight="1"/>
+            <edge id="orest|kupec" source="orest" target="kupec" weight="1"/>
+            <edge id="anfisa_karpovna|gavrila_prohorych" source="anfisa_karpovna" target="gavrila_prohorych" weight="1"/>
+            <edge id="anfisa_karpovna|kupec" source="anfisa_karpovna" target="kupec" weight="2"/>
+            <edge id="anfisa_karpovna|prositel" source="anfisa_karpovna" target="prositel" weight="1"/>
+            <edge id="kupec|prositel" source="kupec" target="prositel" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

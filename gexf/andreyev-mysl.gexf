@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Андреев, Леонид Николаевич: Мысль</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="kraft" label="Крафт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="236"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kerzhentsev" label="Керженцев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4475"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="savyolov" label="Савелов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1841"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tatyana_nikolaevna" label="Татьяна Николаевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1831"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sasha" label="Саша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="42"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fyodorovich" label="Федорович">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="260"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="darya_vasilyevna" label="Дарья Васильевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="113"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vasiliy" label="Василий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="74"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pryamoy" label="Прямой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="195"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilyeva" label="Васильева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="41"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="532"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sidelka" label="Сиделка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan_petrovich" label="Иван Петрович">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="554"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="semyonov" label="Семенов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="518"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretiy_vrach" label="Третий врач">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="50"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="kraft|kerzhentsev" source="kraft" target="kerzhentsev" weight="1"/>
+            <edge id="kerzhentsev|savyolov" source="kerzhentsev" target="savyolov" weight="2"/>
+            <edge id="kerzhentsev|tatyana_nikolaevna" source="kerzhentsev" target="tatyana_nikolaevna" weight="3"/>
+            <edge id="kerzhentsev|sasha" source="kerzhentsev" target="sasha" weight="2"/>
+            <edge id="kerzhentsev|fyodorovich" source="kerzhentsev" target="fyodorovich" weight="1"/>
+            <edge id="kerzhentsev|darya_vasilyevna" source="kerzhentsev" target="darya_vasilyevna" weight="1"/>
+            <edge id="kerzhentsev|vasiliy" source="kerzhentsev" target="vasiliy" weight="1"/>
+            <edge id="kerzhentsev|masha" source="kerzhentsev" target="masha" weight="1"/>
+            <edge id="kerzhentsev|ivan_petrovich" source="kerzhentsev" target="ivan_petrovich" weight="1"/>
+            <edge id="savyolov|tatyana_nikolaevna" source="savyolov" target="tatyana_nikolaevna" weight="2"/>
+            <edge id="savyolov|sasha" source="savyolov" target="sasha" weight="2"/>
+            <edge id="savyolov|fyodorovich" source="savyolov" target="fyodorovich" weight="1"/>
+            <edge id="tatyana_nikolaevna|sasha" source="tatyana_nikolaevna" target="sasha" weight="2"/>
+            <edge id="tatyana_nikolaevna|fyodorovich" source="tatyana_nikolaevna" target="fyodorovich" weight="1"/>
+            <edge id="tatyana_nikolaevna|masha" source="tatyana_nikolaevna" target="masha" weight="1"/>
+            <edge id="tatyana_nikolaevna|ivan_petrovich" source="tatyana_nikolaevna" target="ivan_petrovich" weight="1"/>
+            <edge id="sasha|fyodorovich" source="sasha" target="fyodorovich" weight="1"/>
+            <edge id="darya_vasilyevna|vasiliy" source="darya_vasilyevna" target="vasiliy" weight="1"/>
+            <edge id="pryamoy|vasilyeva" source="pryamoy" target="vasilyeva" weight="1"/>
+            <edge id="pryamoy|masha" source="pryamoy" target="masha" weight="1"/>
+            <edge id="pryamoy|sidelka" source="pryamoy" target="sidelka" weight="1"/>
+            <edge id="pryamoy|ivan_petrovich" source="pryamoy" target="ivan_petrovich" weight="1"/>
+            <edge id="pryamoy|semyonov" source="pryamoy" target="semyonov" weight="1"/>
+            <edge id="pryamoy|tretiy_vrach" source="pryamoy" target="tretiy_vrach" weight="1"/>
+            <edge id="vasilyeva|masha" source="vasilyeva" target="masha" weight="1"/>
+            <edge id="vasilyeva|sidelka" source="vasilyeva" target="sidelka" weight="1"/>
+            <edge id="vasilyeva|ivan_petrovich" source="vasilyeva" target="ivan_petrovich" weight="1"/>
+            <edge id="vasilyeva|semyonov" source="vasilyeva" target="semyonov" weight="1"/>
+            <edge id="vasilyeva|tretiy_vrach" source="vasilyeva" target="tretiy_vrach" weight="1"/>
+            <edge id="masha|sidelka" source="masha" target="sidelka" weight="1"/>
+            <edge id="masha|ivan_petrovich" source="masha" target="ivan_petrovich" weight="2"/>
+            <edge id="masha|semyonov" source="masha" target="semyonov" weight="1"/>
+            <edge id="masha|tretiy_vrach" source="masha" target="tretiy_vrach" weight="1"/>
+            <edge id="sidelka|ivan_petrovich" source="sidelka" target="ivan_petrovich" weight="1"/>
+            <edge id="sidelka|semyonov" source="sidelka" target="semyonov" weight="1"/>
+            <edge id="sidelka|tretiy_vrach" source="sidelka" target="tretiy_vrach" weight="1"/>
+            <edge id="ivan_petrovich|semyonov" source="ivan_petrovich" target="semyonov" weight="1"/>
+            <edge id="ivan_petrovich|tretiy_vrach" source="ivan_petrovich" target="tretiy_vrach" weight="1"/>
+            <edge id="semyonov|tretiy_vrach" source="semyonov" target="tretiy_vrach" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

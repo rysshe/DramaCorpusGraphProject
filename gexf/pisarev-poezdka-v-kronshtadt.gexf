@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Писарев, Александр Иванович: Поездка в Кронштадт</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="hor" label="Хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="lenskij" label="Ленский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1385"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chudin" label="Чудин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="716"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="257"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kleshnin" label="Клешнин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1874"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kleshnina" label="Клешнина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="221"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lenushka" label="Ленушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="220"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lidin" label="Лидин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="785"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sborskij" label="Сборский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="989"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chudina" label="Чудина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="368"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="171"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="hor|lenskij" source="hor" target="lenskij" weight="2"/>
+            <edge id="hor|masha" source="hor" target="masha" weight="1"/>
+            <edge id="hor|chudin" source="hor" target="chudin" weight="1"/>
+            <edge id="lenskij|chudin" source="lenskij" target="chudin" weight="8"/>
+            <edge id="lenskij|masha" source="lenskij" target="masha" weight="4"/>
+            <edge id="lenskij|kleshnin" source="lenskij" target="kleshnin" weight="9"/>
+            <edge id="lenskij|kleshnina" source="lenskij" target="kleshnina" weight="4"/>
+            <edge id="lenskij|lenushka" source="lenskij" target="lenushka" weight="1"/>
+            <edge id="lenskij|lidin" source="lenskij" target="lidin" weight="14"/>
+            <edge id="lenskij|sborskij" source="lenskij" target="sborskij" weight="7"/>
+            <edge id="lenskij|chudina" source="lenskij" target="chudina" weight="2"/>
+            <edge id="lenskij|ivan" source="lenskij" target="ivan" weight="2"/>
+            <edge id="chudin|masha" source="chudin" target="masha" weight="2"/>
+            <edge id="chudin|kleshnin" source="chudin" target="kleshnin" weight="4"/>
+            <edge id="chudin|kleshnina" source="chudin" target="kleshnina" weight="1"/>
+            <edge id="chudin|lenushka" source="chudin" target="lenushka" weight="1"/>
+            <edge id="chudin|lidin" source="chudin" target="lidin" weight="6"/>
+            <edge id="chudin|sborskij" source="chudin" target="sborskij" weight="1"/>
+            <edge id="chudin|chudina" source="chudin" target="chudina" weight="5"/>
+            <edge id="masha|kleshnin" source="masha" target="kleshnin" weight="3"/>
+            <edge id="masha|kleshnina" source="masha" target="kleshnina" weight="2"/>
+            <edge id="masha|lenushka" source="masha" target="lenushka" weight="1"/>
+            <edge id="masha|sborskij" source="masha" target="sborskij" weight="3"/>
+            <edge id="masha|lidin" source="masha" target="lidin" weight="1"/>
+            <edge id="kleshnin|kleshnina" source="kleshnin" target="kleshnina" weight="6"/>
+            <edge id="kleshnin|lenushka" source="kleshnin" target="lenushka" weight="2"/>
+            <edge id="kleshnin|lidin" source="kleshnin" target="lidin" weight="7"/>
+            <edge id="kleshnin|sborskij" source="kleshnin" target="sborskij" weight="5"/>
+            <edge id="kleshnin|ivan" source="kleshnin" target="ivan" weight="2"/>
+            <edge id="kleshnin|chudina" source="kleshnin" target="chudina" weight="2"/>
+            <edge id="kleshnina|lenushka" source="kleshnina" target="lenushka" weight="2"/>
+            <edge id="kleshnina|ivan" source="kleshnina" target="ivan" weight="1"/>
+            <edge id="kleshnina|sborskij" source="kleshnina" target="sborskij" weight="2"/>
+            <edge id="kleshnina|lidin" source="kleshnina" target="lidin" weight="2"/>
+            <edge id="lenushka|sborskij" source="lenushka" target="sborskij" weight="1"/>
+            <edge id="lidin|sborskij" source="lidin" target="sborskij" weight="11"/>
+            <edge id="lidin|chudina" source="lidin" target="chudina" weight="3"/>
+            <edge id="lidin|ivan" source="lidin" target="ivan" weight="3"/>
+            <edge id="sborskij|ivan" source="sborskij" target="ivan" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

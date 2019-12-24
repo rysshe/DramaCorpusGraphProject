@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Николев, Николай Петрович: Самолюбивый стихотворец</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="panfil" label="Панфил">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1687"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marina" label="Марина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3364"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="milana" label="Милана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="366"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nadmen" label="Надмен">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2974"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="modstrih" label="Модстрих">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1892"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="naborshchik" label="Наборщик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="428"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kruton" label="Крутон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="776"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chesnodum" label="Чеснодум">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="301"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="panfil|marina" source="panfil" target="marina" weight="7"/>
+            <edge id="panfil|nadmen" source="panfil" target="nadmen" weight="3"/>
+            <edge id="panfil|chesnodum" source="panfil" target="chesnodum" weight="4"/>
+            <edge id="panfil|milana" source="panfil" target="milana" weight="3"/>
+            <edge id="panfil|modstrih" source="panfil" target="modstrih" weight="2"/>
+            <edge id="panfil|kruton" source="panfil" target="kruton" weight="2"/>
+            <edge id="marina|milana" source="marina" target="milana" weight="7"/>
+            <edge id="marina|nadmen" source="marina" target="nadmen" weight="4"/>
+            <edge id="marina|modstrih" source="marina" target="modstrih" weight="7"/>
+            <edge id="marina|naborshchik" source="marina" target="naborshchik" weight="1"/>
+            <edge id="marina|chesnodum" source="marina" target="chesnodum" weight="5"/>
+            <edge id="marina|kruton" source="marina" target="kruton" weight="1"/>
+            <edge id="milana|nadmen" source="milana" target="nadmen" weight="2"/>
+            <edge id="milana|chesnodum" source="milana" target="chesnodum" weight="4"/>
+            <edge id="milana|modstrih" source="milana" target="modstrih" weight="2"/>
+            <edge id="milana|kruton" source="milana" target="kruton" weight="1"/>
+            <edge id="nadmen|modstrih" source="nadmen" target="modstrih" weight="3"/>
+            <edge id="nadmen|naborshchik" source="nadmen" target="naborshchik" weight="1"/>
+            <edge id="nadmen|kruton" source="nadmen" target="kruton" weight="4"/>
+            <edge id="nadmen|chesnodum" source="nadmen" target="chesnodum" weight="5"/>
+            <edge id="modstrih|naborshchik" source="modstrih" target="naborshchik" weight="1"/>
+            <edge id="modstrih|kruton" source="modstrih" target="kruton" weight="2"/>
+            <edge id="modstrih|chesnodum" source="modstrih" target="chesnodum" weight="1"/>
+            <edge id="kruton|chesnodum" source="kruton" target="chesnodum" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

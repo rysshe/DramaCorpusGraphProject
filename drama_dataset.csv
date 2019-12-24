@@ -1,0 +1,338 @@
+play,name,degree_cent,between_cent,pagerank,relative_words,gender,importance
+fonvizin-brigadir,Советник,1.0,0.008,0.136,0.19902,1,0
+fonvizin-brigadir,Сын,1.0,0.008,0.161,0.18411,1,0
+fonvizin-brigadir,Бригадир,1.0,0.008,0.141,0.20819,1,0
+fonvizin-brigadir,Советница,1.0,0.008,0.175,0.15308,0,0
+fonvizin-brigadir,Бригадирша,1.0,0.008,0.125,0.16122,0,0
+fonvizin-brigadir,Софья,1.0,0.008,0.117,0.05288,0,1
+fonvizin-brigadir,Слуга,0.857,0.0,0.035,0.00034,1,2
+fonvizin-brigadir,Добролюбов,0.857,0.0,0.11,0.04114,1,1
+mamin-sibirjak-zolotopromyshlenniki,Белоносов,0.8,0.007,0.14,0.111,1,1
+mamin-sibirjak-zolotopromyshlenniki,Ширинкин,0.8,0.013,0.095,0.10451,1,1
+mamin-sibirjak-zolotopromyshlenniki,Анисья Тихоновна,1.0,0.161,0.172,0.19313,0,0
+mamin-sibirjak-zolotopromyshlenniki,Воротов,0.8,0.013,0.107,0.08289,1,1
+mamin-sibirjak-zolotopromyshlenniki,Молоков,0.8,0.007,0.103,0.13394,1,1
+mamin-sibirjak-zolotopromyshlenniki,Марфа Лукинишна,0.8,0.007,0.059,0.05263,0,1
+mamin-sibirjak-zolotopromyshlenniki,Засыпкин,0.9,0.028,0.121,0.20227,1,0
+mamin-sibirjak-zolotopromyshlenniki,Мосевна,0.9,0.028,0.052,0.04898,0,2
+mamin-sibirjak-zolotopromyshlenniki,Лена,0.6,0.044,0.065,0.05263,0,1
+mamin-sibirjak-zolotopromyshlenniki,Даша,0.2,0.0,0.022,0.00315,0,2
+mamin-sibirjak-zolotopromyshlenniki,Чепраков,0.6,0.0,0.064,0.01488,1,2
+turgenev-zavtrak-u-predvoditelja,Мирволин,1.0,0.031,0.141,0.0748,1,1
+turgenev-zavtrak-u-predvoditelja,Герасим,0.8,0.013,0.085,0.01014,1,2
+turgenev-zavtrak-u-predvoditelja,Балагалаев,1.0,0.031,0.144,0.34326,1,0
+turgenev-zavtrak-u-predvoditelja,Вельвицкий,0.9,0.006,0.066,0.0168,1,2
+turgenev-zavtrak-u-predvoditelja,Алупкин,0.9,0.006,0.126,0.12678,1,1
+turgenev-zavtrak-u-predvoditelja,Суслов,1.0,0.031,0.122,0.04849,1,1
+turgenev-zavtrak-u-predvoditelja,Каурова,1.0,0.031,0.114,0.20016,0,1
+turgenev-zavtrak-u-predvoditelja,Карп,0.5,0.0,0.027,0.00222,1,2
+turgenev-zavtrak-u-predvoditelja,Беспандин,0.9,0.006,0.088,0.08273,1,1
+turgenev-zavtrak-u-predvoditelja,Пехтерьев,0.8,0.0,0.052,0.08415,1,1
+turgenev-zavtrak-u-predvoditelja,Нагланович,0.8,0.0,0.036,0.01046,1,1
+griboyedov-molodye-suprugi,Арист,1.0,0.0,0.34,0.44821,1,0
+griboyedov-molodye-suprugi,Эльмира,1.0,0.0,0.32,0.33027,0,0
+griboyedov-molodye-suprugi,Сафир,1.0,0.0,0.34,0.22152,1,0
+krylov-sonnyj-poroshok,Блез,1.0,0.062,0.134,0.12166,1,1
+krylov-sonnyj-poroshok,Мужики,0.667,0.0,0.045,0.00696,1,3
+krylov-sonnyj-poroshok,Нинета,1.0,0.062,0.083,0.03127,0,2
+krylov-sonnyj-poroshok,Жанета,1.0,0.062,0.087,0.03621,0,2
+krylov-sonnyj-poroshok,Хор,0.667,0.0,0.045,0.00747,3,3
+krylov-sonnyj-poroshok,Жульета,1.0,0.062,0.156,0.2156,0,0
+krylov-sonnyj-poroshok,Работники,0.667,0.0,0.045,0.01127,3,3
+krylov-sonnyj-poroshok,Граф,0.667,0.0,0.15,0.18559,1,0
+krylov-sonnyj-poroshok,Паулин,0.667,0.0,0.121,0.11964,1,1
+krylov-sonnyj-poroshok,Филипп,0.667,0.0,0.133,0.26434,1,0
+sollogub-chinovnik,Стрельский/Полковник,1.0,0.0,0.178,0.15143,1,0
+sollogub-chinovnik,Графиня,1.0,0.0,0.21,0.30416,0,0
+sollogub-chinovnik,Мисхорин,1.0,0.0,0.193,0.16594,1,0
+sollogub-chinovnik,Надимов,1.0,0.0,0.178,0.23411,1,0
+sollogub-chinovnik,Слуга,1.0,0.0,0.088,0.00224,1,2
+sollogub-chinovnik,Полковник,1.0,0.0,0.152,0.14212,1,1
+ostrovsky-nevolnicy,Мирон,0.667,0.0,0.105,0.15332,1,1
+ostrovsky-nevolnicy,Марфа,0.833,0.039,0.137,0.19369,0,1
+ostrovsky-nevolnicy,Стыров,1.0,0.078,0.218,0.14774,1,1
+ostrovsky-nevolnicy,Коблов,0.833,0.039,0.113,0.06141,1,1
+ostrovsky-nevolnicy,Мулин,0.667,0.017,0.112,0.0888,1,1
+ostrovsky-nevolnicy,Евлалия,1.0,0.078,0.21,0.24997,0,0
+ostrovsky-nevolnicy,Софья,0.667,0.017,0.105,0.10509,0,1
+prutkov-oprometchivyj-turka,Известный писатель,0.167,0.0,0.049,0.16741,1,2
+prutkov-oprometchivyj-turka,Иван Семеныч,1.0,0.333,0.192,0.07217,1,0
+prutkov-oprometchivyj-turka,Миловидов,0.833,0.0,0.152,0.40327,1,1
+prutkov-oprometchivyj-turka,Кутило-Завалдайский,0.833,0.0,0.152,0.04018,1,1
+prutkov-oprometchivyj-turka,Кн. Батог-Батыев,0.833,0.0,0.152,0.19271,1,1
+prutkov-oprometchivyj-turka,Либенталь,0.833,0.0,0.152,0.08185,1,1
+prutkov-oprometchivyj-turka,Г-жа Разорваки,0.833,0.0,0.152,0.04241,0,1
+ostrovsky-prazdnichnyj-son-do-obeda,Бальзаминова,0.889,0.108,0.112,0.13336,0,1
+ostrovsky-prazdnichnyj-son-do-obeda,Бальзаминов,0.889,0.108,0.121,0.18526,1,0
+ostrovsky-prazdnichnyj-son-do-obeda,Матрена,0.222,0.0,0.036,0.02289,0,2
+ostrovsky-prazdnichnyj-son-do-obeda,Ничкина,0.889,0.05,0.132,0.11876,0,1
+ostrovsky-prazdnichnyj-son-do-obeda,Капочка,0.889,0.05,0.162,0.12507,0,0
+ostrovsky-prazdnichnyj-son-do-obeda,Устинька,0.889,0.05,0.157,0.11498,0,1
+ostrovsky-prazdnichnyj-son-do-obeda,Маланья,0.444,0.0,0.05,0.00415,0,2
+ostrovsky-prazdnichnyj-son-do-obeda,Неуеденов,0.667,0.0,0.064,0.15841,1,2
+khmelnitsky-vozdushnye-zamki,Саша,1.0,0.167,0.276,0.20534,0,0
+khmelnitsky-vozdushnye-zamki,Аглаева,0.75,0.0,0.212,0.2325,0,0
+khmelnitsky-vozdushnye-zamki,Ипат,0.75,0.0,0.104,0.02042,1,1
+khmelnitsky-vozdushnye-zamki,Виктор,0.5,0.0,0.148,0.23519,1,0
+khmelnitsky-vozdushnye-zamki,Альнаскаров,1.0,0.167,0.26,0.30655,1,0
+chekhov-djadja-vanja,Астров,0.889,0.106,0.13,0.2797,1,0
+chekhov-djadja-vanja,Войницкий,0.778,0.009,0.18,0.21233,1,0
+chekhov-djadja-vanja,Серебряков,0.778,0.009,0.103,0.10507,1,1
+chekhov-djadja-vanja,Телегин,0.778,0.009,0.092,0.03989,1,1
+chekhov-djadja-vanja,Соня,0.889,0.106,0.16,0.14219,0,0
+chekhov-djadja-vanja,Елена Андреевна,0.778,0.222,0.152,0.16652,0,1
+chekhov-djadja-vanja,Мария Васильевна,0.778,0.009,0.075,0.01307,0,1
+chekhov-djadja-vanja,Работник,0.222,0.0,0.023,0.00153,1,2
+chekhov-djadja-vanja,Голос сторожа (Ефим),0.111,0.0,0.018,0.00076,1,2
+pushkin-skupoj-rytsar,Альбер,1.0,0.667,0.319,0.28898,1,0
+pushkin-skupoj-rytsar,Иван,0.5,0.0,0.17,0.03271,1,1
+pushkin-skupoj-rytsar,Жид,0.5,0.0,0.17,0.11873,1,1
+pushkin-skupoj-rytsar,Барон,0.5,0.0,0.17,0.4207,1,0
+pushkin-skupoj-rytsar,Герцог,0.5,0.0,0.17,0.13889,1,1
+turgenev-gde-tonko-tam-i-rvetsja,Горский,0.889,0.083,0.207,0.55877,1,0
+turgenev-gde-tonko-tam-i-rvetsja,Мухин,0.778,0.028,0.142,0.05318,1,1
+turgenev-gde-tonko-tam-i-rvetsja,M-lle Bienaimé,0.889,0.083,0.095,0.01863,0,1
+turgenev-gde-tonko-tam-i-rvetsja,Вера,0.889,0.083,0.145,0.18882,0,0
+turgenev-gde-tonko-tam-i-rvetsja,Г-жа Либанова,0.778,0.222,0.123,0.08516,0,1
+turgenev-gde-tonko-tam-i-rvetsja,Варвара Ивановна,0.667,0.0,0.098,0.00347,0,1
+turgenev-gde-tonko-tam-i-rvetsja,Дворецкий,0.111,0.0,0.02,0.00205,1,2
+turgenev-gde-tonko-tam-i-rvetsja,Чуханов,0.667,0.0,0.092,0.03699,1,2
+turgenev-gde-tonko-tam-i-rvetsja,Слуга,0.333,0.0,0.029,0.00038,1,2
+turgenev-gde-tonko-tam-i-rvetsja,Станицын,0.444,0.0,0.048,0.05254,1,0
+nikolev-samolyubivyj-stihotvorec,Панфил,0.857,0.0,0.137,0.14311,1,1
+nikolev-samolyubivyj-stihotvorec,Марина,1.0,0.063,0.205,0.28537,0,1
+nikolev-samolyubivyj-stihotvorec,Милана,0.857,0.0,0.125,0.03105,0,1
+nikolev-samolyubivyj-stihotvorec,Надмен,1.0,0.063,0.149,0.25229,1,0
+nikolev-samolyubivyj-stihotvorec,Модстрих,1.0,0.063,0.124,0.1605,1,1
+nikolev-samolyubivyj-stihotvorec,Наборщик,0.429,0.0,0.036,0.03631,1,2
+nikolev-samolyubivyj-stihotvorec,Крутон,0.857,0.0,0.087,0.06583,1,1
+nikolev-samolyubivyj-stihotvorec,Чеснодум,0.857,0.0,0.137,0.02553,1,1
+sumarokov-rogonosets-po-voobrazheniju,Ниса,1.0,0.013,0.095,0.1277,0,1
+sumarokov-rogonosets-po-voobrazheniju,Егерь,0.833,0.0,0.106,0.10216,1,1
+sumarokov-rogonosets-po-voobrazheniju,Викул,1.0,0.013,0.221,0.19807,1,0
+sumarokov-rogonosets-po-voobrazheniju,Хавронья,1.0,0.013,0.176,0.20999,0,0
+sumarokov-rogonosets-po-voobrazheniju,Дворецкий,1.0,0.013,0.152,0.08816,1,1
+sumarokov-rogonosets-po-voobrazheniju,Флориза,0.833,0.0,0.11,0.13697,0,1
+sumarokov-rogonosets-po-voobrazheniju,Касандр,1.0,0.013,0.141,0.13697,1,1
+ostrovsky-neozhidannyj-sluchaj,Розовый,1.0,0.0,0.314,0.44545,1,0
+ostrovsky-neozhidannyj-sluchaj,Дружнин,1.0,0.0,0.299,0.43536,1,0
+ostrovsky-neozhidannyj-sluchaj,Софья Антоновна,1.0,0.0,0.242,0.1178,0,1
+ostrovsky-neozhidannyj-sluchaj,Маша,1.0,0.0,0.145,0.00139,0,2
+gogol-igroki,Алексей,0.875,0.055,0.076,0.0237,1,2
+gogol-igroki,Ихарев,0.75,0.007,0.215,0.2449,1,0
+gogol-igroki,Гаврюшка,0.375,0.0,0.032,0.03014,1,2
+gogol-igroki,Кругель,0.875,0.055,0.162,0.02722,1,1
+gogol-igroki,Швохнев,1.0,0.18,0.209,0.11157,1,1
+gogol-igroki,Утешительный,0.875,0.096,0.15,0.35403,1,1
+gogol-igroki,Михаил Александрович Глов,0.625,0.0,0.057,0.0886,1,1
+gogol-igroki,Александр Михалыч Глов,0.625,0.0,0.072,0.06539,1,1
+gogol-igroki,Замухрышкин,0.25,0.0,0.027,0.05445,1,2
+pushkin-kamenniy-gost,Дон Гуан,0.6,0.556,0.17,0.47407,1,0
+pushkin-kamenniy-gost,Лепорелло,0.3,0.0,0.094,0.11296,1,1
+pushkin-kamenniy-gost,Монах,0.3,0.0,0.07,0.02932,1,2
+pushkin-kamenniy-gost,Дона Анна,0.4,0.022,0.097,0.18333,0,1
+pushkin-kamenniy-gost,Первый гость,0.5,0.0,0.077,0.02562,1,2
+pushkin-kamenniy-gost,Второй,0.5,0.0,0.077,0.00772,1,2
+pushkin-kamenniy-gost,Третий,0.5,0.0,0.077,0.0037,1,2
+pushkin-kamenniy-gost,Лаура,0.6,0.222,0.113,0.11265,0,1
+pushkin-kamenniy-gost,Дон Карлос,0.6,0.222,0.113,0.04259,1,1
+pushkin-kamenniy-gost,Гость,0.5,0.0,0.077,0.0037,1,2
+pushkin-kamenniy-gost,Статуя,0.2,0.0,0.036,0.00432,1,1
+ostrovsky-semejnaya-kartina,Марья Антиповна,1.0,0.0,0.167,0.04747,0,1
+ostrovsky-semejnaya-kartina,Матрена Савишна,1.0,0.0,0.167,0.05469,0,1
+ostrovsky-semejnaya-kartina,Дарья,1.0,0.0,0.167,0.05907,0,2
+ostrovsky-semejnaya-kartina,Антип Антипыч,1.0,0.0,0.167,0.26821,1,0
+ostrovsky-semejnaya-kartina,Степанида Трофимовна,1.0,0.0,0.167,0.24458,0,1
+ostrovsky-semejnaya-kartina,Ширялов,1.0,0.0,0.167,0.32597,1,1
+pushkin-pir-vo-vremja-chumy,Молодой человек,0.667,0.0,0.126,0.14914,1,0
+pushkin-pir-vo-vremja-chumy,Председатель,1.0,0.2,0.21,0.43448,1,0
+pushkin-pir-vo-vremja-chumy,Мери,0.667,0.0,0.126,0.16293,0,0
+pushkin-pir-vo-vremja-chumy,Луиза,0.667,0.0,0.126,0.07672,0,0
+pushkin-pir-vo-vremja-chumy,Многие,1.0,0.2,0.21,0.02759,3,3
+pushkin-pir-vo-vremja-chumy,Священник,0.5,0.0,0.101,0.1431,1,0
+pushkin-pir-vo-vremja-chumy,Женский голос,0.5,0.0,0.101,0.00603,0,2
+knyazhnin-traur,Евдоким,0.8,0.1,0.205,0.18449,1,1
+knyazhnin-traur,Ветран,1.0,0.233,0.274,0.49736,1,0
+knyazhnin-traur,Карачун,0.4,0.0,0.09,0.14034,1,1
+knyazhnin-traur,Постан,0.8,0.033,0.181,0.07387,1,1
+knyazhnin-traur,Милена,0.8,0.033,0.159,0.05522,0,1
+knyazhnin-traur,Изабелла,0.6,0.0,0.091,0.04872,0,1
+knyazhnin-rosslav,Адель,0.6,0.0,0.052,0.03744,1,1
+knyazhnin-rosslav,Кедар,1.0,0.067,0.14,0.16771,1,0
+knyazhnin-rosslav,Росслав,0.8,0.0,0.257,0.34458,1,0
+knyazhnin-rosslav,Зафира,1.0,0.067,0.262,0.2301,0,0
+knyazhnin-rosslav,Любомир,0.8,0.0,0.15,0.09841,1,1
+knyazhnin-rosslav,Христиерн,1.0,0.067,0.14,0.12176,1,1
+khmelnitsky-svetskiy-sluchay,Евгения,1.0,0.067,0.24,0.18883,0,0
+khmelnitsky-svetskiy-sluchay,Даша,0.8,0.0,0.175,0.08642,0,1
+khmelnitsky-svetskiy-sluchay,Радугин,0.8,0.0,0.14,0.14759,1,1
+khmelnitsky-svetskiy-sluchay,Столицын,1.0,0.067,0.192,0.43304,1,0
+khmelnitsky-svetskiy-sluchay,Рамирский,1.0,0.067,0.193,0.14365,1,0
+khmelnitsky-svetskiy-sluchay,Евгений,0.6,0.0,0.06,0.00046,1,1
+ostrovsky-tyazhelye-dni,Молодой человек,0.2,0.0,0.036,0.00832,1,2
+ostrovsky-tyazhelye-dni,Досужев,0.6,0.134,0.151,0.1897,1,1
+ostrovsky-tyazhelye-dni,Перцов,0.5,0.09,0.079,0.0761,1,1
+ostrovsky-tyazhelye-dni,Андрей Титыч,0.7,0.079,0.146,0.28485,1,0
+ostrovsky-tyazhelye-dni,Луша,0.6,0.059,0.093,0.00929,0,2
+ostrovsky-tyazhelye-dni,Наталья Никаноровна,0.5,0.015,0.095,0.04354,0,1
+ostrovsky-tyazhelye-dni,Настасья Панкратьевна,0.9,0.29,0.188,0.14219,0,1
+ostrovsky-tyazhelye-dni,Мудров,0.5,0.013,0.064,0.09949,1,1
+ostrovsky-tyazhelye-dni,Тит Титыч,0.4,0.009,0.07,0.10492,1,1
+ostrovsky-tyazhelye-dni,Неизвестный,0.2,0.0,0.029,0.01363,1,2
+sumarokov-sinav-i-truvor,Гостомысл,0.8,0.1,0.204,0.22557,1,0
+sumarokov-sinav-i-truvor,Ильмена,1.0,0.3,0.32,0.32562,0,0
+sumarokov-sinav-i-truvor,Трувор,0.8,0.1,0.231,0.18066,1,0
+sumarokov-sinav-i-truvor,Паж,0.4,0.0,0.051,0.00035,1,2
+sumarokov-sinav-i-truvor,Вестник,0.4,0.0,0.051,0.03886,1,2
+kropotov-fomushka,Митрофан,0.556,0.0,0.037,0.04308,1,2
+kropotov-fomushka,Хавронья,1.0,0.022,0.116,0.10125,0,0
+kropotov-fomushka,Карпович,1.0,0.022,0.093,0.05828,1,1
+kropotov-fomushka,Фома,1.0,0.022,0.103,0.03455,1,0
+kropotov-fomushka,Марина,1.0,0.022,0.085,0.10409,0,1
+kropotov-fomushka,Граф Честосердов,0.889,0.0,0.145,0.21835,1,0
+kropotov-fomushka,Добровидов,1.0,0.022,0.149,0.12377,1,0
+kropotov-fomushka,Остромыслов,0.889,0.0,0.111,0.19353,1,0
+kropotov-fomushka,Маланья,0.889,0.0,0.115,0.10322,0,1
+kropotov-fomushka,Нотариус,0.889,0.0,0.047,0.0199,1,2
+ostrovsky-utro-molodogo-cheloveka,Иван,0.75,0.25,0.208,0.23897,1,1
+ostrovsky-utro-molodogo-cheloveka,Сидорыч,0.25,0.0,0.052,0.02051,1,2
+ostrovsky-utro-molodogo-cheloveka,Гришка,0.75,0.25,0.208,0.02154,1,2
+ostrovsky-utro-molodogo-cheloveka,Лисавский,0.625,0.286,0.155,0.29231,1,0
+ostrovsky-utro-molodogo-cheloveka,2-й молодой человек,0.25,0.0,0.058,0.03521,1,1
+ostrovsky-utro-molodogo-cheloveka,1-й молодой человек,0.375,0.018,0.08,0.07145,1,1
+ostrovsky-utro-molodogo-cheloveka,Недопекин,0.5,0.089,0.094,0.13983,1,0
+ostrovsky-utro-molodogo-cheloveka,Смуров,0.375,0.0,0.073,0.14188,1,1
+ostrovsky-utro-molodogo-cheloveka,Вася,0.375,0.0,0.073,0.03829,1,2
+krylov-pirog,Ванька,0.875,0.25,0.135,0.27811,1,1
+krylov-pirog,Мужик,0.125,0.0,0.023,0.00656,1,2
+krylov-pirog,Даша,0.75,0.0,0.151,0.09373,0,1
+krylov-pirog,Фатюев,0.75,0.0,0.106,0.14966,1,1
+krylov-pirog,Ужима,0.75,0.0,0.14,0.13288,0,0
+krylov-pirog,Прелеста,0.75,0.0,0.122,0.01504,0,1
+krylov-pirog,Милон,0.75,0.0,0.145,0.01736,1,1
+krylov-pirog,Вспышкин,0.875,0.25,0.157,0.29007,1,0
+krylov-pirog,Потап,0.125,0.0,0.022,0.01659,1,2
+knyazhnin-hvastun,Полист,1.0,0.04,0.169,0.21568,1,0
+knyazhnin-hvastun,Простодум,1.0,0.04,0.106,0.13178,1,1
+knyazhnin-hvastun,Портной,0.4,0.0,0.03,0.02247,1,2
+knyazhnin-hvastun,Верхолет,1.0,0.04,0.111,0.16898,1,0
+knyazhnin-hvastun,Марина,0.9,0.006,0.111,0.07252,0,1
+knyazhnin-hvastun,Чванкина,1.0,0.04,0.135,0.10414,0,1
+knyazhnin-hvastun,Милена,0.9,0.006,0.089,0.06421,0,1
+knyazhnin-hvastun,Приказчик,0.7,0.0,0.034,0.01675,1,2
+knyazhnin-hvastun,Замир,0.8,0.0,0.084,0.08159,1,1
+knyazhnin-hvastun,Честон,0.9,0.006,0.102,0.11621,1,1
+knyazhnin-hvastun,Благочинный,0.8,0.0,0.03,0.00565,1,2
+nekrasov-junost-lomonosova,Старик,1.0,0.0,0.274,0.21421,1,1
+nekrasov-junost-lomonosova,Женщина,1.0,0.0,0.274,0.10057,0,1
+nekrasov-junost-lomonosova,Михаил (Ломоносов),1.0,0.0,0.274,0.64886,1,0
+nekrasov-junost-lomonosova,Извозчик,1.0,0.0,0.177,0.03636,1,2
+sumarokov-gamlet,Гамлет,0.556,0.218,0.146,0.24588,1,0
+sumarokov-gamlet,Арманс,0.333,0.042,0.085,0.04653,1,2
+sumarokov-gamlet,Гертруда,0.556,0.201,0.083,0.16057,0,1
+sumarokov-gamlet,Клавдий,0.444,0.065,0.123,0.06663,1,1
+sumarokov-gamlet,Полоний,0.556,0.072,0.174,0.13184,1,0
+sumarokov-gamlet,Ратуда,0.222,0.0,0.044,0.05014,0,2
+sumarokov-gamlet,Офелия,0.667,0.424,0.216,0.27329,0,0
+sumarokov-gamlet,Флемина,0.111,0.0,0.027,0.00841,0,2
+sumarokov-gamlet,Начальник стражи,0.111,0.0,0.027,0.00153,1,2
+sumarokov-gamlet,Воин,0.444,0.007,0.075,0.01518,1,2
+ostrovsky-bogatye-nevesty,Бедонегова,1.0,0.0,0.107,0.08401,0,0
+ostrovsky-bogatye-nevesty,Пирамидалов,1.0,0.0,0.171,0.14789,1,0
+ostrovsky-bogatye-nevesty,Гневышов,1.0,0.0,0.169,0.21254,1,0
+ostrovsky-bogatye-nevesty,Белесова,1.0,0.0,0.185,0.25757,0,0
+ostrovsky-bogatye-nevesty,Цыплунова,1.0,0.0,0.181,0.11864,0,0
+ostrovsky-bogatye-nevesty,Цыплунов,1.0,0.0,0.186,0.17936,1,0
+chekhov-predlozhenie,Чубуков,1.0,0.0,0.304,0.28872,1,0
+chekhov-predlozhenie,Ломов,1.0,0.0,0.348,0.42362,1,0
+chekhov-predlozhenie,Наталья Степановна,1.0,0.0,0.348,0.28767,0,0
+sumarokov-tresotinius,Клариса,0.5,0.024,0.086,0.11434,0,1
+sumarokov-tresotinius,Оронт,0.8,0.116,0.13,0.10707,1,1
+sumarokov-tresotinius,Тресотиниус,0.8,0.116,0.171,0.22406,1,0
+sumarokov-tresotinius,Бобембиус,0.7,0.05,0.127,0.11104,1,1
+sumarokov-tresotinius,Кимар,0.6,0.115,0.104,0.06642,1,1
+sumarokov-tresotinius,Брамарбас,0.8,0.235,0.147,0.24455,1,1
+sumarokov-tresotinius,Сержант,0.2,0.0,0.035,0.01487,1,2
+sumarokov-tresotinius,Подьячий,0.5,0.012,0.065,0.07039,1,1
+sumarokov-tresotinius,Ераст,0.2,0.0,0.035,0.03239,1,1
+sumarokov-tresotinius,Ксаксоксимениус,0.4,0.0,0.054,0.00562,1,2
+sumarokov-tresotinius,Дорант,0.3,0.0,0.044,0.00925,1,2
+nekrasov-zabrakovannye,Григорий,1.0,0.393,0.228,0.26172,1,0
+nekrasov-zabrakovannye,Первая девушка,0.625,0.0,0.113,0.01053,0,2
+nekrasov-zabrakovannye,Вторая девушка,0.625,0.0,0.113,0.01001,0,2
+nekrasov-zabrakovannye,Третья девушка,0.625,0.0,0.113,0.01158,0,2
+nekrasov-zabrakovannye,Триумвиратов,0.875,0.143,0.168,0.15693,1,0
+nekrasov-zabrakovannye,Калистрат,0.375,0.0,0.08,0.00685,1,1
+nekrasov-zabrakovannye,Харчин,0.375,0.0,0.054,0.38757,1,1
+nekrasov-zabrakovannye,Тузов,0.625,0.0,0.101,0.1327,1,1
+nekrasov-zabrakovannye,Кадыков,0.125,0.0,0.029,0.02212,1,1
+gogol-utro-delovogo-cheloveka,Иван Петрович,1.0,0.833,0.412,0.54009,1,0
+gogol-utro-delovogo-cheloveka,Лакей,0.25,0.0,0.088,0.01531,1,2
+gogol-utro-delovogo-cheloveka,Александр Иванович,0.5,0.0,0.267,0.38703,1,0
+gogol-utro-delovogo-cheloveka,Шрейдер,0.25,0.0,0.088,0.04009,1,2
+gogol-utro-delovogo-cheloveka,"Катерина Александровна, жена Ивана Петровича",0.5,0.0,0.145,0.01749,0,2
+shakhovskoy-ne-lubo-ne-slushai,Зарницкин,1.0,0.0,0.148,0.42286,1,0
+shakhovskoy-ne-lubo-ne-slushai,Дашенька,1.0,0.0,0.202,0.10826,0,1
+shakhovskoy-ne-lubo-ne-slushai,Митяй,1.0,0.0,0.176,0.06209,1,1
+shakhovskoy-ne-lubo-ne-slushai,Мезецкий,1.0,0.0,0.221,0.22512,1,0
+shakhovskoy-ne-lubo-ne-slushai,Княгиня,1.0,0.0,0.158,0.0769,0,1
+shakhovskoy-ne-lubo-ne-slushai,Хандрина,1.0,0.0,0.095,0.10476,0,1
+gogol-tjazhba,Пролетов,1.0,1.0,0.486,0.36581,1,0
+gogol-tjazhba,Лакей,0.5,0.0,0.257,0.06223,1,2
+gogol-tjazhba,Бурдюков,0.5,0.0,0.257,0.57197,1,0
+turgenev-provintsialka,Дарья Ивановна,1.0,0.133,0.264,0.40409,0,0
+turgenev-provintsialka,Миша,0.833,0.0,0.157,0.08745,1,1
+turgenev-provintsialka,Ступендьев,1.0,0.133,0.247,0.17569,1,0
+turgenev-provintsialka,Васильевна,0.833,0.0,0.08,0.00643,0,2
+turgenev-provintsialka,Аполлон,0.833,0.0,0.067,0.0042,1,2
+turgenev-provintsialka,Лакей,0.333,0.0,0.034,0.00393,1,2
+turgenev-provintsialka,Граф Любин,0.833,0.0,0.151,0.31821,1,0
+majkov-femist-i-ieronima,Клит,0.6,0.0,0.105,0.08617,1,1
+majkov-femist-i-ieronima,Фемист,1.0,0.183,0.256,0.36083,1,0
+majkov-femist-i-ieronima,Магомет,1.0,0.183,0.292,0.33245,1,0
+majkov-femist-i-ieronima,Осман,0.4,0.0,0.075,0.04383,1,1
+majkov-femist-i-ieronima,Иеронима,0.8,0.033,0.169,0.15907,0,0
+majkov-femist-i-ieronima,Начальник,0.6,0.0,0.105,0.01765,1,2
+knyazhnin-vadim-novgorodskij,Вигор,0.333,0.0,0.094,0.05226,1,1
+knyazhnin-vadim-novgorodskij,Пренест,0.667,0.1,0.14,0.12156,1,1
+knyazhnin-vadim-novgorodskij,Вадим,0.833,0.189,0.183,0.22627,1,0
+knyazhnin-vadim-novgorodskij,Селена,0.167,0.0,0.05,0.01987,0,2
+knyazhnin-vadim-novgorodskij,Рамида,0.833,0.356,0.234,0.24806,0,0
+knyazhnin-vadim-novgorodskij,Рурик,0.667,0.022,0.179,0.30717,1,0
+knyazhnin-vadim-novgorodskij,Извед,0.5,0.0,0.119,0.02482,1,2
+khmelnitsky-vzaimnye-ispytaniya,Графиня,1.0,0.0,0.291,0.33136,0,0
+khmelnitsky-vzaimnye-ispytaniya,Светлана,1.0,0.0,0.249,0.12881,0,0
+khmelnitsky-vzaimnye-ispytaniya,Пламирский,1.0,0.0,0.277,0.46225,1,0
+khmelnitsky-vzaimnye-ispytaniya,Эледин,1.0,0.0,0.182,0.07758,1,1
+chekhov-tragik-ponevole,Мурашкин,1.0,0.0,0.5,0.1354,1,0
+chekhov-tragik-ponevole,Толкачов,1.0,0.0,0.5,0.8646,1,0
+turgenev-vecher-v-sorrente,Аваков,0.833,0.6,0.251,0.39844,1,0
+turgenev-vecher-v-sorrente,Слуга,0.167,0.0,0.041,0.0098,1,2
+turgenev-vecher-v-sorrente,M-r Рореlin,0.167,0.0,0.041,0.03075,1,2
+turgenev-vecher-v-sorrente,Надежда Павловна,0.5,0.0,0.208,0.25718,0,0
+turgenev-vecher-v-sorrente,Бельский,0.667,0.133,0.21,0.22981,1,0
+turgenev-vecher-v-sorrente,Мария Петровна,0.667,0.133,0.191,0.06894,0,0
+turgenev-vecher-v-sorrente,Голос певца,0.333,0.0,0.057,0.00507,1,2
+sumarokov-vzdorschitsa,Бурда,1.0,0.063,0.143,0.21529,0,0
+sumarokov-vzdorschitsa,Финетта,1.0,0.063,0.171,0.13624,0,0
+sumarokov-vzdorschitsa,Розмарин,0.429,0.0,0.073,0.107,1,0
+sumarokov-vzdorschitsa,Асир,0.857,0.0,0.128,0.11198,1,0
+sumarokov-vzdorschitsa,Ераст,0.857,0.0,0.139,0.03812,1,1
+sumarokov-vzdorschitsa,Розалия,0.857,0.0,0.133,0.05913,0,0
+sumarokov-vzdorschitsa,Ворожея,0.857,0.0,0.068,0.05566,0,1
+majkov-agriopa,Альбина,0.857,0.024,0.134,0.05445,0,1
+majkov-agriopa,Агриопа,1.0,0.31,0.254,0.3757,0,0
+majkov-agriopa,Телеф,0.857,0.024,0.202,0.27316,1,0
+majkov-agriopa,Военачальник,0.714,0.0,0.117,0.03547,1,2
+majkov-agriopa,Аристон,0.857,0.024,0.1,0.06821,1,1
+majkov-agriopa,Азор,0.571,0.0,0.106,0.16153,1,0
+majkov-agriopa,Один воин,0.143,0.0,0.027,0.00136,1,2
+majkov-agriopa,Вестник,0.714,0.0,0.06,0.03012,1,2
+chekhov-medved,Лука,1.0,0.0,0.345,0.11941,1,1
+chekhov-medved,Попова,1.0,0.0,0.345,0.31854,0,0
+chekhov-medved,Смирнов,1.0,0.0,0.31,0.56205,1,0
+chekhov-jubilej,Хирин,0.75,0.0,0.192,0.22449,1,0
+chekhov-jubilej,Шипучин,1.0,0.056,0.273,0.34763,1,0
+chekhov-jubilej,Татьяна Алексеевна,1.0,0.056,0.216,0.20858,0,0
+chekhov-jubilej,Мерчуткина,1.0,0.056,0.235,0.17468,0,0
+chekhov-jubilej,Член банка,0.75,0.0,0.084,0.04462,1,2

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гоголь, Николай Васильевич: Лакейская</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Grigorij" label="Григорий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="378"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Petr" label="Петр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="48"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChuzhojSluga" label="Чужой слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="207"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Barin" label="Барин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="64"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinVShube" label="Господин в шубе">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="33"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Devushka" label="Девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="PuzatyjDvoretskij" label="Пузатый дворецкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="478"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Annushka" label="Аннушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="89"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Grigorij|Petr" source="Grigorij" target="Petr" weight="1"/>
+            <edge id="Grigorij|Ivan" source="Grigorij" target="Ivan" weight="3"/>
+            <edge id="Grigorij|ChuzhojSluga" source="Grigorij" target="ChuzhojSluga" weight="4"/>
+            <edge id="Grigorij|Barin" source="Grigorij" target="Barin" weight="1"/>
+            <edge id="Grigorij|GospodinVShube" source="Grigorij" target="GospodinVShube" weight="1"/>
+            <edge id="Grigorij|Devushka" source="Grigorij" target="Devushka" weight="1"/>
+            <edge id="Grigorij|PuzatyjDvoretskij" source="Grigorij" target="PuzatyjDvoretskij" weight="1"/>
+            <edge id="Petr|Ivan" source="Petr" target="Ivan" weight="1"/>
+            <edge id="Petr|ChuzhojSluga" source="Petr" target="ChuzhojSluga" weight="1"/>
+            <edge id="Ivan|ChuzhojSluga" source="Ivan" target="ChuzhojSluga" weight="2"/>
+            <edge id="Ivan|Devushka" source="Ivan" target="Devushka" weight="1"/>
+            <edge id="ChuzhojSluga|Barin" source="ChuzhojSluga" target="Barin" weight="1"/>
+            <edge id="PuzatyjDvoretskij|Annushka" source="PuzatyjDvoretskij" target="Annushka" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

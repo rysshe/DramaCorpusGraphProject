@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Урок дочкам</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="semen" label="Семен">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1539"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dasha" label="Даша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="961"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="liza" label="Лиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fekla" label="Фекла">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="979"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lukerja" label="Лукерья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1152"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="njanja_vasilisa" label="Няня Василиса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="323"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="velkarov" label="Велькаров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="851"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sidorka" label="Сидорка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="191"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="semen|dasha" source="semen" target="dasha" weight="7"/>
+            <edge id="semen|liza" source="semen" target="liza" weight="1"/>
+            <edge id="semen|velkarov" source="semen" target="velkarov" weight="2"/>
+            <edge id="semen|fekla" source="semen" target="fekla" weight="5"/>
+            <edge id="semen|lukerja" source="semen" target="lukerja" weight="6"/>
+            <edge id="semen|njanja_vasilisa" source="semen" target="njanja_vasilisa" weight="4"/>
+            <edge id="semen|sidorka" source="semen" target="sidorka" weight="3"/>
+            <edge id="dasha|liza" source="dasha" target="liza" weight="1"/>
+            <edge id="dasha|fekla" source="dasha" target="fekla" weight="9"/>
+            <edge id="dasha|lukerja" source="dasha" target="lukerja" weight="9"/>
+            <edge id="dasha|njanja_vasilisa" source="dasha" target="njanja_vasilisa" weight="6"/>
+            <edge id="dasha|velkarov" source="dasha" target="velkarov" weight="3"/>
+            <edge id="dasha|sidorka" source="dasha" target="sidorka" weight="3"/>
+            <edge id="fekla|lukerja" source="fekla" target="lukerja" weight="14"/>
+            <edge id="fekla|njanja_vasilisa" source="fekla" target="njanja_vasilisa" weight="8"/>
+            <edge id="fekla|velkarov" source="fekla" target="velkarov" weight="6"/>
+            <edge id="fekla|sluga" source="fekla" target="sluga" weight="1"/>
+            <edge id="fekla|sidorka" source="fekla" target="sidorka" weight="2"/>
+            <edge id="lukerja|njanja_vasilisa" source="lukerja" target="njanja_vasilisa" weight="9"/>
+            <edge id="lukerja|velkarov" source="lukerja" target="velkarov" weight="6"/>
+            <edge id="lukerja|sluga" source="lukerja" target="sluga" weight="1"/>
+            <edge id="lukerja|sidorka" source="lukerja" target="sidorka" weight="2"/>
+            <edge id="njanja_vasilisa|velkarov" source="njanja_vasilisa" target="velkarov" weight="2"/>
+            <edge id="njanja_vasilisa|sidorka" source="njanja_vasilisa" target="sidorka" weight="2"/>
+            <edge id="velkarov|sluga" source="velkarov" target="sluga" weight="1"/>
+            <edge id="velkarov|sidorka" source="velkarov" target="sidorka" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Ломоносов, Михаил Васильевич: Демофонт</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="fillida" label="Филлида">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2131"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="demofont" label="Демофонт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1962"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kreuza" label="Креуза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="302"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="polimnestor" label="Полимнестор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1849"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="memnon" label="Мемнон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="977"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="iliona" label="Илиона">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1814"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dramet" label="Драмет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="589"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik" label="Вестник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="351"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="fillida|demofont" source="fillida" target="demofont" weight="4"/>
+            <edge id="fillida|kreuza" source="fillida" target="kreuza" weight="5"/>
+            <edge id="fillida|polimnestor" source="fillida" target="polimnestor" weight="2"/>
+            <edge id="fillida|iliona" source="fillida" target="iliona" weight="2"/>
+            <edge id="fillida|dramet" source="fillida" target="dramet" weight="3"/>
+            <edge id="fillida|memnon" source="fillida" target="memnon" weight="3"/>
+            <edge id="demofont|polimnestor" source="demofont" target="polimnestor" weight="1"/>
+            <edge id="demofont|iliona" source="demofont" target="iliona" weight="2"/>
+            <edge id="demofont|dramet" source="demofont" target="dramet" weight="2"/>
+            <edge id="demofont|kreuza" source="demofont" target="kreuza" weight="1"/>
+            <edge id="demofont|memnon" source="demofont" target="memnon" weight="1"/>
+            <edge id="kreuza|dramet" source="kreuza" target="dramet" weight="2"/>
+            <edge id="kreuza|memnon" source="kreuza" target="memnon" weight="1"/>
+            <edge id="polimnestor|memnon" source="polimnestor" target="memnon" weight="3"/>
+            <edge id="polimnestor|iliona" source="polimnestor" target="iliona" weight="3"/>
+            <edge id="polimnestor|vestnik" source="polimnestor" target="vestnik" weight="1"/>
+            <edge id="memnon|iliona" source="memnon" target="iliona" weight="4"/>
+            <edge id="memnon|dramet" source="memnon" target="dramet" weight="2"/>
+            <edge id="memnon|vestnik" source="memnon" target="vestnik" weight="1"/>
+            <edge id="iliona|dramet" source="iliona" target="dramet" weight="1"/>
+            <edge id="iliona|vestnik" source="iliona" target="vestnik" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

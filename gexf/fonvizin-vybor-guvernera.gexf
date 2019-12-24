@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Фонвизин, Денис Иванович: Выбор гувернера</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="knjaginja" label="Княгиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="711"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaz" label="Князь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="469"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="seum" label="Сеум">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="759"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="devka" label="Девка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="njanja" label="Няня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="drugaja_njanja" label="Другая няня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="tretja_njanja" label="Третья няня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="molodoj_knjaz" label="Молодой князь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nelstecov" label="Нельстецов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="479"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grafinja" label="Графиня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="73"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pelikan" label="Пеликан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="knjaginja|knjaz" source="knjaginja" target="knjaz" weight="8"/>
+            <edge id="knjaginja|seum" source="knjaginja" target="seum" weight="6"/>
+            <edge id="knjaginja|devka" source="knjaginja" target="devka" weight="1"/>
+            <edge id="knjaginja|njanja" source="knjaginja" target="njanja" weight="1"/>
+            <edge id="knjaginja|drugaja_njanja" source="knjaginja" target="drugaja_njanja" weight="1"/>
+            <edge id="knjaginja|tretja_njanja" source="knjaginja" target="tretja_njanja" weight="1"/>
+            <edge id="knjaginja|molodoj_knjaz" source="knjaginja" target="molodoj_knjaz" weight="1"/>
+            <edge id="knjaginja|nelstecov" source="knjaginja" target="nelstecov" weight="4"/>
+            <edge id="knjaginja|sluga" source="knjaginja" target="sluga" weight="2"/>
+            <edge id="knjaginja|grafinja" source="knjaginja" target="grafinja" weight="1"/>
+            <edge id="knjaginja|pelikan" source="knjaginja" target="pelikan" weight="1"/>
+            <edge id="knjaz|seum" source="knjaz" target="seum" weight="6"/>
+            <edge id="knjaz|devka" source="knjaz" target="devka" weight="1"/>
+            <edge id="knjaz|njanja" source="knjaz" target="njanja" weight="1"/>
+            <edge id="knjaz|drugaja_njanja" source="knjaz" target="drugaja_njanja" weight="1"/>
+            <edge id="knjaz|tretja_njanja" source="knjaz" target="tretja_njanja" weight="1"/>
+            <edge id="knjaz|molodoj_knjaz" source="knjaz" target="molodoj_knjaz" weight="1"/>
+            <edge id="knjaz|sluga" source="knjaz" target="sluga" weight="2"/>
+            <edge id="knjaz|nelstecov" source="knjaz" target="nelstecov" weight="4"/>
+            <edge id="knjaz|grafinja" source="knjaz" target="grafinja" weight="1"/>
+            <edge id="knjaz|pelikan" source="knjaz" target="pelikan" weight="1"/>
+            <edge id="seum|devka" source="seum" target="devka" weight="1"/>
+            <edge id="seum|njanja" source="seum" target="njanja" weight="1"/>
+            <edge id="seum|drugaja_njanja" source="seum" target="drugaja_njanja" weight="1"/>
+            <edge id="seum|tretja_njanja" source="seum" target="tretja_njanja" weight="1"/>
+            <edge id="seum|molodoj_knjaz" source="seum" target="molodoj_knjaz" weight="1"/>
+            <edge id="seum|nelstecov" source="seum" target="nelstecov" weight="6"/>
+            <edge id="seum|sluga" source="seum" target="sluga" weight="1"/>
+            <edge id="seum|grafinja" source="seum" target="grafinja" weight="1"/>
+            <edge id="seum|pelikan" source="seum" target="pelikan" weight="1"/>
+            <edge id="njanja|drugaja_njanja" source="njanja" target="drugaja_njanja" weight="1"/>
+            <edge id="njanja|tretja_njanja" source="njanja" target="tretja_njanja" weight="1"/>
+            <edge id="njanja|molodoj_knjaz" source="njanja" target="molodoj_knjaz" weight="1"/>
+            <edge id="drugaja_njanja|tretja_njanja" source="drugaja_njanja" target="tretja_njanja" weight="1"/>
+            <edge id="drugaja_njanja|molodoj_knjaz" source="drugaja_njanja" target="molodoj_knjaz" weight="1"/>
+            <edge id="tretja_njanja|molodoj_knjaz" source="tretja_njanja" target="molodoj_knjaz" weight="1"/>
+            <edge id="sluga|nelstecov" source="sluga" target="nelstecov" weight="1"/>
+            <edge id="nelstecov|grafinja" source="nelstecov" target="grafinja" weight="1"/>
+            <edge id="nelstecov|pelikan" source="nelstecov" target="pelikan" weight="1"/>
+            <edge id="grafinja|pelikan" source="grafinja" target="pelikan" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Тургенев, Иван Сергеевич: Вечер в Сорренте</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="avakov" label="Аваков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1179"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mr_popelin" label="M-r Рореlin">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="91"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nadezhda_pavlovna" label="Надежда Павловна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="761"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="belskij" label="Бельский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="680"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marija_petrovna" label="Мария Петровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="204"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_pevtsa" label="Голос певца">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="avakov|sluga" source="avakov" target="sluga" weight="1"/>
+            <edge id="avakov|mr_popelin" source="avakov" target="mr_popelin" weight="1"/>
+            <edge id="avakov|nadezhda_pavlovna" source="avakov" target="nadezhda_pavlovna" weight="5"/>
+            <edge id="avakov|marija_petrovna" source="avakov" target="marija_petrovna" weight="2"/>
+            <edge id="avakov|belskij" source="avakov" target="belskij" weight="2"/>
+            <edge id="nadezhda_pavlovna|belskij" source="nadezhda_pavlovna" target="belskij" weight="3"/>
+            <edge id="nadezhda_pavlovna|marija_petrovna" source="nadezhda_pavlovna" target="marija_petrovna" weight="2"/>
+            <edge id="belskij|marija_petrovna" source="belskij" target="marija_petrovna" weight="4"/>
+            <edge id="belskij|golos_pevtsa" source="belskij" target="golos_pevtsa" weight="1"/>
+            <edge id="marija_petrovna|golos_pevtsa" source="marija_petrovna" target="golos_pevtsa" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

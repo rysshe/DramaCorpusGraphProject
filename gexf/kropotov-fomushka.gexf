@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Кропотов, Пётр Андреевич: Фомушка – бабушкин внучек</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="mitrofan" label="Митрофан">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="394"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="havronia" label="Хавронья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="926"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="karpovich" label="Карпович">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="533"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="foma" label="Фома">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="316"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marina" label="Марина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="952"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="graf" label="Граф Честосердов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1997"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dobrovidov" label="Добровидов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1132"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ostromyslov" label="Остромыслов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1770"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="malania" label="Маланья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="944"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="notarius" label="Нотариус">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="182"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="mitrofan|havronia" source="mitrofan" target="havronia" weight="2"/>
+            <edge id="mitrofan|karpovich" source="mitrofan" target="karpovich" weight="1"/>
+            <edge id="mitrofan|foma" source="mitrofan" target="foma" weight="1"/>
+            <edge id="mitrofan|marina" source="mitrofan" target="marina" weight="1"/>
+            <edge id="mitrofan|dobrovidov" source="mitrofan" target="dobrovidov" weight="1"/>
+            <edge id="havronia|karpovich" source="havronia" target="karpovich" weight="4"/>
+            <edge id="havronia|foma" source="havronia" target="foma" weight="5"/>
+            <edge id="havronia|marina" source="havronia" target="marina" weight="2"/>
+            <edge id="havronia|graf" source="havronia" target="graf" weight="5"/>
+            <edge id="havronia|dobrovidov" source="havronia" target="dobrovidov" weight="3"/>
+            <edge id="havronia|ostromyslov" source="havronia" target="ostromyslov" weight="3"/>
+            <edge id="havronia|malania" source="havronia" target="malania" weight="2"/>
+            <edge id="havronia|notarius" source="havronia" target="notarius" weight="1"/>
+            <edge id="karpovich|foma" source="karpovich" target="foma" weight="4"/>
+            <edge id="karpovich|graf" source="karpovich" target="graf" weight="3"/>
+            <edge id="karpovich|dobrovidov" source="karpovich" target="dobrovidov" weight="2"/>
+            <edge id="karpovich|ostromyslov" source="karpovich" target="ostromyslov" weight="2"/>
+            <edge id="karpovich|malania" source="karpovich" target="malania" weight="2"/>
+            <edge id="karpovich|marina" source="karpovich" target="marina" weight="2"/>
+            <edge id="karpovich|notarius" source="karpovich" target="notarius" weight="1"/>
+            <edge id="foma|graf" source="foma" target="graf" weight="4"/>
+            <edge id="foma|dobrovidov" source="foma" target="dobrovidov" weight="3"/>
+            <edge id="foma|ostromyslov" source="foma" target="ostromyslov" weight="3"/>
+            <edge id="foma|malania" source="foma" target="malania" weight="2"/>
+            <edge id="foma|notarius" source="foma" target="notarius" weight="1"/>
+            <edge id="foma|marina" source="foma" target="marina" weight="1"/>
+            <edge id="marina|ostromyslov" source="marina" target="ostromyslov" weight="2"/>
+            <edge id="marina|malania" source="marina" target="malania" weight="5"/>
+            <edge id="marina|dobrovidov" source="marina" target="dobrovidov" weight="3"/>
+            <edge id="marina|graf" source="marina" target="graf" weight="2"/>
+            <edge id="marina|notarius" source="marina" target="notarius" weight="1"/>
+            <edge id="graf|dobrovidov" source="graf" target="dobrovidov" weight="10"/>
+            <edge id="graf|ostromyslov" source="graf" target="ostromyslov" weight="6"/>
+            <edge id="graf|malania" source="graf" target="malania" weight="4"/>
+            <edge id="graf|notarius" source="graf" target="notarius" weight="2"/>
+            <edge id="dobrovidov|ostromyslov" source="dobrovidov" target="ostromyslov" weight="6"/>
+            <edge id="dobrovidov|malania" source="dobrovidov" target="malania" weight="8"/>
+            <edge id="dobrovidov|notarius" source="dobrovidov" target="notarius" weight="1"/>
+            <edge id="ostromyslov|malania" source="ostromyslov" target="malania" weight="4"/>
+            <edge id="ostromyslov|notarius" source="ostromyslov" target="notarius" weight="1"/>
+            <edge id="malania|notarius" source="malania" target="notarius" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

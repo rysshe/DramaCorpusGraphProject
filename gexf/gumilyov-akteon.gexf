@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гумилёв, Николай Степанович: Актеон</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Kadm" label="Кадм">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="213"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ehion" label="Эхион">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="78"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Agava" label="Агава">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="114"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Akteon" label="Актеон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="425"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjJunosha" label="Первый юноша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojJunosha" label="Второй юноша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijJunosha" label="Третий юноша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ohotnitsy" label="Голоса охотниц">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Krokale" label="Крокале">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Ranis" label="Ранис">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Hiale" label="Хиале">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="38"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Diana" label="Диана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="61"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjPes" label="Первый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojPes" label="Второй">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="31"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijPes" label="Третий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Kadm|Ehion" source="Kadm" target="Ehion" weight="3"/>
+            <edge id="Kadm|Agava" source="Kadm" target="Agava" weight="2"/>
+            <edge id="Kadm|Akteon" source="Kadm" target="Akteon" weight="1"/>
+            <edge id="Kadm|PervyjJunosha" source="Kadm" target="PervyjJunosha" weight="1"/>
+            <edge id="Kadm|VtorojJunosha" source="Kadm" target="VtorojJunosha" weight="1"/>
+            <edge id="Kadm|TretijJunosha" source="Kadm" target="TretijJunosha" weight="1"/>
+            <edge id="Ehion|Agava" source="Ehion" target="Agava" weight="2"/>
+            <edge id="Ehion|Akteon" source="Ehion" target="Akteon" weight="1"/>
+            <edge id="Ehion|PervyjJunosha" source="Ehion" target="PervyjJunosha" weight="1"/>
+            <edge id="Ehion|VtorojJunosha" source="Ehion" target="VtorojJunosha" weight="1"/>
+            <edge id="Ehion|TretijJunosha" source="Ehion" target="TretijJunosha" weight="1"/>
+            <edge id="Agava|Akteon" source="Agava" target="Akteon" weight="1"/>
+            <edge id="Agava|PervyjJunosha" source="Agava" target="PervyjJunosha" weight="1"/>
+            <edge id="Agava|VtorojJunosha" source="Agava" target="VtorojJunosha" weight="1"/>
+            <edge id="Agava|TretijJunosha" source="Agava" target="TretijJunosha" weight="1"/>
+            <edge id="Akteon|PervyjJunosha" source="Akteon" target="PervyjJunosha" weight="1"/>
+            <edge id="Akteon|VtorojJunosha" source="Akteon" target="VtorojJunosha" weight="1"/>
+            <edge id="Akteon|TretijJunosha" source="Akteon" target="TretijJunosha" weight="1"/>
+            <edge id="Akteon|Krokale" source="Akteon" target="Krokale" weight="1"/>
+            <edge id="Akteon|Ranis" source="Akteon" target="Ranis" weight="1"/>
+            <edge id="Akteon|Hiale" source="Akteon" target="Hiale" weight="1"/>
+            <edge id="Akteon|Diana" source="Akteon" target="Diana" weight="1"/>
+            <edge id="Akteon|PervyjPes" source="Akteon" target="PervyjPes" weight="1"/>
+            <edge id="Akteon|VtorojPes" source="Akteon" target="VtorojPes" weight="1"/>
+            <edge id="Akteon|TretijPes" source="Akteon" target="TretijPes" weight="1"/>
+            <edge id="PervyjJunosha|VtorojJunosha" source="PervyjJunosha" target="VtorojJunosha" weight="1"/>
+            <edge id="PervyjJunosha|TretijJunosha" source="PervyjJunosha" target="TretijJunosha" weight="1"/>
+            <edge id="VtorojJunosha|TretijJunosha" source="VtorojJunosha" target="TretijJunosha" weight="1"/>
+            <edge id="Ohotnitsy|Krokale" source="Ohotnitsy" target="Krokale" weight="1"/>
+            <edge id="Ohotnitsy|Ranis" source="Ohotnitsy" target="Ranis" weight="1"/>
+            <edge id="Ohotnitsy|Hiale" source="Ohotnitsy" target="Hiale" weight="1"/>
+            <edge id="Ohotnitsy|Diana" source="Ohotnitsy" target="Diana" weight="1"/>
+            <edge id="Krokale|Ranis" source="Krokale" target="Ranis" weight="2"/>
+            <edge id="Krokale|Hiale" source="Krokale" target="Hiale" weight="2"/>
+            <edge id="Krokale|Diana" source="Krokale" target="Diana" weight="2"/>
+            <edge id="Ranis|Hiale" source="Ranis" target="Hiale" weight="2"/>
+            <edge id="Ranis|Diana" source="Ranis" target="Diana" weight="2"/>
+            <edge id="Hiale|Diana" source="Hiale" target="Diana" weight="2"/>
+            <edge id="PervyjPes|VtorojPes" source="PervyjPes" target="VtorojPes" weight="1"/>
+            <edge id="PervyjPes|TretijPes" source="PervyjPes" target="TretijPes" weight="1"/>
+            <edge id="VtorojPes|TretijPes" source="VtorojPes" target="TretijPes" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

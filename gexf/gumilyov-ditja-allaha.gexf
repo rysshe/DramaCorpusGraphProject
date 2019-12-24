@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гумилёв, Николай Степанович: Дитя Аллаха</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Dervish" label="Дервиш">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="546"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Peri" label="Пери">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="613"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Junosha" label="Юноша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="271"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Rab" label="Раб">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Beduin" label="Бедуин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="249"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Iskander" label="Искандер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kalif" label="Калиф">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="152"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Astrolog" label="Астролог">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Staruha" label="Старуха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="184"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Kadi" label="Кади">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="71"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Shejh" label="Шейх">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="181"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Pirat" label="Пират">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="66"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="SynKalifa" label="Сын Калифа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="181"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Sindbad" label="Синдбад">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="85"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Glashataj" label="Глашатай">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjJevnuh" label="1-й евнух">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojJevnuh" label="2-й евнух">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Gafiz" label="Гафиз">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="484"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ptitsy" label="Птицы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Angel" label="Ангел">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="93"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Dervish|Peri" source="Dervish" target="Peri" weight="3"/>
+            <edge id="Dervish|Junosha" source="Dervish" target="Junosha" weight="2"/>
+            <edge id="Dervish|Rab" source="Dervish" target="Rab" weight="1"/>
+            <edge id="Dervish|Beduin" source="Dervish" target="Beduin" weight="2"/>
+            <edge id="Dervish|Iskander" source="Dervish" target="Iskander" weight="1"/>
+            <edge id="Dervish|Kalif" source="Dervish" target="Kalif" weight="1"/>
+            <edge id="Dervish|Astrolog" source="Dervish" target="Astrolog" weight="2"/>
+            <edge id="Dervish|Staruha" source="Dervish" target="Staruha" weight="1"/>
+            <edge id="Dervish|Kadi" source="Dervish" target="Kadi" weight="1"/>
+            <edge id="Dervish|Shejh" source="Dervish" target="Shejh" weight="1"/>
+            <edge id="Dervish|Pirat" source="Dervish" target="Pirat" weight="1"/>
+            <edge id="Dervish|SynKalifa" source="Dervish" target="SynKalifa" weight="1"/>
+            <edge id="Dervish|Sindbad" source="Dervish" target="Sindbad" weight="1"/>
+            <edge id="Dervish|Glashataj" source="Dervish" target="Glashataj" weight="1"/>
+            <edge id="Dervish|PervyjJevnuh" source="Dervish" target="PervyjJevnuh" weight="1"/>
+            <edge id="Dervish|VtorojJevnuh" source="Dervish" target="VtorojJevnuh" weight="1"/>
+            <edge id="Dervish|Gafiz" source="Dervish" target="Gafiz" weight="1"/>
+            <edge id="Dervish|Ptitsy" source="Dervish" target="Ptitsy" weight="1"/>
+            <edge id="Dervish|Angel" source="Dervish" target="Angel" weight="1"/>
+            <edge id="Peri|Junosha" source="Peri" target="Junosha" weight="2"/>
+            <edge id="Peri|Rab" source="Peri" target="Rab" weight="1"/>
+            <edge id="Peri|Beduin" source="Peri" target="Beduin" weight="2"/>
+            <edge id="Peri|Iskander" source="Peri" target="Iskander" weight="1"/>
+            <edge id="Peri|Kalif" source="Peri" target="Kalif" weight="1"/>
+            <edge id="Peri|Astrolog" source="Peri" target="Astrolog" weight="2"/>
+            <edge id="Peri|Staruha" source="Peri" target="Staruha" weight="1"/>
+            <edge id="Peri|Kadi" source="Peri" target="Kadi" weight="1"/>
+            <edge id="Peri|Shejh" source="Peri" target="Shejh" weight="1"/>
+            <edge id="Peri|Pirat" source="Peri" target="Pirat" weight="1"/>
+            <edge id="Peri|SynKalifa" source="Peri" target="SynKalifa" weight="1"/>
+            <edge id="Peri|Sindbad" source="Peri" target="Sindbad" weight="1"/>
+            <edge id="Peri|Glashataj" source="Peri" target="Glashataj" weight="1"/>
+            <edge id="Peri|PervyjJevnuh" source="Peri" target="PervyjJevnuh" weight="1"/>
+            <edge id="Peri|VtorojJevnuh" source="Peri" target="VtorojJevnuh" weight="1"/>
+            <edge id="Peri|Gafiz" source="Peri" target="Gafiz" weight="1"/>
+            <edge id="Peri|Ptitsy" source="Peri" target="Ptitsy" weight="1"/>
+            <edge id="Peri|Angel" source="Peri" target="Angel" weight="1"/>
+            <edge id="Junosha|Rab" source="Junosha" target="Rab" weight="1"/>
+            <edge id="Junosha|Beduin" source="Junosha" target="Beduin" weight="2"/>
+            <edge id="Junosha|Iskander" source="Junosha" target="Iskander" weight="1"/>
+            <edge id="Junosha|Kalif" source="Junosha" target="Kalif" weight="1"/>
+            <edge id="Junosha|Astrolog" source="Junosha" target="Astrolog" weight="1"/>
+            <edge id="Junosha|Gafiz" source="Junosha" target="Gafiz" weight="1"/>
+            <edge id="Junosha|Ptitsy" source="Junosha" target="Ptitsy" weight="1"/>
+            <edge id="Junosha|Angel" source="Junosha" target="Angel" weight="1"/>
+            <edge id="Rab|Beduin" source="Rab" target="Beduin" weight="1"/>
+            <edge id="Rab|Iskander" source="Rab" target="Iskander" weight="1"/>
+            <edge id="Rab|Kalif" source="Rab" target="Kalif" weight="1"/>
+            <edge id="Rab|Astrolog" source="Rab" target="Astrolog" weight="1"/>
+            <edge id="Beduin|Iskander" source="Beduin" target="Iskander" weight="1"/>
+            <edge id="Beduin|Kalif" source="Beduin" target="Kalif" weight="1"/>
+            <edge id="Beduin|Astrolog" source="Beduin" target="Astrolog" weight="1"/>
+            <edge id="Beduin|Gafiz" source="Beduin" target="Gafiz" weight="1"/>
+            <edge id="Beduin|Ptitsy" source="Beduin" target="Ptitsy" weight="1"/>
+            <edge id="Beduin|Angel" source="Beduin" target="Angel" weight="1"/>
+            <edge id="Iskander|Kalif" source="Iskander" target="Kalif" weight="1"/>
+            <edge id="Iskander|Astrolog" source="Iskander" target="Astrolog" weight="1"/>
+            <edge id="Kalif|Astrolog" source="Kalif" target="Astrolog" weight="1"/>
+            <edge id="Astrolog|Staruha" source="Astrolog" target="Staruha" weight="1"/>
+            <edge id="Astrolog|Kadi" source="Astrolog" target="Kadi" weight="1"/>
+            <edge id="Astrolog|Shejh" source="Astrolog" target="Shejh" weight="1"/>
+            <edge id="Astrolog|Pirat" source="Astrolog" target="Pirat" weight="1"/>
+            <edge id="Astrolog|SynKalifa" source="Astrolog" target="SynKalifa" weight="1"/>
+            <edge id="Astrolog|Sindbad" source="Astrolog" target="Sindbad" weight="1"/>
+            <edge id="Astrolog|Glashataj" source="Astrolog" target="Glashataj" weight="1"/>
+            <edge id="Astrolog|PervyjJevnuh" source="Astrolog" target="PervyjJevnuh" weight="1"/>
+            <edge id="Astrolog|VtorojJevnuh" source="Astrolog" target="VtorojJevnuh" weight="1"/>
+            <edge id="Staruha|Kadi" source="Staruha" target="Kadi" weight="1"/>
+            <edge id="Staruha|Shejh" source="Staruha" target="Shejh" weight="1"/>
+            <edge id="Staruha|Pirat" source="Staruha" target="Pirat" weight="1"/>
+            <edge id="Staruha|SynKalifa" source="Staruha" target="SynKalifa" weight="1"/>
+            <edge id="Staruha|Sindbad" source="Staruha" target="Sindbad" weight="1"/>
+            <edge id="Staruha|Glashataj" source="Staruha" target="Glashataj" weight="1"/>
+            <edge id="Staruha|PervyjJevnuh" source="Staruha" target="PervyjJevnuh" weight="1"/>
+            <edge id="Staruha|VtorojJevnuh" source="Staruha" target="VtorojJevnuh" weight="1"/>
+            <edge id="Kadi|Shejh" source="Kadi" target="Shejh" weight="1"/>
+            <edge id="Kadi|Pirat" source="Kadi" target="Pirat" weight="1"/>
+            <edge id="Kadi|SynKalifa" source="Kadi" target="SynKalifa" weight="1"/>
+            <edge id="Kadi|Sindbad" source="Kadi" target="Sindbad" weight="1"/>
+            <edge id="Kadi|Glashataj" source="Kadi" target="Glashataj" weight="1"/>
+            <edge id="Kadi|PervyjJevnuh" source="Kadi" target="PervyjJevnuh" weight="1"/>
+            <edge id="Kadi|VtorojJevnuh" source="Kadi" target="VtorojJevnuh" weight="1"/>
+            <edge id="Shejh|Pirat" source="Shejh" target="Pirat" weight="1"/>
+            <edge id="Shejh|SynKalifa" source="Shejh" target="SynKalifa" weight="1"/>
+            <edge id="Shejh|Sindbad" source="Shejh" target="Sindbad" weight="1"/>
+            <edge id="Shejh|Glashataj" source="Shejh" target="Glashataj" weight="1"/>
+            <edge id="Shejh|PervyjJevnuh" source="Shejh" target="PervyjJevnuh" weight="1"/>
+            <edge id="Shejh|VtorojJevnuh" source="Shejh" target="VtorojJevnuh" weight="1"/>
+            <edge id="Pirat|SynKalifa" source="Pirat" target="SynKalifa" weight="1"/>
+            <edge id="Pirat|Sindbad" source="Pirat" target="Sindbad" weight="1"/>
+            <edge id="Pirat|Glashataj" source="Pirat" target="Glashataj" weight="1"/>
+            <edge id="Pirat|PervyjJevnuh" source="Pirat" target="PervyjJevnuh" weight="1"/>
+            <edge id="Pirat|VtorojJevnuh" source="Pirat" target="VtorojJevnuh" weight="1"/>
+            <edge id="SynKalifa|Sindbad" source="SynKalifa" target="Sindbad" weight="1"/>
+            <edge id="SynKalifa|Glashataj" source="SynKalifa" target="Glashataj" weight="1"/>
+            <edge id="SynKalifa|PervyjJevnuh" source="SynKalifa" target="PervyjJevnuh" weight="1"/>
+            <edge id="SynKalifa|VtorojJevnuh" source="SynKalifa" target="VtorojJevnuh" weight="1"/>
+            <edge id="Sindbad|Glashataj" source="Sindbad" target="Glashataj" weight="1"/>
+            <edge id="Sindbad|PervyjJevnuh" source="Sindbad" target="PervyjJevnuh" weight="1"/>
+            <edge id="Sindbad|VtorojJevnuh" source="Sindbad" target="VtorojJevnuh" weight="1"/>
+            <edge id="Glashataj|PervyjJevnuh" source="Glashataj" target="PervyjJevnuh" weight="1"/>
+            <edge id="Glashataj|VtorojJevnuh" source="Glashataj" target="VtorojJevnuh" weight="1"/>
+            <edge id="PervyjJevnuh|VtorojJevnuh" source="PervyjJevnuh" target="VtorojJevnuh" weight="1"/>
+            <edge id="Gafiz|Ptitsy" source="Gafiz" target="Ptitsy" weight="1"/>
+            <edge id="Gafiz|Angel" source="Gafiz" target="Angel" weight="1"/>
+            <edge id="Ptitsy|Angel" source="Ptitsy" target="Angel" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

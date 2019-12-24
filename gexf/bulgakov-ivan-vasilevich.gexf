@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Булгаков, Михаил Афанасьевич: Иван Васильевич</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="timofeev" label="Тимофеев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1559"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zinaida" label="Зинаида">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="998"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="uljana" label="Ульяна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="300"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="miloslavskij" label="Милославский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2066"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bunsha" label="Бунша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1039"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ioann" label="Иоанн Грозный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="597"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="djak" label="Дьяк">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="388"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oprichnik" label="Опричник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shpak" label="Шпак">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="532"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="jakin" label="Якин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="444"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oprichniki" label="Опричники">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="posol" label="Шведский посол">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="94"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="patriarh" label="Патриарх">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="61"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tsaritsa" label="Царица">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="57"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gusljary" label="Гусляры">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="militsija" label="Милиция">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="timofeev|zinaida" source="timofeev" target="zinaida" weight="3"/>
+            <edge id="timofeev|uljana" source="timofeev" target="uljana" weight="3"/>
+            <edge id="timofeev|miloslavskij" source="timofeev" target="miloslavskij" weight="2"/>
+            <edge id="timofeev|bunsha" source="timofeev" target="bunsha" weight="2"/>
+            <edge id="timofeev|ioann" source="timofeev" target="ioann" weight="3"/>
+            <edge id="timofeev|djak" source="timofeev" target="djak" weight="2"/>
+            <edge id="timofeev|oprichnik" source="timofeev" target="oprichnik" weight="1"/>
+            <edge id="timofeev|shpak" source="timofeev" target="shpak" weight="3"/>
+            <edge id="timofeev|jakin" source="timofeev" target="jakin" weight="1"/>
+            <edge id="timofeev|oprichniki" source="timofeev" target="oprichniki" weight="1"/>
+            <edge id="timofeev|posol" source="timofeev" target="posol" weight="1"/>
+            <edge id="timofeev|patriarh" source="timofeev" target="patriarh" weight="1"/>
+            <edge id="timofeev|tsaritsa" source="timofeev" target="tsaritsa" weight="1"/>
+            <edge id="timofeev|gusljary" source="timofeev" target="gusljary" weight="1"/>
+            <edge id="timofeev|militsija" source="timofeev" target="militsija" weight="1"/>
+            <edge id="zinaida|uljana" source="zinaida" target="uljana" weight="3"/>
+            <edge id="zinaida|miloslavskij" source="zinaida" target="miloslavskij" weight="2"/>
+            <edge id="zinaida|bunsha" source="zinaida" target="bunsha" weight="2"/>
+            <edge id="zinaida|ioann" source="zinaida" target="ioann" weight="3"/>
+            <edge id="zinaida|djak" source="zinaida" target="djak" weight="2"/>
+            <edge id="zinaida|oprichnik" source="zinaida" target="oprichnik" weight="1"/>
+            <edge id="zinaida|shpak" source="zinaida" target="shpak" weight="3"/>
+            <edge id="zinaida|jakin" source="zinaida" target="jakin" weight="1"/>
+            <edge id="zinaida|oprichniki" source="zinaida" target="oprichniki" weight="1"/>
+            <edge id="zinaida|posol" source="zinaida" target="posol" weight="1"/>
+            <edge id="zinaida|patriarh" source="zinaida" target="patriarh" weight="1"/>
+            <edge id="zinaida|tsaritsa" source="zinaida" target="tsaritsa" weight="1"/>
+            <edge id="zinaida|gusljary" source="zinaida" target="gusljary" weight="1"/>
+            <edge id="zinaida|militsija" source="zinaida" target="militsija" weight="1"/>
+            <edge id="uljana|miloslavskij" source="uljana" target="miloslavskij" weight="2"/>
+            <edge id="uljana|bunsha" source="uljana" target="bunsha" weight="2"/>
+            <edge id="uljana|ioann" source="uljana" target="ioann" weight="3"/>
+            <edge id="uljana|djak" source="uljana" target="djak" weight="2"/>
+            <edge id="uljana|oprichnik" source="uljana" target="oprichnik" weight="1"/>
+            <edge id="uljana|shpak" source="uljana" target="shpak" weight="3"/>
+            <edge id="uljana|jakin" source="uljana" target="jakin" weight="1"/>
+            <edge id="uljana|oprichniki" source="uljana" target="oprichniki" weight="1"/>
+            <edge id="uljana|posol" source="uljana" target="posol" weight="1"/>
+            <edge id="uljana|patriarh" source="uljana" target="patriarh" weight="1"/>
+            <edge id="uljana|tsaritsa" source="uljana" target="tsaritsa" weight="1"/>
+            <edge id="uljana|gusljary" source="uljana" target="gusljary" weight="1"/>
+            <edge id="uljana|militsija" source="uljana" target="militsija" weight="1"/>
+            <edge id="miloslavskij|bunsha" source="miloslavskij" target="bunsha" weight="2"/>
+            <edge id="miloslavskij|ioann" source="miloslavskij" target="ioann" weight="2"/>
+            <edge id="miloslavskij|djak" source="miloslavskij" target="djak" weight="2"/>
+            <edge id="miloslavskij|oprichnik" source="miloslavskij" target="oprichnik" weight="1"/>
+            <edge id="miloslavskij|shpak" source="miloslavskij" target="shpak" weight="2"/>
+            <edge id="miloslavskij|oprichniki" source="miloslavskij" target="oprichniki" weight="1"/>
+            <edge id="miloslavskij|posol" source="miloslavskij" target="posol" weight="1"/>
+            <edge id="miloslavskij|patriarh" source="miloslavskij" target="patriarh" weight="1"/>
+            <edge id="miloslavskij|tsaritsa" source="miloslavskij" target="tsaritsa" weight="1"/>
+            <edge id="miloslavskij|gusljary" source="miloslavskij" target="gusljary" weight="1"/>
+            <edge id="miloslavskij|militsija" source="miloslavskij" target="militsija" weight="1"/>
+            <edge id="bunsha|ioann" source="bunsha" target="ioann" weight="2"/>
+            <edge id="bunsha|djak" source="bunsha" target="djak" weight="2"/>
+            <edge id="bunsha|oprichnik" source="bunsha" target="oprichnik" weight="1"/>
+            <edge id="bunsha|shpak" source="bunsha" target="shpak" weight="2"/>
+            <edge id="bunsha|oprichniki" source="bunsha" target="oprichniki" weight="1"/>
+            <edge id="bunsha|posol" source="bunsha" target="posol" weight="1"/>
+            <edge id="bunsha|patriarh" source="bunsha" target="patriarh" weight="1"/>
+            <edge id="bunsha|tsaritsa" source="bunsha" target="tsaritsa" weight="1"/>
+            <edge id="bunsha|gusljary" source="bunsha" target="gusljary" weight="1"/>
+            <edge id="bunsha|militsija" source="bunsha" target="militsija" weight="1"/>
+            <edge id="ioann|djak" source="ioann" target="djak" weight="2"/>
+            <edge id="ioann|oprichnik" source="ioann" target="oprichnik" weight="1"/>
+            <edge id="ioann|shpak" source="ioann" target="shpak" weight="3"/>
+            <edge id="ioann|jakin" source="ioann" target="jakin" weight="1"/>
+            <edge id="ioann|oprichniki" source="ioann" target="oprichniki" weight="1"/>
+            <edge id="ioann|posol" source="ioann" target="posol" weight="1"/>
+            <edge id="ioann|patriarh" source="ioann" target="patriarh" weight="1"/>
+            <edge id="ioann|tsaritsa" source="ioann" target="tsaritsa" weight="1"/>
+            <edge id="ioann|gusljary" source="ioann" target="gusljary" weight="1"/>
+            <edge id="ioann|militsija" source="ioann" target="militsija" weight="1"/>
+            <edge id="djak|oprichnik" source="djak" target="oprichnik" weight="1"/>
+            <edge id="djak|shpak" source="djak" target="shpak" weight="2"/>
+            <edge id="djak|oprichniki" source="djak" target="oprichniki" weight="1"/>
+            <edge id="djak|posol" source="djak" target="posol" weight="1"/>
+            <edge id="djak|patriarh" source="djak" target="patriarh" weight="1"/>
+            <edge id="djak|tsaritsa" source="djak" target="tsaritsa" weight="1"/>
+            <edge id="djak|gusljary" source="djak" target="gusljary" weight="1"/>
+            <edge id="djak|militsija" source="djak" target="militsija" weight="1"/>
+            <edge id="oprichnik|shpak" source="oprichnik" target="shpak" weight="1"/>
+            <edge id="shpak|jakin" source="shpak" target="jakin" weight="1"/>
+            <edge id="shpak|oprichniki" source="shpak" target="oprichniki" weight="1"/>
+            <edge id="shpak|posol" source="shpak" target="posol" weight="1"/>
+            <edge id="shpak|patriarh" source="shpak" target="patriarh" weight="1"/>
+            <edge id="shpak|tsaritsa" source="shpak" target="tsaritsa" weight="1"/>
+            <edge id="shpak|gusljary" source="shpak" target="gusljary" weight="1"/>
+            <edge id="shpak|militsija" source="shpak" target="militsija" weight="1"/>
+            <edge id="oprichniki|posol" source="oprichniki" target="posol" weight="1"/>
+            <edge id="oprichniki|patriarh" source="oprichniki" target="patriarh" weight="1"/>
+            <edge id="oprichniki|tsaritsa" source="oprichniki" target="tsaritsa" weight="1"/>
+            <edge id="oprichniki|gusljary" source="oprichniki" target="gusljary" weight="1"/>
+            <edge id="oprichniki|militsija" source="oprichniki" target="militsija" weight="1"/>
+            <edge id="posol|patriarh" source="posol" target="patriarh" weight="1"/>
+            <edge id="posol|tsaritsa" source="posol" target="tsaritsa" weight="1"/>
+            <edge id="posol|gusljary" source="posol" target="gusljary" weight="1"/>
+            <edge id="posol|militsija" source="posol" target="militsija" weight="1"/>
+            <edge id="patriarh|tsaritsa" source="patriarh" target="tsaritsa" weight="1"/>
+            <edge id="patriarh|gusljary" source="patriarh" target="gusljary" weight="1"/>
+            <edge id="patriarh|militsija" source="patriarh" target="militsija" weight="1"/>
+            <edge id="tsaritsa|gusljary" source="tsaritsa" target="gusljary" weight="1"/>
+            <edge id="tsaritsa|militsija" source="tsaritsa" target="militsija" weight="1"/>
+            <edge id="gusljary|militsija" source="gusljary" target="militsija" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

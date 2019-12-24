@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Проказники</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1003"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="taratora" label="Таратора">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3521"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="tyanislov" label="Тянислов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2461"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lancetin" label="Ланцетин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1539"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="azbukin" label="Азбукин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1719"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="milon" label="Милон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="337"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="priyata" label="Прията">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="281"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="plutana" label="Плутана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2232"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="trojkina" label="Княжна Тройкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1043"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rifmokrad" label="Рифмокрад">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2512"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="ivan|taratora" source="ivan" target="taratora" weight="8"/>
+            <edge id="ivan|tyanislov" source="ivan" target="tyanislov" weight="5"/>
+            <edge id="ivan|azbukin" source="ivan" target="azbukin" weight="2"/>
+            <edge id="ivan|rifmokrad" source="ivan" target="rifmokrad" weight="4"/>
+            <edge id="ivan|milon" source="ivan" target="milon" weight="2"/>
+            <edge id="ivan|priyata" source="ivan" target="priyata" weight="2"/>
+            <edge id="ivan|trojkina" source="ivan" target="trojkina" weight="4"/>
+            <edge id="ivan|plutana" source="ivan" target="plutana" weight="8"/>
+            <edge id="ivan|lancetin" source="ivan" target="lancetin" weight="4"/>
+            <edge id="taratora|tyanislov" source="taratora" target="tyanislov" weight="10"/>
+            <edge id="taratora|trojkina" source="taratora" target="trojkina" weight="8"/>
+            <edge id="taratora|rifmokrad" source="taratora" target="rifmokrad" weight="15"/>
+            <edge id="taratora|azbukin" source="taratora" target="azbukin" weight="7"/>
+            <edge id="taratora|lancetin" source="taratora" target="lancetin" weight="10"/>
+            <edge id="taratora|plutana" source="taratora" target="plutana" weight="13"/>
+            <edge id="taratora|milon" source="taratora" target="milon" weight="3"/>
+            <edge id="taratora|priyata" source="taratora" target="priyata" weight="3"/>
+            <edge id="tyanislov|lancetin" source="tyanislov" target="lancetin" weight="12"/>
+            <edge id="tyanislov|azbukin" source="tyanislov" target="azbukin" weight="7"/>
+            <edge id="tyanislov|rifmokrad" source="tyanislov" target="rifmokrad" weight="10"/>
+            <edge id="tyanislov|plutana" source="tyanislov" target="plutana" weight="7"/>
+            <edge id="tyanislov|milon" source="tyanislov" target="milon" weight="2"/>
+            <edge id="tyanislov|priyata" source="tyanislov" target="priyata" weight="2"/>
+            <edge id="tyanislov|trojkina" source="tyanislov" target="trojkina" weight="7"/>
+            <edge id="lancetin|rifmokrad" source="lancetin" target="rifmokrad" weight="7"/>
+            <edge id="lancetin|plutana" source="lancetin" target="plutana" weight="7"/>
+            <edge id="lancetin|azbukin" source="lancetin" target="azbukin" weight="5"/>
+            <edge id="lancetin|milon" source="lancetin" target="milon" weight="3"/>
+            <edge id="lancetin|priyata" source="lancetin" target="priyata" weight="3"/>
+            <edge id="lancetin|trojkina" source="lancetin" target="trojkina" weight="8"/>
+            <edge id="azbukin|milon" source="azbukin" target="milon" weight="4"/>
+            <edge id="azbukin|trojkina" source="azbukin" target="trojkina" weight="8"/>
+            <edge id="azbukin|rifmokrad" source="azbukin" target="rifmokrad" weight="9"/>
+            <edge id="azbukin|priyata" source="azbukin" target="priyata" weight="3"/>
+            <edge id="azbukin|plutana" source="azbukin" target="plutana" weight="3"/>
+            <edge id="milon|priyata" source="milon" target="priyata" weight="6"/>
+            <edge id="milon|plutana" source="milon" target="plutana" weight="5"/>
+            <edge id="milon|rifmokrad" source="milon" target="rifmokrad" weight="3"/>
+            <edge id="milon|trojkina" source="milon" target="trojkina" weight="3"/>
+            <edge id="priyata|plutana" source="priyata" target="plutana" weight="5"/>
+            <edge id="priyata|rifmokrad" source="priyata" target="rifmokrad" weight="3"/>
+            <edge id="priyata|trojkina" source="priyata" target="trojkina" weight="3"/>
+            <edge id="plutana|rifmokrad" source="plutana" target="rifmokrad" weight="9"/>
+            <edge id="plutana|trojkina" source="plutana" target="trojkina" weight="5"/>
+            <edge id="trojkina|rifmokrad" source="trojkina" target="rifmokrad" weight="8"/>
+        </edges>
+    </graph>
+</gexf>

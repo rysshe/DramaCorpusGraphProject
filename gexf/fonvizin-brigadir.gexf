@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Фонвизин, Денис Иванович: Бригадир</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="sovetnik" label="Советник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2322"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="syn" label="Сын">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2148"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="brigadir" label="Бригадир">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2429"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sovetnitsa" label="Советница">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1786"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="brigadirsha" label="Бригадирша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1881"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sofja" label="Софья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="617"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dobroljubov" label="Добролюбов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="480"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="sovetnik|syn" source="sovetnik" target="syn" weight="7"/>
+            <edge id="sovetnik|brigadir" source="sovetnik" target="brigadir" weight="8"/>
+            <edge id="sovetnik|sovetnitsa" source="sovetnik" target="sovetnitsa" weight="9"/>
+            <edge id="sovetnik|brigadirsha" source="sovetnik" target="brigadirsha" weight="6"/>
+            <edge id="sovetnik|sofja" source="sovetnik" target="sofja" weight="6"/>
+            <edge id="sovetnik|sluga" source="sovetnik" target="sluga" weight="1"/>
+            <edge id="sovetnik|dobroljubov" source="sovetnik" target="dobroljubov" weight="6"/>
+            <edge id="syn|brigadir" source="syn" target="brigadir" weight="10"/>
+            <edge id="syn|sovetnitsa" source="syn" target="sovetnitsa" weight="14"/>
+            <edge id="syn|brigadirsha" source="syn" target="brigadirsha" weight="10"/>
+            <edge id="syn|sofja" source="syn" target="sofja" weight="5"/>
+            <edge id="syn|sluga" source="syn" target="sluga" weight="1"/>
+            <edge id="syn|dobroljubov" source="syn" target="dobroljubov" weight="5"/>
+            <edge id="brigadir|sovetnitsa" source="brigadir" target="sovetnitsa" weight="11"/>
+            <edge id="brigadir|brigadirsha" source="brigadir" target="brigadirsha" weight="6"/>
+            <edge id="brigadir|sofja" source="brigadir" target="sofja" weight="5"/>
+            <edge id="brigadir|sluga" source="brigadir" target="sluga" weight="1"/>
+            <edge id="brigadir|dobroljubov" source="brigadir" target="dobroljubov" weight="4"/>
+            <edge id="sovetnitsa|brigadirsha" source="sovetnitsa" target="brigadirsha" weight="7"/>
+            <edge id="sovetnitsa|sofja" source="sovetnitsa" target="sofja" weight="7"/>
+            <edge id="sovetnitsa|sluga" source="sovetnitsa" target="sluga" weight="1"/>
+            <edge id="sovetnitsa|dobroljubov" source="sovetnitsa" target="dobroljubov" weight="8"/>
+            <edge id="brigadirsha|sofja" source="brigadirsha" target="sofja" weight="5"/>
+            <edge id="brigadirsha|sluga" source="brigadirsha" target="sluga" weight="1"/>
+            <edge id="brigadirsha|dobroljubov" source="brigadirsha" target="dobroljubov" weight="4"/>
+            <edge id="sofja|sluga" source="sofja" target="sluga" weight="1"/>
+            <edge id="sofja|dobroljubov" source="sofja" target="dobroljubov" weight="7"/>
+        </edges>
+    </graph>
+</gexf>

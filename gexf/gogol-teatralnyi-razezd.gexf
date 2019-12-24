@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гоголь, Николай Васильевич: Театральный разъезд после представления новой комедии</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="AvtorPesy" label="Автор пьесы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1328"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinIzPrilichnoOdetyhLudei" label="Один из прилично одетых людей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjCommeIlFaut" label="Первый comme il faut">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="36"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojCommeIlFaut" label="Второй comme il faut">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjOfitser_1" label="Первый офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojOfitser_1" label="Другой офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="24"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="SvetskijChelovekSchegolevatoOdetyj" label="Светский человек, щеголевато одетый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TozheSvetskijChelovekPoplotnee" label="Тоже светский человек, поплотнее">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="33"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChinovnikSrednihLet" label="Чиновник средних лет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinNeskolkoBezzabotnyjNaschetLiteratury" label="Господин, несколько беззаботный насчет литературы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Drugoj" label="Другой">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinIzDvuhZritelej" label="Один из двух зрителей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdnaBekesha_1" label="Первая бекеша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugajaBekesha_1" label="Другая бекеша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjOfitser_2" label="Первый офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="88"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojOfitser_2" label="Другой офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NeizvestnoKakojChelovek" label="Неизвестно какой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="125"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Literator" label="Литератор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="78"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="EscheLiterator" label="Еще литератор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="148"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinDrugojOfitser" label="Другой Офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugojDrugojOfitser" label="Другой другой Офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjLubitelIskusstva" label="первый любитель искусства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="124"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojLubitelIskusstva" label="второй любитель искусства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="538"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijLubitelIskusstva" label="третий любитель искусства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChetvertyjLubitelIskusstva" label="четвертый любитель искусства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="88"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PjatyjLubitelIskusstva" label="пятый любитель искусства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NomerOdin" label="№ 1">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="57"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NomerDva" label="№ 2">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="43"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinA" label="Господин А">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="313"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinB" label="Господин Б">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="370"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OchenSkromnoOdetyjChelovek" label="Очень скромно одетый человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="989"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="SinijArmjak" label="Синий армяк">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinV" label="Господин В">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="143"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinP" label="Господин П">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="234"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="KnjazN" label="Князь N">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Statskij" label="Статский">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="77"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Voennyj" label="Военный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="51"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdnaBekesha_2" label="Первая бекеша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="85"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugajaBekesha_2" label="Другая бекеша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="SvetskajaDama" label="Светская дама">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="84"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="MuzhchinaVMundire" label="Мужчина в мундире">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="MuzhchinaVoFrake" label="Мужчина во фраке">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjMujchina" label="Один из мужчин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="118"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojMujchina" label="Второй из мужчин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="161"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijMujchina" label="Третий из мужчин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="MuzhPervojDamy" label="Муж">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="142"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinN" label="Господин N">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="184"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervajaMolodajaDama" label="Первая молодая дама">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="136"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorajaMolodajaDama" label="Вторая молодая дама">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="634"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="MuzhVtorojDamy" label="Муж второй дамы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjZritel" label="Один из двух вышедших зрителей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="117"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojZritel" label="Второй из двух вышедших зрителей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="358"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinChinovnik" label="Один чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugojChinovnik" label="Другой чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="25"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinMolodoj" label="Один молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="49"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DrugojMolodoj" label="Другой молодой человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="MolodenkijChinovnikUklonchivogoSvojstva" label="Молоденький чиновник уклончивого свойства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="44"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinVShineli" label="Господин в шинели">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjHoroshoOdetyj" label="Первый хорошо одетый человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojHoroshoOdetyj" label="Второй хорошо одетый человек">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChinovnikRazgovorchivogoSvojstva" label="Чиновник разговорчивого свойства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="55"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GolosIzTolpy_1" label="Голос из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="Ofitser" label="Офицер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kupets" label="Купец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GolosIzTolpy_2" label="Голос из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="RaznyeGolosa" label="Разные голоса">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="GolosVOdnomKontseTolpy" label="Голос в одном конце толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="GolosVDrugomKontse" label="Голос в другом конце">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="GolosKuptsa" label="Голос купца">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GolosGospodinaPooschritelnogoSvojstva" label="Голос господина поощрительного свойства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" label="Голос сердитого чиновника, но, как видно, опытного">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GolosDrugogoChinovnikaIzTolpy" label="Голос другого чиновника из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NeizvestnyjGolos" label="Неизвестный голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="PervyjOfitserIzTolpy" label="Первый офицер из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojOfitserIzTolpy" label="Второй офицер из толпы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ChinovnikVazhnojNaruzhnosti" label="Чиновник важной наружности">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GolosVNarode" label="Голос в народе">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="KrasivyjIPlotnyjGospodin" label="Красивый и плотный господин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NevzrachnyjNoJadovitogoSvojstvaGospodin" label="Невзрачный, но ядовитого свойства господин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="152"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Neznakomets" label="Незнакомец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="NeznakomyjSosed" label="Незнакомый сосед">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjNaStorone" label="Первый из разговора на стороне">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinSDrugojStoronyGruppy" label="Господин с другой стороны группы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinPolozhitelnogoSvojstva" label="Господин положительного свойства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinOtritsatelnogoSvojstva" label="Господин отрицательного свойства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ProstoVral" label="Просто враль">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="69"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinDobrodushnogoSvojstva" label="Господин добродушного свойства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="32"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinHladnokrovnogoSvojstva" label="Господин хладнокровного свойства">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="88"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DamaSrednegoSveta" label="Дама среднего света">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="GospodinSVesom" label="Господин с весом">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="37"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojGospodin" label="Второй господин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijGospodin" label="Третий господин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PervyjVprochemBlagorodnyj" label="Первый человек, Бог весть какого свойства, впрочем, благородной наружности и&#xA;              прилично одетый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="344"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorojVprochemBlagorodnyj" label="Второй человек, Бог весть какого свойства, впрочем, благородной наружности и&#xA;              прилично одетый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="TretijVprochemBlagorodnyj" label="Третий человек, Бог весть какого свойства, впрочем, благородной наружности и&#xA;              прилично одетый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="DobrodushnyjChinovnik" label="Добродушный чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinIzNaroda" label="Один из народа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OdinIzGospod" label="Один из господ">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="OtstavshijChinovnik" label="Отставший чиновник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="PervyjCommeIlFaut|VtorojCommeIlFaut" source="PervyjCommeIlFaut" target="VtorojCommeIlFaut" weight="1"/>
+            <edge id="PervyjOfitser_1|VtorojOfitser_1" source="PervyjOfitser_1" target="VtorojOfitser_1" weight="1"/>
+            <edge id="GospodinNeskolkoBezzabotnyjNaschetLiteratury|Drugoj" source="GospodinNeskolkoBezzabotnyjNaschetLiteratury" target="Drugoj" weight="1"/>
+            <edge id="OdnaBekesha_1|DrugajaBekesha_1" source="OdnaBekesha_1" target="DrugajaBekesha_1" weight="1"/>
+            <edge id="PervyjOfitser_2|VtorojOfitser_2" source="PervyjOfitser_2" target="VtorojOfitser_2" weight="2"/>
+            <edge id="PervyjOfitser_2|OdinDrugojOfitser" source="PervyjOfitser_2" target="OdinDrugojOfitser" weight="1"/>
+            <edge id="PervyjOfitser_2|DrugojDrugojOfitser" source="PervyjOfitser_2" target="DrugojDrugojOfitser" weight="1"/>
+            <edge id="VtorojOfitser_2|OdinDrugojOfitser" source="VtorojOfitser_2" target="OdinDrugojOfitser" weight="1"/>
+            <edge id="VtorojOfitser_2|DrugojDrugojOfitser" source="VtorojOfitser_2" target="DrugojDrugojOfitser" weight="1"/>
+            <edge id="NeizvestnoKakojChelovek|Literator" source="NeizvestnoKakojChelovek" target="Literator" weight="1"/>
+            <edge id="OdinDrugojOfitser|DrugojDrugojOfitser" source="OdinDrugojOfitser" target="DrugojDrugojOfitser" weight="1"/>
+            <edge id="PervyjLubitelIskusstva|VtorojLubitelIskusstva" source="PervyjLubitelIskusstva" target="VtorojLubitelIskusstva" weight="1"/>
+            <edge id="PervyjLubitelIskusstva|TretijLubitelIskusstva" source="PervyjLubitelIskusstva" target="TretijLubitelIskusstva" weight="1"/>
+            <edge id="PervyjLubitelIskusstva|ChetvertyjLubitelIskusstva" source="PervyjLubitelIskusstva" target="ChetvertyjLubitelIskusstva" weight="1"/>
+            <edge id="PervyjLubitelIskusstva|PjatyjLubitelIskusstva" source="PervyjLubitelIskusstva" target="PjatyjLubitelIskusstva" weight="1"/>
+            <edge id="VtorojLubitelIskusstva|TretijLubitelIskusstva" source="VtorojLubitelIskusstva" target="TretijLubitelIskusstva" weight="1"/>
+            <edge id="VtorojLubitelIskusstva|ChetvertyjLubitelIskusstva" source="VtorojLubitelIskusstva" target="ChetvertyjLubitelIskusstva" weight="1"/>
+            <edge id="VtorojLubitelIskusstva|PjatyjLubitelIskusstva" source="VtorojLubitelIskusstva" target="PjatyjLubitelIskusstva" weight="1"/>
+            <edge id="TretijLubitelIskusstva|ChetvertyjLubitelIskusstva" source="TretijLubitelIskusstva" target="ChetvertyjLubitelIskusstva" weight="1"/>
+            <edge id="TretijLubitelIskusstva|PjatyjLubitelIskusstva" source="TretijLubitelIskusstva" target="PjatyjLubitelIskusstva" weight="1"/>
+            <edge id="ChetvertyjLubitelIskusstva|PjatyjLubitelIskusstva" source="ChetvertyjLubitelIskusstva" target="PjatyjLubitelIskusstva" weight="1"/>
+            <edge id="NomerOdin|NomerDva" source="NomerOdin" target="NomerDva" weight="1"/>
+            <edge id="GospodinA|GospodinB" source="GospodinA" target="GospodinB" weight="1"/>
+            <edge id="GospodinA|OchenSkromnoOdetyjChelovek" source="GospodinA" target="OchenSkromnoOdetyjChelovek" weight="1"/>
+            <edge id="GospodinA|SinijArmjak" source="GospodinA" target="SinijArmjak" weight="1"/>
+            <edge id="GospodinB|OchenSkromnoOdetyjChelovek" source="GospodinB" target="OchenSkromnoOdetyjChelovek" weight="1"/>
+            <edge id="GospodinB|SinijArmjak" source="GospodinB" target="SinijArmjak" weight="1"/>
+            <edge id="GospodinB|GospodinV" source="GospodinB" target="GospodinV" weight="1"/>
+            <edge id="GospodinB|GospodinP" source="GospodinB" target="GospodinP" weight="1"/>
+            <edge id="OchenSkromnoOdetyjChelovek|SinijArmjak" source="OchenSkromnoOdetyjChelovek" target="SinijArmjak" weight="1"/>
+            <edge id="GospodinV|GospodinP" source="GospodinV" target="GospodinP" weight="3"/>
+            <edge id="GospodinV|KnjazN" source="GospodinV" target="KnjazN" weight="1"/>
+            <edge id="GospodinP|KnjazN" source="GospodinP" target="KnjazN" weight="1"/>
+            <edge id="Statskij|Voennyj" source="Statskij" target="Voennyj" weight="1"/>
+            <edge id="OdnaBekesha_2|DrugajaBekesha_2" source="OdnaBekesha_2" target="DrugajaBekesha_2" weight="1"/>
+            <edge id="SvetskajaDama|MuzhchinaVMundire" source="SvetskajaDama" target="MuzhchinaVMundire" weight="1"/>
+            <edge id="SvetskajaDama|MuzhchinaVoFrake" source="SvetskajaDama" target="MuzhchinaVoFrake" weight="1"/>
+            <edge id="MuzhchinaVMundire|MuzhchinaVoFrake" source="MuzhchinaVMundire" target="MuzhchinaVoFrake" weight="1"/>
+            <edge id="PervyjMujchina|VtorojMujchina" source="PervyjMujchina" target="VtorojMujchina" weight="1"/>
+            <edge id="PervyjMujchina|TretijMujchina" source="PervyjMujchina" target="TretijMujchina" weight="1"/>
+            <edge id="VtorojMujchina|TretijMujchina" source="VtorojMujchina" target="TretijMujchina" weight="1"/>
+            <edge id="MuzhPervojDamy|GospodinN" source="MuzhPervojDamy" target="GospodinN" weight="1"/>
+            <edge id="MuzhPervojDamy|PervajaMolodajaDama" source="MuzhPervojDamy" target="PervajaMolodajaDama" weight="1"/>
+            <edge id="MuzhPervojDamy|VtorajaMolodajaDama" source="MuzhPervojDamy" target="VtorajaMolodajaDama" weight="1"/>
+            <edge id="MuzhPervojDamy|MuzhVtorojDamy" source="MuzhPervojDamy" target="MuzhVtorojDamy" weight="1"/>
+            <edge id="GospodinN|PervajaMolodajaDama" source="GospodinN" target="PervajaMolodajaDama" weight="1"/>
+            <edge id="GospodinN|VtorajaMolodajaDama" source="GospodinN" target="VtorajaMolodajaDama" weight="1"/>
+            <edge id="GospodinN|MuzhVtorojDamy" source="GospodinN" target="MuzhVtorojDamy" weight="1"/>
+            <edge id="PervajaMolodajaDama|VtorajaMolodajaDama" source="PervajaMolodajaDama" target="VtorajaMolodajaDama" weight="1"/>
+            <edge id="PervajaMolodajaDama|MuzhVtorojDamy" source="PervajaMolodajaDama" target="MuzhVtorojDamy" weight="1"/>
+            <edge id="VtorajaMolodajaDama|MuzhVtorojDamy" source="VtorajaMolodajaDama" target="MuzhVtorojDamy" weight="1"/>
+            <edge id="PervyjZritel|VtorojZritel" source="PervyjZritel" target="VtorojZritel" weight="1"/>
+            <edge id="OdinChinovnik|DrugojChinovnik" source="OdinChinovnik" target="DrugojChinovnik" weight="1"/>
+            <edge id="OdinMolodoj|DrugojMolodoj" source="OdinMolodoj" target="DrugojMolodoj" weight="1"/>
+            <edge id="MolodenkijChinovnikUklonchivogoSvojstva|GospodinVShineli" source="MolodenkijChinovnikUklonchivogoSvojstva" target="GospodinVShineli" weight="1"/>
+            <edge id="PervyjHoroshoOdetyj|VtorojHoroshoOdetyj" source="PervyjHoroshoOdetyj" target="VtorojHoroshoOdetyj" weight="1"/>
+            <edge id="PervyjHoroshoOdetyj|ChinovnikRazgovorchivogoSvojstva" source="PervyjHoroshoOdetyj" target="ChinovnikRazgovorchivogoSvojstva" weight="1"/>
+            <edge id="VtorojHoroshoOdetyj|ChinovnikRazgovorchivogoSvojstva" source="VtorojHoroshoOdetyj" target="ChinovnikRazgovorchivogoSvojstva" weight="1"/>
+            <edge id="GolosIzTolpy_1|Ofitser" source="GolosIzTolpy_1" target="Ofitser" weight="1"/>
+            <edge id="GolosIzTolpy_1|Kupets" source="GolosIzTolpy_1" target="Kupets" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosIzTolpy_2" source="GolosIzTolpy_1" target="GolosIzTolpy_2" weight="1"/>
+            <edge id="GolosIzTolpy_1|RaznyeGolosa" source="GolosIzTolpy_1" target="RaznyeGolosa" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosVOdnomKontseTolpy" source="GolosIzTolpy_1" target="GolosVOdnomKontseTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosVDrugomKontse" source="GolosIzTolpy_1" target="GolosVDrugomKontse" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosKuptsa" source="GolosIzTolpy_1" target="GolosKuptsa" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosGospodinaPooschritelnogoSvojstva" source="GolosIzTolpy_1" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="GolosIzTolpy_1" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosDrugogoChinovnikaIzTolpy" source="GolosIzTolpy_1" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_1|NeizvestnyjGolos" source="GolosIzTolpy_1" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosIzTolpy_1|PervyjOfitserIzTolpy" source="GolosIzTolpy_1" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_1|VtorojOfitserIzTolpy" source="GolosIzTolpy_1" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_1|ChinovnikVazhnojNaruzhnosti" source="GolosIzTolpy_1" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosIzTolpy_1|GolosVNarode" source="GolosIzTolpy_1" target="GolosVNarode" weight="1"/>
+            <edge id="GolosIzTolpy_1|KrasivyjIPlotnyjGospodin" source="GolosIzTolpy_1" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosIzTolpy_1|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosIzTolpy_1" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosIzTolpy_1|Neznakomets" source="GolosIzTolpy_1" target="Neznakomets" weight="1"/>
+            <edge id="GolosIzTolpy_1|NeznakomyjSosed" source="GolosIzTolpy_1" target="NeznakomyjSosed" weight="1"/>
+            <edge id="Ofitser|Kupets" source="Ofitser" target="Kupets" weight="1"/>
+            <edge id="Ofitser|GolosIzTolpy_2" source="Ofitser" target="GolosIzTolpy_2" weight="1"/>
+            <edge id="Ofitser|RaznyeGolosa" source="Ofitser" target="RaznyeGolosa" weight="1"/>
+            <edge id="Ofitser|GolosVOdnomKontseTolpy" source="Ofitser" target="GolosVOdnomKontseTolpy" weight="1"/>
+            <edge id="Ofitser|GolosVDrugomKontse" source="Ofitser" target="GolosVDrugomKontse" weight="1"/>
+            <edge id="Ofitser|GolosKuptsa" source="Ofitser" target="GolosKuptsa" weight="1"/>
+            <edge id="Ofitser|GolosGospodinaPooschritelnogoSvojstva" source="Ofitser" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="Ofitser|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="Ofitser" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="Ofitser|GolosDrugogoChinovnikaIzTolpy" source="Ofitser" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="Ofitser|NeizvestnyjGolos" source="Ofitser" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="Ofitser|PervyjOfitserIzTolpy" source="Ofitser" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="Ofitser|VtorojOfitserIzTolpy" source="Ofitser" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="Ofitser|ChinovnikVazhnojNaruzhnosti" source="Ofitser" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="Ofitser|GolosVNarode" source="Ofitser" target="GolosVNarode" weight="1"/>
+            <edge id="Ofitser|KrasivyjIPlotnyjGospodin" source="Ofitser" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="Ofitser|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="Ofitser" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="Ofitser|Neznakomets" source="Ofitser" target="Neznakomets" weight="1"/>
+            <edge id="Ofitser|NeznakomyjSosed" source="Ofitser" target="NeznakomyjSosed" weight="1"/>
+            <edge id="Kupets|GolosIzTolpy_2" source="Kupets" target="GolosIzTolpy_2" weight="1"/>
+            <edge id="Kupets|RaznyeGolosa" source="Kupets" target="RaznyeGolosa" weight="1"/>
+            <edge id="Kupets|GolosVOdnomKontseTolpy" source="Kupets" target="GolosVOdnomKontseTolpy" weight="1"/>
+            <edge id="Kupets|GolosVDrugomKontse" source="Kupets" target="GolosVDrugomKontse" weight="1"/>
+            <edge id="Kupets|GolosKuptsa" source="Kupets" target="GolosKuptsa" weight="1"/>
+            <edge id="Kupets|GolosGospodinaPooschritelnogoSvojstva" source="Kupets" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="Kupets|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="Kupets" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="Kupets|GolosDrugogoChinovnikaIzTolpy" source="Kupets" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="Kupets|NeizvestnyjGolos" source="Kupets" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="Kupets|PervyjOfitserIzTolpy" source="Kupets" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="Kupets|VtorojOfitserIzTolpy" source="Kupets" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="Kupets|ChinovnikVazhnojNaruzhnosti" source="Kupets" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="Kupets|GolosVNarode" source="Kupets" target="GolosVNarode" weight="1"/>
+            <edge id="Kupets|KrasivyjIPlotnyjGospodin" source="Kupets" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="Kupets|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="Kupets" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="Kupets|Neznakomets" source="Kupets" target="Neznakomets" weight="1"/>
+            <edge id="Kupets|NeznakomyjSosed" source="Kupets" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosIzTolpy_2|RaznyeGolosa" source="GolosIzTolpy_2" target="RaznyeGolosa" weight="1"/>
+            <edge id="GolosIzTolpy_2|GolosVOdnomKontseTolpy" source="GolosIzTolpy_2" target="GolosVOdnomKontseTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_2|GolosVDrugomKontse" source="GolosIzTolpy_2" target="GolosVDrugomKontse" weight="1"/>
+            <edge id="GolosIzTolpy_2|GolosKuptsa" source="GolosIzTolpy_2" target="GolosKuptsa" weight="1"/>
+            <edge id="GolosIzTolpy_2|GolosGospodinaPooschritelnogoSvojstva" source="GolosIzTolpy_2" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="GolosIzTolpy_2|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="GolosIzTolpy_2" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="GolosIzTolpy_2|GolosDrugogoChinovnikaIzTolpy" source="GolosIzTolpy_2" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_2|NeizvestnyjGolos" source="GolosIzTolpy_2" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosIzTolpy_2|PervyjOfitserIzTolpy" source="GolosIzTolpy_2" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_2|VtorojOfitserIzTolpy" source="GolosIzTolpy_2" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosIzTolpy_2|ChinovnikVazhnojNaruzhnosti" source="GolosIzTolpy_2" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosIzTolpy_2|GolosVNarode" source="GolosIzTolpy_2" target="GolosVNarode" weight="1"/>
+            <edge id="GolosIzTolpy_2|KrasivyjIPlotnyjGospodin" source="GolosIzTolpy_2" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosIzTolpy_2|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosIzTolpy_2" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosIzTolpy_2|Neznakomets" source="GolosIzTolpy_2" target="Neznakomets" weight="1"/>
+            <edge id="GolosIzTolpy_2|NeznakomyjSosed" source="GolosIzTolpy_2" target="NeznakomyjSosed" weight="1"/>
+            <edge id="RaznyeGolosa|GolosVOdnomKontseTolpy" source="RaznyeGolosa" target="GolosVOdnomKontseTolpy" weight="1"/>
+            <edge id="RaznyeGolosa|GolosVDrugomKontse" source="RaznyeGolosa" target="GolosVDrugomKontse" weight="1"/>
+            <edge id="RaznyeGolosa|GolosKuptsa" source="RaznyeGolosa" target="GolosKuptsa" weight="1"/>
+            <edge id="RaznyeGolosa|GolosGospodinaPooschritelnogoSvojstva" source="RaznyeGolosa" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="RaznyeGolosa|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="RaznyeGolosa" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="RaznyeGolosa|GolosDrugogoChinovnikaIzTolpy" source="RaznyeGolosa" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="RaznyeGolosa|NeizvestnyjGolos" source="RaznyeGolosa" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="RaznyeGolosa|PervyjOfitserIzTolpy" source="RaznyeGolosa" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="RaznyeGolosa|VtorojOfitserIzTolpy" source="RaznyeGolosa" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="RaznyeGolosa|ChinovnikVazhnojNaruzhnosti" source="RaznyeGolosa" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="RaznyeGolosa|GolosVNarode" source="RaznyeGolosa" target="GolosVNarode" weight="1"/>
+            <edge id="RaznyeGolosa|KrasivyjIPlotnyjGospodin" source="RaznyeGolosa" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="RaznyeGolosa|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="RaznyeGolosa" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="RaznyeGolosa|Neznakomets" source="RaznyeGolosa" target="Neznakomets" weight="1"/>
+            <edge id="RaznyeGolosa|NeznakomyjSosed" source="RaznyeGolosa" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|GolosVDrugomKontse" source="GolosVOdnomKontseTolpy" target="GolosVDrugomKontse" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|GolosKuptsa" source="GolosVOdnomKontseTolpy" target="GolosKuptsa" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|GolosGospodinaPooschritelnogoSvojstva" source="GolosVOdnomKontseTolpy" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="GolosVOdnomKontseTolpy" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|GolosDrugogoChinovnikaIzTolpy" source="GolosVOdnomKontseTolpy" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|NeizvestnyjGolos" source="GolosVOdnomKontseTolpy" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|PervyjOfitserIzTolpy" source="GolosVOdnomKontseTolpy" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|VtorojOfitserIzTolpy" source="GolosVOdnomKontseTolpy" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|ChinovnikVazhnojNaruzhnosti" source="GolosVOdnomKontseTolpy" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|GolosVNarode" source="GolosVOdnomKontseTolpy" target="GolosVNarode" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|KrasivyjIPlotnyjGospodin" source="GolosVOdnomKontseTolpy" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosVOdnomKontseTolpy" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|Neznakomets" source="GolosVOdnomKontseTolpy" target="Neznakomets" weight="1"/>
+            <edge id="GolosVOdnomKontseTolpy|NeznakomyjSosed" source="GolosVOdnomKontseTolpy" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosVDrugomKontse|GolosKuptsa" source="GolosVDrugomKontse" target="GolosKuptsa" weight="1"/>
+            <edge id="GolosVDrugomKontse|GolosGospodinaPooschritelnogoSvojstva" source="GolosVDrugomKontse" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="GolosVDrugomKontse|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="GolosVDrugomKontse" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="GolosVDrugomKontse|GolosDrugogoChinovnikaIzTolpy" source="GolosVDrugomKontse" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="GolosVDrugomKontse|NeizvestnyjGolos" source="GolosVDrugomKontse" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosVDrugomKontse|PervyjOfitserIzTolpy" source="GolosVDrugomKontse" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosVDrugomKontse|VtorojOfitserIzTolpy" source="GolosVDrugomKontse" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosVDrugomKontse|ChinovnikVazhnojNaruzhnosti" source="GolosVDrugomKontse" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosVDrugomKontse|GolosVNarode" source="GolosVDrugomKontse" target="GolosVNarode" weight="1"/>
+            <edge id="GolosVDrugomKontse|KrasivyjIPlotnyjGospodin" source="GolosVDrugomKontse" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosVDrugomKontse|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosVDrugomKontse" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosVDrugomKontse|Neznakomets" source="GolosVDrugomKontse" target="Neznakomets" weight="1"/>
+            <edge id="GolosVDrugomKontse|NeznakomyjSosed" source="GolosVDrugomKontse" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosKuptsa|GolosGospodinaPooschritelnogoSvojstva" source="GolosKuptsa" target="GolosGospodinaPooschritelnogoSvojstva" weight="1"/>
+            <edge id="GolosKuptsa|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="GolosKuptsa" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="GolosKuptsa|GolosDrugogoChinovnikaIzTolpy" source="GolosKuptsa" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="GolosKuptsa|NeizvestnyjGolos" source="GolosKuptsa" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosKuptsa|PervyjOfitserIzTolpy" source="GolosKuptsa" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosKuptsa|VtorojOfitserIzTolpy" source="GolosKuptsa" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosKuptsa|ChinovnikVazhnojNaruzhnosti" source="GolosKuptsa" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosKuptsa|GolosVNarode" source="GolosKuptsa" target="GolosVNarode" weight="1"/>
+            <edge id="GolosKuptsa|KrasivyjIPlotnyjGospodin" source="GolosKuptsa" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosKuptsa|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosKuptsa" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosKuptsa|Neznakomets" source="GolosKuptsa" target="Neznakomets" weight="1"/>
+            <edge id="GolosKuptsa|NeznakomyjSosed" source="GolosKuptsa" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|GolosSerditogoChinovnikaNoKakVidnoOpytnogo" source="GolosGospodinaPooschritelnogoSvojstva" target="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|GolosDrugogoChinovnikaIzTolpy" source="GolosGospodinaPooschritelnogoSvojstva" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|NeizvestnyjGolos" source="GolosGospodinaPooschritelnogoSvojstva" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|PervyjOfitserIzTolpy" source="GolosGospodinaPooschritelnogoSvojstva" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|VtorojOfitserIzTolpy" source="GolosGospodinaPooschritelnogoSvojstva" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|ChinovnikVazhnojNaruzhnosti" source="GolosGospodinaPooschritelnogoSvojstva" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|GolosVNarode" source="GolosGospodinaPooschritelnogoSvojstva" target="GolosVNarode" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|KrasivyjIPlotnyjGospodin" source="GolosGospodinaPooschritelnogoSvojstva" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosGospodinaPooschritelnogoSvojstva" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|Neznakomets" source="GolosGospodinaPooschritelnogoSvojstva" target="Neznakomets" weight="1"/>
+            <edge id="GolosGospodinaPooschritelnogoSvojstva|NeznakomyjSosed" source="GolosGospodinaPooschritelnogoSvojstva" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|GolosDrugogoChinovnikaIzTolpy" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="GolosDrugogoChinovnikaIzTolpy" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|NeizvestnyjGolos" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|PervyjOfitserIzTolpy" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|VtorojOfitserIzTolpy" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|ChinovnikVazhnojNaruzhnosti" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|GolosVNarode" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="GolosVNarode" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|KrasivyjIPlotnyjGospodin" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|Neznakomets" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="Neznakomets" weight="1"/>
+            <edge id="GolosSerditogoChinovnikaNoKakVidnoOpytnogo|NeznakomyjSosed" source="GolosSerditogoChinovnikaNoKakVidnoOpytnogo" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|NeizvestnyjGolos" source="GolosDrugogoChinovnikaIzTolpy" target="NeizvestnyjGolos" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|PervyjOfitserIzTolpy" source="GolosDrugogoChinovnikaIzTolpy" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|VtorojOfitserIzTolpy" source="GolosDrugogoChinovnikaIzTolpy" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|ChinovnikVazhnojNaruzhnosti" source="GolosDrugogoChinovnikaIzTolpy" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|GolosVNarode" source="GolosDrugogoChinovnikaIzTolpy" target="GolosVNarode" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|KrasivyjIPlotnyjGospodin" source="GolosDrugogoChinovnikaIzTolpy" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosDrugogoChinovnikaIzTolpy" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|Neznakomets" source="GolosDrugogoChinovnikaIzTolpy" target="Neznakomets" weight="1"/>
+            <edge id="GolosDrugogoChinovnikaIzTolpy|NeznakomyjSosed" source="GolosDrugogoChinovnikaIzTolpy" target="NeznakomyjSosed" weight="1"/>
+            <edge id="NeizvestnyjGolos|PervyjOfitserIzTolpy" source="NeizvestnyjGolos" target="PervyjOfitserIzTolpy" weight="1"/>
+            <edge id="NeizvestnyjGolos|VtorojOfitserIzTolpy" source="NeizvestnyjGolos" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="NeizvestnyjGolos|ChinovnikVazhnojNaruzhnosti" source="NeizvestnyjGolos" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="NeizvestnyjGolos|GolosVNarode" source="NeizvestnyjGolos" target="GolosVNarode" weight="1"/>
+            <edge id="NeizvestnyjGolos|KrasivyjIPlotnyjGospodin" source="NeizvestnyjGolos" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="NeizvestnyjGolos|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="NeizvestnyjGolos" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="NeizvestnyjGolos|Neznakomets" source="NeizvestnyjGolos" target="Neznakomets" weight="1"/>
+            <edge id="NeizvestnyjGolos|NeznakomyjSosed" source="NeizvestnyjGolos" target="NeznakomyjSosed" weight="1"/>
+            <edge id="PervyjOfitserIzTolpy|VtorojOfitserIzTolpy" source="PervyjOfitserIzTolpy" target="VtorojOfitserIzTolpy" weight="1"/>
+            <edge id="PervyjOfitserIzTolpy|ChinovnikVazhnojNaruzhnosti" source="PervyjOfitserIzTolpy" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="PervyjOfitserIzTolpy|GolosVNarode" source="PervyjOfitserIzTolpy" target="GolosVNarode" weight="1"/>
+            <edge id="PervyjOfitserIzTolpy|KrasivyjIPlotnyjGospodin" source="PervyjOfitserIzTolpy" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="PervyjOfitserIzTolpy|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="PervyjOfitserIzTolpy" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="PervyjOfitserIzTolpy|Neznakomets" source="PervyjOfitserIzTolpy" target="Neznakomets" weight="1"/>
+            <edge id="PervyjOfitserIzTolpy|NeznakomyjSosed" source="PervyjOfitserIzTolpy" target="NeznakomyjSosed" weight="1"/>
+            <edge id="VtorojOfitserIzTolpy|ChinovnikVazhnojNaruzhnosti" source="VtorojOfitserIzTolpy" target="ChinovnikVazhnojNaruzhnosti" weight="1"/>
+            <edge id="VtorojOfitserIzTolpy|GolosVNarode" source="VtorojOfitserIzTolpy" target="GolosVNarode" weight="1"/>
+            <edge id="VtorojOfitserIzTolpy|KrasivyjIPlotnyjGospodin" source="VtorojOfitserIzTolpy" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="VtorojOfitserIzTolpy|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="VtorojOfitserIzTolpy" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="VtorojOfitserIzTolpy|Neznakomets" source="VtorojOfitserIzTolpy" target="Neznakomets" weight="1"/>
+            <edge id="VtorojOfitserIzTolpy|NeznakomyjSosed" source="VtorojOfitserIzTolpy" target="NeznakomyjSosed" weight="1"/>
+            <edge id="ChinovnikVazhnojNaruzhnosti|GolosVNarode" source="ChinovnikVazhnojNaruzhnosti" target="GolosVNarode" weight="1"/>
+            <edge id="ChinovnikVazhnojNaruzhnosti|KrasivyjIPlotnyjGospodin" source="ChinovnikVazhnojNaruzhnosti" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="ChinovnikVazhnojNaruzhnosti|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="ChinovnikVazhnojNaruzhnosti" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="ChinovnikVazhnojNaruzhnosti|Neznakomets" source="ChinovnikVazhnojNaruzhnosti" target="Neznakomets" weight="1"/>
+            <edge id="ChinovnikVazhnojNaruzhnosti|NeznakomyjSosed" source="ChinovnikVazhnojNaruzhnosti" target="NeznakomyjSosed" weight="1"/>
+            <edge id="GolosVNarode|KrasivyjIPlotnyjGospodin" source="GolosVNarode" target="KrasivyjIPlotnyjGospodin" weight="1"/>
+            <edge id="GolosVNarode|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="GolosVNarode" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="GolosVNarode|Neznakomets" source="GolosVNarode" target="Neznakomets" weight="1"/>
+            <edge id="GolosVNarode|NeznakomyjSosed" source="GolosVNarode" target="NeznakomyjSosed" weight="1"/>
+            <edge id="KrasivyjIPlotnyjGospodin|NevzrachnyjNoJadovitogoSvojstvaGospodin" source="KrasivyjIPlotnyjGospodin" target="NevzrachnyjNoJadovitogoSvojstvaGospodin" weight="1"/>
+            <edge id="KrasivyjIPlotnyjGospodin|Neznakomets" source="KrasivyjIPlotnyjGospodin" target="Neznakomets" weight="1"/>
+            <edge id="KrasivyjIPlotnyjGospodin|NeznakomyjSosed" source="KrasivyjIPlotnyjGospodin" target="NeznakomyjSosed" weight="1"/>
+            <edge id="NevzrachnyjNoJadovitogoSvojstvaGospodin|Neznakomets" source="NevzrachnyjNoJadovitogoSvojstvaGospodin" target="Neznakomets" weight="1"/>
+            <edge id="NevzrachnyjNoJadovitogoSvojstvaGospodin|NeznakomyjSosed" source="NevzrachnyjNoJadovitogoSvojstvaGospodin" target="NeznakomyjSosed" weight="1"/>
+            <edge id="Neznakomets|NeznakomyjSosed" source="Neznakomets" target="NeznakomyjSosed" weight="1"/>
+            <edge id="PervyjNaStorone|GospodinSDrugojStoronyGruppy" source="PervyjNaStorone" target="GospodinSDrugojStoronyGruppy" weight="1"/>
+            <edge id="PervyjNaStorone|GospodinPolozhitelnogoSvojstva" source="PervyjNaStorone" target="GospodinPolozhitelnogoSvojstva" weight="1"/>
+            <edge id="PervyjNaStorone|GospodinOtritsatelnogoSvojstva" source="PervyjNaStorone" target="GospodinOtritsatelnogoSvojstva" weight="1"/>
+            <edge id="PervyjNaStorone|ProstoVral" source="PervyjNaStorone" target="ProstoVral" weight="1"/>
+            <edge id="PervyjNaStorone|GospodinDobrodushnogoSvojstva" source="PervyjNaStorone" target="GospodinDobrodushnogoSvojstva" weight="1"/>
+            <edge id="PervyjNaStorone|GospodinHladnokrovnogoSvojstva" source="PervyjNaStorone" target="GospodinHladnokrovnogoSvojstva" weight="1"/>
+            <edge id="PervyjNaStorone|DamaSrednegoSveta" source="PervyjNaStorone" target="DamaSrednegoSveta" weight="1"/>
+            <edge id="PervyjNaStorone|GospodinSVesom" source="PervyjNaStorone" target="GospodinSVesom" weight="1"/>
+            <edge id="PervyjNaStorone|VtorojGospodin" source="PervyjNaStorone" target="VtorojGospodin" weight="1"/>
+            <edge id="PervyjNaStorone|TretijGospodin" source="PervyjNaStorone" target="TretijGospodin" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|GospodinPolozhitelnogoSvojstva" source="GospodinSDrugojStoronyGruppy" target="GospodinPolozhitelnogoSvojstva" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|GospodinOtritsatelnogoSvojstva" source="GospodinSDrugojStoronyGruppy" target="GospodinOtritsatelnogoSvojstva" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|ProstoVral" source="GospodinSDrugojStoronyGruppy" target="ProstoVral" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|GospodinDobrodushnogoSvojstva" source="GospodinSDrugojStoronyGruppy" target="GospodinDobrodushnogoSvojstva" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|GospodinHladnokrovnogoSvojstva" source="GospodinSDrugojStoronyGruppy" target="GospodinHladnokrovnogoSvojstva" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|DamaSrednegoSveta" source="GospodinSDrugojStoronyGruppy" target="DamaSrednegoSveta" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|GospodinSVesom" source="GospodinSDrugojStoronyGruppy" target="GospodinSVesom" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|VtorojGospodin" source="GospodinSDrugojStoronyGruppy" target="VtorojGospodin" weight="1"/>
+            <edge id="GospodinSDrugojStoronyGruppy|TretijGospodin" source="GospodinSDrugojStoronyGruppy" target="TretijGospodin" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|GospodinOtritsatelnogoSvojstva" source="GospodinPolozhitelnogoSvojstva" target="GospodinOtritsatelnogoSvojstva" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|ProstoVral" source="GospodinPolozhitelnogoSvojstva" target="ProstoVral" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|GospodinDobrodushnogoSvojstva" source="GospodinPolozhitelnogoSvojstva" target="GospodinDobrodushnogoSvojstva" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|GospodinHladnokrovnogoSvojstva" source="GospodinPolozhitelnogoSvojstva" target="GospodinHladnokrovnogoSvojstva" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|DamaSrednegoSveta" source="GospodinPolozhitelnogoSvojstva" target="DamaSrednegoSveta" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|GospodinSVesom" source="GospodinPolozhitelnogoSvojstva" target="GospodinSVesom" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|VtorojGospodin" source="GospodinPolozhitelnogoSvojstva" target="VtorojGospodin" weight="1"/>
+            <edge id="GospodinPolozhitelnogoSvojstva|TretijGospodin" source="GospodinPolozhitelnogoSvojstva" target="TretijGospodin" weight="1"/>
+            <edge id="GospodinOtritsatelnogoSvojstva|ProstoVral" source="GospodinOtritsatelnogoSvojstva" target="ProstoVral" weight="1"/>
+            <edge id="GospodinOtritsatelnogoSvojstva|GospodinDobrodushnogoSvojstva" source="GospodinOtritsatelnogoSvojstva" target="GospodinDobrodushnogoSvojstva" weight="1"/>
+            <edge id="GospodinOtritsatelnogoSvojstva|GospodinHladnokrovnogoSvojstva" source="GospodinOtritsatelnogoSvojstva" target="GospodinHladnokrovnogoSvojstva" weight="1"/>
+            <edge id="GospodinOtritsatelnogoSvojstva|DamaSrednegoSveta" source="GospodinOtritsatelnogoSvojstva" target="DamaSrednegoSveta" weight="1"/>
+            <edge id="GospodinOtritsatelnogoSvojstva|GospodinSVesom" source="GospodinOtritsatelnogoSvojstva" target="GospodinSVesom" weight="1"/>
+            <edge id="GospodinOtritsatelnogoSvojstva|VtorojGospodin" source="GospodinOtritsatelnogoSvojstva" target="VtorojGospodin" weight="1"/>
+            <edge id="GospodinOtritsatelnogoSvojstva|TretijGospodin" source="GospodinOtritsatelnogoSvojstva" target="TretijGospodin" weight="1"/>
+            <edge id="ProstoVral|GospodinDobrodushnogoSvojstva" source="ProstoVral" target="GospodinDobrodushnogoSvojstva" weight="1"/>
+            <edge id="ProstoVral|GospodinHladnokrovnogoSvojstva" source="ProstoVral" target="GospodinHladnokrovnogoSvojstva" weight="1"/>
+            <edge id="ProstoVral|DamaSrednegoSveta" source="ProstoVral" target="DamaSrednegoSveta" weight="1"/>
+            <edge id="ProstoVral|GospodinSVesom" source="ProstoVral" target="GospodinSVesom" weight="1"/>
+            <edge id="ProstoVral|VtorojGospodin" source="ProstoVral" target="VtorojGospodin" weight="1"/>
+            <edge id="ProstoVral|TretijGospodin" source="ProstoVral" target="TretijGospodin" weight="1"/>
+            <edge id="GospodinDobrodushnogoSvojstva|GospodinHladnokrovnogoSvojstva" source="GospodinDobrodushnogoSvojstva" target="GospodinHladnokrovnogoSvojstva" weight="1"/>
+            <edge id="GospodinDobrodushnogoSvojstva|DamaSrednegoSveta" source="GospodinDobrodushnogoSvojstva" target="DamaSrednegoSveta" weight="1"/>
+            <edge id="GospodinDobrodushnogoSvojstva|GospodinSVesom" source="GospodinDobrodushnogoSvojstva" target="GospodinSVesom" weight="1"/>
+            <edge id="GospodinDobrodushnogoSvojstva|VtorojGospodin" source="GospodinDobrodushnogoSvojstva" target="VtorojGospodin" weight="1"/>
+            <edge id="GospodinDobrodushnogoSvojstva|TretijGospodin" source="GospodinDobrodushnogoSvojstva" target="TretijGospodin" weight="1"/>
+            <edge id="GospodinHladnokrovnogoSvojstva|DamaSrednegoSveta" source="GospodinHladnokrovnogoSvojstva" target="DamaSrednegoSveta" weight="1"/>
+            <edge id="GospodinHladnokrovnogoSvojstva|GospodinSVesom" source="GospodinHladnokrovnogoSvojstva" target="GospodinSVesom" weight="1"/>
+            <edge id="GospodinHladnokrovnogoSvojstva|VtorojGospodin" source="GospodinHladnokrovnogoSvojstva" target="VtorojGospodin" weight="1"/>
+            <edge id="GospodinHladnokrovnogoSvojstva|TretijGospodin" source="GospodinHladnokrovnogoSvojstva" target="TretijGospodin" weight="1"/>
+            <edge id="DamaSrednegoSveta|GospodinSVesom" source="DamaSrednegoSveta" target="GospodinSVesom" weight="1"/>
+            <edge id="DamaSrednegoSveta|VtorojGospodin" source="DamaSrednegoSveta" target="VtorojGospodin" weight="1"/>
+            <edge id="DamaSrednegoSveta|TretijGospodin" source="DamaSrednegoSveta" target="TretijGospodin" weight="1"/>
+            <edge id="GospodinSVesom|VtorojGospodin" source="GospodinSVesom" target="VtorojGospodin" weight="1"/>
+            <edge id="GospodinSVesom|TretijGospodin" source="GospodinSVesom" target="TretijGospodin" weight="1"/>
+            <edge id="VtorojGospodin|TretijGospodin" source="VtorojGospodin" target="TretijGospodin" weight="1"/>
+            <edge id="PervyjVprochemBlagorodnyj|VtorojVprochemBlagorodnyj" source="PervyjVprochemBlagorodnyj" target="VtorojVprochemBlagorodnyj" weight="1"/>
+            <edge id="PervyjVprochemBlagorodnyj|TretijVprochemBlagorodnyj" source="PervyjVprochemBlagorodnyj" target="TretijVprochemBlagorodnyj" weight="1"/>
+            <edge id="VtorojVprochemBlagorodnyj|TretijVprochemBlagorodnyj" source="VtorojVprochemBlagorodnyj" target="TretijVprochemBlagorodnyj" weight="1"/>
+            <edge id="DobrodushnyjChinovnik|OdinIzNaroda" source="DobrodushnyjChinovnik" target="OdinIzNaroda" weight="1"/>
+            <edge id="DobrodushnyjChinovnik|OdinIzGospod" source="DobrodushnyjChinovnik" target="OdinIzGospod" weight="1"/>
+            <edge id="DobrodushnyjChinovnik|OtstavshijChinovnik" source="DobrodushnyjChinovnik" target="OtstavshijChinovnik" weight="1"/>
+            <edge id="OdinIzNaroda|OdinIzGospod" source="OdinIzNaroda" target="OdinIzGospod" weight="1"/>
+            <edge id="OdinIzNaroda|OtstavshijChinovnik" source="OdinIzNaroda" target="OtstavshijChinovnik" weight="1"/>
+            <edge id="OdinIzGospod|OtstavshijChinovnik" source="OdinIzGospod" target="OtstavshijChinovnik" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

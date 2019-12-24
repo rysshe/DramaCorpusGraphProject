@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Неожиданный случай</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="rozovyj" label="Розовый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2560"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="druzhnin" label="Дружнин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2502"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sofya_antonovna" label="Софья Антоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="677"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="rozovyj|druzhnin" source="rozovyj" target="druzhnin" weight="10"/>
+            <edge id="rozovyj|sofya_antonovna" source="rozovyj" target="sofya_antonovna" weight="7"/>
+            <edge id="rozovyj|masha" source="rozovyj" target="masha" weight="3"/>
+            <edge id="druzhnin|sofya_antonovna" source="druzhnin" target="sofya_antonovna" weight="6"/>
+            <edge id="druzhnin|masha" source="druzhnin" target="masha" weight="3"/>
+            <edge id="sofya_antonovna|masha" source="sofya_antonovna" target="masha" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

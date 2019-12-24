@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Сумароков, Александр Петрович: Вздорщица</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="burda" label="Бурда">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="994"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="finetta" label="Финетта">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="629"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rozmarin" label="Розмарин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="494"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="durak" label="Дурак">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1277"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="asir" label="Асир">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="517"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="erast" label="Ераст">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="176"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rozalija" label="Розалия">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="273"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vorozheja" label="Ворожея">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="257"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="burda|finetta" source="burda" target="finetta" weight="6"/>
+            <edge id="burda|rozmarin" source="burda" target="rozmarin" weight="4"/>
+            <edge id="burda|durak" source="burda" target="durak" weight="4"/>
+            <edge id="burda|asir" source="burda" target="asir" weight="4"/>
+            <edge id="burda|vorozheja" source="burda" target="vorozheja" weight="2"/>
+            <edge id="burda|erast" source="burda" target="erast" weight="1"/>
+            <edge id="burda|rozalija" source="burda" target="rozalija" weight="1"/>
+            <edge id="finetta|rozmarin" source="finetta" target="rozmarin" weight="4"/>
+            <edge id="finetta|durak" source="finetta" target="durak" weight="4"/>
+            <edge id="finetta|rozalija" source="finetta" target="rozalija" weight="4"/>
+            <edge id="finetta|erast" source="finetta" target="erast" weight="3"/>
+            <edge id="finetta|asir" source="finetta" target="asir" weight="3"/>
+            <edge id="finetta|vorozheja" source="finetta" target="vorozheja" weight="3"/>
+            <edge id="rozmarin|durak" source="rozmarin" target="durak" weight="2"/>
+            <edge id="durak|asir" source="durak" target="asir" weight="3"/>
+            <edge id="durak|erast" source="durak" target="erast" weight="5"/>
+            <edge id="durak|rozalija" source="durak" target="rozalija" weight="4"/>
+            <edge id="durak|vorozheja" source="durak" target="vorozheja" weight="1"/>
+            <edge id="asir|erast" source="asir" target="erast" weight="5"/>
+            <edge id="asir|rozalija" source="asir" target="rozalija" weight="4"/>
+            <edge id="asir|vorozheja" source="asir" target="vorozheja" weight="1"/>
+            <edge id="erast|rozalija" source="erast" target="rozalija" weight="7"/>
+            <edge id="erast|vorozheja" source="erast" target="vorozheja" weight="1"/>
+            <edge id="rozalija|vorozheja" source="rozalija" target="vorozheja" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

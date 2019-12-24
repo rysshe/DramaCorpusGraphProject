@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Княжнин, Яков Борисович: Хвастун</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="polist" label="Полист">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3090"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prostodum" label="Простодум">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1888"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="portnoj" label="Портной">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="322"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="verholet" label="Верхолет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2421"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="marina" label="Марина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1039"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="chvankina" label="Чванкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1492"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="milena" label="Милена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="920"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="prikazchik" label="Приказчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="240"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zamir" label="Замир">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1169"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="cheston" label="Честон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1665"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="blagochinnyj" label="Благочинный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="81"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="polist|prostodum" source="polist" target="prostodum" weight="12"/>
+            <edge id="polist|portnoj" source="polist" target="portnoj" weight="2"/>
+            <edge id="polist|verholet" source="polist" target="verholet" weight="14"/>
+            <edge id="polist|marina" source="polist" target="marina" weight="12"/>
+            <edge id="polist|chvankina" source="polist" target="chvankina" weight="13"/>
+            <edge id="polist|milena" source="polist" target="milena" weight="5"/>
+            <edge id="polist|prikazchik" source="polist" target="prikazchik" weight="2"/>
+            <edge id="polist|zamir" source="polist" target="zamir" weight="6"/>
+            <edge id="polist|cheston" source="polist" target="cheston" weight="6"/>
+            <edge id="polist|blagochinnyj" source="polist" target="blagochinnyj" weight="1"/>
+            <edge id="prostodum|portnoj" source="prostodum" target="portnoj" weight="3"/>
+            <edge id="prostodum|verholet" source="prostodum" target="verholet" weight="6"/>
+            <edge id="prostodum|marina" source="prostodum" target="marina" weight="5"/>
+            <edge id="prostodum|chvankina" source="prostodum" target="chvankina" weight="6"/>
+            <edge id="prostodum|cheston" source="prostodum" target="cheston" weight="5"/>
+            <edge id="prostodum|milena" source="prostodum" target="milena" weight="3"/>
+            <edge id="prostodum|prikazchik" source="prostodum" target="prikazchik" weight="1"/>
+            <edge id="prostodum|blagochinnyj" source="prostodum" target="blagochinnyj" weight="1"/>
+            <edge id="prostodum|zamir" source="prostodum" target="zamir" weight="1"/>
+            <edge id="portnoj|chvankina" source="portnoj" target="chvankina" weight="2"/>
+            <edge id="portnoj|verholet" source="portnoj" target="verholet" weight="1"/>
+            <edge id="verholet|marina" source="verholet" target="marina" weight="4"/>
+            <edge id="verholet|chvankina" source="verholet" target="chvankina" weight="9"/>
+            <edge id="verholet|prikazchik" source="verholet" target="prikazchik" weight="2"/>
+            <edge id="verholet|cheston" source="verholet" target="cheston" weight="3"/>
+            <edge id="verholet|milena" source="verholet" target="milena" weight="3"/>
+            <edge id="verholet|zamir" source="verholet" target="zamir" weight="3"/>
+            <edge id="verholet|blagochinnyj" source="verholet" target="blagochinnyj" weight="1"/>
+            <edge id="marina|chvankina" source="marina" target="chvankina" weight="8"/>
+            <edge id="marina|milena" source="marina" target="milena" weight="6"/>
+            <edge id="marina|zamir" source="marina" target="zamir" weight="5"/>
+            <edge id="marina|cheston" source="marina" target="cheston" weight="5"/>
+            <edge id="marina|prikazchik" source="marina" target="prikazchik" weight="1"/>
+            <edge id="marina|blagochinnyj" source="marina" target="blagochinnyj" weight="1"/>
+            <edge id="chvankina|milena" source="chvankina" target="milena" weight="5"/>
+            <edge id="chvankina|prikazchik" source="chvankina" target="prikazchik" weight="2"/>
+            <edge id="chvankina|zamir" source="chvankina" target="zamir" weight="4"/>
+            <edge id="chvankina|cheston" source="chvankina" target="cheston" weight="7"/>
+            <edge id="chvankina|blagochinnyj" source="chvankina" target="blagochinnyj" weight="1"/>
+            <edge id="milena|zamir" source="milena" target="zamir" weight="6"/>
+            <edge id="milena|cheston" source="milena" target="cheston" weight="6"/>
+            <edge id="milena|prikazchik" source="milena" target="prikazchik" weight="1"/>
+            <edge id="milena|blagochinnyj" source="milena" target="blagochinnyj" weight="1"/>
+            <edge id="prikazchik|cheston" source="prikazchik" target="cheston" weight="1"/>
+            <edge id="zamir|cheston" source="zamir" target="cheston" weight="8"/>
+            <edge id="zamir|blagochinnyj" source="zamir" target="blagochinnyj" weight="1"/>
+            <edge id="cheston|blagochinnyj" source="cheston" target="blagochinnyj" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Горький, Максим: Васса Железнова (Мать)</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="dunechka" label="Дунечка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="30"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lipa" label="Липа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="150"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vassa" label="Васса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2722"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dunja" label="Дуня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="56"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mihail" label="Михаил">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="676"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pavel" label="Павел">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="924"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="natalja" label="Наталья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="669"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="semen" label="Семён">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="758"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prohor" label="Прохор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="932"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ljudmila" label="Людмила">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="947"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="anna" label="Анна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="804"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="anisja" label="Анисья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="dunechka|lipa" source="dunechka" target="lipa" weight="1"/>
+            <edge id="dunechka|vassa" source="dunechka" target="vassa" weight="2"/>
+            <edge id="dunechka|dunja" source="dunechka" target="dunja" weight="1"/>
+            <edge id="dunechka|mihail" source="dunechka" target="mihail" weight="2"/>
+            <edge id="dunechka|pavel" source="dunechka" target="pavel" weight="2"/>
+            <edge id="dunechka|natalja" source="dunechka" target="natalja" weight="2"/>
+            <edge id="dunechka|semen" source="dunechka" target="semen" weight="2"/>
+            <edge id="dunechka|prohor" source="dunechka" target="prohor" weight="2"/>
+            <edge id="dunechka|ljudmila" source="dunechka" target="ljudmila" weight="2"/>
+            <edge id="dunechka|anna" source="dunechka" target="anna" weight="2"/>
+            <edge id="dunechka|anisja" source="dunechka" target="anisja" weight="1"/>
+            <edge id="lipa|vassa" source="lipa" target="vassa" weight="2"/>
+            <edge id="lipa|dunja" source="lipa" target="dunja" weight="1"/>
+            <edge id="lipa|mihail" source="lipa" target="mihail" weight="2"/>
+            <edge id="lipa|pavel" source="lipa" target="pavel" weight="2"/>
+            <edge id="lipa|natalja" source="lipa" target="natalja" weight="2"/>
+            <edge id="lipa|semen" source="lipa" target="semen" weight="2"/>
+            <edge id="lipa|prohor" source="lipa" target="prohor" weight="2"/>
+            <edge id="lipa|ljudmila" source="lipa" target="ljudmila" weight="2"/>
+            <edge id="lipa|anna" source="lipa" target="anna" weight="2"/>
+            <edge id="vassa|dunja" source="vassa" target="dunja" weight="1"/>
+            <edge id="vassa|mihail" source="vassa" target="mihail" weight="3"/>
+            <edge id="vassa|pavel" source="vassa" target="pavel" weight="3"/>
+            <edge id="vassa|natalja" source="vassa" target="natalja" weight="3"/>
+            <edge id="vassa|semen" source="vassa" target="semen" weight="3"/>
+            <edge id="vassa|prohor" source="vassa" target="prohor" weight="3"/>
+            <edge id="vassa|ljudmila" source="vassa" target="ljudmila" weight="3"/>
+            <edge id="vassa|anna" source="vassa" target="anna" weight="3"/>
+            <edge id="vassa|anisja" source="vassa" target="anisja" weight="1"/>
+            <edge id="dunja|mihail" source="dunja" target="mihail" weight="1"/>
+            <edge id="dunja|pavel" source="dunja" target="pavel" weight="1"/>
+            <edge id="dunja|natalja" source="dunja" target="natalja" weight="1"/>
+            <edge id="dunja|semen" source="dunja" target="semen" weight="1"/>
+            <edge id="dunja|prohor" source="dunja" target="prohor" weight="1"/>
+            <edge id="dunja|ljudmila" source="dunja" target="ljudmila" weight="1"/>
+            <edge id="dunja|anna" source="dunja" target="anna" weight="1"/>
+            <edge id="mihail|pavel" source="mihail" target="pavel" weight="3"/>
+            <edge id="mihail|natalja" source="mihail" target="natalja" weight="3"/>
+            <edge id="mihail|semen" source="mihail" target="semen" weight="3"/>
+            <edge id="mihail|prohor" source="mihail" target="prohor" weight="3"/>
+            <edge id="mihail|ljudmila" source="mihail" target="ljudmila" weight="3"/>
+            <edge id="mihail|anna" source="mihail" target="anna" weight="3"/>
+            <edge id="mihail|anisja" source="mihail" target="anisja" weight="1"/>
+            <edge id="pavel|natalja" source="pavel" target="natalja" weight="3"/>
+            <edge id="pavel|semen" source="pavel" target="semen" weight="3"/>
+            <edge id="pavel|prohor" source="pavel" target="prohor" weight="3"/>
+            <edge id="pavel|ljudmila" source="pavel" target="ljudmila" weight="3"/>
+            <edge id="pavel|anna" source="pavel" target="anna" weight="3"/>
+            <edge id="pavel|anisja" source="pavel" target="anisja" weight="1"/>
+            <edge id="natalja|semen" source="natalja" target="semen" weight="3"/>
+            <edge id="natalja|prohor" source="natalja" target="prohor" weight="3"/>
+            <edge id="natalja|ljudmila" source="natalja" target="ljudmila" weight="3"/>
+            <edge id="natalja|anna" source="natalja" target="anna" weight="3"/>
+            <edge id="natalja|anisja" source="natalja" target="anisja" weight="1"/>
+            <edge id="semen|prohor" source="semen" target="prohor" weight="3"/>
+            <edge id="semen|ljudmila" source="semen" target="ljudmila" weight="3"/>
+            <edge id="semen|anna" source="semen" target="anna" weight="3"/>
+            <edge id="semen|anisja" source="semen" target="anisja" weight="1"/>
+            <edge id="prohor|ljudmila" source="prohor" target="ljudmila" weight="3"/>
+            <edge id="prohor|anna" source="prohor" target="anna" weight="3"/>
+            <edge id="prohor|anisja" source="prohor" target="anisja" weight="1"/>
+            <edge id="ljudmila|anna" source="ljudmila" target="anna" weight="3"/>
+            <edge id="ljudmila|anisja" source="ljudmila" target="anisja" weight="1"/>
+            <edge id="anna|anisja" source="anna" target="anisja" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

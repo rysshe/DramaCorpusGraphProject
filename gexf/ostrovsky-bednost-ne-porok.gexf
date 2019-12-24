@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Бедность не порок</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Egorushka" label="Егорушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="299"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Mitja" label="Митя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1743"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="PelagejaEgorovna" label="Пелагея Егоровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1596"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Guslin" label="Гуслин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="346"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Razljuljaev" label="Разлюляев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="573"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="GordejKarpych" label="Гордей Карпыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1072"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="AnnaIvanovna" label="Анна Ивановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="367"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="LjubovGordeevna" label="Любовь Гордеевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="705"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="40"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Liza" label="Лиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="110"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="LjubimKarpych" label="Любим Карпыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1546"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Arina" label="Арина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="414"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="PervajaGostja" label="1-я гостья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="VtorajaGostja" label="2-я гостья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Devushki" label="Девушки">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="134"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Starik" label="Старик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="133"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Vozhak" label="Вожак">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Korshunov" label="Коршунов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1055"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Egorushka|Mitja" source="Egorushka" target="Mitja" weight="3"/>
+            <edge id="Egorushka|Arina" source="Egorushka" target="Arina" weight="3"/>
+            <edge id="Egorushka|PelagejaEgorovna" source="Egorushka" target="PelagejaEgorovna" weight="2"/>
+            <edge id="Egorushka|Liza" source="Egorushka" target="Liza" weight="1"/>
+            <edge id="Egorushka|Razljuljaev" source="Egorushka" target="Razljuljaev" weight="2"/>
+            <edge id="Egorushka|PervajaGostja" source="Egorushka" target="PervajaGostja" weight="2"/>
+            <edge id="Egorushka|VtorajaGostja" source="Egorushka" target="VtorajaGostja" weight="1"/>
+            <edge id="Egorushka|Masha" source="Egorushka" target="Masha" weight="1"/>
+            <edge id="Egorushka|LjubovGordeevna" source="Egorushka" target="LjubovGordeevna" weight="2"/>
+            <edge id="Egorushka|Guslin" source="Egorushka" target="Guslin" weight="2"/>
+            <edge id="Egorushka|AnnaIvanovna" source="Egorushka" target="AnnaIvanovna" weight="1"/>
+            <edge id="Egorushka|Devushki" source="Egorushka" target="Devushki" weight="1"/>
+            <edge id="Egorushka|Starik" source="Egorushka" target="Starik" weight="1"/>
+            <edge id="Egorushka|Vozhak" source="Egorushka" target="Vozhak" weight="1"/>
+            <edge id="Egorushka|GordejKarpych" source="Egorushka" target="GordejKarpych" weight="1"/>
+            <edge id="Egorushka|Korshunov" source="Egorushka" target="Korshunov" weight="1"/>
+            <edge id="Mitja|PelagejaEgorovna" source="Mitja" target="PelagejaEgorovna" weight="9"/>
+            <edge id="Mitja|Guslin" source="Mitja" target="Guslin" weight="7"/>
+            <edge id="Mitja|Razljuljaev" source="Mitja" target="Razljuljaev" weight="7"/>
+            <edge id="Mitja|GordejKarpych" source="Mitja" target="GordejKarpych" weight="4"/>
+            <edge id="Mitja|AnnaIvanovna" source="Mitja" target="AnnaIvanovna" weight="4"/>
+            <edge id="Mitja|LjubovGordeevna" source="Mitja" target="LjubovGordeevna" weight="6"/>
+            <edge id="Mitja|Masha" source="Mitja" target="Masha" weight="2"/>
+            <edge id="Mitja|Liza" source="Mitja" target="Liza" weight="2"/>
+            <edge id="Mitja|LjubimKarpych" source="Mitja" target="LjubimKarpych" weight="2"/>
+            <edge id="Mitja|PervajaGostja" source="Mitja" target="PervajaGostja" weight="2"/>
+            <edge id="Mitja|VtorajaGostja" source="Mitja" target="VtorajaGostja" weight="1"/>
+            <edge id="Mitja|Arina" source="Mitja" target="Arina" weight="2"/>
+            <edge id="Mitja|Devushki" source="Mitja" target="Devushki" weight="2"/>
+            <edge id="Mitja|Starik" source="Mitja" target="Starik" weight="1"/>
+            <edge id="Mitja|Vozhak" source="Mitja" target="Vozhak" weight="1"/>
+            <edge id="Mitja|Korshunov" source="Mitja" target="Korshunov" weight="1"/>
+            <edge id="PelagejaEgorovna|Guslin" source="PelagejaEgorovna" target="Guslin" weight="4"/>
+            <edge id="PelagejaEgorovna|Arina" source="PelagejaEgorovna" target="Arina" weight="5"/>
+            <edge id="PelagejaEgorovna|Liza" source="PelagejaEgorovna" target="Liza" weight="2"/>
+            <edge id="PelagejaEgorovna|Razljuljaev" source="PelagejaEgorovna" target="Razljuljaev" weight="4"/>
+            <edge id="PelagejaEgorovna|PervajaGostja" source="PelagejaEgorovna" target="PervajaGostja" weight="3"/>
+            <edge id="PelagejaEgorovna|VtorajaGostja" source="PelagejaEgorovna" target="VtorajaGostja" weight="2"/>
+            <edge id="PelagejaEgorovna|Masha" source="PelagejaEgorovna" target="Masha" weight="2"/>
+            <edge id="PelagejaEgorovna|LjubovGordeevna" source="PelagejaEgorovna" target="LjubovGordeevna" weight="6"/>
+            <edge id="PelagejaEgorovna|AnnaIvanovna" source="PelagejaEgorovna" target="AnnaIvanovna" weight="4"/>
+            <edge id="PelagejaEgorovna|Devushki" source="PelagejaEgorovna" target="Devushki" weight="3"/>
+            <edge id="PelagejaEgorovna|Starik" source="PelagejaEgorovna" target="Starik" weight="1"/>
+            <edge id="PelagejaEgorovna|Vozhak" source="PelagejaEgorovna" target="Vozhak" weight="1"/>
+            <edge id="PelagejaEgorovna|GordejKarpych" source="PelagejaEgorovna" target="GordejKarpych" weight="4"/>
+            <edge id="PelagejaEgorovna|Korshunov" source="PelagejaEgorovna" target="Korshunov" weight="3"/>
+            <edge id="PelagejaEgorovna|LjubimKarpych" source="PelagejaEgorovna" target="LjubimKarpych" weight="1"/>
+            <edge id="Guslin|Razljuljaev" source="Guslin" target="Razljuljaev" weight="5"/>
+            <edge id="Guslin|AnnaIvanovna" source="Guslin" target="AnnaIvanovna" weight="3"/>
+            <edge id="Guslin|LjubovGordeevna" source="Guslin" target="LjubovGordeevna" weight="3"/>
+            <edge id="Guslin|Masha" source="Guslin" target="Masha" weight="2"/>
+            <edge id="Guslin|Liza" source="Guslin" target="Liza" weight="2"/>
+            <edge id="Guslin|PervajaGostja" source="Guslin" target="PervajaGostja" weight="2"/>
+            <edge id="Guslin|VtorajaGostja" source="Guslin" target="VtorajaGostja" weight="1"/>
+            <edge id="Guslin|Arina" source="Guslin" target="Arina" weight="2"/>
+            <edge id="Guslin|Devushki" source="Guslin" target="Devushki" weight="2"/>
+            <edge id="Guslin|Starik" source="Guslin" target="Starik" weight="1"/>
+            <edge id="Guslin|Vozhak" source="Guslin" target="Vozhak" weight="1"/>
+            <edge id="Guslin|GordejKarpych" source="Guslin" target="GordejKarpych" weight="1"/>
+            <edge id="Guslin|LjubimKarpych" source="Guslin" target="LjubimKarpych" weight="1"/>
+            <edge id="Razljuljaev|GordejKarpych" source="Razljuljaev" target="GordejKarpych" weight="3"/>
+            <edge id="Razljuljaev|AnnaIvanovna" source="Razljuljaev" target="AnnaIvanovna" weight="3"/>
+            <edge id="Razljuljaev|LjubovGordeevna" source="Razljuljaev" target="LjubovGordeevna" weight="5"/>
+            <edge id="Razljuljaev|Masha" source="Razljuljaev" target="Masha" weight="4"/>
+            <edge id="Razljuljaev|Liza" source="Razljuljaev" target="Liza" weight="4"/>
+            <edge id="Razljuljaev|PervajaGostja" source="Razljuljaev" target="PervajaGostja" weight="2"/>
+            <edge id="Razljuljaev|VtorajaGostja" source="Razljuljaev" target="VtorajaGostja" weight="1"/>
+            <edge id="Razljuljaev|Arina" source="Razljuljaev" target="Arina" weight="2"/>
+            <edge id="Razljuljaev|Devushki" source="Razljuljaev" target="Devushki" weight="2"/>
+            <edge id="Razljuljaev|Starik" source="Razljuljaev" target="Starik" weight="1"/>
+            <edge id="Razljuljaev|Vozhak" source="Razljuljaev" target="Vozhak" weight="1"/>
+            <edge id="Razljuljaev|LjubimKarpych" source="Razljuljaev" target="LjubimKarpych" weight="3"/>
+            <edge id="Razljuljaev|Korshunov" source="Razljuljaev" target="Korshunov" weight="2"/>
+            <edge id="GordejKarpych|Korshunov" source="GordejKarpych" target="Korshunov" weight="8"/>
+            <edge id="GordejKarpych|PervajaGostja" source="GordejKarpych" target="PervajaGostja" weight="1"/>
+            <edge id="GordejKarpych|VtorajaGostja" source="GordejKarpych" target="VtorajaGostja" weight="1"/>
+            <edge id="GordejKarpych|LjubovGordeevna" source="GordejKarpych" target="LjubovGordeevna" weight="6"/>
+            <edge id="GordejKarpych|AnnaIvanovna" source="GordejKarpych" target="AnnaIvanovna" weight="3"/>
+            <edge id="GordejKarpych|Masha" source="GordejKarpych" target="Masha" weight="2"/>
+            <edge id="GordejKarpych|Liza" source="GordejKarpych" target="Liza" weight="2"/>
+            <edge id="GordejKarpych|Devushki" source="GordejKarpych" target="Devushki" weight="2"/>
+            <edge id="GordejKarpych|Arina" source="GordejKarpych" target="Arina" weight="1"/>
+            <edge id="GordejKarpych|LjubimKarpych" source="GordejKarpych" target="LjubimKarpych" weight="3"/>
+            <edge id="AnnaIvanovna|LjubovGordeevna" source="AnnaIvanovna" target="LjubovGordeevna" weight="6"/>
+            <edge id="AnnaIvanovna|Masha" source="AnnaIvanovna" target="Masha" weight="4"/>
+            <edge id="AnnaIvanovna|Liza" source="AnnaIvanovna" target="Liza" weight="4"/>
+            <edge id="AnnaIvanovna|PervajaGostja" source="AnnaIvanovna" target="PervajaGostja" weight="1"/>
+            <edge id="AnnaIvanovna|VtorajaGostja" source="AnnaIvanovna" target="VtorajaGostja" weight="1"/>
+            <edge id="AnnaIvanovna|Arina" source="AnnaIvanovna" target="Arina" weight="1"/>
+            <edge id="AnnaIvanovna|Devushki" source="AnnaIvanovna" target="Devushki" weight="2"/>
+            <edge id="AnnaIvanovna|Korshunov" source="AnnaIvanovna" target="Korshunov" weight="2"/>
+            <edge id="AnnaIvanovna|LjubimKarpych" source="AnnaIvanovna" target="LjubimKarpych" weight="1"/>
+            <edge id="LjubovGordeevna|Masha" source="LjubovGordeevna" target="Masha" weight="5"/>
+            <edge id="LjubovGordeevna|Liza" source="LjubovGordeevna" target="Liza" weight="5"/>
+            <edge id="LjubovGordeevna|LjubimKarpych" source="LjubovGordeevna" target="LjubimKarpych" weight="3"/>
+            <edge id="LjubovGordeevna|PervajaGostja" source="LjubovGordeevna" target="PervajaGostja" weight="1"/>
+            <edge id="LjubovGordeevna|VtorajaGostja" source="LjubovGordeevna" target="VtorajaGostja" weight="1"/>
+            <edge id="LjubovGordeevna|Arina" source="LjubovGordeevna" target="Arina" weight="2"/>
+            <edge id="LjubovGordeevna|Devushki" source="LjubovGordeevna" target="Devushki" weight="3"/>
+            <edge id="LjubovGordeevna|Korshunov" source="LjubovGordeevna" target="Korshunov" weight="6"/>
+            <edge id="Masha|Liza" source="Masha" target="Liza" weight="6"/>
+            <edge id="Masha|PervajaGostja" source="Masha" target="PervajaGostja" weight="1"/>
+            <edge id="Masha|VtorajaGostja" source="Masha" target="VtorajaGostja" weight="1"/>
+            <edge id="Masha|Arina" source="Masha" target="Arina" weight="1"/>
+            <edge id="Masha|Devushki" source="Masha" target="Devushki" weight="1"/>
+            <edge id="Masha|Korshunov" source="Masha" target="Korshunov" weight="3"/>
+            <edge id="Masha|LjubimKarpych" source="Masha" target="LjubimKarpych" weight="1"/>
+            <edge id="Liza|PervajaGostja" source="Liza" target="PervajaGostja" weight="1"/>
+            <edge id="Liza|VtorajaGostja" source="Liza" target="VtorajaGostja" weight="1"/>
+            <edge id="Liza|Arina" source="Liza" target="Arina" weight="1"/>
+            <edge id="Liza|Devushki" source="Liza" target="Devushki" weight="1"/>
+            <edge id="Liza|Korshunov" source="Liza" target="Korshunov" weight="3"/>
+            <edge id="Liza|LjubimKarpych" source="Liza" target="LjubimKarpych" weight="1"/>
+            <edge id="LjubimKarpych|Korshunov" source="LjubimKarpych" target="Korshunov" weight="3"/>
+            <edge id="LjubimKarpych|Devushki" source="LjubimKarpych" target="Devushki" weight="1"/>
+            <edge id="Arina|PervajaGostja" source="Arina" target="PervajaGostja" weight="2"/>
+            <edge id="Arina|VtorajaGostja" source="Arina" target="VtorajaGostja" weight="1"/>
+            <edge id="Arina|Devushki" source="Arina" target="Devushki" weight="2"/>
+            <edge id="Arina|Starik" source="Arina" target="Starik" weight="1"/>
+            <edge id="Arina|Vozhak" source="Arina" target="Vozhak" weight="1"/>
+            <edge id="Arina|Korshunov" source="Arina" target="Korshunov" weight="1"/>
+            <edge id="PervajaGostja|VtorajaGostja" source="PervajaGostja" target="VtorajaGostja" weight="2"/>
+            <edge id="PervajaGostja|Devushki" source="PervajaGostja" target="Devushki" weight="1"/>
+            <edge id="PervajaGostja|Starik" source="PervajaGostja" target="Starik" weight="1"/>
+            <edge id="PervajaGostja|Vozhak" source="PervajaGostja" target="Vozhak" weight="1"/>
+            <edge id="PervajaGostja|Korshunov" source="PervajaGostja" target="Korshunov" weight="1"/>
+            <edge id="VtorajaGostja|Devushki" source="VtorajaGostja" target="Devushki" weight="1"/>
+            <edge id="VtorajaGostja|Korshunov" source="VtorajaGostja" target="Korshunov" weight="1"/>
+            <edge id="Devushki|Korshunov" source="Devushki" target="Korshunov" weight="1"/>
+            <edge id="Starik|Vozhak" source="Starik" target="Vozhak" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

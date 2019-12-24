@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Гумилёв, Николай Степанович: Гондла</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="konung" label="Конунг">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="502"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lage" label="Лаге">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="548"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ahti" label="Ахти">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="562"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="grubbe" label="Груббе">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="532"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="snorre" label="Снорре">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="323"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gondla" label="Гондла">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1499"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lera" label="Лера">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1015"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vozhd" label="Вождь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="285"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="konung|lage" source="konung" target="lage" weight="4"/>
+            <edge id="konung|ahti" source="konung" target="ahti" weight="4"/>
+            <edge id="konung|grubbe" source="konung" target="grubbe" weight="5"/>
+            <edge id="konung|snorre" source="konung" target="snorre" weight="5"/>
+            <edge id="konung|gondla" source="konung" target="gondla" weight="3"/>
+            <edge id="konung|vozhd" source="konung" target="vozhd" weight="3"/>
+            <edge id="konung|lera" source="konung" target="lera" weight="2"/>
+            <edge id="lage|ahti" source="lage" target="ahti" weight="8"/>
+            <edge id="lage|grubbe" source="lage" target="grubbe" weight="10"/>
+            <edge id="lage|snorre" source="lage" target="snorre" weight="10"/>
+            <edge id="lage|gondla" source="lage" target="gondla" weight="6"/>
+            <edge id="lage|lera" source="lage" target="lera" weight="5"/>
+            <edge id="lage|vozhd" source="lage" target="vozhd" weight="3"/>
+            <edge id="ahti|grubbe" source="ahti" target="grubbe" weight="9"/>
+            <edge id="ahti|snorre" source="ahti" target="snorre" weight="9"/>
+            <edge id="ahti|gondla" source="ahti" target="gondla" weight="6"/>
+            <edge id="ahti|lera" source="ahti" target="lera" weight="4"/>
+            <edge id="ahti|vozhd" source="ahti" target="vozhd" weight="4"/>
+            <edge id="grubbe|snorre" source="grubbe" target="snorre" weight="10"/>
+            <edge id="grubbe|gondla" source="grubbe" target="gondla" weight="6"/>
+            <edge id="grubbe|lera" source="grubbe" target="lera" weight="4"/>
+            <edge id="grubbe|vozhd" source="grubbe" target="vozhd" weight="4"/>
+            <edge id="snorre|gondla" source="snorre" target="gondla" weight="6"/>
+            <edge id="snorre|lera" source="snorre" target="lera" weight="4"/>
+            <edge id="snorre|vozhd" source="snorre" target="vozhd" weight="4"/>
+            <edge id="gondla|lera" source="gondla" target="lera" weight="7"/>
+            <edge id="gondla|vozhd" source="gondla" target="vozhd" weight="4"/>
+            <edge id="lera|vozhd" source="lera" target="vozhd" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

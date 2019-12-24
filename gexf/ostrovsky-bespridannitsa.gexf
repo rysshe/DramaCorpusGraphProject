@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Бесприданница</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="Ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="464"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Gavrilo" label="Гаврило">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="431"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Vozhevatov" label="Вожеватов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2381"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Knurov" label="Кнуров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1546"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ogudalova" label="Огудалова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1447"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Karandyshev" label="Карандышев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2029"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Larisa" label="Лариса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2459"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Paratov" label="Паратов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2694"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Robinzon" label="Робинзон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1121"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Ilja" label="Илья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="316"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="EvfrosinjaPotapovna" label="Евфросинья Потаповна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="437"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="Ivan|Gavrilo" source="Ivan" target="Gavrilo" weight="6"/>
+            <edge id="Ivan|Vozhevatov" source="Ivan" target="Vozhevatov" weight="5"/>
+            <edge id="Ivan|Knurov" source="Ivan" target="Knurov" weight="5"/>
+            <edge id="Ivan|Ogudalova" source="Ivan" target="Ogudalova" weight="3"/>
+            <edge id="Ivan|Karandyshev" source="Ivan" target="Karandyshev" weight="4"/>
+            <edge id="Ivan|Larisa" source="Ivan" target="Larisa" weight="3"/>
+            <edge id="Ivan|Paratov" source="Ivan" target="Paratov" weight="3"/>
+            <edge id="Ivan|Robinzon" source="Ivan" target="Robinzon" weight="5"/>
+            <edge id="Ivan|EvfrosinjaPotapovna" source="Ivan" target="EvfrosinjaPotapovna" weight="3"/>
+            <edge id="Ivan|Ilja" source="Ivan" target="Ilja" weight="1"/>
+            <edge id="Gavrilo|Vozhevatov" source="Gavrilo" target="Vozhevatov" weight="4"/>
+            <edge id="Gavrilo|Knurov" source="Gavrilo" target="Knurov" weight="4"/>
+            <edge id="Gavrilo|Ogudalova" source="Gavrilo" target="Ogudalova" weight="1"/>
+            <edge id="Gavrilo|Karandyshev" source="Gavrilo" target="Karandyshev" weight="1"/>
+            <edge id="Gavrilo|Larisa" source="Gavrilo" target="Larisa" weight="2"/>
+            <edge id="Gavrilo|Paratov" source="Gavrilo" target="Paratov" weight="2"/>
+            <edge id="Gavrilo|Robinzon" source="Gavrilo" target="Robinzon" weight="2"/>
+            <edge id="Gavrilo|Ilja" source="Gavrilo" target="Ilja" weight="1"/>
+            <edge id="Vozhevatov|Knurov" source="Vozhevatov" target="Knurov" weight="13"/>
+            <edge id="Vozhevatov|Ogudalova" source="Vozhevatov" target="Ogudalova" weight="5"/>
+            <edge id="Vozhevatov|Karandyshev" source="Vozhevatov" target="Karandyshev" weight="6"/>
+            <edge id="Vozhevatov|Larisa" source="Vozhevatov" target="Larisa" weight="5"/>
+            <edge id="Vozhevatov|Paratov" source="Vozhevatov" target="Paratov" weight="14"/>
+            <edge id="Vozhevatov|Robinzon" source="Vozhevatov" target="Robinzon" weight="12"/>
+            <edge id="Vozhevatov|Ilja" source="Vozhevatov" target="Ilja" weight="2"/>
+            <edge id="Vozhevatov|EvfrosinjaPotapovna" source="Vozhevatov" target="EvfrosinjaPotapovna" weight="1"/>
+            <edge id="Knurov|Ogudalova" source="Knurov" target="Ogudalova" weight="4"/>
+            <edge id="Knurov|Karandyshev" source="Knurov" target="Karandyshev" weight="4"/>
+            <edge id="Knurov|Larisa" source="Knurov" target="Larisa" weight="5"/>
+            <edge id="Knurov|Paratov" source="Knurov" target="Paratov" weight="9"/>
+            <edge id="Knurov|Robinzon" source="Knurov" target="Robinzon" weight="8"/>
+            <edge id="Knurov|Ilja" source="Knurov" target="Ilja" weight="2"/>
+            <edge id="Knurov|EvfrosinjaPotapovna" source="Knurov" target="EvfrosinjaPotapovna" weight="1"/>
+            <edge id="Ogudalova|Karandyshev" source="Ogudalova" target="Karandyshev" weight="8"/>
+            <edge id="Ogudalova|Larisa" source="Ogudalova" target="Larisa" weight="10"/>
+            <edge id="Ogudalova|Ilja" source="Ogudalova" target="Ilja" weight="2"/>
+            <edge id="Ogudalova|Paratov" source="Ogudalova" target="Paratov" weight="6"/>
+            <edge id="Ogudalova|Robinzon" source="Ogudalova" target="Robinzon" weight="4"/>
+            <edge id="Ogudalova|EvfrosinjaPotapovna" source="Ogudalova" target="EvfrosinjaPotapovna" weight="3"/>
+            <edge id="Karandyshev|Larisa" source="Karandyshev" target="Larisa" weight="7"/>
+            <edge id="Karandyshev|Paratov" source="Karandyshev" target="Paratov" weight="6"/>
+            <edge id="Karandyshev|Robinzon" source="Karandyshev" target="Robinzon" weight="7"/>
+            <edge id="Karandyshev|Ilja" source="Karandyshev" target="Ilja" weight="1"/>
+            <edge id="Karandyshev|EvfrosinjaPotapovna" source="Karandyshev" target="EvfrosinjaPotapovna" weight="2"/>
+            <edge id="Larisa|Ilja" source="Larisa" target="Ilja" weight="2"/>
+            <edge id="Larisa|Paratov" source="Larisa" target="Paratov" weight="8"/>
+            <edge id="Larisa|EvfrosinjaPotapovna" source="Larisa" target="EvfrosinjaPotapovna" weight="2"/>
+            <edge id="Larisa|Robinzon" source="Larisa" target="Robinzon" weight="5"/>
+            <edge id="Paratov|Robinzon" source="Paratov" target="Robinzon" weight="12"/>
+            <edge id="Paratov|Ilja" source="Paratov" target="Ilja" weight="2"/>
+            <edge id="Paratov|EvfrosinjaPotapovna" source="Paratov" target="EvfrosinjaPotapovna" weight="1"/>
+            <edge id="Robinzon|Ilja" source="Robinzon" target="Ilja" weight="1"/>
+            <edge id="Robinzon|EvfrosinjaPotapovna" source="Robinzon" target="EvfrosinjaPotapovna" weight="1"/>
+            <edge id="Ilja|EvfrosinjaPotapovna" source="Ilja" target="EvfrosinjaPotapovna" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

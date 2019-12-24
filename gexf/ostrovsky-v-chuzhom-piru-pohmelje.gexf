@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: В чужом пиру похмелье</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="ivan_ksenofontych" label="Иван Ксенофонтыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="682"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="agrafena_platonovna" label="Аграфена Платоновна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1425"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lizaveta_ivanovna" label="Лизавета Ивановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="599"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="andrej_titych" label="Андрей Титыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1231"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tit_titych" label="Тит Титыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1272"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kapiton_titych" label="Капитон Титыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="104"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lusha" label="Луша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="28"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nastasya_pankratevna" label="Настасья Панкратьевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="752"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nenila_sidorovna" label="Ненила Сидоровна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="335"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zahar_zaharych" label="Захар Захарыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="106"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="ivan_ksenofontych|agrafena_platonovna" source="ivan_ksenofontych" target="agrafena_platonovna" weight="2"/>
+            <edge id="ivan_ksenofontych|lizaveta_ivanovna" source="ivan_ksenofontych" target="lizaveta_ivanovna" weight="3"/>
+            <edge id="ivan_ksenofontych|tit_titych" source="ivan_ksenofontych" target="tit_titych" weight="2"/>
+            <edge id="ivan_ksenofontych|andrej_titych" source="ivan_ksenofontych" target="andrej_titych" weight="1"/>
+            <edge id="ivan_ksenofontych|zahar_zaharych" source="ivan_ksenofontych" target="zahar_zaharych" weight="1"/>
+            <edge id="ivan_ksenofontych|nastasya_pankratevna" source="ivan_ksenofontych" target="nastasya_pankratevna" weight="1"/>
+            <edge id="agrafena_platonovna|andrej_titych" source="agrafena_platonovna" target="andrej_titych" weight="1"/>
+            <edge id="agrafena_platonovna|lizaveta_ivanovna" source="agrafena_platonovna" target="lizaveta_ivanovna" weight="3"/>
+            <edge id="agrafena_platonovna|tit_titych" source="agrafena_platonovna" target="tit_titych" weight="2"/>
+            <edge id="lizaveta_ivanovna|andrej_titych" source="lizaveta_ivanovna" target="andrej_titych" weight="1"/>
+            <edge id="lizaveta_ivanovna|tit_titych" source="lizaveta_ivanovna" target="tit_titych" weight="2"/>
+            <edge id="andrej_titych|nastasya_pankratevna" source="andrej_titych" target="nastasya_pankratevna" weight="3"/>
+            <edge id="andrej_titych|nenila_sidorovna" source="andrej_titych" target="nenila_sidorovna" weight="1"/>
+            <edge id="andrej_titych|kapiton_titych" source="andrej_titych" target="kapiton_titych" weight="1"/>
+            <edge id="andrej_titych|lusha" source="andrej_titych" target="lusha" weight="1"/>
+            <edge id="andrej_titych|tit_titych" source="andrej_titych" target="tit_titych" weight="3"/>
+            <edge id="andrej_titych|zahar_zaharych" source="andrej_titych" target="zahar_zaharych" weight="1"/>
+            <edge id="tit_titych|nastasya_pankratevna" source="tit_titych" target="nastasya_pankratevna" weight="4"/>
+            <edge id="tit_titych|zahar_zaharych" source="tit_titych" target="zahar_zaharych" weight="2"/>
+            <edge id="kapiton_titych|lusha" source="kapiton_titych" target="lusha" weight="2"/>
+            <edge id="kapiton_titych|nastasya_pankratevna" source="kapiton_titych" target="nastasya_pankratevna" weight="2"/>
+            <edge id="kapiton_titych|nenila_sidorovna" source="kapiton_titych" target="nenila_sidorovna" weight="2"/>
+            <edge id="lusha|nastasya_pankratevna" source="lusha" target="nastasya_pankratevna" weight="2"/>
+            <edge id="lusha|nenila_sidorovna" source="lusha" target="nenila_sidorovna" weight="2"/>
+            <edge id="nastasya_pankratevna|nenila_sidorovna" source="nastasya_pankratevna" target="nenila_sidorovna" weight="3"/>
+            <edge id="nastasya_pankratevna|zahar_zaharych" source="nastasya_pankratevna" target="zahar_zaharych" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

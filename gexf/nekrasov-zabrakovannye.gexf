@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Некрасов, Николай Алексеевич: Забракованные</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="grigoriy" label="Григорий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="497"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervaya_devushka" label="Первая девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoraya_devushka" label="Вторая девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="tretya_devushka" label="Третья девушка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="triumviratov" label="Триумвиратов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="298"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kalistratka" label="Калистрат">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kharchin" label="Харчин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="736"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tuzov" label="Тузов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="252"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kadykov" label="Кадыков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="42"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="grigoriy|pervaya_devushka" source="grigoriy" target="pervaya_devushka" weight="2"/>
+            <edge id="grigoriy|vtoraya_devushka" source="grigoriy" target="vtoraya_devushka" weight="2"/>
+            <edge id="grigoriy|tretya_devushka" source="grigoriy" target="tretya_devushka" weight="2"/>
+            <edge id="grigoriy|triumviratov" source="grigoriy" target="triumviratov" weight="4"/>
+            <edge id="grigoriy|kalistratka" source="grigoriy" target="kalistratka" weight="2"/>
+            <edge id="grigoriy|kharchin" source="grigoriy" target="kharchin" weight="1"/>
+            <edge id="grigoriy|tuzov" source="grigoriy" target="tuzov" weight="2"/>
+            <edge id="grigoriy|kadykov" source="grigoriy" target="kadykov" weight="1"/>
+            <edge id="pervaya_devushka|vtoraya_devushka" source="pervaya_devushka" target="vtoraya_devushka" weight="2"/>
+            <edge id="pervaya_devushka|tretya_devushka" source="pervaya_devushka" target="tretya_devushka" weight="2"/>
+            <edge id="pervaya_devushka|tuzov" source="pervaya_devushka" target="tuzov" weight="1"/>
+            <edge id="pervaya_devushka|triumviratov" source="pervaya_devushka" target="triumviratov" weight="1"/>
+            <edge id="vtoraya_devushka|tretya_devushka" source="vtoraya_devushka" target="tretya_devushka" weight="2"/>
+            <edge id="vtoraya_devushka|tuzov" source="vtoraya_devushka" target="tuzov" weight="1"/>
+            <edge id="vtoraya_devushka|triumviratov" source="vtoraya_devushka" target="triumviratov" weight="1"/>
+            <edge id="tretya_devushka|tuzov" source="tretya_devushka" target="tuzov" weight="1"/>
+            <edge id="tretya_devushka|triumviratov" source="tretya_devushka" target="triumviratov" weight="1"/>
+            <edge id="triumviratov|kalistratka" source="triumviratov" target="kalistratka" weight="2"/>
+            <edge id="triumviratov|kharchin" source="triumviratov" target="kharchin" weight="1"/>
+            <edge id="triumviratov|tuzov" source="triumviratov" target="tuzov" weight="2"/>
+            <edge id="kalistratka|kharchin" source="kalistratka" target="kharchin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

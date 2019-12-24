@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Чехов, Антон Павлович: Чайка</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="medvedenko" label="Медведенко">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="415"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="676"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sorin" label="Сорин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="992"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="treplev" label="Треплев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2278"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="jakov" label="Яков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="19"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nina" label="Нина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1799"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="polina_andreevna" label="Полина Андреевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="352"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dorn" label="Дорн">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="927"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="shamraev" label="Шамраев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="438"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="arkadina" label="Аркадина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1718"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="trigorin" label="Тригорин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1669"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="povar" label="Повар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="medvedenko|masha" source="medvedenko" target="masha" weight="8"/>
+            <edge id="medvedenko|sorin" source="medvedenko" target="sorin" weight="7"/>
+            <edge id="medvedenko|treplev" source="medvedenko" target="treplev" weight="4"/>
+            <edge id="medvedenko|arkadina" source="medvedenko" target="arkadina" weight="6"/>
+            <edge id="medvedenko|trigorin" source="medvedenko" target="trigorin" weight="2"/>
+            <edge id="medvedenko|dorn" source="medvedenko" target="dorn" weight="5"/>
+            <edge id="medvedenko|polina_andreevna" source="medvedenko" target="polina_andreevna" weight="5"/>
+            <edge id="medvedenko|shamraev" source="medvedenko" target="shamraev" weight="2"/>
+            <edge id="medvedenko|nina" source="medvedenko" target="nina" weight="1"/>
+            <edge id="masha|sorin" source="masha" target="sorin" weight="4"/>
+            <edge id="masha|treplev" source="masha" target="treplev" weight="4"/>
+            <edge id="masha|arkadina" source="masha" target="arkadina" weight="6"/>
+            <edge id="masha|trigorin" source="masha" target="trigorin" weight="5"/>
+            <edge id="masha|dorn" source="masha" target="dorn" weight="8"/>
+            <edge id="masha|polina_andreevna" source="masha" target="polina_andreevna" weight="7"/>
+            <edge id="masha|nina" source="masha" target="nina" weight="1"/>
+            <edge id="masha|shamraev" source="masha" target="shamraev" weight="3"/>
+            <edge id="sorin|treplev" source="sorin" target="treplev" weight="6"/>
+            <edge id="sorin|nina" source="sorin" target="nina" weight="5"/>
+            <edge id="sorin|arkadina" source="sorin" target="arkadina" weight="10"/>
+            <edge id="sorin|trigorin" source="sorin" target="trigorin" weight="2"/>
+            <edge id="sorin|dorn" source="sorin" target="dorn" weight="7"/>
+            <edge id="sorin|polina_andreevna" source="sorin" target="polina_andreevna" weight="5"/>
+            <edge id="sorin|shamraev" source="sorin" target="shamraev" weight="3"/>
+            <edge id="treplev|jakov" source="treplev" target="jakov" weight="2"/>
+            <edge id="treplev|nina" source="treplev" target="nina" weight="6"/>
+            <edge id="treplev|arkadina" source="treplev" target="arkadina" weight="7"/>
+            <edge id="treplev|polina_andreevna" source="treplev" target="polina_andreevna" weight="4"/>
+            <edge id="treplev|dorn" source="treplev" target="dorn" weight="3"/>
+            <edge id="treplev|shamraev" source="treplev" target="shamraev" weight="3"/>
+            <edge id="treplev|trigorin" source="treplev" target="trigorin" weight="2"/>
+            <edge id="jakov|trigorin" source="jakov" target="trigorin" weight="1"/>
+            <edge id="jakov|arkadina" source="jakov" target="arkadina" weight="1"/>
+            <edge id="jakov|povar" source="jakov" target="povar" weight="1"/>
+            <edge id="jakov|shamraev" source="jakov" target="shamraev" weight="1"/>
+            <edge id="nina|arkadina" source="nina" target="arkadina" weight="5"/>
+            <edge id="nina|polina_andreevna" source="nina" target="polina_andreevna" weight="3"/>
+            <edge id="nina|dorn" source="nina" target="dorn" weight="4"/>
+            <edge id="nina|shamraev" source="nina" target="shamraev" weight="1"/>
+            <edge id="nina|trigorin" source="nina" target="trigorin" weight="5"/>
+            <edge id="polina_andreevna|dorn" source="polina_andreevna" target="dorn" weight="8"/>
+            <edge id="polina_andreevna|arkadina" source="polina_andreevna" target="arkadina" weight="7"/>
+            <edge id="polina_andreevna|trigorin" source="polina_andreevna" target="trigorin" weight="4"/>
+            <edge id="polina_andreevna|shamraev" source="polina_andreevna" target="shamraev" weight="4"/>
+            <edge id="dorn|shamraev" source="dorn" target="shamraev" weight="5"/>
+            <edge id="dorn|arkadina" source="dorn" target="arkadina" weight="9"/>
+            <edge id="dorn|trigorin" source="dorn" target="trigorin" weight="4"/>
+            <edge id="shamraev|arkadina" source="shamraev" target="arkadina" weight="11"/>
+            <edge id="shamraev|trigorin" source="shamraev" target="trigorin" weight="6"/>
+            <edge id="shamraev|povar" source="shamraev" target="povar" weight="1"/>
+            <edge id="arkadina|trigorin" source="arkadina" target="trigorin" weight="10"/>
+            <edge id="arkadina|povar" source="arkadina" target="povar" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

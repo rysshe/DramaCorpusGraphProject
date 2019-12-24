@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Княжнин, Яков Борисович: Ольга</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="vsevesta" label="Всевеста">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="573"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="olga" label="Ольга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3871"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mirved" label="Мирвед">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1027"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mal" label="Мал">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2391"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zlovred" label="Зловред">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="387"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="svyatoslav" label="Святослав">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1867"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="volod" label="Волод">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="783"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="vsevesta|olga" source="vsevesta" target="olga" weight="11"/>
+            <edge id="vsevesta|mirved" source="vsevesta" target="mirved" weight="6"/>
+            <edge id="vsevesta|svyatoslav" source="vsevesta" target="svyatoslav" weight="4"/>
+            <edge id="vsevesta|volod" source="vsevesta" target="volod" weight="2"/>
+            <edge id="vsevesta|mal" source="vsevesta" target="mal" weight="2"/>
+            <edge id="olga|mirved" source="olga" target="mirved" weight="8"/>
+            <edge id="olga|mal" source="olga" target="mal" weight="4"/>
+            <edge id="olga|svyatoslav" source="olga" target="svyatoslav" weight="6"/>
+            <edge id="olga|zlovred" source="olga" target="zlovred" weight="2"/>
+            <edge id="olga|volod" source="olga" target="volod" weight="2"/>
+            <edge id="mirved|svyatoslav" source="mirved" target="svyatoslav" weight="3"/>
+            <edge id="mirved|volod" source="mirved" target="volod" weight="2"/>
+            <edge id="mal|zlovred" source="mal" target="zlovred" weight="3"/>
+            <edge id="mal|svyatoslav" source="mal" target="svyatoslav" weight="2"/>
+            <edge id="zlovred|svyatoslav" source="zlovred" target="svyatoslav" weight="1"/>
+            <edge id="svyatoslav|volod" source="svyatoslav" target="volod" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

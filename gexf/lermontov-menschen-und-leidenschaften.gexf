@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Лермонтов, Михаил Юрьевич: Menschen und Leidenschaften</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="daria" label="Дарья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1614"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ivan" label="Иван">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="375"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilisa" label="Василиса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="nikolaj_mihalyc" label="Николай Михалыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="989"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vasilij_mihalyc" label="Василий Михалыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1756"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zaruckij" label="Заруцкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1018"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="yuri" label="Юрий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4313"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="eliza" label="Элиза">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="382"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lubov" label="Любовь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1573"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="marfa_ivanovna" label="Марфа Ивановна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1603"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga" label="Слуга">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="daria|ivan" source="daria" target="ivan" weight="2"/>
+            <edge id="daria|vasilisa" source="daria" target="vasilisa" weight="1"/>
+            <edge id="daria|nikolaj_mihalyc" source="daria" target="nikolaj_mihalyc" weight="3"/>
+            <edge id="daria|vasilij_mihalyc" source="daria" target="vasilij_mihalyc" weight="3"/>
+            <edge id="daria|marfa_ivanovna" source="daria" target="marfa_ivanovna" weight="5"/>
+            <edge id="ivan|yuri" source="ivan" target="yuri" weight="1"/>
+            <edge id="ivan|nikolaj_mihalyc" source="ivan" target="nikolaj_mihalyc" weight="1"/>
+            <edge id="ivan|vasilij_mihalyc" source="ivan" target="vasilij_mihalyc" weight="1"/>
+            <edge id="nikolaj_mihalyc|vasilij_mihalyc" source="nikolaj_mihalyc" target="vasilij_mihalyc" weight="6"/>
+            <edge id="nikolaj_mihalyc|marfa_ivanovna" source="nikolaj_mihalyc" target="marfa_ivanovna" weight="1"/>
+            <edge id="nikolaj_mihalyc|yuri" source="nikolaj_mihalyc" target="yuri" weight="1"/>
+            <edge id="vasilij_mihalyc|marfa_ivanovna" source="vasilij_mihalyc" target="marfa_ivanovna" weight="1"/>
+            <edge id="vasilij_mihalyc|yuri" source="vasilij_mihalyc" target="yuri" weight="2"/>
+            <edge id="vasilij_mihalyc|sluga" source="vasilij_mihalyc" target="sluga" weight="1"/>
+            <edge id="zaruckij|yuri" source="zaruckij" target="yuri" weight="4"/>
+            <edge id="zaruckij|lubov" source="zaruckij" target="lubov" weight="3"/>
+            <edge id="yuri|lubov" source="yuri" target="lubov" weight="4"/>
+            <edge id="yuri|marfa_ivanovna" source="yuri" target="marfa_ivanovna" weight="1"/>
+            <edge id="yuri|eliza" source="yuri" target="eliza" weight="1"/>
+            <edge id="eliza|lubov" source="eliza" target="lubov" weight="3"/>
+        </edges>
+    </graph>
+</gexf>

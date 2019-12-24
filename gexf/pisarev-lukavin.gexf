@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Писарев, Александр Иванович: Лукавин</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="lukavin" label="Лукавин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2124"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zmejkin" label="Змейкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="912"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="masha" label="Маша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="170"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dosazhaeva" label="Досажаева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1247"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="dosazhaev" label="Досажаев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2380"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="porfirij" label="Порфирий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="211"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zdravosudov" label="Здравосудов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1611"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="moisej" label="Моисей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="236"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vetron" label="Ветрон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1548"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gosti" label="Гости">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="usladov" label="Усладов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="204"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga_vetrona" label="Слуга Ветрона">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluga_lukavina" label="Слуга Лукавина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="lukavin|zmejkin" source="lukavin" target="zmejkin" weight="2"/>
+            <edge id="lukavin|masha" source="lukavin" target="masha" weight="2"/>
+            <edge id="lukavin|dosazhaeva" source="lukavin" target="dosazhaeva" weight="6"/>
+            <edge id="lukavin|dosazhaev" source="lukavin" target="dosazhaev" weight="9"/>
+            <edge id="lukavin|vetron" source="lukavin" target="vetron" weight="8"/>
+            <edge id="lukavin|zdravosudov" source="lukavin" target="zdravosudov" weight="5"/>
+            <edge id="lukavin|sluga_lukavina" source="lukavin" target="sluga_lukavina" weight="3"/>
+            <edge id="zmejkin|vetron" source="zmejkin" target="vetron" weight="7"/>
+            <edge id="zmejkin|gosti" source="zmejkin" target="gosti" weight="2"/>
+            <edge id="zmejkin|usladov" source="zmejkin" target="usladov" weight="4"/>
+            <edge id="zmejkin|sluga_vetrona" source="zmejkin" target="sluga_vetrona" weight="1"/>
+            <edge id="zmejkin|moisej" source="zmejkin" target="moisej" weight="1"/>
+            <edge id="zmejkin|zdravosudov" source="zmejkin" target="zdravosudov" weight="5"/>
+            <edge id="zmejkin|porfirij" source="zmejkin" target="porfirij" weight="1"/>
+            <edge id="zmejkin|dosazhaev" source="zmejkin" target="dosazhaev" weight="3"/>
+            <edge id="zmejkin|dosazhaeva" source="zmejkin" target="dosazhaeva" weight="1"/>
+            <edge id="masha|dosazhaeva" source="masha" target="dosazhaeva" weight="2"/>
+            <edge id="masha|dosazhaev" source="masha" target="dosazhaev" weight="2"/>
+            <edge id="masha|vetron" source="masha" target="vetron" weight="1"/>
+            <edge id="masha|zdravosudov" source="masha" target="zdravosudov" weight="1"/>
+            <edge id="dosazhaeva|dosazhaev" source="dosazhaeva" target="dosazhaev" weight="6"/>
+            <edge id="dosazhaeva|sluga_lukavina" source="dosazhaeva" target="sluga_lukavina" weight="2"/>
+            <edge id="dosazhaeva|zdravosudov" source="dosazhaeva" target="zdravosudov" weight="2"/>
+            <edge id="dosazhaeva|vetron" source="dosazhaeva" target="vetron" weight="1"/>
+            <edge id="dosazhaev|porfirij" source="dosazhaev" target="porfirij" weight="2"/>
+            <edge id="dosazhaev|zdravosudov" source="dosazhaev" target="zdravosudov" weight="10"/>
+            <edge id="dosazhaev|moisej" source="dosazhaev" target="moisej" weight="1"/>
+            <edge id="dosazhaev|sluga_lukavina" source="dosazhaev" target="sluga_lukavina" weight="2"/>
+            <edge id="dosazhaev|vetron" source="dosazhaev" target="vetron" weight="8"/>
+            <edge id="porfirij|zdravosudov" source="porfirij" target="zdravosudov" weight="2"/>
+            <edge id="porfirij|vetron" source="porfirij" target="vetron" weight="1"/>
+            <edge id="porfirij|moisej" source="porfirij" target="moisej" weight="1"/>
+            <edge id="zdravosudov|moisej" source="zdravosudov" target="moisej" weight="4"/>
+            <edge id="zdravosudov|vetron" source="zdravosudov" target="vetron" weight="8"/>
+            <edge id="zdravosudov|usladov" source="zdravosudov" target="usladov" weight="1"/>
+            <edge id="moisej|vetron" source="moisej" target="vetron" weight="2"/>
+            <edge id="moisej|usladov" source="moisej" target="usladov" weight="1"/>
+            <edge id="vetron|gosti" source="vetron" target="gosti" weight="2"/>
+            <edge id="vetron|usladov" source="vetron" target="usladov" weight="5"/>
+            <edge id="vetron|sluga_vetrona" source="vetron" target="sluga_vetrona" weight="1"/>
+            <edge id="vetron|sluga_lukavina" source="vetron" target="sluga_lukavina" weight="1"/>
+            <edge id="gosti|usladov" source="gosti" target="usladov" weight="2"/>
+            <edge id="usladov|sluga_vetrona" source="usladov" target="sluga_vetrona" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

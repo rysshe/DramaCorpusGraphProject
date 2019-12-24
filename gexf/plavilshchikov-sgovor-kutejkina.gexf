@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Плавильщиков, Пётр Алексеевич: Сговор Кутейкина</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="ZhenaPreslepa" label="Жена его">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="508"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Preslep" label="Преслеп">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1079"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Paraskovja" label="Парасковья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="193"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Eremeevna" label="Еремеевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="330"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="Pimen" label="Пимен">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="470"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Neoh" label="Неох">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="112"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Skotinin" label="Скотинин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="620"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Tsyfirkin" label="Цыфиркин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="126"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="Kutejkin" label="Кутейкин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="185"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="ZhenaPreslepa|Preslep" source="ZhenaPreslepa" target="Preslep" weight="7"/>
+            <edge id="ZhenaPreslepa|Paraskovja" source="ZhenaPreslepa" target="Paraskovja" weight="8"/>
+            <edge id="ZhenaPreslepa|Eremeevna" source="ZhenaPreslepa" target="Eremeevna" weight="4"/>
+            <edge id="ZhenaPreslepa|Pimen" source="ZhenaPreslepa" target="Pimen" weight="4"/>
+            <edge id="ZhenaPreslepa|Neoh" source="ZhenaPreslepa" target="Neoh" weight="3"/>
+            <edge id="ZhenaPreslepa|Skotinin" source="ZhenaPreslepa" target="Skotinin" weight="3"/>
+            <edge id="ZhenaPreslepa|Tsyfirkin" source="ZhenaPreslepa" target="Tsyfirkin" weight="2"/>
+            <edge id="ZhenaPreslepa|Kutejkin" source="ZhenaPreslepa" target="Kutejkin" weight="3"/>
+            <edge id="Preslep|Paraskovja" source="Preslep" target="Paraskovja" weight="5"/>
+            <edge id="Preslep|Eremeevna" source="Preslep" target="Eremeevna" weight="5"/>
+            <edge id="Preslep|Pimen" source="Preslep" target="Pimen" weight="4"/>
+            <edge id="Preslep|Skotinin" source="Preslep" target="Skotinin" weight="3"/>
+            <edge id="Preslep|Tsyfirkin" source="Preslep" target="Tsyfirkin" weight="2"/>
+            <edge id="Preslep|Kutejkin" source="Preslep" target="Kutejkin" weight="3"/>
+            <edge id="Preslep|Neoh" source="Preslep" target="Neoh" weight="2"/>
+            <edge id="Paraskovja|Pimen" source="Paraskovja" target="Pimen" weight="4"/>
+            <edge id="Paraskovja|Neoh" source="Paraskovja" target="Neoh" weight="3"/>
+            <edge id="Paraskovja|Skotinin" source="Paraskovja" target="Skotinin" weight="2"/>
+            <edge id="Paraskovja|Tsyfirkin" source="Paraskovja" target="Tsyfirkin" weight="2"/>
+            <edge id="Paraskovja|Kutejkin" source="Paraskovja" target="Kutejkin" weight="2"/>
+            <edge id="Paraskovja|Eremeevna" source="Paraskovja" target="Eremeevna" weight="3"/>
+            <edge id="Eremeevna|Skotinin" source="Eremeevna" target="Skotinin" weight="2"/>
+            <edge id="Eremeevna|Tsyfirkin" source="Eremeevna" target="Tsyfirkin" weight="2"/>
+            <edge id="Eremeevna|Kutejkin" source="Eremeevna" target="Kutejkin" weight="2"/>
+            <edge id="Eremeevna|Pimen" source="Eremeevna" target="Pimen" weight="2"/>
+            <edge id="Eremeevna|Neoh" source="Eremeevna" target="Neoh" weight="1"/>
+            <edge id="Pimen|Neoh" source="Pimen" target="Neoh" weight="3"/>
+            <edge id="Pimen|Skotinin" source="Pimen" target="Skotinin" weight="1"/>
+            <edge id="Pimen|Kutejkin" source="Pimen" target="Kutejkin" weight="1"/>
+            <edge id="Pimen|Tsyfirkin" source="Pimen" target="Tsyfirkin" weight="1"/>
+            <edge id="Neoh|Skotinin" source="Neoh" target="Skotinin" weight="1"/>
+            <edge id="Neoh|Kutejkin" source="Neoh" target="Kutejkin" weight="1"/>
+            <edge id="Neoh|Tsyfirkin" source="Neoh" target="Tsyfirkin" weight="1"/>
+            <edge id="Skotinin|Tsyfirkin" source="Skotinin" target="Tsyfirkin" weight="2"/>
+            <edge id="Skotinin|Kutejkin" source="Skotinin" target="Kutejkin" weight="3"/>
+            <edge id="Tsyfirkin|Kutejkin" source="Tsyfirkin" target="Kutejkin" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

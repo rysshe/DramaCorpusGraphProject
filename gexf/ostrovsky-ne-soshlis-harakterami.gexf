@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Не сошлись характерами!</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="prezhneva" label="Прежнева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="873"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lakej" label="Лакей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="106"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pol" label="Поль">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1795"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="prezhnev" label="Прежнев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pereshivkina" label="Перешивкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="497"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_kucher" label="1-й кучер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="197"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="matrena" label="Матрена">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="103"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ulita_nikitishna" label="Улита Никитишна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="521"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="karp_karpych" label="Карп Карпыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="577"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_kucher" label="2-й кучер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="76"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="serafima_karpovna" label="Серафима Карповна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="766"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="neizvestnyj" label="Неизвестный">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="102"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gornichnaya" label="Горничная">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="prezhneva|lakej" source="prezhneva" target="lakej" weight="3"/>
+            <edge id="prezhneva|pol" source="prezhneva" target="pol" weight="3"/>
+            <edge id="prezhneva|prezhnev" source="prezhneva" target="prezhnev" weight="1"/>
+            <edge id="prezhneva|pereshivkina" source="prezhneva" target="pereshivkina" weight="1"/>
+            <edge id="prezhneva|gornichnaya" source="prezhneva" target="gornichnaya" weight="1"/>
+            <edge id="lakej|pol" source="lakej" target="pol" weight="3"/>
+            <edge id="lakej|prezhnev" source="lakej" target="prezhnev" weight="1"/>
+            <edge id="lakej|neizvestnyj" source="lakej" target="neizvestnyj" weight="1"/>
+            <edge id="lakej|gornichnaya" source="lakej" target="gornichnaya" weight="1"/>
+            <edge id="pol|prezhnev" source="pol" target="prezhnev" weight="1"/>
+            <edge id="pol|pereshivkina" source="pol" target="pereshivkina" weight="1"/>
+            <edge id="pol|neizvestnyj" source="pol" target="neizvestnyj" weight="1"/>
+            <edge id="pol|serafima_karpovna" source="pol" target="serafima_karpovna" weight="2"/>
+            <edge id="pol|gornichnaya" source="pol" target="gornichnaya" weight="2"/>
+            <edge id="pervyj_kucher|matrena" source="pervyj_kucher" target="matrena" weight="2"/>
+            <edge id="pervyj_kucher|vtoroj_kucher" source="pervyj_kucher" target="vtoroj_kucher" weight="1"/>
+            <edge id="matrena|ulita_nikitishna" source="matrena" target="ulita_nikitishna" weight="1"/>
+            <edge id="matrena|karp_karpych" source="matrena" target="karp_karpych" weight="1"/>
+            <edge id="matrena|vtoroj_kucher" source="matrena" target="vtoroj_kucher" weight="1"/>
+            <edge id="ulita_nikitishna|karp_karpych" source="ulita_nikitishna" target="karp_karpych" weight="3"/>
+            <edge id="ulita_nikitishna|serafima_karpovna" source="ulita_nikitishna" target="serafima_karpovna" weight="2"/>
+            <edge id="karp_karpych|serafima_karpovna" source="karp_karpych" target="serafima_karpovna" weight="2"/>
+            <edge id="serafima_karpovna|gornichnaya" source="serafima_karpovna" target="gornichnaya" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Чехов, Антон Павлович: Дядя Ваня</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="marina" label="Марина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="408"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="astrov" label="Астров">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2931"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vojnitskij" label="Войницкий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2225"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="serebrjakov" label="Серебряков">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1101"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="telegin" label="Телегин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="418"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sonja" label="Соня">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1490"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="elena_andreevna" label="Елена Андреевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1745"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="marija_vasilevna" label="Мария Васильевна">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="137"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rabotnik" label="Работник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_storozha" label="Голос сторожа (Ефим)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="marina|astrov" source="marina" target="astrov" weight="5"/>
+            <edge id="marina|vojnitskij" source="marina" target="vojnitskij" weight="4"/>
+            <edge id="marina|sonja" source="marina" target="sonja" weight="6"/>
+            <edge id="marina|serebrjakov" source="marina" target="serebrjakov" weight="1"/>
+            <edge id="marina|telegin" source="marina" target="telegin" weight="2"/>
+            <edge id="marina|marija_vasilevna" source="marina" target="marija_vasilevna" weight="1"/>
+            <edge id="astrov|vojnitskij" source="astrov" target="vojnitskij" weight="11"/>
+            <edge id="astrov|telegin" source="astrov" target="telegin" weight="4"/>
+            <edge id="astrov|sonja" source="astrov" target="sonja" weight="7"/>
+            <edge id="astrov|elena_andreevna" source="astrov" target="elena_andreevna" weight="6"/>
+            <edge id="astrov|marija_vasilevna" source="astrov" target="marija_vasilevna" weight="3"/>
+            <edge id="astrov|rabotnik" source="astrov" target="rabotnik" weight="2"/>
+            <edge id="astrov|serebrjakov" source="astrov" target="serebrjakov" weight="1"/>
+            <edge id="vojnitskij|serebrjakov" source="vojnitskij" target="serebrjakov" weight="7"/>
+            <edge id="vojnitskij|telegin" source="vojnitskij" target="telegin" weight="8"/>
+            <edge id="vojnitskij|sonja" source="vojnitskij" target="sonja" weight="12"/>
+            <edge id="vojnitskij|elena_andreevna" source="vojnitskij" target="elena_andreevna" weight="12"/>
+            <edge id="vojnitskij|marija_vasilevna" source="vojnitskij" target="marija_vasilevna" weight="5"/>
+            <edge id="serebrjakov|telegin" source="serebrjakov" target="telegin" weight="4"/>
+            <edge id="serebrjakov|sonja" source="serebrjakov" target="sonja" weight="8"/>
+            <edge id="serebrjakov|elena_andreevna" source="serebrjakov" target="elena_andreevna" weight="8"/>
+            <edge id="serebrjakov|marija_vasilevna" source="serebrjakov" target="marija_vasilevna" weight="3"/>
+            <edge id="telegin|sonja" source="telegin" target="sonja" weight="3"/>
+            <edge id="telegin|elena_andreevna" source="telegin" target="elena_andreevna" weight="4"/>
+            <edge id="telegin|marija_vasilevna" source="telegin" target="marija_vasilevna" weight="3"/>
+            <edge id="sonja|elena_andreevna" source="sonja" target="elena_andreevna" weight="11"/>
+            <edge id="sonja|marija_vasilevna" source="sonja" target="marija_vasilevna" weight="3"/>
+            <edge id="sonja|rabotnik" source="sonja" target="rabotnik" weight="1"/>
+            <edge id="elena_andreevna|marija_vasilevna" source="elena_andreevna" target="marija_vasilevna" weight="4"/>
+            <edge id="elena_andreevna|golos_storozha" source="elena_andreevna" target="golos_storozha" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

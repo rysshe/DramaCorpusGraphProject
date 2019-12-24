@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Крылов, Иван Андреевич: Американцы</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="gusman" label="Дон Гусман">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1169"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="folet" label="Фолет">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3292"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tsimara" label="Цимара">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="864"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="soreta" label="Сорета">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="903"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="atsem" label="Ацем">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="969"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="elvira" label="Ельвира">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="349"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="hor_zhenschin" label="Хор женщин">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="hor_muzhchin" label="Хор мужчин">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="15"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hor" label="Хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="ferdinand" label="Фердинанд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="gusman|folet" source="gusman" target="folet" weight="11"/>
+            <edge id="gusman|tsimara" source="gusman" target="tsimara" weight="7"/>
+            <edge id="gusman|soreta" source="gusman" target="soreta" weight="5"/>
+            <edge id="gusman|atsem" source="gusman" target="atsem" weight="8"/>
+            <edge id="gusman|hor" source="gusman" target="hor" weight="2"/>
+            <edge id="gusman|elvira" source="gusman" target="elvira" weight="3"/>
+            <edge id="gusman|ferdinand" source="gusman" target="ferdinand" weight="1"/>
+            <edge id="folet|tsimara" source="folet" target="tsimara" weight="6"/>
+            <edge id="folet|soreta" source="folet" target="soreta" weight="9"/>
+            <edge id="folet|atsem" source="folet" target="atsem" weight="8"/>
+            <edge id="folet|hor" source="folet" target="hor" weight="2"/>
+            <edge id="folet|elvira" source="folet" target="elvira" weight="2"/>
+            <edge id="tsimara|soreta" source="tsimara" target="soreta" weight="6"/>
+            <edge id="tsimara|atsem" source="tsimara" target="atsem" weight="5"/>
+            <edge id="tsimara|elvira" source="tsimara" target="elvira" weight="3"/>
+            <edge id="tsimara|ferdinand" source="tsimara" target="ferdinand" weight="1"/>
+            <edge id="soreta|atsem" source="soreta" target="atsem" weight="5"/>
+            <edge id="soreta|elvira" source="soreta" target="elvira" weight="2"/>
+            <edge id="atsem|elvira" source="atsem" target="elvira" weight="5"/>
+            <edge id="atsem|hor_zhenschin" source="atsem" target="hor_zhenschin" weight="1"/>
+            <edge id="atsem|hor_muzhchin" source="atsem" target="hor_muzhchin" weight="1"/>
+            <edge id="atsem|hor" source="atsem" target="hor" weight="2"/>
+            <edge id="elvira|hor_zhenschin" source="elvira" target="hor_zhenschin" weight="1"/>
+            <edge id="elvira|hor_muzhchin" source="elvira" target="hor_muzhchin" weight="1"/>
+            <edge id="elvira|hor" source="elvira" target="hor" weight="1"/>
+            <edge id="hor_zhenschin|hor_muzhchin" source="hor_zhenschin" target="hor_muzhchin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Глинка, Фёдор Николаевич: Вельзен, или освобожденная Голландия</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="inslar" label="Инслар">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1934"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ehrik" label="Эрик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="240"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gilderberg" label="Гильдерберг">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="214"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluzhitel" label="Служитель">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="posol" label="Посол">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="97"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vestnik" label="Вестник">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ehdvald" label="Эдвальд">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="740"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="godmila" label="Годмила">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1334"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="floran" label="Флоран">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1598"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sluzhiteli" label="Служители">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="velzen" label="Вельзен">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1555"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_sluzhitelej" label="Один из служителей">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ranenyj" label="Раненый">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="starejshij_vozhd" label="Старейший вождь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="153"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_voin" label="Второй воин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="54"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vse_4-2" label="Все (IV/2)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="26"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="posol_ot_florana" label="Посол от Флорана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="51"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vozhdi" label="Вожди">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_posol_ot_florana" label="2-й посол от Флорана">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="48"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_iz_naroda" label="Один из народа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nekotorye" label="Некоторые">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="17"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="vse_5-9" label="Все (V/9)">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="inslar|ehrik" source="inslar" target="ehrik" weight="5"/>
+            <edge id="inslar|gilderberg" source="inslar" target="gilderberg" weight="2"/>
+            <edge id="inslar|sluzhitel" source="inslar" target="sluzhitel" weight="1"/>
+            <edge id="inslar|posol" source="inslar" target="posol" weight="1"/>
+            <edge id="inslar|vestnik" source="inslar" target="vestnik" weight="2"/>
+            <edge id="inslar|floran" source="inslar" target="floran" weight="1"/>
+            <edge id="inslar|sluzhiteli" source="inslar" target="sluzhiteli" weight="1"/>
+            <edge id="inslar|velzen" source="inslar" target="velzen" weight="5"/>
+            <edge id="inslar|odin_iz_sluzhitelej" source="inslar" target="odin_iz_sluzhitelej" weight="1"/>
+            <edge id="inslar|ranenyj" source="inslar" target="ranenyj" weight="1"/>
+            <edge id="inslar|ehdvald" source="inslar" target="ehdvald" weight="2"/>
+            <edge id="inslar|godmila" source="inslar" target="godmila" weight="1"/>
+            <edge id="inslar|nekotorye" source="inslar" target="nekotorye" weight="2"/>
+            <edge id="inslar|starejshij_vozhd" source="inslar" target="starejshij_vozhd" weight="1"/>
+            <edge id="inslar|vse_5-9" source="inslar" target="vse_5-9" weight="1"/>
+            <edge id="ehrik|gilderberg" source="ehrik" target="gilderberg" weight="2"/>
+            <edge id="ehrik|vestnik" source="ehrik" target="vestnik" weight="1"/>
+            <edge id="ehrik|velzen" source="ehrik" target="velzen" weight="1"/>
+            <edge id="ehrik|starejshij_vozhd" source="ehrik" target="starejshij_vozhd" weight="1"/>
+            <edge id="ehrik|vse_4-2" source="ehrik" target="vse_4-2" weight="1"/>
+            <edge id="gilderberg|velzen" source="gilderberg" target="velzen" weight="2"/>
+            <edge id="gilderberg|starejshij_vozhd" source="gilderberg" target="starejshij_vozhd" weight="1"/>
+            <edge id="gilderberg|vse_4-2" source="gilderberg" target="vse_4-2" weight="1"/>
+            <edge id="gilderberg|odin_iz_naroda" source="gilderberg" target="odin_iz_naroda" weight="1"/>
+            <edge id="ehdvald|godmila" source="ehdvald" target="godmila" weight="2"/>
+            <edge id="ehdvald|floran" source="ehdvald" target="floran" weight="4"/>
+            <edge id="ehdvald|velzen" source="ehdvald" target="velzen" weight="1"/>
+            <edge id="ehdvald|nekotorye" source="ehdvald" target="nekotorye" weight="1"/>
+            <edge id="godmila|floran" source="godmila" target="floran" weight="3"/>
+            <edge id="godmila|velzen" source="godmila" target="velzen" weight="4"/>
+            <edge id="godmila|posol_ot_florana" source="godmila" target="posol_ot_florana" weight="1"/>
+            <edge id="godmila|vozhdi" source="godmila" target="vozhdi" weight="1"/>
+            <edge id="godmila|vtoroj_posol_ot_florana" source="godmila" target="vtoroj_posol_ot_florana" weight="1"/>
+            <edge id="godmila|nekotorye" source="godmila" target="nekotorye" weight="1"/>
+            <edge id="velzen|odin_iz_sluzhitelej" source="velzen" target="odin_iz_sluzhitelej" weight="1"/>
+            <edge id="velzen|ranenyj" source="velzen" target="ranenyj" weight="1"/>
+            <edge id="velzen|starejshij_vozhd" source="velzen" target="starejshij_vozhd" weight="2"/>
+            <edge id="velzen|vse_4-2" source="velzen" target="vse_4-2" weight="1"/>
+            <edge id="velzen|posol_ot_florana" source="velzen" target="posol_ot_florana" weight="1"/>
+            <edge id="velzen|vozhdi" source="velzen" target="vozhdi" weight="1"/>
+            <edge id="velzen|vtoroj_posol_ot_florana" source="velzen" target="vtoroj_posol_ot_florana" weight="1"/>
+            <edge id="velzen|odin_iz_naroda" source="velzen" target="odin_iz_naroda" weight="1"/>
+            <edge id="velzen|nekotorye" source="velzen" target="nekotorye" weight="2"/>
+            <edge id="velzen|vse_5-9" source="velzen" target="vse_5-9" weight="1"/>
+            <edge id="odin_iz_sluzhitelej|ranenyj" source="odin_iz_sluzhitelej" target="ranenyj" weight="1"/>
+            <edge id="starejshij_vozhd|vtoroj_voin" source="starejshij_vozhd" target="vtoroj_voin" weight="1"/>
+            <edge id="starejshij_vozhd|vse_4-2" source="starejshij_vozhd" target="vse_4-2" weight="1"/>
+            <edge id="starejshij_vozhd|nekotorye" source="starejshij_vozhd" target="nekotorye" weight="1"/>
+            <edge id="starejshij_vozhd|vse_5-9" source="starejshij_vozhd" target="vse_5-9" weight="1"/>
+            <edge id="posol_ot_florana|vozhdi" source="posol_ot_florana" target="vozhdi" weight="1"/>
+            <edge id="nekotorye|vse_5-9" source="nekotorye" target="vse_5-9" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Булгаков, Михаил Афанасьевич: Зойкина квартира</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="zoja" label="Зоя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2582"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="manjushka" label="Манюшка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="724"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="alliluja" label="Аллилуя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="883"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="oboljaninov" label="Обольянинов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="963"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gazolin" label="Газолин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="338"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="heruvim" label="Херувим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="546"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ametistov" label="Аметистов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3791"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervaja" label="Первая">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="99"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zakrojschitsa" label="Закройщица">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="75"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoraja" label="Вторая">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="240"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="tretja" label="Третья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="106"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="golos" label="Голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="64"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="shveja" label="Швея">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="37"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="agnessa" label="Агнесса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="102"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="alla" label="Алла">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="533"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="mymra" label="Мымра">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="97"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="lizanka" label="Лизанька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="ivanova" label="Иванова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="101"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="gus" label="Гусь">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1119"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tolstjak" label="Толстяк">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="176"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pestruhin" label="Пеструхин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="257"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vanechka" label="Ванечка">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="86"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="robber" label="Роббер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="284"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="poet" label="Поэт">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="152"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kurilschik" label="Курильщик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="20"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="fokstrotchik" label="Фокстротчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mertvoe_telo" label="Мертвое тело">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="243"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="zoja|manjushka" source="zoja" target="manjushka" weight="5"/>
+            <edge id="zoja|alliluja" source="zoja" target="alliluja" weight="3"/>
+            <edge id="zoja|oboljaninov" source="zoja" target="oboljaninov" weight="4"/>
+            <edge id="zoja|heruvim" source="zoja" target="heruvim" weight="3"/>
+            <edge id="zoja|ametistov" source="zoja" target="ametistov" weight="4"/>
+            <edge id="zoja|pervaja" source="zoja" target="pervaja" weight="1"/>
+            <edge id="zoja|zakrojschitsa" source="zoja" target="zakrojschitsa" weight="1"/>
+            <edge id="zoja|vtoraja" source="zoja" target="vtoraja" weight="1"/>
+            <edge id="zoja|tretja" source="zoja" target="tretja" weight="1"/>
+            <edge id="zoja|golos" source="zoja" target="golos" weight="1"/>
+            <edge id="zoja|shveja" source="zoja" target="shveja" weight="1"/>
+            <edge id="zoja|agnessa" source="zoja" target="agnessa" weight="1"/>
+            <edge id="zoja|alla" source="zoja" target="alla" weight="2"/>
+            <edge id="zoja|mymra" source="zoja" target="mymra" weight="2"/>
+            <edge id="zoja|lizanka" source="zoja" target="lizanka" weight="2"/>
+            <edge id="zoja|ivanova" source="zoja" target="ivanova" weight="2"/>
+            <edge id="zoja|gus" source="zoja" target="gus" weight="2"/>
+            <edge id="zoja|robber" source="zoja" target="robber" weight="1"/>
+            <edge id="zoja|poet" source="zoja" target="poet" weight="1"/>
+            <edge id="zoja|kurilschik" source="zoja" target="kurilschik" weight="1"/>
+            <edge id="zoja|fokstrotchik" source="zoja" target="fokstrotchik" weight="1"/>
+            <edge id="zoja|mertvoe_telo" source="zoja" target="mertvoe_telo" weight="1"/>
+            <edge id="zoja|pestruhin" source="zoja" target="pestruhin" weight="1"/>
+            <edge id="zoja|gazolin" source="zoja" target="gazolin" weight="1"/>
+            <edge id="zoja|tolstjak" source="zoja" target="tolstjak" weight="1"/>
+            <edge id="zoja|vanechka" source="zoja" target="vanechka" weight="1"/>
+            <edge id="manjushka|alliluja" source="manjushka" target="alliluja" weight="4"/>
+            <edge id="manjushka|oboljaninov" source="manjushka" target="oboljaninov" weight="5"/>
+            <edge id="manjushka|gazolin" source="manjushka" target="gazolin" weight="3"/>
+            <edge id="manjushka|heruvim" source="manjushka" target="heruvim" weight="5"/>
+            <edge id="manjushka|ametistov" source="manjushka" target="ametistov" weight="5"/>
+            <edge id="manjushka|pervaja" source="manjushka" target="pervaja" weight="1"/>
+            <edge id="manjushka|zakrojschitsa" source="manjushka" target="zakrojschitsa" weight="1"/>
+            <edge id="manjushka|vtoraja" source="manjushka" target="vtoraja" weight="1"/>
+            <edge id="manjushka|tretja" source="manjushka" target="tretja" weight="1"/>
+            <edge id="manjushka|golos" source="manjushka" target="golos" weight="1"/>
+            <edge id="manjushka|shveja" source="manjushka" target="shveja" weight="1"/>
+            <edge id="manjushka|agnessa" source="manjushka" target="agnessa" weight="1"/>
+            <edge id="manjushka|alla" source="manjushka" target="alla" weight="2"/>
+            <edge id="manjushka|mymra" source="manjushka" target="mymra" weight="2"/>
+            <edge id="manjushka|lizanka" source="manjushka" target="lizanka" weight="2"/>
+            <edge id="manjushka|ivanova" source="manjushka" target="ivanova" weight="2"/>
+            <edge id="manjushka|gus" source="manjushka" target="gus" weight="2"/>
+            <edge id="manjushka|tolstjak" source="manjushka" target="tolstjak" weight="2"/>
+            <edge id="manjushka|pestruhin" source="manjushka" target="pestruhin" weight="2"/>
+            <edge id="manjushka|vanechka" source="manjushka" target="vanechka" weight="2"/>
+            <edge id="manjushka|robber" source="manjushka" target="robber" weight="1"/>
+            <edge id="manjushka|poet" source="manjushka" target="poet" weight="1"/>
+            <edge id="manjushka|kurilschik" source="manjushka" target="kurilschik" weight="1"/>
+            <edge id="manjushka|fokstrotchik" source="manjushka" target="fokstrotchik" weight="1"/>
+            <edge id="manjushka|mertvoe_telo" source="manjushka" target="mertvoe_telo" weight="1"/>
+            <edge id="alliluja|oboljaninov" source="alliluja" target="oboljaninov" weight="4"/>
+            <edge id="alliluja|heruvim" source="alliluja" target="heruvim" weight="3"/>
+            <edge id="alliluja|ametistov" source="alliluja" target="ametistov" weight="3"/>
+            <edge id="alliluja|gazolin" source="alliluja" target="gazolin" weight="2"/>
+            <edge id="alliluja|tolstjak" source="alliluja" target="tolstjak" weight="2"/>
+            <edge id="alliluja|pestruhin" source="alliluja" target="pestruhin" weight="2"/>
+            <edge id="alliluja|vanechka" source="alliluja" target="vanechka" weight="2"/>
+            <edge id="alliluja|lizanka" source="alliluja" target="lizanka" weight="1"/>
+            <edge id="alliluja|robber" source="alliluja" target="robber" weight="1"/>
+            <edge id="alliluja|poet" source="alliluja" target="poet" weight="1"/>
+            <edge id="alliluja|kurilschik" source="alliluja" target="kurilschik" weight="1"/>
+            <edge id="alliluja|fokstrotchik" source="alliluja" target="fokstrotchik" weight="1"/>
+            <edge id="alliluja|ivanova" source="alliluja" target="ivanova" weight="1"/>
+            <edge id="alliluja|mymra" source="alliluja" target="mymra" weight="1"/>
+            <edge id="alliluja|mertvoe_telo" source="alliluja" target="mertvoe_telo" weight="1"/>
+            <edge id="alliluja|gus" source="alliluja" target="gus" weight="1"/>
+            <edge id="alliluja|alla" source="alliluja" target="alla" weight="1"/>
+            <edge id="oboljaninov|heruvim" source="oboljaninov" target="heruvim" weight="4"/>
+            <edge id="oboljaninov|ametistov" source="oboljaninov" target="ametistov" weight="4"/>
+            <edge id="oboljaninov|mymra" source="oboljaninov" target="mymra" weight="2"/>
+            <edge id="oboljaninov|lizanka" source="oboljaninov" target="lizanka" weight="2"/>
+            <edge id="oboljaninov|ivanova" source="oboljaninov" target="ivanova" weight="2"/>
+            <edge id="oboljaninov|gus" source="oboljaninov" target="gus" weight="2"/>
+            <edge id="oboljaninov|gazolin" source="oboljaninov" target="gazolin" weight="2"/>
+            <edge id="oboljaninov|tolstjak" source="oboljaninov" target="tolstjak" weight="2"/>
+            <edge id="oboljaninov|pestruhin" source="oboljaninov" target="pestruhin" weight="2"/>
+            <edge id="oboljaninov|vanechka" source="oboljaninov" target="vanechka" weight="2"/>
+            <edge id="oboljaninov|robber" source="oboljaninov" target="robber" weight="1"/>
+            <edge id="oboljaninov|poet" source="oboljaninov" target="poet" weight="1"/>
+            <edge id="oboljaninov|kurilschik" source="oboljaninov" target="kurilschik" weight="1"/>
+            <edge id="oboljaninov|fokstrotchik" source="oboljaninov" target="fokstrotchik" weight="1"/>
+            <edge id="oboljaninov|mertvoe_telo" source="oboljaninov" target="mertvoe_telo" weight="1"/>
+            <edge id="oboljaninov|alla" source="oboljaninov" target="alla" weight="1"/>
+            <edge id="gazolin|heruvim" source="gazolin" target="heruvim" weight="3"/>
+            <edge id="gazolin|ametistov" source="gazolin" target="ametistov" weight="2"/>
+            <edge id="gazolin|tolstjak" source="gazolin" target="tolstjak" weight="2"/>
+            <edge id="gazolin|pestruhin" source="gazolin" target="pestruhin" weight="2"/>
+            <edge id="gazolin|vanechka" source="gazolin" target="vanechka" weight="2"/>
+            <edge id="gazolin|lizanka" source="gazolin" target="lizanka" weight="1"/>
+            <edge id="gazolin|robber" source="gazolin" target="robber" weight="1"/>
+            <edge id="gazolin|poet" source="gazolin" target="poet" weight="1"/>
+            <edge id="gazolin|kurilschik" source="gazolin" target="kurilschik" weight="1"/>
+            <edge id="gazolin|fokstrotchik" source="gazolin" target="fokstrotchik" weight="1"/>
+            <edge id="gazolin|ivanova" source="gazolin" target="ivanova" weight="1"/>
+            <edge id="gazolin|mymra" source="gazolin" target="mymra" weight="1"/>
+            <edge id="gazolin|mertvoe_telo" source="gazolin" target="mertvoe_telo" weight="1"/>
+            <edge id="gazolin|gus" source="gazolin" target="gus" weight="1"/>
+            <edge id="gazolin|alla" source="gazolin" target="alla" weight="1"/>
+            <edge id="heruvim|ametistov" source="heruvim" target="ametistov" weight="4"/>
+            <edge id="heruvim|mymra" source="heruvim" target="mymra" weight="2"/>
+            <edge id="heruvim|lizanka" source="heruvim" target="lizanka" weight="2"/>
+            <edge id="heruvim|ivanova" source="heruvim" target="ivanova" weight="2"/>
+            <edge id="heruvim|gus" source="heruvim" target="gus" weight="2"/>
+            <edge id="heruvim|tolstjak" source="heruvim" target="tolstjak" weight="2"/>
+            <edge id="heruvim|pestruhin" source="heruvim" target="pestruhin" weight="2"/>
+            <edge id="heruvim|vanechka" source="heruvim" target="vanechka" weight="2"/>
+            <edge id="heruvim|robber" source="heruvim" target="robber" weight="1"/>
+            <edge id="heruvim|poet" source="heruvim" target="poet" weight="1"/>
+            <edge id="heruvim|kurilschik" source="heruvim" target="kurilschik" weight="1"/>
+            <edge id="heruvim|fokstrotchik" source="heruvim" target="fokstrotchik" weight="1"/>
+            <edge id="heruvim|mertvoe_telo" source="heruvim" target="mertvoe_telo" weight="1"/>
+            <edge id="heruvim|alla" source="heruvim" target="alla" weight="1"/>
+            <edge id="ametistov|pervaja" source="ametistov" target="pervaja" weight="1"/>
+            <edge id="ametistov|zakrojschitsa" source="ametistov" target="zakrojschitsa" weight="1"/>
+            <edge id="ametistov|vtoraja" source="ametistov" target="vtoraja" weight="1"/>
+            <edge id="ametistov|tretja" source="ametistov" target="tretja" weight="1"/>
+            <edge id="ametistov|golos" source="ametistov" target="golos" weight="1"/>
+            <edge id="ametistov|shveja" source="ametistov" target="shveja" weight="1"/>
+            <edge id="ametistov|agnessa" source="ametistov" target="agnessa" weight="1"/>
+            <edge id="ametistov|alla" source="ametistov" target="alla" weight="2"/>
+            <edge id="ametistov|mymra" source="ametistov" target="mymra" weight="2"/>
+            <edge id="ametistov|lizanka" source="ametistov" target="lizanka" weight="2"/>
+            <edge id="ametistov|ivanova" source="ametistov" target="ivanova" weight="2"/>
+            <edge id="ametistov|gus" source="ametistov" target="gus" weight="2"/>
+            <edge id="ametistov|tolstjak" source="ametistov" target="tolstjak" weight="2"/>
+            <edge id="ametistov|pestruhin" source="ametistov" target="pestruhin" weight="2"/>
+            <edge id="ametistov|vanechka" source="ametistov" target="vanechka" weight="2"/>
+            <edge id="ametistov|robber" source="ametistov" target="robber" weight="1"/>
+            <edge id="ametistov|poet" source="ametistov" target="poet" weight="1"/>
+            <edge id="ametistov|kurilschik" source="ametistov" target="kurilschik" weight="1"/>
+            <edge id="ametistov|fokstrotchik" source="ametistov" target="fokstrotchik" weight="1"/>
+            <edge id="ametistov|mertvoe_telo" source="ametistov" target="mertvoe_telo" weight="1"/>
+            <edge id="pervaja|zakrojschitsa" source="pervaja" target="zakrojschitsa" weight="1"/>
+            <edge id="pervaja|vtoraja" source="pervaja" target="vtoraja" weight="1"/>
+            <edge id="pervaja|tretja" source="pervaja" target="tretja" weight="1"/>
+            <edge id="pervaja|golos" source="pervaja" target="golos" weight="1"/>
+            <edge id="pervaja|shveja" source="pervaja" target="shveja" weight="1"/>
+            <edge id="pervaja|agnessa" source="pervaja" target="agnessa" weight="1"/>
+            <edge id="pervaja|alla" source="pervaja" target="alla" weight="1"/>
+            <edge id="zakrojschitsa|vtoraja" source="zakrojschitsa" target="vtoraja" weight="1"/>
+            <edge id="zakrojschitsa|tretja" source="zakrojschitsa" target="tretja" weight="1"/>
+            <edge id="zakrojschitsa|golos" source="zakrojschitsa" target="golos" weight="1"/>
+            <edge id="zakrojschitsa|shveja" source="zakrojschitsa" target="shveja" weight="1"/>
+            <edge id="zakrojschitsa|agnessa" source="zakrojschitsa" target="agnessa" weight="1"/>
+            <edge id="zakrojschitsa|alla" source="zakrojschitsa" target="alla" weight="1"/>
+            <edge id="vtoraja|tretja" source="vtoraja" target="tretja" weight="1"/>
+            <edge id="vtoraja|golos" source="vtoraja" target="golos" weight="1"/>
+            <edge id="vtoraja|shveja" source="vtoraja" target="shveja" weight="1"/>
+            <edge id="vtoraja|agnessa" source="vtoraja" target="agnessa" weight="1"/>
+            <edge id="vtoraja|alla" source="vtoraja" target="alla" weight="1"/>
+            <edge id="tretja|golos" source="tretja" target="golos" weight="1"/>
+            <edge id="tretja|shveja" source="tretja" target="shveja" weight="1"/>
+            <edge id="tretja|agnessa" source="tretja" target="agnessa" weight="1"/>
+            <edge id="tretja|alla" source="tretja" target="alla" weight="1"/>
+            <edge id="golos|shveja" source="golos" target="shveja" weight="1"/>
+            <edge id="golos|agnessa" source="golos" target="agnessa" weight="1"/>
+            <edge id="golos|alla" source="golos" target="alla" weight="1"/>
+            <edge id="shveja|agnessa" source="shveja" target="agnessa" weight="1"/>
+            <edge id="shveja|alla" source="shveja" target="alla" weight="1"/>
+            <edge id="agnessa|alla" source="agnessa" target="alla" weight="1"/>
+            <edge id="alla|lizanka" source="alla" target="lizanka" weight="1"/>
+            <edge id="alla|robber" source="alla" target="robber" weight="1"/>
+            <edge id="alla|poet" source="alla" target="poet" weight="1"/>
+            <edge id="alla|kurilschik" source="alla" target="kurilschik" weight="1"/>
+            <edge id="alla|fokstrotchik" source="alla" target="fokstrotchik" weight="1"/>
+            <edge id="alla|ivanova" source="alla" target="ivanova" weight="1"/>
+            <edge id="alla|mymra" source="alla" target="mymra" weight="1"/>
+            <edge id="alla|mertvoe_telo" source="alla" target="mertvoe_telo" weight="1"/>
+            <edge id="alla|gus" source="alla" target="gus" weight="1"/>
+            <edge id="alla|pestruhin" source="alla" target="pestruhin" weight="1"/>
+            <edge id="alla|tolstjak" source="alla" target="tolstjak" weight="1"/>
+            <edge id="alla|vanechka" source="alla" target="vanechka" weight="1"/>
+            <edge id="mymra|lizanka" source="mymra" target="lizanka" weight="2"/>
+            <edge id="mymra|ivanova" source="mymra" target="ivanova" weight="2"/>
+            <edge id="mymra|gus" source="mymra" target="gus" weight="2"/>
+            <edge id="mymra|robber" source="mymra" target="robber" weight="1"/>
+            <edge id="mymra|poet" source="mymra" target="poet" weight="1"/>
+            <edge id="mymra|kurilschik" source="mymra" target="kurilschik" weight="1"/>
+            <edge id="mymra|fokstrotchik" source="mymra" target="fokstrotchik" weight="1"/>
+            <edge id="mymra|mertvoe_telo" source="mymra" target="mertvoe_telo" weight="1"/>
+            <edge id="mymra|pestruhin" source="mymra" target="pestruhin" weight="1"/>
+            <edge id="mymra|tolstjak" source="mymra" target="tolstjak" weight="1"/>
+            <edge id="mymra|vanechka" source="mymra" target="vanechka" weight="1"/>
+            <edge id="lizanka|ivanova" source="lizanka" target="ivanova" weight="2"/>
+            <edge id="lizanka|gus" source="lizanka" target="gus" weight="2"/>
+            <edge id="lizanka|robber" source="lizanka" target="robber" weight="1"/>
+            <edge id="lizanka|poet" source="lizanka" target="poet" weight="1"/>
+            <edge id="lizanka|kurilschik" source="lizanka" target="kurilschik" weight="1"/>
+            <edge id="lizanka|fokstrotchik" source="lizanka" target="fokstrotchik" weight="1"/>
+            <edge id="lizanka|mertvoe_telo" source="lizanka" target="mertvoe_telo" weight="1"/>
+            <edge id="lizanka|pestruhin" source="lizanka" target="pestruhin" weight="1"/>
+            <edge id="lizanka|tolstjak" source="lizanka" target="tolstjak" weight="1"/>
+            <edge id="lizanka|vanechka" source="lizanka" target="vanechka" weight="1"/>
+            <edge id="ivanova|gus" source="ivanova" target="gus" weight="2"/>
+            <edge id="ivanova|robber" source="ivanova" target="robber" weight="1"/>
+            <edge id="ivanova|poet" source="ivanova" target="poet" weight="1"/>
+            <edge id="ivanova|kurilschik" source="ivanova" target="kurilschik" weight="1"/>
+            <edge id="ivanova|fokstrotchik" source="ivanova" target="fokstrotchik" weight="1"/>
+            <edge id="ivanova|mertvoe_telo" source="ivanova" target="mertvoe_telo" weight="1"/>
+            <edge id="ivanova|pestruhin" source="ivanova" target="pestruhin" weight="1"/>
+            <edge id="ivanova|tolstjak" source="ivanova" target="tolstjak" weight="1"/>
+            <edge id="ivanova|vanechka" source="ivanova" target="vanechka" weight="1"/>
+            <edge id="gus|robber" source="gus" target="robber" weight="1"/>
+            <edge id="gus|poet" source="gus" target="poet" weight="1"/>
+            <edge id="gus|kurilschik" source="gus" target="kurilschik" weight="1"/>
+            <edge id="gus|fokstrotchik" source="gus" target="fokstrotchik" weight="1"/>
+            <edge id="gus|mertvoe_telo" source="gus" target="mertvoe_telo" weight="1"/>
+            <edge id="gus|pestruhin" source="gus" target="pestruhin" weight="1"/>
+            <edge id="gus|tolstjak" source="gus" target="tolstjak" weight="1"/>
+            <edge id="gus|vanechka" source="gus" target="vanechka" weight="1"/>
+            <edge id="tolstjak|pestruhin" source="tolstjak" target="pestruhin" weight="2"/>
+            <edge id="tolstjak|vanechka" source="tolstjak" target="vanechka" weight="2"/>
+            <edge id="tolstjak|robber" source="tolstjak" target="robber" weight="1"/>
+            <edge id="tolstjak|poet" source="tolstjak" target="poet" weight="1"/>
+            <edge id="tolstjak|kurilschik" source="tolstjak" target="kurilschik" weight="1"/>
+            <edge id="tolstjak|fokstrotchik" source="tolstjak" target="fokstrotchik" weight="1"/>
+            <edge id="tolstjak|mertvoe_telo" source="tolstjak" target="mertvoe_telo" weight="1"/>
+            <edge id="pestruhin|vanechka" source="pestruhin" target="vanechka" weight="2"/>
+            <edge id="pestruhin|robber" source="pestruhin" target="robber" weight="1"/>
+            <edge id="pestruhin|poet" source="pestruhin" target="poet" weight="1"/>
+            <edge id="pestruhin|kurilschik" source="pestruhin" target="kurilschik" weight="1"/>
+            <edge id="pestruhin|fokstrotchik" source="pestruhin" target="fokstrotchik" weight="1"/>
+            <edge id="pestruhin|mertvoe_telo" source="pestruhin" target="mertvoe_telo" weight="1"/>
+            <edge id="vanechka|robber" source="vanechka" target="robber" weight="1"/>
+            <edge id="vanechka|poet" source="vanechka" target="poet" weight="1"/>
+            <edge id="vanechka|kurilschik" source="vanechka" target="kurilschik" weight="1"/>
+            <edge id="vanechka|fokstrotchik" source="vanechka" target="fokstrotchik" weight="1"/>
+            <edge id="vanechka|mertvoe_telo" source="vanechka" target="mertvoe_telo" weight="1"/>
+            <edge id="robber|poet" source="robber" target="poet" weight="1"/>
+            <edge id="robber|kurilschik" source="robber" target="kurilschik" weight="1"/>
+            <edge id="robber|fokstrotchik" source="robber" target="fokstrotchik" weight="1"/>
+            <edge id="robber|mertvoe_telo" source="robber" target="mertvoe_telo" weight="1"/>
+            <edge id="poet|kurilschik" source="poet" target="kurilschik" weight="1"/>
+            <edge id="poet|fokstrotchik" source="poet" target="fokstrotchik" weight="1"/>
+            <edge id="poet|mertvoe_telo" source="poet" target="mertvoe_telo" weight="1"/>
+            <edge id="kurilschik|fokstrotchik" source="kurilschik" target="fokstrotchik" weight="1"/>
+            <edge id="kurilschik|mertvoe_telo" source="kurilschik" target="mertvoe_telo" weight="1"/>
+            <edge id="fokstrotchik|mertvoe_telo" source="fokstrotchik" target="mertvoe_telo" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

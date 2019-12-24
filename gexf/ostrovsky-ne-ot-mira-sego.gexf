@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Не от мира сего</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="elohov" label="Елохов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2160"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="mardarij" label="Мардарий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="429"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kochuev" label="Кочуев">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2157"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="murugov" label="Муругов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="552"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="barbarisov" label="Барбарисов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1645"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hioniya" label="Хиония">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="724"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kseniya" label="Ксения">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1951"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="snafidina" label="Снафидина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="722"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="kapitolina" label="Капитолина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="198"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="elohov|mardarij" source="elohov" target="mardarij" weight="5"/>
+            <edge id="elohov|kochuev" source="elohov" target="kochuev" weight="9"/>
+            <edge id="elohov|murugov" source="elohov" target="murugov" weight="2"/>
+            <edge id="elohov|barbarisov" source="elohov" target="barbarisov" weight="5"/>
+            <edge id="elohov|hioniya" source="elohov" target="hioniya" weight="1"/>
+            <edge id="elohov|kseniya" source="elohov" target="kseniya" weight="7"/>
+            <edge id="elohov|snafidina" source="elohov" target="snafidina" weight="2"/>
+            <edge id="elohov|kapitolina" source="elohov" target="kapitolina" weight="1"/>
+            <edge id="mardarij|kochuev" source="mardarij" target="kochuev" weight="2"/>
+            <edge id="mardarij|hioniya" source="mardarij" target="hioniya" weight="3"/>
+            <edge id="mardarij|barbarisov" source="mardarij" target="barbarisov" weight="1"/>
+            <edge id="mardarij|kseniya" source="mardarij" target="kseniya" weight="1"/>
+            <edge id="kochuev|murugov" source="kochuev" target="murugov" weight="2"/>
+            <edge id="kochuev|barbarisov" source="kochuev" target="barbarisov" weight="2"/>
+            <edge id="kochuev|kseniya" source="kochuev" target="kseniya" weight="6"/>
+            <edge id="murugov|kseniya" source="murugov" target="kseniya" weight="1"/>
+            <edge id="barbarisov|kseniya" source="barbarisov" target="kseniya" weight="2"/>
+            <edge id="barbarisov|snafidina" source="barbarisov" target="snafidina" weight="3"/>
+            <edge id="barbarisov|kapitolina" source="barbarisov" target="kapitolina" weight="2"/>
+            <edge id="barbarisov|hioniya" source="barbarisov" target="hioniya" weight="3"/>
+            <edge id="hioniya|kseniya" source="hioniya" target="kseniya" weight="1"/>
+            <edge id="kseniya|snafidina" source="kseniya" target="snafidina" weight="2"/>
+            <edge id="kseniya|kapitolina" source="kseniya" target="kapitolina" weight="1"/>
+            <edge id="snafidina|kapitolina" source="snafidina" target="kapitolina" weight="2"/>
+        </edges>
+    </graph>
+</gexf>

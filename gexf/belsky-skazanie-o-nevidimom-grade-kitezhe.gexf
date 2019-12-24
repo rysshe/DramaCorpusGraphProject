@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Бельский, Владимир Иванович: Сказание о невидимом граде Китеже и деве Февронии</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="fevronija" label="Феврония">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1864"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="knjazhich_vsevolod" label="Княжич Всеволод">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="568"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hor" label="Хор">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="1343"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="pojarok" label="Поярок">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="365"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="medvedchik" label="Медведчик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="47"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gusljar" label="Гусляр">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="74"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="narod" label="Народ">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="luchshie_ljudi" label="Лучшие люди">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="kuterma" label="Кутерьма">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1079"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tatary" label="Татары">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="bedjaj" label="Бедяй">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="225"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="burundaj" label="Бурундай">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="266"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="knjaz_jurij" label="Князь Юрий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="350"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="otrok" label="Отрок">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="159"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="alkonost" label="Алконост">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="99"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="prizrak" label="Призрак">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="124"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="sirin" label="Сирин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="96"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="fevronija|knjazhich_vsevolod" source="fevronija" target="knjazhich_vsevolod" weight="2"/>
+            <edge id="fevronija|hor" source="fevronija" target="hor" weight="4"/>
+            <edge id="fevronija|pojarok" source="fevronija" target="pojarok" weight="3"/>
+            <edge id="fevronija|medvedchik" source="fevronija" target="medvedchik" weight="1"/>
+            <edge id="fevronija|gusljar" source="fevronija" target="gusljar" weight="1"/>
+            <edge id="fevronija|narod" source="fevronija" target="narod" weight="1"/>
+            <edge id="fevronija|luchshie_ljudi" source="fevronija" target="luchshie_ljudi" weight="1"/>
+            <edge id="fevronija|kuterma" source="fevronija" target="kuterma" weight="3"/>
+            <edge id="fevronija|tatary" source="fevronija" target="tatary" weight="1"/>
+            <edge id="fevronija|bedjaj" source="fevronija" target="bedjaj" weight="2"/>
+            <edge id="fevronija|burundaj" source="fevronija" target="burundaj" weight="2"/>
+            <edge id="fevronija|alkonost" source="fevronija" target="alkonost" weight="2"/>
+            <edge id="fevronija|prizrak" source="fevronija" target="prizrak" weight="1"/>
+            <edge id="fevronija|sirin" source="fevronija" target="sirin" weight="2"/>
+            <edge id="fevronija|knjaz_jurij" source="fevronija" target="knjaz_jurij" weight="1"/>
+            <edge id="fevronija|otrok" source="fevronija" target="otrok" weight="1"/>
+            <edge id="knjazhich_vsevolod|hor" source="knjazhich_vsevolod" target="hor" weight="3"/>
+            <edge id="knjazhich_vsevolod|pojarok" source="knjazhich_vsevolod" target="pojarok" weight="3"/>
+            <edge id="knjazhich_vsevolod|knjaz_jurij" source="knjazhich_vsevolod" target="knjaz_jurij" weight="2"/>
+            <edge id="knjazhich_vsevolod|otrok" source="knjazhich_vsevolod" target="otrok" weight="2"/>
+            <edge id="knjazhich_vsevolod|alkonost" source="knjazhich_vsevolod" target="alkonost" weight="1"/>
+            <edge id="knjazhich_vsevolod|sirin" source="knjazhich_vsevolod" target="sirin" weight="1"/>
+            <edge id="hor|pojarok" source="hor" target="pojarok" weight="4"/>
+            <edge id="hor|medvedchik" source="hor" target="medvedchik" weight="1"/>
+            <edge id="hor|gusljar" source="hor" target="gusljar" weight="1"/>
+            <edge id="hor|narod" source="hor" target="narod" weight="1"/>
+            <edge id="hor|luchshie_ljudi" source="hor" target="luchshie_ljudi" weight="1"/>
+            <edge id="hor|kuterma" source="hor" target="kuterma" weight="2"/>
+            <edge id="hor|tatary" source="hor" target="tatary" weight="1"/>
+            <edge id="hor|bedjaj" source="hor" target="bedjaj" weight="2"/>
+            <edge id="hor|burundaj" source="hor" target="burundaj" weight="2"/>
+            <edge id="hor|knjaz_jurij" source="hor" target="knjaz_jurij" weight="2"/>
+            <edge id="hor|otrok" source="hor" target="otrok" weight="2"/>
+            <edge id="hor|alkonost" source="hor" target="alkonost" weight="1"/>
+            <edge id="hor|sirin" source="hor" target="sirin" weight="1"/>
+            <edge id="pojarok|medvedchik" source="pojarok" target="medvedchik" weight="1"/>
+            <edge id="pojarok|gusljar" source="pojarok" target="gusljar" weight="1"/>
+            <edge id="pojarok|narod" source="pojarok" target="narod" weight="1"/>
+            <edge id="pojarok|luchshie_ljudi" source="pojarok" target="luchshie_ljudi" weight="1"/>
+            <edge id="pojarok|kuterma" source="pojarok" target="kuterma" weight="1"/>
+            <edge id="pojarok|tatary" source="pojarok" target="tatary" weight="1"/>
+            <edge id="pojarok|bedjaj" source="pojarok" target="bedjaj" weight="1"/>
+            <edge id="pojarok|burundaj" source="pojarok" target="burundaj" weight="1"/>
+            <edge id="pojarok|knjaz_jurij" source="pojarok" target="knjaz_jurij" weight="2"/>
+            <edge id="pojarok|otrok" source="pojarok" target="otrok" weight="2"/>
+            <edge id="pojarok|alkonost" source="pojarok" target="alkonost" weight="1"/>
+            <edge id="pojarok|sirin" source="pojarok" target="sirin" weight="1"/>
+            <edge id="medvedchik|gusljar" source="medvedchik" target="gusljar" weight="1"/>
+            <edge id="medvedchik|narod" source="medvedchik" target="narod" weight="1"/>
+            <edge id="medvedchik|luchshie_ljudi" source="medvedchik" target="luchshie_ljudi" weight="1"/>
+            <edge id="medvedchik|kuterma" source="medvedchik" target="kuterma" weight="1"/>
+            <edge id="medvedchik|tatary" source="medvedchik" target="tatary" weight="1"/>
+            <edge id="medvedchik|bedjaj" source="medvedchik" target="bedjaj" weight="1"/>
+            <edge id="medvedchik|burundaj" source="medvedchik" target="burundaj" weight="1"/>
+            <edge id="gusljar|narod" source="gusljar" target="narod" weight="1"/>
+            <edge id="gusljar|luchshie_ljudi" source="gusljar" target="luchshie_ljudi" weight="1"/>
+            <edge id="gusljar|kuterma" source="gusljar" target="kuterma" weight="1"/>
+            <edge id="gusljar|tatary" source="gusljar" target="tatary" weight="1"/>
+            <edge id="gusljar|bedjaj" source="gusljar" target="bedjaj" weight="1"/>
+            <edge id="gusljar|burundaj" source="gusljar" target="burundaj" weight="1"/>
+            <edge id="narod|luchshie_ljudi" source="narod" target="luchshie_ljudi" weight="1"/>
+            <edge id="narod|kuterma" source="narod" target="kuterma" weight="1"/>
+            <edge id="narod|tatary" source="narod" target="tatary" weight="1"/>
+            <edge id="narod|bedjaj" source="narod" target="bedjaj" weight="1"/>
+            <edge id="narod|burundaj" source="narod" target="burundaj" weight="1"/>
+            <edge id="luchshie_ljudi|kuterma" source="luchshie_ljudi" target="kuterma" weight="1"/>
+            <edge id="luchshie_ljudi|tatary" source="luchshie_ljudi" target="tatary" weight="1"/>
+            <edge id="luchshie_ljudi|bedjaj" source="luchshie_ljudi" target="bedjaj" weight="1"/>
+            <edge id="luchshie_ljudi|burundaj" source="luchshie_ljudi" target="burundaj" weight="1"/>
+            <edge id="kuterma|tatary" source="kuterma" target="tatary" weight="1"/>
+            <edge id="kuterma|bedjaj" source="kuterma" target="bedjaj" weight="2"/>
+            <edge id="kuterma|burundaj" source="kuterma" target="burundaj" weight="2"/>
+            <edge id="kuterma|alkonost" source="kuterma" target="alkonost" weight="1"/>
+            <edge id="kuterma|prizrak" source="kuterma" target="prizrak" weight="1"/>
+            <edge id="kuterma|sirin" source="kuterma" target="sirin" weight="1"/>
+            <edge id="tatary|bedjaj" source="tatary" target="bedjaj" weight="1"/>
+            <edge id="tatary|burundaj" source="tatary" target="burundaj" weight="1"/>
+            <edge id="bedjaj|burundaj" source="bedjaj" target="burundaj" weight="2"/>
+            <edge id="knjaz_jurij|otrok" source="knjaz_jurij" target="otrok" weight="2"/>
+            <edge id="knjaz_jurij|alkonost" source="knjaz_jurij" target="alkonost" weight="1"/>
+            <edge id="knjaz_jurij|sirin" source="knjaz_jurij" target="sirin" weight="1"/>
+            <edge id="otrok|alkonost" source="otrok" target="alkonost" weight="1"/>
+            <edge id="otrok|sirin" source="otrok" target="sirin" weight="1"/>
+            <edge id="alkonost|prizrak" source="alkonost" target="prizrak" weight="1"/>
+            <edge id="alkonost|sirin" source="alkonost" target="sirin" weight="2"/>
+            <edge id="prizrak|sirin" source="prizrak" target="sirin" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

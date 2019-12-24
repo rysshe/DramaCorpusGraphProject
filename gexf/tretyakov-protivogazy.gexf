@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Третьяков, Сергей Михайлович: Противогазы</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="sekretarsha" label="Секретарша">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="195"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="direktor" label="Директор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1466"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="egorych" label="Егорыч">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="357"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="kurer" label="Курьер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vaska" label="Васька">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="65"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="lukach" label="Лукач">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="34"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rabochij_1" label="Рабочий (I)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="18"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="baba" label="Баба">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="12"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="staruha" label="Старуха">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="67"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="baby" label="Бабы">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_rabochij_1" label="1-й рабочий (I)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="23"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_rabochij_1" label="2-й рабочий (I)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="13"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_komsomolec" label="1-й комсомолец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_komsomolec" label="2-й комсомолец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="petya" label="Петя">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="136"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="hor_komsomolcev" label="Хор комсомольцев">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="podrostok" label="Подросток">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_iz_podpolya" label="Голос из подполья">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="21"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pervyj_rabochij_2" label="1-й рабочий (II)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="55"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="vtoroj_rabochij_2" label="2-й рабочий (II)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="tretij_rabochij" label="3-й рабочий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="39"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="chetvertyj_rabochij" label="4-й рабочий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="57"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="pyatyj_rabochij" label="5-й рабочий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="60"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golosa" label="Голоса">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="210"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="inzhener" label="Инженер">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="90"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_2a" label="Голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_2b" label="Голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="4"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="dudin" label="Дудин">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="492"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="zhenschiny" label="Женщины">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="29"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zhena_fomy" label="Жена Фомы">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="51"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zhenskij_golos" label="Женский голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zhena_dudina" label="Жена Дудина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="foma" label="Фома">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="46"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_2c" label="Голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golos_2d" label="Голос">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="16"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="zhena_rabochego" label="Жена рабочего">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="rabochij_na_nosilkah" label="Рабочий на носилках">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="27"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="nosilschik" label="Носильщик">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="8"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="za_scenoj_pesnya" label="За сценой песня">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="9"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="golosa_komsomolcev" label="Голоса комсомольцев">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="22"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="komsomolec" label="Комсомолец">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="6"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="golos_v_ton" label="Голос в тон">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="5"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+            <node id="staryj_rabochij" label="Старый рабочий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rabochij_3a" label="Рабочий (III)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="10"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rabochij_3b" label="Рабочий (III)">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="14"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="odin_rabochij" label="Один рабочий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="drugoj_rabochij" label="Другой рабочий">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="7"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="rabochie" label="Рабочие">
+                <attvalues>
+                    <attvalue for="person-group" value="1"/>
+                    <attvalue for="number-of-words" value="11"/>
+                    <attvalue for="gender" value="UNKNOWN"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="sekretarsha|direktor" source="sekretarsha" target="direktor" weight="3"/>
+            <edge id="sekretarsha|egorych" source="sekretarsha" target="egorych" weight="3"/>
+            <edge id="sekretarsha|kurer" source="sekretarsha" target="kurer" weight="1"/>
+            <edge id="sekretarsha|vaska" source="sekretarsha" target="vaska" weight="2"/>
+            <edge id="sekretarsha|lukach" source="sekretarsha" target="lukach" weight="2"/>
+            <edge id="sekretarsha|rabochij_1" source="sekretarsha" target="rabochij_1" weight="1"/>
+            <edge id="sekretarsha|baba" source="sekretarsha" target="baba" weight="1"/>
+            <edge id="sekretarsha|staruha" source="sekretarsha" target="staruha" weight="2"/>
+            <edge id="sekretarsha|baby" source="sekretarsha" target="baby" weight="1"/>
+            <edge id="sekretarsha|pervyj_rabochij_1" source="sekretarsha" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="sekretarsha|vtoroj_rabochij_1" source="sekretarsha" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="sekretarsha|pervyj_komsomolec" source="sekretarsha" target="pervyj_komsomolec" weight="1"/>
+            <edge id="sekretarsha|vtoroj_komsomolec" source="sekretarsha" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="sekretarsha|petya" source="sekretarsha" target="petya" weight="2"/>
+            <edge id="sekretarsha|hor_komsomolcev" source="sekretarsha" target="hor_komsomolcev" weight="1"/>
+            <edge id="sekretarsha|podrostok" source="sekretarsha" target="podrostok" weight="2"/>
+            <edge id="sekretarsha|golos_iz_podpolya" source="sekretarsha" target="golos_iz_podpolya" weight="1"/>
+            <edge id="sekretarsha|pervyj_rabochij_2" source="sekretarsha" target="pervyj_rabochij_2" weight="1"/>
+            <edge id="sekretarsha|vtoroj_rabochij_2" source="sekretarsha" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="sekretarsha|tretij_rabochij" source="sekretarsha" target="tretij_rabochij" weight="1"/>
+            <edge id="sekretarsha|chetvertyj_rabochij" source="sekretarsha" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="sekretarsha|pyatyj_rabochij" source="sekretarsha" target="pyatyj_rabochij" weight="1"/>
+            <edge id="sekretarsha|golosa" source="sekretarsha" target="golosa" weight="1"/>
+            <edge id="sekretarsha|inzhener" source="sekretarsha" target="inzhener" weight="2"/>
+            <edge id="sekretarsha|golos_2a" source="sekretarsha" target="golos_2a" weight="1"/>
+            <edge id="sekretarsha|golos_2b" source="sekretarsha" target="golos_2b" weight="1"/>
+            <edge id="sekretarsha|dudin" source="sekretarsha" target="dudin" weight="2"/>
+            <edge id="sekretarsha|zhenschiny" source="sekretarsha" target="zhenschiny" weight="1"/>
+            <edge id="sekretarsha|zhena_fomy" source="sekretarsha" target="zhena_fomy" weight="1"/>
+            <edge id="sekretarsha|zhenskij_golos" source="sekretarsha" target="zhenskij_golos" weight="1"/>
+            <edge id="sekretarsha|zhena_dudina" source="sekretarsha" target="zhena_dudina" weight="1"/>
+            <edge id="sekretarsha|foma" source="sekretarsha" target="foma" weight="1"/>
+            <edge id="sekretarsha|golos_2c" source="sekretarsha" target="golos_2c" weight="1"/>
+            <edge id="sekretarsha|golos_2d" source="sekretarsha" target="golos_2d" weight="1"/>
+            <edge id="sekretarsha|zhena_rabochego" source="sekretarsha" target="zhena_rabochego" weight="1"/>
+            <edge id="sekretarsha|rabochij_na_nosilkah" source="sekretarsha" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="sekretarsha|nosilschik" source="sekretarsha" target="nosilschik" weight="1"/>
+            <edge id="sekretarsha|za_scenoj_pesnya" source="sekretarsha" target="za_scenoj_pesnya" weight="1"/>
+            <edge id="sekretarsha|golosa_komsomolcev" source="sekretarsha" target="golosa_komsomolcev" weight="1"/>
+            <edge id="sekretarsha|komsomolec" source="sekretarsha" target="komsomolec" weight="1"/>
+            <edge id="sekretarsha|golos_v_ton" source="sekretarsha" target="golos_v_ton" weight="1"/>
+            <edge id="sekretarsha|staryj_rabochij" source="sekretarsha" target="staryj_rabochij" weight="1"/>
+            <edge id="sekretarsha|rabochij_3a" source="sekretarsha" target="rabochij_3a" weight="1"/>
+            <edge id="sekretarsha|rabochij_3b" source="sekretarsha" target="rabochij_3b" weight="1"/>
+            <edge id="sekretarsha|odin_rabochij" source="sekretarsha" target="odin_rabochij" weight="1"/>
+            <edge id="sekretarsha|drugoj_rabochij" source="sekretarsha" target="drugoj_rabochij" weight="1"/>
+            <edge id="sekretarsha|rabochie" source="sekretarsha" target="rabochie" weight="1"/>
+            <edge id="direktor|egorych" source="direktor" target="egorych" weight="3"/>
+            <edge id="direktor|kurer" source="direktor" target="kurer" weight="1"/>
+            <edge id="direktor|vaska" source="direktor" target="vaska" weight="2"/>
+            <edge id="direktor|lukach" source="direktor" target="lukach" weight="2"/>
+            <edge id="direktor|rabochij_1" source="direktor" target="rabochij_1" weight="1"/>
+            <edge id="direktor|baba" source="direktor" target="baba" weight="1"/>
+            <edge id="direktor|staruha" source="direktor" target="staruha" weight="2"/>
+            <edge id="direktor|baby" source="direktor" target="baby" weight="1"/>
+            <edge id="direktor|pervyj_rabochij_1" source="direktor" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="direktor|vtoroj_rabochij_1" source="direktor" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="direktor|pervyj_komsomolec" source="direktor" target="pervyj_komsomolec" weight="1"/>
+            <edge id="direktor|vtoroj_komsomolec" source="direktor" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="direktor|petya" source="direktor" target="petya" weight="2"/>
+            <edge id="direktor|hor_komsomolcev" source="direktor" target="hor_komsomolcev" weight="1"/>
+            <edge id="direktor|podrostok" source="direktor" target="podrostok" weight="2"/>
+            <edge id="direktor|golos_iz_podpolya" source="direktor" target="golos_iz_podpolya" weight="1"/>
+            <edge id="direktor|pervyj_rabochij_2" source="direktor" target="pervyj_rabochij_2" weight="1"/>
+            <edge id="direktor|vtoroj_rabochij_2" source="direktor" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="direktor|tretij_rabochij" source="direktor" target="tretij_rabochij" weight="1"/>
+            <edge id="direktor|chetvertyj_rabochij" source="direktor" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="direktor|pyatyj_rabochij" source="direktor" target="pyatyj_rabochij" weight="1"/>
+            <edge id="direktor|golosa" source="direktor" target="golosa" weight="1"/>
+            <edge id="direktor|inzhener" source="direktor" target="inzhener" weight="2"/>
+            <edge id="direktor|golos_2a" source="direktor" target="golos_2a" weight="1"/>
+            <edge id="direktor|golos_2b" source="direktor" target="golos_2b" weight="1"/>
+            <edge id="direktor|dudin" source="direktor" target="dudin" weight="2"/>
+            <edge id="direktor|zhenschiny" source="direktor" target="zhenschiny" weight="1"/>
+            <edge id="direktor|zhena_fomy" source="direktor" target="zhena_fomy" weight="1"/>
+            <edge id="direktor|zhenskij_golos" source="direktor" target="zhenskij_golos" weight="1"/>
+            <edge id="direktor|zhena_dudina" source="direktor" target="zhena_dudina" weight="1"/>
+            <edge id="direktor|foma" source="direktor" target="foma" weight="1"/>
+            <edge id="direktor|golos_2c" source="direktor" target="golos_2c" weight="1"/>
+            <edge id="direktor|golos_2d" source="direktor" target="golos_2d" weight="1"/>
+            <edge id="direktor|zhena_rabochego" source="direktor" target="zhena_rabochego" weight="1"/>
+            <edge id="direktor|rabochij_na_nosilkah" source="direktor" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="direktor|nosilschik" source="direktor" target="nosilschik" weight="1"/>
+            <edge id="direktor|za_scenoj_pesnya" source="direktor" target="za_scenoj_pesnya" weight="1"/>
+            <edge id="direktor|golosa_komsomolcev" source="direktor" target="golosa_komsomolcev" weight="1"/>
+            <edge id="direktor|komsomolec" source="direktor" target="komsomolec" weight="1"/>
+            <edge id="direktor|golos_v_ton" source="direktor" target="golos_v_ton" weight="1"/>
+            <edge id="direktor|staryj_rabochij" source="direktor" target="staryj_rabochij" weight="1"/>
+            <edge id="direktor|rabochij_3a" source="direktor" target="rabochij_3a" weight="1"/>
+            <edge id="direktor|rabochij_3b" source="direktor" target="rabochij_3b" weight="1"/>
+            <edge id="direktor|odin_rabochij" source="direktor" target="odin_rabochij" weight="1"/>
+            <edge id="direktor|drugoj_rabochij" source="direktor" target="drugoj_rabochij" weight="1"/>
+            <edge id="direktor|rabochie" source="direktor" target="rabochie" weight="1"/>
+            <edge id="egorych|kurer" source="egorych" target="kurer" weight="1"/>
+            <edge id="egorych|vaska" source="egorych" target="vaska" weight="2"/>
+            <edge id="egorych|lukach" source="egorych" target="lukach" weight="2"/>
+            <edge id="egorych|rabochij_1" source="egorych" target="rabochij_1" weight="1"/>
+            <edge id="egorych|baba" source="egorych" target="baba" weight="1"/>
+            <edge id="egorych|staruha" source="egorych" target="staruha" weight="2"/>
+            <edge id="egorych|baby" source="egorych" target="baby" weight="1"/>
+            <edge id="egorych|pervyj_rabochij_1" source="egorych" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="egorych|vtoroj_rabochij_1" source="egorych" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="egorych|pervyj_komsomolec" source="egorych" target="pervyj_komsomolec" weight="1"/>
+            <edge id="egorych|vtoroj_komsomolec" source="egorych" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="egorych|petya" source="egorych" target="petya" weight="2"/>
+            <edge id="egorych|hor_komsomolcev" source="egorych" target="hor_komsomolcev" weight="1"/>
+            <edge id="egorych|podrostok" source="egorych" target="podrostok" weight="2"/>
+            <edge id="egorych|golos_iz_podpolya" source="egorych" target="golos_iz_podpolya" weight="1"/>
+            <edge id="egorych|pervyj_rabochij_2" source="egorych" target="pervyj_rabochij_2" weight="1"/>
+            <edge id="egorych|vtoroj_rabochij_2" source="egorych" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="egorych|tretij_rabochij" source="egorych" target="tretij_rabochij" weight="1"/>
+            <edge id="egorych|chetvertyj_rabochij" source="egorych" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="egorych|pyatyj_rabochij" source="egorych" target="pyatyj_rabochij" weight="1"/>
+            <edge id="egorych|golosa" source="egorych" target="golosa" weight="1"/>
+            <edge id="egorych|inzhener" source="egorych" target="inzhener" weight="2"/>
+            <edge id="egorych|golos_2a" source="egorych" target="golos_2a" weight="1"/>
+            <edge id="egorych|golos_2b" source="egorych" target="golos_2b" weight="1"/>
+            <edge id="egorych|dudin" source="egorych" target="dudin" weight="2"/>
+            <edge id="egorych|zhenschiny" source="egorych" target="zhenschiny" weight="1"/>
+            <edge id="egorych|zhena_fomy" source="egorych" target="zhena_fomy" weight="1"/>
+            <edge id="egorych|zhenskij_golos" source="egorych" target="zhenskij_golos" weight="1"/>
+            <edge id="egorych|zhena_dudina" source="egorych" target="zhena_dudina" weight="1"/>
+            <edge id="egorych|foma" source="egorych" target="foma" weight="1"/>
+            <edge id="egorych|golos_2c" source="egorych" target="golos_2c" weight="1"/>
+            <edge id="egorych|golos_2d" source="egorych" target="golos_2d" weight="1"/>
+            <edge id="egorych|zhena_rabochego" source="egorych" target="zhena_rabochego" weight="1"/>
+            <edge id="egorych|rabochij_na_nosilkah" source="egorych" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="egorych|nosilschik" source="egorych" target="nosilschik" weight="1"/>
+            <edge id="egorych|za_scenoj_pesnya" source="egorych" target="za_scenoj_pesnya" weight="1"/>
+            <edge id="egorych|golosa_komsomolcev" source="egorych" target="golosa_komsomolcev" weight="1"/>
+            <edge id="egorych|komsomolec" source="egorych" target="komsomolec" weight="1"/>
+            <edge id="egorych|golos_v_ton" source="egorych" target="golos_v_ton" weight="1"/>
+            <edge id="egorych|staryj_rabochij" source="egorych" target="staryj_rabochij" weight="1"/>
+            <edge id="egorych|rabochij_3a" source="egorych" target="rabochij_3a" weight="1"/>
+            <edge id="egorych|rabochij_3b" source="egorych" target="rabochij_3b" weight="1"/>
+            <edge id="egorych|odin_rabochij" source="egorych" target="odin_rabochij" weight="1"/>
+            <edge id="egorych|drugoj_rabochij" source="egorych" target="drugoj_rabochij" weight="1"/>
+            <edge id="egorych|rabochie" source="egorych" target="rabochie" weight="1"/>
+            <edge id="kurer|vaska" source="kurer" target="vaska" weight="1"/>
+            <edge id="kurer|lukach" source="kurer" target="lukach" weight="1"/>
+            <edge id="kurer|rabochij_1" source="kurer" target="rabochij_1" weight="1"/>
+            <edge id="kurer|baba" source="kurer" target="baba" weight="1"/>
+            <edge id="kurer|staruha" source="kurer" target="staruha" weight="1"/>
+            <edge id="kurer|baby" source="kurer" target="baby" weight="1"/>
+            <edge id="kurer|pervyj_rabochij_1" source="kurer" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="kurer|vtoroj_rabochij_1" source="kurer" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="kurer|pervyj_komsomolec" source="kurer" target="pervyj_komsomolec" weight="1"/>
+            <edge id="kurer|vtoroj_komsomolec" source="kurer" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="kurer|petya" source="kurer" target="petya" weight="1"/>
+            <edge id="kurer|hor_komsomolcev" source="kurer" target="hor_komsomolcev" weight="1"/>
+            <edge id="kurer|podrostok" source="kurer" target="podrostok" weight="1"/>
+            <edge id="vaska|lukach" source="vaska" target="lukach" weight="1"/>
+            <edge id="vaska|rabochij_1" source="vaska" target="rabochij_1" weight="1"/>
+            <edge id="vaska|baba" source="vaska" target="baba" weight="1"/>
+            <edge id="vaska|staruha" source="vaska" target="staruha" weight="2"/>
+            <edge id="vaska|baby" source="vaska" target="baby" weight="1"/>
+            <edge id="vaska|pervyj_rabochij_1" source="vaska" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="vaska|vtoroj_rabochij_1" source="vaska" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="vaska|pervyj_komsomolec" source="vaska" target="pervyj_komsomolec" weight="1"/>
+            <edge id="vaska|vtoroj_komsomolec" source="vaska" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="vaska|petya" source="vaska" target="petya" weight="1"/>
+            <edge id="vaska|hor_komsomolcev" source="vaska" target="hor_komsomolcev" weight="1"/>
+            <edge id="vaska|podrostok" source="vaska" target="podrostok" weight="2"/>
+            <edge id="vaska|golos_iz_podpolya" source="vaska" target="golos_iz_podpolya" weight="1"/>
+            <edge id="vaska|pervyj_rabochij_2" source="vaska" target="pervyj_rabochij_2" weight="1"/>
+            <edge id="vaska|vtoroj_rabochij_2" source="vaska" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="vaska|tretij_rabochij" source="vaska" target="tretij_rabochij" weight="1"/>
+            <edge id="vaska|chetvertyj_rabochij" source="vaska" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="vaska|pyatyj_rabochij" source="vaska" target="pyatyj_rabochij" weight="1"/>
+            <edge id="vaska|golosa" source="vaska" target="golosa" weight="1"/>
+            <edge id="vaska|inzhener" source="vaska" target="inzhener" weight="1"/>
+            <edge id="vaska|golos_2a" source="vaska" target="golos_2a" weight="1"/>
+            <edge id="vaska|golos_2b" source="vaska" target="golos_2b" weight="1"/>
+            <edge id="vaska|dudin" source="vaska" target="dudin" weight="1"/>
+            <edge id="vaska|zhenschiny" source="vaska" target="zhenschiny" weight="1"/>
+            <edge id="vaska|zhena_fomy" source="vaska" target="zhena_fomy" weight="1"/>
+            <edge id="vaska|zhenskij_golos" source="vaska" target="zhenskij_golos" weight="1"/>
+            <edge id="vaska|zhena_dudina" source="vaska" target="zhena_dudina" weight="1"/>
+            <edge id="vaska|foma" source="vaska" target="foma" weight="1"/>
+            <edge id="vaska|golos_2c" source="vaska" target="golos_2c" weight="1"/>
+            <edge id="vaska|golos_2d" source="vaska" target="golos_2d" weight="1"/>
+            <edge id="vaska|zhena_rabochego" source="vaska" target="zhena_rabochego" weight="1"/>
+            <edge id="vaska|rabochij_na_nosilkah" source="vaska" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="vaska|nosilschik" source="vaska" target="nosilschik" weight="1"/>
+            <edge id="lukach|rabochij_1" source="lukach" target="rabochij_1" weight="1"/>
+            <edge id="lukach|baba" source="lukach" target="baba" weight="1"/>
+            <edge id="lukach|staruha" source="lukach" target="staruha" weight="1"/>
+            <edge id="lukach|baby" source="lukach" target="baby" weight="1"/>
+            <edge id="lukach|pervyj_rabochij_1" source="lukach" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="lukach|vtoroj_rabochij_1" source="lukach" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="lukach|pervyj_komsomolec" source="lukach" target="pervyj_komsomolec" weight="1"/>
+            <edge id="lukach|vtoroj_komsomolec" source="lukach" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="lukach|petya" source="lukach" target="petya" weight="2"/>
+            <edge id="lukach|hor_komsomolcev" source="lukach" target="hor_komsomolcev" weight="1"/>
+            <edge id="lukach|podrostok" source="lukach" target="podrostok" weight="1"/>
+            <edge id="lukach|za_scenoj_pesnya" source="lukach" target="za_scenoj_pesnya" weight="1"/>
+            <edge id="lukach|inzhener" source="lukach" target="inzhener" weight="1"/>
+            <edge id="lukach|golosa_komsomolcev" source="lukach" target="golosa_komsomolcev" weight="1"/>
+            <edge id="lukach|dudin" source="lukach" target="dudin" weight="1"/>
+            <edge id="lukach|komsomolec" source="lukach" target="komsomolec" weight="1"/>
+            <edge id="lukach|golos_v_ton" source="lukach" target="golos_v_ton" weight="1"/>
+            <edge id="lukach|staryj_rabochij" source="lukach" target="staryj_rabochij" weight="1"/>
+            <edge id="lukach|rabochij_3a" source="lukach" target="rabochij_3a" weight="1"/>
+            <edge id="lukach|rabochij_3b" source="lukach" target="rabochij_3b" weight="1"/>
+            <edge id="lukach|odin_rabochij" source="lukach" target="odin_rabochij" weight="1"/>
+            <edge id="lukach|drugoj_rabochij" source="lukach" target="drugoj_rabochij" weight="1"/>
+            <edge id="lukach|rabochie" source="lukach" target="rabochie" weight="1"/>
+            <edge id="rabochij_1|baba" source="rabochij_1" target="baba" weight="1"/>
+            <edge id="rabochij_1|staruha" source="rabochij_1" target="staruha" weight="1"/>
+            <edge id="rabochij_1|baby" source="rabochij_1" target="baby" weight="1"/>
+            <edge id="rabochij_1|pervyj_rabochij_1" source="rabochij_1" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="rabochij_1|vtoroj_rabochij_1" source="rabochij_1" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="rabochij_1|pervyj_komsomolec" source="rabochij_1" target="pervyj_komsomolec" weight="1"/>
+            <edge id="rabochij_1|vtoroj_komsomolec" source="rabochij_1" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="rabochij_1|petya" source="rabochij_1" target="petya" weight="1"/>
+            <edge id="rabochij_1|hor_komsomolcev" source="rabochij_1" target="hor_komsomolcev" weight="1"/>
+            <edge id="rabochij_1|podrostok" source="rabochij_1" target="podrostok" weight="1"/>
+            <edge id="baba|staruha" source="baba" target="staruha" weight="1"/>
+            <edge id="baba|baby" source="baba" target="baby" weight="1"/>
+            <edge id="baba|pervyj_rabochij_1" source="baba" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="baba|vtoroj_rabochij_1" source="baba" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="baba|pervyj_komsomolec" source="baba" target="pervyj_komsomolec" weight="1"/>
+            <edge id="baba|vtoroj_komsomolec" source="baba" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="baba|petya" source="baba" target="petya" weight="1"/>
+            <edge id="baba|hor_komsomolcev" source="baba" target="hor_komsomolcev" weight="1"/>
+            <edge id="baba|podrostok" source="baba" target="podrostok" weight="1"/>
+            <edge id="staruha|baby" source="staruha" target="baby" weight="1"/>
+            <edge id="staruha|pervyj_rabochij_1" source="staruha" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="staruha|vtoroj_rabochij_1" source="staruha" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="staruha|pervyj_komsomolec" source="staruha" target="pervyj_komsomolec" weight="1"/>
+            <edge id="staruha|vtoroj_komsomolec" source="staruha" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="staruha|petya" source="staruha" target="petya" weight="1"/>
+            <edge id="staruha|hor_komsomolcev" source="staruha" target="hor_komsomolcev" weight="1"/>
+            <edge id="staruha|podrostok" source="staruha" target="podrostok" weight="2"/>
+            <edge id="staruha|golos_iz_podpolya" source="staruha" target="golos_iz_podpolya" weight="1"/>
+            <edge id="staruha|pervyj_rabochij_2" source="staruha" target="pervyj_rabochij_2" weight="1"/>
+            <edge id="staruha|vtoroj_rabochij_2" source="staruha" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="staruha|tretij_rabochij" source="staruha" target="tretij_rabochij" weight="1"/>
+            <edge id="staruha|chetvertyj_rabochij" source="staruha" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="staruha|pyatyj_rabochij" source="staruha" target="pyatyj_rabochij" weight="1"/>
+            <edge id="staruha|golosa" source="staruha" target="golosa" weight="1"/>
+            <edge id="staruha|inzhener" source="staruha" target="inzhener" weight="1"/>
+            <edge id="staruha|golos_2a" source="staruha" target="golos_2a" weight="1"/>
+            <edge id="staruha|golos_2b" source="staruha" target="golos_2b" weight="1"/>
+            <edge id="staruha|dudin" source="staruha" target="dudin" weight="1"/>
+            <edge id="staruha|zhenschiny" source="staruha" target="zhenschiny" weight="1"/>
+            <edge id="staruha|zhena_fomy" source="staruha" target="zhena_fomy" weight="1"/>
+            <edge id="staruha|zhenskij_golos" source="staruha" target="zhenskij_golos" weight="1"/>
+            <edge id="staruha|zhena_dudina" source="staruha" target="zhena_dudina" weight="1"/>
+            <edge id="staruha|foma" source="staruha" target="foma" weight="1"/>
+            <edge id="staruha|golos_2c" source="staruha" target="golos_2c" weight="1"/>
+            <edge id="staruha|golos_2d" source="staruha" target="golos_2d" weight="1"/>
+            <edge id="staruha|zhena_rabochego" source="staruha" target="zhena_rabochego" weight="1"/>
+            <edge id="staruha|rabochij_na_nosilkah" source="staruha" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="staruha|nosilschik" source="staruha" target="nosilschik" weight="1"/>
+            <edge id="baby|pervyj_rabochij_1" source="baby" target="pervyj_rabochij_1" weight="1"/>
+            <edge id="baby|vtoroj_rabochij_1" source="baby" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="baby|pervyj_komsomolec" source="baby" target="pervyj_komsomolec" weight="1"/>
+            <edge id="baby|vtoroj_komsomolec" source="baby" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="baby|petya" source="baby" target="petya" weight="1"/>
+            <edge id="baby|hor_komsomolcev" source="baby" target="hor_komsomolcev" weight="1"/>
+            <edge id="baby|podrostok" source="baby" target="podrostok" weight="1"/>
+            <edge id="pervyj_rabochij_1|vtoroj_rabochij_1" source="pervyj_rabochij_1" target="vtoroj_rabochij_1" weight="1"/>
+            <edge id="pervyj_rabochij_1|pervyj_komsomolec" source="pervyj_rabochij_1" target="pervyj_komsomolec" weight="1"/>
+            <edge id="pervyj_rabochij_1|vtoroj_komsomolec" source="pervyj_rabochij_1" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="pervyj_rabochij_1|petya" source="pervyj_rabochij_1" target="petya" weight="1"/>
+            <edge id="pervyj_rabochij_1|hor_komsomolcev" source="pervyj_rabochij_1" target="hor_komsomolcev" weight="1"/>
+            <edge id="pervyj_rabochij_1|podrostok" source="pervyj_rabochij_1" target="podrostok" weight="1"/>
+            <edge id="vtoroj_rabochij_1|pervyj_komsomolec" source="vtoroj_rabochij_1" target="pervyj_komsomolec" weight="1"/>
+            <edge id="vtoroj_rabochij_1|vtoroj_komsomolec" source="vtoroj_rabochij_1" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="vtoroj_rabochij_1|petya" source="vtoroj_rabochij_1" target="petya" weight="1"/>
+            <edge id="vtoroj_rabochij_1|hor_komsomolcev" source="vtoroj_rabochij_1" target="hor_komsomolcev" weight="1"/>
+            <edge id="vtoroj_rabochij_1|podrostok" source="vtoroj_rabochij_1" target="podrostok" weight="1"/>
+            <edge id="pervyj_komsomolec|vtoroj_komsomolec" source="pervyj_komsomolec" target="vtoroj_komsomolec" weight="1"/>
+            <edge id="pervyj_komsomolec|petya" source="pervyj_komsomolec" target="petya" weight="1"/>
+            <edge id="pervyj_komsomolec|hor_komsomolcev" source="pervyj_komsomolec" target="hor_komsomolcev" weight="1"/>
+            <edge id="pervyj_komsomolec|podrostok" source="pervyj_komsomolec" target="podrostok" weight="1"/>
+            <edge id="vtoroj_komsomolec|petya" source="vtoroj_komsomolec" target="petya" weight="1"/>
+            <edge id="vtoroj_komsomolec|hor_komsomolcev" source="vtoroj_komsomolec" target="hor_komsomolcev" weight="1"/>
+            <edge id="vtoroj_komsomolec|podrostok" source="vtoroj_komsomolec" target="podrostok" weight="1"/>
+            <edge id="petya|hor_komsomolcev" source="petya" target="hor_komsomolcev" weight="1"/>
+            <edge id="petya|podrostok" source="petya" target="podrostok" weight="1"/>
+            <edge id="petya|za_scenoj_pesnya" source="petya" target="za_scenoj_pesnya" weight="1"/>
+            <edge id="petya|inzhener" source="petya" target="inzhener" weight="1"/>
+            <edge id="petya|golosa_komsomolcev" source="petya" target="golosa_komsomolcev" weight="1"/>
+            <edge id="petya|dudin" source="petya" target="dudin" weight="1"/>
+            <edge id="petya|komsomolec" source="petya" target="komsomolec" weight="1"/>
+            <edge id="petya|golos_v_ton" source="petya" target="golos_v_ton" weight="1"/>
+            <edge id="petya|staryj_rabochij" source="petya" target="staryj_rabochij" weight="1"/>
+            <edge id="petya|rabochij_3a" source="petya" target="rabochij_3a" weight="1"/>
+            <edge id="petya|rabochij_3b" source="petya" target="rabochij_3b" weight="1"/>
+            <edge id="petya|odin_rabochij" source="petya" target="odin_rabochij" weight="1"/>
+            <edge id="petya|drugoj_rabochij" source="petya" target="drugoj_rabochij" weight="1"/>
+            <edge id="petya|rabochie" source="petya" target="rabochie" weight="1"/>
+            <edge id="hor_komsomolcev|podrostok" source="hor_komsomolcev" target="podrostok" weight="1"/>
+            <edge id="podrostok|golos_iz_podpolya" source="podrostok" target="golos_iz_podpolya" weight="1"/>
+            <edge id="podrostok|pervyj_rabochij_2" source="podrostok" target="pervyj_rabochij_2" weight="1"/>
+            <edge id="podrostok|vtoroj_rabochij_2" source="podrostok" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="podrostok|tretij_rabochij" source="podrostok" target="tretij_rabochij" weight="1"/>
+            <edge id="podrostok|chetvertyj_rabochij" source="podrostok" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="podrostok|pyatyj_rabochij" source="podrostok" target="pyatyj_rabochij" weight="1"/>
+            <edge id="podrostok|golosa" source="podrostok" target="golosa" weight="1"/>
+            <edge id="podrostok|inzhener" source="podrostok" target="inzhener" weight="1"/>
+            <edge id="podrostok|golos_2a" source="podrostok" target="golos_2a" weight="1"/>
+            <edge id="podrostok|golos_2b" source="podrostok" target="golos_2b" weight="1"/>
+            <edge id="podrostok|dudin" source="podrostok" target="dudin" weight="1"/>
+            <edge id="podrostok|zhenschiny" source="podrostok" target="zhenschiny" weight="1"/>
+            <edge id="podrostok|zhena_fomy" source="podrostok" target="zhena_fomy" weight="1"/>
+            <edge id="podrostok|zhenskij_golos" source="podrostok" target="zhenskij_golos" weight="1"/>
+            <edge id="podrostok|zhena_dudina" source="podrostok" target="zhena_dudina" weight="1"/>
+            <edge id="podrostok|foma" source="podrostok" target="foma" weight="1"/>
+            <edge id="podrostok|golos_2c" source="podrostok" target="golos_2c" weight="1"/>
+            <edge id="podrostok|golos_2d" source="podrostok" target="golos_2d" weight="1"/>
+            <edge id="podrostok|zhena_rabochego" source="podrostok" target="zhena_rabochego" weight="1"/>
+            <edge id="podrostok|rabochij_na_nosilkah" source="podrostok" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="podrostok|nosilschik" source="podrostok" target="nosilschik" weight="1"/>
+            <edge id="golos_iz_podpolya|pervyj_rabochij_2" source="golos_iz_podpolya" target="pervyj_rabochij_2" weight="1"/>
+            <edge id="golos_iz_podpolya|vtoroj_rabochij_2" source="golos_iz_podpolya" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="golos_iz_podpolya|tretij_rabochij" source="golos_iz_podpolya" target="tretij_rabochij" weight="1"/>
+            <edge id="golos_iz_podpolya|chetvertyj_rabochij" source="golos_iz_podpolya" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="golos_iz_podpolya|pyatyj_rabochij" source="golos_iz_podpolya" target="pyatyj_rabochij" weight="1"/>
+            <edge id="golos_iz_podpolya|golosa" source="golos_iz_podpolya" target="golosa" weight="1"/>
+            <edge id="golos_iz_podpolya|inzhener" source="golos_iz_podpolya" target="inzhener" weight="1"/>
+            <edge id="golos_iz_podpolya|golos_2a" source="golos_iz_podpolya" target="golos_2a" weight="1"/>
+            <edge id="golos_iz_podpolya|golos_2b" source="golos_iz_podpolya" target="golos_2b" weight="1"/>
+            <edge id="golos_iz_podpolya|dudin" source="golos_iz_podpolya" target="dudin" weight="1"/>
+            <edge id="golos_iz_podpolya|zhenschiny" source="golos_iz_podpolya" target="zhenschiny" weight="1"/>
+            <edge id="golos_iz_podpolya|zhena_fomy" source="golos_iz_podpolya" target="zhena_fomy" weight="1"/>
+            <edge id="golos_iz_podpolya|zhenskij_golos" source="golos_iz_podpolya" target="zhenskij_golos" weight="1"/>
+            <edge id="golos_iz_podpolya|zhena_dudina" source="golos_iz_podpolya" target="zhena_dudina" weight="1"/>
+            <edge id="golos_iz_podpolya|foma" source="golos_iz_podpolya" target="foma" weight="1"/>
+            <edge id="golos_iz_podpolya|golos_2c" source="golos_iz_podpolya" target="golos_2c" weight="1"/>
+            <edge id="golos_iz_podpolya|golos_2d" source="golos_iz_podpolya" target="golos_2d" weight="1"/>
+            <edge id="golos_iz_podpolya|zhena_rabochego" source="golos_iz_podpolya" target="zhena_rabochego" weight="1"/>
+            <edge id="golos_iz_podpolya|rabochij_na_nosilkah" source="golos_iz_podpolya" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="golos_iz_podpolya|nosilschik" source="golos_iz_podpolya" target="nosilschik" weight="1"/>
+            <edge id="pervyj_rabochij_2|vtoroj_rabochij_2" source="pervyj_rabochij_2" target="vtoroj_rabochij_2" weight="1"/>
+            <edge id="pervyj_rabochij_2|tretij_rabochij" source="pervyj_rabochij_2" target="tretij_rabochij" weight="1"/>
+            <edge id="pervyj_rabochij_2|chetvertyj_rabochij" source="pervyj_rabochij_2" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="pervyj_rabochij_2|pyatyj_rabochij" source="pervyj_rabochij_2" target="pyatyj_rabochij" weight="1"/>
+            <edge id="pervyj_rabochij_2|golosa" source="pervyj_rabochij_2" target="golosa" weight="1"/>
+            <edge id="pervyj_rabochij_2|inzhener" source="pervyj_rabochij_2" target="inzhener" weight="1"/>
+            <edge id="pervyj_rabochij_2|golos_2a" source="pervyj_rabochij_2" target="golos_2a" weight="1"/>
+            <edge id="pervyj_rabochij_2|golos_2b" source="pervyj_rabochij_2" target="golos_2b" weight="1"/>
+            <edge id="pervyj_rabochij_2|dudin" source="pervyj_rabochij_2" target="dudin" weight="1"/>
+            <edge id="pervyj_rabochij_2|zhenschiny" source="pervyj_rabochij_2" target="zhenschiny" weight="1"/>
+            <edge id="pervyj_rabochij_2|zhena_fomy" source="pervyj_rabochij_2" target="zhena_fomy" weight="1"/>
+            <edge id="pervyj_rabochij_2|zhenskij_golos" source="pervyj_rabochij_2" target="zhenskij_golos" weight="1"/>
+            <edge id="pervyj_rabochij_2|zhena_dudina" source="pervyj_rabochij_2" target="zhena_dudina" weight="1"/>
+            <edge id="pervyj_rabochij_2|foma" source="pervyj_rabochij_2" target="foma" weight="1"/>
+            <edge id="pervyj_rabochij_2|golos_2c" source="pervyj_rabochij_2" target="golos_2c" weight="1"/>
+            <edge id="pervyj_rabochij_2|golos_2d" source="pervyj_rabochij_2" target="golos_2d" weight="1"/>
+            <edge id="pervyj_rabochij_2|zhena_rabochego" source="pervyj_rabochij_2" target="zhena_rabochego" weight="1"/>
+            <edge id="pervyj_rabochij_2|rabochij_na_nosilkah" source="pervyj_rabochij_2" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="pervyj_rabochij_2|nosilschik" source="pervyj_rabochij_2" target="nosilschik" weight="1"/>
+            <edge id="vtoroj_rabochij_2|tretij_rabochij" source="vtoroj_rabochij_2" target="tretij_rabochij" weight="1"/>
+            <edge id="vtoroj_rabochij_2|chetvertyj_rabochij" source="vtoroj_rabochij_2" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="vtoroj_rabochij_2|pyatyj_rabochij" source="vtoroj_rabochij_2" target="pyatyj_rabochij" weight="1"/>
+            <edge id="vtoroj_rabochij_2|golosa" source="vtoroj_rabochij_2" target="golosa" weight="1"/>
+            <edge id="vtoroj_rabochij_2|inzhener" source="vtoroj_rabochij_2" target="inzhener" weight="1"/>
+            <edge id="vtoroj_rabochij_2|golos_2a" source="vtoroj_rabochij_2" target="golos_2a" weight="1"/>
+            <edge id="vtoroj_rabochij_2|golos_2b" source="vtoroj_rabochij_2" target="golos_2b" weight="1"/>
+            <edge id="vtoroj_rabochij_2|dudin" source="vtoroj_rabochij_2" target="dudin" weight="1"/>
+            <edge id="vtoroj_rabochij_2|zhenschiny" source="vtoroj_rabochij_2" target="zhenschiny" weight="1"/>
+            <edge id="vtoroj_rabochij_2|zhena_fomy" source="vtoroj_rabochij_2" target="zhena_fomy" weight="1"/>
+            <edge id="vtoroj_rabochij_2|zhenskij_golos" source="vtoroj_rabochij_2" target="zhenskij_golos" weight="1"/>
+            <edge id="vtoroj_rabochij_2|zhena_dudina" source="vtoroj_rabochij_2" target="zhena_dudina" weight="1"/>
+            <edge id="vtoroj_rabochij_2|foma" source="vtoroj_rabochij_2" target="foma" weight="1"/>
+            <edge id="vtoroj_rabochij_2|golos_2c" source="vtoroj_rabochij_2" target="golos_2c" weight="1"/>
+            <edge id="vtoroj_rabochij_2|golos_2d" source="vtoroj_rabochij_2" target="golos_2d" weight="1"/>
+            <edge id="vtoroj_rabochij_2|zhena_rabochego" source="vtoroj_rabochij_2" target="zhena_rabochego" weight="1"/>
+            <edge id="vtoroj_rabochij_2|rabochij_na_nosilkah" source="vtoroj_rabochij_2" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="vtoroj_rabochij_2|nosilschik" source="vtoroj_rabochij_2" target="nosilschik" weight="1"/>
+            <edge id="tretij_rabochij|chetvertyj_rabochij" source="tretij_rabochij" target="chetvertyj_rabochij" weight="1"/>
+            <edge id="tretij_rabochij|pyatyj_rabochij" source="tretij_rabochij" target="pyatyj_rabochij" weight="1"/>
+            <edge id="tretij_rabochij|golosa" source="tretij_rabochij" target="golosa" weight="1"/>
+            <edge id="tretij_rabochij|inzhener" source="tretij_rabochij" target="inzhener" weight="1"/>
+            <edge id="tretij_rabochij|golos_2a" source="tretij_rabochij" target="golos_2a" weight="1"/>
+            <edge id="tretij_rabochij|golos_2b" source="tretij_rabochij" target="golos_2b" weight="1"/>
+            <edge id="tretij_rabochij|dudin" source="tretij_rabochij" target="dudin" weight="1"/>
+            <edge id="tretij_rabochij|zhenschiny" source="tretij_rabochij" target="zhenschiny" weight="1"/>
+            <edge id="tretij_rabochij|zhena_fomy" source="tretij_rabochij" target="zhena_fomy" weight="1"/>
+            <edge id="tretij_rabochij|zhenskij_golos" source="tretij_rabochij" target="zhenskij_golos" weight="1"/>
+            <edge id="tretij_rabochij|zhena_dudina" source="tretij_rabochij" target="zhena_dudina" weight="1"/>
+            <edge id="tretij_rabochij|foma" source="tretij_rabochij" target="foma" weight="1"/>
+            <edge id="tretij_rabochij|golos_2c" source="tretij_rabochij" target="golos_2c" weight="1"/>
+            <edge id="tretij_rabochij|golos_2d" source="tretij_rabochij" target="golos_2d" weight="1"/>
+            <edge id="tretij_rabochij|zhena_rabochego" source="tretij_rabochij" target="zhena_rabochego" weight="1"/>
+            <edge id="tretij_rabochij|rabochij_na_nosilkah" source="tretij_rabochij" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="tretij_rabochij|nosilschik" source="tretij_rabochij" target="nosilschik" weight="1"/>
+            <edge id="chetvertyj_rabochij|pyatyj_rabochij" source="chetvertyj_rabochij" target="pyatyj_rabochij" weight="1"/>
+            <edge id="chetvertyj_rabochij|golosa" source="chetvertyj_rabochij" target="golosa" weight="1"/>
+            <edge id="chetvertyj_rabochij|inzhener" source="chetvertyj_rabochij" target="inzhener" weight="1"/>
+            <edge id="chetvertyj_rabochij|golos_2a" source="chetvertyj_rabochij" target="golos_2a" weight="1"/>
+            <edge id="chetvertyj_rabochij|golos_2b" source="chetvertyj_rabochij" target="golos_2b" weight="1"/>
+            <edge id="chetvertyj_rabochij|dudin" source="chetvertyj_rabochij" target="dudin" weight="1"/>
+            <edge id="chetvertyj_rabochij|zhenschiny" source="chetvertyj_rabochij" target="zhenschiny" weight="1"/>
+            <edge id="chetvertyj_rabochij|zhena_fomy" source="chetvertyj_rabochij" target="zhena_fomy" weight="1"/>
+            <edge id="chetvertyj_rabochij|zhenskij_golos" source="chetvertyj_rabochij" target="zhenskij_golos" weight="1"/>
+            <edge id="chetvertyj_rabochij|zhena_dudina" source="chetvertyj_rabochij" target="zhena_dudina" weight="1"/>
+            <edge id="chetvertyj_rabochij|foma" source="chetvertyj_rabochij" target="foma" weight="1"/>
+            <edge id="chetvertyj_rabochij|golos_2c" source="chetvertyj_rabochij" target="golos_2c" weight="1"/>
+            <edge id="chetvertyj_rabochij|golos_2d" source="chetvertyj_rabochij" target="golos_2d" weight="1"/>
+            <edge id="chetvertyj_rabochij|zhena_rabochego" source="chetvertyj_rabochij" target="zhena_rabochego" weight="1"/>
+            <edge id="chetvertyj_rabochij|rabochij_na_nosilkah" source="chetvertyj_rabochij" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="chetvertyj_rabochij|nosilschik" source="chetvertyj_rabochij" target="nosilschik" weight="1"/>
+            <edge id="pyatyj_rabochij|golosa" source="pyatyj_rabochij" target="golosa" weight="1"/>
+            <edge id="pyatyj_rabochij|inzhener" source="pyatyj_rabochij" target="inzhener" weight="1"/>
+            <edge id="pyatyj_rabochij|golos_2a" source="pyatyj_rabochij" target="golos_2a" weight="1"/>
+            <edge id="pyatyj_rabochij|golos_2b" source="pyatyj_rabochij" target="golos_2b" weight="1"/>
+            <edge id="pyatyj_rabochij|dudin" source="pyatyj_rabochij" target="dudin" weight="1"/>
+            <edge id="pyatyj_rabochij|zhenschiny" source="pyatyj_rabochij" target="zhenschiny" weight="1"/>
+            <edge id="pyatyj_rabochij|zhena_fomy" source="pyatyj_rabochij" target="zhena_fomy" weight="1"/>
+            <edge id="pyatyj_rabochij|zhenskij_golos" source="pyatyj_rabochij" target="zhenskij_golos" weight="1"/>
+            <edge id="pyatyj_rabochij|zhena_dudina" source="pyatyj_rabochij" target="zhena_dudina" weight="1"/>
+            <edge id="pyatyj_rabochij|foma" source="pyatyj_rabochij" target="foma" weight="1"/>
+            <edge id="pyatyj_rabochij|golos_2c" source="pyatyj_rabochij" target="golos_2c" weight="1"/>
+            <edge id="pyatyj_rabochij|golos_2d" source="pyatyj_rabochij" target="golos_2d" weight="1"/>
+            <edge id="pyatyj_rabochij|zhena_rabochego" source="pyatyj_rabochij" target="zhena_rabochego" weight="1"/>
+            <edge id="pyatyj_rabochij|rabochij_na_nosilkah" source="pyatyj_rabochij" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="pyatyj_rabochij|nosilschik" source="pyatyj_rabochij" target="nosilschik" weight="1"/>
+            <edge id="golosa|inzhener" source="golosa" target="inzhener" weight="1"/>
+            <edge id="golosa|golos_2a" source="golosa" target="golos_2a" weight="1"/>
+            <edge id="golosa|golos_2b" source="golosa" target="golos_2b" weight="1"/>
+            <edge id="golosa|dudin" source="golosa" target="dudin" weight="1"/>
+            <edge id="golosa|zhenschiny" source="golosa" target="zhenschiny" weight="1"/>
+            <edge id="golosa|zhena_fomy" source="golosa" target="zhena_fomy" weight="1"/>
+            <edge id="golosa|zhenskij_golos" source="golosa" target="zhenskij_golos" weight="1"/>
+            <edge id="golosa|zhena_dudina" source="golosa" target="zhena_dudina" weight="1"/>
+            <edge id="golosa|foma" source="golosa" target="foma" weight="1"/>
+            <edge id="golosa|golos_2c" source="golosa" target="golos_2c" weight="1"/>
+            <edge id="golosa|golos_2d" source="golosa" target="golos_2d" weight="1"/>
+            <edge id="golosa|zhena_rabochego" source="golosa" target="zhena_rabochego" weight="1"/>
+            <edge id="golosa|rabochij_na_nosilkah" source="golosa" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="golosa|nosilschik" source="golosa" target="nosilschik" weight="1"/>
+            <edge id="inzhener|golos_2a" source="inzhener" target="golos_2a" weight="1"/>
+            <edge id="inzhener|golos_2b" source="inzhener" target="golos_2b" weight="1"/>
+            <edge id="inzhener|dudin" source="inzhener" target="dudin" weight="2"/>
+            <edge id="inzhener|zhenschiny" source="inzhener" target="zhenschiny" weight="1"/>
+            <edge id="inzhener|zhena_fomy" source="inzhener" target="zhena_fomy" weight="1"/>
+            <edge id="inzhener|zhenskij_golos" source="inzhener" target="zhenskij_golos" weight="1"/>
+            <edge id="inzhener|zhena_dudina" source="inzhener" target="zhena_dudina" weight="1"/>
+            <edge id="inzhener|foma" source="inzhener" target="foma" weight="1"/>
+            <edge id="inzhener|golos_2c" source="inzhener" target="golos_2c" weight="1"/>
+            <edge id="inzhener|golos_2d" source="inzhener" target="golos_2d" weight="1"/>
+            <edge id="inzhener|zhena_rabochego" source="inzhener" target="zhena_rabochego" weight="1"/>
+            <edge id="inzhener|rabochij_na_nosilkah" source="inzhener" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="inzhener|nosilschik" source="inzhener" target="nosilschik" weight="1"/>
+            <edge id="inzhener|za_scenoj_pesnya" source="inzhener" target="za_scenoj_pesnya" weight="1"/>
+            <edge id="inzhener|golosa_komsomolcev" source="inzhener" target="golosa_komsomolcev" weight="1"/>
+            <edge id="inzhener|komsomolec" source="inzhener" target="komsomolec" weight="1"/>
+            <edge id="inzhener|golos_v_ton" source="inzhener" target="golos_v_ton" weight="1"/>
+            <edge id="inzhener|staryj_rabochij" source="inzhener" target="staryj_rabochij" weight="1"/>
+            <edge id="inzhener|rabochij_3a" source="inzhener" target="rabochij_3a" weight="1"/>
+            <edge id="inzhener|rabochij_3b" source="inzhener" target="rabochij_3b" weight="1"/>
+            <edge id="inzhener|odin_rabochij" source="inzhener" target="odin_rabochij" weight="1"/>
+            <edge id="inzhener|drugoj_rabochij" source="inzhener" target="drugoj_rabochij" weight="1"/>
+            <edge id="inzhener|rabochie" source="inzhener" target="rabochie" weight="1"/>
+            <edge id="golos_2a|golos_2b" source="golos_2a" target="golos_2b" weight="1"/>
+            <edge id="golos_2a|dudin" source="golos_2a" target="dudin" weight="1"/>
+            <edge id="golos_2a|zhenschiny" source="golos_2a" target="zhenschiny" weight="1"/>
+            <edge id="golos_2a|zhena_fomy" source="golos_2a" target="zhena_fomy" weight="1"/>
+            <edge id="golos_2a|zhenskij_golos" source="golos_2a" target="zhenskij_golos" weight="1"/>
+            <edge id="golos_2a|zhena_dudina" source="golos_2a" target="zhena_dudina" weight="1"/>
+            <edge id="golos_2a|foma" source="golos_2a" target="foma" weight="1"/>
+            <edge id="golos_2a|golos_2c" source="golos_2a" target="golos_2c" weight="1"/>
+            <edge id="golos_2a|golos_2d" source="golos_2a" target="golos_2d" weight="1"/>
+            <edge id="golos_2a|zhena_rabochego" source="golos_2a" target="zhena_rabochego" weight="1"/>
+            <edge id="golos_2a|rabochij_na_nosilkah" source="golos_2a" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="golos_2a|nosilschik" source="golos_2a" target="nosilschik" weight="1"/>
+            <edge id="golos_2b|dudin" source="golos_2b" target="dudin" weight="1"/>
+            <edge id="golos_2b|zhenschiny" source="golos_2b" target="zhenschiny" weight="1"/>
+            <edge id="golos_2b|zhena_fomy" source="golos_2b" target="zhena_fomy" weight="1"/>
+            <edge id="golos_2b|zhenskij_golos" source="golos_2b" target="zhenskij_golos" weight="1"/>
+            <edge id="golos_2b|zhena_dudina" source="golos_2b" target="zhena_dudina" weight="1"/>
+            <edge id="golos_2b|foma" source="golos_2b" target="foma" weight="1"/>
+            <edge id="golos_2b|golos_2c" source="golos_2b" target="golos_2c" weight="1"/>
+            <edge id="golos_2b|golos_2d" source="golos_2b" target="golos_2d" weight="1"/>
+            <edge id="golos_2b|zhena_rabochego" source="golos_2b" target="zhena_rabochego" weight="1"/>
+            <edge id="golos_2b|rabochij_na_nosilkah" source="golos_2b" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="golos_2b|nosilschik" source="golos_2b" target="nosilschik" weight="1"/>
+            <edge id="dudin|zhenschiny" source="dudin" target="zhenschiny" weight="1"/>
+            <edge id="dudin|zhena_fomy" source="dudin" target="zhena_fomy" weight="1"/>
+            <edge id="dudin|zhenskij_golos" source="dudin" target="zhenskij_golos" weight="1"/>
+            <edge id="dudin|zhena_dudina" source="dudin" target="zhena_dudina" weight="1"/>
+            <edge id="dudin|foma" source="dudin" target="foma" weight="1"/>
+            <edge id="dudin|golos_2c" source="dudin" target="golos_2c" weight="1"/>
+            <edge id="dudin|golos_2d" source="dudin" target="golos_2d" weight="1"/>
+            <edge id="dudin|zhena_rabochego" source="dudin" target="zhena_rabochego" weight="1"/>
+            <edge id="dudin|rabochij_na_nosilkah" source="dudin" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="dudin|nosilschik" source="dudin" target="nosilschik" weight="1"/>
+            <edge id="dudin|za_scenoj_pesnya" source="dudin" target="za_scenoj_pesnya" weight="1"/>
+            <edge id="dudin|golosa_komsomolcev" source="dudin" target="golosa_komsomolcev" weight="1"/>
+            <edge id="dudin|komsomolec" source="dudin" target="komsomolec" weight="1"/>
+            <edge id="dudin|golos_v_ton" source="dudin" target="golos_v_ton" weight="1"/>
+            <edge id="dudin|staryj_rabochij" source="dudin" target="staryj_rabochij" weight="1"/>
+            <edge id="dudin|rabochij_3a" source="dudin" target="rabochij_3a" weight="1"/>
+            <edge id="dudin|rabochij_3b" source="dudin" target="rabochij_3b" weight="1"/>
+            <edge id="dudin|odin_rabochij" source="dudin" target="odin_rabochij" weight="1"/>
+            <edge id="dudin|drugoj_rabochij" source="dudin" target="drugoj_rabochij" weight="1"/>
+            <edge id="dudin|rabochie" source="dudin" target="rabochie" weight="1"/>
+            <edge id="zhenschiny|zhena_fomy" source="zhenschiny" target="zhena_fomy" weight="1"/>
+            <edge id="zhenschiny|zhenskij_golos" source="zhenschiny" target="zhenskij_golos" weight="1"/>
+            <edge id="zhenschiny|zhena_dudina" source="zhenschiny" target="zhena_dudina" weight="1"/>
+            <edge id="zhenschiny|foma" source="zhenschiny" target="foma" weight="1"/>
+            <edge id="zhenschiny|golos_2c" source="zhenschiny" target="golos_2c" weight="1"/>
+            <edge id="zhenschiny|golos_2d" source="zhenschiny" target="golos_2d" weight="1"/>
+            <edge id="zhenschiny|zhena_rabochego" source="zhenschiny" target="zhena_rabochego" weight="1"/>
+            <edge id="zhenschiny|rabochij_na_nosilkah" source="zhenschiny" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="zhenschiny|nosilschik" source="zhenschiny" target="nosilschik" weight="1"/>
+            <edge id="zhena_fomy|zhenskij_golos" source="zhena_fomy" target="zhenskij_golos" weight="1"/>
+            <edge id="zhena_fomy|zhena_dudina" source="zhena_fomy" target="zhena_dudina" weight="1"/>
+            <edge id="zhena_fomy|foma" source="zhena_fomy" target="foma" weight="1"/>
+            <edge id="zhena_fomy|golos_2c" source="zhena_fomy" target="golos_2c" weight="1"/>
+            <edge id="zhena_fomy|golos_2d" source="zhena_fomy" target="golos_2d" weight="1"/>
+            <edge id="zhena_fomy|zhena_rabochego" source="zhena_fomy" target="zhena_rabochego" weight="1"/>
+            <edge id="zhena_fomy|rabochij_na_nosilkah" source="zhena_fomy" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="zhena_fomy|nosilschik" source="zhena_fomy" target="nosilschik" weight="1"/>
+            <edge id="zhenskij_golos|zhena_dudina" source="zhenskij_golos" target="zhena_dudina" weight="1"/>
+            <edge id="zhenskij_golos|foma" source="zhenskij_golos" target="foma" weight="1"/>
+            <edge id="zhenskij_golos|golos_2c" source="zhenskij_golos" target="golos_2c" weight="1"/>
+            <edge id="zhenskij_golos|golos_2d" source="zhenskij_golos" target="golos_2d" weight="1"/>
+            <edge id="zhenskij_golos|zhena_rabochego" source="zhenskij_golos" target="zhena_rabochego" weight="1"/>
+            <edge id="zhenskij_golos|rabochij_na_nosilkah" source="zhenskij_golos" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="zhenskij_golos|nosilschik" source="zhenskij_golos" target="nosilschik" weight="1"/>
+            <edge id="zhena_dudina|foma" source="zhena_dudina" target="foma" weight="1"/>
+            <edge id="zhena_dudina|golos_2c" source="zhena_dudina" target="golos_2c" weight="1"/>
+            <edge id="zhena_dudina|golos_2d" source="zhena_dudina" target="golos_2d" weight="1"/>
+            <edge id="zhena_dudina|zhena_rabochego" source="zhena_dudina" target="zhena_rabochego" weight="1"/>
+            <edge id="zhena_dudina|rabochij_na_nosilkah" source="zhena_dudina" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="zhena_dudina|nosilschik" source="zhena_dudina" target="nosilschik" weight="1"/>
+            <edge id="foma|golos_2c" source="foma" target="golos_2c" weight="1"/>
+            <edge id="foma|golos_2d" source="foma" target="golos_2d" weight="1"/>
+            <edge id="foma|zhena_rabochego" source="foma" target="zhena_rabochego" weight="1"/>
+            <edge id="foma|rabochij_na_nosilkah" source="foma" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="foma|nosilschik" source="foma" target="nosilschik" weight="1"/>
+            <edge id="golos_2c|golos_2d" source="golos_2c" target="golos_2d" weight="1"/>
+            <edge id="golos_2c|zhena_rabochego" source="golos_2c" target="zhena_rabochego" weight="1"/>
+            <edge id="golos_2c|rabochij_na_nosilkah" source="golos_2c" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="golos_2c|nosilschik" source="golos_2c" target="nosilschik" weight="1"/>
+            <edge id="golos_2d|zhena_rabochego" source="golos_2d" target="zhena_rabochego" weight="1"/>
+            <edge id="golos_2d|rabochij_na_nosilkah" source="golos_2d" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="golos_2d|nosilschik" source="golos_2d" target="nosilschik" weight="1"/>
+            <edge id="zhena_rabochego|rabochij_na_nosilkah" source="zhena_rabochego" target="rabochij_na_nosilkah" weight="1"/>
+            <edge id="zhena_rabochego|nosilschik" source="zhena_rabochego" target="nosilschik" weight="1"/>
+            <edge id="rabochij_na_nosilkah|nosilschik" source="rabochij_na_nosilkah" target="nosilschik" weight="1"/>
+            <edge id="za_scenoj_pesnya|golosa_komsomolcev" source="za_scenoj_pesnya" target="golosa_komsomolcev" weight="1"/>
+            <edge id="za_scenoj_pesnya|komsomolec" source="za_scenoj_pesnya" target="komsomolec" weight="1"/>
+            <edge id="za_scenoj_pesnya|golos_v_ton" source="za_scenoj_pesnya" target="golos_v_ton" weight="1"/>
+            <edge id="za_scenoj_pesnya|staryj_rabochij" source="za_scenoj_pesnya" target="staryj_rabochij" weight="1"/>
+            <edge id="za_scenoj_pesnya|rabochij_3a" source="za_scenoj_pesnya" target="rabochij_3a" weight="1"/>
+            <edge id="za_scenoj_pesnya|rabochij_3b" source="za_scenoj_pesnya" target="rabochij_3b" weight="1"/>
+            <edge id="za_scenoj_pesnya|odin_rabochij" source="za_scenoj_pesnya" target="odin_rabochij" weight="1"/>
+            <edge id="za_scenoj_pesnya|drugoj_rabochij" source="za_scenoj_pesnya" target="drugoj_rabochij" weight="1"/>
+            <edge id="za_scenoj_pesnya|rabochie" source="za_scenoj_pesnya" target="rabochie" weight="1"/>
+            <edge id="golosa_komsomolcev|komsomolec" source="golosa_komsomolcev" target="komsomolec" weight="1"/>
+            <edge id="golosa_komsomolcev|golos_v_ton" source="golosa_komsomolcev" target="golos_v_ton" weight="1"/>
+            <edge id="golosa_komsomolcev|staryj_rabochij" source="golosa_komsomolcev" target="staryj_rabochij" weight="1"/>
+            <edge id="golosa_komsomolcev|rabochij_3a" source="golosa_komsomolcev" target="rabochij_3a" weight="1"/>
+            <edge id="golosa_komsomolcev|rabochij_3b" source="golosa_komsomolcev" target="rabochij_3b" weight="1"/>
+            <edge id="golosa_komsomolcev|odin_rabochij" source="golosa_komsomolcev" target="odin_rabochij" weight="1"/>
+            <edge id="golosa_komsomolcev|drugoj_rabochij" source="golosa_komsomolcev" target="drugoj_rabochij" weight="1"/>
+            <edge id="golosa_komsomolcev|rabochie" source="golosa_komsomolcev" target="rabochie" weight="1"/>
+            <edge id="komsomolec|golos_v_ton" source="komsomolec" target="golos_v_ton" weight="1"/>
+            <edge id="komsomolec|staryj_rabochij" source="komsomolec" target="staryj_rabochij" weight="1"/>
+            <edge id="komsomolec|rabochij_3a" source="komsomolec" target="rabochij_3a" weight="1"/>
+            <edge id="komsomolec|rabochij_3b" source="komsomolec" target="rabochij_3b" weight="1"/>
+            <edge id="komsomolec|odin_rabochij" source="komsomolec" target="odin_rabochij" weight="1"/>
+            <edge id="komsomolec|drugoj_rabochij" source="komsomolec" target="drugoj_rabochij" weight="1"/>
+            <edge id="komsomolec|rabochie" source="komsomolec" target="rabochie" weight="1"/>
+            <edge id="golos_v_ton|staryj_rabochij" source="golos_v_ton" target="staryj_rabochij" weight="1"/>
+            <edge id="golos_v_ton|rabochij_3a" source="golos_v_ton" target="rabochij_3a" weight="1"/>
+            <edge id="golos_v_ton|rabochij_3b" source="golos_v_ton" target="rabochij_3b" weight="1"/>
+            <edge id="golos_v_ton|odin_rabochij" source="golos_v_ton" target="odin_rabochij" weight="1"/>
+            <edge id="golos_v_ton|drugoj_rabochij" source="golos_v_ton" target="drugoj_rabochij" weight="1"/>
+            <edge id="golos_v_ton|rabochie" source="golos_v_ton" target="rabochie" weight="1"/>
+            <edge id="staryj_rabochij|rabochij_3a" source="staryj_rabochij" target="rabochij_3a" weight="1"/>
+            <edge id="staryj_rabochij|rabochij_3b" source="staryj_rabochij" target="rabochij_3b" weight="1"/>
+            <edge id="staryj_rabochij|odin_rabochij" source="staryj_rabochij" target="odin_rabochij" weight="1"/>
+            <edge id="staryj_rabochij|drugoj_rabochij" source="staryj_rabochij" target="drugoj_rabochij" weight="1"/>
+            <edge id="staryj_rabochij|rabochie" source="staryj_rabochij" target="rabochie" weight="1"/>
+            <edge id="rabochij_3a|rabochij_3b" source="rabochij_3a" target="rabochij_3b" weight="1"/>
+            <edge id="rabochij_3a|odin_rabochij" source="rabochij_3a" target="odin_rabochij" weight="1"/>
+            <edge id="rabochij_3a|drugoj_rabochij" source="rabochij_3a" target="drugoj_rabochij" weight="1"/>
+            <edge id="rabochij_3a|rabochie" source="rabochij_3a" target="rabochie" weight="1"/>
+            <edge id="rabochij_3b|odin_rabochij" source="rabochij_3b" target="odin_rabochij" weight="1"/>
+            <edge id="rabochij_3b|drugoj_rabochij" source="rabochij_3b" target="drugoj_rabochij" weight="1"/>
+            <edge id="rabochij_3b|rabochie" source="rabochij_3b" target="rabochie" weight="1"/>
+            <edge id="odin_rabochij|drugoj_rabochij" source="odin_rabochij" target="drugoj_rabochij" weight="1"/>
+            <edge id="odin_rabochij|rabochie" source="odin_rabochij" target="rabochie" weight="1"/>
+            <edge id="drugoj_rabochij|rabochie" source="drugoj_rabochij" target="rabochie" weight="1"/>
+        </edges>
+    </graph>
+</gexf>

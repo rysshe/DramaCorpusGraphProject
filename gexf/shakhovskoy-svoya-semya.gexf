@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Шаховской, Александр Александрович: Своя семья, или замужняя невеста</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="veldjuzeva" label="Вельдюзева">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1017"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="fekla" label="Фекла">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1019"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="raisa" label="Раиса">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="513"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="zvonkina" label="Звонкина">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1062"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="major" label="Майор">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1869"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="maksim" label="Максим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="567"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="ljubim" label="Любим">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1132"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="natasha" label="Наташа">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2248"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="veldjuzeva|fekla" source="veldjuzeva" target="fekla" weight="5"/>
+            <edge id="veldjuzeva|raisa" source="veldjuzeva" target="raisa" weight="5"/>
+            <edge id="veldjuzeva|zvonkina" source="veldjuzeva" target="zvonkina" weight="4"/>
+            <edge id="veldjuzeva|major" source="veldjuzeva" target="major" weight="9"/>
+            <edge id="veldjuzeva|maksim" source="veldjuzeva" target="maksim" weight="4"/>
+            <edge id="veldjuzeva|ljubim" source="veldjuzeva" target="ljubim" weight="10"/>
+            <edge id="veldjuzeva|natasha" source="veldjuzeva" target="natasha" weight="12"/>
+            <edge id="fekla|raisa" source="fekla" target="raisa" weight="2"/>
+            <edge id="fekla|zvonkina" source="fekla" target="zvonkina" weight="2"/>
+            <edge id="fekla|major" source="fekla" target="major" weight="2"/>
+            <edge id="fekla|maksim" source="fekla" target="maksim" weight="2"/>
+            <edge id="fekla|natasha" source="fekla" target="natasha" weight="3"/>
+            <edge id="fekla|ljubim" source="fekla" target="ljubim" weight="1"/>
+            <edge id="raisa|zvonkina" source="raisa" target="zvonkina" weight="3"/>
+            <edge id="raisa|major" source="raisa" target="major" weight="4"/>
+            <edge id="raisa|maksim" source="raisa" target="maksim" weight="3"/>
+            <edge id="raisa|natasha" source="raisa" target="natasha" weight="4"/>
+            <edge id="raisa|ljubim" source="raisa" target="ljubim" weight="2"/>
+            <edge id="zvonkina|major" source="zvonkina" target="major" weight="6"/>
+            <edge id="zvonkina|maksim" source="zvonkina" target="maksim" weight="4"/>
+            <edge id="zvonkina|natasha" source="zvonkina" target="natasha" weight="3"/>
+            <edge id="zvonkina|ljubim" source="zvonkina" target="ljubim" weight="1"/>
+            <edge id="major|maksim" source="major" target="maksim" weight="5"/>
+            <edge id="major|natasha" source="major" target="natasha" weight="9"/>
+            <edge id="major|ljubim" source="major" target="ljubim" weight="5"/>
+            <edge id="maksim|ljubim" source="maksim" target="ljubim" weight="2"/>
+            <edge id="maksim|natasha" source="maksim" target="natasha" weight="3"/>
+            <edge id="ljubim|natasha" source="ljubim" target="natasha" weight="8"/>
+        </edges>
+    </graph>
+</gexf>

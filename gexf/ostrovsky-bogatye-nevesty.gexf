@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+    <meta>
+        <creator>dracor.org</creator>
+        <description>Островский, Александр Николаевич: Богатые невесты</description>
+    </meta>
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node" mode="static">
+            <attribute id="gender" title="Gender" type="string"/>
+            <attribute id="person-group" title="Person group" type="boolean"/>
+            <attribute id="number-of-words" title="Number of spoken words" type="integer"/>
+        </attributes>
+        <nodes>
+            <node id="bedonegova" label="Бедонегова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="985"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="piramidalov" label="Пирамидалов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1734"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="gnevyshov" label="Гневышов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2492"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+            <node id="belesova" label="Белесова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="3020"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="cyplunova" label="Цыплунова">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="1391"/>
+                    <attvalue for="gender" value="FEMALE"/>
+                </attvalues>
+            </node>
+            <node id="cyplunov" label="Цыплунов">
+                <attvalues>
+                    <attvalue for="person-group" value="0"/>
+                    <attvalue for="number-of-words" value="2103"/>
+                    <attvalue for="gender" value="MALE"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="bedonegova|piramidalov" source="bedonegova" target="piramidalov" weight="5"/>
+            <edge id="bedonegova|cyplunova" source="bedonegova" target="cyplunova" weight="4"/>
+            <edge id="bedonegova|cyplunov" source="bedonegova" target="cyplunov" weight="4"/>
+            <edge id="bedonegova|belesova" source="bedonegova" target="belesova" weight="2"/>
+            <edge id="bedonegova|gnevyshov" source="bedonegova" target="gnevyshov" weight="1"/>
+            <edge id="piramidalov|gnevyshov" source="piramidalov" target="gnevyshov" weight="6"/>
+            <edge id="piramidalov|belesova" source="piramidalov" target="belesova" weight="5"/>
+            <edge id="piramidalov|cyplunova" source="piramidalov" target="cyplunova" weight="6"/>
+            <edge id="piramidalov|cyplunov" source="piramidalov" target="cyplunov" weight="6"/>
+            <edge id="gnevyshov|belesova" source="gnevyshov" target="belesova" weight="9"/>
+            <edge id="gnevyshov|cyplunova" source="gnevyshov" target="cyplunova" weight="7"/>
+            <edge id="gnevyshov|cyplunov" source="gnevyshov" target="cyplunov" weight="5"/>
+            <edge id="belesova|cyplunova" source="belesova" target="cyplunova" weight="6"/>
+            <edge id="belesova|cyplunov" source="belesova" target="cyplunov" weight="9"/>
+            <edge id="cyplunova|cyplunov" source="cyplunova" target="cyplunov" weight="7"/>
+        </edges>
+    </graph>
+</gexf>

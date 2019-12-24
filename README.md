@@ -1,4 +1,4 @@
-# DataCorpusGraphProject
+# DramaCorpusGraphProject
 Social Networks HSE course project by T. Zhordaniya and M. Podryadchikova
 
 

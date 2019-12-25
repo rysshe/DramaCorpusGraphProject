@@ -1,0 +1,55 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+Loading data. 
+
+```{r}
+df <- read.csv("/home/laidhimonthegreen/Документы/Учёба/social networks/Final_SN_Project/drama_dataset.csv", sep=",")
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+df %>% group_by(gender) %>%
+  summarise(count=n())
+```
+232 male, 102 female. Unbalanced corpus.
+```{r}
+df %>% group_by(importance) %>%
+  summarise(count=n())
+```
+123 Lead, 135 Secondary, 75 Episode, 4 - Group of People (Народ, Хор etc.)
+```{r}
+df %>% group_by(gender) %>%
+  summarise(degree=signif(mean(degree_cent), digits=3),
+  betw=signif(mean(between_cent), digits=2),
+  PR=signif(mean(pagerank), digits=2),
+  word_amount=signif(mean(relative_words), digits=2))
+```
+It can be seen that there is almost no difference between male and female characters. Group characters show significantly less amount of words, but this category is not that representative.
+```{r}
+df %>% group_by(importance) %>%
+    summarise(degree=signif(mean(degree_cent), digits=3),
+    betw=signif(mean(between_cent), digits=2),
+    PR=signif(mean(pagerank), digits=2),
+    word_amount=signif(mean(relative_words), digits=2))
+```
+Looks valid. Let us look at boxplots.
+```{r}
+boxplot(df$degree_cent ~ df$importance,
+main="Degree centrality", xlab="Character Importance")
+```
+```{r}
+boxplot(df$between_cent ~ df$importance,
+main="Betweenness centrality", xlab="Character Importance")
+```
+```{r}
+boxplot(df$pagerank ~ df$importance,
+main="Pagerank", xlab="Character Importance")
+```
+```{r}
+boxplot(df$relative_words ~ df$importance,
+main="Word amount", xlab="Character Importance")
+```
+It seems that all four variables can be used to determine the importance of the character. 
